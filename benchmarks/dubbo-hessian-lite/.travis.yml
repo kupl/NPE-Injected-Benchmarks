@@ -1,0 +1,15 @@
+language: java
+sudo: false # faster builds
+
+jdk:
+    - openjdk11
+    - openjdk10
+    - openjdk9
+    - openjdk8
+   #   - openjdk7
+
+script:
+    - mvn clean package
+
+after_success:
+    - bash <(curl -s https://codecov.io/bash)

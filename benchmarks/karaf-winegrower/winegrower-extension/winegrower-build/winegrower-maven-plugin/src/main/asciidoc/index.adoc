@@ -1,0 +1,159 @@
+= Apache Winegrower Maven Plugin
+
+Apache Winegrower Maven plugin provides the elementary tasks to develop and package your application depending your need.
+
+Here is how to declare it:
+
+[source,xml]
+----
+<plugin>
+  <groupId>org.apache.winegrower</groupId>
+  <artifactId>winegrower-maven-plugin</artifactId>
+  <version>${winegrower.version}</version>
+</plugin>
+----
+
+== Start a dev instance (a.k.a. `Pour`)
+
+Apache Winegrower Maven plugin allows to start an instance very easily thanks to `pour` command:
+
+[source,sh]
+----
+mvn winegrower:pour
+----
+
+=== Configuration
+
+[cols="e,m,m,m,a",headers]
+|===
+|Name|Type|Property|Default|Description
+|dependencyScopes|Collection<String>|winegrower.dependencyScopes|provided,compile,system,runtime|which scopes to includes to build the deployment classloader.
+|jarFilter|String|winegrower.jarFilter|-|custom `Predicate<String>` implementation to use as jar filter in the `Ripener.Configuration`.
+|manifestContributors|Collection<String>|winegrower.manifestContributors|-|All manifets contributors to use for the `Ripener.Configuration`.
+|scanningExcludes|Collection<String>|winegrower.scanningExcludes|-|All exclusions to use for the `Ripener.Configuration`.
+|scanningIncludes|Collection<String>|winegrower.scanningIncludes|-|All inclusions to use for the `Ripener.Configuration`.
+|workDir|File|winegrower.workDir|${project.build.directory}/winegrower/workdir|the `Ripener.Configuration` work directory.
+|systemVariables|Map<String, String>|winegrower.systemVariables|${project.build.directory}/winegrower/workdir|System properties set before the instance start and resetted after the shutdown.
+|waitOnSystemIn|boolean|winegrower.waitOnSystemIn|${project.build.directory}/winegrower/workdir|should the mojo wait you enter any character to exist, it is useful to disable it if you use the Karaf shell which reads `System.in` as well.
+|===
+
+=== Example
+
+[source,xml]
+----
+<plugin>
+  <groupId>org.apache.winegrower</groupId>
+  <artifactId>winegrower-maven-plugin</artifactId>
+  <version>${winegrower.version}</version>
+  <configuration>
+    <systemVariables>
+      <karaf.startLocalConsole>true</karaf.startLocalConsole>
+    </systemVariables>
+    <waitOnSystemIn>false</waitOnSystemIn> <!-- cause of the shell -->
+  </configuration>
+</plugin>
+----
+
+== Create a fatjar
+
+Creating a fatjar is a common need. For OSGi it becomes quite an issue
+since you need to keep each `MANIFEST.MF` as it since some values can't become plural.
+This is the main blocker making the `maven-shade-plugin` and `maven-assembly-plugin` quite helpless
+on that task.
+
+To solve that, Winegrower provides a `fatjar` goal which will generate an index of each shaded jars
+and keep their manifests as it and the runtime knows how to read them back.
+
+[source,sh]
+----
+mvn winegrower:fatjar
+----
+
+=== Configuration
+
+[cols="e,m,m,m,a",headers]
+|===
+|Name|Type|Property|Default|Description
+|attach|boolean|winegrower.attach|true|should the built jar be attached (installed)
+|buildArtifact|File|winegrower.buildArtifact|${project.build.directory}/${project.build.finalName}.${project.packaging}.|Path of the project artifact if any.
+|classifier|String|winegrower.classifier|fatjar|The classifier to use if the produced artifact is attached.
+|includeScopes|Collection<String>|winegrower.includeScopes|provided,compile,runtime|The scopes included in the produced artifact.
+|output|File|winegrower.output|${project.build.directory}/${project.artifactId}-fatjar.jar|Where the fatjar is produced.
+|includeArtifacts|String|winegrower.includeArtifacts|-|either artifactId or groupId:artifactId of the artifacts to force the inclusion even if exclude matches it.
+|excludeArtifacts|String|winegrower.excludeArtifacts|-|either artifactId or groupId:artifactId of the artifacts to ignore.
+|autoFiltering|boolean|winegrower.autoFiltering|false|Should artifacts without an activator/OSGi component be skipped in the indexation.
+|===
+
+== Create a distribution
+
+Since Winegrower does not require an OSGi runtime anymore, it also provide a `distribution` goal
+which will bundle your application as a standard java application with a `lib/` folder
+and scripts in `bin` to start/stop the application.
+
+The scripts are highly inspired from Apache Tomcat ones so if you are familiar with this server
+you shouldn't be lost.
+
+[source,sh]
+----
+mvn winegrower:distribution
+----
+
+Then once the distributino unzipped you can start using:
+
+[source,sh]
+----
+./bin/wingrower.sh run
+----
+
+=== Configuration
+
+[cols="e,m,m,m,a",headers]
+|===
+|Name|Type|Property|Default|Description
+|attach|boolean|winegrower.attach|true|should the built distributions be attached (installed)
+|buildArtifact|File|winegrower.buildArtifact|${project.build.directory}/${project.build.finalName}.${project.packaging}.|Path of the project artifact if any.
+|classifier|String|winegrower.classifier|fatjar-%s.|The classifier to use if the produced artifact is attached. Note it is a pattern (`String.format`) taking the format as parameter.
+|includeScopes|Collection<String>|winegrower.includeScopes|provided,compile,runtime|The scopes included in the produced artifact.
+|conf|String|winegrower.conf|src/main/winegrower/conf|Path synchronized with the distribution conf folder.
+|bin|String|winegrower.bin|src/main/winegrower/bin|Path synchronized with the distribution bin folder.
+|formats|Collection<String>|winegrower.formats|zip|Distribution formats, `zip` and `tar.gz` are supported.
+|keepExplodedFolder|boolean|winegrower.keepExplodedFolder|false|Should the distribution work directory be kept in the build directory.
+|libs|Collection<String>|winegrower.libs|-|List of maven coordinates (`group:artifact:version[?transitive]`) to include in the distribution even if not visible as dependency.
+|main|String|winegrower.main|org.apache.winegrower.Ripener|The main to run when starting the distribution.
+|skipArchiveRootFolder|boolean|winegrower.skipArchiveRootFolder|false|Should the distribution keep a root folder.
+|workDir|File|winegrower.workDir|${project.build.directory}/${project.artifactId}-distribution|Where the distribution is built during the build.
+|===
+
+== Generate Winegrower metadata
+
+When you build a Fatjar, Winegrower uses metadata to respect the jar bundle modularity.
+It can be neat to generate these metadata without generating a fatjar - for GraalVM for example.
+To do that, you can use `metadata` mojo.
+
+[source,sh]
+----
+mvn winegrower:metadata
+----
+
+=== Configuration
+
+[cols="e,m,m,m,a",headers]
+|===
+|Name|Type|Property|Default|Description
+|buildArtifact|File|winegrower.buildArtifact|${project.build.directory}/${project.build.finalName}.${project.packaging}.|Path of the project artifact if any.
+|includeScopes|Collection<String>|winegrower.includeScopes|provided,compile,runtime|The scopes included in the produced artifact.
+|output|File|winegrower.metadata.output|${project.build.outputDirectory}|Where to dump metadata.
+|namingPattern|String|winegrower.metadata.namingPattern|WINEGROWER-INF/%s.properties|Naming pattern for each metadata - relative to output directory.
+|includeArtifacts|String|winegrower.includeArtifacts|-|either artifactId or groupId:artifactId of the artifacts to force the inclusion even if exclude matches it.
+|excludeArtifacts|String|winegrower.excludeArtifacts|-|either artifactId or groupId:artifactId of the artifacts to ignore.
+|autoFiltering|boolean|winegrower.autoFiltering|false|Should artifacts without an activator/OSGi component be skipped in the indexation.
+|===
+
+== From Winegrower no-manifest deployment to OSGi deployments
+
+Winegrower supports some custom API not requiring a full OSGi packaging
+and in particular a valid OSGi `META-INF/MANIFEST.MF`. This is typically the case
+if you are using `@Header`.
+
+If you want to enable this feature you can either register the activator
+manually or we recommand you to use bnd or bundle plugins to do that.

@@ -1,0 +1,69 @@
+= Apache Winegrower Agent
+
+The Apache Winegrower agent provides a Javaagent which will
+starts Winegrower `Ripener` class.
+
+It uses the same configuration as other extensions and it is read from
+the agent args.
+
+[source,sh]
+----
+-javaagent:winegrower-agent-${winegrower.version}.jar
+----
+
+With configuration it can look like:
+
+[source,sh]
+----
+-javaagent:winegrower-agent-${winegrower.version}.jar=workDir=/tmp/winegrower|ignoredBundles=cxf
+----
+
+You can see the available options and their actual values activating the debug mode which will log the whole configuration:
+
+[source,sh]
+----
+-Dwinegrower.agent.debug=true
+----
+
+== Select your "distribution"
+
+The java agent is just starting a ripener but it does not provide any library. To do that
+you have to set `libs` parameter of the agent. You can use `core` or `jaxrs` prebuilt binaries (point to their lib folder
+once the zip exploded):
+
+[source,sh]
+----
+-javaagent:winegrower-agent-${winegrower.version}.jar=libs=/opt/winegrower/distro/lib
+----
+
+If you pick the JAX-RS distribution for instance and unpack it in /opt/winegrower/jaxrs
+and write a plugin (let say a JAX-RS whiteboard endpoint) then you can
+deploy the following plugin using the JAX-RS distribution using this JVM configuration:
+
+[source,sh]
+----
+-javaagent:winegrower-agent.jar=libs=/opt/user/plugin,/opt/winegrower/jaxrs/lib|ignoredBundles=cxf \
+    -Dwinegrower.service.org.apache.aries.jax.rs.whiteboard.default.osgi.http.whiteboard.context.path=/test
+----
+
+The configuration is the one needed for JAX-RS whiteboard and is propagated to the `Ripener` instance started by the java agent.
+
+Also note that you can pass `isolatedlibs` option as well for libraries added - as for `libs` but not appended to the system loader.
+This enables to start the ripener with more libraries but not leak them in the main application.
+
+== Configuration keys
+
+Note: see link:../../index.html[core] configuration for more details on how to use these configuration entries.
+
+- ignoredBundles
+- jarFilter
+- manifestContributors
+- prioritizedBundles
+- scanningExcludes
+- scanningIncludes
+- workDir
+
+It also support the specific configuration `libs` which takes either a folder which is converted in the list of contained jars
+or directly some jar paths. The paths are appended to the system classloader before the `Ripener` is started.
+It allows to explode some distribution and start it without having to do a fatjar or so of the distribution.
+

@@ -1,0 +1,1 @@
+-includeresource: @org.apache.felix.configadmin-[0-9.]*.jar!/org/apache/felix/cm/file/ConfigurationHandler.*,\

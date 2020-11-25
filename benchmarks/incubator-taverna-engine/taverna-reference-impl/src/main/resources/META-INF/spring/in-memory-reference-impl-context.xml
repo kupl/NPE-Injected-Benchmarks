@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+
+    Licensed to the Apache Software Foundation (ASF) under one or more
+    contributor license agreements.  See the NOTICE file distributed with
+    this work for additional information regarding copyright ownership.
+    The ASF licenses this file to You under the Apache License, Version 2.0
+    (the "License"); you may not use this file except in compliance with
+    the License.  You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+    Unless required by applicable law or agreed to in writing, software
+    distributed under the License is distributed on an "AS IS" BASIS,
+    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+    See the License for the specific language governing permissions and
+    limitations under the License.
+
+-->
+<beans xmlns="http://www.springframework.org/schema/beans" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans 
+        http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+	<bean id="inMemoryReferenceService" class="org.apache.taverna.reference.impl.ReferenceServiceImpl">
+		<property name="converters" ref="converters" />
+		<property name="valueBuilders" ref="valueBuilders" />
+		<property name="referenceSetService">
+			<ref local="referenceSetService" />
+		</property>
+		<property name="listService">
+			<ref local="listService" />
+		</property>
+		<property name="errorDocumentService">
+			<ref local="errorDocumentService" />
+		</property>
+	</bean>
+
+	<bean id="referenceSetService" class="org.apache.taverna.reference.impl.ReferenceSetServiceImpl">
+		<property name="referenceSetDao">
+			<ref local="referenceSetDao" />
+		</property>
+		<property name="t2ReferenceGenerator" ref="t2ReferenceGenerator" />
+		<property name="referenceSetAugmentor" ref="referenceSetAugmentor" />
+	</bean>
+
+	<bean id="listService" class="org.apache.taverna.reference.impl.ListServiceImpl">
+		<property name="listDao">
+			<ref local="listDao" />
+		</property>
+		<property name="t2ReferenceGenerator" ref="t2ReferenceGenerator" />
+	</bean>
+
+	<bean id="errorDocumentService" class="org.apache.taverna.reference.impl.ErrorDocumentServiceImpl">
+		<property name="errorDao">
+			<ref local="errorDocumentDao" />
+		</property>
+		<property name="t2ReferenceGenerator" ref="t2ReferenceGenerator" />
+	</bean>
+	
+	<bean id="referenceSetDao" class="org.apache.taverna.reference.impl.InMemoryReferenceSetDao" />
+	<bean id="listDao" class="org.apache.taverna.reference.impl.InMemoryListDao" />
+	<bean id="errorDocumentDao" class="org.apache.taverna.reference.impl.InMemoryErrorDocumentDao" />
+
+</beans>

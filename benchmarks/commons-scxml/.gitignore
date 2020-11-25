@@ -1,0 +1,10 @@
+target
+site-content
+.idea
+*.iml
+*.ipr
+*.iws
+src/w3c
+/.classpath
+/.project
+/.settings/

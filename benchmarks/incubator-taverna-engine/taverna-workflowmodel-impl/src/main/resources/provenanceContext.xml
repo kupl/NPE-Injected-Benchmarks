@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+
+    Licensed to the Apache Software Foundation (ASF) under one or more
+    contributor license agreements.  See the NOTICE file distributed with
+    this work for additional information regarding copyright ownership.
+    The ASF licenses this file to You under the Apache License, Version 2.0
+    (the "License"); you may not use this file except in compliance with
+    the License.  You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+    Unless required by applicable law or agreed to in writing, software
+    distributed under the License is distributed on an "AS IS" BASIS,
+    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+    See the License for the specific language governing permissions and
+    limitations under the License.
+
+-->
+
+<!-- Context providing ProvenanceItems for the workflow facade and dispatch stack -->
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:raven="http://taverna.sf.net/schema/artifact-support"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans 
+	http://www.springframework.org/schema/beans/spring-beans-2.0.xsd
+	http://taverna.sf.net/schema/artifact-support 
+	http://taverna.sf.net/schema/artifact-support/artifact-support.xsd">
+
+	<!--<import resource="context-parts/raven_local.xml" />
+	<import resource="context-parts/dao_inmemory.xml" />
+	<import resource="context-parts/componentservices.xml" />
+	<import resource="context-parts/referenceservice.xml" />
+
+	-->
+	<bean id="workflowProvenanceItem"
+		raven:artifact="org.apache.taverna.core:provenanceconnector-impl:2.0-SNAPSHOT"
+		raven:repository="raven.repository"
+		class="org.apache.taverna.provenance.item.WorkflowProvenanceItem" />
+
+</beans>

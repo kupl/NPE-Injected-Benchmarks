@@ -1,0 +1,56 @@
+
+Apache Neethi-3.1.1 Release Notes:
+3.1.1 is a minor patch release to fix problems comparing policy name
+attributes (Neethi-19)
+
+
+Apache Neethi-3.1.0 Release Notes:
+
+3.1.0 is a minor update to 3.0.x.  The main difference in this vesion is
+that equals and hashCode methods have been added to the base assertion
+types.  Code that relied on the "system" equals/hashCode implementation
+may need to be updated.
+
+3.1.0 also requires Java 7 or newer.  It no longer will work with Java 5/6.
+
+Apache Neethi-3.0.0 Release Notes:
+
+This is a "major" upgrade to Neethi that completely revamps the Neethi 
+internals to make it more usable for projects that have varying dependency
+requirements.  The API impact is minimal.   The major impact from an API 
+perspective is the upgrade to Java 5 typed collections as well as the 
+support for WS-Policy 1.5 "ignorable" attributes.   
+
+Major new features:
+* Support for WS-Policy 1.5.  This includes the new ignorable attribute.
+The Policy.intersect method has also been implemented to support this.
+
+* API changed to use Java 5 typed collections.  Thus, support for Java 1.4 
+has been dropped.
+
+* AssertionBuilders can now be written that build assertions from DOM or
+StAX in addition to the Axiom implementations.
+
+* The PolicyEngine and AssertionBuilderFactory singletons have been 
+removed.  PolicyEngine now wrappers a "PolicyBuilder" singleton, but 
+applications are recommended to create and configure their own PolicyBuilder
+object based on their needs.
+
+
+
+Feature List:
+
+Adhere the latest WS-Policy 1.5 specification 
+see: http://www.w3.org/TR/2007/REC-ws-policy-20070904/
+
+
+Provides a convenient API to access and process Policies
+
+Provides an extension model where custom serialization, de-serialization of
+assertion can be supported.
+
+Provides a mechanism where domain specific types can be used assertion within
+the generic framework
+
+Provides more control to the assertion authors to control behavior of the 
+assertions they implement.

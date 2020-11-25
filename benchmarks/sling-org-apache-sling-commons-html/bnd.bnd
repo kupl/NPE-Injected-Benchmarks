@@ -1,0 +1,2 @@
+-includeresource:\
+  @tagsoup-*.jar!/org/ccil/cowan/tagsoup/*

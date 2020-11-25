@@ -1,0 +1,5 @@
+.idea
+*.iml
+target
+src/test/java/io/*
+src/test/java/org/apache/cxf*

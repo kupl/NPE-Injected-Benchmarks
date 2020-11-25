@@ -1,0 +1,46 @@
+#
+#  Licensed to the Apache Software Foundation (ASF) under one
+#  or more contributor license agreements.  See the NOTICE file
+#  distributed with this work for additional information
+#  regarding copyright ownership.  The ASF licenses this file
+#  to you under the Apache License, Version 2.0 (the
+#  "License"); you may not use this file except in compliance
+#  with the License.  You may obtain a copy of the License at
+#
+#   http://www.apache.org/licenses/LICENSE-2.0
+#
+#  Unless required by applicable law or agreed to in writing,
+#  software distributed under the License is distributed on an
+#  "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+#  KIND, either express or implied.  See the License for the
+#  specific language governing permissions and limitations
+#  under the License.
+#
+
+# must be the same feature name as the feature defined in slingstart to allow merging
+[feature name=sling-validation]
+# Dependencies
+[artifacts]
+  org.apache.sling/org.apache.sling.launchpad/9/slingstart
+  # the following additional bundles have their versions specified in the pom.xml
+  # this assures that the IT always runs against the right version
+  org.apache.sling/org.apache.sling.validation.core
+  org.apache.sling/org.apache.sling.validation.api
+  # deploy an additional bundle which contains some server-side test classes and content
+  org.apache.sling/org.apache.sling.validation.test-services
+
+[configurations]
+  # configure service user mapping for validation framework
+  org.apache.sling.serviceusermapping.impl.ServiceUserMapperImpl.amended-validation
+    user.mapping=[ \
+    "org.apache.sling.validation.core\=sling-validation", \
+    "org.apache.sling.validation.test-services\=sling-validation" \
+    ]
+
+  # configure post processor
+  org.apache.sling.validation.impl.postprocessor.ValidationPostProcessor
+    enabledForPathPrefix=["/content/validated"]
+    failForMissingValidationModel=B"true"
+
+[settings]
+  org.apache.sling.commons.log.julenabled=true

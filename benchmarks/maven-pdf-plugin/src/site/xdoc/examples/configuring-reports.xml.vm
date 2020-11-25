@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+Licensed to the Apache Software Foundation (ASF) under one
+or more contributor license agreements.  See the NOTICE file
+distributed with this work for additional information
+regarding copyright ownership.  The ASF licenses this file
+to you under the Apache License, Version 2.0 (the
+"License"); you may not use this file except in compliance
+with the License.  You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing,
+software distributed under the License is distributed on an
+"AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+KIND, either express or implied.  See the License for the
+specific language governing permissions and limitations
+under the License.
+-->
+
+<document xmlns="http://maven.apache.org/XDOC/2.0"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/XDOC/2.0 http://maven.apache.org/xsd/xdoc-2.0.xsd">
+
+  <properties>
+    <title>Configuring Reports</title>
+    <author email="vsiveton_AT_apache_DOT_org">Vincent Siveton</author>
+  </properties>
+
+  <body>
+    <section name="Configuring Reports">
+      <p>
+        Since version 1.1, all Maven reports will be included by default in the generated PDF.
+        You should configure the &lt;reporting/&gt; section of your POM similar than the
+        <a href="/plugins/maven-site-plugin/examples/configuring-reports.html">site plugin</a>
+      </p>
+
+      <p>
+        For instance, you could have the following:
+      </p>
+      <source><![CDATA[
+<project>
+  ...
+  <reporting>
+    <plugins>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-project-info-reports-plugin</artifactId>
+        <version>2.1.2</version>
+        <reportSets>
+          <reportSet>
+            <reports>
+              <report>project-team</report>
+              ...
+            </reports>
+          </reportSet>
+        </reportSets>
+      </plugin>
+      ...
+    </plugins>
+  </reporting>
+  ...
+  <project>]]></source>
+
+      <b>Notes:</b>
+      <ol>
+        <li>to exclude the reporting generation inside the PDF, you should add <code>-DincludeReports=false</code> in
+          the command line.</li>
+        <li>only internal reporting plugins will be added in the PDF, external reporting plugins like Javadoc will
+          be skipped.</li>
+      </ol>
+
+      <subsection name="Enhancements">
+        <p>
+          Having many reports increases <b>hugely</b> the build time, so it is recommended to select only the wanted
+          reports to be included in the PDF. It is recommended to define a <code>reporting</code> profile in your
+          pom, similar to the following:
+        </p>
+
+        <source><![CDATA[
+<project>
+  ...
+  <profiles>
+    <profile>
+      <id>pdf</id>
+      <reporting>
+        <plugins>
+          <plugin>
+            <artifactId>maven-project-info-reports-plugin</artifactId>
+            <version>2.1.2</version>
+            <reportSets>
+              <reportSet>
+                <reports>
+                  <report>cim</report>
+                  <!-- take too long time
+                  <report>dependencies</report> -->
+                  <report>dependency-convergence</report>
+                  <report>dependency-management</report>
+                  <!-- already present
+                  <report>index</report> -->
+                  <report>issue-tracking</report>
+                  <report>license</report>
+                  <report>mailing-list</report>
+                  <report>plugin-management</report>
+                  <report>plugins</report>
+                  <report>project-team</report>
+                  <report>scm</report>
+                  <report>summary</report>
+                </reports>
+              </reportSet>
+            </reportSets>
+          </plugin>
+        </plugins>
+      </reporting>
+
+      <build>
+        <defaultGoal>pdf:pdf</defaultGoal>
+        <plugins>
+          <plugin>
+            <groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-pdf-plugin</artifactId>
+            <version>${project.version}</version>
+          </plugin>
+        </plugins>
+      </build>
+    </profile>
+    ...
+  </profiles>
+  ...
+  <project>]]></source>
+
+      </subsection>
+    </section>
+  </body>
+</document>

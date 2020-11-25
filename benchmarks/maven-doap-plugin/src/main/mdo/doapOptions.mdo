@@ -1,0 +1,382 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+Licensed to the Apache Software Foundation (ASF) under one
+or more contributor license agreements.  See the NOTICE file
+distributed with this work for additional information
+regarding copyright ownership.  The ASF licenses this file
+to you under the Apache License, Version 2.0 (the
+"License"); you may not use this file except in compliance
+with the License.  You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing,
+software distributed under the License is distributed on an
+"AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+KIND, either express or implied.  See the License for the
+specific language governing permissions and limitations
+under the License.
+-->
+
+<model xmlns="https://codehaus-plexus.github.io/MODELLO/1.4.0"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="https://codehaus-plexus.github.io/MODELLO/1.4.0 https://codehaus-plexus.github.io/modello/xsd/modello-1.4.0.xsd">
+  <id>doapOptions</id>
+  <name>doapOptions</name>
+  <description><![CDATA[Model for DOAP Options.]]></description>
+  <defaults>
+    <default>
+      <key>package</key>
+      <value>org.apache.maven.plugin.doap.options</value>
+    </default>
+  </defaults>
+  <classes>
+    <class>
+      <name>DoapOptions</name>
+      <description><![CDATA[Specific DOAP parameters, i.e. options that POM doesn't have any notions or to override
+some POM options.
+@see <a href="http://usefulinc.com/ns/doap#">http://usefulinc.com/ns/doap#</a>]]></description>
+      <version>1.0.0</version>
+      <fields>
+        <field>
+          <name>xmlnsPrefix</name>
+          <description>The DOAP xmlns prefix</description>
+          <version>1.0.0</version>
+          <type>String</type>
+        </field>
+        <field>
+          <name>xmlnsNamespaceURI</name>
+          <description><![CDATA[The URI of the DOAP xmlns namespace.<br/>
+<b>Default value</b>: http://usefulinc.com/ns/doap#]]></description>
+          <version>1.0.0</version>
+          <type>String</type>
+          <defaultValue>http://usefulinc.com/ns/doap#</defaultValue>
+        </field>
+        <field>
+          <name>audience</name>
+          <description><![CDATA[Description of target user base.
+@see <a href="http://usefulinc.com/ns/doap#audience">http://usefulinc.com/ns/doap#audience</a>]]></description>
+          <version>1.0.0</version>
+          <type>String</type>
+          <identifier>true</identifier>
+        </field>
+        <field>
+          <name>blog</name>
+          <description><![CDATA[URI of a blog related to a project.
+@see <a href="http://usefulinc.com/ns/doap#blog">http://usefulinc.com/ns/doap#blog</a>]]></description>
+          <version>1.0.0</version>
+          <type>String</type>
+          <identifier>true</identifier>
+        </field>
+        <field>
+          <name>bugDatabase</name>
+          <description><![CDATA[Bug tracker for a project.<br/>
+<b>Default value</b>: ${project.issueManagement.url}
+@see <a href="http://usefulinc.com/ns/doap#bug-database">http://usefulinc.com/ns/doap#bug-database</a>]]></description>
+          <version>1.0.0</version>
+          <type>String</type>
+          <identifier>true</identifier>
+          <defaultValue>${project.issueManagement.url}</defaultValue>
+        </field>
+        <field>
+          <name>category</name>
+          <description><![CDATA[A category of project.<br/>
+<b>Default value</b>: library<br/>
+<b>Note</b>: This string is comma separated to allow several categories.
+@see <a href="http://usefulinc.com/ns/doap#category">http://usefulinc.com/ns/doap#category</a>]]></description>
+          <version>1.0.0</version>
+          <type>String</type>
+          <identifier>true</identifier>
+          <defaultValue>library</defaultValue>
+        </field>
+        <field>
+          <name>created</name>
+          <description><![CDATA[Date when something was created, in YYYY-MM-DD form. e.g. 2004-04-05.<br/>
+<b>Default value</b>: ${project.inceptionYear}-01-01
+@see <a href="http://usefulinc.com/ns/doap#created">http://usefulinc.com/ns/doap#created</a>]]></description>
+          <version>1.0.0</version>
+          <type>String</type>
+          <identifier>true</identifier>
+          <defaultValue>${project.inceptionYear}-01-01</defaultValue>
+        </field>
+        <field>
+          <name>description</name>
+          <description><![CDATA[The project description.<br/>
+<b>Default value</b>: ${project.description}
+@see <a href="http://usefulinc.com/ns/doap#description">http://usefulinc.com/ns/doap#description</a>]]></description>
+          <version>1.0.0</version>
+          <type>String</type>
+          <identifier>true</identifier>
+          <defaultValue>${project.description}</defaultValue>
+        </field>
+        <field>
+          <name>downloadPage</name>
+          <description><![CDATA[Web page from which the project software can be downloaded.<br/>
+<b>Default value</b>: ${project.distributionManagement.downloadUrl}
+@see <a href="http://usefulinc.com/ns/doap#download-page">http://usefulinc.com/ns/doap#download-page</a>]]></description>
+          <version>1.0.0</version>
+          <type>String</type>
+          <identifier>true</identifier>
+          <defaultValue>${project.distributionManagement.downloadUrl}</defaultValue>
+        </field>
+        <field>
+          <name>downloadMirror</name>
+          <description><![CDATA[Mirror of software download web page.<br/>
+<b>Note</b>: This string is comma separated to allow several mirror pages.
+@see <a href="http://usefulinc.com/ns/doap#download-mirror">http://usefulinc.com/ns/doap#download-mirror</a>]]></description>
+          <version>1.0.0</version>
+          <type>String</type>
+          <identifier>true</identifier>
+        </field>
+        <field>
+          <name>homepage</name>
+          <description><![CDATA[URL of a project's homepage, associated with exactly one project.<br/>
+<b>Default value</b>: ${project.url}
+@see <a href="http://usefulinc.com/ns/doap#homepage">http://usefulinc.com/ns/doap#homepage</a>]]></description>
+          <version>1.0.0</version>
+          <type>String</type>
+          <identifier>true</identifier>
+          <defaultValue>${project.url}</defaultValue>
+        </field>
+        <field>
+          <name>implementations</name>
+          <description><![CDATA[A specification that a project implements. Could be a standard, API or legally defined level of conformance.<br/>
+<b>Note</b>: This string is comma separated to allow several implementations.
+@see <a href="http://usefulinc.com/ns/doap#implements">http://usefulinc.com/ns/doap#implements</a>]]></description>
+          <version>1.0.0</version>
+          <type>String</type>
+          <identifier>true</identifier>
+        </field>
+        <field>
+          <name>language</name>
+          <description><![CDATA[ISO language code a project has been translated into.
+<b>Note</b>: This string is comma separated to allow several languages.
+@see <a href="http://usefulinc.com/ns/doap#language">http://usefulinc.com/ns/doap#language</a>]]></description>
+          <version>1.0.0</version>
+          <type>String</type>
+          <identifier>true</identifier>
+        </field>
+        <field>
+          <name>license</name>
+          <description><![CDATA[The URI of an RDF description of the license the software is distributed under.<br/>
+<b>Default value</b>: ${project.licenses[0].url}
+@see <a href="http://usefulinc.com/ns/doap#license">http://usefulinc.com/ns/doap#license</a>]]></description>
+          <version>1.0.0</version>
+          <type>String</type>
+          <identifier>true</identifier>
+          <defaultValue>${project.licenses[0].url}</defaultValue>
+        </field>
+        <field>
+          <name>mailingList</name>
+          <description><![CDATA[Single web page that allows people to find out more information about the mailing lists provided by the project.<br/>
+<b>Default value</b>: ${project.url}/mail-lists.html<br/>
+<b>Note</b>: by default, the mailing list page is the one generated by the Maven Project Info Reports Plugin.
+@see <a href="http://usefulinc.com/ns/doap#mailing-list">http://usefulinc.com/ns/doap#mailing-list</a>]]></description>
+          <version>1.0.0</version>
+          <type>String</type>
+          <identifier>true</identifier>
+          <defaultValue>${project.url}/mail-lists.html</defaultValue>
+        </field>
+        <field>
+          <name>name</name>
+          <description><![CDATA[The project name.<br/>
+<b>Default value</b>: ${project.name}
+@see <a href="http://usefulinc.com/ns/doap#name">http://usefulinc.com/ns/doap#name</a>]]></description>
+          <version>1.0.0</version>
+          <type>String</type>
+          <identifier>true</identifier>
+          <defaultValue>${project.name}</defaultValue>
+        </field>
+        <field>
+          <name>oldHomepage</name>
+          <description><![CDATA[URL of a project's past homepage, associated with exactly one project.
+@see <a href="http://usefulinc.com/ns/doap#old-homepage">http://usefulinc.com/ns/doap#old-homepage</a>]]></description>
+          <version>1.0.0</version>
+          <type>String</type>
+          <identifier>true</identifier>
+        </field>
+        <field>
+          <name>os</name>
+          <description><![CDATA[Operating system that a project is limited to.  Omit this property if the project is not OS-specific.<br/>
+<b>Note</b>: This string is comma separated to allow several OS.
+@see <a href="http://usefulinc.com/ns/doap#os">http://usefulinc.com/ns/doap#os</a>]]></description>
+          <version>1.0.0</version>
+          <type>String</type>
+          <identifier>true</identifier>
+        </field>
+        <field>
+          <name>platform</name>
+          <description><![CDATA[Indicator of software platform (non-OS specific), e.g. Java, Firefox, ECMA CLR.<br/>
+<b>Note</b>: This string is comma separated to allow several platforms.
+@see <a href="http://usefulinc.com/ns/doap#platform">http://usefulinc.com/ns/doap#platform</a>]]></description>
+          <version>1.0.0</version>
+          <type>String</type>
+          <identifier>true</identifier>
+        </field>
+        <field>
+          <name>programmingLanguage</name>
+          <description><![CDATA[Programming language a project is implemented in or intended for use with.<br/>
+<b>Default value</b>: Java<br/>
+<b>Note</b>: This string is comma separated to allow several programming-language.
+@see <a href="http://usefulinc.com/ns/doap#programming-language">http://usefulinc.com/ns/doap#programming-language</a>]]></description>
+          <version>1.0.0</version>
+          <type>String</type>
+          <identifier>true</identifier>
+          <defaultValue>Java</defaultValue>
+        </field>
+        <field>
+          <name>scmAnonymous</name>
+          <description><![CDATA[Anonymous Source Repository as URL or Maven format.<br/>
+<b>Default value</b>: ${project.scm.connection}
+@see <a href="http://usefulinc.com/ns/doap#Repository">http://usefulinc.com/ns/doap#Repository</a>
+@see <a href="http://usefulinc.com/ns/doap#CVSRepository">http://usefulinc.com/ns/doap#CVSRepository</a>
+@see <a href="http://usefulinc.com/ns/doap#SVNRepository">http://usefulinc.com/ns/doap#SVNRepository</a>]]></description>
+          <version>1.0.0</version>
+          <type>String</type>
+          <identifier>true</identifier>
+          <defaultValue>${project.scm.connection}</defaultValue>
+        </field>
+        <field>
+          <name>scmDeveloper</name>
+          <description><![CDATA[Developer Source Repository as URL or Maven format.<br/>
+<b>Default value</b>: ${project.scm.developerConnection}
+@see <a href="http://usefulinc.com/ns/doap#Repository">http://usefulinc.com/ns/doap#Repository</a>
+@see <a href="http://usefulinc.com/ns/doap#CVSRepository">http://usefulinc.com/ns/doap#CVSRepository</a>
+@see <a href="http://usefulinc.com/ns/doap#SVNRepository">http://usefulinc.com/ns/doap#SVNRepository</a>]]></description>
+          <version>1.0.0</version>
+          <type>String</type>
+          <identifier>true</identifier>
+          <defaultValue>${project.scm.developerConnection}</defaultValue>
+        </field>
+        <field>
+          <name>screenshots</name>
+          <description><![CDATA[Web page with screenshots of project.
+@see <a href="http://usefulinc.com/ns/doap#screenshots">http://usefulinc.com/ns/doap#screenshots</a>]]></description>
+          <version>1.0.0</version>
+          <type>String</type>
+          <identifier>true</identifier>
+        </field>
+        <field>
+          <name>serviceEndpoint</name>
+          <description><![CDATA[URI of a web service endpoint where software as a service may be accessed.
+@see <a href="http://usefulinc.com/ns/doap#service-endpoint">http://usefulinc.com/ns/doap#service-endpoint</a>]]></description>
+          <version>1.0.0</version>
+          <type>String</type>
+          <identifier>true</identifier>
+        </field>
+        <field>
+          <name>shortdesc</name>
+          <description><![CDATA[Short (8 or 9 words) plain text description of a project.<br/>
+<b>Default value</b>: ${project.description}
+@see <a href="http://usefulinc.com/ns/doap#shortdesc">http://usefulinc.com/ns/doap#shortdesc</a>]]></description>
+          <version>1.0.0</version>
+          <type>String</type>
+          <identifier>true</identifier>
+          <defaultValue>${project.description}</defaultValue>
+        </field>
+        <field>
+          <name>vendor</name>
+          <description><![CDATA[Vendor organization: commercial, free or otherwise.<br/>
+<b>Default value</b>: ${project.organization.name}
+@see <a href="http://usefulinc.com/ns/doap#vendor">http://usefulinc.com/ns/doap#vendor</a>]]></description>
+          <version>1.0.0</version>
+          <type>String</type>
+          <identifier>true</identifier>
+          <defaultValue>${project.organization.name}</defaultValue>
+        </field>
+        <field>
+          <name>wiki</name>
+          <description><![CDATA[URL of Wiki for collaborative discussion of project.
+@see <a href="http://usefulinc.com/ns/doap#wiki">http://usefulinc.com/ns/doap#wiki</a>]]></description>
+          <version>1.0.0</version>
+          <type>String</type>
+          <identifier>true</identifier>
+        </field>
+        <field>
+          <name>extra</name>
+          <description><![CDATA[Extra DOAP vocabulary as key/value, not actually defined as plugin options.]]></description>
+          <version>1.0.0</version>
+          <identifier>true</identifier>
+          <type>Map</type>
+          <association xml.mapStyle="inline">
+            <type>String</type>
+            <multiplicity>*</multiplicity>
+          </association>
+        </field>
+      </fields>
+    </class>
+    <class>
+      <name>DoapArtifact</name>
+      <description>An Maven artifact object used by DOAP.</description>
+      <version>1.0.0+</version>
+      <fields>
+        <field>
+          <name>groupId</name>
+          <description>The id of the group of the Maven artifact.</description>
+          <version>1.0.0+</version>
+          <type>String</type>
+          <identifier>true</identifier>
+        </field>
+        <field>
+          <name>artifactId</name>
+          <description>The artifact id of the Maven artifact.</description>
+          <version>1.0.0+</version>
+          <type>String</type>
+          <identifier>true</identifier>
+        </field>
+        <field>
+          <name>version</name>
+          <description>The version of the Maven artifact.</description>
+          <version>1.0.0+</version>
+          <type>String</type>
+          <identifier>true</identifier>
+        </field>
+        <field java.getter="false">
+          <name>doapFileName</name>
+          <description>The name of the DOAP file that will be generated, no notion of path.</description>
+          <version>1.0.0+</version>
+          <type>String</type>
+          <identifier>true</identifier>
+        </field>
+      </fields>
+      <codeSegments>
+        <codeSegment>
+          <code>
+            <![CDATA[
+    /**
+     * Get the path of the DOAP file that will be generated, no notion of path. <br/>
+     * If not specified, return <code>"doap_" + this.artifactId + ".rdf"</code> <br/>
+     *
+     * @return String
+     */
+    public String getDoapFileName()
+    {
+        if ( org.codehaus.plexus.util.StringUtils.isEmpty( this.doapFileName ) )
+        {
+            return "doap_" + this.artifactId + ".rdf";
+        }
+        return this.doapFileName;
+    }
+
+    /**
+     * @return String the configuration of this class.
+     */
+    public String toConfiguration()
+    {
+        java.lang.StringBuilder sb = new java.lang.StringBuilder();
+        sb.append( "<artifact>" );
+        sb.append( "<groupId>" ).append( this.groupId ).append( "</groupId>" );
+        sb.append( "<artifactId>" ).append( this.artifactId ).append( "</artifactId>" );
+        sb.append( "<version>" ).append( this.version ).append( "</version>" );
+        sb.append( "</artifact>" );
+
+        return sb.toString();
+    }
+            ]]>
+          </code>
+        </codeSegment>
+      </codeSegments>
+    </class>
+  </classes>
+</model>

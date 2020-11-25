@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Licensed to the Apache Software Foundation (ASF) under one
+or more contributor license agreements.  See the NOTICE file
+distributed with this work for additional information
+regarding copyright ownership.  The ASF licenses this file
+to you under the Apache License, Version 2.0 (the
+"License"); you may not use this file except in compliance
+with the License.  You may obtain a copy of the License at
+
+  http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing,
+software distributed under the License is distributed on an
+"AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+KIND, either express or implied.  See the License for the
+specific language governing permissions and limitations
+under the License.
+-->
+<archetype-catalog
+  xsi:schemaLocation="http://maven.apache.org/plugins/maven-archetype-plugin/archetype-catalog/1.0.0 http://maven.apache.org/xsd/archetype-catalog-1.0.0.xsd"
+  xmlns="http://maven.apache.org/plugins/maven-archetype-plugin/archetype-catalog/1.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    
+  <!-- Internal archetype catalog listing archetypes from the Apache Maven project. -->
+
+  <archetypes>
+    <archetype>
+      <groupId>org.apache.maven.archetypes</groupId>
+      <artifactId>maven-archetype-archetype</artifactId>
+      <version>1.0</version>
+      <description>An archetype which contains a sample archetype.</description>
+    </archetype>
+    <archetype>
+      <groupId>org.apache.maven.archetypes</groupId>
+      <artifactId>maven-archetype-j2ee-simple</artifactId>
+      <version>1.0</version>
+      <description>An archetype which contains a simplifed sample J2EE application.</description>
+    </archetype>
+    <archetype>
+      <groupId>org.apache.maven.archetypes</groupId>
+      <artifactId>maven-archetype-plugin</artifactId>
+      <version>1.2</version>
+      <description>An archetype which contains a sample Maven plugin.</description>
+    </archetype>
+    <archetype>
+      <groupId>org.apache.maven.archetypes</groupId>
+      <artifactId>maven-archetype-plugin-site</artifactId>
+      <version>1.1</version>
+      <description>An archetype which contains a sample Maven plugin site.
+      This archetype can be layered upon an existing Maven plugin project.</description>
+    </archetype>
+    <archetype>
+      <groupId>org.apache.maven.archetypes</groupId>
+      <artifactId>maven-archetype-portlet</artifactId>
+      <version>1.0.1</version>
+      <description>An archetype which contains a sample JSR-268 Portlet.</description>
+    </archetype>
+    <archetype>
+      <groupId>org.apache.maven.archetypes</groupId>
+      <artifactId>maven-archetype-profiles</artifactId>
+      <version>1.0-alpha-4</version>
+      <description></description>
+    </archetype>
+    <archetype>
+      <groupId>org.apache.maven.archetypes</groupId>
+      <artifactId>maven-archetype-quickstart</artifactId>
+      <version>1.1</version>
+      <description>An archetype which contains a sample Maven project.</description>
+    </archetype>
+    <archetype>
+      <groupId>org.apache.maven.archetypes</groupId>
+      <artifactId>maven-archetype-site</artifactId>
+      <version>1.1</version>
+      <description>An archetype which contains a sample Maven site which demonstrates
+      some of the supported document types like APT, XDoc, and FML and demonstrates how
+      to i18n your site. This archetype can be layered upon an existing Maven project.</description>
+    </archetype>
+    <archetype>
+      <groupId>org.apache.maven.archetypes</groupId>
+      <artifactId>maven-archetype-site-simple</artifactId>
+      <version>1.1</version>
+      <description>An archetype which contains a sample Maven site.</description>
+    </archetype>
+    <archetype>
+      <groupId>org.apache.maven.archetypes</groupId>
+      <artifactId>maven-archetype-webapp</artifactId>
+      <version>1.0</version>
+      <description>An archetype which contains a sample Maven Webapp project.</description>
+    </archetype>
+  </archetypes>
+</archetype-catalog>
