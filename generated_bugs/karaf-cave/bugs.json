@@ -5874,6 +5874,470 @@
                 "pass_fixed": true,
                 "testcases": []
             }
+        },
+        {
+            "repo": "karaf-cave",
+            "bug_id": "CapabilitySet_106",
+            "npe_info": {
+                "filepath": "repository/service/src/main/java/org/apache/karaf/cave/repository/service/bundlerepository/CapabilitySet.java",
+                "line": 107,
+                "deref_field": "value",
+                "npe_class": "CapabilitySet",
+                "npe_method": "removeCapability",
+                "sink_field": null,
+                "jvmti_identify_succeed": null,
+                "is_original": null
+            },
+            "build_info": {
+                "compiled": true,
+                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
+                "java_version": 8,
+                "error_message": null,
+                "time": 22.017947969958186
+            },
+            "test_info": {
+                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
+                "fail_buggy": false,
+                "pass_fixed": true,
+                "testcases": []
+            }
+        },
+        {
+            "repo": "karaf-cave",
+            "bug_id": "RepositoryUrlCommand_44",
+            "npe_info": {
+                "filepath": "repository/service/src/main/java/org/apache/karaf/cave/repository/service/command/RepositoryUrlCommand.java",
+                "line": 51,
+                "deref_field": "repository(java.lang.String)",
+                "npe_class": "RepositoryUrlCommand",
+                "npe_method": "execute",
+                "sink_field": null,
+                "jvmti_identify_succeed": null,
+                "is_original": null
+            },
+            "build_info": {
+                "compiled": true,
+                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
+                "java_version": 8,
+                "error_message": null,
+                "time": 19.784904779866338
+            },
+            "test_info": {
+                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
+                "fail_buggy": false,
+                "pass_fixed": true,
+                "testcases": []
+            }
+        },
+        {
+            "repo": "karaf-cave",
+            "bug_id": "RepositoryServiceImpl_824",
+            "npe_info": {
+                "filepath": "repository/service/src/main/java/org/apache/karaf/cave/repository/service/RepositoryServiceImpl.java",
+                "line": 824,
+                "deref_field": "getRealm()",
+                "npe_class": "RepositoryServiceImpl",
+                "npe_method": "save",
+                "sink_field": null,
+                "jvmti_identify_succeed": null,
+                "is_original": null
+            },
+            "build_info": {
+                "compiled": true,
+                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
+                "java_version": 8,
+                "error_message": null,
+                "time": 24.54200307186693
+            },
+            "test_info": {
+                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
+                "fail_buggy": false,
+                "pass_fixed": true,
+                "testcases": []
+            }
+        },
+        {
+            "repo": "karaf-cave",
+            "bug_id": "RepositoryInfoCommand_55",
+            "npe_info": {
+                "filepath": "repository/service/src/main/java/org/apache/karaf/cave/repository/service/command/RepositoryInfoCommand.java",
+                "line": 55,
+                "deref_field": "getScheduling()",
+                "npe_class": "RepositoryInfoCommand",
+                "npe_method": "execute",
+                "sink_field": null,
+                "jvmti_identify_succeed": null,
+                "is_original": null
+            },
+            "build_info": {
+                "compiled": true,
+                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
+                "java_version": 8,
+                "error_message": null,
+                "time": 24.14845589012839
+            },
+            "test_info": {
+                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
+                "fail_buggy": false,
+                "pass_fixed": true,
+                "testcases": []
+            }
+        },
+        {
+            "repo": "karaf-cave",
+            "bug_id": "DefaultFuture_315",
+            "npe_info": {
+                "filepath": "repository/service/src/main/java/org/apache/karaf/cave/repository/service/maven/DefaultFuture.java",
+                "line": 316,
+                "deref_field": "otherListeners",
+                "npe_class": "DefaultFuture",
+                "npe_method": "removeListener",
+                "sink_field": null,
+                "jvmti_identify_succeed": null,
+                "is_original": null
+            },
+            "build_info": {
+                "compiled": true,
+                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
+                "java_version": 8,
+                "error_message": null,
+                "time": 20.018451534910128
+            },
+            "test_info": {
+                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
+                "fail_buggy": false,
+                "pass_fixed": true,
+                "testcases": []
+            }
+        },
+        {
+            "repo": "karaf-cave",
+            "bug_id": "RepositoryServiceImpl_613",
+            "npe_info": {
+                "filepath": "repository/service/src/main/java/org/apache/karaf/cave/repository/service/RepositoryServiceImpl.java",
+                "line": 616,
+                "deref_field": "get(java.lang.Object)",
+                "npe_class": "RepositoryServiceImpl",
+                "npe_method": "updateBundleRepositoryDescriptor",
+                "sink_field": null,
+                "jvmti_identify_succeed": null,
+                "is_original": null
+            },
+            "build_info": {
+                "compiled": true,
+                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
+                "java_version": 8,
+                "error_message": null,
+                "time": 20.11723756790161
+            },
+            "test_info": {
+                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
+                "fail_buggy": false,
+                "pass_fixed": false,
+                "testcases": []
+            }
+        },
+        {
+            "repo": "karaf-cave",
+            "bug_id": "DeployerServiceImpl_458",
+            "npe_info": {
+                "filepath": "deployer/service/src/main/java/org/apache/karaf/cave/deployer/service/DeployerServiceImpl.java",
+                "line": 459,
+                "deref_field": "configs",
+                "npe_class": "DeployerServiceImpl",
+                "npe_method": "assembleFeature",
+                "sink_field": null,
+                "jvmti_identify_succeed": null,
+                "is_original": null
+            },
+            "build_info": {
+                "compiled": true,
+                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
+                "java_version": 8,
+                "error_message": null,
+                "time": 22.52538364706561
+            },
+            "test_info": {
+                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
+                "fail_buggy": true,
+                "pass_fixed": true,
+                "testcases": [
+                    {
+                        "classname": "org.apache.karaf.cave.deployer.service.DeployerImplTest",
+                        "method": "assembleFeatureWithNullTest",
+                        "exn_type": "java.lang.NullPointerException",
+                        "stack_trace": "java.lang.NullPointerException\n\tat org.apache.karaf.cave.deployer.service.DeployerImplTest.assembleFeatureTest(DeployerImplTest.java:95)\n"
+                    },
+                    {
+                        "classname": "org.apache.karaf.cave.deployer.service.DeployerImplTest",
+                        "method": "assembleFeatureTest",
+                        "exn_type": "java.lang.NullPointerException",
+                        "stack_trace": "java.lang.NullPointerException\n\tat org.apache.karaf.cave.deployer.service.DeployerImplTest.assembleFeatureTest(DeployerImplTest.java:95)\n"
+                    },
+                    {
+                        "classname": "org.apache.karaf.cave.deployer.service.DeployerImplTest",
+                        "method": "assembleFeatureWithNullTest",
+                        "exn_type": "java.lang.NullPointerException",
+                        "stack_trace": "java.lang.NullPointerException\n\tat org.apache.karaf.cave.deployer.service.DeployerImplTest.assembleFeatureWithNullTest(DeployerImplTest.java:113)\n"
+                    },
+                    {
+                        "classname": "org.apache.karaf.cave.deployer.service.DeployerImplTest",
+                        "method": "assembleFeatureTest",
+                        "exn_type": "java.lang.NullPointerException",
+                        "stack_trace": "java.lang.NullPointerException\n\tat org.apache.karaf.cave.deployer.service.DeployerImplTest.assembleFeatureWithNullTest(DeployerImplTest.java:113)\n"
+                    }
+                ]
+            }
+        },
+        {
+            "repo": "karaf-cave",
+            "bug_id": "RepositoryInfoCommand_50",
+            "npe_info": {
+                "filepath": "repository/service/src/main/java/org/apache/karaf/cave/repository/service/command/RepositoryInfoCommand.java",
+                "line": 50,
+                "deref_field": "getProxy()",
+                "npe_class": "RepositoryInfoCommand",
+                "npe_method": "execute",
+                "sink_field": null,
+                "jvmti_identify_succeed": null,
+                "is_original": null
+            },
+            "build_info": {
+                "compiled": true,
+                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
+                "java_version": 8,
+                "error_message": null,
+                "time": 19.885855517117307
+            },
+            "test_info": {
+                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
+                "fail_buggy": false,
+                "pass_fixed": true,
+                "testcases": []
+            }
+        },
+        {
+            "repo": "karaf-cave",
+            "bug_id": "DeployerServiceImpl_491",
+            "npe_info": {
+                "filepath": "deployer/service/src/main/java/org/apache/karaf/cave/deployer/service/DeployerServiceImpl.java",
+                "line": 492,
+                "deref_field": "jmxConnector",
+                "npe_class": "DeployerServiceImpl",
+                "npe_method": "installKar",
+                "sink_field": null,
+                "jvmti_identify_succeed": null,
+                "is_original": null
+            },
+            "build_info": {
+                "compiled": true,
+                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
+                "java_version": 8,
+                "error_message": null,
+                "time": 20.795663843862712
+            },
+            "test_info": {
+                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
+                "fail_buggy": false,
+                "pass_fixed": true,
+                "testcases": []
+            }
+        },
+        {
+            "repo": "karaf-cave",
+            "bug_id": "DeployerServiceImpl_563",
+            "npe_info": {
+                "filepath": "deployer/service/src/main/java/org/apache/karaf/cave/deployer/service/DeployerServiceImpl.java",
+                "line": 564,
+                "deref_field": "jmxConnector",
+                "npe_class": "DeployerServiceImpl",
+                "npe_method": "installKar",
+                "sink_field": null,
+                "jvmti_identify_succeed": null,
+                "is_original": null
+            },
+            "build_info": {
+                "compiled": true,
+                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
+                "java_version": 8,
+                "error_message": null,
+                "time": 20.214885439025238
+            },
+            "test_info": {
+                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
+                "fail_buggy": true,
+                "pass_fixed": true,
+                "testcases": []
+            }
+        },
+        {
+            "repo": "karaf-cave",
+            "bug_id": "DeployerServiceImpl_827",
+            "npe_info": {
+                "filepath": "deployer/service/src/main/java/org/apache/karaf/cave/deployer/service/DeployerServiceImpl.java",
+                "line": 828,
+                "deref_field": "jmxConnector",
+                "npe_class": "DeployerServiceImpl",
+                "npe_method": "installKar",
+                "sink_field": null,
+                "jvmti_identify_succeed": null,
+                "is_original": null
+            },
+            "build_info": {
+                "compiled": true,
+                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
+                "java_version": 8,
+                "error_message": null,
+                "time": 22.419048852985725
+            },
+            "test_info": {
+                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
+                "fail_buggy": true,
+                "pass_fixed": true,
+                "testcases": []
+            }
+        },
+        {
+            "repo": "karaf-cave",
+            "bug_id": "DeployerServiceImpl_999",
+            "npe_info": {
+                "filepath": "deployer/service/src/main/java/org/apache/karaf/cave/deployer/service/DeployerServiceImpl.java",
+                "line": 1000,
+                "deref_field": "jmxConnector",
+                "npe_class": "DeployerServiceImpl",
+                "npe_method": "installKar",
+                "sink_field": null,
+                "jvmti_identify_succeed": null,
+                "is_original": null
+            },
+            "build_info": {
+                "compiled": true,
+                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
+                "java_version": 8,
+                "error_message": null,
+                "time": 19.59845310007222
+            },
+            "test_info": {
+                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
+                "fail_buggy": true,
+                "pass_fixed": true,
+                "testcases": []
+            }
+        },
+        {
+            "repo": "karaf-cave",
+            "bug_id": "ResourceBuilder_778",
+            "npe_info": {
+                "filepath": "repository/service/src/main/java/org/apache/karaf/cave/repository/service/bundlerepository/ResourceBuilder.java",
+                "line": 778,
+                "deref_field": "manifestVersion",
+                "npe_class": "ResourceBuilder",
+                "npe_method": "getManifestVersion",
+                "sink_field": null,
+                "jvmti_identify_succeed": null,
+                "is_original": null
+            },
+            "build_info": {
+                "compiled": true,
+                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
+                "java_version": 8,
+                "error_message": null,
+                "time": 23.25331751885824
+            },
+            "test_info": {
+                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
+                "fail_buggy": false,
+                "pass_fixed": false,
+                "testcases": []
+            }
+        },
+        {
+            "repo": "karaf-cave",
+            "bug_id": "RepositoryServiceImpl_132",
+            "npe_info": {
+                "filepath": "repository/service/src/main/java/org/apache/karaf/cave/repository/service/RepositoryServiceImpl.java",
+                "line": 132,
+                "deref_field": "get(java.lang.Object)",
+                "npe_class": "RepositoryServiceImpl",
+                "npe_method": "activate",
+                "sink_field": null,
+                "jvmti_identify_succeed": null,
+                "is_original": null
+            },
+            "build_info": {
+                "compiled": true,
+                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
+                "java_version": 8,
+                "error_message": null,
+                "time": 21.278069496154785
+            },
+            "test_info": {
+                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
+                "fail_buggy": true,
+                "pass_fixed": true,
+                "testcases": [
+                    {
+                        "classname": "org.apache.karaf.cave.itest.repository.DeployerTest",
+                        "method": "test",
+                        "exn_type": "org.apache.felix.gogo.runtime.CommandNotFoundException",
+                        "stack_trace": "org.apache.felix.gogo.runtime.CommandNotFoundException: Command not found: cave:deployer-feature-list\n"
+                    }
+                ]
+            }
+        },
+        {
+            "repo": "karaf-cave",
+            "bug_id": "DeployerServiceImpl_1223",
+            "npe_info": {
+                "filepath": "deployer/service/src/main/java/org/apache/karaf/cave/deployer/service/DeployerServiceImpl.java",
+                "line": 1224,
+                "deref_field": "jmxConnector",
+                "npe_class": "DeployerServiceImpl",
+                "npe_method": "installKar",
+                "sink_field": null,
+                "jvmti_identify_succeed": null,
+                "is_original": null
+            },
+            "build_info": {
+                "compiled": true,
+                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
+                "java_version": 8,
+                "error_message": null,
+                "time": 20.31331996899098
+            },
+            "test_info": {
+                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
+                "fail_buggy": true,
+                "pass_fixed": false,
+                "testcases": []
+            }
+        },
+        {
+            "repo": "karaf-cave",
+            "bug_id": "CapabilitySet_129",
+            "npe_info": {
+                "filepath": "repository/service/src/main/java/org/apache/karaf/cave/repository/service/bundlerepository/CapabilitySet.java",
+                "line": 130,
+                "deref_field": "caps",
+                "npe_class": "CapabilitySet",
+                "npe_method": "deindexCapability",
+                "sink_field": null,
+                "jvmti_identify_succeed": null,
+                "is_original": null
+            },
+            "build_info": {
+                "compiled": true,
+                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
+                "java_version": 8,
+                "error_message": null,
+                "time": 19.118586882017553
+            },
+            "test_info": {
+                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
+                "fail_buggy": false,
+                "pass_fixed": true,
+                "testcases": []
+            }
         }
     ],
     "repository_info": null
