@@ -1,0 +1,1919 @@
+{
+    "repo": "karaf-winegrower",
+    "bugs": [
+        {
+            "repo": "karaf-winegrower",
+            "bug_id": "MetadataBuilder_84",
+            "npe_info": {
+                "filepath": "winegrower-extension/winegrower-build/winegrower-build-common/src/main/java/org/apache/winegrower/extension/build/common/MetadataBuilder.java",
+                "line": 87,
+                "deref_field": "files",
+                "npe_class": "MetadataBuilder",
+                "npe_method": "afterJar",
+                "sink_field": null,
+                "jvmti_identify_succeed": null,
+                "is_original": null
+            },
+            "build_info": {
+                "compiled": true,
+                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
+                "java_version": 8,
+                "error_message": null,
+                "time": 52.945730642881244
+            },
+            "test_info": {
+                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
+                "fail_buggy": false,
+                "pass_fixed": true,
+                "testcases": []
+            }
+        },
+        {
+            "repo": "karaf-winegrower",
+            "bug_id": "Build_204",
+            "npe_info": {
+                "filepath": "winegrower-extension/winegrower-build/winegrower-build-common/src/main/java/org/apache/winegrower/extension/build/common/Build.java",
+                "line": 205,
+                "deref_field": "files",
+                "npe_class": "Build",
+                "npe_method": "zip",
+                "sink_field": null,
+                "jvmti_identify_succeed": null,
+                "is_original": null
+            },
+            "build_info": {
+                "compiled": true,
+                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
+                "java_version": 8,
+                "error_message": null,
+                "time": 38.352564516011626
+            },
+            "test_info": {
+                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
+                "fail_buggy": false,
+                "pass_fixed": true,
+                "testcases": []
+            }
+        },
+        {
+            "repo": "karaf-winegrower",
+            "bug_id": "DefaultConfigurationAdmin_199",
+            "npe_info": {
+                "filepath": "winegrower-core/src/main/java/org/apache/winegrower/service/DefaultConfigurationAdmin.java",
+                "line": 200,
+                "deref_field": "embedConfig",
+                "npe_class": "DefaultConfiguration",
+                "npe_method": "loadConfig",
+                "sink_field": null,
+                "jvmti_identify_succeed": null,
+                "is_original": null
+            },
+            "build_info": {
+                "compiled": true,
+                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
+                "java_version": 8,
+                "error_message": null,
+                "time": 42.25430902512744
+            },
+            "test_info": {
+                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
+                "fail_buggy": true,
+                "pass_fixed": true,
+                "testcases": [
+                    {
+                        "classname": "org.apache.winegrower.service.DefaultConfigurationAdminTest",
+                        "method": "systemPropertiesTest",
+                        "exn_type": "java.lang.NullPointerException",
+                        "stack_trace": "java.lang.NullPointerException\n\tat org.apache.winegrower.service.DefaultConfigurationAdminTest.systemPropertiesTest(DefaultConfigurationAdminTest.java:42)\n"
+                    }
+                ]
+            }
+        },
+        {
+            "repo": "karaf-winegrower",
+            "bug_id": "Run_64",
+            "npe_info": {
+                "filepath": "winegrower-extension/winegrower-build/winegrower-build-common/src/main/java/org/apache/winegrower/extension/build/common/Run.java",
+                "line": 65,
+                "deref_field": "value",
+                "npe_class": "Run",
+                "npe_method": "run",
+                "sink_field": null,
+                "jvmti_identify_succeed": null,
+                "is_original": null
+            },
+            "build_info": {
+                "compiled": true,
+                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
+                "java_version": 8,
+                "error_message": null,
+                "time": 47.21279924106784
+            },
+            "test_info": {
+                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
+                "fail_buggy": false,
+                "pass_fixed": true,
+                "testcases": []
+            }
+        },
+        {
+            "repo": "karaf-winegrower",
+            "bug_id": "BundleContextImpl_327",
+            "npe_info": {
+                "filepath": "winegrower-core/src/main/java/org/apache/winegrower/deployer/BundleContextImpl.java",
+                "line": 329,
+                "deref_field": "fh",
+                "npe_class": "BundleContextImpl",
+                "npe_method": "invokeBundleFinHooks",
+                "sink_field": null,
+                "jvmti_identify_succeed": null,
+                "is_original": null
+            },
+            "build_info": {
+                "compiled": true,
+                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
+                "java_version": 8,
+                "error_message": null,
+                "time": 42.57794114504941
+            },
+            "test_info": {
+                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
+                "fail_buggy": false,
+                "pass_fixed": true,
+                "testcases": []
+            }
+        },
+        {
+            "repo": "karaf-winegrower",
+            "bug_id": "ServletHttpService_73",
+            "npe_info": {
+                "filepath": "winegrower-extension/winegrower-servlet/src/main/java/org/apache/winegrower/servlet/service/ServletHttpService.java",
+                "line": 74,
+                "deref_field": "defaultServlet",
+                "npe_class": "ServletHttpService",
+                "npe_method": "registerResources",
+                "sink_field": null,
+                "jvmti_identify_succeed": null,
+                "is_original": null
+            },
+            "build_info": {
+                "compiled": true,
+                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
+                "java_version": 8,
+                "error_message": null,
+                "time": 55.765424746088684
+            },
+            "test_info": {
+                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
+                "fail_buggy": false,
+                "pass_fixed": true,
+                "testcases": []
+            }
+        },
+        {
+            "repo": "karaf-winegrower",
+            "bug_id": "DefaultConfigurationAdmin_105",
+            "npe_info": {
+                "filepath": "winegrower-core/src/main/java/org/apache/winegrower/service/DefaultConfigurationAdmin.java",
+                "line": 105,
+                "deref_field": "filter",
+                "npe_class": "DefaultConfigurationAdmin",
+                "npe_method": "listConfigurations",
+                "sink_field": null,
+                "jvmti_identify_succeed": null,
+                "is_original": null
+            },
+            "build_info": {
+                "compiled": true,
+                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
+                "java_version": 8,
+                "error_message": null,
+                "time": 47.36490508611314
+            },
+            "test_info": {
+                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
+                "fail_buggy": false,
+                "pass_fixed": true,
+                "testcases": []
+            }
+        },
+        {
+            "repo": "karaf-winegrower",
+            "bug_id": "Ripener_241",
+            "npe_info": {
+                "filepath": "winegrower-core/src/main/java/org/apache/winegrower/Ripener.java",
+                "line": 242,
+                "deref_field": "stream",
+                "npe_class": "Impl",
+                "npe_method": "loadConfiguration",
+                "sink_field": null,
+                "jvmti_identify_succeed": null,
+                "is_original": null
+            },
+            "build_info": {
+                "compiled": true,
+                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
+                "java_version": 8,
+                "error_message": null,
+                "time": 49.15382793894969
+            },
+            "test_info": {
+                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
+                "fail_buggy": true,
+                "pass_fixed": true,
+                "testcases": [
+                    {
+                        "classname": "org.apache.winegrower.RipenerTest",
+                        "method": "ensureFrameworkBundle{Ripener}",
+                        "exn_type": "java.lang.NullPointerException",
+                        "stack_trace": "java.lang.NullPointerException\n"
+                    },
+                    {
+                        "classname": "org.apache.winegrower.RipenerTest",
+                        "method": "ensureFrameworkBundle{Ripener}",
+                        "exn_type": "java.lang.NullPointerException",
+                        "stack_trace": "java.lang.NullPointerException\n\tat org.apache.winegrower.RipenerTest.overrideConfiguration(RipenerTest.java:45)\n"
+                    },
+                    {
+                        "classname": "org.apache.winegrower.RipenerTest",
+                        "method": "workDir{Ripener}",
+                        "exn_type": "java.lang.NullPointerException",
+                        "stack_trace": "java.lang.NullPointerException\n"
+                    },
+                    {
+                        "classname": "org.apache.winegrower.RipenerTest",
+                        "method": "stopFrameworkBundle{Ripener}",
+                        "exn_type": "java.lang.NullPointerException",
+                        "stack_trace": "java.lang.NullPointerException\n"
+                    },
+                    {
+                        "classname": "org.apache.winegrower.RipenerTest",
+                        "method": "workDir{Ripener}",
+                        "exn_type": "java.lang.NullPointerException",
+                        "stack_trace": "java.lang.NullPointerException\n\tat org.apache.winegrower.RipenerTest.overrideConfiguration(RipenerTest.java:45)\n"
+                    },
+                    {
+                        "classname": "org.apache.winegrower.RipenerTest",
+                        "method": "stopFrameworkBundle{Ripener}",
+                        "exn_type": "java.lang.NullPointerException",
+                        "stack_trace": "java.lang.NullPointerException\n\tat org.apache.winegrower.RipenerTest.overrideConfiguration(RipenerTest.java:45)\n"
+                    },
+                    {
+                        "classname": "org.apache.winegrower.RipenerTest",
+                        "method": "overrideConfiguration",
+                        "exn_type": "java.lang.NullPointerException",
+                        "stack_trace": "java.lang.NullPointerException\n"
+                    },
+                    {
+                        "classname": "org.apache.winegrower.RipenerTest",
+                        "method": "implicitActivator{Ripener}",
+                        "exn_type": "java.lang.NullPointerException",
+                        "stack_trace": "java.lang.NullPointerException\n"
+                    },
+                    {
+                        "classname": "org.apache.winegrower.RipenerTest",
+                        "method": "simpleService{Ripener}",
+                        "exn_type": "java.lang.NullPointerException",
+                        "stack_trace": "java.lang.NullPointerException\n"
+                    },
+                    {
+                        "classname": "org.apache.winegrower.RipenerTest",
+                        "method": "overrideConfiguration",
+                        "exn_type": "java.lang.NullPointerException",
+                        "stack_trace": "java.lang.NullPointerException\n\tat org.apache.winegrower.RipenerTest.overrideConfiguration(RipenerTest.java:45)\n"
+                    },
+                    {
+                        "classname": "org.apache.winegrower.service.HookTest",
+                        "method": "replaceServiceInstance{Ripener}",
+                        "exn_type": "java.lang.NullPointerException",
+                        "stack_trace": "java.lang.NullPointerException\n"
+                    },
+                    {
+                        "classname": "org.apache.winegrower.RipenerTest",
+                        "method": "simpleServiceReversedOrder{Ripener}",
+                        "exn_type": "java.lang.NullPointerException",
+                        "stack_trace": "java.lang.NullPointerException\n"
+                    },
+                    {
+                        "classname": "org.apache.winegrower.RipenerTest",
+                        "method": "simpleServiceRegistration{Ripener}",
+                        "exn_type": "java.lang.NullPointerException",
+                        "stack_trace": "java.lang.NullPointerException\n"
+                    },
+                    {
+                        "classname": "org.apache.winegrower.RipenerTest",
+                        "method": "implicitActivator{Ripener}",
+                        "exn_type": "java.lang.NullPointerException",
+                        "stack_trace": "java.lang.NullPointerException\n\tat org.apache.winegrower.RipenerTest.overrideConfiguration(RipenerTest.java:45)\n"
+                    },
+                    {
+                        "classname": "org.apache.winegrower.RipenerTest",
+                        "method": "simpleActivator{Ripener}",
+                        "exn_type": "java.lang.NullPointerException",
+                        "stack_trace": "java.lang.NullPointerException\n"
+                    },
+                    {
+                        "classname": "org.apache.winegrower.RipenerTest",
+                        "method": "simpleService{Ripener}",
+                        "exn_type": "java.lang.NullPointerException",
+                        "stack_trace": "java.lang.NullPointerException\n\tat org.apache.winegrower.RipenerTest.overrideConfiguration(RipenerTest.java:45)\n"
+                    },
+                    {
+                        "classname": "org.apache.winegrower.InjectionTest",
+                        "method": "inject{Ripener}",
+                        "exn_type": "java.lang.NullPointerException",
+                        "stack_trace": "java.lang.NullPointerException\n"
+                    },
+                    {
+                        "classname": "org.apache.winegrower.RipenerTest",
+                        "method": "simpleServiceReversedOrder{Ripener}",
+                        "exn_type": "java.lang.NullPointerException",
+                        "stack_trace": "java.lang.NullPointerException\n\tat org.apache.winegrower.RipenerTest.overrideConfiguration(RipenerTest.java:45)\n"
+                    },
+                    {
+                        "classname": "org.apache.winegrower.RipenerTest",
+                        "method": "simpleServiceRegistration{Ripener}",
+                        "exn_type": "java.lang.NullPointerException",
+                        "stack_trace": "java.lang.NullPointerException\n\tat org.apache.winegrower.RipenerTest.overrideConfiguration(RipenerTest.java:45)\n"
+                    },
+                    {
+                        "classname": "org.apache.winegrower.deployer.BundleImplTest",
+                        "method": "org.apache.winegrower.deployer.BundleImplTest",
+                        "exn_type": "java.lang.NullPointerException",
+                        "stack_trace": "java.lang.NullPointerException\n\tat org.apache.winegrower.deployer.BundleImplTest.initBundle(BundleImplTest.java:52)\n"
+                    },
+                    {
+                        "classname": "org.apache.winegrower.service.ServiceListenerTest",
+                        "method": "withFilter{Ripener}",
+                        "exn_type": "java.lang.NullPointerException",
+                        "stack_trace": "java.lang.NullPointerException\n"
+                    },
+                    {
+                        "classname": "org.apache.winegrower.RipenerTest",
+                        "method": "simpleActivator{Ripener}",
+                        "exn_type": "java.lang.NullPointerException",
+                        "stack_trace": "java.lang.NullPointerException\n\tat org.apache.winegrower.RipenerTest.overrideConfiguration(RipenerTest.java:45)\n"
+                    }
+                ]
+            }
+        },
+        {
+            "repo": "karaf-winegrower",
+            "bug_id": "MetadataBuilder_59",
+            "npe_info": {
+                "filepath": "winegrower-extension/winegrower-build/winegrower-build-common/src/main/java/org/apache/winegrower/extension/build/common/MetadataBuilder.java",
+                "line": 61,
+                "deref_field": "manifest",
+                "npe_class": "MetadataBuilder",
+                "npe_method": "onJar",
+                "sink_field": null,
+                "jvmti_identify_succeed": null,
+                "is_original": null
+            },
+            "build_info": {
+                "compiled": true,
+                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
+                "java_version": 8,
+                "error_message": null,
+                "time": 49.75674654007889
+            },
+            "test_info": {
+                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
+                "fail_buggy": false,
+                "pass_fixed": true,
+                "testcases": []
+            }
+        },
+        {
+            "repo": "karaf-winegrower",
+            "bug_id": "StandaloneScanner_229",
+            "npe_info": {
+                "filepath": "winegrower-core/src/main/java/org/apache/winegrower/scanner/StandaloneScanner.java",
+                "line": 232,
+                "deref_field": "manifest",
+                "npe_class": "StandaloneScanner",
+                "npe_method": "toDefinition",
+                "sink_field": null,
+                "jvmti_identify_succeed": null,
+                "is_original": null
+            },
+            "build_info": {
+                "compiled": true,
+                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
+                "java_version": 8,
+                "error_message": null,
+                "time": 42.3604158628732
+            },
+            "test_info": {
+                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
+                "fail_buggy": false,
+                "pass_fixed": true,
+                "testcases": []
+            }
+        },
+        {
+            "repo": "karaf-winegrower",
+            "bug_id": "HeaderManifestContributor_71",
+            "npe_info": {
+                "filepath": "winegrower-core/src/main/java/org/apache/winegrower/scanner/manifest/HeaderManifestContributor.java",
+                "line": 71,
+                "deref_field": "oldValue",
+                "npe_class": "1",
+                "npe_method": "merge",
+                "sink_field": null,
+                "jvmti_identify_succeed": null,
+                "is_original": null
+            },
+            "build_info": {
+                "compiled": true,
+                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
+                "java_version": 8,
+                "error_message": null,
+                "time": 47.051414713962004
+            },
+            "test_info": {
+                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
+                "fail_buggy": true,
+                "pass_fixed": true,
+                "testcases": []
+            }
+        },
+        {
+            "repo": "karaf-winegrower",
+            "bug_id": "Substitutor_40",
+            "npe_info": {
+                "filepath": "winegrower-core/src/main/java/org/apache/winegrower/lang/Substitutor.java",
+                "line": 43,
+                "deref_field": "source",
+                "npe_class": "Substitutor",
+                "npe_method": "replace",
+                "sink_field": null,
+                "jvmti_identify_succeed": null,
+                "is_original": null
+            },
+            "build_info": {
+                "compiled": true,
+                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
+                "java_version": 8,
+                "error_message": null,
+                "time": 49.41727367811836
+            },
+            "test_info": {
+                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
+                "fail_buggy": false,
+                "pass_fixed": true,
+                "testcases": []
+            }
+        },
+        {
+            "repo": "karaf-winegrower",
+            "bug_id": "OSGiServices_298",
+            "npe_info": {
+                "filepath": "winegrower-core/src/main/java/org/apache/winegrower/service/OSGiServices.java",
+                "line": 302,
+                "deref_field": "instance",
+                "npe_class": "OSGiServices",
+                "npe_method": "fireEvent",
+                "sink_field": null,
+                "jvmti_identify_succeed": null,
+                "is_original": null
+            },
+            "build_info": {
+                "compiled": true,
+                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
+                "java_version": 8,
+                "error_message": null,
+                "time": 55.77168068499304
+            },
+            "test_info": {
+                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
+                "fail_buggy": false,
+                "pass_fixed": true,
+                "testcases": []
+            }
+        },
+        {
+            "repo": "karaf-winegrower",
+            "bug_id": "BundleImpl_223",
+            "npe_info": {
+                "filepath": "winegrower-core/src/main/java/org/apache/winegrower/deployer/BundleImpl.java",
+                "line": 223,
+                "deref_field": "path",
+                "npe_class": "BundleImpl",
+                "npe_method": "getEntryPaths",
+                "sink_field": null,
+                "jvmti_identify_succeed": null,
+                "is_original": null
+            },
+            "build_info": {
+                "compiled": true,
+                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
+                "java_version": 8,
+                "error_message": null,
+                "time": 53.49854214093648
+            },
+            "test_info": {
+                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
+                "fail_buggy": false,
+                "pass_fixed": true,
+                "testcases": []
+            }
+        },
+        {
+            "repo": "karaf-winegrower",
+            "bug_id": "BundleContextImpl_269",
+            "npe_info": {
+                "filepath": "winegrower-core/src/main/java/org/apache/winegrower/deployer/BundleContextImpl.java",
+                "line": 269,
+                "deref_field": "filter",
+                "npe_class": "BundleContextImpl",
+                "npe_method": "doGetReferences",
+                "sink_field": null,
+                "jvmti_identify_succeed": null,
+                "is_original": null
+            },
+            "build_info": {
+                "compiled": true,
+                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
+                "java_version": 8,
+                "error_message": null,
+                "time": 47.06531505100429
+            },
+            "test_info": {
+                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
+                "fail_buggy": false,
+                "pass_fixed": true,
+                "testcases": []
+            }
+        },
+        {
+            "repo": "karaf-winegrower",
+            "bug_id": "ManifestCreator_29",
+            "npe_info": {
+                "filepath": "winegrower-core/src/main/java/org/apache/winegrower/scanner/manifest/ManifestCreator.java",
+                "line": 29,
+                "deref_field": "manifest",
+                "npe_class": "ManifestCreator",
+                "npe_method": "get",
+                "sink_field": null,
+                "jvmti_identify_succeed": null,
+                "is_original": null
+            },
+            "build_info": {
+                "compiled": true,
+                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
+                "java_version": 8,
+                "error_message": null,
+                "time": 52.75321829598397
+            },
+            "test_info": {
+                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
+                "fail_buggy": true,
+                "pass_fixed": true,
+                "testcases": [
+                    {
+                        "classname": "org.apache.winegrower.service.HookTest",
+                        "method": "replaceServiceInstance{Ripener}",
+                        "exn_type": "java.lang.NullPointerException",
+                        "stack_trace": "java.lang.NullPointerException\n"
+                    },
+                    {
+                        "classname": "org.apache.winegrower.service.ServiceListenerTest",
+                        "method": "withFilter{Ripener}",
+                        "exn_type": "java.lang.NullPointerException",
+                        "stack_trace": "java.lang.NullPointerException\n"
+                    },
+                    {
+                        "classname": "org.apache.winegrower.RipenerTest",
+                        "method": "implicitActivator{Ripener}",
+                        "exn_type": "java.lang.NullPointerException",
+                        "stack_trace": "java.lang.NullPointerException\n"
+                    }
+                ]
+            }
+        },
+        {
+            "repo": "karaf-winegrower",
+            "bug_id": "BundleImpl_216",
+            "npe_info": {
+                "filepath": "winegrower-core/src/main/java/org/apache/winegrower/deployer/BundleImpl.java",
+                "line": 217,
+                "deref_field": "includedResources",
+                "npe_class": "BundleImpl",
+                "npe_method": "getEntryPaths",
+                "sink_field": null,
+                "jvmti_identify_succeed": null,
+                "is_original": null
+            },
+            "build_info": {
+                "compiled": true,
+                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
+                "java_version": 8,
+                "error_message": null,
+                "time": 53.13912232709117
+            },
+            "test_info": {
+                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
+                "fail_buggy": true,
+                "pass_fixed": true,
+                "testcases": []
+            }
+        },
+        {
+            "repo": "karaf-winegrower",
+            "bug_id": "BundleImpl_257",
+            "npe_info": {
+                "filepath": "winegrower-core/src/main/java/org/apache/winegrower/deployer/BundleImpl.java",
+                "line": 257,
+                "deref_field": "file",
+                "npe_class": "BundleImpl",
+                "npe_method": "getLastModified",
+                "sink_field": null,
+                "jvmti_identify_succeed": null,
+                "is_original": null
+            },
+            "build_info": {
+                "compiled": true,
+                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
+                "java_version": 8,
+                "error_message": null,
+                "time": 49.690792623208836
+            },
+            "test_info": {
+                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
+                "fail_buggy": false,
+                "pass_fixed": true,
+                "testcases": []
+            }
+        },
+        {
+            "repo": "karaf-winegrower",
+            "bug_id": "OSGiServices_253",
+            "npe_info": {
+                "filepath": "winegrower-core/src/main/java/org/apache/winegrower/service/OSGiServices.java",
+                "line": 255,
+                "deref_field": "factoryPid",
+                "npe_class": "OSGiServices",
+                "npe_method": "registerService",
+                "sink_field": null,
+                "jvmti_identify_succeed": null,
+                "is_original": null
+            },
+            "build_info": {
+                "compiled": true,
+                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
+                "java_version": 8,
+                "error_message": null,
+                "time": 47.068979433970526
+            },
+            "test_info": {
+                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
+                "fail_buggy": false,
+                "pass_fixed": false,
+                "testcases": []
+            }
+        },
+        {
+            "repo": "karaf-winegrower",
+            "bug_id": "Substitutor_106",
+            "npe_info": {
+                "filepath": "winegrower-core/src/main/java/org/apache/winegrower/lang/Substitutor.java",
+                "line": 107,
+                "deref_field": "varValue",
+                "npe_class": "Substitutor",
+                "npe_method": "substitute",
+                "sink_field": null,
+                "jvmti_identify_succeed": null,
+                "is_original": null
+            },
+            "build_info": {
+                "compiled": true,
+                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
+                "java_version": 8,
+                "error_message": null,
+                "time": 50.3343418459408
+            },
+            "test_info": {
+                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
+                "fail_buggy": false,
+                "pass_fixed": true,
+                "testcases": []
+            }
+        },
+        {
+            "repo": "karaf-winegrower",
+            "bug_id": "BundleImpl_262",
+            "npe_info": {
+                "filepath": "winegrower-core/src/main/java/org/apache/winegrower/deployer/BundleImpl.java",
+                "line": 263,
+                "deref_field": "filePattern",
+                "npe_class": "BundleImpl",
+                "npe_method": "findEntries",
+                "sink_field": null,
+                "jvmti_identify_succeed": null,
+                "is_original": null
+            },
+            "build_info": {
+                "compiled": true,
+                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
+                "java_version": 8,
+                "error_message": null,
+                "time": 47.376964209834114
+            },
+            "test_info": {
+                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
+                "fail_buggy": false,
+                "pass_fixed": true,
+                "testcases": []
+            }
+        },
+        {
+            "repo": "karaf-winegrower",
+            "bug_id": "Run_76",
+            "npe_info": {
+                "filepath": "winegrower-extension/winegrower-build/winegrower-build-common/src/main/java/org/apache/winegrower/extension/build/common/Run.java",
+                "line": 77,
+                "deref_field": "waitOnExit",
+                "npe_class": "Run",
+                "npe_method": "waitForExit",
+                "sink_field": null,
+                "jvmti_identify_succeed": null,
+                "is_original": null
+            },
+            "build_info": {
+                "compiled": true,
+                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
+                "java_version": 8,
+                "error_message": null,
+                "time": 50.50780726200901
+            },
+            "test_info": {
+                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
+                "fail_buggy": true,
+                "pass_fixed": true,
+                "testcases": [
+                    {
+                        "classname": "org.apache.winegrower.extension.build.common.RunTest",
+                        "method": "run",
+                        "exn_type": "org.opentest4j.AssertionFailedError",
+                        "stack_trace": "org.opentest4j.AssertionFailedError: expected: not <null>\n\tat org.apache.winegrower.extension.build.common.RunTest.run(RunTest.java:55)\n"
+                    }
+                ]
+            }
+        },
+        {
+            "repo": "karaf-winegrower",
+            "bug_id": "StandaloneScanner_139",
+            "npe_info": {
+                "filepath": "winegrower-core/src/main/java/org/apache/winegrower/scanner/StandaloneScanner.java",
+                "line": 143,
+                "deref_field": "groovyClassesManifest",
+                "npe_class": "StandaloneScanner",
+                "npe_method": "scanGroovy",
+                "sink_field": null,
+                "jvmti_identify_succeed": null,
+                "is_original": null
+            },
+            "build_info": {
+                "compiled": true,
+                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
+                "java_version": 8,
+                "error_message": null,
+                "time": 43.07579795201309
+            },
+            "test_info": {
+                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
+                "fail_buggy": false,
+                "pass_fixed": true,
+                "testcases": []
+            }
+        },
+        {
+            "repo": "karaf-winegrower",
+            "bug_id": "BundleContextImpl_137",
+            "npe_info": {
+                "filepath": "winegrower-core/src/main/java/org/apache/winegrower/deployer/BundleContextImpl.java",
+                "line": 137,
+                "deref_field": "filter",
+                "npe_class": "BundleContextImpl",
+                "npe_method": "addServiceListener",
+                "sink_field": null,
+                "jvmti_identify_succeed": null,
+                "is_original": null
+            },
+            "build_info": {
+                "compiled": true,
+                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
+                "java_version": 8,
+                "error_message": null,
+                "time": 51.841471017105505
+            },
+            "test_info": {
+                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
+                "fail_buggy": true,
+                "pass_fixed": true,
+                "testcases": [
+                    {
+                        "classname": "org.apache.winegrower.service.HookTest",
+                        "method": "replaceServiceInstance{Ripener}",
+                        "exn_type": "java.lang.NullPointerException",
+                        "stack_trace": "java.lang.NullPointerException\n"
+                    }
+                ]
+            }
+        },
+        {
+            "repo": "karaf-winegrower",
+            "bug_id": "Run_61",
+            "npe_info": {
+                "filepath": "winegrower-extension/winegrower-build/winegrower-build-common/src/main/java/org/apache/winegrower/extension/build/common/Run.java",
+                "line": 62,
+                "deref_field": "systemVariables",
+                "npe_class": "Run",
+                "npe_method": "run",
+                "sink_field": null,
+                "jvmti_identify_succeed": null,
+                "is_original": null
+            },
+            "build_info": {
+                "compiled": true,
+                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
+                "java_version": 8,
+                "error_message": null,
+                "time": 48.2236045319587
+            },
+            "test_info": {
+                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
+                "fail_buggy": false,
+                "pass_fixed": true,
+                "testcases": []
+            }
+        },
+        {
+            "repo": "karaf-winegrower",
+            "bug_id": "BundleImpl_266",
+            "npe_info": {
+                "filepath": "winegrower-core/src/main/java/org/apache/winegrower/deployer/BundleImpl.java",
+                "line": 268,
+                "deref_field": "includedResources",
+                "npe_class": "BundleImpl",
+                "npe_method": "findEntries",
+                "sink_field": null,
+                "jvmti_identify_succeed": null,
+                "is_original": null
+            },
+            "build_info": {
+                "compiled": true,
+                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
+                "java_version": 8,
+                "error_message": null,
+                "time": 40.054928825004026
+            },
+            "test_info": {
+                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
+                "fail_buggy": true,
+                "pass_fixed": true,
+                "testcases": [
+                    {
+                        "classname": "org.apache.winegrower.deployer.BundleImplTest",
+                        "method": "findEntriesDirectNameNotRecursive",
+                        "exn_type": "java.lang.NullPointerException",
+                        "stack_trace": "java.lang.NullPointerException\n\tat org.apache.winegrower.deployer.BundleImplTest.findEntriesDirectNameNotRecursive(BundleImplTest.java:132)\n"
+                    }
+                ]
+            }
+        },
+        {
+            "repo": "karaf-winegrower",
+            "bug_id": "BundleImpl_264",
+            "npe_info": {
+                "filepath": "winegrower-core/src/main/java/org/apache/winegrower/deployer/BundleImpl.java",
+                "line": 264,
+                "deref_field": "path",
+                "npe_class": "BundleImpl",
+                "npe_method": "findEntries",
+                "sink_field": null,
+                "jvmti_identify_succeed": null,
+                "is_original": null
+            },
+            "build_info": {
+                "compiled": true,
+                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
+                "java_version": 8,
+                "error_message": null,
+                "time": 48.96945828013122
+            },
+            "test_info": {
+                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
+                "fail_buggy": false,
+                "pass_fixed": true,
+                "testcases": []
+            }
+        },
+        {
+            "repo": "karaf-winegrower",
+            "bug_id": "OSGiBundleLifecycle_81",
+            "npe_info": {
+                "filepath": "winegrower-core/src/main/java/org/apache/winegrower/deployer/OSGiBundleLifecycle.java",
+                "line": 82,
+                "deref_field": "activator",
+                "npe_class": "OSGiBundleLifecycle",
+                "npe_method": "stop",
+                "sink_field": null,
+                "jvmti_identify_succeed": null,
+                "is_original": null
+            },
+            "build_info": {
+                "compiled": true,
+                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
+                "java_version": 8,
+                "error_message": null,
+                "time": 44.46630481700413
+            },
+            "test_info": {
+                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
+                "fail_buggy": true,
+                "pass_fixed": true,
+                "testcases": [
+                    {
+                        "classname": "org.apache.winegrower.RipenerTest",
+                        "method": "simpleActivator{Ripener}",
+                        "exn_type": "java.lang.NullPointerException",
+                        "stack_trace": "java.lang.NullPointerException\n\tat org.apache.winegrower.RipenerTest.simpleActivator(RipenerTest.java:128)\n"
+                    },
+                    {
+                        "classname": "org.apache.winegrower.RipenerTest",
+                        "method": "simpleServiceReversedOrder{Ripener}",
+                        "exn_type": "java.lang.NullPointerException",
+                        "stack_trace": "java.lang.NullPointerException\n\tat org.apache.winegrower.RipenerTest.simpleActivator(RipenerTest.java:128)\n"
+                    },
+                    {
+                        "classname": "org.apache.winegrower.RipenerTest",
+                        "method": "simpleService{Ripener}",
+                        "exn_type": "java.lang.NullPointerException",
+                        "stack_trace": "java.lang.NullPointerException\n\tat org.apache.winegrower.RipenerTest.stopFrameworkBundle(RipenerTest.java:61)\n"
+                    },
+                    {
+                        "classname": "org.apache.winegrower.RipenerTest",
+                        "method": "simpleServiceReversedOrder{Ripener}",
+                        "exn_type": "java.lang.NullPointerException",
+                        "stack_trace": "java.lang.NullPointerException\n\tat org.apache.winegrower.RipenerTest.stopFrameworkBundle(RipenerTest.java:61)\n"
+                    },
+                    {
+                        "classname": "org.apache.winegrower.RipenerTest",
+                        "method": "simpleServiceRegistration{Ripener}",
+                        "exn_type": "java.lang.NullPointerException",
+                        "stack_trace": "java.lang.NullPointerException\n\tat org.apache.winegrower.RipenerTest.stopFrameworkBundle(RipenerTest.java:61)\n"
+                    },
+                    {
+                        "classname": "org.apache.winegrower.RipenerTest",
+                        "method": "simpleActivator{Ripener}",
+                        "exn_type": "java.lang.NullPointerException",
+                        "stack_trace": "java.lang.NullPointerException\n\tat org.apache.winegrower.RipenerTest.stopFrameworkBundle(RipenerTest.java:61)\n"
+                    },
+                    {
+                        "classname": "org.apache.winegrower.RipenerTest",
+                        "method": "workDir{Ripener}",
+                        "exn_type": "java.lang.NullPointerException",
+                        "stack_trace": "java.lang.NullPointerException\n"
+                    },
+                    {
+                        "classname": "org.apache.winegrower.RipenerTest",
+                        "method": "stopFrameworkBundle{Ripener}",
+                        "exn_type": "java.lang.NullPointerException",
+                        "stack_trace": "java.lang.NullPointerException\n"
+                    },
+                    {
+                        "classname": "org.apache.winegrower.RipenerTest",
+                        "method": "ensureFrameworkBundle{Ripener}",
+                        "exn_type": "java.lang.NullPointerException",
+                        "stack_trace": "java.lang.NullPointerException\n\tat org.apache.winegrower.RipenerTest.simpleActivator(RipenerTest.java:128)\n"
+                    },
+                    {
+                        "classname": "org.apache.winegrower.RipenerTest",
+                        "method": "implicitActivator{Ripener}",
+                        "exn_type": "java.lang.NullPointerException",
+                        "stack_trace": "java.lang.NullPointerException\n\tat org.apache.winegrower.RipenerTest.workDir(RipenerTest.java:82)\n"
+                    },
+                    {
+                        "classname": "org.apache.winegrower.RipenerTest",
+                        "method": "ensureFrameworkBundle{Ripener}",
+                        "exn_type": "java.lang.NullPointerException",
+                        "stack_trace": "java.lang.NullPointerException\n\tat org.apache.winegrower.RipenerTest.stopFrameworkBundle(RipenerTest.java:61)\n"
+                    },
+                    {
+                        "classname": "org.apache.winegrower.RipenerTest",
+                        "method": "simpleService{Ripener}",
+                        "exn_type": "java.lang.NullPointerException",
+                        "stack_trace": "java.lang.NullPointerException\n"
+                    },
+                    {
+                        "classname": "org.apache.winegrower.service.HookTest",
+                        "method": "replaceServiceInstance{Ripener}",
+                        "exn_type": "java.lang.NullPointerException",
+                        "stack_trace": "java.lang.NullPointerException\n"
+                    },
+                    {
+                        "classname": "org.apache.winegrower.RipenerTest",
+                        "method": "simpleServiceReversedOrder{Ripener}",
+                        "exn_type": "java.lang.NullPointerException",
+                        "stack_trace": "java.lang.NullPointerException\n"
+                    },
+                    {
+                        "classname": "org.apache.winegrower.RipenerTest",
+                        "method": "simpleServiceRegistration{Ripener}",
+                        "exn_type": "java.lang.NullPointerException",
+                        "stack_trace": "java.lang.NullPointerException\n"
+                    },
+                    {
+                        "classname": "org.apache.winegrower.RipenerTest",
+                        "method": "simpleActivator{Ripener}",
+                        "exn_type": "java.lang.NullPointerException",
+                        "stack_trace": "java.lang.NullPointerException\n"
+                    },
+                    {
+                        "classname": "org.apache.winegrower.RipenerTest",
+                        "method": "stopFrameworkBundle{Ripener}",
+                        "exn_type": "java.lang.NullPointerException",
+                        "stack_trace": "java.lang.NullPointerException\n\tat org.apache.winegrower.RipenerTest.implicitActivator(RipenerTest.java:107)\n"
+                    },
+                    {
+                        "classname": "org.apache.winegrower.RipenerTest",
+                        "method": "workDir{Ripener}",
+                        "exn_type": "java.lang.NullPointerException",
+                        "stack_trace": "java.lang.NullPointerException\n\tat org.apache.winegrower.RipenerTest.implicitActivator(RipenerTest.java:107)\n"
+                    },
+                    {
+                        "classname": "org.apache.winegrower.InjectionTest",
+                        "method": "inject{Ripener}",
+                        "exn_type": "java.lang.NullPointerException",
+                        "stack_trace": "java.lang.NullPointerException\n"
+                    },
+                    {
+                        "classname": "org.apache.winegrower.RipenerTest",
+                        "method": "implicitActivator{Ripener}",
+                        "exn_type": "java.lang.NullPointerException",
+                        "stack_trace": "java.lang.NullPointerException\n\tat org.apache.winegrower.RipenerTest.simpleActivator(RipenerTest.java:128)\n"
+                    },
+                    {
+                        "classname": "org.apache.winegrower.RipenerTest",
+                        "method": "simpleService{Ripener}",
+                        "exn_type": "java.lang.NullPointerException",
+                        "stack_trace": "java.lang.NullPointerException\n\tat org.apache.winegrower.RipenerTest.implicitActivator(RipenerTest.java:107)\n"
+                    },
+                    {
+                        "classname": "org.apache.winegrower.RipenerTest",
+                        "method": "simpleServiceReversedOrder{Ripener}",
+                        "exn_type": "java.lang.NullPointerException",
+                        "stack_trace": "java.lang.NullPointerException\n\tat org.apache.winegrower.RipenerTest.implicitActivator(RipenerTest.java:107)\n"
+                    },
+                    {
+                        "classname": "org.apache.winegrower.RipenerTest",
+                        "method": "simpleServiceRegistration{Ripener}",
+                        "exn_type": "java.lang.NullPointerException",
+                        "stack_trace": "java.lang.NullPointerException\n\tat org.apache.winegrower.RipenerTest.implicitActivator(RipenerTest.java:107)\n"
+                    },
+                    {
+                        "classname": "org.apache.winegrower.RipenerTest",
+                        "method": "implicitActivator{Ripener}",
+                        "exn_type": "java.lang.NullPointerException",
+                        "stack_trace": "java.lang.NullPointerException\n\tat org.apache.winegrower.RipenerTest.stopFrameworkBundle(RipenerTest.java:61)\n"
+                    },
+                    {
+                        "classname": "org.apache.winegrower.RipenerTest",
+                        "method": "ensureFrameworkBundle{Ripener}",
+                        "exn_type": "java.lang.NullPointerException",
+                        "stack_trace": "java.lang.NullPointerException\n"
+                    },
+                    {
+                        "classname": "org.apache.winegrower.RipenerTest",
+                        "method": "workDir{Ripener}",
+                        "exn_type": "java.lang.NullPointerException",
+                        "stack_trace": "java.lang.NullPointerException\n\tat org.apache.winegrower.RipenerTest.stopFrameworkBundle(RipenerTest.java:61)\n"
+                    },
+                    {
+                        "classname": "org.apache.winegrower.RipenerTest",
+                        "method": "simpleActivator{Ripener}",
+                        "exn_type": "java.lang.NullPointerException",
+                        "stack_trace": "java.lang.NullPointerException\n\tat org.apache.winegrower.RipenerTest.implicitActivator(RipenerTest.java:107)\n"
+                    },
+                    {
+                        "classname": "org.apache.winegrower.RipenerTest",
+                        "method": "workDir{Ripener}",
+                        "exn_type": "java.lang.NullPointerException",
+                        "stack_trace": "java.lang.NullPointerException\n\tat org.apache.winegrower.RipenerTest.workDir(RipenerTest.java:82)\n"
+                    },
+                    {
+                        "classname": "org.apache.winegrower.RipenerTest",
+                        "method": "stopFrameworkBundle{Ripener}",
+                        "exn_type": "java.lang.NullPointerException",
+                        "stack_trace": "java.lang.NullPointerException\n\tat org.apache.winegrower.RipenerTest.workDir(RipenerTest.java:82)\n"
+                    },
+                    {
+                        "classname": "org.apache.winegrower.RipenerTest",
+                        "method": "ensureFrameworkBundle{Ripener}",
+                        "exn_type": "java.lang.NullPointerException",
+                        "stack_trace": "java.lang.NullPointerException\n\tat org.apache.winegrower.RipenerTest.implicitActivator(RipenerTest.java:107)\n"
+                    },
+                    {
+                        "classname": "org.apache.winegrower.RipenerTest",
+                        "method": "simpleService{Ripener}",
+                        "exn_type": "java.lang.NullPointerException",
+                        "stack_trace": "java.lang.NullPointerException\n\tat org.apache.winegrower.RipenerTest.workDir(RipenerTest.java:82)\n"
+                    },
+                    {
+                        "classname": "org.apache.winegrower.RipenerTest",
+                        "method": "simpleServiceRegistration{Ripener}",
+                        "exn_type": "java.lang.NullPointerException",
+                        "stack_trace": "java.lang.NullPointerException\n\tat org.apache.winegrower.RipenerTest.workDir(RipenerTest.java:82)\n"
+                    },
+                    {
+                        "classname": "org.apache.winegrower.RipenerTest",
+                        "method": "implicitActivator{Ripener}",
+                        "exn_type": "java.lang.NullPointerException",
+                        "stack_trace": "java.lang.NullPointerException\n"
+                    },
+                    {
+                        "classname": "org.apache.winegrower.RipenerTest",
+                        "method": "simpleActivator{Ripener}",
+                        "exn_type": "java.lang.NullPointerException",
+                        "stack_trace": "java.lang.NullPointerException\n\tat org.apache.winegrower.RipenerTest.workDir(RipenerTest.java:82)\n"
+                    },
+                    {
+                        "classname": "org.apache.winegrower.RipenerTest",
+                        "method": "stopFrameworkBundle{Ripener}",
+                        "exn_type": "java.lang.NullPointerException",
+                        "stack_trace": "java.lang.NullPointerException\n\tat org.apache.winegrower.RipenerTest.simpleActivator(RipenerTest.java:128)\n"
+                    },
+                    {
+                        "classname": "org.apache.winegrower.RipenerTest",
+                        "method": "simpleServiceReversedOrder{Ripener}",
+                        "exn_type": "java.lang.NullPointerException",
+                        "stack_trace": "java.lang.NullPointerException\n\tat org.apache.winegrower.RipenerTest.workDir(RipenerTest.java:82)\n"
+                    },
+                    {
+                        "classname": "org.apache.winegrower.RipenerTest",
+                        "method": "ensureFrameworkBundle{Ripener}",
+                        "exn_type": "java.lang.NullPointerException",
+                        "stack_trace": "java.lang.NullPointerException\n\tat org.apache.winegrower.RipenerTest.workDir(RipenerTest.java:82)\n"
+                    },
+                    {
+                        "classname": "org.apache.winegrower.RipenerTest",
+                        "method": "workDir{Ripener}",
+                        "exn_type": "java.lang.NullPointerException",
+                        "stack_trace": "java.lang.NullPointerException\n\tat org.apache.winegrower.RipenerTest.simpleActivator(RipenerTest.java:128)\n"
+                    },
+                    {
+                        "classname": "org.apache.winegrower.service.ServiceListenerTest",
+                        "method": "withFilter{Ripener}",
+                        "exn_type": "java.lang.NullPointerException",
+                        "stack_trace": "java.lang.NullPointerException\n"
+                    },
+                    {
+                        "classname": "org.apache.winegrower.RipenerTest",
+                        "method": "simpleService{Ripener}",
+                        "exn_type": "java.lang.NullPointerException",
+                        "stack_trace": "java.lang.NullPointerException\n\tat org.apache.winegrower.RipenerTest.simpleActivator(RipenerTest.java:128)\n"
+                    },
+                    {
+                        "classname": "org.apache.winegrower.RipenerTest",
+                        "method": "stopFrameworkBundle{Ripener}",
+                        "exn_type": "java.lang.NullPointerException",
+                        "stack_trace": "java.lang.NullPointerException\n\tat org.apache.winegrower.RipenerTest.stopFrameworkBundle(RipenerTest.java:61)\n"
+                    },
+                    {
+                        "classname": "org.apache.winegrower.RipenerTest",
+                        "method": "simpleServiceRegistration{Ripener}",
+                        "exn_type": "java.lang.NullPointerException",
+                        "stack_trace": "java.lang.NullPointerException\n\tat org.apache.winegrower.RipenerTest.simpleActivator(RipenerTest.java:128)\n"
+                    },
+                    {
+                        "classname": "org.apache.winegrower.RipenerTest",
+                        "method": "implicitActivator{Ripener}",
+                        "exn_type": "java.lang.NullPointerException",
+                        "stack_trace": "java.lang.NullPointerException\n\tat org.apache.winegrower.RipenerTest.implicitActivator(RipenerTest.java:107)\n"
+                    }
+                ]
+            }
+        },
+        {
+            "repo": "karaf-winegrower",
+            "bug_id": "Config_62",
+            "npe_info": {
+                "filepath": "winegrower-examples/config/src/main/java/org/apache/winegrower/examples/Config.java",
+                "line": 63,
+                "deref_field": "registration",
+                "npe_class": "Config",
+                "npe_method": "stop",
+                "sink_field": null,
+                "jvmti_identify_succeed": null,
+                "is_original": null
+            },
+            "build_info": {
+                "compiled": true,
+                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
+                "java_version": 8,
+                "error_message": null,
+                "time": 52.95510509493761
+            },
+            "test_info": {
+                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
+                "fail_buggy": false,
+                "pass_fixed": true,
+                "testcases": []
+            }
+        },
+        {
+            "repo": "karaf-winegrower",
+            "bug_id": "OSGiServices_158",
+            "npe_info": {
+                "filepath": "winegrower-core/src/main/java/org/apache/winegrower/service/OSGiServices.java",
+                "line": 159,
+                "deref_field": "properties",
+                "npe_class": "OSGiServices",
+                "npe_method": "registerService",
+                "sink_field": null,
+                "jvmti_identify_succeed": null,
+                "is_original": null
+            },
+            "build_info": {
+                "compiled": true,
+                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
+                "java_version": 8,
+                "error_message": null,
+                "time": 39.01409117411822
+            },
+            "test_info": {
+                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
+                "fail_buggy": true,
+                "pass_fixed": true,
+                "testcases": [
+                    {
+                        "classname": "org.apache.winegrower.servlet.RipenerLifecycleTest",
+                        "method": "org.apache.winegrower.servlet.RipenerLifecycleTest",
+                        "exn_type": "java.lang.IllegalStateException",
+                        "stack_trace": "java.lang.IllegalStateException: Error starting child\nCaused by: org.apache.catalina.LifecycleException: Failed to start component [StandardEngine[Tomcat].StandardHost[localhost].[]]\nCaused by: java.lang.NullPointerException\n"
+                    }
+                ]
+            }
+        },
+        {
+            "repo": "karaf-winegrower",
+            "bug_id": "StandaloneScanner_166",
+            "npe_info": {
+                "filepath": "winegrower-core/src/main/java/org/apache/winegrower/scanner/StandaloneScanner.java",
+                "line": 170,
+                "deref_field": "manifest",
+                "npe_class": "StandaloneScanner",
+                "npe_method": "findPotentialOSGiBundles",
+                "sink_field": null,
+                "jvmti_identify_succeed": null,
+                "is_original": null
+            },
+            "build_info": {
+                "compiled": true,
+                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
+                "java_version": 8,
+                "error_message": null,
+                "time": 51.92045888514258
+            },
+            "test_info": {
+                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
+                "fail_buggy": true,
+                "pass_fixed": true,
+                "testcases": [
+                    {
+                        "classname": "org.apache.winegrower.extension.testing.junit5.internal.MonoWinegrowerExtensionTest",
+                        "method": "org.apache.winegrower.extension.testing.junit5.internal.MonoWinegrowerExtensionTest",
+                        "exn_type": "java.lang.NullPointerException",
+                        "stack_trace": "java.lang.NullPointerException\n"
+                    },
+                    {
+                        "classname": "org.apache.winegrower.extension.testing.junit5.internal.WinegrowerExtensionTest",
+                        "method": "org.apache.winegrower.extension.testing.junit5.internal.WinegrowerExtensionTest",
+                        "exn_type": "java.lang.NullPointerException",
+                        "stack_trace": "java.lang.NullPointerException\n"
+                    }
+                ]
+            }
+        },
+        {
+            "repo": "karaf-winegrower",
+            "bug_id": "OSGiBundleLifecycle_57",
+            "npe_info": {
+                "filepath": "winegrower-core/src/main/java/org/apache/winegrower/deployer/OSGiBundleLifecycle.java",
+                "line": 60,
+                "deref_field": "activatorClass",
+                "npe_class": "OSGiBundleLifecycle",
+                "npe_method": "start",
+                "sink_field": null,
+                "jvmti_identify_succeed": null,
+                "is_original": null
+            },
+            "build_info": {
+                "compiled": true,
+                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
+                "java_version": 8,
+                "error_message": null,
+                "time": 47.52672900003381
+            },
+            "test_info": {
+                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
+                "fail_buggy": true,
+                "pass_fixed": true,
+                "testcases": [
+                    {
+                        "classname": "org.apache.winegrower.service.DefaultEventAdminTest",
+                        "method": "publish",
+                        "exn_type": "java.lang.NullPointerException",
+                        "stack_trace": "java.lang.NullPointerException\n\tat org.apache.winegrower.service.DefaultEventAdminTest.publish(DefaultEventAdminTest.java:36)\n"
+                    },
+                    {
+                        "classname": "org.apache.winegrower.RipenerTest",
+                        "method": "ensureFrameworkBundle{Ripener}",
+                        "exn_type": "java.lang.NullPointerException",
+                        "stack_trace": "java.lang.NullPointerException\n"
+                    },
+                    {
+                        "classname": "org.apache.winegrower.RipenerTest",
+                        "method": "ensureFrameworkBundle{Ripener}",
+                        "exn_type": "java.lang.NullPointerException",
+                        "stack_trace": "java.lang.NullPointerException\n\tat org.apache.winegrower.RipenerTest.overrideConfiguration(RipenerTest.java:45)\n"
+                    },
+                    {
+                        "classname": "org.apache.winegrower.RipenerTest",
+                        "method": "workDir{Ripener}",
+                        "exn_type": "java.lang.NullPointerException",
+                        "stack_trace": "java.lang.NullPointerException\n"
+                    },
+                    {
+                        "classname": "org.apache.winegrower.RipenerTest",
+                        "method": "stopFrameworkBundle{Ripener}",
+                        "exn_type": "java.lang.NullPointerException",
+                        "stack_trace": "java.lang.NullPointerException\n"
+                    },
+                    {
+                        "classname": "org.apache.winegrower.RipenerTest",
+                        "method": "workDir{Ripener}",
+                        "exn_type": "java.lang.NullPointerException",
+                        "stack_trace": "java.lang.NullPointerException\n\tat org.apache.winegrower.RipenerTest.overrideConfiguration(RipenerTest.java:45)\n"
+                    },
+                    {
+                        "classname": "org.apache.winegrower.RipenerTest",
+                        "method": "stopFrameworkBundle{Ripener}",
+                        "exn_type": "java.lang.NullPointerException",
+                        "stack_trace": "java.lang.NullPointerException\n\tat org.apache.winegrower.RipenerTest.overrideConfiguration(RipenerTest.java:45)\n"
+                    },
+                    {
+                        "classname": "org.apache.winegrower.RipenerTest",
+                        "method": "overrideConfiguration",
+                        "exn_type": "java.lang.NullPointerException",
+                        "stack_trace": "java.lang.NullPointerException\n"
+                    },
+                    {
+                        "classname": "org.apache.winegrower.RipenerTest",
+                        "method": "implicitActivator{Ripener}",
+                        "exn_type": "java.lang.NullPointerException",
+                        "stack_trace": "java.lang.NullPointerException\n"
+                    },
+                    {
+                        "classname": "org.apache.winegrower.RipenerTest",
+                        "method": "simpleService{Ripener}",
+                        "exn_type": "java.lang.NullPointerException",
+                        "stack_trace": "java.lang.NullPointerException\n"
+                    },
+                    {
+                        "classname": "org.apache.winegrower.RipenerTest",
+                        "method": "overrideConfiguration",
+                        "exn_type": "java.lang.NullPointerException",
+                        "stack_trace": "java.lang.NullPointerException\n\tat org.apache.winegrower.RipenerTest.overrideConfiguration(RipenerTest.java:45)\n"
+                    },
+                    {
+                        "classname": "org.apache.winegrower.service.HookTest",
+                        "method": "replaceServiceInstance{Ripener}",
+                        "exn_type": "java.lang.NullPointerException",
+                        "stack_trace": "java.lang.NullPointerException\n"
+                    },
+                    {
+                        "classname": "org.apache.winegrower.RipenerTest",
+                        "method": "simpleServiceReversedOrder{Ripener}",
+                        "exn_type": "java.lang.NullPointerException",
+                        "stack_trace": "java.lang.NullPointerException\n"
+                    },
+                    {
+                        "classname": "org.apache.winegrower.RipenerTest",
+                        "method": "simpleServiceRegistration{Ripener}",
+                        "exn_type": "java.lang.NullPointerException",
+                        "stack_trace": "java.lang.NullPointerException\n"
+                    },
+                    {
+                        "classname": "org.apache.winegrower.RipenerTest",
+                        "method": "implicitActivator{Ripener}",
+                        "exn_type": "java.lang.NullPointerException",
+                        "stack_trace": "java.lang.NullPointerException\n\tat org.apache.winegrower.RipenerTest.overrideConfiguration(RipenerTest.java:45)\n"
+                    },
+                    {
+                        "classname": "org.apache.winegrower.RipenerTest",
+                        "method": "simpleActivator{Ripener}",
+                        "exn_type": "java.lang.NullPointerException",
+                        "stack_trace": "java.lang.NullPointerException\n"
+                    },
+                    {
+                        "classname": "org.apache.winegrower.RipenerTest",
+                        "method": "simpleService{Ripener}",
+                        "exn_type": "java.lang.NullPointerException",
+                        "stack_trace": "java.lang.NullPointerException\n\tat org.apache.winegrower.RipenerTest.overrideConfiguration(RipenerTest.java:45)\n"
+                    },
+                    {
+                        "classname": "org.apache.winegrower.InjectionTest",
+                        "method": "inject{Ripener}",
+                        "exn_type": "java.lang.NullPointerException",
+                        "stack_trace": "java.lang.NullPointerException\n"
+                    },
+                    {
+                        "classname": "org.apache.winegrower.RipenerTest",
+                        "method": "simpleServiceReversedOrder{Ripener}",
+                        "exn_type": "java.lang.NullPointerException",
+                        "stack_trace": "java.lang.NullPointerException\n\tat org.apache.winegrower.RipenerTest.overrideConfiguration(RipenerTest.java:45)\n"
+                    },
+                    {
+                        "classname": "org.apache.winegrower.RipenerTest",
+                        "method": "simpleServiceRegistration{Ripener}",
+                        "exn_type": "java.lang.NullPointerException",
+                        "stack_trace": "java.lang.NullPointerException\n\tat org.apache.winegrower.RipenerTest.overrideConfiguration(RipenerTest.java:45)\n"
+                    },
+                    {
+                        "classname": "org.apache.winegrower.deployer.BundleImplTest",
+                        "method": "org.apache.winegrower.deployer.BundleImplTest",
+                        "exn_type": "java.lang.NullPointerException",
+                        "stack_trace": "java.lang.NullPointerException\n\tat org.apache.winegrower.deployer.BundleImplTest.initBundle(BundleImplTest.java:52)\n"
+                    },
+                    {
+                        "classname": "org.apache.winegrower.service.ServiceListenerTest",
+                        "method": "withFilter{Ripener}",
+                        "exn_type": "java.lang.NullPointerException",
+                        "stack_trace": "java.lang.NullPointerException\n"
+                    },
+                    {
+                        "classname": "org.apache.winegrower.RipenerTest",
+                        "method": "simpleActivator{Ripener}",
+                        "exn_type": "java.lang.NullPointerException",
+                        "stack_trace": "java.lang.NullPointerException\n\tat org.apache.winegrower.RipenerTest.overrideConfiguration(RipenerTest.java:45)\n"
+                    }
+                ]
+            }
+        },
+        {
+            "repo": "karaf-winegrower",
+            "bug_id": "Build_225",
+            "npe_info": {
+                "filepath": "winegrower-extension/winegrower-build/winegrower-build-common/src/main/java/org/apache/winegrower/extension/build/common/Build.java",
+                "line": 226,
+                "deref_field": "files",
+                "npe_class": "Build",
+                "npe_method": "tarGz",
+                "sink_field": null,
+                "jvmti_identify_succeed": null,
+                "is_original": null
+            },
+            "build_info": {
+                "compiled": true,
+                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
+                "java_version": 8,
+                "error_message": null,
+                "time": 48.76983885187656
+            },
+            "test_info": {
+                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
+                "fail_buggy": false,
+                "pass_fixed": true,
+                "testcases": []
+            }
+        },
+        {
+            "repo": "karaf-winegrower",
+            "bug_id": "ServletHttpService_61",
+            "npe_info": {
+                "filepath": "winegrower-extension/winegrower-servlet/src/main/java/org/apache/winegrower/servlet/service/ServletHttpService.java",
+                "line": 62,
+                "deref_field": "initParams",
+                "npe_class": "ServletHttpService",
+                "npe_method": "registerServlet",
+                "sink_field": null,
+                "jvmti_identify_succeed": null,
+                "is_original": null
+            },
+            "build_info": {
+                "compiled": true,
+                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
+                "java_version": 8,
+                "error_message": null,
+                "time": 41.82347402907908
+            },
+            "test_info": {
+                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
+                "fail_buggy": false,
+                "pass_fixed": true,
+                "testcases": []
+            }
+        },
+        {
+            "repo": "karaf-winegrower",
+            "bug_id": "MetadataBuilder_78",
+            "npe_info": {
+                "filepath": "winegrower-extension/winegrower-build/winegrower-build-common/src/main/java/org/apache/winegrower/extension/build/common/MetadataBuilder.java",
+                "line": 79,
+                "deref_field": "files",
+                "npe_class": "MetadataBuilder",
+                "npe_method": "onFile",
+                "sink_field": null,
+                "jvmti_identify_succeed": null,
+                "is_original": null
+            },
+            "build_info": {
+                "compiled": true,
+                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
+                "java_version": 8,
+                "error_message": null,
+                "time": 39.16437528701499
+            },
+            "test_info": {
+                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
+                "fail_buggy": false,
+                "pass_fixed": true,
+                "testcases": []
+            }
+        },
+        {
+            "repo": "karaf-winegrower",
+            "bug_id": "DefaultConfigurationAdmin_117",
+            "npe_info": {
+                "filepath": "winegrower-core/src/main/java/org/apache/winegrower/service/DefaultConfigurationAdmin.java",
+                "line": 118,
+                "deref_field": "existing",
+                "npe_class": "DefaultConfigurationAdmin",
+                "npe_method": "getOrCreate",
+                "sink_field": null,
+                "jvmti_identify_succeed": null,
+                "is_original": null
+            },
+            "build_info": {
+                "compiled": true,
+                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
+                "java_version": 8,
+                "error_message": null,
+                "time": 42.72775252209976
+            },
+            "test_info": {
+                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
+                "fail_buggy": true,
+                "pass_fixed": true,
+                "testcases": []
+            }
+        },
+        {
+            "repo": "karaf-winegrower",
+            "bug_id": "BundleImpl_331",
+            "npe_info": {
+                "filepath": "winegrower-core/src/main/java/org/apache/winegrower/deployer/BundleImpl.java",
+                "line": 336,
+                "deref_field": "filter",
+                "npe_class": "BundleImpl",
+                "npe_method": "doFilterEntry",
+                "sink_field": null,
+                "jvmti_identify_succeed": null,
+                "is_original": null
+            },
+            "build_info": {
+                "compiled": true,
+                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
+                "java_version": 8,
+                "error_message": null,
+                "time": 50.13367723906413
+            },
+            "test_info": {
+                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
+                "fail_buggy": false,
+                "pass_fixed": true,
+                "testcases": []
+            }
+        },
+        {
+            "repo": "karaf-winegrower",
+            "bug_id": "OSGiServices_155",
+            "npe_info": {
+                "filepath": "winegrower-core/src/main/java/org/apache/winegrower/service/OSGiServices.java",
+                "line": 155,
+                "deref_field": "property",
+                "npe_class": "1",
+                "npe_method": "get",
+                "sink_field": null,
+                "jvmti_identify_succeed": null,
+                "is_original": null
+            },
+            "build_info": {
+                "compiled": true,
+                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
+                "java_version": 8,
+                "error_message": null,
+                "time": 47.43887662910856
+            },
+            "test_info": {
+                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
+                "fail_buggy": true,
+                "pass_fixed": true,
+                "testcases": [
+                    {
+                        "classname": "org.apache.winegrower.service.HookTest",
+                        "method": "replaceServiceInstance{Ripener}",
+                        "exn_type": "org.opentest4j.AssertionFailedError",
+                        "stack_trace": "org.opentest4j.AssertionFailedError: expected: <I am the replacement> but was: <simple>\n\tat org.apache.winegrower.service.HookTest.replaceServiceInstance(HookTest.java:43)\n"
+                    },
+                    {
+                        "classname": "org.apache.winegrower.RipenerTest",
+                        "method": "simpleService{Ripener}",
+                        "exn_type": "org.opentest4j.AssertionFailedError",
+                        "stack_trace": "org.opentest4j.AssertionFailedError: expected: <true> but was: <false>\n\tat org.apache.winegrower.RipenerTest.validateTracker(RipenerTest.java:166)\n\tat org.apache.winegrower.RipenerTest.simpleService(RipenerTest.java:144)\n"
+                    },
+                    {
+                        "classname": "org.apache.winegrower.service.ServiceListenerTest",
+                        "method": "withFilter{Ripener}",
+                        "exn_type": "org.opentest4j.AssertionFailedError",
+                        "stack_trace": "org.opentest4j.AssertionFailedError: expected: <1> but was: <0>\n\tat org.apache.winegrower.service.ServiceListenerTest.withFilter(ServiceListenerTest.java:33)\n"
+                    }
+                ]
+            }
+        },
+        {
+            "repo": "karaf-winegrower",
+            "bug_id": "BundleContextImpl_226",
+            "npe_info": {
+                "filepath": "winegrower-core/src/main/java/org/apache/winegrower/deployer/BundleContextImpl.java",
+                "line": 227,
+                "deref_field": "existing",
+                "npe_class": "BundleContextImpl",
+                "npe_method": "getService",
+                "sink_field": null,
+                "jvmti_identify_succeed": null,
+                "is_original": null
+            },
+            "build_info": {
+                "compiled": true,
+                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
+                "java_version": 8,
+                "error_message": null,
+                "time": 47.15265821083449
+            },
+            "test_info": {
+                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
+                "fail_buggy": false,
+                "pass_fixed": true,
+                "testcases": []
+            }
+        },
+        {
+            "repo": "karaf-winegrower",
+            "bug_id": "Bundle_39",
+            "npe_info": {
+                "filepath": "winegrower-examples/bundle/src/main/java/org/apache/winegrower/examples/Bundle.java",
+                "line": 41,
+                "deref_field": "registration",
+                "npe_class": "Bundle",
+                "npe_method": "stop",
+                "sink_field": null,
+                "jvmti_identify_succeed": null,
+                "is_original": null
+            },
+            "build_info": {
+                "compiled": true,
+                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
+                "java_version": 8,
+                "error_message": null,
+                "time": 53.673427938017994
+            },
+            "test_info": {
+                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
+                "fail_buggy": false,
+                "pass_fixed": true,
+                "testcases": []
+            }
+        },
+        {
+            "repo": "karaf-winegrower",
+            "bug_id": "MyActivator_36",
+            "npe_info": {
+                "filepath": "winegrower-core/src/test/java/org/apache/winegrower/test/simpleservice/MyActivator.java",
+                "line": 37,
+                "deref_field": "registration",
+                "npe_class": "MyActivator",
+                "npe_method": "stop",
+                "sink_field": null,
+                "jvmti_identify_succeed": null,
+                "is_original": null
+            },
+            "build_info": {
+                "compiled": true,
+                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
+                "java_version": 8,
+                "error_message": null,
+                "time": 37.06555174221285
+            },
+            "test_info": {
+                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
+                "fail_buggy": false,
+                "pass_fixed": true,
+                "testcases": []
+            }
+        },
+        {
+            "repo": "karaf-winegrower",
+            "bug_id": "StandaloneScanner_200",
+            "npe_info": {
+                "filepath": "winegrower-core/src/main/java/org/apache/winegrower/scanner/StandaloneScanner.java",
+                "line": 204,
+                "deref_field": "manifest",
+                "npe_class": "StandaloneScanner",
+                "npe_method": "tryLoadManifest",
+                "sink_field": null,
+                "jvmti_identify_succeed": null,
+                "is_original": null
+            },
+            "build_info": {
+                "compiled": true,
+                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
+                "java_version": 8,
+                "error_message": null,
+                "time": 43.12304718000814
+            },
+            "test_info": {
+                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
+                "fail_buggy": false,
+                "pass_fixed": true,
+                "testcases": []
+            }
+        },
+        {
+            "repo": "karaf-winegrower",
+            "bug_id": "Run_47",
+            "npe_info": {
+                "filepath": "winegrower-extension/winegrower-build/winegrower-build-common/src/main/java/org/apache/winegrower/extension/build/common/Run.java",
+                "line": 48,
+                "deref_field": "systemVariables",
+                "npe_class": "Run",
+                "npe_method": "run",
+                "sink_field": null,
+                "jvmti_identify_succeed": null,
+                "is_original": null
+            },
+            "build_info": {
+                "compiled": true,
+                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
+                "java_version": 8,
+                "error_message": null,
+                "time": 49.75206972588785
+            },
+            "test_info": {
+                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
+                "fail_buggy": false,
+                "pass_fixed": true,
+                "testcases": []
+            }
+        },
+        {
+            "repo": "karaf-winegrower",
+            "bug_id": "ServletHttpService_50",
+            "npe_info": {
+                "filepath": "winegrower-extension/winegrower-servlet/src/main/java/org/apache/winegrower/servlet/service/ServletHttpService.java",
+                "line": 51,
+                "deref_field": "initParams",
+                "npe_class": "ServletHttpService",
+                "npe_method": "registerFilter",
+                "sink_field": null,
+                "jvmti_identify_succeed": null,
+                "is_original": null
+            },
+            "build_info": {
+                "compiled": true,
+                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
+                "java_version": 8,
+                "error_message": null,
+                "time": 38.7127092089504
+            },
+            "test_info": {
+                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
+                "fail_buggy": false,
+                "pass_fixed": true,
+                "testcases": []
+            }
+        },
+        {
+            "repo": "karaf-winegrower",
+            "bug_id": "Ripener_259",
+            "npe_info": {
+                "filepath": "winegrower-core/src/main/java/org/apache/winegrower/Ripener.java",
+                "line": 268,
+                "deref_field": "value",
+                "npe_class": "Impl",
+                "npe_method": "loadConfiguration",
+                "sink_field": null,
+                "jvmti_identify_succeed": null,
+                "is_original": null
+            },
+            "build_info": {
+                "compiled": true,
+                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
+                "java_version": 8,
+                "error_message": null,
+                "time": 46.08981316210702
+            },
+            "test_info": {
+                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
+                "fail_buggy": false,
+                "pass_fixed": true,
+                "testcases": []
+            }
+        },
+        {
+            "repo": "karaf-winegrower",
+            "bug_id": "BundleContextImpl_309",
+            "npe_info": {
+                "filepath": "winegrower-core/src/main/java/org/apache/winegrower/deployer/BundleContextImpl.java",
+                "line": 311,
+                "deref_field": "fh",
+                "npe_class": "BundleContextImpl",
+                "npe_method": "invokeServiceFindHooks",
+                "sink_field": null,
+                "jvmti_identify_succeed": null,
+                "is_original": null
+            },
+            "build_info": {
+                "compiled": true,
+                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
+                "java_version": 8,
+                "error_message": null,
+                "time": 53.386038687080145
+            },
+            "test_info": {
+                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
+                "fail_buggy": false,
+                "pass_fixed": true,
+                "testcases": []
+            }
+        },
+        {
+            "repo": "karaf-winegrower",
+            "bug_id": "OSGiServices_239",
+            "npe_info": {
+                "filepath": "winegrower-core/src/main/java/org/apache/winegrower/service/OSGiServices.java",
+                "line": 241,
+                "deref_field": "pid",
+                "npe_class": "OSGiServices",
+                "npe_method": "registerService",
+                "sink_field": null,
+                "jvmti_identify_succeed": null,
+                "is_original": null
+            },
+            "build_info": {
+                "compiled": true,
+                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
+                "java_version": 8,
+                "error_message": null,
+                "time": 49.74893585499376
+            },
+            "test_info": {
+                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
+                "fail_buggy": false,
+                "pass_fixed": true,
+                "testcases": []
+            }
+        },
+        {
+            "repo": "karaf-winegrower",
+            "bug_id": "WinegrowerExtension_58",
+            "npe_info": {
+                "filepath": "winegrower-extension/winegrower-cdi/src/main/java/org/apache/winegrower/extension/cdi/WinegrowerExtension.java",
+                "line": 61,
+                "deref_field": "ripener",
+                "npe_class": "WinegrowerExtension",
+                "npe_method": "registerServices",
+                "sink_field": null,
+                "jvmti_identify_succeed": null,
+                "is_original": null
+            },
+            "build_info": {
+                "compiled": true,
+                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
+                "java_version": 8,
+                "error_message": null,
+                "time": 44.154288962017745
+            },
+            "test_info": {
+                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
+                "fail_buggy": true,
+                "pass_fixed": true,
+                "testcases": []
+            }
+        }
+    ],
+    "repository_info": null
+}

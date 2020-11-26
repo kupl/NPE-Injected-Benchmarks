@@ -1,0 +1,1369 @@
+{
+    "repo": "sling-org-apache-sling-jcr-contentparser",
+    "bugs": [
+        {
+            "repo": "sling-org-apache-sling-jcr-contentparser",
+            "bug_id": "JcrXmlValueConverter_48",
+            "npe_info": {
+                "filepath": "src/main/java/org/apache/sling/jcr/contentparser/impl/JcrXmlValueConverter.java",
+                "line": 51,
+                "deref_field": "value",
+                "npe_class": "JcrXmlValueConverter",
+                "npe_method": "parseValue",
+                "sink_field": null,
+                "jvmti_identify_succeed": null,
+                "is_original": null
+            },
+            "build_info": {
+                "compiled": false,
+                "build_command": null,
+                "java_version": null,
+                "error_message": "Compilation failure",
+                "time": null
+            },
+            "test_info": null
+        },
+        {
+            "repo": "sling-org-apache-sling-jcr-contentparser",
+            "bug_id": "ContentElementHandler_58",
+            "npe_info": {
+                "filepath": "src/test/java/org/apache/sling/jcr/contentparser/impl/mapsupport/ContentElementHandler.java",
+                "line": 61,
+                "deref_field": "parent",
+                "npe_class": "ContentElementHandler",
+                "npe_method": "resource",
+                "sink_field": null,
+                "jvmti_identify_succeed": null,
+                "is_original": null
+            },
+            "build_info": {
+                "compiled": false,
+                "build_command": null,
+                "java_version": null,
+                "error_message": "Compilation failure",
+                "time": null
+            },
+            "test_info": null
+        },
+        {
+            "repo": "sling-org-apache-sling-jcr-contentparser",
+            "bug_id": "JcrXmlContentParser_135",
+            "npe_info": {
+                "filepath": "src/main/java/org/apache/sling/jcr/contentparser/impl/JcrXmlContentParser.java",
+                "line": 136,
+                "deref_field": "value",
+                "npe_class": "XmlHandler",
+                "npe_method": "startElement",
+                "sink_field": null,
+                "jvmti_identify_succeed": null,
+                "is_original": null
+            },
+            "build_info": {
+                "compiled": false,
+                "build_command": null,
+                "java_version": null,
+                "error_message": "Compilation failure",
+                "time": null
+            },
+            "test_info": null
+        },
+        {
+            "repo": "sling-org-apache-sling-jcr-contentparser",
+            "bug_id": "ContentElementImpl_56",
+            "npe_info": {
+                "filepath": "src/test/java/org/apache/sling/jcr/contentparser/impl/mapsupport/ContentElementImpl.java",
+                "line": 61,
+                "deref_field": "child",
+                "npe_class": "ContentElementImpl",
+                "npe_method": "getChild",
+                "sink_field": null,
+                "jvmti_identify_succeed": null,
+                "is_original": null
+            },
+            "build_info": {
+                "compiled": false,
+                "build_command": null,
+                "java_version": null,
+                "error_message": "Compilation failure",
+                "time": null
+            },
+            "test_info": null
+        },
+        {
+            "repo": "sling-org-apache-sling-jcr-contentparser",
+            "bug_id": "JsonContentParser_169",
+            "npe_info": {
+                "filepath": "src/main/java/org/apache/sling/jcr/contentparser/impl/JsonContentParser.java",
+                "line": 170,
+                "deref_field": "calendarValue",
+                "npe_class": "JsonContentParser",
+                "npe_method": "convertValue",
+                "sink_field": null,
+                "jvmti_identify_succeed": null,
+                "is_original": null
+            },
+            "build_info": {
+                "compiled": false,
+                "build_command": null,
+                "java_version": null,
+                "error_message": "Compilation failure",
+                "time": null
+            },
+            "test_info": null
+        },
+        {
+            "repo": "sling-org-apache-sling-jcr-contentparser",
+            "bug_id": "ParserHelper_107",
+            "npe_info": {
+                "filepath": "src/main/java/org/apache/sling/jcr/contentparser/impl/ParserHelper.java",
+                "line": 108,
+                "deref_field": "prefixes",
+                "npe_class": "ParserHelper",
+                "npe_method": "cleanupPropertyName",
+                "sink_field": null,
+                "jvmti_identify_succeed": null,
+                "is_original": null
+            },
+            "build_info": {
+                "compiled": false,
+                "build_command": null,
+                "java_version": null,
+                "error_message": "Compilation failure",
+                "time": null
+            },
+            "test_info": null
+        },
+        {
+            "repo": "sling-org-apache-sling-jcr-contentparser",
+            "bug_id": "XmlContentParser_75",
+            "npe_info": {
+                "filepath": "src/main/java/org/apache/sling/jcr/contentparser/impl/XmlContentParser.java",
+                "line": 81,
+                "deref_field": "parentPath",
+                "npe_class": "XmlContentParser",
+                "npe_method": "parse",
+                "sink_field": null,
+                "jvmti_identify_succeed": null,
+                "is_original": null
+            },
+            "build_info": {
+                "compiled": true,
+                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
+                "java_version": 8,
+                "error_message": null,
+                "time": 15.582534559071064
+            },
+            "test_info": {
+                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
+                "fail_buggy": true,
+                "pass_fixed": true,
+                "testcases": [
+                    {
+                        "classname": "org.apache.sling.jcr.contentparser.impl.XmlContentParserTest",
+                        "method": "testContentProperties",
+                        "exn_type": "org.apache.sling.jcr.contentparser.ParseException",
+                        "stack_trace": "org.apache.sling.jcr.contentparser.ParseException: Child node without name detected below path null\n\tat org.apache.sling.jcr.contentparser.impl.XmlContentParser.parse(XmlContentParser.java:77)\n\tat org.apache.sling.jcr.contentparser.impl.XmlContentParser.parse(XmlContentParser.java:64)\n\tat org.apache.sling.jcr.contentparser.impl.TestUtils.parse(TestUtils.java:42)\n\tat org.apache.sling.jcr.contentparser.impl.XmlContentParserTest.testIgnoreResourcesProperties(XmlContentParserTest.java:140)\n"
+                    },
+                    {
+                        "classname": "org.apache.sling.jcr.contentparser.impl.XmlContentParserTest",
+                        "method": "testDataTypes",
+                        "exn_type": "org.apache.sling.jcr.contentparser.ParseException",
+                        "stack_trace": "org.apache.sling.jcr.contentparser.ParseException: Child node without name detected below path null\n\tat org.apache.sling.jcr.contentparser.impl.XmlContentParser.parse(XmlContentParser.java:77)\n\tat org.apache.sling.jcr.contentparser.impl.XmlContentParser.parse(XmlContentParser.java:64)\n\tat org.apache.sling.jcr.contentparser.impl.TestUtils.parse(TestUtils.java:42)\n\tat org.apache.sling.jcr.contentparser.impl.XmlContentParserTest.testIgnoreResourcesProperties(XmlContentParserTest.java:140)\n"
+                    },
+                    {
+                        "classname": "org.apache.sling.jcr.contentparser.impl.XmlContentParserTest",
+                        "method": "testPageJcrPrimaryType",
+                        "exn_type": "org.apache.sling.jcr.contentparser.ParseException",
+                        "stack_trace": "org.apache.sling.jcr.contentparser.ParseException: Child node without name detected below path null\n\tat org.apache.sling.jcr.contentparser.impl.XmlContentParser.parse(XmlContentParser.java:77)\n\tat org.apache.sling.jcr.contentparser.impl.XmlContentParser.parse(XmlContentParser.java:64)\n\tat org.apache.sling.jcr.contentparser.impl.TestUtils.parse(TestUtils.java:42)\n\tat org.apache.sling.jcr.contentparser.impl.XmlContentParserTest.testIgnoreResourcesProperties(XmlContentParserTest.java:140)\n"
+                    },
+                    {
+                        "classname": "org.apache.sling.jcr.contentparser.impl.XmlContentParserTest",
+                        "method": "testGetChild",
+                        "exn_type": "org.apache.sling.jcr.contentparser.ParseException",
+                        "stack_trace": "org.apache.sling.jcr.contentparser.ParseException: Child node without name detected below path null\n\tat org.apache.sling.jcr.contentparser.impl.XmlContentParser.parse(XmlContentParser.java:77)\n\tat org.apache.sling.jcr.contentparser.impl.XmlContentParser.parse(XmlContentParser.java:64)\n\tat org.apache.sling.jcr.contentparser.impl.TestUtils.parse(TestUtils.java:42)\n\tat org.apache.sling.jcr.contentparser.impl.XmlContentParserTest.testDataTypes(XmlContentParserTest.java:64)\n"
+                    },
+                    {
+                        "classname": "org.apache.sling.jcr.contentparser.impl.XmlContentParserTest",
+                        "method": "testCalendar",
+                        "exn_type": "org.apache.sling.jcr.contentparser.ParseException",
+                        "stack_trace": "org.apache.sling.jcr.contentparser.ParseException: Child node without name detected below path null\n\tat org.apache.sling.jcr.contentparser.impl.XmlContentParser.parse(XmlContentParser.java:77)\n\tat org.apache.sling.jcr.contentparser.impl.XmlContentParser.parse(XmlContentParser.java:64)\n\tat org.apache.sling.jcr.contentparser.impl.TestUtils.parse(TestUtils.java:42)\n\tat org.apache.sling.jcr.contentparser.impl.XmlContentParserTest.testPageJcrPrimaryType(XmlContentParserTest.java:56)\n"
+                    },
+                    {
+                        "classname": "org.apache.sling.jcr.contentparser.impl.XmlContentParserTest",
+                        "method": "testIgnoreResourcesProperties",
+                        "exn_type": "org.apache.sling.jcr.contentparser.ParseException",
+                        "stack_trace": "org.apache.sling.jcr.contentparser.ParseException: Child node without name detected below path null\n\tat org.apache.sling.jcr.contentparser.impl.XmlContentParser.parse(XmlContentParser.java:77)\n\tat org.apache.sling.jcr.contentparser.impl.XmlContentParser.parse(XmlContentParser.java:64)\n\tat org.apache.sling.jcr.contentparser.impl.TestUtils.parse(TestUtils.java:42)\n\tat org.apache.sling.jcr.contentparser.impl.XmlContentParserTest.testDataTypes(XmlContentParserTest.java:64)\n"
+                    },
+                    {
+                        "classname": "org.apache.sling.jcr.contentparser.impl.XmlContentParserTest",
+                        "method": "testUTF8Chars",
+                        "exn_type": "org.apache.sling.jcr.contentparser.ParseException",
+                        "stack_trace": "org.apache.sling.jcr.contentparser.ParseException: Child node without name detected below path null\n\tat org.apache.sling.jcr.contentparser.impl.XmlContentParser.parse(XmlContentParser.java:77)\n\tat org.apache.sling.jcr.contentparser.impl.XmlContentParser.parse(XmlContentParser.java:64)\n\tat org.apache.sling.jcr.contentparser.impl.TestUtils.parse(TestUtils.java:42)\n\tat org.apache.sling.jcr.contentparser.impl.XmlContentParserTest.testIgnoreResourcesProperties(XmlContentParserTest.java:140)\n"
+                    },
+                    {
+                        "classname": "org.apache.sling.jcr.contentparser.impl.XmlContentParserTest",
+                        "method": "testGetChild",
+                        "exn_type": "org.apache.sling.jcr.contentparser.ParseException",
+                        "stack_trace": "org.apache.sling.jcr.contentparser.ParseException: Child node without name detected below path null\n\tat org.apache.sling.jcr.contentparser.impl.XmlContentParser.parse(XmlContentParser.java:77)\n\tat org.apache.sling.jcr.contentparser.impl.XmlContentParser.parse(XmlContentParser.java:64)\n\tat org.apache.sling.jcr.contentparser.impl.TestUtils.parse(TestUtils.java:42)\n\tat org.apache.sling.jcr.contentparser.impl.XmlContentParserTest.testContentProperties(XmlContentParserTest.java:81)\n"
+                    },
+                    {
+                        "classname": "org.apache.sling.jcr.contentparser.impl.XmlContentParserTest",
+                        "method": "testContentProperties",
+                        "exn_type": "org.apache.sling.jcr.contentparser.ParseException",
+                        "stack_trace": "org.apache.sling.jcr.contentparser.ParseException: Child node without name detected below path null\n\tat org.apache.sling.jcr.contentparser.impl.XmlContentParser.parse(XmlContentParser.java:77)\n\tat org.apache.sling.jcr.contentparser.impl.XmlContentParser.parse(XmlContentParser.java:64)\n\tat org.apache.sling.jcr.contentparser.impl.TestUtils.parse(TestUtils.java:42)\n\tat org.apache.sling.jcr.contentparser.impl.XmlContentParserTest.testPageJcrPrimaryType(XmlContentParserTest.java:56)\n"
+                    },
+                    {
+                        "classname": "org.apache.sling.jcr.contentparser.impl.XmlContentParserTest",
+                        "method": "testIgnoreResourcesProperties",
+                        "exn_type": "org.apache.sling.jcr.contentparser.ParseException",
+                        "stack_trace": "org.apache.sling.jcr.contentparser.ParseException: Child node without name detected below path null\n\tat org.apache.sling.jcr.contentparser.impl.XmlContentParser.parse(XmlContentParser.java:77)\n\tat org.apache.sling.jcr.contentparser.impl.XmlContentParser.parse(XmlContentParser.java:64)\n\tat org.apache.sling.jcr.contentparser.impl.TestUtils.parse(TestUtils.java:42)\n\tat org.apache.sling.jcr.contentparser.impl.XmlContentParserTest.testContentProperties(XmlContentParserTest.java:81)\n"
+                    },
+                    {
+                        "classname": "org.apache.sling.jcr.contentparser.impl.XmlContentParserTest",
+                        "method": "testDataTypes",
+                        "exn_type": "org.apache.sling.jcr.contentparser.ParseException",
+                        "stack_trace": "org.apache.sling.jcr.contentparser.ParseException: Child node without name detected below path null\n\tat org.apache.sling.jcr.contentparser.impl.XmlContentParser.parse(XmlContentParser.java:77)\n\tat org.apache.sling.jcr.contentparser.impl.XmlContentParser.parse(XmlContentParser.java:64)\n\tat org.apache.sling.jcr.contentparser.impl.TestUtils.parse(TestUtils.java:42)\n\tat org.apache.sling.jcr.contentparser.impl.XmlContentParserTest.testPageJcrPrimaryType(XmlContentParserTest.java:56)\n"
+                    },
+                    {
+                        "classname": "org.apache.sling.jcr.contentparser.impl.XmlContentParserTest",
+                        "method": "testPageJcrPrimaryType",
+                        "exn_type": "org.apache.sling.jcr.contentparser.ParseException",
+                        "stack_trace": "org.apache.sling.jcr.contentparser.ParseException: Child node without name detected below path null\n\tat org.apache.sling.jcr.contentparser.impl.XmlContentParser.parse(XmlContentParser.java:77)\n\tat org.apache.sling.jcr.contentparser.impl.XmlContentParser.parse(XmlContentParser.java:64)\n\tat org.apache.sling.jcr.contentparser.impl.TestUtils.parse(TestUtils.java:42)\n\tat org.apache.sling.jcr.contentparser.impl.XmlContentParserTest.testPageJcrPrimaryType(XmlContentParserTest.java:56)\n"
+                    },
+                    {
+                        "classname": "org.apache.sling.jcr.contentparser.impl.XmlContentParserTest",
+                        "method": "testUTF8Chars",
+                        "exn_type": "org.apache.sling.jcr.contentparser.ParseException",
+                        "stack_trace": "org.apache.sling.jcr.contentparser.ParseException: Child node without name detected below path null\n\tat org.apache.sling.jcr.contentparser.impl.XmlContentParser.parse(XmlContentParser.java:77)\n\tat org.apache.sling.jcr.contentparser.impl.XmlContentParser.parse(XmlContentParser.java:64)\n\tat org.apache.sling.jcr.contentparser.impl.TestUtils.parse(TestUtils.java:42)\n\tat org.apache.sling.jcr.contentparser.impl.XmlContentParserTest.testPageJcrPrimaryType(XmlContentParserTest.java:56)\n"
+                    },
+                    {
+                        "classname": "org.apache.sling.jcr.contentparser.impl.XmlContentParserTest",
+                        "method": "testCalendar",
+                        "exn_type": "org.apache.sling.jcr.contentparser.ParseException",
+                        "stack_trace": "org.apache.sling.jcr.contentparser.ParseException: Child node without name detected below path null\n\tat org.apache.sling.jcr.contentparser.impl.XmlContentParser.parse(XmlContentParser.java:77)\n\tat org.apache.sling.jcr.contentparser.impl.XmlContentParser.parse(XmlContentParser.java:64)\n\tat org.apache.sling.jcr.contentparser.impl.TestUtils.parse(TestUtils.java:42)\n\tat org.apache.sling.jcr.contentparser.impl.XmlContentParserTest.testUTF8Chars(XmlContentParserTest.java:112)\n"
+                    },
+                    {
+                        "classname": "org.apache.sling.jcr.contentparser.impl.XmlContentParserTest",
+                        "method": "testCalendar",
+                        "exn_type": "org.apache.sling.jcr.contentparser.ParseException",
+                        "stack_trace": "org.apache.sling.jcr.contentparser.ParseException: Child node without name detected below path null\n\tat org.apache.sling.jcr.contentparser.impl.XmlContentParser.parse(XmlContentParser.java:77)\n\tat org.apache.sling.jcr.contentparser.impl.XmlContentParser.parse(XmlContentParser.java:64)\n\tat org.apache.sling.jcr.contentparser.impl.TestUtils.parse(TestUtils.java:42)\n\tat org.apache.sling.jcr.contentparser.impl.XmlContentParserTest.testGetChild(XmlContentParserTest.java:157)\n"
+                    },
+                    {
+                        "classname": "org.apache.sling.jcr.contentparser.impl.XmlContentParserTest",
+                        "method": "testCalendar",
+                        "exn_type": "org.apache.sling.jcr.contentparser.ParseException",
+                        "stack_trace": "org.apache.sling.jcr.contentparser.ParseException: Child node without name detected below path null\n\tat org.apache.sling.jcr.contentparser.impl.XmlContentParser.parse(XmlContentParser.java:77)\n\tat org.apache.sling.jcr.contentparser.impl.XmlContentParser.parse(XmlContentParser.java:64)\n\tat org.apache.sling.jcr.contentparser.impl.TestUtils.parse(TestUtils.java:42)\n\tat org.apache.sling.jcr.contentparser.impl.XmlContentParserTest.testCalendar(XmlContentParserTest.java:91)\n"
+                    },
+                    {
+                        "classname": "org.apache.sling.jcr.contentparser.impl.XmlContentParserTest",
+                        "method": "testContentProperties",
+                        "exn_type": "org.apache.sling.jcr.contentparser.ParseException",
+                        "stack_trace": "org.apache.sling.jcr.contentparser.ParseException: Child node without name detected below path null\n\tat org.apache.sling.jcr.contentparser.impl.XmlContentParser.parse(XmlContentParser.java:77)\n\tat org.apache.sling.jcr.contentparser.impl.XmlContentParser.parse(XmlContentParser.java:64)\n\tat org.apache.sling.jcr.contentparser.impl.TestUtils.parse(TestUtils.java:42)\n\tat org.apache.sling.jcr.contentparser.impl.XmlContentParserTest.testUTF8Chars(XmlContentParserTest.java:112)\n"
+                    },
+                    {
+                        "classname": "org.apache.sling.jcr.contentparser.impl.XmlContentParserTest",
+                        "method": "testContentProperties",
+                        "exn_type": "org.apache.sling.jcr.contentparser.ParseException",
+                        "stack_trace": "org.apache.sling.jcr.contentparser.ParseException: Child node without name detected below path null\n\tat org.apache.sling.jcr.contentparser.impl.XmlContentParser.parse(XmlContentParser.java:77)\n\tat org.apache.sling.jcr.contentparser.impl.XmlContentParser.parse(XmlContentParser.java:64)\n\tat org.apache.sling.jcr.contentparser.impl.TestUtils.parse(TestUtils.java:42)\n\tat org.apache.sling.jcr.contentparser.impl.XmlContentParserTest.testCalendar(XmlContentParserTest.java:91)\n"
+                    },
+                    {
+                        "classname": "org.apache.sling.jcr.contentparser.impl.XmlContentParserTest",
+                        "method": "testGetChild",
+                        "exn_type": "org.apache.sling.jcr.contentparser.ParseException",
+                        "stack_trace": "org.apache.sling.jcr.contentparser.ParseException: Child node without name detected below path null\n\tat org.apache.sling.jcr.contentparser.impl.XmlContentParser.parse(XmlContentParser.java:77)\n\tat org.apache.sling.jcr.contentparser.impl.XmlContentParser.parse(XmlContentParser.java:64)\n\tat org.apache.sling.jcr.contentparser.impl.TestUtils.parse(TestUtils.java:42)\n\tat org.apache.sling.jcr.contentparser.impl.XmlContentParserTest.testIgnoreResourcesProperties(XmlContentParserTest.java:140)\n"
+                    },
+                    {
+                        "classname": "org.apache.sling.jcr.contentparser.impl.XmlContentParserTest",
+                        "method": "testIgnoreResourcesProperties",
+                        "exn_type": "org.apache.sling.jcr.contentparser.ParseException",
+                        "stack_trace": "org.apache.sling.jcr.contentparser.ParseException: Child node without name detected below path null\n\tat org.apache.sling.jcr.contentparser.impl.XmlContentParser.parse(XmlContentParser.java:77)\n\tat org.apache.sling.jcr.contentparser.impl.XmlContentParser.parse(XmlContentParser.java:64)\n\tat org.apache.sling.jcr.contentparser.impl.TestUtils.parse(TestUtils.java:42)\n\tat org.apache.sling.jcr.contentparser.impl.XmlContentParserTest.testIgnoreResourcesProperties(XmlContentParserTest.java:140)\n"
+                    },
+                    {
+                        "classname": "org.apache.sling.jcr.contentparser.impl.XmlContentParserTest",
+                        "method": "testContentProperties",
+                        "exn_type": "org.apache.sling.jcr.contentparser.ParseException",
+                        "stack_trace": "org.apache.sling.jcr.contentparser.ParseException: Child node without name detected below path null\n\tat org.apache.sling.jcr.contentparser.impl.XmlContentParser.parse(XmlContentParser.java:77)\n\tat org.apache.sling.jcr.contentparser.impl.XmlContentParser.parse(XmlContentParser.java:64)\n\tat org.apache.sling.jcr.contentparser.impl.TestUtils.parse(TestUtils.java:42)\n\tat org.apache.sling.jcr.contentparser.impl.XmlContentParserTest.testGetChild(XmlContentParserTest.java:157)\n"
+                    },
+                    {
+                        "classname": "org.apache.sling.jcr.contentparser.impl.XmlContentParserTest",
+                        "method": "testDataTypes",
+                        "exn_type": "org.apache.sling.jcr.contentparser.ParseException",
+                        "stack_trace": "org.apache.sling.jcr.contentparser.ParseException: Child node without name detected below path null\n\tat org.apache.sling.jcr.contentparser.impl.XmlContentParser.parse(XmlContentParser.java:77)\n\tat org.apache.sling.jcr.contentparser.impl.XmlContentParser.parse(XmlContentParser.java:64)\n\tat org.apache.sling.jcr.contentparser.impl.TestUtils.parse(TestUtils.java:42)\n\tat org.apache.sling.jcr.contentparser.impl.XmlContentParserTest.testUTF8Chars(XmlContentParserTest.java:112)\n"
+                    },
+                    {
+                        "classname": "org.apache.sling.jcr.contentparser.impl.XmlContentParserTest",
+                        "method": "testPageJcrPrimaryType",
+                        "exn_type": "org.apache.sling.jcr.contentparser.ParseException",
+                        "stack_trace": "org.apache.sling.jcr.contentparser.ParseException: Child node without name detected below path null\n\tat org.apache.sling.jcr.contentparser.impl.XmlContentParser.parse(XmlContentParser.java:77)\n\tat org.apache.sling.jcr.contentparser.impl.XmlContentParser.parse(XmlContentParser.java:64)\n\tat org.apache.sling.jcr.contentparser.impl.TestUtils.parse(TestUtils.java:42)\n\tat org.apache.sling.jcr.contentparser.impl.XmlContentParserTest.testUTF8Chars(XmlContentParserTest.java:112)\n"
+                    },
+                    {
+                        "classname": "org.apache.sling.jcr.contentparser.impl.XmlContentParserTest",
+                        "method": "testPageJcrPrimaryType",
+                        "exn_type": "org.apache.sling.jcr.contentparser.ParseException",
+                        "stack_trace": "org.apache.sling.jcr.contentparser.ParseException: Child node without name detected below path null\n\tat org.apache.sling.jcr.contentparser.impl.XmlContentParser.parse(XmlContentParser.java:77)\n\tat org.apache.sling.jcr.contentparser.impl.XmlContentParser.parse(XmlContentParser.java:64)\n\tat org.apache.sling.jcr.contentparser.impl.TestUtils.parse(TestUtils.java:42)\n\tat org.apache.sling.jcr.contentparser.impl.XmlContentParserTest.testCalendar(XmlContentParserTest.java:91)\n"
+                    },
+                    {
+                        "classname": "org.apache.sling.jcr.contentparser.impl.XmlContentParserTest",
+                        "method": "testDataTypes",
+                        "exn_type": "org.apache.sling.jcr.contentparser.ParseException",
+                        "stack_trace": "org.apache.sling.jcr.contentparser.ParseException: Child node without name detected below path null\n\tat org.apache.sling.jcr.contentparser.impl.XmlContentParser.parse(XmlContentParser.java:77)\n\tat org.apache.sling.jcr.contentparser.impl.XmlContentParser.parse(XmlContentParser.java:64)\n\tat org.apache.sling.jcr.contentparser.impl.TestUtils.parse(TestUtils.java:42)\n\tat org.apache.sling.jcr.contentparser.impl.XmlContentParserTest.testGetChild(XmlContentParserTest.java:157)\n"
+                    },
+                    {
+                        "classname": "org.apache.sling.jcr.contentparser.impl.XmlContentParserTest",
+                        "method": "testPageJcrPrimaryType",
+                        "exn_type": "org.apache.sling.jcr.contentparser.ParseException",
+                        "stack_trace": "org.apache.sling.jcr.contentparser.ParseException: Child node without name detected below path null\n\tat org.apache.sling.jcr.contentparser.impl.XmlContentParser.parse(XmlContentParser.java:77)\n\tat org.apache.sling.jcr.contentparser.impl.XmlContentParser.parse(XmlContentParser.java:64)\n\tat org.apache.sling.jcr.contentparser.impl.TestUtils.parse(TestUtils.java:42)\n\tat org.apache.sling.jcr.contentparser.impl.XmlContentParserTest.testGetChild(XmlContentParserTest.java:157)\n"
+                    },
+                    {
+                        "classname": "org.apache.sling.jcr.contentparser.impl.XmlContentParserTest",
+                        "method": "testDataTypes",
+                        "exn_type": "org.apache.sling.jcr.contentparser.ParseException",
+                        "stack_trace": "org.apache.sling.jcr.contentparser.ParseException: Child node without name detected below path null\n\tat org.apache.sling.jcr.contentparser.impl.XmlContentParser.parse(XmlContentParser.java:77)\n\tat org.apache.sling.jcr.contentparser.impl.XmlContentParser.parse(XmlContentParser.java:64)\n\tat org.apache.sling.jcr.contentparser.impl.TestUtils.parse(TestUtils.java:42)\n\tat org.apache.sling.jcr.contentparser.impl.XmlContentParserTest.testCalendar(XmlContentParserTest.java:91)\n"
+                    },
+                    {
+                        "classname": "org.apache.sling.jcr.contentparser.impl.XmlContentParserTest",
+                        "method": "testUTF8Chars",
+                        "exn_type": "org.apache.sling.jcr.contentparser.ParseException",
+                        "stack_trace": "org.apache.sling.jcr.contentparser.ParseException: Child node without name detected below path null\n\tat org.apache.sling.jcr.contentparser.impl.XmlContentParser.parse(XmlContentParser.java:77)\n\tat org.apache.sling.jcr.contentparser.impl.XmlContentParser.parse(XmlContentParser.java:64)\n\tat org.apache.sling.jcr.contentparser.impl.TestUtils.parse(TestUtils.java:42)\n\tat org.apache.sling.jcr.contentparser.impl.XmlContentParserTest.testUTF8Chars(XmlContentParserTest.java:112)\n"
+                    },
+                    {
+                        "classname": "org.apache.sling.jcr.contentparser.impl.XmlContentParserTest",
+                        "method": "testUTF8Chars",
+                        "exn_type": "org.apache.sling.jcr.contentparser.ParseException",
+                        "stack_trace": "org.apache.sling.jcr.contentparser.ParseException: Child node without name detected below path null\n\tat org.apache.sling.jcr.contentparser.impl.XmlContentParser.parse(XmlContentParser.java:77)\n\tat org.apache.sling.jcr.contentparser.impl.XmlContentParser.parse(XmlContentParser.java:64)\n\tat org.apache.sling.jcr.contentparser.impl.TestUtils.parse(TestUtils.java:42)\n\tat org.apache.sling.jcr.contentparser.impl.XmlContentParserTest.testGetChild(XmlContentParserTest.java:157)\n"
+                    },
+                    {
+                        "classname": "org.apache.sling.jcr.contentparser.impl.XmlContentParserTest",
+                        "method": "testGetChild",
+                        "exn_type": "org.apache.sling.jcr.contentparser.ParseException",
+                        "stack_trace": "org.apache.sling.jcr.contentparser.ParseException: Child node without name detected below path null\n\tat org.apache.sling.jcr.contentparser.impl.XmlContentParser.parse(XmlContentParser.java:77)\n\tat org.apache.sling.jcr.contentparser.impl.XmlContentParser.parse(XmlContentParser.java:64)\n\tat org.apache.sling.jcr.contentparser.impl.TestUtils.parse(TestUtils.java:42)\n\tat org.apache.sling.jcr.contentparser.impl.XmlContentParserTest.testPageJcrPrimaryType(XmlContentParserTest.java:56)\n"
+                    },
+                    {
+                        "classname": "org.apache.sling.jcr.contentparser.impl.XmlContentParserTest",
+                        "method": "testUTF8Chars",
+                        "exn_type": "org.apache.sling.jcr.contentparser.ParseException",
+                        "stack_trace": "org.apache.sling.jcr.contentparser.ParseException: Child node without name detected below path null\n\tat org.apache.sling.jcr.contentparser.impl.XmlContentParser.parse(XmlContentParser.java:77)\n\tat org.apache.sling.jcr.contentparser.impl.XmlContentParser.parse(XmlContentParser.java:64)\n\tat org.apache.sling.jcr.contentparser.impl.TestUtils.parse(TestUtils.java:42)\n\tat org.apache.sling.jcr.contentparser.impl.XmlContentParserTest.testCalendar(XmlContentParserTest.java:91)\n"
+                    },
+                    {
+                        "classname": "org.apache.sling.jcr.contentparser.impl.XmlContentParserTest",
+                        "method": "testIgnoreResourcesProperties",
+                        "exn_type": "org.apache.sling.jcr.contentparser.ParseException",
+                        "stack_trace": "org.apache.sling.jcr.contentparser.ParseException: Child node without name detected below path null\n\tat org.apache.sling.jcr.contentparser.impl.XmlContentParser.parse(XmlContentParser.java:77)\n\tat org.apache.sling.jcr.contentparser.impl.XmlContentParser.parse(XmlContentParser.java:64)\n\tat org.apache.sling.jcr.contentparser.impl.TestUtils.parse(TestUtils.java:42)\n\tat org.apache.sling.jcr.contentparser.impl.XmlContentParserTest.testPageJcrPrimaryType(XmlContentParserTest.java:56)\n"
+                    },
+                    {
+                        "classname": "org.apache.sling.jcr.contentparser.impl.XmlContentParserTest",
+                        "method": "testCalendar",
+                        "exn_type": "org.apache.sling.jcr.contentparser.ParseException",
+                        "stack_trace": "org.apache.sling.jcr.contentparser.ParseException: Child node without name detected below path null\n\tat org.apache.sling.jcr.contentparser.impl.XmlContentParser.parse(XmlContentParser.java:77)\n\tat org.apache.sling.jcr.contentparser.impl.XmlContentParser.parse(XmlContentParser.java:64)\n\tat org.apache.sling.jcr.contentparser.impl.TestUtils.parse(TestUtils.java:42)\n\tat org.apache.sling.jcr.contentparser.impl.XmlContentParserTest.testDataTypes(XmlContentParserTest.java:64)\n"
+                    },
+                    {
+                        "classname": "org.apache.sling.jcr.contentparser.impl.XmlContentParserTest",
+                        "method": "testContentProperties",
+                        "exn_type": "org.apache.sling.jcr.contentparser.ParseException",
+                        "stack_trace": "org.apache.sling.jcr.contentparser.ParseException: Child node without name detected below path null\n\tat org.apache.sling.jcr.contentparser.impl.XmlContentParser.parse(XmlContentParser.java:77)\n\tat org.apache.sling.jcr.contentparser.impl.XmlContentParser.parse(XmlContentParser.java:64)\n\tat org.apache.sling.jcr.contentparser.impl.TestUtils.parse(TestUtils.java:42)\n\tat org.apache.sling.jcr.contentparser.impl.XmlContentParserTest.testDataTypes(XmlContentParserTest.java:64)\n"
+                    },
+                    {
+                        "classname": "org.apache.sling.jcr.contentparser.impl.XmlContentParserTest",
+                        "method": "testCalendar",
+                        "exn_type": "org.apache.sling.jcr.contentparser.ParseException",
+                        "stack_trace": "org.apache.sling.jcr.contentparser.ParseException: Child node without name detected below path null\n\tat org.apache.sling.jcr.contentparser.impl.XmlContentParser.parse(XmlContentParser.java:77)\n\tat org.apache.sling.jcr.contentparser.impl.XmlContentParser.parse(XmlContentParser.java:64)\n\tat org.apache.sling.jcr.contentparser.impl.TestUtils.parse(TestUtils.java:42)\n\tat org.apache.sling.jcr.contentparser.impl.XmlContentParserTest.testContentProperties(XmlContentParserTest.java:81)\n"
+                    },
+                    {
+                        "classname": "org.apache.sling.jcr.contentparser.impl.XmlContentParserTest",
+                        "method": "testContentProperties",
+                        "exn_type": "org.apache.sling.jcr.contentparser.ParseException",
+                        "stack_trace": "org.apache.sling.jcr.contentparser.ParseException: Child node without name detected below path null\n\tat org.apache.sling.jcr.contentparser.impl.XmlContentParser.parse(XmlContentParser.java:77)\n\tat org.apache.sling.jcr.contentparser.impl.XmlContentParser.parse(XmlContentParser.java:64)\n\tat org.apache.sling.jcr.contentparser.impl.TestUtils.parse(TestUtils.java:42)\n\tat org.apache.sling.jcr.contentparser.impl.XmlContentParserTest.testContentProperties(XmlContentParserTest.java:81)\n"
+                    },
+                    {
+                        "classname": "org.apache.sling.jcr.contentparser.impl.XmlContentParserTest",
+                        "method": "testPageJcrPrimaryType",
+                        "exn_type": "org.apache.sling.jcr.contentparser.ParseException",
+                        "stack_trace": "org.apache.sling.jcr.contentparser.ParseException: Child node without name detected below path null\n\tat org.apache.sling.jcr.contentparser.impl.XmlContentParser.parse(XmlContentParser.java:77)\n\tat org.apache.sling.jcr.contentparser.impl.XmlContentParser.parse(XmlContentParser.java:64)\n\tat org.apache.sling.jcr.contentparser.impl.TestUtils.parse(TestUtils.java:42)\n\tat org.apache.sling.jcr.contentparser.impl.XmlContentParserTest.testDataTypes(XmlContentParserTest.java:64)\n"
+                    },
+                    {
+                        "classname": "org.apache.sling.jcr.contentparser.impl.XmlContentParserTest",
+                        "method": "testGetChild",
+                        "exn_type": "org.apache.sling.jcr.contentparser.ParseException",
+                        "stack_trace": "org.apache.sling.jcr.contentparser.ParseException: Child node without name detected below path null\n\tat org.apache.sling.jcr.contentparser.impl.XmlContentParser.parse(XmlContentParser.java:77)\n\tat org.apache.sling.jcr.contentparser.impl.XmlContentParser.parse(XmlContentParser.java:64)\n\tat org.apache.sling.jcr.contentparser.impl.TestUtils.parse(TestUtils.java:42)\n\tat org.apache.sling.jcr.contentparser.impl.XmlContentParserTest.testUTF8Chars(XmlContentParserTest.java:112)\n"
+                    },
+                    {
+                        "classname": "org.apache.sling.jcr.contentparser.impl.XmlContentParserTest",
+                        "method": "testGetChild",
+                        "exn_type": "org.apache.sling.jcr.contentparser.ParseException",
+                        "stack_trace": "org.apache.sling.jcr.contentparser.ParseException: Child node without name detected below path null\n\tat org.apache.sling.jcr.contentparser.impl.XmlContentParser.parse(XmlContentParser.java:77)\n\tat org.apache.sling.jcr.contentparser.impl.XmlContentParser.parse(XmlContentParser.java:64)\n\tat org.apache.sling.jcr.contentparser.impl.TestUtils.parse(TestUtils.java:42)\n\tat org.apache.sling.jcr.contentparser.impl.XmlContentParserTest.testCalendar(XmlContentParserTest.java:91)\n"
+                    },
+                    {
+                        "classname": "org.apache.sling.jcr.contentparser.impl.XmlContentParserTest",
+                        "method": "testPageJcrPrimaryType",
+                        "exn_type": "org.apache.sling.jcr.contentparser.ParseException",
+                        "stack_trace": "org.apache.sling.jcr.contentparser.ParseException: Child node without name detected below path null\n\tat org.apache.sling.jcr.contentparser.impl.XmlContentParser.parse(XmlContentParser.java:77)\n\tat org.apache.sling.jcr.contentparser.impl.XmlContentParser.parse(XmlContentParser.java:64)\n\tat org.apache.sling.jcr.contentparser.impl.TestUtils.parse(TestUtils.java:42)\n\tat org.apache.sling.jcr.contentparser.impl.XmlContentParserTest.testContentProperties(XmlContentParserTest.java:81)\n"
+                    },
+                    {
+                        "classname": "org.apache.sling.jcr.contentparser.impl.XmlContentParserTest",
+                        "method": "testUTF8Chars",
+                        "exn_type": "org.apache.sling.jcr.contentparser.ParseException",
+                        "stack_trace": "org.apache.sling.jcr.contentparser.ParseException: Child node without name detected below path null\n\tat org.apache.sling.jcr.contentparser.impl.XmlContentParser.parse(XmlContentParser.java:77)\n\tat org.apache.sling.jcr.contentparser.impl.XmlContentParser.parse(XmlContentParser.java:64)\n\tat org.apache.sling.jcr.contentparser.impl.TestUtils.parse(TestUtils.java:42)\n\tat org.apache.sling.jcr.contentparser.impl.XmlContentParserTest.testDataTypes(XmlContentParserTest.java:64)\n"
+                    },
+                    {
+                        "classname": "org.apache.sling.jcr.contentparser.impl.XmlContentParserTest",
+                        "method": "testDataTypes",
+                        "exn_type": "org.apache.sling.jcr.contentparser.ParseException",
+                        "stack_trace": "org.apache.sling.jcr.contentparser.ParseException: Child node without name detected below path null\n\tat org.apache.sling.jcr.contentparser.impl.XmlContentParser.parse(XmlContentParser.java:77)\n\tat org.apache.sling.jcr.contentparser.impl.XmlContentParser.parse(XmlContentParser.java:64)\n\tat org.apache.sling.jcr.contentparser.impl.TestUtils.parse(TestUtils.java:42)\n\tat org.apache.sling.jcr.contentparser.impl.XmlContentParserTest.testDataTypes(XmlContentParserTest.java:64)\n"
+                    },
+                    {
+                        "classname": "org.apache.sling.jcr.contentparser.impl.XmlContentParserTest",
+                        "method": "testIgnoreResourcesProperties",
+                        "exn_type": "org.apache.sling.jcr.contentparser.ParseException",
+                        "stack_trace": "org.apache.sling.jcr.contentparser.ParseException: Child node without name detected below path null\n\tat org.apache.sling.jcr.contentparser.impl.XmlContentParser.parse(XmlContentParser.java:77)\n\tat org.apache.sling.jcr.contentparser.impl.XmlContentParser.parse(XmlContentParser.java:64)\n\tat org.apache.sling.jcr.contentparser.impl.TestUtils.parse(TestUtils.java:42)\n\tat org.apache.sling.jcr.contentparser.impl.XmlContentParserTest.testUTF8Chars(XmlContentParserTest.java:112)\n"
+                    },
+                    {
+                        "classname": "org.apache.sling.jcr.contentparser.impl.XmlContentParserTest",
+                        "method": "testGetChild",
+                        "exn_type": "org.apache.sling.jcr.contentparser.ParseException",
+                        "stack_trace": "org.apache.sling.jcr.contentparser.ParseException: Child node without name detected below path null\n\tat org.apache.sling.jcr.contentparser.impl.XmlContentParser.parse(XmlContentParser.java:77)\n\tat org.apache.sling.jcr.contentparser.impl.XmlContentParser.parse(XmlContentParser.java:64)\n\tat org.apache.sling.jcr.contentparser.impl.TestUtils.parse(TestUtils.java:42)\n\tat org.apache.sling.jcr.contentparser.impl.XmlContentParserTest.testGetChild(XmlContentParserTest.java:157)\n"
+                    },
+                    {
+                        "classname": "org.apache.sling.jcr.contentparser.impl.XmlContentParserTest",
+                        "method": "testDataTypes",
+                        "exn_type": "org.apache.sling.jcr.contentparser.ParseException",
+                        "stack_trace": "org.apache.sling.jcr.contentparser.ParseException: Child node without name detected below path null\n\tat org.apache.sling.jcr.contentparser.impl.XmlContentParser.parse(XmlContentParser.java:77)\n\tat org.apache.sling.jcr.contentparser.impl.XmlContentParser.parse(XmlContentParser.java:64)\n\tat org.apache.sling.jcr.contentparser.impl.TestUtils.parse(TestUtils.java:42)\n\tat org.apache.sling.jcr.contentparser.impl.XmlContentParserTest.testContentProperties(XmlContentParserTest.java:81)\n"
+                    },
+                    {
+                        "classname": "org.apache.sling.jcr.contentparser.impl.XmlContentParserTest",
+                        "method": "testIgnoreResourcesProperties",
+                        "exn_type": "org.apache.sling.jcr.contentparser.ParseException",
+                        "stack_trace": "org.apache.sling.jcr.contentparser.ParseException: Child node without name detected below path null\n\tat org.apache.sling.jcr.contentparser.impl.XmlContentParser.parse(XmlContentParser.java:77)\n\tat org.apache.sling.jcr.contentparser.impl.XmlContentParser.parse(XmlContentParser.java:64)\n\tat org.apache.sling.jcr.contentparser.impl.TestUtils.parse(TestUtils.java:42)\n\tat org.apache.sling.jcr.contentparser.impl.XmlContentParserTest.testGetChild(XmlContentParserTest.java:157)\n"
+                    },
+                    {
+                        "classname": "org.apache.sling.jcr.contentparser.impl.XmlContentParserTest",
+                        "method": "testUTF8Chars",
+                        "exn_type": "org.apache.sling.jcr.contentparser.ParseException",
+                        "stack_trace": "org.apache.sling.jcr.contentparser.ParseException: Child node without name detected below path null\n\tat org.apache.sling.jcr.contentparser.impl.XmlContentParser.parse(XmlContentParser.java:77)\n\tat org.apache.sling.jcr.contentparser.impl.XmlContentParser.parse(XmlContentParser.java:64)\n\tat org.apache.sling.jcr.contentparser.impl.TestUtils.parse(TestUtils.java:42)\n\tat org.apache.sling.jcr.contentparser.impl.XmlContentParserTest.testContentProperties(XmlContentParserTest.java:81)\n"
+                    },
+                    {
+                        "classname": "org.apache.sling.jcr.contentparser.impl.XmlContentParserTest",
+                        "method": "testIgnoreResourcesProperties",
+                        "exn_type": "org.apache.sling.jcr.contentparser.ParseException",
+                        "stack_trace": "org.apache.sling.jcr.contentparser.ParseException: Child node without name detected below path null\n\tat org.apache.sling.jcr.contentparser.impl.XmlContentParser.parse(XmlContentParser.java:77)\n\tat org.apache.sling.jcr.contentparser.impl.XmlContentParser.parse(XmlContentParser.java:64)\n\tat org.apache.sling.jcr.contentparser.impl.TestUtils.parse(TestUtils.java:42)\n\tat org.apache.sling.jcr.contentparser.impl.XmlContentParserTest.testCalendar(XmlContentParserTest.java:91)\n"
+                    },
+                    {
+                        "classname": "org.apache.sling.jcr.contentparser.impl.XmlContentParserTest",
+                        "method": "testCalendar",
+                        "exn_type": "org.apache.sling.jcr.contentparser.ParseException",
+                        "stack_trace": "org.apache.sling.jcr.contentparser.ParseException: Child node without name detected below path null\n\tat org.apache.sling.jcr.contentparser.impl.XmlContentParser.parse(XmlContentParser.java:77)\n\tat org.apache.sling.jcr.contentparser.impl.XmlContentParser.parse(XmlContentParser.java:64)\n\tat org.apache.sling.jcr.contentparser.impl.TestUtils.parse(TestUtils.java:42)\n\tat org.apache.sling.jcr.contentparser.impl.XmlContentParserTest.testIgnoreResourcesProperties(XmlContentParserTest.java:140)\n"
+                    }
+                ]
+            }
+        },
+        {
+            "repo": "sling-org-apache-sling-jcr-contentparser",
+            "bug_id": "ParserHelper_129",
+            "npe_info": {
+                "filepath": "src/main/java/org/apache/sling/jcr/contentparser/impl/ParserHelper.java",
+                "line": 132,
+                "deref_field": "itemType",
+                "npe_class": "ParserHelper",
+                "npe_method": "convertSingleTypeArray",
+                "sink_field": null,
+                "jvmti_identify_succeed": null,
+                "is_original": null
+            },
+            "build_info": {
+                "compiled": true,
+                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
+                "java_version": 8,
+                "error_message": null,
+                "time": 19.598931239917874
+            },
+            "test_info": {
+                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
+                "fail_buggy": true,
+                "pass_fixed": true,
+                "testcases": [
+                    {
+                        "classname": "org.apache.sling.jcr.contentparser.impl.JsonContentParserTest",
+                        "method": "testIgnoreResourcesProperties",
+                        "exn_type": "java.lang.NullPointerException:",
+                        "stack_trace": "java.lang.NullPointerException: null\n\tat org.apache.sling.jcr.contentparser.impl.ParserHelper.convertSingleTypeArray(ParserHelper.java:132)\n\tat org.apache.sling.jcr.contentparser.impl.JsonContentParser.convertValue(JsonContentParser.java:195)\n\tat org.apache.sling.jcr.contentparser.impl.JsonContentParser.parse(JsonContentParser.java:123)\n\tat org.apache.sling.jcr.contentparser.impl.JsonContentParser.parse(JsonContentParser.java:160)\n\tat org.apache.sling.jcr.contentparser.impl.JsonContentParser.parse(JsonContentParser.java:160)\n\tat org.apache.sling.jcr.contentparser.impl.JsonContentParser.parse(JsonContentParser.java:79)\n\tat org.apache.sling.jcr.contentparser.impl.TestUtils.parse(TestUtils.java:42)\n\tat org.apache.sling.jcr.contentparser.impl.JsonContentParserTest.testIso8601Calendar(JsonContentParserTest.java:115)\n"
+                    },
+                    {
+                        "classname": "org.apache.sling.jcr.contentparser.impl.XmlContentParserTest",
+                        "method": "testContentProperties",
+                        "exn_type": "java.lang.NullPointerException:",
+                        "stack_trace": "java.lang.NullPointerException: null\n\tat org.apache.sling.jcr.contentparser.impl.ParserHelper.convertSingleTypeArray(ParserHelper.java:132)\n\tat org.apache.sling.jcr.contentparser.impl.XmlContentParser.convertMultiValue(XmlContentParser.java:225)\n\tat org.apache.sling.jcr.contentparser.impl.XmlContentParser.parse(XmlContentParser.java:137)\n\tat org.apache.sling.jcr.contentparser.impl.XmlContentParser.parse(XmlContentParser.java:153)\n\tat org.apache.sling.jcr.contentparser.impl.XmlContentParser.parse(XmlContentParser.java:153)\n\tat org.apache.sling.jcr.contentparser.impl.XmlContentParser.parse(XmlContentParser.java:64)\n\tat org.apache.sling.jcr.contentparser.impl.TestUtils.parse(TestUtils.java:42)\n\tat org.apache.sling.jcr.contentparser.impl.XmlContentParserTest.testCalendar(XmlContentParserTest.java:91)\n"
+                    },
+                    {
+                        "classname": "org.apache.sling.jcr.contentparser.impl.ParserHelperTest",
+                        "method": "testConvertSingleTypeArray_MixedType",
+                        "exn_type": "java.lang.Exception",
+                        "stack_trace": "java.lang.Exception: Unexpected exception, expected<org.apache.sling.jcr.contentparser.ParseException> but was<java.lang.NullPointerException>\n\tat org.apache.sling.jcr.contentparser.impl.ParserHelper.convertSingleTypeArray(ParserHelper.java:132)\n\tat org.apache.sling.jcr.contentparser.impl.ParserHelperTest.testConvertSingleTypeArray_MixedType(ParserHelperTest.java:193)\n"
+                    },
+                    {
+                        "classname": "org.apache.sling.jcr.contentparser.impl.XmlContentParserTest",
+                        "method": "testContentProperties",
+                        "exn_type": "java.lang.NullPointerException:",
+                        "stack_trace": "java.lang.NullPointerException: null\n\tat org.apache.sling.jcr.contentparser.impl.ParserHelper.convertSingleTypeArray(ParserHelper.java:132)\n\tat org.apache.sling.jcr.contentparser.impl.XmlContentParser.convertMultiValue(XmlContentParser.java:225)\n\tat org.apache.sling.jcr.contentparser.impl.XmlContentParser.parse(XmlContentParser.java:137)\n\tat org.apache.sling.jcr.contentparser.impl.XmlContentParser.parse(XmlContentParser.java:153)\n\tat org.apache.sling.jcr.contentparser.impl.XmlContentParser.parse(XmlContentParser.java:153)\n\tat org.apache.sling.jcr.contentparser.impl.XmlContentParser.parse(XmlContentParser.java:64)\n\tat org.apache.sling.jcr.contentparser.impl.TestUtils.parse(TestUtils.java:42)\n\tat org.apache.sling.jcr.contentparser.impl.XmlContentParserTest.testDataTypes(XmlContentParserTest.java:64)\n"
+                    },
+                    {
+                        "classname": "org.apache.sling.jcr.contentparser.impl.XmlContentParserTest",
+                        "method": "testGetChild",
+                        "exn_type": "java.lang.NullPointerException:",
+                        "stack_trace": "java.lang.NullPointerException: null\n\tat org.apache.sling.jcr.contentparser.impl.ParserHelper.convertSingleTypeArray(ParserHelper.java:132)\n\tat org.apache.sling.jcr.contentparser.impl.XmlContentParser.convertMultiValue(XmlContentParser.java:225)\n\tat org.apache.sling.jcr.contentparser.impl.XmlContentParser.parse(XmlContentParser.java:137)\n\tat org.apache.sling.jcr.contentparser.impl.XmlContentParser.parse(XmlContentParser.java:153)\n\tat org.apache.sling.jcr.contentparser.impl.XmlContentParser.parse(XmlContentParser.java:153)\n\tat org.apache.sling.jcr.contentparser.impl.XmlContentParser.parse(XmlContentParser.java:64)\n\tat org.apache.sling.jcr.contentparser.impl.TestUtils.parse(TestUtils.java:42)\n\tat org.apache.sling.jcr.contentparser.impl.XmlContentParserTest.testUTF8Chars(XmlContentParserTest.java:112)\n"
+                    },
+                    {
+                        "classname": "org.apache.sling.jcr.contentparser.impl.ParserHelperTest",
+                        "method": "testConvertSingleTypeArray_MixedType",
+                        "exn_type": "java.lang.Exception",
+                        "stack_trace": "java.lang.Exception: Unexpected exception, expected<org.apache.sling.jcr.contentparser.ParseException> but was<java.lang.NullPointerException>\n\tat org.apache.sling.jcr.contentparser.impl.ParserHelper.convertSingleTypeArray(ParserHelper.java:132)\n\tat org.apache.sling.jcr.contentparser.impl.ParserHelperTest.testConvertSingleTypeArray_WithNull(ParserHelperTest.java:181)\n"
+                    },
+                    {
+                        "classname": "org.apache.sling.jcr.contentparser.impl.XmlContentParserTest",
+                        "method": "testDataTypes",
+                        "exn_type": "java.lang.NullPointerException:",
+                        "stack_trace": "java.lang.NullPointerException: null\n\tat org.apache.sling.jcr.contentparser.impl.ParserHelper.convertSingleTypeArray(ParserHelper.java:132)\n\tat org.apache.sling.jcr.contentparser.impl.XmlContentParser.convertMultiValue(XmlContentParser.java:225)\n\tat org.apache.sling.jcr.contentparser.impl.XmlContentParser.parse(XmlContentParser.java:137)\n\tat org.apache.sling.jcr.contentparser.impl.XmlContentParser.parse(XmlContentParser.java:153)\n\tat org.apache.sling.jcr.contentparser.impl.XmlContentParser.parse(XmlContentParser.java:153)\n\tat org.apache.sling.jcr.contentparser.impl.XmlContentParser.parse(XmlContentParser.java:64)\n\tat org.apache.sling.jcr.contentparser.impl.TestUtils.parse(TestUtils.java:42)\n\tat org.apache.sling.jcr.contentparser.impl.XmlContentParserTest.testDataTypes(XmlContentParserTest.java:64)\n"
+                    },
+                    {
+                        "classname": "org.apache.sling.jcr.contentparser.impl.JsonContentParserTest",
+                        "method": "testIso8601Calendar",
+                        "exn_type": "java.lang.NullPointerException:",
+                        "stack_trace": "java.lang.NullPointerException: null\n\tat org.apache.sling.jcr.contentparser.impl.ParserHelper.convertSingleTypeArray(ParserHelper.java:132)\n\tat org.apache.sling.jcr.contentparser.impl.JsonContentParser.convertValue(JsonContentParser.java:195)\n\tat org.apache.sling.jcr.contentparser.impl.JsonContentParser.parse(JsonContentParser.java:123)\n\tat org.apache.sling.jcr.contentparser.impl.JsonContentParser.parse(JsonContentParser.java:160)\n\tat org.apache.sling.jcr.contentparser.impl.JsonContentParser.parse(JsonContentParser.java:160)\n\tat org.apache.sling.jcr.contentparser.impl.JsonContentParser.parse(JsonContentParser.java:79)\n\tat org.apache.sling.jcr.contentparser.impl.TestUtils.parse(TestUtils.java:42)\n\tat org.apache.sling.jcr.contentparser.impl.JsonContentParserTest.testGetChild(JsonContentParserTest.java:179)\n"
+                    },
+                    {
+                        "classname": "org.apache.sling.jcr.contentparser.impl.XmlContentParserTest",
+                        "method": "testCalendar",
+                        "exn_type": "java.lang.NullPointerException:",
+                        "stack_trace": "java.lang.NullPointerException: null\n\tat org.apache.sling.jcr.contentparser.impl.ParserHelper.convertSingleTypeArray(ParserHelper.java:132)\n\tat org.apache.sling.jcr.contentparser.impl.XmlContentParser.convertMultiValue(XmlContentParser.java:225)\n\tat org.apache.sling.jcr.contentparser.impl.XmlContentParser.parse(XmlContentParser.java:137)\n\tat org.apache.sling.jcr.contentparser.impl.XmlContentParser.parse(XmlContentParser.java:153)\n\tat org.apache.sling.jcr.contentparser.impl.XmlContentParser.parse(XmlContentParser.java:153)\n\tat org.apache.sling.jcr.contentparser.impl.XmlContentParser.parse(XmlContentParser.java:64)\n\tat org.apache.sling.jcr.contentparser.impl.TestUtils.parse(TestUtils.java:42)\n\tat org.apache.sling.jcr.contentparser.impl.XmlContentParserTest.testDataTypes(XmlContentParserTest.java:64)\n"
+                    },
+                    {
+                        "classname": "org.apache.sling.jcr.contentparser.impl.XmlContentParserTest",
+                        "method": "testContentProperties",
+                        "exn_type": "java.lang.NullPointerException:",
+                        "stack_trace": "java.lang.NullPointerException: null\n\tat org.apache.sling.jcr.contentparser.impl.ParserHelper.convertSingleTypeArray(ParserHelper.java:132)\n\tat org.apache.sling.jcr.contentparser.impl.XmlContentParser.convertMultiValue(XmlContentParser.java:225)\n\tat org.apache.sling.jcr.contentparser.impl.XmlContentParser.parse(XmlContentParser.java:137)\n\tat org.apache.sling.jcr.contentparser.impl.XmlContentParser.parse(XmlContentParser.java:153)\n\tat org.apache.sling.jcr.contentparser.impl.XmlContentParser.parse(XmlContentParser.java:153)\n\tat org.apache.sling.jcr.contentparser.impl.XmlContentParser.parse(XmlContentParser.java:64)\n\tat org.apache.sling.jcr.contentparser.impl.TestUtils.parse(TestUtils.java:42)\n\tat org.apache.sling.jcr.contentparser.impl.XmlContentParserTest.testContentProperties(XmlContentParserTest.java:81)\n"
+                    },
+                    {
+                        "classname": "org.apache.sling.jcr.contentparser.impl.JsonContentParserTest",
+                        "method": "testCalendar",
+                        "exn_type": "java.lang.NullPointerException:",
+                        "stack_trace": "java.lang.NullPointerException: null\n\tat org.apache.sling.jcr.contentparser.impl.ParserHelper.convertSingleTypeArray(ParserHelper.java:132)\n\tat org.apache.sling.jcr.contentparser.impl.JsonContentParser.convertValue(JsonContentParser.java:195)\n\tat org.apache.sling.jcr.contentparser.impl.JsonContentParser.parse(JsonContentParser.java:123)\n\tat org.apache.sling.jcr.contentparser.impl.JsonContentParser.parse(JsonContentParser.java:160)\n\tat org.apache.sling.jcr.contentparser.impl.JsonContentParser.parse(JsonContentParser.java:160)\n\tat org.apache.sling.jcr.contentparser.impl.JsonContentParser.parse(JsonContentParser.java:79)\n\tat org.apache.sling.jcr.contentparser.impl.TestUtils.parse(TestUtils.java:42)\n\tat org.apache.sling.jcr.contentparser.impl.JsonContentParserTest.testIso8601Calendar(JsonContentParserTest.java:115)\n"
+                    },
+                    {
+                        "classname": "org.apache.sling.jcr.contentparser.impl.XmlContentParserTest",
+                        "method": "testUTF8Chars",
+                        "exn_type": "java.lang.NullPointerException:",
+                        "stack_trace": "java.lang.NullPointerException: null\n\tat org.apache.sling.jcr.contentparser.impl.ParserHelper.convertSingleTypeArray(ParserHelper.java:132)\n\tat org.apache.sling.jcr.contentparser.impl.XmlContentParser.convertMultiValue(XmlContentParser.java:225)\n\tat org.apache.sling.jcr.contentparser.impl.XmlContentParser.parse(XmlContentParser.java:137)\n\tat org.apache.sling.jcr.contentparser.impl.XmlContentParser.parse(XmlContentParser.java:153)\n\tat org.apache.sling.jcr.contentparser.impl.XmlContentParser.parse(XmlContentParser.java:153)\n\tat org.apache.sling.jcr.contentparser.impl.XmlContentParser.parse(XmlContentParser.java:64)\n\tat org.apache.sling.jcr.contentparser.impl.TestUtils.parse(TestUtils.java:42)\n\tat org.apache.sling.jcr.contentparser.impl.XmlContentParserTest.testCalendar(XmlContentParserTest.java:91)\n"
+                    },
+                    {
+                        "classname": "org.apache.sling.jcr.contentparser.impl.JsonContentParserTest",
+                        "method": "testIso8601Calendar",
+                        "exn_type": "java.lang.NullPointerException:",
+                        "stack_trace": "java.lang.NullPointerException: null\n\tat org.apache.sling.jcr.contentparser.impl.ParserHelper.convertSingleTypeArray(ParserHelper.java:132)\n\tat org.apache.sling.jcr.contentparser.impl.JsonContentParser.convertValue(JsonContentParser.java:195)\n\tat org.apache.sling.jcr.contentparser.impl.JsonContentParser.parse(JsonContentParser.java:123)\n\tat org.apache.sling.jcr.contentparser.impl.JsonContentParser.parse(JsonContentParser.java:160)\n\tat org.apache.sling.jcr.contentparser.impl.JsonContentParser.parse(JsonContentParser.java:160)\n\tat org.apache.sling.jcr.contentparser.impl.JsonContentParser.parse(JsonContentParser.java:79)\n\tat org.apache.sling.jcr.contentparser.impl.TestUtils.parse(TestUtils.java:42)\n\tat org.apache.sling.jcr.contentparser.impl.JsonContentParserTest.testUTF8Chars(JsonContentParserTest.java:134)\n"
+                    },
+                    {
+                        "classname": "org.apache.sling.jcr.contentparser.impl.JsonContentParserTest",
+                        "method": "testUTF8Chars",
+                        "exn_type": "java.lang.NullPointerException:",
+                        "stack_trace": "java.lang.NullPointerException: null\n\tat org.apache.sling.jcr.contentparser.impl.ParserHelper.convertSingleTypeArray(ParserHelper.java:132)\n\tat org.apache.sling.jcr.contentparser.impl.JsonContentParser.convertValue(JsonContentParser.java:195)\n\tat org.apache.sling.jcr.contentparser.impl.JsonContentParser.parse(JsonContentParser.java:123)\n\tat org.apache.sling.jcr.contentparser.impl.JsonContentParser.parse(JsonContentParser.java:160)\n\tat org.apache.sling.jcr.contentparser.impl.JsonContentParser.parse(JsonContentParser.java:160)\n\tat org.apache.sling.jcr.contentparser.impl.JsonContentParser.parse(JsonContentParser.java:79)\n\tat org.apache.sling.jcr.contentparser.impl.TestUtils.parse(TestUtils.java:42)\n\tat org.apache.sling.jcr.contentparser.impl.JsonContentParserTest.testCalendar(JsonContentParserTest.java:93)\n"
+                    },
+                    {
+                        "classname": "org.apache.sling.jcr.contentparser.impl.XmlContentParserTest",
+                        "method": "testPageJcrPrimaryType",
+                        "exn_type": "java.lang.NullPointerException:",
+                        "stack_trace": "java.lang.NullPointerException: null\n\tat org.apache.sling.jcr.contentparser.impl.ParserHelper.convertSingleTypeArray(ParserHelper.java:132)\n\tat org.apache.sling.jcr.contentparser.impl.XmlContentParser.convertMultiValue(XmlContentParser.java:225)\n\tat org.apache.sling.jcr.contentparser.impl.XmlContentParser.parse(XmlContentParser.java:137)\n\tat org.apache.sling.jcr.contentparser.impl.XmlContentParser.parse(XmlContentParser.java:153)\n\tat org.apache.sling.jcr.contentparser.impl.XmlContentParser.parse(XmlContentParser.java:153)\n\tat org.apache.sling.jcr.contentparser.impl.XmlContentParser.parse(XmlContentParser.java:64)\n\tat org.apache.sling.jcr.contentparser.impl.TestUtils.parse(TestUtils.java:42)\n\tat org.apache.sling.jcr.contentparser.impl.XmlContentParserTest.testCalendar(XmlContentParserTest.java:91)\n"
+                    },
+                    {
+                        "classname": "org.apache.sling.jcr.contentparser.impl.JsonContentParserTest",
+                        "method": "testPageJcrPrimaryType",
+                        "exn_type": "java.lang.NullPointerException:",
+                        "stack_trace": "java.lang.NullPointerException: null\n\tat org.apache.sling.jcr.contentparser.impl.ParserHelper.convertSingleTypeArray(ParserHelper.java:132)\n\tat org.apache.sling.jcr.contentparser.impl.JsonContentParser.convertValue(JsonContentParser.java:195)\n\tat org.apache.sling.jcr.contentparser.impl.JsonContentParser.parse(JsonContentParser.java:123)\n\tat org.apache.sling.jcr.contentparser.impl.JsonContentParser.parse(JsonContentParser.java:160)\n\tat org.apache.sling.jcr.contentparser.impl.JsonContentParser.parse(JsonContentParser.java:160)\n\tat org.apache.sling.jcr.contentparser.impl.JsonContentParser.parse(JsonContentParser.java:79)\n\tat org.apache.sling.jcr.contentparser.impl.TestUtils.parse(TestUtils.java:42)\n\tat org.apache.sling.jcr.contentparser.impl.JsonContentParserTest.testCalendar(JsonContentParserTest.java:93)\n"
+                    },
+                    {
+                        "classname": "org.apache.sling.jcr.contentparser.impl.JsonContentParserTest",
+                        "method": "testIso8601Calendar",
+                        "exn_type": "java.lang.NullPointerException:",
+                        "stack_trace": "java.lang.NullPointerException: null\n\tat org.apache.sling.jcr.contentparser.impl.ParserHelper.convertSingleTypeArray(ParserHelper.java:132)\n\tat org.apache.sling.jcr.contentparser.impl.JsonContentParser.convertValue(JsonContentParser.java:195)\n\tat org.apache.sling.jcr.contentparser.impl.JsonContentParser.parse(JsonContentParser.java:123)\n\tat org.apache.sling.jcr.contentparser.impl.JsonContentParser.parse(JsonContentParser.java:160)\n\tat org.apache.sling.jcr.contentparser.impl.JsonContentParser.parse(JsonContentParser.java:160)\n\tat org.apache.sling.jcr.contentparser.impl.JsonContentParser.parse(JsonContentParser.java:79)\n\tat org.apache.sling.jcr.contentparser.impl.TestUtils.parse(TestUtils.java:42)\n\tat org.apache.sling.jcr.contentparser.impl.JsonContentParserTest.testIso8601Calendar(JsonContentParserTest.java:115)\n"
+                    },
+                    {
+                        "classname": "org.apache.sling.jcr.contentparser.impl.XmlContentParserTest",
+                        "method": "testUTF8Chars",
+                        "exn_type": "java.lang.NullPointerException:",
+                        "stack_trace": "java.lang.NullPointerException: null\n\tat org.apache.sling.jcr.contentparser.impl.ParserHelper.convertSingleTypeArray(ParserHelper.java:132)\n\tat org.apache.sling.jcr.contentparser.impl.XmlContentParser.convertMultiValue(XmlContentParser.java:225)\n\tat org.apache.sling.jcr.contentparser.impl.XmlContentParser.parse(XmlContentParser.java:137)\n\tat org.apache.sling.jcr.contentparser.impl.XmlContentParser.parse(XmlContentParser.java:153)\n\tat org.apache.sling.jcr.contentparser.impl.XmlContentParser.parse(XmlContentParser.java:153)\n\tat org.apache.sling.jcr.contentparser.impl.XmlContentParser.parse(XmlContentParser.java:64)\n\tat org.apache.sling.jcr.contentparser.impl.TestUtils.parse(TestUtils.java:42)\n\tat org.apache.sling.jcr.contentparser.impl.XmlContentParserTest.testContentProperties(XmlContentParserTest.java:81)\n"
+                    },
+                    {
+                        "classname": "org.apache.sling.jcr.contentparser.impl.JsonContentParserTest",
+                        "method": "testContentProperties",
+                        "exn_type": "java.lang.NullPointerException:",
+                        "stack_trace": "java.lang.NullPointerException: null\n\tat org.apache.sling.jcr.contentparser.impl.ParserHelper.convertSingleTypeArray(ParserHelper.java:132)\n\tat org.apache.sling.jcr.contentparser.impl.JsonContentParser.convertValue(JsonContentParser.java:195)\n\tat org.apache.sling.jcr.contentparser.impl.JsonContentParser.parse(JsonContentParser.java:123)\n\tat org.apache.sling.jcr.contentparser.impl.JsonContentParser.parse(JsonContentParser.java:160)\n\tat org.apache.sling.jcr.contentparser.impl.JsonContentParser.parse(JsonContentParser.java:160)\n\tat org.apache.sling.jcr.contentparser.impl.JsonContentParser.parse(JsonContentParser.java:79)\n\tat org.apache.sling.jcr.contentparser.impl.TestUtils.parse(TestUtils.java:42)\n\tat org.apache.sling.jcr.contentparser.impl.JsonContentParserTest.testCalendar(JsonContentParserTest.java:93)\n"
+                    },
+                    {
+                        "classname": "org.apache.sling.jcr.contentparser.impl.ParserHelperTest",
+                        "method": "testConvertSingleTypeArray",
+                        "exn_type": "java.lang.Exception",
+                        "stack_trace": "java.lang.Exception: Unexpected exception, expected<org.apache.sling.jcr.contentparser.ParseException> but was<java.lang.NullPointerException>\n\tat org.apache.sling.jcr.contentparser.impl.ParserHelper.convertSingleTypeArray(ParserHelper.java:132)\n\tat org.apache.sling.jcr.contentparser.impl.ParserHelperTest.testConvertSingleTypeArray_MixedType(ParserHelperTest.java:193)\n"
+                    },
+                    {
+                        "classname": "org.apache.sling.jcr.contentparser.impl.XmlContentParserTest",
+                        "method": "testContentProperties",
+                        "exn_type": "java.lang.NullPointerException:",
+                        "stack_trace": "java.lang.NullPointerException: null\n\tat org.apache.sling.jcr.contentparser.impl.ParserHelper.convertSingleTypeArray(ParserHelper.java:132)\n\tat org.apache.sling.jcr.contentparser.impl.XmlContentParser.convertMultiValue(XmlContentParser.java:225)\n\tat org.apache.sling.jcr.contentparser.impl.XmlContentParser.parse(XmlContentParser.java:137)\n\tat org.apache.sling.jcr.contentparser.impl.XmlContentParser.parse(XmlContentParser.java:153)\n\tat org.apache.sling.jcr.contentparser.impl.XmlContentParser.parse(XmlContentParser.java:153)\n\tat org.apache.sling.jcr.contentparser.impl.XmlContentParser.parse(XmlContentParser.java:64)\n\tat org.apache.sling.jcr.contentparser.impl.TestUtils.parse(TestUtils.java:42)\n\tat org.apache.sling.jcr.contentparser.impl.XmlContentParserTest.testPageJcrPrimaryType(XmlContentParserTest.java:56)\n"
+                    },
+                    {
+                        "classname": "org.apache.sling.jcr.contentparser.impl.ParserHelperTest",
+                        "method": "testConvertSingleTypeArray_WithNull",
+                        "exn_type": "java.lang.Exception",
+                        "stack_trace": "java.lang.Exception: Unexpected exception, expected<org.apache.sling.jcr.contentparser.ParseException> but was<java.lang.NullPointerException>\n\tat org.apache.sling.jcr.contentparser.impl.ParserHelper.convertSingleTypeArray(ParserHelper.java:132)\n\tat org.apache.sling.jcr.contentparser.impl.ParserHelperTest.testConvertSingleTypeArray_MixedType(ParserHelperTest.java:193)\n"
+                    },
+                    {
+                        "classname": "org.apache.sling.jcr.contentparser.impl.XmlContentParserTest",
+                        "method": "testGetChild",
+                        "exn_type": "java.lang.NullPointerException:",
+                        "stack_trace": "java.lang.NullPointerException: null\n\tat org.apache.sling.jcr.contentparser.impl.ParserHelper.convertSingleTypeArray(ParserHelper.java:132)\n\tat org.apache.sling.jcr.contentparser.impl.XmlContentParser.convertMultiValue(XmlContentParser.java:225)\n\tat org.apache.sling.jcr.contentparser.impl.XmlContentParser.parse(XmlContentParser.java:137)\n\tat org.apache.sling.jcr.contentparser.impl.XmlContentParser.parse(XmlContentParser.java:153)\n\tat org.apache.sling.jcr.contentparser.impl.XmlContentParser.parse(XmlContentParser.java:153)\n\tat org.apache.sling.jcr.contentparser.impl.XmlContentParser.parse(XmlContentParser.java:64)\n\tat org.apache.sling.jcr.contentparser.impl.TestUtils.parse(TestUtils.java:42)\n\tat org.apache.sling.jcr.contentparser.impl.XmlContentParserTest.testCalendar(XmlContentParserTest.java:91)\n"
+                    },
+                    {
+                        "classname": "org.apache.sling.jcr.contentparser.impl.JsonContentParserTest",
+                        "method": "testContentProperties",
+                        "exn_type": "java.lang.NullPointerException:",
+                        "stack_trace": "java.lang.NullPointerException: null\n\tat org.apache.sling.jcr.contentparser.impl.ParserHelper.convertSingleTypeArray(ParserHelper.java:132)\n\tat org.apache.sling.jcr.contentparser.impl.JsonContentParser.convertValue(JsonContentParser.java:195)\n\tat org.apache.sling.jcr.contentparser.impl.JsonContentParser.parse(JsonContentParser.java:123)\n\tat org.apache.sling.jcr.contentparser.impl.JsonContentParser.parse(JsonContentParser.java:160)\n\tat org.apache.sling.jcr.contentparser.impl.JsonContentParser.parse(JsonContentParser.java:160)\n\tat org.apache.sling.jcr.contentparser.impl.JsonContentParser.parse(JsonContentParser.java:79)\n\tat org.apache.sling.jcr.contentparser.impl.TestUtils.parse(TestUtils.java:42)\n\tat org.apache.sling.jcr.contentparser.impl.JsonContentParserTest.testDataTypes(JsonContentParserTest.java:66)\n"
+                    },
+                    {
+                        "classname": "org.apache.sling.jcr.contentparser.impl.XmlContentParserTest",
+                        "method": "testPageJcrPrimaryType",
+                        "exn_type": "java.lang.NullPointerException:",
+                        "stack_trace": "java.lang.NullPointerException: null\n\tat org.apache.sling.jcr.contentparser.impl.ParserHelper.convertSingleTypeArray(ParserHelper.java:132)\n\tat org.apache.sling.jcr.contentparser.impl.XmlContentParser.convertMultiValue(XmlContentParser.java:225)\n\tat org.apache.sling.jcr.contentparser.impl.XmlContentParser.parse(XmlContentParser.java:137)\n\tat org.apache.sling.jcr.contentparser.impl.XmlContentParser.parse(XmlContentParser.java:153)\n\tat org.apache.sling.jcr.contentparser.impl.XmlContentParser.parse(XmlContentParser.java:153)\n\tat org.apache.sling.jcr.contentparser.impl.XmlContentParser.parse(XmlContentParser.java:64)\n\tat org.apache.sling.jcr.contentparser.impl.TestUtils.parse(TestUtils.java:42)\n\tat org.apache.sling.jcr.contentparser.impl.XmlContentParserTest.testContentProperties(XmlContentParserTest.java:81)\n"
+                    },
+                    {
+                        "classname": "org.apache.sling.jcr.contentparser.impl.XmlContentParserTest",
+                        "method": "testDataTypes",
+                        "exn_type": "java.lang.NullPointerException:",
+                        "stack_trace": "java.lang.NullPointerException: null\n\tat org.apache.sling.jcr.contentparser.impl.ParserHelper.convertSingleTypeArray(ParserHelper.java:132)\n\tat org.apache.sling.jcr.contentparser.impl.XmlContentParser.convertMultiValue(XmlContentParser.java:225)\n\tat org.apache.sling.jcr.contentparser.impl.XmlContentParser.parse(XmlContentParser.java:137)\n\tat org.apache.sling.jcr.contentparser.impl.XmlContentParser.parse(XmlContentParser.java:153)\n\tat org.apache.sling.jcr.contentparser.impl.XmlContentParser.parse(XmlContentParser.java:153)\n\tat org.apache.sling.jcr.contentparser.impl.XmlContentParser.parse(XmlContentParser.java:64)\n\tat org.apache.sling.jcr.contentparser.impl.TestUtils.parse(TestUtils.java:42)\n\tat org.apache.sling.jcr.contentparser.impl.XmlContentParserTest.testPageJcrPrimaryType(XmlContentParserTest.java:56)\n"
+                    },
+                    {
+                        "classname": "org.apache.sling.jcr.contentparser.impl.ParserHelperTest",
+                        "method": "testConvertSingleTypeArray",
+                        "exn_type": "java.lang.Exception",
+                        "stack_trace": "java.lang.Exception: Unexpected exception, expected<org.apache.sling.jcr.contentparser.ParseException> but was<java.lang.NullPointerException>\n\tat org.apache.sling.jcr.contentparser.impl.ParserHelper.convertSingleTypeArray(ParserHelper.java:132)\n\tat org.apache.sling.jcr.contentparser.impl.ParserHelperTest.testConvertSingleTypeArray_WithNull(ParserHelperTest.java:181)\n"
+                    },
+                    {
+                        "classname": "org.apache.sling.jcr.contentparser.impl.XmlContentParserTest",
+                        "method": "testCalendar",
+                        "exn_type": "java.lang.NullPointerException:",
+                        "stack_trace": "java.lang.NullPointerException: null\n\tat org.apache.sling.jcr.contentparser.impl.ParserHelper.convertSingleTypeArray(ParserHelper.java:132)\n\tat org.apache.sling.jcr.contentparser.impl.XmlContentParser.convertMultiValue(XmlContentParser.java:225)\n\tat org.apache.sling.jcr.contentparser.impl.XmlContentParser.parse(XmlContentParser.java:137)\n\tat org.apache.sling.jcr.contentparser.impl.XmlContentParser.parse(XmlContentParser.java:153)\n\tat org.apache.sling.jcr.contentparser.impl.XmlContentParser.parse(XmlContentParser.java:153)\n\tat org.apache.sling.jcr.contentparser.impl.XmlContentParser.parse(XmlContentParser.java:64)\n\tat org.apache.sling.jcr.contentparser.impl.TestUtils.parse(TestUtils.java:42)\n\tat org.apache.sling.jcr.contentparser.impl.XmlContentParserTest.testPageJcrPrimaryType(XmlContentParserTest.java:56)\n"
+                    },
+                    {
+                        "classname": "org.apache.sling.jcr.contentparser.impl.XmlContentParserTest",
+                        "method": "testGetChild",
+                        "exn_type": "java.lang.NullPointerException:",
+                        "stack_trace": "java.lang.NullPointerException: null\n\tat org.apache.sling.jcr.contentparser.impl.ParserHelper.convertSingleTypeArray(ParserHelper.java:132)\n\tat org.apache.sling.jcr.contentparser.impl.XmlContentParser.convertMultiValue(XmlContentParser.java:225)\n\tat org.apache.sling.jcr.contentparser.impl.XmlContentParser.parse(XmlContentParser.java:137)\n\tat org.apache.sling.jcr.contentparser.impl.XmlContentParser.parse(XmlContentParser.java:153)\n\tat org.apache.sling.jcr.contentparser.impl.XmlContentParser.parse(XmlContentParser.java:153)\n\tat org.apache.sling.jcr.contentparser.impl.XmlContentParser.parse(XmlContentParser.java:64)\n\tat org.apache.sling.jcr.contentparser.impl.TestUtils.parse(TestUtils.java:42)\n\tat org.apache.sling.jcr.contentparser.impl.XmlContentParserTest.testDataTypes(XmlContentParserTest.java:64)\n"
+                    },
+                    {
+                        "classname": "org.apache.sling.jcr.contentparser.impl.ParserHelperTest",
+                        "method": "testConvertSingleTypeArray_WithNull",
+                        "exn_type": "java.lang.Exception",
+                        "stack_trace": "java.lang.Exception: Unexpected exception, expected<org.apache.sling.jcr.contentparser.ParseException> but was<java.lang.NullPointerException>\n\tat org.apache.sling.jcr.contentparser.impl.ParserHelper.convertSingleTypeArray(ParserHelper.java:132)\n\tat org.apache.sling.jcr.contentparser.impl.ParserHelperTest.testConvertSingleTypeArray_WithNull(ParserHelperTest.java:181)\n"
+                    },
+                    {
+                        "classname": "org.apache.sling.jcr.contentparser.impl.JsonContentParserTest",
+                        "method": "testDataTypes",
+                        "exn_type": "java.lang.NullPointerException:",
+                        "stack_trace": "java.lang.NullPointerException: null\n\tat org.apache.sling.jcr.contentparser.impl.ParserHelper.convertSingleTypeArray(ParserHelper.java:132)\n\tat org.apache.sling.jcr.contentparser.impl.JsonContentParser.convertValue(JsonContentParser.java:195)\n\tat org.apache.sling.jcr.contentparser.impl.JsonContentParser.parse(JsonContentParser.java:123)\n\tat org.apache.sling.jcr.contentparser.impl.JsonContentParser.parse(JsonContentParser.java:160)\n\tat org.apache.sling.jcr.contentparser.impl.JsonContentParser.parse(JsonContentParser.java:160)\n\tat org.apache.sling.jcr.contentparser.impl.JsonContentParser.parse(JsonContentParser.java:79)\n\tat org.apache.sling.jcr.contentparser.impl.TestUtils.parse(TestUtils.java:42)\n\tat org.apache.sling.jcr.contentparser.impl.JsonContentParserTest.testIgnoreResourcesProperties(JsonContentParserTest.java:162)\n"
+                    },
+                    {
+                        "classname": "org.apache.sling.jcr.contentparser.impl.JsonContentParserTest",
+                        "method": "testCalendar",
+                        "exn_type": "java.lang.NullPointerException:",
+                        "stack_trace": "java.lang.NullPointerException: null\n\tat org.apache.sling.jcr.contentparser.impl.ParserHelper.convertSingleTypeArray(ParserHelper.java:132)\n\tat org.apache.sling.jcr.contentparser.impl.JsonContentParser.convertValue(JsonContentParser.java:195)\n\tat org.apache.sling.jcr.contentparser.impl.JsonContentParser.parse(JsonContentParser.java:123)\n\tat org.apache.sling.jcr.contentparser.impl.JsonContentParser.parse(JsonContentParser.java:160)\n\tat org.apache.sling.jcr.contentparser.impl.JsonContentParser.parse(JsonContentParser.java:160)\n\tat org.apache.sling.jcr.contentparser.impl.JsonContentParser.parse(JsonContentParser.java:79)\n\tat org.apache.sling.jcr.contentparser.impl.TestUtils.parse(TestUtils.java:42)\n\tat org.apache.sling.jcr.contentparser.impl.JsonContentParserTest.testDataTypes(JsonContentParserTest.java:66)\n"
+                    },
+                    {
+                        "classname": "org.apache.sling.jcr.contentparser.impl.JsonContentParserTest",
+                        "method": "testUTF8Chars",
+                        "exn_type": "java.lang.NullPointerException:",
+                        "stack_trace": "java.lang.NullPointerException: null\n\tat org.apache.sling.jcr.contentparser.impl.ParserHelper.convertSingleTypeArray(ParserHelper.java:132)\n\tat org.apache.sling.jcr.contentparser.impl.JsonContentParser.convertValue(JsonContentParser.java:195)\n\tat org.apache.sling.jcr.contentparser.impl.JsonContentParser.parse(JsonContentParser.java:123)\n\tat org.apache.sling.jcr.contentparser.impl.JsonContentParser.parse(JsonContentParser.java:160)\n\tat org.apache.sling.jcr.contentparser.impl.JsonContentParser.parse(JsonContentParser.java:160)\n\tat org.apache.sling.jcr.contentparser.impl.JsonContentParser.parse(JsonContentParser.java:79)\n\tat org.apache.sling.jcr.contentparser.impl.TestUtils.parse(TestUtils.java:42)\n\tat org.apache.sling.jcr.contentparser.impl.JsonContentParserTest.testGetChild(JsonContentParserTest.java:179)\n"
+                    },
+                    {
+                        "classname": "org.apache.sling.jcr.contentparser.impl.JsonContentParserTest",
+                        "method": "testGetChild",
+                        "exn_type": "java.lang.NullPointerException:",
+                        "stack_trace": "java.lang.NullPointerException: null\n\tat org.apache.sling.jcr.contentparser.impl.ParserHelper.convertSingleTypeArray(ParserHelper.java:132)\n\tat org.apache.sling.jcr.contentparser.impl.JsonContentParser.convertValue(JsonContentParser.java:195)\n\tat org.apache.sling.jcr.contentparser.impl.JsonContentParser.parse(JsonContentParser.java:123)\n\tat org.apache.sling.jcr.contentparser.impl.JsonContentParser.parse(JsonContentParser.java:160)\n\tat org.apache.sling.jcr.contentparser.impl.JsonContentParser.parse(JsonContentParser.java:160)\n\tat org.apache.sling.jcr.contentparser.impl.JsonContentParser.parse(JsonContentParser.java:79)\n\tat org.apache.sling.jcr.contentparser.impl.TestUtils.parse(TestUtils.java:42)\n\tat org.apache.sling.jcr.contentparser.impl.JsonContentParserTest.testDataTypes(JsonContentParserTest.java:66)\n"
+                    },
+                    {
+                        "classname": "org.apache.sling.jcr.contentparser.impl.JsonContentParserTest",
+                        "method": "testIgnoreResourcesProperties",
+                        "exn_type": "java.lang.NullPointerException:",
+                        "stack_trace": "java.lang.NullPointerException: null\n\tat org.apache.sling.jcr.contentparser.impl.ParserHelper.convertSingleTypeArray(ParserHelper.java:132)\n\tat org.apache.sling.jcr.contentparser.impl.JsonContentParser.convertValue(JsonContentParser.java:195)\n\tat org.apache.sling.jcr.contentparser.impl.JsonContentParser.parse(JsonContentParser.java:123)\n\tat org.apache.sling.jcr.contentparser.impl.JsonContentParser.parse(JsonContentParser.java:160)\n\tat org.apache.sling.jcr.contentparser.impl.JsonContentParser.parse(JsonContentParser.java:160)\n\tat org.apache.sling.jcr.contentparser.impl.JsonContentParser.parse(JsonContentParser.java:79)\n\tat org.apache.sling.jcr.contentparser.impl.TestUtils.parse(TestUtils.java:42)\n\tat org.apache.sling.jcr.contentparser.impl.JsonContentParserTest.testDataTypes(JsonContentParserTest.java:66)\n"
+                    },
+                    {
+                        "classname": "org.apache.sling.jcr.contentparser.impl.XmlContentParserTest",
+                        "method": "testIgnoreResourcesProperties",
+                        "exn_type": "java.lang.NullPointerException:",
+                        "stack_trace": "java.lang.NullPointerException: null\n\tat org.apache.sling.jcr.contentparser.impl.ParserHelper.convertSingleTypeArray(ParserHelper.java:132)\n\tat org.apache.sling.jcr.contentparser.impl.XmlContentParser.convertMultiValue(XmlContentParser.java:225)\n\tat org.apache.sling.jcr.contentparser.impl.XmlContentParser.parse(XmlContentParser.java:137)\n\tat org.apache.sling.jcr.contentparser.impl.XmlContentParser.parse(XmlContentParser.java:153)\n\tat org.apache.sling.jcr.contentparser.impl.XmlContentParser.parse(XmlContentParser.java:153)\n\tat org.apache.sling.jcr.contentparser.impl.XmlContentParser.parse(XmlContentParser.java:64)\n\tat org.apache.sling.jcr.contentparser.impl.TestUtils.parse(TestUtils.java:42)\n\tat org.apache.sling.jcr.contentparser.impl.XmlContentParserTest.testContentProperties(XmlContentParserTest.java:81)\n"
+                    },
+                    {
+                        "classname": "org.apache.sling.jcr.contentparser.impl.XmlContentParserTest",
+                        "method": "testContentProperties",
+                        "exn_type": "java.lang.NullPointerException:",
+                        "stack_trace": "java.lang.NullPointerException: null\n\tat org.apache.sling.jcr.contentparser.impl.ParserHelper.convertSingleTypeArray(ParserHelper.java:132)\n\tat org.apache.sling.jcr.contentparser.impl.XmlContentParser.convertMultiValue(XmlContentParser.java:225)\n\tat org.apache.sling.jcr.contentparser.impl.XmlContentParser.parse(XmlContentParser.java:137)\n\tat org.apache.sling.jcr.contentparser.impl.XmlContentParser.parse(XmlContentParser.java:153)\n\tat org.apache.sling.jcr.contentparser.impl.XmlContentParser.parse(XmlContentParser.java:153)\n\tat org.apache.sling.jcr.contentparser.impl.XmlContentParser.parse(XmlContentParser.java:64)\n\tat org.apache.sling.jcr.contentparser.impl.TestUtils.parse(TestUtils.java:42)\n\tat org.apache.sling.jcr.contentparser.impl.XmlContentParserTest.testIgnoreResourcesProperties(XmlContentParserTest.java:140)\n"
+                    },
+                    {
+                        "classname": "org.apache.sling.jcr.contentparser.impl.XmlContentParserTest",
+                        "method": "testContentProperties",
+                        "exn_type": "java.lang.NullPointerException:",
+                        "stack_trace": "java.lang.NullPointerException: null\n\tat org.apache.sling.jcr.contentparser.impl.ParserHelper.convertSingleTypeArray(ParserHelper.java:132)\n\tat org.apache.sling.jcr.contentparser.impl.XmlContentParser.convertMultiValue(XmlContentParser.java:225)\n\tat org.apache.sling.jcr.contentparser.impl.XmlContentParser.parse(XmlContentParser.java:137)\n\tat org.apache.sling.jcr.contentparser.impl.XmlContentParser.parse(XmlContentParser.java:153)\n\tat org.apache.sling.jcr.contentparser.impl.XmlContentParser.parse(XmlContentParser.java:153)\n\tat org.apache.sling.jcr.contentparser.impl.XmlContentParser.parse(XmlContentParser.java:64)\n\tat org.apache.sling.jcr.contentparser.impl.TestUtils.parse(TestUtils.java:42)\n\tat org.apache.sling.jcr.contentparser.impl.XmlContentParserTest.testGetChild(XmlContentParserTest.java:157)\n"
+                    },
+                    {
+                        "classname": "org.apache.sling.jcr.contentparser.impl.JsonContentParserTest",
+                        "method": "testUTF8Chars",
+                        "exn_type": "java.lang.NullPointerException:",
+                        "stack_trace": "java.lang.NullPointerException: null\n\tat org.apache.sling.jcr.contentparser.impl.ParserHelper.convertSingleTypeArray(ParserHelper.java:132)\n\tat org.apache.sling.jcr.contentparser.impl.JsonContentParser.convertValue(JsonContentParser.java:195)\n\tat org.apache.sling.jcr.contentparser.impl.JsonContentParser.parse(JsonContentParser.java:123)\n\tat org.apache.sling.jcr.contentparser.impl.JsonContentParser.parse(JsonContentParser.java:160)\n\tat org.apache.sling.jcr.contentparser.impl.JsonContentParser.parse(JsonContentParser.java:160)\n\tat org.apache.sling.jcr.contentparser.impl.JsonContentParser.parse(JsonContentParser.java:79)\n\tat org.apache.sling.jcr.contentparser.impl.TestUtils.parse(TestUtils.java:42)\n\tat org.apache.sling.jcr.contentparser.impl.JsonContentParserTest.testUTF8Chars(JsonContentParserTest.java:134)\n"
+                    },
+                    {
+                        "classname": "org.apache.sling.jcr.contentparser.impl.XmlContentParserTest",
+                        "method": "testDataTypes",
+                        "exn_type": "java.lang.NullPointerException:",
+                        "stack_trace": "java.lang.NullPointerException: null\n\tat org.apache.sling.jcr.contentparser.impl.ParserHelper.convertSingleTypeArray(ParserHelper.java:132)\n\tat org.apache.sling.jcr.contentparser.impl.XmlContentParser.convertMultiValue(XmlContentParser.java:225)\n\tat org.apache.sling.jcr.contentparser.impl.XmlContentParser.parse(XmlContentParser.java:137)\n\tat org.apache.sling.jcr.contentparser.impl.XmlContentParser.parse(XmlContentParser.java:153)\n\tat org.apache.sling.jcr.contentparser.impl.XmlContentParser.parse(XmlContentParser.java:153)\n\tat org.apache.sling.jcr.contentparser.impl.XmlContentParser.parse(XmlContentParser.java:64)\n\tat org.apache.sling.jcr.contentparser.impl.TestUtils.parse(TestUtils.java:42)\n\tat org.apache.sling.jcr.contentparser.impl.XmlContentParserTest.testIgnoreResourcesProperties(XmlContentParserTest.java:140)\n"
+                    },
+                    {
+                        "classname": "org.apache.sling.jcr.contentparser.impl.JsonContentParserTest",
+                        "method": "testPageJcrPrimaryType",
+                        "exn_type": "java.lang.NullPointerException:",
+                        "stack_trace": "java.lang.NullPointerException: null\n\tat org.apache.sling.jcr.contentparser.impl.ParserHelper.convertSingleTypeArray(ParserHelper.java:132)\n\tat org.apache.sling.jcr.contentparser.impl.JsonContentParser.convertValue(JsonContentParser.java:195)\n\tat org.apache.sling.jcr.contentparser.impl.JsonContentParser.parse(JsonContentParser.java:123)\n\tat org.apache.sling.jcr.contentparser.impl.JsonContentParser.parse(JsonContentParser.java:160)\n\tat org.apache.sling.jcr.contentparser.impl.JsonContentParser.parse(JsonContentParser.java:160)\n\tat org.apache.sling.jcr.contentparser.impl.JsonContentParser.parse(JsonContentParser.java:79)\n\tat org.apache.sling.jcr.contentparser.impl.TestUtils.parse(TestUtils.java:42)\n\tat org.apache.sling.jcr.contentparser.impl.JsonContentParserTest.testGetChild(JsonContentParserTest.java:179)\n"
+                    },
+                    {
+                        "classname": "org.apache.sling.jcr.contentparser.impl.JsonContentParserTest",
+                        "method": "testDataTypes",
+                        "exn_type": "java.lang.NullPointerException:",
+                        "stack_trace": "java.lang.NullPointerException: null\n\tat org.apache.sling.jcr.contentparser.impl.ParserHelper.convertSingleTypeArray(ParserHelper.java:132)\n\tat org.apache.sling.jcr.contentparser.impl.JsonContentParser.convertValue(JsonContentParser.java:195)\n\tat org.apache.sling.jcr.contentparser.impl.JsonContentParser.parse(JsonContentParser.java:123)\n\tat org.apache.sling.jcr.contentparser.impl.JsonContentParser.parse(JsonContentParser.java:160)\n\tat org.apache.sling.jcr.contentparser.impl.JsonContentParser.parse(JsonContentParser.java:160)\n\tat org.apache.sling.jcr.contentparser.impl.JsonContentParser.parse(JsonContentParser.java:79)\n\tat org.apache.sling.jcr.contentparser.impl.TestUtils.parse(TestUtils.java:42)\n\tat org.apache.sling.jcr.contentparser.impl.JsonContentParserTest.testPageJcrPrimaryType(JsonContentParserTest.java:58)\n"
+                    },
+                    {
+                        "classname": "org.apache.sling.jcr.contentparser.impl.XmlContentParserTest",
+                        "method": "testDataTypes",
+                        "exn_type": "java.lang.NullPointerException:",
+                        "stack_trace": "java.lang.NullPointerException: null\n\tat org.apache.sling.jcr.contentparser.impl.ParserHelper.convertSingleTypeArray(ParserHelper.java:132)\n\tat org.apache.sling.jcr.contentparser.impl.XmlContentParser.convertMultiValue(XmlContentParser.java:225)\n\tat org.apache.sling.jcr.contentparser.impl.XmlContentParser.parse(XmlContentParser.java:137)\n\tat org.apache.sling.jcr.contentparser.impl.XmlContentParser.parse(XmlContentParser.java:153)\n\tat org.apache.sling.jcr.contentparser.impl.XmlContentParser.parse(XmlContentParser.java:153)\n\tat org.apache.sling.jcr.contentparser.impl.XmlContentParser.parse(XmlContentParser.java:64)\n\tat org.apache.sling.jcr.contentparser.impl.TestUtils.parse(TestUtils.java:42)\n\tat org.apache.sling.jcr.contentparser.impl.XmlContentParserTest.testGetChild(XmlContentParserTest.java:157)\n"
+                    },
+                    {
+                        "classname": "org.apache.sling.jcr.contentparser.impl.JsonContentParserTest",
+                        "method": "testDataTypes",
+                        "exn_type": "java.lang.NullPointerException:",
+                        "stack_trace": "java.lang.NullPointerException: null\n\tat org.apache.sling.jcr.contentparser.impl.ParserHelper.convertSingleTypeArray(ParserHelper.java:132)\n\tat org.apache.sling.jcr.contentparser.impl.JsonContentParser.convertValue(JsonContentParser.java:195)\n\tat org.apache.sling.jcr.contentparser.impl.JsonContentParser.parse(JsonContentParser.java:123)\n\tat org.apache.sling.jcr.contentparser.impl.JsonContentParser.parse(JsonContentParser.java:160)\n\tat org.apache.sling.jcr.contentparser.impl.JsonContentParser.parse(JsonContentParser.java:160)\n\tat org.apache.sling.jcr.contentparser.impl.JsonContentParser.parse(JsonContentParser.java:79)\n\tat org.apache.sling.jcr.contentparser.impl.TestUtils.parse(TestUtils.java:42)\n\tat org.apache.sling.jcr.contentparser.impl.JsonContentParserTest.testContentProperties(JsonContentParserTest.java:83)\n"
+                    },
+                    {
+                        "classname": "org.apache.sling.jcr.contentparser.impl.JsonContentParserTest",
+                        "method": "testPageJcrPrimaryType",
+                        "exn_type": "java.lang.NullPointerException:",
+                        "stack_trace": "java.lang.NullPointerException: null\n\tat org.apache.sling.jcr.contentparser.impl.ParserHelper.convertSingleTypeArray(ParserHelper.java:132)\n\tat org.apache.sling.jcr.contentparser.impl.JsonContentParser.convertValue(JsonContentParser.java:195)\n\tat org.apache.sling.jcr.contentparser.impl.JsonContentParser.parse(JsonContentParser.java:123)\n\tat org.apache.sling.jcr.contentparser.impl.JsonContentParser.parse(JsonContentParser.java:160)\n\tat org.apache.sling.jcr.contentparser.impl.JsonContentParser.parse(JsonContentParser.java:160)\n\tat org.apache.sling.jcr.contentparser.impl.JsonContentParser.parse(JsonContentParser.java:79)\n\tat org.apache.sling.jcr.contentparser.impl.TestUtils.parse(TestUtils.java:42)\n\tat org.apache.sling.jcr.contentparser.impl.JsonContentParserTest.testUTF8Chars(JsonContentParserTest.java:134)\n"
+                    },
+                    {
+                        "classname": "org.apache.sling.jcr.contentparser.impl.JsonContentParserTest",
+                        "method": "testContentProperties",
+                        "exn_type": "java.lang.NullPointerException:",
+                        "stack_trace": "java.lang.NullPointerException: null\n\tat org.apache.sling.jcr.contentparser.impl.ParserHelper.convertSingleTypeArray(ParserHelper.java:132)\n\tat org.apache.sling.jcr.contentparser.impl.JsonContentParser.convertValue(JsonContentParser.java:195)\n\tat org.apache.sling.jcr.contentparser.impl.JsonContentParser.parse(JsonContentParser.java:123)\n\tat org.apache.sling.jcr.contentparser.impl.JsonContentParser.parse(JsonContentParser.java:160)\n\tat org.apache.sling.jcr.contentparser.impl.JsonContentParser.parse(JsonContentParser.java:160)\n\tat org.apache.sling.jcr.contentparser.impl.JsonContentParser.parse(JsonContentParser.java:79)\n\tat org.apache.sling.jcr.contentparser.impl.TestUtils.parse(TestUtils.java:42)\n\tat org.apache.sling.jcr.contentparser.impl.JsonContentParserTest.testGetChild(JsonContentParserTest.java:179)\n"
+                    },
+                    {
+                        "classname": "org.apache.sling.jcr.contentparser.impl.JsonContentParserTest",
+                        "method": "testUTF8Chars",
+                        "exn_type": "java.lang.NullPointerException:",
+                        "stack_trace": "java.lang.NullPointerException: null\n\tat org.apache.sling.jcr.contentparser.impl.ParserHelper.convertSingleTypeArray(ParserHelper.java:132)\n\tat org.apache.sling.jcr.contentparser.impl.JsonContentParser.convertValue(JsonContentParser.java:195)\n\tat org.apache.sling.jcr.contentparser.impl.JsonContentParser.parse(JsonContentParser.java:123)\n\tat org.apache.sling.jcr.contentparser.impl.JsonContentParser.parse(JsonContentParser.java:160)\n\tat org.apache.sling.jcr.contentparser.impl.JsonContentParser.parse(JsonContentParser.java:160)\n\tat org.apache.sling.jcr.contentparser.impl.JsonContentParser.parse(JsonContentParser.java:79)\n\tat org.apache.sling.jcr.contentparser.impl.TestUtils.parse(TestUtils.java:42)\n\tat org.apache.sling.jcr.contentparser.impl.JsonContentParserTest.testIso8601Calendar(JsonContentParserTest.java:115)\n"
+                    },
+                    {
+                        "classname": "org.apache.sling.jcr.contentparser.impl.JsonContentParserTest",
+                        "method": "testContentProperties",
+                        "exn_type": "java.lang.NullPointerException:",
+                        "stack_trace": "java.lang.NullPointerException: null\n\tat org.apache.sling.jcr.contentparser.impl.ParserHelper.convertSingleTypeArray(ParserHelper.java:132)\n\tat org.apache.sling.jcr.contentparser.impl.JsonContentParser.convertValue(JsonContentParser.java:195)\n\tat org.apache.sling.jcr.contentparser.impl.JsonContentParser.parse(JsonContentParser.java:123)\n\tat org.apache.sling.jcr.contentparser.impl.JsonContentParser.parse(JsonContentParser.java:160)\n\tat org.apache.sling.jcr.contentparser.impl.JsonContentParser.parse(JsonContentParser.java:160)\n\tat org.apache.sling.jcr.contentparser.impl.JsonContentParser.parse(JsonContentParser.java:79)\n\tat org.apache.sling.jcr.contentparser.impl.TestUtils.parse(TestUtils.java:42)\n\tat org.apache.sling.jcr.contentparser.impl.JsonContentParserTest.testUTF8Chars(JsonContentParserTest.java:134)\n"
+                    },
+                    {
+                        "classname": "org.apache.sling.jcr.contentparser.impl.JsonContentParserTest",
+                        "method": "testPageJcrPrimaryType",
+                        "exn_type": "java.lang.NullPointerException:",
+                        "stack_trace": "java.lang.NullPointerException: null\n\tat org.apache.sling.jcr.contentparser.impl.ParserHelper.convertSingleTypeArray(ParserHelper.java:132)\n\tat org.apache.sling.jcr.contentparser.impl.JsonContentParser.convertValue(JsonContentParser.java:195)\n\tat org.apache.sling.jcr.contentparser.impl.JsonContentParser.parse(JsonContentParser.java:123)\n\tat org.apache.sling.jcr.contentparser.impl.JsonContentParser.parse(JsonContentParser.java:160)\n\tat org.apache.sling.jcr.contentparser.impl.JsonContentParser.parse(JsonContentParser.java:160)\n\tat org.apache.sling.jcr.contentparser.impl.JsonContentParser.parse(JsonContentParser.java:79)\n\tat org.apache.sling.jcr.contentparser.impl.TestUtils.parse(TestUtils.java:42)\n\tat org.apache.sling.jcr.contentparser.impl.JsonContentParserTest.testIso8601Calendar(JsonContentParserTest.java:115)\n"
+                    },
+                    {
+                        "classname": "org.apache.sling.jcr.contentparser.impl.XmlContentParserTest",
+                        "method": "testGetChild",
+                        "exn_type": "java.lang.NullPointerException:",
+                        "stack_trace": "java.lang.NullPointerException: null\n\tat org.apache.sling.jcr.contentparser.impl.ParserHelper.convertSingleTypeArray(ParserHelper.java:132)\n\tat org.apache.sling.jcr.contentparser.impl.XmlContentParser.convertMultiValue(XmlContentParser.java:225)\n\tat org.apache.sling.jcr.contentparser.impl.XmlContentParser.parse(XmlContentParser.java:137)\n\tat org.apache.sling.jcr.contentparser.impl.XmlContentParser.parse(XmlContentParser.java:153)\n\tat org.apache.sling.jcr.contentparser.impl.XmlContentParser.parse(XmlContentParser.java:153)\n\tat org.apache.sling.jcr.contentparser.impl.XmlContentParser.parse(XmlContentParser.java:64)\n\tat org.apache.sling.jcr.contentparser.impl.TestUtils.parse(TestUtils.java:42)\n\tat org.apache.sling.jcr.contentparser.impl.XmlContentParserTest.testPageJcrPrimaryType(XmlContentParserTest.java:56)\n"
+                    },
+                    {
+                        "classname": "org.apache.sling.jcr.contentparser.impl.XmlContentParserTest",
+                        "method": "testCalendar",
+                        "exn_type": "java.lang.NullPointerException:",
+                        "stack_trace": "java.lang.NullPointerException: null\n\tat org.apache.sling.jcr.contentparser.impl.ParserHelper.convertSingleTypeArray(ParserHelper.java:132)\n\tat org.apache.sling.jcr.contentparser.impl.XmlContentParser.convertMultiValue(XmlContentParser.java:225)\n\tat org.apache.sling.jcr.contentparser.impl.XmlContentParser.parse(XmlContentParser.java:137)\n\tat org.apache.sling.jcr.contentparser.impl.XmlContentParser.parse(XmlContentParser.java:153)\n\tat org.apache.sling.jcr.contentparser.impl.XmlContentParser.parse(XmlContentParser.java:153)\n\tat org.apache.sling.jcr.contentparser.impl.XmlContentParser.parse(XmlContentParser.java:64)\n\tat org.apache.sling.jcr.contentparser.impl.TestUtils.parse(TestUtils.java:42)\n\tat org.apache.sling.jcr.contentparser.impl.XmlContentParserTest.testUTF8Chars(XmlContentParserTest.java:112)\n"
+                    },
+                    {
+                        "classname": "org.apache.sling.jcr.contentparser.impl.XmlContentParserTest",
+                        "method": "testUTF8Chars",
+                        "exn_type": "java.lang.NullPointerException:",
+                        "stack_trace": "java.lang.NullPointerException: null\n\tat org.apache.sling.jcr.contentparser.impl.ParserHelper.convertSingleTypeArray(ParserHelper.java:132)\n\tat org.apache.sling.jcr.contentparser.impl.XmlContentParser.convertMultiValue(XmlContentParser.java:225)\n\tat org.apache.sling.jcr.contentparser.impl.XmlContentParser.parse(XmlContentParser.java:137)\n\tat org.apache.sling.jcr.contentparser.impl.XmlContentParser.parse(XmlContentParser.java:153)\n\tat org.apache.sling.jcr.contentparser.impl.XmlContentParser.parse(XmlContentParser.java:153)\n\tat org.apache.sling.jcr.contentparser.impl.XmlContentParser.parse(XmlContentParser.java:64)\n\tat org.apache.sling.jcr.contentparser.impl.TestUtils.parse(TestUtils.java:42)\n\tat org.apache.sling.jcr.contentparser.impl.XmlContentParserTest.testUTF8Chars(XmlContentParserTest.java:112)\n"
+                    },
+                    {
+                        "classname": "org.apache.sling.jcr.contentparser.impl.ParserHelperTest",
+                        "method": "testConvertSingleTypeArray",
+                        "exn_type": "java.lang.NullPointerException:",
+                        "stack_trace": "java.lang.NullPointerException: null\n\tat org.apache.sling.jcr.contentparser.impl.ParserHelper.convertSingleTypeArray(ParserHelper.java:132)\n\tat org.apache.sling.jcr.contentparser.impl.ParserHelperTest.testConvertSingleTypeArray(ParserHelperTest.java:174)\n"
+                    },
+                    {
+                        "classname": "org.apache.sling.jcr.contentparser.impl.JsonContentParserTest",
+                        "method": "testContentProperties",
+                        "exn_type": "java.lang.NullPointerException:",
+                        "stack_trace": "java.lang.NullPointerException: null\n\tat org.apache.sling.jcr.contentparser.impl.ParserHelper.convertSingleTypeArray(ParserHelper.java:132)\n\tat org.apache.sling.jcr.contentparser.impl.JsonContentParser.convertValue(JsonContentParser.java:195)\n\tat org.apache.sling.jcr.contentparser.impl.JsonContentParser.parse(JsonContentParser.java:123)\n\tat org.apache.sling.jcr.contentparser.impl.JsonContentParser.parse(JsonContentParser.java:160)\n\tat org.apache.sling.jcr.contentparser.impl.JsonContentParser.parse(JsonContentParser.java:160)\n\tat org.apache.sling.jcr.contentparser.impl.JsonContentParser.parse(JsonContentParser.java:79)\n\tat org.apache.sling.jcr.contentparser.impl.TestUtils.parse(TestUtils.java:42)\n\tat org.apache.sling.jcr.contentparser.impl.JsonContentParserTest.testIso8601Calendar(JsonContentParserTest.java:115)\n"
+                    },
+                    {
+                        "classname": "org.apache.sling.jcr.contentparser.impl.JsonContentParserTest",
+                        "method": "testCalendar",
+                        "exn_type": "java.lang.NullPointerException:",
+                        "stack_trace": "java.lang.NullPointerException: null\n\tat org.apache.sling.jcr.contentparser.impl.ParserHelper.convertSingleTypeArray(ParserHelper.java:132)\n\tat org.apache.sling.jcr.contentparser.impl.JsonContentParser.convertValue(JsonContentParser.java:195)\n\tat org.apache.sling.jcr.contentparser.impl.JsonContentParser.parse(JsonContentParser.java:123)\n\tat org.apache.sling.jcr.contentparser.impl.JsonContentParser.parse(JsonContentParser.java:160)\n\tat org.apache.sling.jcr.contentparser.impl.JsonContentParser.parse(JsonContentParser.java:160)\n\tat org.apache.sling.jcr.contentparser.impl.JsonContentParser.parse(JsonContentParser.java:79)\n\tat org.apache.sling.jcr.contentparser.impl.TestUtils.parse(TestUtils.java:42)\n\tat org.apache.sling.jcr.contentparser.impl.JsonContentParserTest.testIgnoreResourcesProperties(JsonContentParserTest.java:162)\n"
+                    },
+                    {
+                        "classname": "org.apache.sling.jcr.contentparser.impl.JsonContentParserTest",
+                        "method": "testGetChild",
+                        "exn_type": "java.lang.NullPointerException:",
+                        "stack_trace": "java.lang.NullPointerException: null\n\tat org.apache.sling.jcr.contentparser.impl.ParserHelper.convertSingleTypeArray(ParserHelper.java:132)\n\tat org.apache.sling.jcr.contentparser.impl.JsonContentParser.convertValue(JsonContentParser.java:195)\n\tat org.apache.sling.jcr.contentparser.impl.JsonContentParser.parse(JsonContentParser.java:123)\n\tat org.apache.sling.jcr.contentparser.impl.JsonContentParser.parse(JsonContentParser.java:160)\n\tat org.apache.sling.jcr.contentparser.impl.JsonContentParser.parse(JsonContentParser.java:160)\n\tat org.apache.sling.jcr.contentparser.impl.JsonContentParser.parse(JsonContentParser.java:79)\n\tat org.apache.sling.jcr.contentparser.impl.TestUtils.parse(TestUtils.java:42)\n\tat org.apache.sling.jcr.contentparser.impl.JsonContentParserTest.testIgnoreResourcesProperties(JsonContentParserTest.java:162)\n"
+                    },
+                    {
+                        "classname": "org.apache.sling.jcr.contentparser.impl.JsonContentParserTest",
+                        "method": "testIgnoreResourcesProperties",
+                        "exn_type": "java.lang.NullPointerException:",
+                        "stack_trace": "java.lang.NullPointerException: null\n\tat org.apache.sling.jcr.contentparser.impl.ParserHelper.convertSingleTypeArray(ParserHelper.java:132)\n\tat org.apache.sling.jcr.contentparser.impl.JsonContentParser.convertValue(JsonContentParser.java:195)\n\tat org.apache.sling.jcr.contentparser.impl.JsonContentParser.parse(JsonContentParser.java:123)\n\tat org.apache.sling.jcr.contentparser.impl.JsonContentParser.parse(JsonContentParser.java:160)\n\tat org.apache.sling.jcr.contentparser.impl.JsonContentParser.parse(JsonContentParser.java:160)\n\tat org.apache.sling.jcr.contentparser.impl.JsonContentParser.parse(JsonContentParser.java:79)\n\tat org.apache.sling.jcr.contentparser.impl.TestUtils.parse(TestUtils.java:42)\n\tat org.apache.sling.jcr.contentparser.impl.JsonContentParserTest.testIgnoreResourcesProperties(JsonContentParserTest.java:162)\n"
+                    },
+                    {
+                        "classname": "org.apache.sling.jcr.contentparser.impl.JsonContentParserTest",
+                        "method": "testIso8601Calendar",
+                        "exn_type": "java.lang.NullPointerException:",
+                        "stack_trace": "java.lang.NullPointerException: null\n\tat org.apache.sling.jcr.contentparser.impl.ParserHelper.convertSingleTypeArray(ParserHelper.java:132)\n\tat org.apache.sling.jcr.contentparser.impl.JsonContentParser.convertValue(JsonContentParser.java:195)\n\tat org.apache.sling.jcr.contentparser.impl.JsonContentParser.parse(JsonContentParser.java:123)\n\tat org.apache.sling.jcr.contentparser.impl.JsonContentParser.parse(JsonContentParser.java:160)\n\tat org.apache.sling.jcr.contentparser.impl.JsonContentParser.parse(JsonContentParser.java:160)\n\tat org.apache.sling.jcr.contentparser.impl.JsonContentParser.parse(JsonContentParser.java:79)\n\tat org.apache.sling.jcr.contentparser.impl.TestUtils.parse(TestUtils.java:42)\n\tat org.apache.sling.jcr.contentparser.impl.JsonContentParserTest.testDataTypes(JsonContentParserTest.java:66)\n"
+                    },
+                    {
+                        "classname": "org.apache.sling.jcr.contentparser.impl.ParserHelperTest",
+                        "method": "testConvertSingleTypeArray_WithNull",
+                        "exn_type": "java.lang.NullPointerException:",
+                        "stack_trace": "java.lang.NullPointerException: null\n\tat org.apache.sling.jcr.contentparser.impl.ParserHelper.convertSingleTypeArray(ParserHelper.java:132)\n\tat org.apache.sling.jcr.contentparser.impl.ParserHelperTest.testConvertSingleTypeArray(ParserHelperTest.java:174)\n"
+                    },
+                    {
+                        "classname": "org.apache.sling.jcr.contentparser.impl.XmlContentParserTest",
+                        "method": "testPageJcrPrimaryType",
+                        "exn_type": "java.lang.NullPointerException:",
+                        "stack_trace": "java.lang.NullPointerException: null\n\tat org.apache.sling.jcr.contentparser.impl.ParserHelper.convertSingleTypeArray(ParserHelper.java:132)\n\tat org.apache.sling.jcr.contentparser.impl.XmlContentParser.convertMultiValue(XmlContentParser.java:225)\n\tat org.apache.sling.jcr.contentparser.impl.XmlContentParser.parse(XmlContentParser.java:137)\n\tat org.apache.sling.jcr.contentparser.impl.XmlContentParser.parse(XmlContentParser.java:153)\n\tat org.apache.sling.jcr.contentparser.impl.XmlContentParser.parse(XmlContentParser.java:153)\n\tat org.apache.sling.jcr.contentparser.impl.XmlContentParser.parse(XmlContentParser.java:64)\n\tat org.apache.sling.jcr.contentparser.impl.TestUtils.parse(TestUtils.java:42)\n\tat org.apache.sling.jcr.contentparser.impl.XmlContentParserTest.testUTF8Chars(XmlContentParserTest.java:112)\n"
+                    },
+                    {
+                        "classname": "org.apache.sling.jcr.contentparser.impl.XmlContentParserTest",
+                        "method": "testGetChild",
+                        "exn_type": "java.lang.NullPointerException:",
+                        "stack_trace": "java.lang.NullPointerException: null\n\tat org.apache.sling.jcr.contentparser.impl.ParserHelper.convertSingleTypeArray(ParserHelper.java:132)\n\tat org.apache.sling.jcr.contentparser.impl.XmlContentParser.convertMultiValue(XmlContentParser.java:225)\n\tat org.apache.sling.jcr.contentparser.impl.XmlContentParser.parse(XmlContentParser.java:137)\n\tat org.apache.sling.jcr.contentparser.impl.XmlContentParser.parse(XmlContentParser.java:153)\n\tat org.apache.sling.jcr.contentparser.impl.XmlContentParser.parse(XmlContentParser.java:153)\n\tat org.apache.sling.jcr.contentparser.impl.XmlContentParser.parse(XmlContentParser.java:64)\n\tat org.apache.sling.jcr.contentparser.impl.TestUtils.parse(TestUtils.java:42)\n\tat org.apache.sling.jcr.contentparser.impl.XmlContentParserTest.testIgnoreResourcesProperties(XmlContentParserTest.java:140)\n"
+                    },
+                    {
+                        "classname": "org.apache.sling.jcr.contentparser.impl.JsonContentParserTest",
+                        "method": "testGetChild",
+                        "exn_type": "java.lang.NullPointerException:",
+                        "stack_trace": "java.lang.NullPointerException: null\n\tat org.apache.sling.jcr.contentparser.impl.ParserHelper.convertSingleTypeArray(ParserHelper.java:132)\n\tat org.apache.sling.jcr.contentparser.impl.JsonContentParser.convertValue(JsonContentParser.java:195)\n\tat org.apache.sling.jcr.contentparser.impl.JsonContentParser.parse(JsonContentParser.java:123)\n\tat org.apache.sling.jcr.contentparser.impl.JsonContentParser.parse(JsonContentParser.java:160)\n\tat org.apache.sling.jcr.contentparser.impl.JsonContentParser.parse(JsonContentParser.java:160)\n\tat org.apache.sling.jcr.contentparser.impl.JsonContentParser.parse(JsonContentParser.java:79)\n\tat org.apache.sling.jcr.contentparser.impl.TestUtils.parse(TestUtils.java:42)\n\tat org.apache.sling.jcr.contentparser.impl.JsonContentParserTest.testPageJcrPrimaryType(JsonContentParserTest.java:58)\n"
+                    },
+                    {
+                        "classname": "org.apache.sling.jcr.contentparser.impl.XmlContentParserTest",
+                        "method": "testGetChild",
+                        "exn_type": "java.lang.NullPointerException:",
+                        "stack_trace": "java.lang.NullPointerException: null\n\tat org.apache.sling.jcr.contentparser.impl.ParserHelper.convertSingleTypeArray(ParserHelper.java:132)\n\tat org.apache.sling.jcr.contentparser.impl.XmlContentParser.convertMultiValue(XmlContentParser.java:225)\n\tat org.apache.sling.jcr.contentparser.impl.XmlContentParser.parse(XmlContentParser.java:137)\n\tat org.apache.sling.jcr.contentparser.impl.XmlContentParser.parse(XmlContentParser.java:153)\n\tat org.apache.sling.jcr.contentparser.impl.XmlContentParser.parse(XmlContentParser.java:153)\n\tat org.apache.sling.jcr.contentparser.impl.XmlContentParser.parse(XmlContentParser.java:64)\n\tat org.apache.sling.jcr.contentparser.impl.TestUtils.parse(TestUtils.java:42)\n\tat org.apache.sling.jcr.contentparser.impl.XmlContentParserTest.testGetChild(XmlContentParserTest.java:157)\n"
+                    },
+                    {
+                        "classname": "org.apache.sling.jcr.contentparser.impl.JsonContentParserTest",
+                        "method": "testCalendar",
+                        "exn_type": "java.lang.NullPointerException:",
+                        "stack_trace": "java.lang.NullPointerException: null\n\tat org.apache.sling.jcr.contentparser.impl.ParserHelper.convertSingleTypeArray(ParserHelper.java:132)\n\tat org.apache.sling.jcr.contentparser.impl.JsonContentParser.convertValue(JsonContentParser.java:195)\n\tat org.apache.sling.jcr.contentparser.impl.JsonContentParser.parse(JsonContentParser.java:123)\n\tat org.apache.sling.jcr.contentparser.impl.JsonContentParser.parse(JsonContentParser.java:160)\n\tat org.apache.sling.jcr.contentparser.impl.JsonContentParser.parse(JsonContentParser.java:160)\n\tat org.apache.sling.jcr.contentparser.impl.JsonContentParser.parse(JsonContentParser.java:79)\n\tat org.apache.sling.jcr.contentparser.impl.TestUtils.parse(TestUtils.java:42)\n\tat org.apache.sling.jcr.contentparser.impl.JsonContentParserTest.testPageJcrPrimaryType(JsonContentParserTest.java:58)\n"
+                    },
+                    {
+                        "classname": "org.apache.sling.jcr.contentparser.impl.JsonContentParserTest",
+                        "method": "testIgnoreResourcesProperties",
+                        "exn_type": "java.lang.NullPointerException:",
+                        "stack_trace": "java.lang.NullPointerException: null\n\tat org.apache.sling.jcr.contentparser.impl.ParserHelper.convertSingleTypeArray(ParserHelper.java:132)\n\tat org.apache.sling.jcr.contentparser.impl.JsonContentParser.convertValue(JsonContentParser.java:195)\n\tat org.apache.sling.jcr.contentparser.impl.JsonContentParser.parse(JsonContentParser.java:123)\n\tat org.apache.sling.jcr.contentparser.impl.JsonContentParser.parse(JsonContentParser.java:160)\n\tat org.apache.sling.jcr.contentparser.impl.JsonContentParser.parse(JsonContentParser.java:160)\n\tat org.apache.sling.jcr.contentparser.impl.JsonContentParser.parse(JsonContentParser.java:79)\n\tat org.apache.sling.jcr.contentparser.impl.TestUtils.parse(TestUtils.java:42)\n\tat org.apache.sling.jcr.contentparser.impl.JsonContentParserTest.testPageJcrPrimaryType(JsonContentParserTest.java:58)\n"
+                    },
+                    {
+                        "classname": "org.apache.sling.jcr.contentparser.impl.JsonContentParserTest",
+                        "method": "testCalendar",
+                        "exn_type": "java.lang.NullPointerException:",
+                        "stack_trace": "java.lang.NullPointerException: null\n\tat org.apache.sling.jcr.contentparser.impl.ParserHelper.convertSingleTypeArray(ParserHelper.java:132)\n\tat org.apache.sling.jcr.contentparser.impl.JsonContentParser.convertValue(JsonContentParser.java:195)\n\tat org.apache.sling.jcr.contentparser.impl.JsonContentParser.parse(JsonContentParser.java:123)\n\tat org.apache.sling.jcr.contentparser.impl.JsonContentParser.parse(JsonContentParser.java:160)\n\tat org.apache.sling.jcr.contentparser.impl.JsonContentParser.parse(JsonContentParser.java:160)\n\tat org.apache.sling.jcr.contentparser.impl.JsonContentParser.parse(JsonContentParser.java:79)\n\tat org.apache.sling.jcr.contentparser.impl.TestUtils.parse(TestUtils.java:42)\n\tat org.apache.sling.jcr.contentparser.impl.JsonContentParserTest.testContentProperties(JsonContentParserTest.java:83)\n"
+                    },
+                    {
+                        "classname": "org.apache.sling.jcr.contentparser.impl.JsonContentParserTest",
+                        "method": "testGetChild",
+                        "exn_type": "java.lang.NullPointerException:",
+                        "stack_trace": "java.lang.NullPointerException: null\n\tat org.apache.sling.jcr.contentparser.impl.ParserHelper.convertSingleTypeArray(ParserHelper.java:132)\n\tat org.apache.sling.jcr.contentparser.impl.JsonContentParser.convertValue(JsonContentParser.java:195)\n\tat org.apache.sling.jcr.contentparser.impl.JsonContentParser.parse(JsonContentParser.java:123)\n\tat org.apache.sling.jcr.contentparser.impl.JsonContentParser.parse(JsonContentParser.java:160)\n\tat org.apache.sling.jcr.contentparser.impl.JsonContentParser.parse(JsonContentParser.java:160)\n\tat org.apache.sling.jcr.contentparser.impl.JsonContentParser.parse(JsonContentParser.java:79)\n\tat org.apache.sling.jcr.contentparser.impl.TestUtils.parse(TestUtils.java:42)\n\tat org.apache.sling.jcr.contentparser.impl.JsonContentParserTest.testContentProperties(JsonContentParserTest.java:83)\n"
+                    },
+                    {
+                        "classname": "org.apache.sling.jcr.contentparser.impl.XmlContentParserTest",
+                        "method": "testIgnoreResourcesProperties",
+                        "exn_type": "java.lang.NullPointerException:",
+                        "stack_trace": "java.lang.NullPointerException: null\n\tat org.apache.sling.jcr.contentparser.impl.ParserHelper.convertSingleTypeArray(ParserHelper.java:132)\n\tat org.apache.sling.jcr.contentparser.impl.XmlContentParser.convertMultiValue(XmlContentParser.java:225)\n\tat org.apache.sling.jcr.contentparser.impl.XmlContentParser.parse(XmlContentParser.java:137)\n\tat org.apache.sling.jcr.contentparser.impl.XmlContentParser.parse(XmlContentParser.java:153)\n\tat org.apache.sling.jcr.contentparser.impl.XmlContentParser.parse(XmlContentParser.java:153)\n\tat org.apache.sling.jcr.contentparser.impl.XmlContentParser.parse(XmlContentParser.java:64)\n\tat org.apache.sling.jcr.contentparser.impl.TestUtils.parse(TestUtils.java:42)\n\tat org.apache.sling.jcr.contentparser.impl.XmlContentParserTest.testUTF8Chars(XmlContentParserTest.java:112)\n"
+                    },
+                    {
+                        "classname": "org.apache.sling.jcr.contentparser.impl.JsonContentParserTest",
+                        "method": "testIgnoreResourcesProperties",
+                        "exn_type": "java.lang.NullPointerException:",
+                        "stack_trace": "java.lang.NullPointerException: null\n\tat org.apache.sling.jcr.contentparser.impl.ParserHelper.convertSingleTypeArray(ParserHelper.java:132)\n\tat org.apache.sling.jcr.contentparser.impl.JsonContentParser.convertValue(JsonContentParser.java:195)\n\tat org.apache.sling.jcr.contentparser.impl.JsonContentParser.parse(JsonContentParser.java:123)\n\tat org.apache.sling.jcr.contentparser.impl.JsonContentParser.parse(JsonContentParser.java:160)\n\tat org.apache.sling.jcr.contentparser.impl.JsonContentParser.parse(JsonContentParser.java:160)\n\tat org.apache.sling.jcr.contentparser.impl.JsonContentParser.parse(JsonContentParser.java:79)\n\tat org.apache.sling.jcr.contentparser.impl.TestUtils.parse(TestUtils.java:42)\n\tat org.apache.sling.jcr.contentparser.impl.JsonContentParserTest.testContentProperties(JsonContentParserTest.java:83)\n"
+                    },
+                    {
+                        "classname": "org.apache.sling.jcr.contentparser.impl.XmlContentParserTest",
+                        "method": "testDataTypes",
+                        "exn_type": "java.lang.NullPointerException:",
+                        "stack_trace": "java.lang.NullPointerException: null\n\tat org.apache.sling.jcr.contentparser.impl.ParserHelper.convertSingleTypeArray(ParserHelper.java:132)\n\tat org.apache.sling.jcr.contentparser.impl.XmlContentParser.convertMultiValue(XmlContentParser.java:225)\n\tat org.apache.sling.jcr.contentparser.impl.XmlContentParser.parse(XmlContentParser.java:137)\n\tat org.apache.sling.jcr.contentparser.impl.XmlContentParser.parse(XmlContentParser.java:153)\n\tat org.apache.sling.jcr.contentparser.impl.XmlContentParser.parse(XmlContentParser.java:153)\n\tat org.apache.sling.jcr.contentparser.impl.XmlContentParser.parse(XmlContentParser.java:64)\n\tat org.apache.sling.jcr.contentparser.impl.TestUtils.parse(TestUtils.java:42)\n\tat org.apache.sling.jcr.contentparser.impl.XmlContentParserTest.testCalendar(XmlContentParserTest.java:91)\n"
+                    },
+                    {
+                        "classname": "org.apache.sling.jcr.contentparser.impl.XmlContentParserTest",
+                        "method": "testCalendar",
+                        "exn_type": "java.lang.NullPointerException:",
+                        "stack_trace": "java.lang.NullPointerException: null\n\tat org.apache.sling.jcr.contentparser.impl.ParserHelper.convertSingleTypeArray(ParserHelper.java:132)\n\tat org.apache.sling.jcr.contentparser.impl.XmlContentParser.convertMultiValue(XmlContentParser.java:225)\n\tat org.apache.sling.jcr.contentparser.impl.XmlContentParser.parse(XmlContentParser.java:137)\n\tat org.apache.sling.jcr.contentparser.impl.XmlContentParser.parse(XmlContentParser.java:153)\n\tat org.apache.sling.jcr.contentparser.impl.XmlContentParser.parse(XmlContentParser.java:153)\n\tat org.apache.sling.jcr.contentparser.impl.XmlContentParser.parse(XmlContentParser.java:64)\n\tat org.apache.sling.jcr.contentparser.impl.TestUtils.parse(TestUtils.java:42)\n\tat org.apache.sling.jcr.contentparser.impl.XmlContentParserTest.testCalendar(XmlContentParserTest.java:91)\n"
+                    },
+                    {
+                        "classname": "org.apache.sling.jcr.contentparser.impl.JsonContentParserTest",
+                        "method": "testDataTypes",
+                        "exn_type": "java.lang.NullPointerException:",
+                        "stack_trace": "java.lang.NullPointerException: null\n\tat org.apache.sling.jcr.contentparser.impl.ParserHelper.convertSingleTypeArray(ParserHelper.java:132)\n\tat org.apache.sling.jcr.contentparser.impl.JsonContentParser.convertValue(JsonContentParser.java:195)\n\tat org.apache.sling.jcr.contentparser.impl.JsonContentParser.parse(JsonContentParser.java:123)\n\tat org.apache.sling.jcr.contentparser.impl.JsonContentParser.parse(JsonContentParser.java:160)\n\tat org.apache.sling.jcr.contentparser.impl.JsonContentParser.parse(JsonContentParser.java:160)\n\tat org.apache.sling.jcr.contentparser.impl.JsonContentParser.parse(JsonContentParser.java:79)\n\tat org.apache.sling.jcr.contentparser.impl.TestUtils.parse(TestUtils.java:42)\n\tat org.apache.sling.jcr.contentparser.impl.JsonContentParserTest.testCalendar(JsonContentParserTest.java:93)\n"
+                    },
+                    {
+                        "classname": "org.apache.sling.jcr.contentparser.impl.JsonContentParserTest",
+                        "method": "testIso8601Calendar",
+                        "exn_type": "java.lang.NullPointerException:",
+                        "stack_trace": "java.lang.NullPointerException: null\n\tat org.apache.sling.jcr.contentparser.impl.ParserHelper.convertSingleTypeArray(ParserHelper.java:132)\n\tat org.apache.sling.jcr.contentparser.impl.JsonContentParser.convertValue(JsonContentParser.java:195)\n\tat org.apache.sling.jcr.contentparser.impl.JsonContentParser.parse(JsonContentParser.java:123)\n\tat org.apache.sling.jcr.contentparser.impl.JsonContentParser.parse(JsonContentParser.java:160)\n\tat org.apache.sling.jcr.contentparser.impl.JsonContentParser.parse(JsonContentParser.java:160)\n\tat org.apache.sling.jcr.contentparser.impl.JsonContentParser.parse(JsonContentParser.java:79)\n\tat org.apache.sling.jcr.contentparser.impl.TestUtils.parse(TestUtils.java:42)\n\tat org.apache.sling.jcr.contentparser.impl.JsonContentParserTest.testIgnoreResourcesProperties(JsonContentParserTest.java:162)\n"
+                    },
+                    {
+                        "classname": "org.apache.sling.jcr.contentparser.impl.JsonContentParserTest",
+                        "method": "testDataTypes",
+                        "exn_type": "java.lang.NullPointerException:",
+                        "stack_trace": "java.lang.NullPointerException: null\n\tat org.apache.sling.jcr.contentparser.impl.ParserHelper.convertSingleTypeArray(ParserHelper.java:132)\n\tat org.apache.sling.jcr.contentparser.impl.JsonContentParser.convertValue(JsonContentParser.java:195)\n\tat org.apache.sling.jcr.contentparser.impl.JsonContentParser.parse(JsonContentParser.java:123)\n\tat org.apache.sling.jcr.contentparser.impl.JsonContentParser.parse(JsonContentParser.java:160)\n\tat org.apache.sling.jcr.contentparser.impl.JsonContentParser.parse(JsonContentParser.java:160)\n\tat org.apache.sling.jcr.contentparser.impl.JsonContentParser.parse(JsonContentParser.java:79)\n\tat org.apache.sling.jcr.contentparser.impl.TestUtils.parse(TestUtils.java:42)\n\tat org.apache.sling.jcr.contentparser.impl.JsonContentParserTest.testDataTypes(JsonContentParserTest.java:66)\n"
+                    },
+                    {
+                        "classname": "org.apache.sling.jcr.contentparser.impl.XmlContentParserTest",
+                        "method": "testUTF8Chars",
+                        "exn_type": "java.lang.NullPointerException:",
+                        "stack_trace": "java.lang.NullPointerException: null\n\tat org.apache.sling.jcr.contentparser.impl.ParserHelper.convertSingleTypeArray(ParserHelper.java:132)\n\tat org.apache.sling.jcr.contentparser.impl.XmlContentParser.convertMultiValue(XmlContentParser.java:225)\n\tat org.apache.sling.jcr.contentparser.impl.XmlContentParser.parse(XmlContentParser.java:137)\n\tat org.apache.sling.jcr.contentparser.impl.XmlContentParser.parse(XmlContentParser.java:153)\n\tat org.apache.sling.jcr.contentparser.impl.XmlContentParser.parse(XmlContentParser.java:153)\n\tat org.apache.sling.jcr.contentparser.impl.XmlContentParser.parse(XmlContentParser.java:64)\n\tat org.apache.sling.jcr.contentparser.impl.TestUtils.parse(TestUtils.java:42)\n\tat org.apache.sling.jcr.contentparser.impl.XmlContentParserTest.testDataTypes(XmlContentParserTest.java:64)\n"
+                    },
+                    {
+                        "classname": "org.apache.sling.jcr.contentparser.impl.JsonContentParserTest",
+                        "method": "testUTF8Chars",
+                        "exn_type": "java.lang.NullPointerException:",
+                        "stack_trace": "java.lang.NullPointerException: null\n\tat org.apache.sling.jcr.contentparser.impl.ParserHelper.convertSingleTypeArray(ParserHelper.java:132)\n\tat org.apache.sling.jcr.contentparser.impl.JsonContentParser.convertValue(JsonContentParser.java:195)\n\tat org.apache.sling.jcr.contentparser.impl.JsonContentParser.parse(JsonContentParser.java:123)\n\tat org.apache.sling.jcr.contentparser.impl.JsonContentParser.parse(JsonContentParser.java:160)\n\tat org.apache.sling.jcr.contentparser.impl.JsonContentParser.parse(JsonContentParser.java:160)\n\tat org.apache.sling.jcr.contentparser.impl.JsonContentParser.parse(JsonContentParser.java:79)\n\tat org.apache.sling.jcr.contentparser.impl.TestUtils.parse(TestUtils.java:42)\n\tat org.apache.sling.jcr.contentparser.impl.JsonContentParserTest.testDataTypes(JsonContentParserTest.java:66)\n"
+                    },
+                    {
+                        "classname": "org.apache.sling.jcr.contentparser.impl.JsonContentParserTest",
+                        "method": "testIso8601Calendar",
+                        "exn_type": "java.lang.NullPointerException:",
+                        "stack_trace": "java.lang.NullPointerException: null\n\tat org.apache.sling.jcr.contentparser.impl.ParserHelper.convertSingleTypeArray(ParserHelper.java:132)\n\tat org.apache.sling.jcr.contentparser.impl.JsonContentParser.convertValue(JsonContentParser.java:195)\n\tat org.apache.sling.jcr.contentparser.impl.JsonContentParser.parse(JsonContentParser.java:123)\n\tat org.apache.sling.jcr.contentparser.impl.JsonContentParser.parse(JsonContentParser.java:160)\n\tat org.apache.sling.jcr.contentparser.impl.JsonContentParser.parse(JsonContentParser.java:160)\n\tat org.apache.sling.jcr.contentparser.impl.JsonContentParser.parse(JsonContentParser.java:79)\n\tat org.apache.sling.jcr.contentparser.impl.TestUtils.parse(TestUtils.java:42)\n\tat org.apache.sling.jcr.contentparser.impl.JsonContentParserTest.testPageJcrPrimaryType(JsonContentParserTest.java:58)\n"
+                    },
+                    {
+                        "classname": "org.apache.sling.jcr.contentparser.impl.XmlContentParserTest",
+                        "method": "testPageJcrPrimaryType",
+                        "exn_type": "java.lang.NullPointerException:",
+                        "stack_trace": "java.lang.NullPointerException: null\n\tat org.apache.sling.jcr.contentparser.impl.ParserHelper.convertSingleTypeArray(ParserHelper.java:132)\n\tat org.apache.sling.jcr.contentparser.impl.XmlContentParser.convertMultiValue(XmlContentParser.java:225)\n\tat org.apache.sling.jcr.contentparser.impl.XmlContentParser.parse(XmlContentParser.java:137)\n\tat org.apache.sling.jcr.contentparser.impl.XmlContentParser.parse(XmlContentParser.java:153)\n\tat org.apache.sling.jcr.contentparser.impl.XmlContentParser.parse(XmlContentParser.java:153)\n\tat org.apache.sling.jcr.contentparser.impl.XmlContentParser.parse(XmlContentParser.java:64)\n\tat org.apache.sling.jcr.contentparser.impl.TestUtils.parse(TestUtils.java:42)\n\tat org.apache.sling.jcr.contentparser.impl.XmlContentParserTest.testDataTypes(XmlContentParserTest.java:64)\n"
+                    },
+                    {
+                        "classname": "org.apache.sling.jcr.contentparser.impl.XmlContentParserTest",
+                        "method": "testCalendar",
+                        "exn_type": "java.lang.NullPointerException:",
+                        "stack_trace": "java.lang.NullPointerException: null\n\tat org.apache.sling.jcr.contentparser.impl.ParserHelper.convertSingleTypeArray(ParserHelper.java:132)\n\tat org.apache.sling.jcr.contentparser.impl.XmlContentParser.convertMultiValue(XmlContentParser.java:225)\n\tat org.apache.sling.jcr.contentparser.impl.XmlContentParser.parse(XmlContentParser.java:137)\n\tat org.apache.sling.jcr.contentparser.impl.XmlContentParser.parse(XmlContentParser.java:153)\n\tat org.apache.sling.jcr.contentparser.impl.XmlContentParser.parse(XmlContentParser.java:153)\n\tat org.apache.sling.jcr.contentparser.impl.XmlContentParser.parse(XmlContentParser.java:64)\n\tat org.apache.sling.jcr.contentparser.impl.TestUtils.parse(TestUtils.java:42)\n\tat org.apache.sling.jcr.contentparser.impl.XmlContentParserTest.testContentProperties(XmlContentParserTest.java:81)\n"
+                    },
+                    {
+                        "classname": "org.apache.sling.jcr.contentparser.impl.XmlContentParserTest",
+                        "method": "testIgnoreResourcesProperties",
+                        "exn_type": "java.lang.NullPointerException:",
+                        "stack_trace": "java.lang.NullPointerException: null\n\tat org.apache.sling.jcr.contentparser.impl.ParserHelper.convertSingleTypeArray(ParserHelper.java:132)\n\tat org.apache.sling.jcr.contentparser.impl.XmlContentParser.convertMultiValue(XmlContentParser.java:225)\n\tat org.apache.sling.jcr.contentparser.impl.XmlContentParser.parse(XmlContentParser.java:137)\n\tat org.apache.sling.jcr.contentparser.impl.XmlContentParser.parse(XmlContentParser.java:153)\n\tat org.apache.sling.jcr.contentparser.impl.XmlContentParser.parse(XmlContentParser.java:153)\n\tat org.apache.sling.jcr.contentparser.impl.XmlContentParser.parse(XmlContentParser.java:64)\n\tat org.apache.sling.jcr.contentparser.impl.TestUtils.parse(TestUtils.java:42)\n\tat org.apache.sling.jcr.contentparser.impl.XmlContentParserTest.testCalendar(XmlContentParserTest.java:91)\n"
+                    },
+                    {
+                        "classname": "org.apache.sling.jcr.contentparser.impl.XmlContentParserTest",
+                        "method": "testDataTypes",
+                        "exn_type": "java.lang.NullPointerException:",
+                        "stack_trace": "java.lang.NullPointerException: null\n\tat org.apache.sling.jcr.contentparser.impl.ParserHelper.convertSingleTypeArray(ParserHelper.java:132)\n\tat org.apache.sling.jcr.contentparser.impl.XmlContentParser.convertMultiValue(XmlContentParser.java:225)\n\tat org.apache.sling.jcr.contentparser.impl.XmlContentParser.parse(XmlContentParser.java:137)\n\tat org.apache.sling.jcr.contentparser.impl.XmlContentParser.parse(XmlContentParser.java:153)\n\tat org.apache.sling.jcr.contentparser.impl.XmlContentParser.parse(XmlContentParser.java:153)\n\tat org.apache.sling.jcr.contentparser.impl.XmlContentParser.parse(XmlContentParser.java:64)\n\tat org.apache.sling.jcr.contentparser.impl.TestUtils.parse(TestUtils.java:42)\n\tat org.apache.sling.jcr.contentparser.impl.XmlContentParserTest.testContentProperties(XmlContentParserTest.java:81)\n"
+                    },
+                    {
+                        "classname": "org.apache.sling.jcr.contentparser.impl.JsonContentParserTest",
+                        "method": "testPageJcrPrimaryType",
+                        "exn_type": "java.lang.NullPointerException:",
+                        "stack_trace": "java.lang.NullPointerException: null\n\tat org.apache.sling.jcr.contentparser.impl.ParserHelper.convertSingleTypeArray(ParserHelper.java:132)\n\tat org.apache.sling.jcr.contentparser.impl.JsonContentParser.convertValue(JsonContentParser.java:195)\n\tat org.apache.sling.jcr.contentparser.impl.JsonContentParser.parse(JsonContentParser.java:123)\n\tat org.apache.sling.jcr.contentparser.impl.JsonContentParser.parse(JsonContentParser.java:160)\n\tat org.apache.sling.jcr.contentparser.impl.JsonContentParser.parse(JsonContentParser.java:160)\n\tat org.apache.sling.jcr.contentparser.impl.JsonContentParser.parse(JsonContentParser.java:79)\n\tat org.apache.sling.jcr.contentparser.impl.TestUtils.parse(TestUtils.java:42)\n\tat org.apache.sling.jcr.contentparser.impl.JsonContentParserTest.testDataTypes(JsonContentParserTest.java:66)\n"
+                    },
+                    {
+                        "classname": "org.apache.sling.jcr.contentparser.impl.JsonContentParserTest",
+                        "method": "testIso8601Calendar",
+                        "exn_type": "java.lang.NullPointerException:",
+                        "stack_trace": "java.lang.NullPointerException: null\n\tat org.apache.sling.jcr.contentparser.impl.ParserHelper.convertSingleTypeArray(ParserHelper.java:132)\n\tat org.apache.sling.jcr.contentparser.impl.JsonContentParser.convertValue(JsonContentParser.java:195)\n\tat org.apache.sling.jcr.contentparser.impl.JsonContentParser.parse(JsonContentParser.java:123)\n\tat org.apache.sling.jcr.contentparser.impl.JsonContentParser.parse(JsonContentParser.java:160)\n\tat org.apache.sling.jcr.contentparser.impl.JsonContentParser.parse(JsonContentParser.java:160)\n\tat org.apache.sling.jcr.contentparser.impl.JsonContentParser.parse(JsonContentParser.java:79)\n\tat org.apache.sling.jcr.contentparser.impl.TestUtils.parse(TestUtils.java:42)\n\tat org.apache.sling.jcr.contentparser.impl.JsonContentParserTest.testContentProperties(JsonContentParserTest.java:83)\n"
+                    },
+                    {
+                        "classname": "org.apache.sling.jcr.contentparser.impl.ParserHelperTest",
+                        "method": "testConvertSingleTypeArray_MixedType",
+                        "exn_type": "java.lang.NullPointerException:",
+                        "stack_trace": "java.lang.NullPointerException: null\n\tat org.apache.sling.jcr.contentparser.impl.ParserHelper.convertSingleTypeArray(ParserHelper.java:132)\n\tat org.apache.sling.jcr.contentparser.impl.ParserHelperTest.testConvertSingleTypeArray(ParserHelperTest.java:174)\n"
+                    },
+                    {
+                        "classname": "org.apache.sling.jcr.contentparser.impl.XmlContentParserTest",
+                        "method": "testIgnoreResourcesProperties",
+                        "exn_type": "java.lang.NullPointerException:",
+                        "stack_trace": "java.lang.NullPointerException: null\n\tat org.apache.sling.jcr.contentparser.impl.ParserHelper.convertSingleTypeArray(ParserHelper.java:132)\n\tat org.apache.sling.jcr.contentparser.impl.XmlContentParser.convertMultiValue(XmlContentParser.java:225)\n\tat org.apache.sling.jcr.contentparser.impl.XmlContentParser.parse(XmlContentParser.java:137)\n\tat org.apache.sling.jcr.contentparser.impl.XmlContentParser.parse(XmlContentParser.java:153)\n\tat org.apache.sling.jcr.contentparser.impl.XmlContentParser.parse(XmlContentParser.java:153)\n\tat org.apache.sling.jcr.contentparser.impl.XmlContentParser.parse(XmlContentParser.java:64)\n\tat org.apache.sling.jcr.contentparser.impl.TestUtils.parse(TestUtils.java:42)\n\tat org.apache.sling.jcr.contentparser.impl.XmlContentParserTest.testDataTypes(XmlContentParserTest.java:64)\n"
+                    },
+                    {
+                        "classname": "org.apache.sling.jcr.contentparser.impl.JsonContentParserTest",
+                        "method": "testDataTypes",
+                        "exn_type": "java.lang.NullPointerException:",
+                        "stack_trace": "java.lang.NullPointerException: null\n\tat org.apache.sling.jcr.contentparser.impl.ParserHelper.convertSingleTypeArray(ParserHelper.java:132)\n\tat org.apache.sling.jcr.contentparser.impl.JsonContentParser.convertValue(JsonContentParser.java:195)\n\tat org.apache.sling.jcr.contentparser.impl.JsonContentParser.parse(JsonContentParser.java:123)\n\tat org.apache.sling.jcr.contentparser.impl.JsonContentParser.parse(JsonContentParser.java:160)\n\tat org.apache.sling.jcr.contentparser.impl.JsonContentParser.parse(JsonContentParser.java:160)\n\tat org.apache.sling.jcr.contentparser.impl.JsonContentParser.parse(JsonContentParser.java:79)\n\tat org.apache.sling.jcr.contentparser.impl.TestUtils.parse(TestUtils.java:42)\n\tat org.apache.sling.jcr.contentparser.impl.JsonContentParserTest.testGetChild(JsonContentParserTest.java:179)\n"
+                    },
+                    {
+                        "classname": "org.apache.sling.jcr.contentparser.impl.JsonContentParserTest",
+                        "method": "testDataTypes",
+                        "exn_type": "java.lang.NullPointerException:",
+                        "stack_trace": "java.lang.NullPointerException: null\n\tat org.apache.sling.jcr.contentparser.impl.ParserHelper.convertSingleTypeArray(ParserHelper.java:132)\n\tat org.apache.sling.jcr.contentparser.impl.JsonContentParser.convertValue(JsonContentParser.java:195)\n\tat org.apache.sling.jcr.contentparser.impl.JsonContentParser.parse(JsonContentParser.java:123)\n\tat org.apache.sling.jcr.contentparser.impl.JsonContentParser.parse(JsonContentParser.java:160)\n\tat org.apache.sling.jcr.contentparser.impl.JsonContentParser.parse(JsonContentParser.java:160)\n\tat org.apache.sling.jcr.contentparser.impl.JsonContentParser.parse(JsonContentParser.java:79)\n\tat org.apache.sling.jcr.contentparser.impl.TestUtils.parse(TestUtils.java:42)\n\tat org.apache.sling.jcr.contentparser.impl.JsonContentParserTest.testUTF8Chars(JsonContentParserTest.java:134)\n"
+                    },
+                    {
+                        "classname": "org.apache.sling.jcr.contentparser.impl.JsonContentParserTest",
+                        "method": "testGetChild",
+                        "exn_type": "java.lang.NullPointerException:",
+                        "stack_trace": "java.lang.NullPointerException: null\n\tat org.apache.sling.jcr.contentparser.impl.ParserHelper.convertSingleTypeArray(ParserHelper.java:132)\n\tat org.apache.sling.jcr.contentparser.impl.JsonContentParser.convertValue(JsonContentParser.java:195)\n\tat org.apache.sling.jcr.contentparser.impl.JsonContentParser.parse(JsonContentParser.java:123)\n\tat org.apache.sling.jcr.contentparser.impl.JsonContentParser.parse(JsonContentParser.java:160)\n\tat org.apache.sling.jcr.contentparser.impl.JsonContentParser.parse(JsonContentParser.java:160)\n\tat org.apache.sling.jcr.contentparser.impl.JsonContentParser.parse(JsonContentParser.java:79)\n\tat org.apache.sling.jcr.contentparser.impl.TestUtils.parse(TestUtils.java:42)\n\tat org.apache.sling.jcr.contentparser.impl.JsonContentParserTest.testCalendar(JsonContentParserTest.java:93)\n"
+                    },
+                    {
+                        "classname": "org.apache.sling.jcr.contentparser.impl.JsonContentParserTest",
+                        "method": "testCalendar",
+                        "exn_type": "java.lang.NullPointerException:",
+                        "stack_trace": "java.lang.NullPointerException: null\n\tat org.apache.sling.jcr.contentparser.impl.ParserHelper.convertSingleTypeArray(ParserHelper.java:132)\n\tat org.apache.sling.jcr.contentparser.impl.JsonContentParser.convertValue(JsonContentParser.java:195)\n\tat org.apache.sling.jcr.contentparser.impl.JsonContentParser.parse(JsonContentParser.java:123)\n\tat org.apache.sling.jcr.contentparser.impl.JsonContentParser.parse(JsonContentParser.java:160)\n\tat org.apache.sling.jcr.contentparser.impl.JsonContentParser.parse(JsonContentParser.java:160)\n\tat org.apache.sling.jcr.contentparser.impl.JsonContentParser.parse(JsonContentParser.java:79)\n\tat org.apache.sling.jcr.contentparser.impl.TestUtils.parse(TestUtils.java:42)\n\tat org.apache.sling.jcr.contentparser.impl.JsonContentParserTest.testCalendar(JsonContentParserTest.java:93)\n"
+                    },
+                    {
+                        "classname": "org.apache.sling.jcr.contentparser.impl.JsonContentParserTest",
+                        "method": "testIgnoreResourcesProperties",
+                        "exn_type": "java.lang.NullPointerException:",
+                        "stack_trace": "java.lang.NullPointerException: null\n\tat org.apache.sling.jcr.contentparser.impl.ParserHelper.convertSingleTypeArray(ParserHelper.java:132)\n\tat org.apache.sling.jcr.contentparser.impl.JsonContentParser.convertValue(JsonContentParser.java:195)\n\tat org.apache.sling.jcr.contentparser.impl.JsonContentParser.parse(JsonContentParser.java:123)\n\tat org.apache.sling.jcr.contentparser.impl.JsonContentParser.parse(JsonContentParser.java:160)\n\tat org.apache.sling.jcr.contentparser.impl.JsonContentParser.parse(JsonContentParser.java:160)\n\tat org.apache.sling.jcr.contentparser.impl.JsonContentParser.parse(JsonContentParser.java:79)\n\tat org.apache.sling.jcr.contentparser.impl.TestUtils.parse(TestUtils.java:42)\n\tat org.apache.sling.jcr.contentparser.impl.JsonContentParserTest.testCalendar(JsonContentParserTest.java:93)\n"
+                    },
+                    {
+                        "classname": "org.apache.sling.jcr.contentparser.impl.XmlContentParserTest",
+                        "method": "testUTF8Chars",
+                        "exn_type": "java.lang.NullPointerException:",
+                        "stack_trace": "java.lang.NullPointerException: null\n\tat org.apache.sling.jcr.contentparser.impl.ParserHelper.convertSingleTypeArray(ParserHelper.java:132)\n\tat org.apache.sling.jcr.contentparser.impl.XmlContentParser.convertMultiValue(XmlContentParser.java:225)\n\tat org.apache.sling.jcr.contentparser.impl.XmlContentParser.parse(XmlContentParser.java:137)\n\tat org.apache.sling.jcr.contentparser.impl.XmlContentParser.parse(XmlContentParser.java:153)\n\tat org.apache.sling.jcr.contentparser.impl.XmlContentParser.parse(XmlContentParser.java:153)\n\tat org.apache.sling.jcr.contentparser.impl.XmlContentParser.parse(XmlContentParser.java:64)\n\tat org.apache.sling.jcr.contentparser.impl.TestUtils.parse(TestUtils.java:42)\n\tat org.apache.sling.jcr.contentparser.impl.XmlContentParserTest.testPageJcrPrimaryType(XmlContentParserTest.java:56)\n"
+                    },
+                    {
+                        "classname": "org.apache.sling.jcr.contentparser.impl.JsonContentParserTest",
+                        "method": "testUTF8Chars",
+                        "exn_type": "java.lang.NullPointerException:",
+                        "stack_trace": "java.lang.NullPointerException: null\n\tat org.apache.sling.jcr.contentparser.impl.ParserHelper.convertSingleTypeArray(ParserHelper.java:132)\n\tat org.apache.sling.jcr.contentparser.impl.JsonContentParser.convertValue(JsonContentParser.java:195)\n\tat org.apache.sling.jcr.contentparser.impl.JsonContentParser.parse(JsonContentParser.java:123)\n\tat org.apache.sling.jcr.contentparser.impl.JsonContentParser.parse(JsonContentParser.java:160)\n\tat org.apache.sling.jcr.contentparser.impl.JsonContentParser.parse(JsonContentParser.java:160)\n\tat org.apache.sling.jcr.contentparser.impl.JsonContentParser.parse(JsonContentParser.java:79)\n\tat org.apache.sling.jcr.contentparser.impl.TestUtils.parse(TestUtils.java:42)\n\tat org.apache.sling.jcr.contentparser.impl.JsonContentParserTest.testIgnoreResourcesProperties(JsonContentParserTest.java:162)\n"
+                    },
+                    {
+                        "classname": "org.apache.sling.jcr.contentparser.impl.XmlContentParserTest",
+                        "method": "testPageJcrPrimaryType",
+                        "exn_type": "java.lang.NullPointerException:",
+                        "stack_trace": "java.lang.NullPointerException: null\n\tat org.apache.sling.jcr.contentparser.impl.ParserHelper.convertSingleTypeArray(ParserHelper.java:132)\n\tat org.apache.sling.jcr.contentparser.impl.XmlContentParser.convertMultiValue(XmlContentParser.java:225)\n\tat org.apache.sling.jcr.contentparser.impl.XmlContentParser.parse(XmlContentParser.java:137)\n\tat org.apache.sling.jcr.contentparser.impl.XmlContentParser.parse(XmlContentParser.java:153)\n\tat org.apache.sling.jcr.contentparser.impl.XmlContentParser.parse(XmlContentParser.java:153)\n\tat org.apache.sling.jcr.contentparser.impl.XmlContentParser.parse(XmlContentParser.java:64)\n\tat org.apache.sling.jcr.contentparser.impl.TestUtils.parse(TestUtils.java:42)\n\tat org.apache.sling.jcr.contentparser.impl.XmlContentParserTest.testPageJcrPrimaryType(XmlContentParserTest.java:56)\n"
+                    },
+                    {
+                        "classname": "org.apache.sling.jcr.contentparser.impl.JsonContentParserTest",
+                        "method": "testDataTypes",
+                        "exn_type": "java.lang.NullPointerException:",
+                        "stack_trace": "java.lang.NullPointerException: null\n\tat org.apache.sling.jcr.contentparser.impl.ParserHelper.convertSingleTypeArray(ParserHelper.java:132)\n\tat org.apache.sling.jcr.contentparser.impl.JsonContentParser.convertValue(JsonContentParser.java:195)\n\tat org.apache.sling.jcr.contentparser.impl.JsonContentParser.parse(JsonContentParser.java:123)\n\tat org.apache.sling.jcr.contentparser.impl.JsonContentParser.parse(JsonContentParser.java:160)\n\tat org.apache.sling.jcr.contentparser.impl.JsonContentParser.parse(JsonContentParser.java:160)\n\tat org.apache.sling.jcr.contentparser.impl.JsonContentParser.parse(JsonContentParser.java:79)\n\tat org.apache.sling.jcr.contentparser.impl.TestUtils.parse(TestUtils.java:42)\n\tat org.apache.sling.jcr.contentparser.impl.JsonContentParserTest.testIso8601Calendar(JsonContentParserTest.java:115)\n"
+                    },
+                    {
+                        "classname": "org.apache.sling.jcr.contentparser.impl.XmlContentParserTest",
+                        "method": "testGetChild",
+                        "exn_type": "java.lang.NullPointerException:",
+                        "stack_trace": "java.lang.NullPointerException: null\n\tat org.apache.sling.jcr.contentparser.impl.ParserHelper.convertSingleTypeArray(ParserHelper.java:132)\n\tat org.apache.sling.jcr.contentparser.impl.XmlContentParser.convertMultiValue(XmlContentParser.java:225)\n\tat org.apache.sling.jcr.contentparser.impl.XmlContentParser.parse(XmlContentParser.java:137)\n\tat org.apache.sling.jcr.contentparser.impl.XmlContentParser.parse(XmlContentParser.java:153)\n\tat org.apache.sling.jcr.contentparser.impl.XmlContentParser.parse(XmlContentParser.java:153)\n\tat org.apache.sling.jcr.contentparser.impl.XmlContentParser.parse(XmlContentParser.java:64)\n\tat org.apache.sling.jcr.contentparser.impl.TestUtils.parse(TestUtils.java:42)\n\tat org.apache.sling.jcr.contentparser.impl.XmlContentParserTest.testContentProperties(XmlContentParserTest.java:81)\n"
+                    },
+                    {
+                        "classname": "org.apache.sling.jcr.contentparser.impl.XmlContentParserTest",
+                        "method": "testCalendar",
+                        "exn_type": "java.lang.NullPointerException:",
+                        "stack_trace": "java.lang.NullPointerException: null\n\tat org.apache.sling.jcr.contentparser.impl.ParserHelper.convertSingleTypeArray(ParserHelper.java:132)\n\tat org.apache.sling.jcr.contentparser.impl.XmlContentParser.convertMultiValue(XmlContentParser.java:225)\n\tat org.apache.sling.jcr.contentparser.impl.XmlContentParser.parse(XmlContentParser.java:137)\n\tat org.apache.sling.jcr.contentparser.impl.XmlContentParser.parse(XmlContentParser.java:153)\n\tat org.apache.sling.jcr.contentparser.impl.XmlContentParser.parse(XmlContentParser.java:153)\n\tat org.apache.sling.jcr.contentparser.impl.XmlContentParser.parse(XmlContentParser.java:64)\n\tat org.apache.sling.jcr.contentparser.impl.TestUtils.parse(TestUtils.java:42)\n\tat org.apache.sling.jcr.contentparser.impl.XmlContentParserTest.testIgnoreResourcesProperties(XmlContentParserTest.java:140)\n"
+                    },
+                    {
+                        "classname": "org.apache.sling.jcr.contentparser.impl.XmlContentParserTest",
+                        "method": "testUTF8Chars",
+                        "exn_type": "java.lang.NullPointerException:",
+                        "stack_trace": "java.lang.NullPointerException: null\n\tat org.apache.sling.jcr.contentparser.impl.ParserHelper.convertSingleTypeArray(ParserHelper.java:132)\n\tat org.apache.sling.jcr.contentparser.impl.XmlContentParser.convertMultiValue(XmlContentParser.java:225)\n\tat org.apache.sling.jcr.contentparser.impl.XmlContentParser.parse(XmlContentParser.java:137)\n\tat org.apache.sling.jcr.contentparser.impl.XmlContentParser.parse(XmlContentParser.java:153)\n\tat org.apache.sling.jcr.contentparser.impl.XmlContentParser.parse(XmlContentParser.java:153)\n\tat org.apache.sling.jcr.contentparser.impl.XmlContentParser.parse(XmlContentParser.java:64)\n\tat org.apache.sling.jcr.contentparser.impl.TestUtils.parse(TestUtils.java:42)\n\tat org.apache.sling.jcr.contentparser.impl.XmlContentParserTest.testIgnoreResourcesProperties(XmlContentParserTest.java:140)\n"
+                    },
+                    {
+                        "classname": "org.apache.sling.jcr.contentparser.impl.XmlContentParserTest",
+                        "method": "testCalendar",
+                        "exn_type": "java.lang.NullPointerException:",
+                        "stack_trace": "java.lang.NullPointerException: null\n\tat org.apache.sling.jcr.contentparser.impl.ParserHelper.convertSingleTypeArray(ParserHelper.java:132)\n\tat org.apache.sling.jcr.contentparser.impl.XmlContentParser.convertMultiValue(XmlContentParser.java:225)\n\tat org.apache.sling.jcr.contentparser.impl.XmlContentParser.parse(XmlContentParser.java:137)\n\tat org.apache.sling.jcr.contentparser.impl.XmlContentParser.parse(XmlContentParser.java:153)\n\tat org.apache.sling.jcr.contentparser.impl.XmlContentParser.parse(XmlContentParser.java:153)\n\tat org.apache.sling.jcr.contentparser.impl.XmlContentParser.parse(XmlContentParser.java:64)\n\tat org.apache.sling.jcr.contentparser.impl.TestUtils.parse(TestUtils.java:42)\n\tat org.apache.sling.jcr.contentparser.impl.XmlContentParserTest.testGetChild(XmlContentParserTest.java:157)\n"
+                    },
+                    {
+                        "classname": "org.apache.sling.jcr.contentparser.impl.JsonContentParserTest",
+                        "method": "testPageJcrPrimaryType",
+                        "exn_type": "java.lang.NullPointerException:",
+                        "stack_trace": "java.lang.NullPointerException: null\n\tat org.apache.sling.jcr.contentparser.impl.ParserHelper.convertSingleTypeArray(ParserHelper.java:132)\n\tat org.apache.sling.jcr.contentparser.impl.JsonContentParser.convertValue(JsonContentParser.java:195)\n\tat org.apache.sling.jcr.contentparser.impl.JsonContentParser.parse(JsonContentParser.java:123)\n\tat org.apache.sling.jcr.contentparser.impl.JsonContentParser.parse(JsonContentParser.java:160)\n\tat org.apache.sling.jcr.contentparser.impl.JsonContentParser.parse(JsonContentParser.java:160)\n\tat org.apache.sling.jcr.contentparser.impl.JsonContentParser.parse(JsonContentParser.java:79)\n\tat org.apache.sling.jcr.contentparser.impl.TestUtils.parse(TestUtils.java:42)\n\tat org.apache.sling.jcr.contentparser.impl.JsonContentParserTest.testIgnoreResourcesProperties(JsonContentParserTest.java:162)\n"
+                    },
+                    {
+                        "classname": "org.apache.sling.jcr.contentparser.impl.XmlContentParserTest",
+                        "method": "testUTF8Chars",
+                        "exn_type": "java.lang.NullPointerException:",
+                        "stack_trace": "java.lang.NullPointerException: null\n\tat org.apache.sling.jcr.contentparser.impl.ParserHelper.convertSingleTypeArray(ParserHelper.java:132)\n\tat org.apache.sling.jcr.contentparser.impl.XmlContentParser.convertMultiValue(XmlContentParser.java:225)\n\tat org.apache.sling.jcr.contentparser.impl.XmlContentParser.parse(XmlContentParser.java:137)\n\tat org.apache.sling.jcr.contentparser.impl.XmlContentParser.parse(XmlContentParser.java:153)\n\tat org.apache.sling.jcr.contentparser.impl.XmlContentParser.parse(XmlContentParser.java:153)\n\tat org.apache.sling.jcr.contentparser.impl.XmlContentParser.parse(XmlContentParser.java:64)\n\tat org.apache.sling.jcr.contentparser.impl.TestUtils.parse(TestUtils.java:42)\n\tat org.apache.sling.jcr.contentparser.impl.XmlContentParserTest.testGetChild(XmlContentParserTest.java:157)\n"
+                    },
+                    {
+                        "classname": "org.apache.sling.jcr.contentparser.impl.XmlContentParserTest",
+                        "method": "testContentProperties",
+                        "exn_type": "java.lang.NullPointerException:",
+                        "stack_trace": "java.lang.NullPointerException: null\n\tat org.apache.sling.jcr.contentparser.impl.ParserHelper.convertSingleTypeArray(ParserHelper.java:132)\n\tat org.apache.sling.jcr.contentparser.impl.XmlContentParser.convertMultiValue(XmlContentParser.java:225)\n\tat org.apache.sling.jcr.contentparser.impl.XmlContentParser.parse(XmlContentParser.java:137)\n\tat org.apache.sling.jcr.contentparser.impl.XmlContentParser.parse(XmlContentParser.java:153)\n\tat org.apache.sling.jcr.contentparser.impl.XmlContentParser.parse(XmlContentParser.java:153)\n\tat org.apache.sling.jcr.contentparser.impl.XmlContentParser.parse(XmlContentParser.java:64)\n\tat org.apache.sling.jcr.contentparser.impl.TestUtils.parse(TestUtils.java:42)\n\tat org.apache.sling.jcr.contentparser.impl.XmlContentParserTest.testUTF8Chars(XmlContentParserTest.java:112)\n"
+                    },
+                    {
+                        "classname": "org.apache.sling.jcr.contentparser.impl.XmlContentParserTest",
+                        "method": "testIgnoreResourcesProperties",
+                        "exn_type": "java.lang.NullPointerException:",
+                        "stack_trace": "java.lang.NullPointerException: null\n\tat org.apache.sling.jcr.contentparser.impl.ParserHelper.convertSingleTypeArray(ParserHelper.java:132)\n\tat org.apache.sling.jcr.contentparser.impl.XmlContentParser.convertMultiValue(XmlContentParser.java:225)\n\tat org.apache.sling.jcr.contentparser.impl.XmlContentParser.parse(XmlContentParser.java:137)\n\tat org.apache.sling.jcr.contentparser.impl.XmlContentParser.parse(XmlContentParser.java:153)\n\tat org.apache.sling.jcr.contentparser.impl.XmlContentParser.parse(XmlContentParser.java:153)\n\tat org.apache.sling.jcr.contentparser.impl.XmlContentParser.parse(XmlContentParser.java:64)\n\tat org.apache.sling.jcr.contentparser.impl.TestUtils.parse(TestUtils.java:42)\n\tat org.apache.sling.jcr.contentparser.impl.XmlContentParserTest.testPageJcrPrimaryType(XmlContentParserTest.java:56)\n"
+                    },
+                    {
+                        "classname": "org.apache.sling.jcr.contentparser.impl.JsonContentParserTest",
+                        "method": "testUTF8Chars",
+                        "exn_type": "java.lang.NullPointerException:",
+                        "stack_trace": "java.lang.NullPointerException: null\n\tat org.apache.sling.jcr.contentparser.impl.ParserHelper.convertSingleTypeArray(ParserHelper.java:132)\n\tat org.apache.sling.jcr.contentparser.impl.JsonContentParser.convertValue(JsonContentParser.java:195)\n\tat org.apache.sling.jcr.contentparser.impl.JsonContentParser.parse(JsonContentParser.java:123)\n\tat org.apache.sling.jcr.contentparser.impl.JsonContentParser.parse(JsonContentParser.java:160)\n\tat org.apache.sling.jcr.contentparser.impl.JsonContentParser.parse(JsonContentParser.java:160)\n\tat org.apache.sling.jcr.contentparser.impl.JsonContentParser.parse(JsonContentParser.java:79)\n\tat org.apache.sling.jcr.contentparser.impl.TestUtils.parse(TestUtils.java:42)\n\tat org.apache.sling.jcr.contentparser.impl.JsonContentParserTest.testContentProperties(JsonContentParserTest.java:83)\n"
+                    },
+                    {
+                        "classname": "org.apache.sling.jcr.contentparser.impl.JsonContentParserTest",
+                        "method": "testUTF8Chars",
+                        "exn_type": "java.lang.NullPointerException:",
+                        "stack_trace": "java.lang.NullPointerException: null\n\tat org.apache.sling.jcr.contentparser.impl.ParserHelper.convertSingleTypeArray(ParserHelper.java:132)\n\tat org.apache.sling.jcr.contentparser.impl.JsonContentParser.convertValue(JsonContentParser.java:195)\n\tat org.apache.sling.jcr.contentparser.impl.JsonContentParser.parse(JsonContentParser.java:123)\n\tat org.apache.sling.jcr.contentparser.impl.JsonContentParser.parse(JsonContentParser.java:160)\n\tat org.apache.sling.jcr.contentparser.impl.JsonContentParser.parse(JsonContentParser.java:160)\n\tat org.apache.sling.jcr.contentparser.impl.JsonContentParser.parse(JsonContentParser.java:79)\n\tat org.apache.sling.jcr.contentparser.impl.TestUtils.parse(TestUtils.java:42)\n\tat org.apache.sling.jcr.contentparser.impl.JsonContentParserTest.testPageJcrPrimaryType(JsonContentParserTest.java:58)\n"
+                    },
+                    {
+                        "classname": "org.apache.sling.jcr.contentparser.impl.JsonContentParserTest",
+                        "method": "testContentProperties",
+                        "exn_type": "java.lang.NullPointerException:",
+                        "stack_trace": "java.lang.NullPointerException: null\n\tat org.apache.sling.jcr.contentparser.impl.ParserHelper.convertSingleTypeArray(ParserHelper.java:132)\n\tat org.apache.sling.jcr.contentparser.impl.JsonContentParser.convertValue(JsonContentParser.java:195)\n\tat org.apache.sling.jcr.contentparser.impl.JsonContentParser.parse(JsonContentParser.java:123)\n\tat org.apache.sling.jcr.contentparser.impl.JsonContentParser.parse(JsonContentParser.java:160)\n\tat org.apache.sling.jcr.contentparser.impl.JsonContentParser.parse(JsonContentParser.java:160)\n\tat org.apache.sling.jcr.contentparser.impl.JsonContentParser.parse(JsonContentParser.java:79)\n\tat org.apache.sling.jcr.contentparser.impl.TestUtils.parse(TestUtils.java:42)\n\tat org.apache.sling.jcr.contentparser.impl.JsonContentParserTest.testIgnoreResourcesProperties(JsonContentParserTest.java:162)\n"
+                    },
+                    {
+                        "classname": "org.apache.sling.jcr.contentparser.impl.XmlContentParserTest",
+                        "method": "testPageJcrPrimaryType",
+                        "exn_type": "java.lang.NullPointerException:",
+                        "stack_trace": "java.lang.NullPointerException: null\n\tat org.apache.sling.jcr.contentparser.impl.ParserHelper.convertSingleTypeArray(ParserHelper.java:132)\n\tat org.apache.sling.jcr.contentparser.impl.XmlContentParser.convertMultiValue(XmlContentParser.java:225)\n\tat org.apache.sling.jcr.contentparser.impl.XmlContentParser.parse(XmlContentParser.java:137)\n\tat org.apache.sling.jcr.contentparser.impl.XmlContentParser.parse(XmlContentParser.java:153)\n\tat org.apache.sling.jcr.contentparser.impl.XmlContentParser.parse(XmlContentParser.java:153)\n\tat org.apache.sling.jcr.contentparser.impl.XmlContentParser.parse(XmlContentParser.java:64)\n\tat org.apache.sling.jcr.contentparser.impl.TestUtils.parse(TestUtils.java:42)\n\tat org.apache.sling.jcr.contentparser.impl.XmlContentParserTest.testIgnoreResourcesProperties(XmlContentParserTest.java:140)\n"
+                    },
+                    {
+                        "classname": "org.apache.sling.jcr.contentparser.impl.JsonContentParserTest",
+                        "method": "testPageJcrPrimaryType",
+                        "exn_type": "java.lang.NullPointerException:",
+                        "stack_trace": "java.lang.NullPointerException: null\n\tat org.apache.sling.jcr.contentparser.impl.ParserHelper.convertSingleTypeArray(ParserHelper.java:132)\n\tat org.apache.sling.jcr.contentparser.impl.JsonContentParser.convertValue(JsonContentParser.java:195)\n\tat org.apache.sling.jcr.contentparser.impl.JsonContentParser.parse(JsonContentParser.java:123)\n\tat org.apache.sling.jcr.contentparser.impl.JsonContentParser.parse(JsonContentParser.java:160)\n\tat org.apache.sling.jcr.contentparser.impl.JsonContentParser.parse(JsonContentParser.java:160)\n\tat org.apache.sling.jcr.contentparser.impl.JsonContentParser.parse(JsonContentParser.java:79)\n\tat org.apache.sling.jcr.contentparser.impl.TestUtils.parse(TestUtils.java:42)\n\tat org.apache.sling.jcr.contentparser.impl.JsonContentParserTest.testPageJcrPrimaryType(JsonContentParserTest.java:58)\n"
+                    },
+                    {
+                        "classname": "org.apache.sling.jcr.contentparser.impl.XmlContentParserTest",
+                        "method": "testDataTypes",
+                        "exn_type": "java.lang.NullPointerException:",
+                        "stack_trace": "java.lang.NullPointerException: null\n\tat org.apache.sling.jcr.contentparser.impl.ParserHelper.convertSingleTypeArray(ParserHelper.java:132)\n\tat org.apache.sling.jcr.contentparser.impl.XmlContentParser.convertMultiValue(XmlContentParser.java:225)\n\tat org.apache.sling.jcr.contentparser.impl.XmlContentParser.parse(XmlContentParser.java:137)\n\tat org.apache.sling.jcr.contentparser.impl.XmlContentParser.parse(XmlContentParser.java:153)\n\tat org.apache.sling.jcr.contentparser.impl.XmlContentParser.parse(XmlContentParser.java:153)\n\tat org.apache.sling.jcr.contentparser.impl.XmlContentParser.parse(XmlContentParser.java:64)\n\tat org.apache.sling.jcr.contentparser.impl.TestUtils.parse(TestUtils.java:42)\n\tat org.apache.sling.jcr.contentparser.impl.XmlContentParserTest.testUTF8Chars(XmlContentParserTest.java:112)\n"
+                    },
+                    {
+                        "classname": "org.apache.sling.jcr.contentparser.impl.XmlContentParserTest",
+                        "method": "testPageJcrPrimaryType",
+                        "exn_type": "java.lang.NullPointerException:",
+                        "stack_trace": "java.lang.NullPointerException: null\n\tat org.apache.sling.jcr.contentparser.impl.ParserHelper.convertSingleTypeArray(ParserHelper.java:132)\n\tat org.apache.sling.jcr.contentparser.impl.XmlContentParser.convertMultiValue(XmlContentParser.java:225)\n\tat org.apache.sling.jcr.contentparser.impl.XmlContentParser.parse(XmlContentParser.java:137)\n\tat org.apache.sling.jcr.contentparser.impl.XmlContentParser.parse(XmlContentParser.java:153)\n\tat org.apache.sling.jcr.contentparser.impl.XmlContentParser.parse(XmlContentParser.java:153)\n\tat org.apache.sling.jcr.contentparser.impl.XmlContentParser.parse(XmlContentParser.java:64)\n\tat org.apache.sling.jcr.contentparser.impl.TestUtils.parse(TestUtils.java:42)\n\tat org.apache.sling.jcr.contentparser.impl.XmlContentParserTest.testGetChild(XmlContentParserTest.java:157)\n"
+                    },
+                    {
+                        "classname": "org.apache.sling.jcr.contentparser.impl.JsonContentParserTest",
+                        "method": "testPageJcrPrimaryType",
+                        "exn_type": "java.lang.NullPointerException:",
+                        "stack_trace": "java.lang.NullPointerException: null\n\tat org.apache.sling.jcr.contentparser.impl.ParserHelper.convertSingleTypeArray(ParserHelper.java:132)\n\tat org.apache.sling.jcr.contentparser.impl.JsonContentParser.convertValue(JsonContentParser.java:195)\n\tat org.apache.sling.jcr.contentparser.impl.JsonContentParser.parse(JsonContentParser.java:123)\n\tat org.apache.sling.jcr.contentparser.impl.JsonContentParser.parse(JsonContentParser.java:160)\n\tat org.apache.sling.jcr.contentparser.impl.JsonContentParser.parse(JsonContentParser.java:160)\n\tat org.apache.sling.jcr.contentparser.impl.JsonContentParser.parse(JsonContentParser.java:79)\n\tat org.apache.sling.jcr.contentparser.impl.TestUtils.parse(TestUtils.java:42)\n\tat org.apache.sling.jcr.contentparser.impl.JsonContentParserTest.testContentProperties(JsonContentParserTest.java:83)\n"
+                    },
+                    {
+                        "classname": "org.apache.sling.jcr.contentparser.impl.JsonContentParserTest",
+                        "method": "testGetChild",
+                        "exn_type": "java.lang.NullPointerException:",
+                        "stack_trace": "java.lang.NullPointerException: null\n\tat org.apache.sling.jcr.contentparser.impl.ParserHelper.convertSingleTypeArray(ParserHelper.java:132)\n\tat org.apache.sling.jcr.contentparser.impl.JsonContentParser.convertValue(JsonContentParser.java:195)\n\tat org.apache.sling.jcr.contentparser.impl.JsonContentParser.parse(JsonContentParser.java:123)\n\tat org.apache.sling.jcr.contentparser.impl.JsonContentParser.parse(JsonContentParser.java:160)\n\tat org.apache.sling.jcr.contentparser.impl.JsonContentParser.parse(JsonContentParser.java:160)\n\tat org.apache.sling.jcr.contentparser.impl.JsonContentParser.parse(JsonContentParser.java:79)\n\tat org.apache.sling.jcr.contentparser.impl.TestUtils.parse(TestUtils.java:42)\n\tat org.apache.sling.jcr.contentparser.impl.JsonContentParserTest.testGetChild(JsonContentParserTest.java:179)\n"
+                    },
+                    {
+                        "classname": "org.apache.sling.jcr.contentparser.impl.JsonContentParserTest",
+                        "method": "testCalendar",
+                        "exn_type": "java.lang.NullPointerException:",
+                        "stack_trace": "java.lang.NullPointerException: null\n\tat org.apache.sling.jcr.contentparser.impl.ParserHelper.convertSingleTypeArray(ParserHelper.java:132)\n\tat org.apache.sling.jcr.contentparser.impl.JsonContentParser.convertValue(JsonContentParser.java:195)\n\tat org.apache.sling.jcr.contentparser.impl.JsonContentParser.parse(JsonContentParser.java:123)\n\tat org.apache.sling.jcr.contentparser.impl.JsonContentParser.parse(JsonContentParser.java:160)\n\tat org.apache.sling.jcr.contentparser.impl.JsonContentParser.parse(JsonContentParser.java:160)\n\tat org.apache.sling.jcr.contentparser.impl.JsonContentParser.parse(JsonContentParser.java:79)\n\tat org.apache.sling.jcr.contentparser.impl.TestUtils.parse(TestUtils.java:42)\n\tat org.apache.sling.jcr.contentparser.impl.JsonContentParserTest.testGetChild(JsonContentParserTest.java:179)\n"
+                    },
+                    {
+                        "classname": "org.apache.sling.jcr.contentparser.impl.JsonContentParserTest",
+                        "method": "testContentProperties",
+                        "exn_type": "java.lang.NullPointerException:",
+                        "stack_trace": "java.lang.NullPointerException: null\n\tat org.apache.sling.jcr.contentparser.impl.ParserHelper.convertSingleTypeArray(ParserHelper.java:132)\n\tat org.apache.sling.jcr.contentparser.impl.JsonContentParser.convertValue(JsonContentParser.java:195)\n\tat org.apache.sling.jcr.contentparser.impl.JsonContentParser.parse(JsonContentParser.java:123)\n\tat org.apache.sling.jcr.contentparser.impl.JsonContentParser.parse(JsonContentParser.java:160)\n\tat org.apache.sling.jcr.contentparser.impl.JsonContentParser.parse(JsonContentParser.java:160)\n\tat org.apache.sling.jcr.contentparser.impl.JsonContentParser.parse(JsonContentParser.java:79)\n\tat org.apache.sling.jcr.contentparser.impl.TestUtils.parse(TestUtils.java:42)\n\tat org.apache.sling.jcr.contentparser.impl.JsonContentParserTest.testPageJcrPrimaryType(JsonContentParserTest.java:58)\n"
+                    },
+                    {
+                        "classname": "org.apache.sling.jcr.contentparser.impl.JsonContentParserTest",
+                        "method": "testIgnoreResourcesProperties",
+                        "exn_type": "java.lang.NullPointerException:",
+                        "stack_trace": "java.lang.NullPointerException: null\n\tat org.apache.sling.jcr.contentparser.impl.ParserHelper.convertSingleTypeArray(ParserHelper.java:132)\n\tat org.apache.sling.jcr.contentparser.impl.JsonContentParser.convertValue(JsonContentParser.java:195)\n\tat org.apache.sling.jcr.contentparser.impl.JsonContentParser.parse(JsonContentParser.java:123)\n\tat org.apache.sling.jcr.contentparser.impl.JsonContentParser.parse(JsonContentParser.java:160)\n\tat org.apache.sling.jcr.contentparser.impl.JsonContentParser.parse(JsonContentParser.java:160)\n\tat org.apache.sling.jcr.contentparser.impl.JsonContentParser.parse(JsonContentParser.java:79)\n\tat org.apache.sling.jcr.contentparser.impl.TestUtils.parse(TestUtils.java:42)\n\tat org.apache.sling.jcr.contentparser.impl.JsonContentParserTest.testGetChild(JsonContentParserTest.java:179)\n"
+                    },
+                    {
+                        "classname": "org.apache.sling.jcr.contentparser.impl.XmlContentParserTest",
+                        "method": "testIgnoreResourcesProperties",
+                        "exn_type": "java.lang.NullPointerException:",
+                        "stack_trace": "java.lang.NullPointerException: null\n\tat org.apache.sling.jcr.contentparser.impl.ParserHelper.convertSingleTypeArray(ParserHelper.java:132)\n\tat org.apache.sling.jcr.contentparser.impl.XmlContentParser.convertMultiValue(XmlContentParser.java:225)\n\tat org.apache.sling.jcr.contentparser.impl.XmlContentParser.parse(XmlContentParser.java:137)\n\tat org.apache.sling.jcr.contentparser.impl.XmlContentParser.parse(XmlContentParser.java:153)\n\tat org.apache.sling.jcr.contentparser.impl.XmlContentParser.parse(XmlContentParser.java:153)\n\tat org.apache.sling.jcr.contentparser.impl.XmlContentParser.parse(XmlContentParser.java:64)\n\tat org.apache.sling.jcr.contentparser.impl.TestUtils.parse(TestUtils.java:42)\n\tat org.apache.sling.jcr.contentparser.impl.XmlContentParserTest.testIgnoreResourcesProperties(XmlContentParserTest.java:140)\n"
+                    },
+                    {
+                        "classname": "org.apache.sling.jcr.contentparser.impl.XmlContentParserTest",
+                        "method": "testIgnoreResourcesProperties",
+                        "exn_type": "java.lang.NullPointerException:",
+                        "stack_trace": "java.lang.NullPointerException: null\n\tat org.apache.sling.jcr.contentparser.impl.ParserHelper.convertSingleTypeArray(ParserHelper.java:132)\n\tat org.apache.sling.jcr.contentparser.impl.XmlContentParser.convertMultiValue(XmlContentParser.java:225)\n\tat org.apache.sling.jcr.contentparser.impl.XmlContentParser.parse(XmlContentParser.java:137)\n\tat org.apache.sling.jcr.contentparser.impl.XmlContentParser.parse(XmlContentParser.java:153)\n\tat org.apache.sling.jcr.contentparser.impl.XmlContentParser.parse(XmlContentParser.java:153)\n\tat org.apache.sling.jcr.contentparser.impl.XmlContentParser.parse(XmlContentParser.java:64)\n\tat org.apache.sling.jcr.contentparser.impl.TestUtils.parse(TestUtils.java:42)\n\tat org.apache.sling.jcr.contentparser.impl.XmlContentParserTest.testGetChild(XmlContentParserTest.java:157)\n"
+                    },
+                    {
+                        "classname": "org.apache.sling.jcr.contentparser.impl.JsonContentParserTest",
+                        "method": "testGetChild",
+                        "exn_type": "java.lang.NullPointerException:",
+                        "stack_trace": "java.lang.NullPointerException: null\n\tat org.apache.sling.jcr.contentparser.impl.ParserHelper.convertSingleTypeArray(ParserHelper.java:132)\n\tat org.apache.sling.jcr.contentparser.impl.JsonContentParser.convertValue(JsonContentParser.java:195)\n\tat org.apache.sling.jcr.contentparser.impl.JsonContentParser.parse(JsonContentParser.java:123)\n\tat org.apache.sling.jcr.contentparser.impl.JsonContentParser.parse(JsonContentParser.java:160)\n\tat org.apache.sling.jcr.contentparser.impl.JsonContentParser.parse(JsonContentParser.java:160)\n\tat org.apache.sling.jcr.contentparser.impl.JsonContentParser.parse(JsonContentParser.java:79)\n\tat org.apache.sling.jcr.contentparser.impl.TestUtils.parse(TestUtils.java:42)\n\tat org.apache.sling.jcr.contentparser.impl.JsonContentParserTest.testUTF8Chars(JsonContentParserTest.java:134)\n"
+                    },
+                    {
+                        "classname": "org.apache.sling.jcr.contentparser.impl.JsonContentParserTest",
+                        "method": "testContentProperties",
+                        "exn_type": "java.lang.NullPointerException:",
+                        "stack_trace": "java.lang.NullPointerException: null\n\tat org.apache.sling.jcr.contentparser.impl.ParserHelper.convertSingleTypeArray(ParserHelper.java:132)\n\tat org.apache.sling.jcr.contentparser.impl.JsonContentParser.convertValue(JsonContentParser.java:195)\n\tat org.apache.sling.jcr.contentparser.impl.JsonContentParser.parse(JsonContentParser.java:123)\n\tat org.apache.sling.jcr.contentparser.impl.JsonContentParser.parse(JsonContentParser.java:160)\n\tat org.apache.sling.jcr.contentparser.impl.JsonContentParser.parse(JsonContentParser.java:160)\n\tat org.apache.sling.jcr.contentparser.impl.JsonContentParser.parse(JsonContentParser.java:79)\n\tat org.apache.sling.jcr.contentparser.impl.TestUtils.parse(TestUtils.java:42)\n\tat org.apache.sling.jcr.contentparser.impl.JsonContentParserTest.testContentProperties(JsonContentParserTest.java:83)\n"
+                    },
+                    {
+                        "classname": "org.apache.sling.jcr.contentparser.impl.JsonContentParserTest",
+                        "method": "testIso8601Calendar",
+                        "exn_type": "java.lang.NullPointerException:",
+                        "stack_trace": "java.lang.NullPointerException: null\n\tat org.apache.sling.jcr.contentparser.impl.ParserHelper.convertSingleTypeArray(ParserHelper.java:132)\n\tat org.apache.sling.jcr.contentparser.impl.JsonContentParser.convertValue(JsonContentParser.java:195)\n\tat org.apache.sling.jcr.contentparser.impl.JsonContentParser.parse(JsonContentParser.java:123)\n\tat org.apache.sling.jcr.contentparser.impl.JsonContentParser.parse(JsonContentParser.java:160)\n\tat org.apache.sling.jcr.contentparser.impl.JsonContentParser.parse(JsonContentParser.java:160)\n\tat org.apache.sling.jcr.contentparser.impl.JsonContentParser.parse(JsonContentParser.java:79)\n\tat org.apache.sling.jcr.contentparser.impl.TestUtils.parse(TestUtils.java:42)\n\tat org.apache.sling.jcr.contentparser.impl.JsonContentParserTest.testCalendar(JsonContentParserTest.java:93)\n"
+                    },
+                    {
+                        "classname": "org.apache.sling.jcr.contentparser.impl.JsonContentParserTest",
+                        "method": "testCalendar",
+                        "exn_type": "java.lang.NullPointerException:",
+                        "stack_trace": "java.lang.NullPointerException: null\n\tat org.apache.sling.jcr.contentparser.impl.ParserHelper.convertSingleTypeArray(ParserHelper.java:132)\n\tat org.apache.sling.jcr.contentparser.impl.JsonContentParser.convertValue(JsonContentParser.java:195)\n\tat org.apache.sling.jcr.contentparser.impl.JsonContentParser.parse(JsonContentParser.java:123)\n\tat org.apache.sling.jcr.contentparser.impl.JsonContentParser.parse(JsonContentParser.java:160)\n\tat org.apache.sling.jcr.contentparser.impl.JsonContentParser.parse(JsonContentParser.java:160)\n\tat org.apache.sling.jcr.contentparser.impl.JsonContentParser.parse(JsonContentParser.java:79)\n\tat org.apache.sling.jcr.contentparser.impl.TestUtils.parse(TestUtils.java:42)\n\tat org.apache.sling.jcr.contentparser.impl.JsonContentParserTest.testUTF8Chars(JsonContentParserTest.java:134)\n"
+                    },
+                    {
+                        "classname": "org.apache.sling.jcr.contentparser.impl.JsonContentParserTest",
+                        "method": "testIgnoreResourcesProperties",
+                        "exn_type": "java.lang.NullPointerException:",
+                        "stack_trace": "java.lang.NullPointerException: null\n\tat org.apache.sling.jcr.contentparser.impl.ParserHelper.convertSingleTypeArray(ParserHelper.java:132)\n\tat org.apache.sling.jcr.contentparser.impl.JsonContentParser.convertValue(JsonContentParser.java:195)\n\tat org.apache.sling.jcr.contentparser.impl.JsonContentParser.parse(JsonContentParser.java:123)\n\tat org.apache.sling.jcr.contentparser.impl.JsonContentParser.parse(JsonContentParser.java:160)\n\tat org.apache.sling.jcr.contentparser.impl.JsonContentParser.parse(JsonContentParser.java:160)\n\tat org.apache.sling.jcr.contentparser.impl.JsonContentParser.parse(JsonContentParser.java:79)\n\tat org.apache.sling.jcr.contentparser.impl.TestUtils.parse(TestUtils.java:42)\n\tat org.apache.sling.jcr.contentparser.impl.JsonContentParserTest.testUTF8Chars(JsonContentParserTest.java:134)\n"
+                    },
+                    {
+                        "classname": "org.apache.sling.jcr.contentparser.impl.JsonContentParserTest",
+                        "method": "testGetChild",
+                        "exn_type": "java.lang.NullPointerException:",
+                        "stack_trace": "java.lang.NullPointerException: null\n\tat org.apache.sling.jcr.contentparser.impl.ParserHelper.convertSingleTypeArray(ParserHelper.java:132)\n\tat org.apache.sling.jcr.contentparser.impl.JsonContentParser.convertValue(JsonContentParser.java:195)\n\tat org.apache.sling.jcr.contentparser.impl.JsonContentParser.parse(JsonContentParser.java:123)\n\tat org.apache.sling.jcr.contentparser.impl.JsonContentParser.parse(JsonContentParser.java:160)\n\tat org.apache.sling.jcr.contentparser.impl.JsonContentParser.parse(JsonContentParser.java:160)\n\tat org.apache.sling.jcr.contentparser.impl.JsonContentParser.parse(JsonContentParser.java:79)\n\tat org.apache.sling.jcr.contentparser.impl.TestUtils.parse(TestUtils.java:42)\n\tat org.apache.sling.jcr.contentparser.impl.JsonContentParserTest.testIso8601Calendar(JsonContentParserTest.java:115)\n"
+                    }
+                ]
+            }
+        },
+        {
+            "repo": "sling-org-apache-sling-jcr-contentparser",
+            "bug_id": "ParserHelper_64",
+            "npe_info": {
+                "filepath": "src/main/java/org/apache/sling/jcr/contentparser/impl/ParserHelper.java",
+                "line": 66,
+                "deref_field": "defaultPrimaryType",
+                "npe_class": "ParserHelper",
+                "npe_method": "ensureDefaultPrimaryType",
+                "sink_field": null,
+                "jvmti_identify_succeed": null,
+                "is_original": null
+            },
+            "build_info": {
+                "compiled": true,
+                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
+                "java_version": 8,
+                "error_message": null,
+                "time": 19.279290940845385
+            },
+            "test_info": {
+                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
+                "fail_buggy": true,
+                "pass_fixed": true,
+                "testcases": [
+                    {
+                        "classname": "org.apache.sling.jcr.contentparser.impl.ParserHelperTest",
+                        "method": "testEnsureDefaultPrimaryType_Disabled",
+                        "exn_type": "java.lang.AssertionError",
+                        "stack_trace": "java.lang.AssertionError: expected:<{prop1=value1}> but was:<{prop1=value1, jcr:primaryType=null}>\n\tat org.junit.Assert.fail(Assert.java:88)\n\tat org.junit.Assert.failNotEquals(Assert.java:834)\n\tat org.junit.Assert.assertEquals(Assert.java:118)\n\tat org.junit.Assert.assertEquals(Assert.java:144)\n\tat org.apache.sling.jcr.contentparser.impl.ParserHelperTest.testEnsureDefaultPrimaryType_Disabled(ParserHelperTest.java:62)\n"
+                    }
+                ]
+            }
+        },
+        {
+            "repo": "sling-org-apache-sling-jcr-contentparser",
+            "bug_id": "ParserHelper_123",
+            "npe_info": {
+                "filepath": "src/main/java/org/apache/sling/jcr/contentparser/impl/ParserHelper.java",
+                "line": 126,
+                "deref_field": "value",
+                "npe_class": "ParserHelper",
+                "npe_method": "convertSingleTypeArray",
+                "sink_field": null,
+                "jvmti_identify_succeed": null,
+                "is_original": null
+            },
+            "build_info": {
+                "compiled": true,
+                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
+                "java_version": 8,
+                "error_message": null,
+                "time": 18.225534221855924
+            },
+            "test_info": {
+                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
+                "fail_buggy": true,
+                "pass_fixed": true,
+                "testcases": [
+                    {
+                        "classname": "org.apache.sling.jcr.contentparser.impl.ParserHelperTest",
+                        "method": "testConvertSingleTypeArray_WithNull",
+                        "exn_type": "java.lang.Exception",
+                        "stack_trace": "java.lang.Exception: Unexpected exception, expected<org.apache.sling.jcr.contentparser.ParseException> but was<java.lang.NullPointerException>\n\tat org.apache.sling.jcr.contentparser.impl.ParserHelper.convertSingleTypeArray(ParserHelper.java:130)\n\tat org.apache.sling.jcr.contentparser.impl.ParserHelperTest.testConvertSingleTypeArray_WithNull(ParserHelperTest.java:181)\n"
+                    }
+                ]
+            }
+        },
+        {
+            "repo": "sling-org-apache-sling-jcr-contentparser",
+            "bug_id": "JcrXmlValueConverter_56",
+            "npe_info": {
+                "filepath": "src/main/java/org/apache/sling/jcr/contentparser/impl/JcrXmlValueConverter.java",
+                "line": 59,
+                "deref_field": "arrayType",
+                "npe_class": "JcrXmlValueConverter",
+                "npe_method": "parseValue",
+                "sink_field": null,
+                "jvmti_identify_succeed": null,
+                "is_original": null
+            },
+            "build_info": {
+                "compiled": true,
+                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
+                "java_version": 8,
+                "error_message": null,
+                "time": 20.31467839796096
+            },
+            "test_info": {
+                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
+                "fail_buggy": false,
+                "pass_fixed": true,
+                "testcases": []
+            }
+        },
+        {
+            "repo": "sling-org-apache-sling-jcr-contentparser",
+            "bug_id": "ContentElementHandler_42",
+            "npe_info": {
+                "filepath": "src/test/java/org/apache/sling/jcr/contentparser/impl/mapsupport/ContentElementHandler.java",
+                "line": 53,
+                "deref_field": "root",
+                "npe_class": "ContentElementHandler",
+                "npe_method": "resource",
+                "sink_field": null,
+                "jvmti_identify_succeed": null,
+                "is_original": null
+            },
+            "build_info": {
+                "compiled": true,
+                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
+                "java_version": 8,
+                "error_message": null,
+                "time": 21.048280410002917
+            },
+            "test_info": {
+                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
+                "fail_buggy": false,
+                "pass_fixed": true,
+                "testcases": []
+            }
+        },
+        {
+            "repo": "sling-org-apache-sling-jcr-contentparser",
+            "bug_id": "ParserHelper_75",
+            "npe_info": {
+                "filepath": "src/main/java/org/apache/sling/jcr/contentparser/impl/ParserHelper.java",
+                "line": 76,
+                "deref_field": "calendar",
+                "npe_class": "ParserHelper",
+                "npe_method": "tryParseCalendar",
+                "sink_field": null,
+                "jvmti_identify_succeed": null,
+                "is_original": null
+            },
+            "build_info": {
+                "compiled": true,
+                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
+                "java_version": 8,
+                "error_message": null,
+                "time": 17.881847091019154
+            },
+            "test_info": {
+                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
+                "fail_buggy": true,
+                "pass_fixed": true,
+                "testcases": []
+            }
+        }
+    ],
+    "repository_info": null
+}

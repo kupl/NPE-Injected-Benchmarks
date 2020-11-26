@@ -5,6 +5,7 @@ from multiprocessing import Pool
 from functools import wraps
 import utils
 from config import *
+from time import sleep
 
 ROOT_DIR = os.getcwd()
 LEARNING_DIR = f"{ROOT_DIR}/generated_bugs"
@@ -14,7 +15,7 @@ def get_original_dir(repo):
     return f"{BENCH_DIR}/{repo}"
 
 def execute_no_fail (cmd, dir):
-    ret = utils.execute(cmd, dir=dir)
+    ret = utils.execute(cmd, dir=dir, verbosity=1)
     if ret.return_code != 0: 
         print(f"{ERROR}: failed to execute {cmd}")
     return ret
@@ -30,6 +31,18 @@ def clean (repo):
     # execute_no_fail(f"git checkout -f HEAD", repo_dir)
     # execute_no_fail(f"git clean -df", repo_dir)
     # execute_no_fail(f"rm -rf .git", repo_dir)
+
+def checkout (repo):
+    repo_dir = f"{BENCH_DIR}/{repo}"
+    while True:
+        ret = utils.execute("git checkout -f -- .", repo_dir)
+        if ret.return_code == 128:
+            print(f"wait for git checkout at {repo_dir}")
+            sleep(0.1)
+            continue
+        else:
+            return ret
+
 
 @dataclass
 class Bug:
@@ -87,7 +100,7 @@ class Bug:
         original_dir = f"{BENCH_DIR}/{self.repo}"
         buggy_java = f"{LEARNING_DIR}/{self.repo}/bugs/{self.bug_id}/buggy.java"
 
-        execute_no_fail(f"git checkout -- {original_dir}", original_dir)
+        checkout(self.repo)
         ret_fixed_test = self.execute_test_all(original_dir)
         testcases_fixed = TestCase.from_test_results(original_dir)
 

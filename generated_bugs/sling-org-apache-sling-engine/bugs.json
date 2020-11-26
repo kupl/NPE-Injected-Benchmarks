@@ -1,0 +1,310 @@
+{
+    "repo": "sling-org-apache-sling-engine",
+    "bugs": [
+        {
+            "repo": "sling-org-apache-sling-engine",
+            "bug_id": "RequestHistoryConsolePlugin_120",
+            "npe_info": {
+                "filepath": "src/main/java/org/apache/sling/engine/impl/console/RequestHistoryConsolePlugin.java",
+                "line": 136,
+                "deref_field": "local",
+                "npe_class": "RequestHistoryConsolePlugin",
+                "npe_method": "addRequest",
+                "sink_field": null,
+                "jvmti_identify_succeed": null,
+                "is_original": null
+            },
+            "build_info": {
+                "compiled": true,
+                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
+                "java_version": 8,
+                "error_message": null,
+                "time": 12.136520258849487
+            },
+            "test_info": {
+                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
+                "fail_buggy": false,
+                "pass_fixed": true,
+                "testcases": []
+            }
+        },
+        {
+            "repo": "sling-org-apache-sling-engine",
+            "bug_id": "WebConsoleConfigPrinter_72",
+            "npe_info": {
+                "filepath": "src/main/java/org/apache/sling/engine/impl/console/WebConsoleConfigPrinter.java",
+                "line": 75,
+                "deref_field": "entries",
+                "npe_class": "WebConsoleConfigPrinter",
+                "npe_method": "printFilterChain",
+                "sink_field": null,
+                "jvmti_identify_succeed": null,
+                "is_original": null
+            },
+            "build_info": {
+                "compiled": true,
+                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
+                "java_version": 8,
+                "error_message": null,
+                "time": 23.08563301898539
+            },
+            "test_info": {
+                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
+                "fail_buggy": false,
+                "pass_fixed": true,
+                "testcases": []
+            }
+        },
+        {
+            "repo": "sling-org-apache-sling-engine",
+            "bug_id": "RequestHistoryConsolePlugin_211",
+            "npe_info": {
+                "filepath": "src/main/java/org/apache/sling/engine/impl/console/RequestHistoryConsolePlugin.java",
+                "line": 212,
+                "deref_field": "key",
+                "npe_class": "RequestHistoryConsolePlugin",
+                "npe_method": "doGet",
+                "sink_field": null,
+                "jvmti_identify_succeed": null,
+                "is_original": null
+            },
+            "build_info": {
+                "compiled": true,
+                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
+                "java_version": 8,
+                "error_message": null,
+                "time": 22.37664526910521
+            },
+            "test_info": {
+                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
+                "fail_buggy": true,
+                "pass_fixed": true,
+                "testcases": [
+                    {
+                        "classname": "org.apache.sling.engine.impl.debug.RequestProgressTrackerLogFilterTest",
+                        "method": "verifySlingRequestProgressTrackerDurationIsNanos",
+                        "exn_type": "java.lang.AssertionError",
+                        "stack_trace": "java.lang.AssertionError: Expecting min ratio of 500000, got 404422.0\n\tat org.apache.sling.engine.impl.debug.RequestProgressTrackerLogFilterTest.verifySlingRequestProgressTrackerDurationIsNanos(RequestProgressTrackerLogFilterTest.java:79)\n"
+                    }
+                ]
+            }
+        },
+        {
+            "repo": "sling-org-apache-sling-engine",
+            "bug_id": "RequestHistoryConsolePlugin_94",
+            "npe_info": {
+                "filepath": "src/main/java/org/apache/sling/engine/impl/console/RequestHistoryConsolePlugin.java",
+                "line": 95,
+                "deref_field": "sling_store_pattern_requests()",
+                "npe_class": "RequestHistoryConsolePlugin",
+                "npe_method": "update",
+                "sink_field": null,
+                "jvmti_identify_succeed": null,
+                "is_original": null
+            },
+            "build_info": {
+                "compiled": true,
+                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
+                "java_version": 8,
+                "error_message": null,
+                "time": 22.60303614893928
+            },
+            "test_info": {
+                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
+                "fail_buggy": false,
+                "pass_fixed": true,
+                "testcases": []
+            }
+        },
+        {
+            "repo": "sling-org-apache-sling-engine",
+            "bug_id": "RequestHistoryConsolePlugin_113",
+            "npe_info": {
+                "filepath": "src/main/java/org/apache/sling/engine/impl/console/RequestHistoryConsolePlugin.java",
+                "line": 114,
+                "deref_field": "local",
+                "npe_class": "RequestHistoryConsolePlugin",
+                "npe_method": "recordRequest",
+                "sink_field": null,
+                "jvmti_identify_succeed": null,
+                "is_original": null
+            },
+            "build_info": {
+                "compiled": true,
+                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
+                "java_version": 8,
+                "error_message": null,
+                "time": 22.369158012093976
+            },
+            "test_info": {
+                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
+                "fail_buggy": false,
+                "pass_fixed": true,
+                "testcases": []
+            }
+        },
+        {
+            "repo": "sling-org-apache-sling-engine",
+            "bug_id": "RequestHistoryConsolePlugin_236",
+            "npe_info": {
+                "filepath": "src/main/java/org/apache/sling/engine/impl/console/RequestHistoryConsolePlugin.java",
+                "line": 245,
+                "deref_field": "info",
+                "npe_class": "RequestHistoryConsolePlugin",
+                "npe_method": "doGet",
+                "sink_field": null,
+                "jvmti_identify_succeed": null,
+                "is_original": null
+            },
+            "build_info": {
+                "compiled": true,
+                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
+                "java_version": 8,
+                "error_message": null,
+                "time": 23.94551733508706
+            },
+            "test_info": {
+                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
+                "fail_buggy": false,
+                "pass_fixed": true,
+                "testcases": []
+            }
+        },
+        {
+            "repo": "sling-org-apache-sling-engine",
+            "bug_id": "RequestHistoryConsolePlugin_208",
+            "npe_info": {
+                "filepath": "src/main/java/org/apache/sling/engine/impl/console/RequestHistoryConsolePlugin.java",
+                "line": 209,
+                "deref_field": "local",
+                "npe_class": "RequestHistoryConsolePlugin",
+                "npe_method": "doGet",
+                "sink_field": null,
+                "jvmti_identify_succeed": null,
+                "is_original": null
+            },
+            "build_info": {
+                "compiled": true,
+                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
+                "java_version": 8,
+                "error_message": null,
+                "time": 24.653730924008414
+            },
+            "test_info": {
+                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
+                "fail_buggy": false,
+                "pass_fixed": true,
+                "testcases": []
+            }
+        },
+        {
+            "repo": "sling-org-apache-sling-engine",
+            "bug_id": "RequestHistoryConsolePlugin_145",
+            "npe_info": {
+                "filepath": "src/main/java/org/apache/sling/engine/impl/console/RequestHistoryConsolePlugin.java",
+                "line": 146,
+                "deref_field": "local",
+                "npe_class": "RequestHistoryConsolePlugin",
+                "npe_method": "clear",
+                "sink_field": null,
+                "jvmti_identify_succeed": null,
+                "is_original": null
+            },
+            "build_info": {
+                "compiled": true,
+                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
+                "java_version": 8,
+                "error_message": null,
+                "time": 23.76792424591258
+            },
+            "test_info": {
+                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
+                "fail_buggy": false,
+                "pass_fixed": true,
+                "testcases": []
+            }
+        },
+        {
+            "repo": "sling-org-apache-sling-engine",
+            "bug_id": "WebConsoleConfigPrinter_63",
+            "npe_info": {
+                "filepath": "src/main/java/org/apache/sling/engine/impl/console/WebConsoleConfigPrinter.java",
+                "line": 64,
+                "deref_field": "reg",
+                "npe_class": "WebConsoleConfigPrinter",
+                "npe_method": "unregister",
+                "sink_field": null,
+                "jvmti_identify_succeed": null,
+                "is_original": null
+            },
+            "build_info": {
+                "compiled": true,
+                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
+                "java_version": 8,
+                "error_message": null,
+                "time": 23.828609404154122
+            },
+            "test_info": {
+                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
+                "fail_buggy": false,
+                "pass_fixed": true,
+                "testcases": []
+            }
+        },
+        {
+            "repo": "sling-org-apache-sling-engine",
+            "bug_id": "RequestHistoryConsolePlugin_221",
+            "npe_info": {
+                "filepath": "src/main/java/org/apache/sling/engine/impl/console/RequestHistoryConsolePlugin.java",
+                "line": 223,
+                "deref_field": "local",
+                "npe_class": "RequestHistoryConsolePlugin",
+                "npe_method": "doGet",
+                "sink_field": null,
+                "jvmti_identify_succeed": null,
+                "is_original": null
+            },
+            "build_info": {
+                "compiled": true,
+                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
+                "java_version": 8,
+                "error_message": null,
+                "time": 27.030394382076338
+            },
+            "test_info": {
+                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
+                "fail_buggy": false,
+                "pass_fixed": true,
+                "testcases": []
+            }
+        },
+        {
+            "repo": "sling-org-apache-sling-engine",
+            "bug_id": "RequestHistoryConsolePlugin_152",
+            "npe_info": {
+                "filepath": "src/main/java/org/apache/sling/engine/impl/console/RequestHistoryConsolePlugin.java",
+                "line": 153,
+                "deref_field": "values",
+                "npe_class": "RequestHistoryConsolePlugin",
+                "npe_method": "printLinksTable",
+                "sink_field": null,
+                "jvmti_identify_succeed": null,
+                "is_original": null
+            },
+            "build_info": {
+                "compiled": true,
+                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
+                "java_version": 8,
+                "error_message": null,
+                "time": 23.181061274837703
+            },
+            "test_info": {
+                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
+                "fail_buggy": false,
+                "pass_fixed": true,
+                "testcases": []
+            }
+        }
+    ],
+    "repository_info": null
+}

@@ -1,0 +1,1139 @@
+{
+    "repo": "maven-doap-plugin",
+    "bugs": [
+        {
+            "repo": "maven-doap-plugin",
+            "bug_id": "ASFExtOptionsUtil_241",
+            "npe_info": {
+                "filepath": "src/main/java/org/apache/maven/plugin/doap/options/ASFExtOptionsUtil.java",
+                "line": 243,
+                "deref_field": "getScm()",
+                "npe_class": "ASFExtOptionsUtil",
+                "npe_method": "isASFProject",
+                "sink_field": null,
+                "jvmti_identify_succeed": null,
+                "is_original": null
+            },
+            "build_info": {
+                "compiled": true,
+                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
+                "java_version": 8,
+                "error_message": null,
+                "time": 21.933049272047356
+            },
+            "test_info": {
+                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
+                "fail_buggy": true,
+                "pass_fixed": true,
+                "testcases": [
+                    {
+                        "classname": "org.apache.maven.plugin.doap.DoapMojoTest",
+                        "method": "testGeneratedDoapArtifactMinimalist",
+                        "exn_type": "java.lang.NullPointerException",
+                        "stack_trace": "java.lang.NullPointerException\n\tat org.apache.maven.plugin.doap.options.ASFExtOptionsUtil.isASFProject(ASFExtOptionsUtil.java:243)\n\tat org.apache.maven.plugin.doap.DoapMojo.writeDoapFile(DoapMojo.java:517)\n\tat org.apache.maven.plugin.doap.DoapMojo.execute(DoapMojo.java:422)\n\tat org.apache.maven.plugin.doap.DoapMojoTest.testGeneratedDoapArtifactMinimalist(DoapMojoTest.java:301)\n"
+                    }
+                ]
+            }
+        },
+        {
+            "repo": "maven-doap-plugin",
+            "bug_id": "DoapUtil_250",
+            "npe_info": {
+                "filepath": "src/main/java/org/apache/maven/plugin/doap/DoapUtil.java",
+                "line": 253,
+                "deref_field": "value",
+                "npe_class": "DoapUtil",
+                "npe_method": "writeRdfResourceElement",
+                "sink_field": null,
+                "jvmti_identify_succeed": null,
+                "is_original": null
+            },
+            "build_info": {
+                "compiled": true,
+                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
+                "java_version": 8,
+                "error_message": null,
+                "time": 19.840388969983906
+            },
+            "test_info": {
+                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
+                "fail_buggy": false,
+                "pass_fixed": true,
+                "testcases": []
+            }
+        },
+        {
+            "repo": "maven-doap-plugin",
+            "bug_id": "DoapMojo_1142",
+            "npe_info": {
+                "filepath": "src/main/java/org/apache/maven/plugin/doap/DoapMojo.java",
+                "line": 1157,
+                "deref_field": "asfCategory",
+                "npe_class": "DoapMojo",
+                "npe_method": "writeCategory",
+                "sink_field": null,
+                "jvmti_identify_succeed": null,
+                "is_original": null
+            },
+            "build_info": {
+                "compiled": true,
+                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
+                "java_version": 8,
+                "error_message": null,
+                "time": 18.208221063017845
+            },
+            "test_info": {
+                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
+                "fail_buggy": false,
+                "pass_fixed": true,
+                "testcases": []
+            }
+        },
+        {
+            "repo": "maven-doap-plugin",
+            "bug_id": "DoapMojo_1016",
+            "npe_info": {
+                "filepath": "src/main/java/org/apache/maven/plugin/doap/DoapMojo.java",
+                "line": 1028,
+                "deref_field": "asfLanguage",
+                "npe_class": "DoapMojo",
+                "npe_method": "writeProgrammingLanguage",
+                "sink_field": null,
+                "jvmti_identify_succeed": null,
+                "is_original": null
+            },
+            "build_info": {
+                "compiled": true,
+                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
+                "java_version": 8,
+                "error_message": null,
+                "time": 20.420958201168105
+            },
+            "test_info": {
+                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
+                "fail_buggy": false,
+                "pass_fixed": true,
+                "testcases": []
+            }
+        },
+        {
+            "repo": "maven-doap-plugin",
+            "bug_id": "DoapUtil_171",
+            "npe_info": {
+                "filepath": "src/main/java/org/apache/maven/plugin/doap/DoapUtil.java",
+                "line": 174,
+                "deref_field": "value",
+                "npe_class": "DoapUtil",
+                "npe_method": "writeElement",
+                "sink_field": null,
+                "jvmti_identify_succeed": null,
+                "is_original": null
+            },
+            "build_info": {
+                "compiled": true,
+                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
+                "java_version": 8,
+                "error_message": null,
+                "time": 18.443729269085452
+            },
+            "test_info": {
+                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
+                "fail_buggy": false,
+                "pass_fixed": true,
+                "testcases": []
+            }
+        },
+        {
+            "repo": "maven-doap-plugin",
+            "bug_id": "DoapMojo_1525",
+            "npe_info": {
+                "filepath": "src/main/java/org/apache/maven/plugin/doap/DoapMojo.java",
+                "line": 1530,
+                "deref_field": "artifactRelease",
+                "npe_class": "DoapMojo",
+                "npe_method": "writeReleases",
+                "sink_field": null,
+                "jvmti_identify_succeed": null,
+                "is_original": null
+            },
+            "build_info": {
+                "compiled": true,
+                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
+                "java_version": 8,
+                "error_message": null,
+                "time": 18.004703667014837
+            },
+            "test_info": {
+                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
+                "fail_buggy": false,
+                "pass_fixed": true,
+                "testcases": []
+            }
+        },
+        {
+            "repo": "maven-doap-plugin",
+            "bug_id": "DoapUtil_611",
+            "npe_info": {
+                "filepath": "src/main/java/org/apache/maven/plugin/doap/DoapUtil.java",
+                "line": 636,
+                "deref_field": "project",
+                "npe_class": "DoapUtil",
+                "npe_method": "interpolate",
+                "sink_field": null,
+                "jvmti_identify_succeed": null,
+                "is_original": null
+            },
+            "build_info": {
+                "compiled": true,
+                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
+                "java_version": 8,
+                "error_message": null,
+                "time": 19.097846632823348
+            },
+            "test_info": {
+                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
+                "fail_buggy": false,
+                "pass_fixed": true,
+                "testcases": []
+            }
+        },
+        {
+            "repo": "maven-doap-plugin",
+            "bug_id": "DoapMojo_1049",
+            "npe_info": {
+                "filepath": "src/main/java/org/apache/maven/plugin/doap/DoapMojo.java",
+                "line": 1064,
+                "deref_field": "asfLanguage",
+                "npe_class": "DoapMojo",
+                "npe_method": "writeProgrammingLanguage",
+                "sink_field": null,
+                "jvmti_identify_succeed": null,
+                "is_original": null
+            },
+            "build_info": {
+                "compiled": true,
+                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
+                "java_version": 8,
+                "error_message": null,
+                "time": 24.27437358885072
+            },
+            "test_info": {
+                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
+                "fail_buggy": false,
+                "pass_fixed": true,
+                "testcases": []
+            }
+        },
+        {
+            "repo": "maven-doap-plugin",
+            "bug_id": "ASFExtOptionsUtil_262",
+            "npe_info": {
+                "filepath": "src/main/java/org/apache/maven/plugin/doap/options/ASFExtOptionsUtil.java",
+                "line": 264,
+                "deref_field": "getDistributionManagement()",
+                "npe_class": "ASFExtOptionsUtil",
+                "npe_method": "isASFProject",
+                "sink_field": null,
+                "jvmti_identify_succeed": null,
+                "is_original": null
+            },
+            "build_info": {
+                "compiled": true,
+                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
+                "java_version": 8,
+                "error_message": null,
+                "time": 18.063904741080478
+            },
+            "test_info": {
+                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
+                "fail_buggy": true,
+                "pass_fixed": true,
+                "testcases": [
+                    {
+                        "classname": "org.apache.maven.plugin.doap.DoapMojoTest",
+                        "method": "testGeneratedDoapArtifactMinimalist",
+                        "exn_type": "java.lang.NullPointerException",
+                        "stack_trace": "java.lang.NullPointerException\n\tat org.apache.maven.plugin.doap.options.ASFExtOptionsUtil.isASFProject(ASFExtOptionsUtil.java:254)\n\tat org.apache.maven.plugin.doap.DoapMojo.writeDoapFile(DoapMojo.java:517)\n\tat org.apache.maven.plugin.doap.DoapMojo.execute(DoapMojo.java:422)\n\tat org.apache.maven.plugin.doap.DoapMojoTest.testGeneratedDoapArtifactMinimalist(DoapMojoTest.java:301)\n"
+                    }
+                ]
+            }
+        },
+        {
+            "repo": "maven-doap-plugin",
+            "bug_id": "DoapUtil_201",
+            "npe_info": {
+                "filepath": "src/main/java/org/apache/maven/plugin/doap/DoapUtil.java",
+                "line": 205,
+                "deref_field": "value",
+                "npe_class": "DoapUtil",
+                "npe_method": "writeElement",
+                "sink_field": null,
+                "jvmti_identify_succeed": null,
+                "is_original": null
+            },
+            "build_info": {
+                "compiled": true,
+                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
+                "java_version": 8,
+                "error_message": null,
+                "time": 16.267607785062864
+            },
+            "test_info": {
+                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
+                "fail_buggy": false,
+                "pass_fixed": true,
+                "testcases": []
+            }
+        },
+        {
+            "repo": "maven-doap-plugin",
+            "bug_id": "DoapUtil_918",
+            "npe_info": {
+                "filepath": "src/main/java/org/apache/maven/plugin/doap/DoapUtil.java",
+                "line": 923,
+                "deref_field": "method",
+                "npe_class": "ReflectionValueExtractor",
+                "npe_method": "evaluate",
+                "sink_field": null,
+                "jvmti_identify_succeed": null,
+                "is_original": null
+            },
+            "build_info": {
+                "compiled": true,
+                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
+                "java_version": 8,
+                "error_message": null,
+                "time": 18.05295810708776
+            },
+            "test_info": {
+                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
+                "fail_buggy": false,
+                "pass_fixed": true,
+                "testcases": []
+            }
+        },
+        {
+            "repo": "maven-doap-plugin",
+            "bug_id": "ASFExtOptionsUtil_217",
+            "npe_info": {
+                "filepath": "src/main/java/org/apache/maven/plugin/doap/options/ASFExtOptionsUtil.java",
+                "line": 223,
+                "deref_field": "project",
+                "npe_class": "ASFExtOptionsUtil",
+                "npe_method": "isASFProject",
+                "sink_field": null,
+                "jvmti_identify_succeed": null,
+                "is_original": null
+            },
+            "build_info": {
+                "compiled": true,
+                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
+                "java_version": 8,
+                "error_message": null,
+                "time": 15.990450513083488
+            },
+            "test_info": {
+                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
+                "fail_buggy": false,
+                "pass_fixed": true,
+                "testcases": []
+            }
+        },
+        {
+            "repo": "maven-doap-plugin",
+            "bug_id": "DoapMojo_1480",
+            "npe_info": {
+                "filepath": "src/main/java/org/apache/maven/plugin/doap/DoapMojo.java",
+                "line": 1488,
+                "deref_field": "getVersioning()",
+                "npe_class": "DoapMojo",
+                "npe_method": "writeReleases",
+                "sink_field": null,
+                "jvmti_identify_succeed": null,
+                "is_original": null
+            },
+            "build_info": {
+                "compiled": true,
+                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
+                "java_version": 8,
+                "error_message": null,
+                "time": 18.47189732710831
+            },
+            "test_info": {
+                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
+                "fail_buggy": true,
+                "pass_fixed": true,
+                "testcases": [
+                    {
+                        "classname": "org.apache.maven.plugin.doap.DoapMojoTest",
+                        "method": "testGeneratedDoapArtifact",
+                        "exn_type": "java.lang.NullPointerException",
+                        "stack_trace": "java.lang.NullPointerException\n\tat org.apache.maven.plugin.doap.DoapMojo.writeReleases(DoapMojo.java:1479)\n\tat org.apache.maven.plugin.doap.DoapMojo.doWrite(DoapMojo.java:793)\n\tat org.apache.maven.plugin.doap.DoapMojo.writeDoapFile(DoapMojo.java:544)\n\tat org.apache.maven.plugin.doap.DoapMojo.execute(DoapMojo.java:442)\n\tat org.apache.maven.plugin.doap.DoapMojoTest.testGeneratedExtraDoap(DoapMojoTest.java:411)\n"
+                    },
+                    {
+                        "classname": "org.apache.maven.plugin.doap.DoapMojoTest",
+                        "method": "testGeneratedDoap",
+                        "exn_type": "java.lang.NullPointerException",
+                        "stack_trace": "java.lang.NullPointerException\n\tat org.apache.maven.plugin.doap.DoapMojo.writeReleases(DoapMojo.java:1479)\n\tat org.apache.maven.plugin.doap.DoapMojo.doWrite(DoapMojo.java:793)\n\tat org.apache.maven.plugin.doap.DoapMojo.writeDoapFile(DoapMojo.java:544)\n\tat org.apache.maven.plugin.doap.DoapMojo.execute(DoapMojo.java:422)\n\tat org.apache.maven.plugin.doap.DoapMojoTest.testGeneratedDoapArtifact(DoapMojoTest.java:220)\n"
+                    },
+                    {
+                        "classname": "org.apache.maven.plugin.doap.DoapMojoTest",
+                        "method": "testGeneratedDoap",
+                        "exn_type": "java.lang.NullPointerException",
+                        "stack_trace": "java.lang.NullPointerException\n\tat org.apache.maven.plugin.doap.DoapMojo.writeReleases(DoapMojo.java:1479)\n\tat org.apache.maven.plugin.doap.DoapMojo.doWrite(DoapMojo.java:793)\n\tat org.apache.maven.plugin.doap.DoapMojo.writeDoapFile(DoapMojo.java:544)\n\tat org.apache.maven.plugin.doap.DoapMojo.execute(DoapMojo.java:442)\n\tat org.apache.maven.plugin.doap.DoapMojoTest.testGeneratedDoapForASF(DoapMojoTest.java:361)\n"
+                    },
+                    {
+                        "classname": "org.apache.maven.plugin.doap.DoapMojoTest",
+                        "method": "testGeneratedDoapArtifact",
+                        "exn_type": "java.lang.NullPointerException",
+                        "stack_trace": "java.lang.NullPointerException\n\tat org.apache.maven.plugin.doap.DoapMojo.writeReleases(DoapMojo.java:1479)\n\tat org.apache.maven.plugin.doap.DoapMojo.doWrite(DoapMojo.java:793)\n\tat org.apache.maven.plugin.doap.DoapMojo.writeDoapFile(DoapMojo.java:544)\n\tat org.apache.maven.plugin.doap.DoapMojo.execute(DoapMojo.java:442)\n\tat org.apache.maven.plugin.doap.DoapMojoTest.testGeneratedDoap(DoapMojoTest.java:75)\n"
+                    },
+                    {
+                        "classname": "org.apache.maven.plugin.doap.DoapMojoTest",
+                        "method": "testGeneratedDoapArtifactMinimalist",
+                        "exn_type": "java.lang.NullPointerException",
+                        "stack_trace": "java.lang.NullPointerException\n\tat org.apache.maven.plugin.doap.DoapMojo.writeReleases(DoapMojo.java:1479)\n\tat org.apache.maven.plugin.doap.DoapMojo.doWrite(DoapMojo.java:793)\n\tat org.apache.maven.plugin.doap.DoapMojo.writeDoapFile(DoapMojo.java:544)\n\tat org.apache.maven.plugin.doap.DoapMojo.execute(DoapMojo.java:422)\n\tat org.apache.maven.plugin.doap.DoapMojoTest.testGeneratedDoapArtifactMinimalist(DoapMojoTest.java:301)\n"
+                    },
+                    {
+                        "classname": "org.apache.maven.plugin.doap.DoapMojoTest",
+                        "method": "testGeneratedDoapArtifactMinimalist",
+                        "exn_type": "java.lang.NullPointerException",
+                        "stack_trace": "java.lang.NullPointerException\n\tat org.apache.maven.plugin.doap.DoapMojo.writeReleases(DoapMojo.java:1479)\n\tat org.apache.maven.plugin.doap.DoapMojo.doWrite(DoapMojo.java:793)\n\tat org.apache.maven.plugin.doap.DoapMojo.writeDoapFile(DoapMojo.java:544)\n\tat org.apache.maven.plugin.doap.DoapMojo.execute(DoapMojo.java:442)\n\tat org.apache.maven.plugin.doap.DoapMojoTest.testGeneratedExtraDoap(DoapMojoTest.java:411)\n"
+                    },
+                    {
+                        "classname": "org.apache.maven.plugin.doap.DoapMojoTest",
+                        "method": "testGeneratedDoapArtifact",
+                        "exn_type": "java.lang.NullPointerException",
+                        "stack_trace": "java.lang.NullPointerException\n\tat org.apache.maven.plugin.doap.DoapMojo.writeReleases(DoapMojo.java:1479)\n\tat org.apache.maven.plugin.doap.DoapMojo.doWrite(DoapMojo.java:793)\n\tat org.apache.maven.plugin.doap.DoapMojo.writeDoapFile(DoapMojo.java:544)\n\tat org.apache.maven.plugin.doap.DoapMojo.execute(DoapMojo.java:422)\n\tat org.apache.maven.plugin.doap.DoapMojoTest.testGeneratedDoapArtifact(DoapMojoTest.java:220)\n"
+                    },
+                    {
+                        "classname": "org.apache.maven.plugin.doap.DoapMojoTest",
+                        "method": "testGeneratedDoapForASF",
+                        "exn_type": "java.lang.NullPointerException",
+                        "stack_trace": "java.lang.NullPointerException\n\tat org.apache.maven.plugin.doap.DoapMojo.writeReleases(DoapMojo.java:1479)\n\tat org.apache.maven.plugin.doap.DoapMojo.doWrite(DoapMojo.java:793)\n\tat org.apache.maven.plugin.doap.DoapMojo.writeDoapFile(DoapMojo.java:544)\n\tat org.apache.maven.plugin.doap.DoapMojo.execute(DoapMojo.java:422)\n\tat org.apache.maven.plugin.doap.DoapMojoTest.testGeneratedDoapArtifactMinimalist(DoapMojoTest.java:301)\n"
+                    },
+                    {
+                        "classname": "org.apache.maven.plugin.doap.DoapMojoTest",
+                        "method": "testGeneratedDoapArtifact",
+                        "exn_type": "java.lang.NullPointerException",
+                        "stack_trace": "java.lang.NullPointerException\n\tat org.apache.maven.plugin.doap.DoapMojo.writeReleases(DoapMojo.java:1479)\n\tat org.apache.maven.plugin.doap.DoapMojo.doWrite(DoapMojo.java:793)\n\tat org.apache.maven.plugin.doap.DoapMojo.writeDoapFile(DoapMojo.java:544)\n\tat org.apache.maven.plugin.doap.DoapMojo.execute(DoapMojo.java:442)\n\tat org.apache.maven.plugin.doap.DoapMojoTest.testGeneratedDoapForASF(DoapMojoTest.java:361)\n"
+                    },
+                    {
+                        "classname": "org.apache.maven.plugin.doap.DoapMojoTest",
+                        "method": "testGeneratedExtraDoap",
+                        "exn_type": "java.lang.NullPointerException",
+                        "stack_trace": "java.lang.NullPointerException\n\tat org.apache.maven.plugin.doap.DoapMojo.writeReleases(DoapMojo.java:1479)\n\tat org.apache.maven.plugin.doap.DoapMojo.doWrite(DoapMojo.java:793)\n\tat org.apache.maven.plugin.doap.DoapMojo.writeDoapFile(DoapMojo.java:544)\n\tat org.apache.maven.plugin.doap.DoapMojo.execute(DoapMojo.java:422)\n\tat org.apache.maven.plugin.doap.DoapMojoTest.testGeneratedDoapArtifactMinimalist(DoapMojoTest.java:301)\n"
+                    },
+                    {
+                        "classname": "org.apache.maven.plugin.doap.DoapMojoTest",
+                        "method": "testGeneratedDoapForASF",
+                        "exn_type": "java.lang.NullPointerException",
+                        "stack_trace": "java.lang.NullPointerException\n\tat org.apache.maven.plugin.doap.DoapMojo.writeReleases(DoapMojo.java:1479)\n\tat org.apache.maven.plugin.doap.DoapMojo.doWrite(DoapMojo.java:793)\n\tat org.apache.maven.plugin.doap.DoapMojo.writeDoapFile(DoapMojo.java:544)\n\tat org.apache.maven.plugin.doap.DoapMojo.execute(DoapMojo.java:442)\n\tat org.apache.maven.plugin.doap.DoapMojoTest.testGeneratedExtraDoap(DoapMojoTest.java:411)\n"
+                    },
+                    {
+                        "classname": "org.apache.maven.plugin.doap.DoapMojoTest",
+                        "method": "testGeneratedDoapArtifactMinimalist",
+                        "exn_type": "java.lang.NullPointerException",
+                        "stack_trace": "java.lang.NullPointerException\n\tat org.apache.maven.plugin.doap.DoapMojo.writeReleases(DoapMojo.java:1479)\n\tat org.apache.maven.plugin.doap.DoapMojo.doWrite(DoapMojo.java:793)\n\tat org.apache.maven.plugin.doap.DoapMojo.writeDoapFile(DoapMojo.java:544)\n\tat org.apache.maven.plugin.doap.DoapMojo.execute(DoapMojo.java:442)\n\tat org.apache.maven.plugin.doap.DoapMojoTest.testGeneratedDoap(DoapMojoTest.java:75)\n"
+                    },
+                    {
+                        "classname": "org.apache.maven.plugin.doap.DoapMojoTest",
+                        "method": "testGeneratedExtraDoap",
+                        "exn_type": "java.lang.NullPointerException",
+                        "stack_trace": "java.lang.NullPointerException\n\tat org.apache.maven.plugin.doap.DoapMojo.writeReleases(DoapMojo.java:1479)\n\tat org.apache.maven.plugin.doap.DoapMojo.doWrite(DoapMojo.java:793)\n\tat org.apache.maven.plugin.doap.DoapMojo.writeDoapFile(DoapMojo.java:544)\n\tat org.apache.maven.plugin.doap.DoapMojo.execute(DoapMojo.java:442)\n\tat org.apache.maven.plugin.doap.DoapMojoTest.testGeneratedExtraDoap(DoapMojoTest.java:411)\n"
+                    },
+                    {
+                        "classname": "org.apache.maven.plugin.doap.DoapMojoTest",
+                        "method": "testGeneratedDoap",
+                        "exn_type": "java.lang.NullPointerException",
+                        "stack_trace": "java.lang.NullPointerException\n\tat org.apache.maven.plugin.doap.DoapMojo.writeReleases(DoapMojo.java:1479)\n\tat org.apache.maven.plugin.doap.DoapMojo.doWrite(DoapMojo.java:793)\n\tat org.apache.maven.plugin.doap.DoapMojo.writeDoapFile(DoapMojo.java:544)\n\tat org.apache.maven.plugin.doap.DoapMojo.execute(DoapMojo.java:422)\n\tat org.apache.maven.plugin.doap.DoapMojoTest.testGeneratedDoapArtifactMinimalist(DoapMojoTest.java:301)\n"
+                    },
+                    {
+                        "classname": "org.apache.maven.plugin.doap.DoapMojoTest",
+                        "method": "testGeneratedDoapArtifactMinimalist",
+                        "exn_type": "java.lang.NullPointerException",
+                        "stack_trace": "java.lang.NullPointerException\n\tat org.apache.maven.plugin.doap.DoapMojo.writeReleases(DoapMojo.java:1479)\n\tat org.apache.maven.plugin.doap.DoapMojo.doWrite(DoapMojo.java:793)\n\tat org.apache.maven.plugin.doap.DoapMojo.writeDoapFile(DoapMojo.java:544)\n\tat org.apache.maven.plugin.doap.DoapMojo.execute(DoapMojo.java:422)\n\tat org.apache.maven.plugin.doap.DoapMojoTest.testGeneratedDoapArtifact(DoapMojoTest.java:220)\n"
+                    },
+                    {
+                        "classname": "org.apache.maven.plugin.doap.DoapMojoTest",
+                        "method": "testGeneratedDoapForASF",
+                        "exn_type": "java.lang.NullPointerException",
+                        "stack_trace": "java.lang.NullPointerException\n\tat org.apache.maven.plugin.doap.DoapMojo.writeReleases(DoapMojo.java:1479)\n\tat org.apache.maven.plugin.doap.DoapMojo.doWrite(DoapMojo.java:793)\n\tat org.apache.maven.plugin.doap.DoapMojo.writeDoapFile(DoapMojo.java:544)\n\tat org.apache.maven.plugin.doap.DoapMojo.execute(DoapMojo.java:442)\n\tat org.apache.maven.plugin.doap.DoapMojoTest.testGeneratedDoap(DoapMojoTest.java:75)\n"
+                    },
+                    {
+                        "classname": "org.apache.maven.plugin.doap.DoapMojoTest",
+                        "method": "testGeneratedDoapArtifactMinimalist",
+                        "exn_type": "java.lang.NullPointerException",
+                        "stack_trace": "java.lang.NullPointerException\n\tat org.apache.maven.plugin.doap.DoapMojo.writeReleases(DoapMojo.java:1479)\n\tat org.apache.maven.plugin.doap.DoapMojo.doWrite(DoapMojo.java:793)\n\tat org.apache.maven.plugin.doap.DoapMojo.writeDoapFile(DoapMojo.java:544)\n\tat org.apache.maven.plugin.doap.DoapMojo.execute(DoapMojo.java:442)\n\tat org.apache.maven.plugin.doap.DoapMojoTest.testGeneratedDoapForASF(DoapMojoTest.java:361)\n"
+                    },
+                    {
+                        "classname": "org.apache.maven.plugin.doap.DoapMojoTest",
+                        "method": "testGeneratedExtraDoap",
+                        "exn_type": "java.lang.NullPointerException",
+                        "stack_trace": "java.lang.NullPointerException\n\tat org.apache.maven.plugin.doap.DoapMojo.writeReleases(DoapMojo.java:1479)\n\tat org.apache.maven.plugin.doap.DoapMojo.doWrite(DoapMojo.java:793)\n\tat org.apache.maven.plugin.doap.DoapMojo.writeDoapFile(DoapMojo.java:544)\n\tat org.apache.maven.plugin.doap.DoapMojo.execute(DoapMojo.java:442)\n\tat org.apache.maven.plugin.doap.DoapMojoTest.testGeneratedDoap(DoapMojoTest.java:75)\n"
+                    },
+                    {
+                        "classname": "org.apache.maven.plugin.doap.DoapMojoTest",
+                        "method": "testGeneratedDoapForASF",
+                        "exn_type": "java.lang.NullPointerException",
+                        "stack_trace": "java.lang.NullPointerException\n\tat org.apache.maven.plugin.doap.DoapMojo.writeReleases(DoapMojo.java:1479)\n\tat org.apache.maven.plugin.doap.DoapMojo.doWrite(DoapMojo.java:793)\n\tat org.apache.maven.plugin.doap.DoapMojo.writeDoapFile(DoapMojo.java:544)\n\tat org.apache.maven.plugin.doap.DoapMojo.execute(DoapMojo.java:422)\n\tat org.apache.maven.plugin.doap.DoapMojoTest.testGeneratedDoapArtifact(DoapMojoTest.java:220)\n"
+                    },
+                    {
+                        "classname": "org.apache.maven.plugin.doap.DoapMojoTest",
+                        "method": "testGeneratedDoap",
+                        "exn_type": "java.lang.NullPointerException",
+                        "stack_trace": "java.lang.NullPointerException\n\tat org.apache.maven.plugin.doap.DoapMojo.writeReleases(DoapMojo.java:1479)\n\tat org.apache.maven.plugin.doap.DoapMojo.doWrite(DoapMojo.java:793)\n\tat org.apache.maven.plugin.doap.DoapMojo.writeDoapFile(DoapMojo.java:544)\n\tat org.apache.maven.plugin.doap.DoapMojo.execute(DoapMojo.java:442)\n\tat org.apache.maven.plugin.doap.DoapMojoTest.testGeneratedExtraDoap(DoapMojoTest.java:411)\n"
+                    },
+                    {
+                        "classname": "org.apache.maven.plugin.doap.DoapMojoTest",
+                        "method": "testGeneratedExtraDoap",
+                        "exn_type": "java.lang.NullPointerException",
+                        "stack_trace": "java.lang.NullPointerException\n\tat org.apache.maven.plugin.doap.DoapMojo.writeReleases(DoapMojo.java:1479)\n\tat org.apache.maven.plugin.doap.DoapMojo.doWrite(DoapMojo.java:793)\n\tat org.apache.maven.plugin.doap.DoapMojo.writeDoapFile(DoapMojo.java:544)\n\tat org.apache.maven.plugin.doap.DoapMojo.execute(DoapMojo.java:422)\n\tat org.apache.maven.plugin.doap.DoapMojoTest.testGeneratedDoapArtifact(DoapMojoTest.java:220)\n"
+                    },
+                    {
+                        "classname": "org.apache.maven.plugin.doap.DoapMojoTest",
+                        "method": "testGeneratedDoapArtifact",
+                        "exn_type": "java.lang.NullPointerException",
+                        "stack_trace": "java.lang.NullPointerException\n\tat org.apache.maven.plugin.doap.DoapMojo.writeReleases(DoapMojo.java:1479)\n\tat org.apache.maven.plugin.doap.DoapMojo.doWrite(DoapMojo.java:793)\n\tat org.apache.maven.plugin.doap.DoapMojo.writeDoapFile(DoapMojo.java:544)\n\tat org.apache.maven.plugin.doap.DoapMojo.execute(DoapMojo.java:422)\n\tat org.apache.maven.plugin.doap.DoapMojoTest.testGeneratedDoapArtifactMinimalist(DoapMojoTest.java:301)\n"
+                    },
+                    {
+                        "classname": "org.apache.maven.plugin.doap.DoapMojoTest",
+                        "method": "testGeneratedExtraDoap",
+                        "exn_type": "java.lang.NullPointerException",
+                        "stack_trace": "java.lang.NullPointerException\n\tat org.apache.maven.plugin.doap.DoapMojo.writeReleases(DoapMojo.java:1479)\n\tat org.apache.maven.plugin.doap.DoapMojo.doWrite(DoapMojo.java:793)\n\tat org.apache.maven.plugin.doap.DoapMojo.writeDoapFile(DoapMojo.java:544)\n\tat org.apache.maven.plugin.doap.DoapMojo.execute(DoapMojo.java:442)\n\tat org.apache.maven.plugin.doap.DoapMojoTest.testGeneratedDoapForASF(DoapMojoTest.java:361)\n"
+                    },
+                    {
+                        "classname": "org.apache.maven.plugin.doap.DoapMojoTest",
+                        "method": "testGeneratedDoapForASF",
+                        "exn_type": "java.lang.NullPointerException",
+                        "stack_trace": "java.lang.NullPointerException\n\tat org.apache.maven.plugin.doap.DoapMojo.writeReleases(DoapMojo.java:1479)\n\tat org.apache.maven.plugin.doap.DoapMojo.doWrite(DoapMojo.java:793)\n\tat org.apache.maven.plugin.doap.DoapMojo.writeDoapFile(DoapMojo.java:544)\n\tat org.apache.maven.plugin.doap.DoapMojo.execute(DoapMojo.java:442)\n\tat org.apache.maven.plugin.doap.DoapMojoTest.testGeneratedDoapForASF(DoapMojoTest.java:361)\n"
+                    },
+                    {
+                        "classname": "org.apache.maven.plugin.doap.DoapMojoTest",
+                        "method": "testGeneratedDoap",
+                        "exn_type": "java.lang.NullPointerException",
+                        "stack_trace": "java.lang.NullPointerException\n\tat org.apache.maven.plugin.doap.DoapMojo.writeReleases(DoapMojo.java:1479)\n\tat org.apache.maven.plugin.doap.DoapMojo.doWrite(DoapMojo.java:793)\n\tat org.apache.maven.plugin.doap.DoapMojo.writeDoapFile(DoapMojo.java:544)\n\tat org.apache.maven.plugin.doap.DoapMojo.execute(DoapMojo.java:442)\n\tat org.apache.maven.plugin.doap.DoapMojoTest.testGeneratedDoap(DoapMojoTest.java:75)\n"
+                    }
+                ]
+            }
+        },
+        {
+            "repo": "maven-doap-plugin",
+            "bug_id": "DoapUtil_616",
+            "npe_info": {
+                "filepath": "src/main/java/org/apache/maven/plugin/doap/DoapUtil.java",
+                "line": 621,
+                "deref_field": "value",
+                "npe_class": "DoapUtil",
+                "npe_method": "interpolate",
+                "sink_field": null,
+                "jvmti_identify_succeed": null,
+                "is_original": null
+            },
+            "build_info": {
+                "compiled": true,
+                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
+                "java_version": 8,
+                "error_message": null,
+                "time": 21.1308758049272
+            },
+            "test_info": {
+                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
+                "fail_buggy": true,
+                "pass_fixed": true,
+                "testcases": [
+                    {
+                        "classname": "org.apache.maven.plugin.doap.DoapMojoTest",
+                        "method": "testGeneratedDoapArtifactMinimalist",
+                        "exn_type": "java.lang.NullPointerException",
+                        "stack_trace": "java.lang.NullPointerException\n\tat org.apache.maven.plugin.doap.DoapUtil.interpolate(DoapUtil.java:627)\n\tat org.apache.maven.plugin.doap.DoapMojo.writeAudience(DoapMojo.java:2191)\n\tat org.apache.maven.plugin.doap.DoapMojo.doWrite(DoapMojo.java:739)\n\tat org.apache.maven.plugin.doap.DoapMojo.writeDoapFile(DoapMojo.java:544)\n\tat org.apache.maven.plugin.doap.DoapMojo.execute(DoapMojo.java:422)\n\tat org.apache.maven.plugin.doap.DoapMojoTest.testGeneratedDoapArtifactMinimalist(DoapMojoTest.java:301)\n"
+                    }
+                ]
+            }
+        },
+        {
+            "repo": "maven-doap-plugin",
+            "bug_id": "DoapUtil_272",
+            "npe_info": {
+                "filepath": "src/main/java/org/apache/maven/plugin/doap/DoapUtil.java",
+                "line": 275,
+                "deref_field": "value",
+                "npe_class": "DoapUtil",
+                "npe_method": "writeRdfNodeIdElement",
+                "sink_field": null,
+                "jvmti_identify_succeed": null,
+                "is_original": null
+            },
+            "build_info": {
+                "compiled": true,
+                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
+                "java_version": 8,
+                "error_message": null,
+                "time": 20.316140027949587
+            },
+            "test_info": {
+                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
+                "fail_buggy": false,
+                "pass_fixed": true,
+                "testcases": []
+            }
+        },
+        {
+            "repo": "maven-doap-plugin",
+            "bug_id": "DoapMojo_456",
+            "npe_info": {
+                "filepath": "src/main/java/org/apache/maven/plugin/doap/DoapMojo.java",
+                "line": 461,
+                "deref_field": "artifact",
+                "npe_class": "DoapMojo",
+                "npe_method": "getMavenProject",
+                "sink_field": null,
+                "jvmti_identify_succeed": null,
+                "is_original": null
+            },
+            "build_info": {
+                "compiled": true,
+                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
+                "java_version": 8,
+                "error_message": null,
+                "time": 19.996293562930077
+            },
+            "test_info": {
+                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
+                "fail_buggy": false,
+                "pass_fixed": true,
+                "testcases": []
+            }
+        },
+        {
+            "repo": "maven-doap-plugin",
+            "bug_id": "DoapMojo_2392",
+            "npe_info": {
+                "filepath": "src/main/java/org/apache/maven/plugin/doap/DoapMojo.java",
+                "line": 2405,
+                "deref_field": "interpolatedValue",
+                "npe_class": "DoapMojo",
+                "npe_method": "writeExtra",
+                "sink_field": null,
+                "jvmti_identify_succeed": null,
+                "is_original": null
+            },
+            "build_info": {
+                "compiled": true,
+                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
+                "java_version": 8,
+                "error_message": null,
+                "time": 16.12939490005374
+            },
+            "test_info": {
+                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
+                "fail_buggy": false,
+                "pass_fixed": true,
+                "testcases": []
+            }
+        },
+        {
+            "repo": "maven-doap-plugin",
+            "bug_id": "DoapMojo_1109",
+            "npe_info": {
+                "filepath": "src/main/java/org/apache/maven/plugin/doap/DoapMojo.java",
+                "line": 1121,
+                "deref_field": "asfCategory",
+                "npe_class": "DoapMojo",
+                "npe_method": "writeCategory",
+                "sink_field": null,
+                "jvmti_identify_succeed": null,
+                "is_original": null
+            },
+            "build_info": {
+                "compiled": true,
+                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
+                "java_version": 8,
+                "error_message": null,
+                "time": 17.189394585089758
+            },
+            "test_info": {
+                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
+                "fail_buggy": false,
+                "pass_fixed": true,
+                "testcases": []
+            }
+        },
+        {
+            "repo": "maven-doap-plugin",
+            "bug_id": "DoapMojo_2032",
+            "npe_info": {
+                "filepath": "src/main/java/org/apache/maven/plugin/doap/DoapMojo.java",
+                "line": 2034,
+                "deref_field": "chair",
+                "npe_class": "DoapMojo",
+                "npe_method": "writeASFext",
+                "sink_field": null,
+                "jvmti_identify_succeed": null,
+                "is_original": null
+            },
+            "build_info": {
+                "compiled": true,
+                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
+                "java_version": 8,
+                "error_message": null,
+                "time": 18.88837653095834
+            },
+            "test_info": {
+                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
+                "fail_buggy": false,
+                "pass_fixed": true,
+                "testcases": []
+            }
+        },
+        {
+            "repo": "maven-doap-plugin",
+            "bug_id": "DoapMojo_414",
+            "npe_info": {
+                "filepath": "src/main/java/org/apache/maven/plugin/doap/DoapMojo.java",
+                "line": 422,
+                "deref_field": "givenProject",
+                "npe_class": "DoapMojo",
+                "npe_method": "execute",
+                "sink_field": null,
+                "jvmti_identify_succeed": null,
+                "is_original": null
+            },
+            "build_info": {
+                "compiled": true,
+                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
+                "java_version": 8,
+                "error_message": null,
+                "time": 14.871791842160746
+            },
+            "test_info": {
+                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
+                "fail_buggy": true,
+                "pass_fixed": true,
+                "testcases": []
+            }
+        },
+        {
+            "repo": "maven-doap-plugin",
+            "bug_id": "DoapMojo_1823",
+            "npe_info": {
+                "filepath": "src/main/java/org/apache/maven/plugin/doap/DoapMojo.java",
+                "line": 1833,
+                "deref_field": "developerOrContributor",
+                "npe_class": "DoapMojo",
+                "npe_method": "writeContributor",
+                "sink_field": null,
+                "jvmti_identify_succeed": null,
+                "is_original": null
+            },
+            "build_info": {
+                "compiled": true,
+                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
+                "java_version": 8,
+                "error_message": null,
+                "time": 20.640452110907063
+            },
+            "test_info": {
+                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
+                "fail_buggy": false,
+                "pass_fixed": true,
+                "testcases": []
+            }
+        },
+        {
+            "repo": "maven-doap-plugin",
+            "bug_id": "DoapMojo_680",
+            "npe_info": {
+                "filepath": "src/main/java/org/apache/maven/plugin/doap/DoapMojo.java",
+                "line": 701,
+                "deref_field": "artifact",
+                "npe_class": "DoapMojo",
+                "npe_method": "doWrite",
+                "sink_field": null,
+                "jvmti_identify_succeed": null,
+                "is_original": null
+            },
+            "build_info": {
+                "compiled": true,
+                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
+                "java_version": 8,
+                "error_message": null,
+                "time": 20.714834820944816
+            },
+            "test_info": {
+                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
+                "fail_buggy": false,
+                "pass_fixed": true,
+                "testcases": []
+            }
+        },
+        {
+            "repo": "maven-doap-plugin",
+            "bug_id": "DoapUtil_811",
+            "npe_info": {
+                "filepath": "src/main/java/org/apache/maven/plugin/doap/DoapUtil.java",
+                "line": 816,
+                "deref_field": "is",
+                "npe_class": "DoapUtil",
+                "npe_method": "getPluginVersion",
+                "sink_field": null,
+                "jvmti_identify_succeed": null,
+                "is_original": null
+            },
+            "build_info": {
+                "compiled": true,
+                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
+                "java_version": 8,
+                "error_message": null,
+                "time": 16.990858416073024
+            },
+            "test_info": {
+                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
+                "fail_buggy": true,
+                "pass_fixed": true,
+                "testcases": [
+                    {
+                        "classname": "org.apache.maven.plugin.doap.DoapMojoTest",
+                        "method": "testGeneratedDoapForASF",
+                        "exn_type": "java.lang.NullPointerException",
+                        "stack_trace": "java.lang.NullPointerException\n\tat java.util.Properties$LineReader.readLine(Properties.java:434)\n\tat java.util.Properties.load0(Properties.java:353)\n\tat java.util.Properties.load(Properties.java:341)\n\tat org.apache.maven.plugin.doap.DoapUtil.getPluginVersion(DoapUtil.java:813)\n\tat org.apache.maven.plugin.doap.DoapUtil.writeHeader(DoapUtil.java:127)\n\tat org.apache.maven.plugin.doap.DoapMojo.doWrite(DoapMojo.java:620)\n\tat org.apache.maven.plugin.doap.DoapMojo.writeDoapFile(DoapMojo.java:544)\n\tat org.apache.maven.plugin.doap.DoapMojo.execute(DoapMojo.java:422)\n\tat org.apache.maven.plugin.doap.DoapMojoTest.testGeneratedDoapArtifactMinimalist(DoapMojoTest.java:301)\n"
+                    },
+                    {
+                        "classname": "org.apache.maven.plugin.doap.DoapMojoTest",
+                        "method": "testGeneratedExtraDoap",
+                        "exn_type": "java.lang.NullPointerException",
+                        "stack_trace": "java.lang.NullPointerException\n\tat java.util.Properties$LineReader.readLine(Properties.java:434)\n\tat java.util.Properties.load0(Properties.java:353)\n\tat java.util.Properties.load(Properties.java:341)\n\tat org.apache.maven.plugin.doap.DoapUtil.getPluginVersion(DoapUtil.java:813)\n\tat org.apache.maven.plugin.doap.DoapUtil.writeHeader(DoapUtil.java:127)\n\tat org.apache.maven.plugin.doap.DoapMojo.doWrite(DoapMojo.java:620)\n\tat org.apache.maven.plugin.doap.DoapMojo.writeDoapFile(DoapMojo.java:544)\n\tat org.apache.maven.plugin.doap.DoapMojo.execute(DoapMojo.java:442)\n\tat org.apache.maven.plugin.doap.DoapMojoTest.testGeneratedDoapForASF(DoapMojoTest.java:361)\n"
+                    },
+                    {
+                        "classname": "org.apache.maven.plugin.doap.DoapMojoTest",
+                        "method": "testGeneratedDoapArtifact",
+                        "exn_type": "java.lang.NullPointerException",
+                        "stack_trace": "java.lang.NullPointerException\n\tat java.util.Properties$LineReader.readLine(Properties.java:434)\n\tat java.util.Properties.load0(Properties.java:353)\n\tat java.util.Properties.load(Properties.java:341)\n\tat org.apache.maven.plugin.doap.DoapUtil.getPluginVersion(DoapUtil.java:813)\n\tat org.apache.maven.plugin.doap.DoapUtil.writeHeader(DoapUtil.java:127)\n\tat org.apache.maven.plugin.doap.DoapMojo.doWrite(DoapMojo.java:620)\n\tat org.apache.maven.plugin.doap.DoapMojo.writeDoapFile(DoapMojo.java:544)\n\tat org.apache.maven.plugin.doap.DoapMojo.execute(DoapMojo.java:422)\n\tat org.apache.maven.plugin.doap.DoapMojoTest.testGeneratedDoapArtifact(DoapMojoTest.java:220)\n"
+                    },
+                    {
+                        "classname": "org.apache.maven.plugin.doap.DoapMojoTest",
+                        "method": "testGeneratedExtraDoap",
+                        "exn_type": "java.lang.NullPointerException",
+                        "stack_trace": "java.lang.NullPointerException\n\tat java.util.Properties$LineReader.readLine(Properties.java:434)\n\tat java.util.Properties.load0(Properties.java:353)\n\tat java.util.Properties.load(Properties.java:341)\n\tat org.apache.maven.plugin.doap.DoapUtil.getPluginVersion(DoapUtil.java:813)\n\tat org.apache.maven.plugin.doap.DoapUtil.writeHeader(DoapUtil.java:127)\n\tat org.apache.maven.plugin.doap.DoapMojo.doWrite(DoapMojo.java:620)\n\tat org.apache.maven.plugin.doap.DoapMojo.writeDoapFile(DoapMojo.java:544)\n\tat org.apache.maven.plugin.doap.DoapMojo.execute(DoapMojo.java:422)\n\tat org.apache.maven.plugin.doap.DoapMojoTest.testGeneratedDoapArtifactMinimalist(DoapMojoTest.java:301)\n"
+                    },
+                    {
+                        "classname": "org.apache.maven.plugin.doap.DoapMojoTest",
+                        "method": "testGeneratedDoapArtifact",
+                        "exn_type": "java.lang.NullPointerException",
+                        "stack_trace": "java.lang.NullPointerException\n\tat java.util.Properties$LineReader.readLine(Properties.java:434)\n\tat java.util.Properties.load0(Properties.java:353)\n\tat java.util.Properties.load(Properties.java:341)\n\tat org.apache.maven.plugin.doap.DoapUtil.getPluginVersion(DoapUtil.java:813)\n\tat org.apache.maven.plugin.doap.DoapUtil.writeHeader(DoapUtil.java:127)\n\tat org.apache.maven.plugin.doap.DoapMojo.doWrite(DoapMojo.java:620)\n\tat org.apache.maven.plugin.doap.DoapMojo.writeDoapFile(DoapMojo.java:544)\n\tat org.apache.maven.plugin.doap.DoapMojo.execute(DoapMojo.java:442)\n\tat org.apache.maven.plugin.doap.DoapMojoTest.testGeneratedDoap(DoapMojoTest.java:75)\n"
+                    },
+                    {
+                        "classname": "org.apache.maven.plugin.doap.DoapMojoTest",
+                        "method": "testGeneratedDoapArtifact",
+                        "exn_type": "java.lang.NullPointerException",
+                        "stack_trace": "java.lang.NullPointerException\n\tat java.util.Properties$LineReader.readLine(Properties.java:434)\n\tat java.util.Properties.load0(Properties.java:353)\n\tat java.util.Properties.load(Properties.java:341)\n\tat org.apache.maven.plugin.doap.DoapUtil.getPluginVersion(DoapUtil.java:813)\n\tat org.apache.maven.plugin.doap.DoapUtil.writeHeader(DoapUtil.java:127)\n\tat org.apache.maven.plugin.doap.DoapMojo.doWrite(DoapMojo.java:620)\n\tat org.apache.maven.plugin.doap.DoapMojo.writeDoapFile(DoapMojo.java:544)\n\tat org.apache.maven.plugin.doap.DoapMojo.execute(DoapMojo.java:442)\n\tat org.apache.maven.plugin.doap.DoapMojoTest.testGeneratedExtraDoap(DoapMojoTest.java:411)\n"
+                    },
+                    {
+                        "classname": "org.apache.maven.plugin.doap.DoapMojoTest",
+                        "method": "testGeneratedDoap",
+                        "exn_type": "java.lang.NullPointerException",
+                        "stack_trace": "java.lang.NullPointerException\n\tat java.util.Properties$LineReader.readLine(Properties.java:434)\n\tat java.util.Properties.load0(Properties.java:353)\n\tat java.util.Properties.load(Properties.java:341)\n\tat org.apache.maven.plugin.doap.DoapUtil.getPluginVersion(DoapUtil.java:813)\n\tat org.apache.maven.plugin.doap.DoapUtil.writeHeader(DoapUtil.java:127)\n\tat org.apache.maven.plugin.doap.DoapMojo.doWrite(DoapMojo.java:620)\n\tat org.apache.maven.plugin.doap.DoapMojo.writeDoapFile(DoapMojo.java:544)\n\tat org.apache.maven.plugin.doap.DoapMojo.execute(DoapMojo.java:422)\n\tat org.apache.maven.plugin.doap.DoapMojoTest.testGeneratedDoapArtifactMinimalist(DoapMojoTest.java:301)\n"
+                    },
+                    {
+                        "classname": "org.apache.maven.plugin.doap.DoapMojoTest",
+                        "method": "testGeneratedDoap",
+                        "exn_type": "java.lang.NullPointerException",
+                        "stack_trace": "java.lang.NullPointerException\n\tat java.util.Properties$LineReader.readLine(Properties.java:434)\n\tat java.util.Properties.load0(Properties.java:353)\n\tat java.util.Properties.load(Properties.java:341)\n\tat org.apache.maven.plugin.doap.DoapUtil.getPluginVersion(DoapUtil.java:813)\n\tat org.apache.maven.plugin.doap.DoapUtil.writeHeader(DoapUtil.java:127)\n\tat org.apache.maven.plugin.doap.DoapMojo.doWrite(DoapMojo.java:620)\n\tat org.apache.maven.plugin.doap.DoapMojo.writeDoapFile(DoapMojo.java:544)\n\tat org.apache.maven.plugin.doap.DoapMojo.execute(DoapMojo.java:442)\n\tat org.apache.maven.plugin.doap.DoapMojoTest.testGeneratedDoapForASF(DoapMojoTest.java:361)\n"
+                    },
+                    {
+                        "classname": "org.apache.maven.plugin.doap.DoapMojoTest",
+                        "method": "testGeneratedDoapArtifactMinimalist",
+                        "exn_type": "java.lang.NullPointerException",
+                        "stack_trace": "java.lang.NullPointerException\n\tat java.util.Properties$LineReader.readLine(Properties.java:434)\n\tat java.util.Properties.load0(Properties.java:353)\n\tat java.util.Properties.load(Properties.java:341)\n\tat org.apache.maven.plugin.doap.DoapUtil.getPluginVersion(DoapUtil.java:813)\n\tat org.apache.maven.plugin.doap.DoapUtil.writeHeader(DoapUtil.java:127)\n\tat org.apache.maven.plugin.doap.DoapMojo.doWrite(DoapMojo.java:620)\n\tat org.apache.maven.plugin.doap.DoapMojo.writeDoapFile(DoapMojo.java:544)\n\tat org.apache.maven.plugin.doap.DoapMojo.execute(DoapMojo.java:422)\n\tat org.apache.maven.plugin.doap.DoapMojoTest.testGeneratedDoapArtifact(DoapMojoTest.java:220)\n"
+                    },
+                    {
+                        "classname": "org.apache.maven.plugin.doap.DoapMojoTest",
+                        "method": "testGeneratedDoapArtifact",
+                        "exn_type": "java.lang.NullPointerException",
+                        "stack_trace": "java.lang.NullPointerException\n\tat java.util.Properties$LineReader.readLine(Properties.java:434)\n\tat java.util.Properties.load0(Properties.java:353)\n\tat java.util.Properties.load(Properties.java:341)\n\tat org.apache.maven.plugin.doap.DoapUtil.getPluginVersion(DoapUtil.java:813)\n\tat org.apache.maven.plugin.doap.DoapUtil.writeHeader(DoapUtil.java:127)\n\tat org.apache.maven.plugin.doap.DoapMojo.doWrite(DoapMojo.java:620)\n\tat org.apache.maven.plugin.doap.DoapMojo.writeDoapFile(DoapMojo.java:544)\n\tat org.apache.maven.plugin.doap.DoapMojo.execute(DoapMojo.java:422)\n\tat org.apache.maven.plugin.doap.DoapMojoTest.testGeneratedDoapArtifactMinimalist(DoapMojoTest.java:301)\n"
+                    },
+                    {
+                        "classname": "org.apache.maven.plugin.doap.DoapMojoTest",
+                        "method": "testGeneratedDoapArtifactMinimalist",
+                        "exn_type": "java.lang.NullPointerException",
+                        "stack_trace": "java.lang.NullPointerException\n\tat java.util.Properties$LineReader.readLine(Properties.java:434)\n\tat java.util.Properties.load0(Properties.java:353)\n\tat java.util.Properties.load(Properties.java:341)\n\tat org.apache.maven.plugin.doap.DoapUtil.getPluginVersion(DoapUtil.java:813)\n\tat org.apache.maven.plugin.doap.DoapUtil.writeHeader(DoapUtil.java:127)\n\tat org.apache.maven.plugin.doap.DoapMojo.doWrite(DoapMojo.java:620)\n\tat org.apache.maven.plugin.doap.DoapMojo.writeDoapFile(DoapMojo.java:544)\n\tat org.apache.maven.plugin.doap.DoapMojo.execute(DoapMojo.java:442)\n\tat org.apache.maven.plugin.doap.DoapMojoTest.testGeneratedExtraDoap(DoapMojoTest.java:411)\n"
+                    },
+                    {
+                        "classname": "org.apache.maven.plugin.doap.DoapMojoTest",
+                        "method": "testGeneratedDoapArtifact",
+                        "exn_type": "java.lang.NullPointerException",
+                        "stack_trace": "java.lang.NullPointerException\n\tat java.util.Properties$LineReader.readLine(Properties.java:434)\n\tat java.util.Properties.load0(Properties.java:353)\n\tat java.util.Properties.load(Properties.java:341)\n\tat org.apache.maven.plugin.doap.DoapUtil.getPluginVersion(DoapUtil.java:813)\n\tat org.apache.maven.plugin.doap.DoapUtil.writeHeader(DoapUtil.java:127)\n\tat org.apache.maven.plugin.doap.DoapMojo.doWrite(DoapMojo.java:620)\n\tat org.apache.maven.plugin.doap.DoapMojo.writeDoapFile(DoapMojo.java:544)\n\tat org.apache.maven.plugin.doap.DoapMojo.execute(DoapMojo.java:442)\n\tat org.apache.maven.plugin.doap.DoapMojoTest.testGeneratedDoapForASF(DoapMojoTest.java:361)\n"
+                    },
+                    {
+                        "classname": "org.apache.maven.plugin.doap.DoapMojoTest",
+                        "method": "testGeneratedDoapForASF",
+                        "exn_type": "java.lang.NullPointerException",
+                        "stack_trace": "java.lang.NullPointerException\n\tat java.util.Properties$LineReader.readLine(Properties.java:434)\n\tat java.util.Properties.load0(Properties.java:353)\n\tat java.util.Properties.load(Properties.java:341)\n\tat org.apache.maven.plugin.doap.DoapUtil.getPluginVersion(DoapUtil.java:813)\n\tat org.apache.maven.plugin.doap.DoapUtil.writeHeader(DoapUtil.java:127)\n\tat org.apache.maven.plugin.doap.DoapMojo.doWrite(DoapMojo.java:620)\n\tat org.apache.maven.plugin.doap.DoapMojo.writeDoapFile(DoapMojo.java:544)\n\tat org.apache.maven.plugin.doap.DoapMojo.execute(DoapMojo.java:422)\n\tat org.apache.maven.plugin.doap.DoapMojoTest.testGeneratedDoapArtifact(DoapMojoTest.java:220)\n"
+                    },
+                    {
+                        "classname": "org.apache.maven.plugin.doap.DoapMojoTest",
+                        "method": "testGeneratedDoapArtifactMinimalist",
+                        "exn_type": "java.lang.NullPointerException",
+                        "stack_trace": "java.lang.NullPointerException\n\tat java.util.Properties$LineReader.readLine(Properties.java:434)\n\tat java.util.Properties.load0(Properties.java:353)\n\tat java.util.Properties.load(Properties.java:341)\n\tat org.apache.maven.plugin.doap.DoapUtil.getPluginVersion(DoapUtil.java:813)\n\tat org.apache.maven.plugin.doap.DoapUtil.writeHeader(DoapUtil.java:127)\n\tat org.apache.maven.plugin.doap.DoapMojo.doWrite(DoapMojo.java:620)\n\tat org.apache.maven.plugin.doap.DoapMojo.writeDoapFile(DoapMojo.java:544)\n\tat org.apache.maven.plugin.doap.DoapMojo.execute(DoapMojo.java:442)\n\tat org.apache.maven.plugin.doap.DoapMojoTest.testGeneratedDoap(DoapMojoTest.java:75)\n"
+                    },
+                    {
+                        "classname": "org.apache.maven.plugin.doap.DoapMojoTest",
+                        "method": "testGeneratedDoapForASF",
+                        "exn_type": "java.lang.NullPointerException",
+                        "stack_trace": "java.lang.NullPointerException\n\tat java.util.Properties$LineReader.readLine(Properties.java:434)\n\tat java.util.Properties.load0(Properties.java:353)\n\tat java.util.Properties.load(Properties.java:341)\n\tat org.apache.maven.plugin.doap.DoapUtil.getPluginVersion(DoapUtil.java:813)\n\tat org.apache.maven.plugin.doap.DoapUtil.writeHeader(DoapUtil.java:127)\n\tat org.apache.maven.plugin.doap.DoapMojo.doWrite(DoapMojo.java:620)\n\tat org.apache.maven.plugin.doap.DoapMojo.writeDoapFile(DoapMojo.java:544)\n\tat org.apache.maven.plugin.doap.DoapMojo.execute(DoapMojo.java:442)\n\tat org.apache.maven.plugin.doap.DoapMojoTest.testGeneratedExtraDoap(DoapMojoTest.java:411)\n"
+                    },
+                    {
+                        "classname": "org.apache.maven.plugin.doap.DoapMojoTest",
+                        "method": "testGeneratedExtraDoap",
+                        "exn_type": "java.lang.NullPointerException",
+                        "stack_trace": "java.lang.NullPointerException\n\tat java.util.Properties$LineReader.readLine(Properties.java:434)\n\tat java.util.Properties.load0(Properties.java:353)\n\tat java.util.Properties.load(Properties.java:341)\n\tat org.apache.maven.plugin.doap.DoapUtil.getPluginVersion(DoapUtil.java:813)\n\tat org.apache.maven.plugin.doap.DoapUtil.writeHeader(DoapUtil.java:127)\n\tat org.apache.maven.plugin.doap.DoapMojo.doWrite(DoapMojo.java:620)\n\tat org.apache.maven.plugin.doap.DoapMojo.writeDoapFile(DoapMojo.java:544)\n\tat org.apache.maven.plugin.doap.DoapMojo.execute(DoapMojo.java:422)\n\tat org.apache.maven.plugin.doap.DoapMojoTest.testGeneratedDoapArtifact(DoapMojoTest.java:220)\n"
+                    },
+                    {
+                        "classname": "org.apache.maven.plugin.doap.DoapMojoTest",
+                        "method": "testGeneratedExtraDoap",
+                        "exn_type": "java.lang.NullPointerException",
+                        "stack_trace": "java.lang.NullPointerException\n\tat java.util.Properties$LineReader.readLine(Properties.java:434)\n\tat java.util.Properties.load0(Properties.java:353)\n\tat java.util.Properties.load(Properties.java:341)\n\tat org.apache.maven.plugin.doap.DoapUtil.getPluginVersion(DoapUtil.java:813)\n\tat org.apache.maven.plugin.doap.DoapUtil.writeHeader(DoapUtil.java:127)\n\tat org.apache.maven.plugin.doap.DoapMojo.doWrite(DoapMojo.java:620)\n\tat org.apache.maven.plugin.doap.DoapMojo.writeDoapFile(DoapMojo.java:544)\n\tat org.apache.maven.plugin.doap.DoapMojo.execute(DoapMojo.java:442)\n\tat org.apache.maven.plugin.doap.DoapMojoTest.testGeneratedExtraDoap(DoapMojoTest.java:411)\n"
+                    },
+                    {
+                        "classname": "org.apache.maven.plugin.doap.DoapMojoTest",
+                        "method": "testGeneratedDoapForASF",
+                        "exn_type": "java.lang.NullPointerException",
+                        "stack_trace": "java.lang.NullPointerException\n\tat java.util.Properties$LineReader.readLine(Properties.java:434)\n\tat java.util.Properties.load0(Properties.java:353)\n\tat java.util.Properties.load(Properties.java:341)\n\tat org.apache.maven.plugin.doap.DoapUtil.getPluginVersion(DoapUtil.java:813)\n\tat org.apache.maven.plugin.doap.DoapUtil.writeHeader(DoapUtil.java:127)\n\tat org.apache.maven.plugin.doap.DoapMojo.doWrite(DoapMojo.java:620)\n\tat org.apache.maven.plugin.doap.DoapMojo.writeDoapFile(DoapMojo.java:544)\n\tat org.apache.maven.plugin.doap.DoapMojo.execute(DoapMojo.java:442)\n\tat org.apache.maven.plugin.doap.DoapMojoTest.testGeneratedDoap(DoapMojoTest.java:75)\n"
+                    },
+                    {
+                        "classname": "org.apache.maven.plugin.doap.DoapMojoTest",
+                        "method": "testGeneratedDoap",
+                        "exn_type": "java.lang.NullPointerException",
+                        "stack_trace": "java.lang.NullPointerException\n\tat java.util.Properties$LineReader.readLine(Properties.java:434)\n\tat java.util.Properties.load0(Properties.java:353)\n\tat java.util.Properties.load(Properties.java:341)\n\tat org.apache.maven.plugin.doap.DoapUtil.getPluginVersion(DoapUtil.java:813)\n\tat org.apache.maven.plugin.doap.DoapUtil.writeHeader(DoapUtil.java:127)\n\tat org.apache.maven.plugin.doap.DoapMojo.doWrite(DoapMojo.java:620)\n\tat org.apache.maven.plugin.doap.DoapMojo.writeDoapFile(DoapMojo.java:544)\n\tat org.apache.maven.plugin.doap.DoapMojo.execute(DoapMojo.java:422)\n\tat org.apache.maven.plugin.doap.DoapMojoTest.testGeneratedDoapArtifact(DoapMojoTest.java:220)\n"
+                    },
+                    {
+                        "classname": "org.apache.maven.plugin.doap.DoapMojoTest",
+                        "method": "testGeneratedExtraDoap",
+                        "exn_type": "java.lang.NullPointerException",
+                        "stack_trace": "java.lang.NullPointerException\n\tat java.util.Properties$LineReader.readLine(Properties.java:434)\n\tat java.util.Properties.load0(Properties.java:353)\n\tat java.util.Properties.load(Properties.java:341)\n\tat org.apache.maven.plugin.doap.DoapUtil.getPluginVersion(DoapUtil.java:813)\n\tat org.apache.maven.plugin.doap.DoapUtil.writeHeader(DoapUtil.java:127)\n\tat org.apache.maven.plugin.doap.DoapMojo.doWrite(DoapMojo.java:620)\n\tat org.apache.maven.plugin.doap.DoapMojo.writeDoapFile(DoapMojo.java:544)\n\tat org.apache.maven.plugin.doap.DoapMojo.execute(DoapMojo.java:442)\n\tat org.apache.maven.plugin.doap.DoapMojoTest.testGeneratedDoap(DoapMojoTest.java:75)\n"
+                    },
+                    {
+                        "classname": "org.apache.maven.plugin.doap.DoapMojoTest",
+                        "method": "testGeneratedDoapArtifactMinimalist",
+                        "exn_type": "java.lang.NullPointerException",
+                        "stack_trace": "java.lang.NullPointerException\n\tat java.util.Properties$LineReader.readLine(Properties.java:434)\n\tat java.util.Properties.load0(Properties.java:353)\n\tat java.util.Properties.load(Properties.java:341)\n\tat org.apache.maven.plugin.doap.DoapUtil.getPluginVersion(DoapUtil.java:813)\n\tat org.apache.maven.plugin.doap.DoapUtil.writeHeader(DoapUtil.java:127)\n\tat org.apache.maven.plugin.doap.DoapMojo.doWrite(DoapMojo.java:620)\n\tat org.apache.maven.plugin.doap.DoapMojo.writeDoapFile(DoapMojo.java:544)\n\tat org.apache.maven.plugin.doap.DoapMojo.execute(DoapMojo.java:442)\n\tat org.apache.maven.plugin.doap.DoapMojoTest.testGeneratedDoapForASF(DoapMojoTest.java:361)\n"
+                    },
+                    {
+                        "classname": "org.apache.maven.plugin.doap.DoapMojoTest",
+                        "method": "testGeneratedDoapArtifactMinimalist",
+                        "exn_type": "java.lang.NullPointerException",
+                        "stack_trace": "java.lang.NullPointerException\n\tat java.util.Properties$LineReader.readLine(Properties.java:434)\n\tat java.util.Properties.load0(Properties.java:353)\n\tat java.util.Properties.load(Properties.java:341)\n\tat org.apache.maven.plugin.doap.DoapUtil.getPluginVersion(DoapUtil.java:813)\n\tat org.apache.maven.plugin.doap.DoapUtil.writeHeader(DoapUtil.java:127)\n\tat org.apache.maven.plugin.doap.DoapMojo.doWrite(DoapMojo.java:620)\n\tat org.apache.maven.plugin.doap.DoapMojo.writeDoapFile(DoapMojo.java:544)\n\tat org.apache.maven.plugin.doap.DoapMojo.execute(DoapMojo.java:422)\n\tat org.apache.maven.plugin.doap.DoapMojoTest.testGeneratedDoapArtifactMinimalist(DoapMojoTest.java:301)\n"
+                    },
+                    {
+                        "classname": "org.apache.maven.plugin.doap.DoapMojoTest",
+                        "method": "testGeneratedDoap",
+                        "exn_type": "java.lang.NullPointerException",
+                        "stack_trace": "java.lang.NullPointerException\n\tat java.util.Properties$LineReader.readLine(Properties.java:434)\n\tat java.util.Properties.load0(Properties.java:353)\n\tat java.util.Properties.load(Properties.java:341)\n\tat org.apache.maven.plugin.doap.DoapUtil.getPluginVersion(DoapUtil.java:813)\n\tat org.apache.maven.plugin.doap.DoapUtil.writeHeader(DoapUtil.java:127)\n\tat org.apache.maven.plugin.doap.DoapMojo.doWrite(DoapMojo.java:620)\n\tat org.apache.maven.plugin.doap.DoapMojo.writeDoapFile(DoapMojo.java:544)\n\tat org.apache.maven.plugin.doap.DoapMojo.execute(DoapMojo.java:442)\n\tat org.apache.maven.plugin.doap.DoapMojoTest.testGeneratedExtraDoap(DoapMojoTest.java:411)\n"
+                    },
+                    {
+                        "classname": "org.apache.maven.plugin.doap.DoapMojoTest",
+                        "method": "testGeneratedDoap",
+                        "exn_type": "java.lang.NullPointerException",
+                        "stack_trace": "java.lang.NullPointerException\n\tat java.util.Properties$LineReader.readLine(Properties.java:434)\n\tat java.util.Properties.load0(Properties.java:353)\n\tat java.util.Properties.load(Properties.java:341)\n\tat org.apache.maven.plugin.doap.DoapUtil.getPluginVersion(DoapUtil.java:813)\n\tat org.apache.maven.plugin.doap.DoapUtil.writeHeader(DoapUtil.java:127)\n\tat org.apache.maven.plugin.doap.DoapMojo.doWrite(DoapMojo.java:620)\n\tat org.apache.maven.plugin.doap.DoapMojo.writeDoapFile(DoapMojo.java:544)\n\tat org.apache.maven.plugin.doap.DoapMojo.execute(DoapMojo.java:442)\n\tat org.apache.maven.plugin.doap.DoapMojoTest.testGeneratedDoap(DoapMojoTest.java:75)\n"
+                    },
+                    {
+                        "classname": "org.apache.maven.plugin.doap.DoapMojoTest",
+                        "method": "testGeneratedDoapForASF",
+                        "exn_type": "java.lang.NullPointerException",
+                        "stack_trace": "java.lang.NullPointerException\n\tat java.util.Properties$LineReader.readLine(Properties.java:434)\n\tat java.util.Properties.load0(Properties.java:353)\n\tat java.util.Properties.load(Properties.java:341)\n\tat org.apache.maven.plugin.doap.DoapUtil.getPluginVersion(DoapUtil.java:813)\n\tat org.apache.maven.plugin.doap.DoapUtil.writeHeader(DoapUtil.java:127)\n\tat org.apache.maven.plugin.doap.DoapMojo.doWrite(DoapMojo.java:620)\n\tat org.apache.maven.plugin.doap.DoapMojo.writeDoapFile(DoapMojo.java:544)\n\tat org.apache.maven.plugin.doap.DoapMojo.execute(DoapMojo.java:442)\n\tat org.apache.maven.plugin.doap.DoapMojoTest.testGeneratedDoapForASF(DoapMojoTest.java:361)\n"
+                    }
+                ]
+            }
+        },
+        {
+            "repo": "maven-doap-plugin",
+            "bug_id": "DoapUtil_657",
+            "npe_info": {
+                "filepath": "src/main/java/org/apache/maven/plugin/doap/DoapUtil.java",
+                "line": 659,
+                "deref_field": "settings",
+                "npe_class": "DoapUtil",
+                "npe_method": "interpolate",
+                "sink_field": null,
+                "jvmti_identify_succeed": null,
+                "is_original": null
+            },
+            "build_info": {
+                "compiled": true,
+                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
+                "java_version": 8,
+                "error_message": null,
+                "time": 18.35755851888098
+            },
+            "test_info": {
+                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
+                "fail_buggy": false,
+                "pass_fixed": true,
+                "testcases": []
+            }
+        },
+        {
+            "repo": "maven-doap-plugin",
+            "bug_id": "DoapUtil_882",
+            "npe_info": {
+                "filepath": "src/main/java/org/apache/maven/plugin/doap/DoapUtil.java",
+                "line": 902,
+                "deref_field": "value",
+                "npe_class": "ReflectionValueExtractor",
+                "npe_method": "evaluate",
+                "sink_field": null,
+                "jvmti_identify_succeed": null,
+                "is_original": null
+            },
+            "build_info": {
+                "compiled": true,
+                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
+                "java_version": 8,
+                "error_message": null,
+                "time": 17.711421347921714
+            },
+            "test_info": {
+                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
+                "fail_buggy": false,
+                "pass_fixed": true,
+                "testcases": []
+            }
+        },
+        {
+            "repo": "maven-doap-plugin",
+            "bug_id": "DoapMojo_2386",
+            "npe_info": {
+                "filepath": "src/main/java/org/apache/maven/plugin/doap/DoapMojo.java",
+                "line": 2391,
+                "deref_field": "value",
+                "npe_class": "DoapMojo",
+                "npe_method": "writeExtra",
+                "sink_field": null,
+                "jvmti_identify_succeed": null,
+                "is_original": null
+            },
+            "build_info": {
+                "compiled": true,
+                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
+                "java_version": 8,
+                "error_message": null,
+                "time": 18.012698305072263
+            },
+            "test_info": {
+                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
+                "fail_buggy": false,
+                "pass_fixed": true,
+                "testcases": []
+            }
+        },
+        {
+            "repo": "maven-doap-plugin",
+            "bug_id": "DoapMojo_411",
+            "npe_info": {
+                "filepath": "src/main/java/org/apache/maven/plugin/doap/DoapMojo.java",
+                "line": 413,
+                "deref_field": "artifact",
+                "npe_class": "DoapMojo",
+                "npe_method": "execute",
+                "sink_field": null,
+                "jvmti_identify_succeed": null,
+                "is_original": null
+            },
+            "build_info": {
+                "compiled": true,
+                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
+                "java_version": 8,
+                "error_message": null,
+                "time": 18.888230558950454
+            },
+            "test_info": {
+                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
+                "fail_buggy": false,
+                "pass_fixed": true,
+                "testcases": []
+            }
+        },
+        {
+            "repo": "maven-doap-plugin",
+            "bug_id": "DoapMojo_2670",
+            "npe_info": {
+                "filepath": "src/main/java/org/apache/maven/plugin/doap/DoapMojo.java",
+                "line": 2676,
+                "deref_field": "tags",
+                "npe_class": "UserMessages",
+                "npe_method": "toConfiguration",
+                "sink_field": null,
+                "jvmti_identify_succeed": null,
+                "is_original": null
+            },
+            "build_info": {
+                "compiled": true,
+                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
+                "java_version": 8,
+                "error_message": null,
+                "time": 18.372250526910648
+            },
+            "test_info": {
+                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
+                "fail_buggy": false,
+                "pass_fixed": true,
+                "testcases": []
+            }
+        },
+        {
+            "repo": "maven-doap-plugin",
+            "bug_id": "DoapUtil_521",
+            "npe_info": {
+                "filepath": "src/main/java/org/apache/maven/plugin/doap/DoapUtil.java",
+                "line": 526,
+                "deref_field": "url",
+                "npe_class": "DoapUtil",
+                "npe_method": "fetchURL",
+                "sink_field": null,
+                "jvmti_identify_succeed": null,
+                "is_original": null
+            },
+            "build_info": {
+                "compiled": true,
+                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
+                "java_version": 8,
+                "error_message": null,
+                "time": 19.206613226095214
+            },
+            "test_info": {
+                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
+                "fail_buggy": false,
+                "pass_fixed": true,
+                "testcases": []
+            }
+        },
+        {
+            "repo": "maven-doap-plugin",
+            "bug_id": "DoapMojo_2576",
+            "npe_info": {
+                "filepath": "src/main/java/org/apache/maven/plugin/doap/DoapMojo.java",
+                "line": 2582,
+                "deref_field": "tags",
+                "npe_class": "UserMessages",
+                "npe_method": "addMessage",
+                "sink_field": null,
+                "jvmti_identify_succeed": null,
+                "is_original": null
+            },
+            "build_info": {
+                "compiled": true,
+                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
+                "java_version": 8,
+                "error_message": null,
+                "time": 18.742329403059557
+            },
+            "test_info": {
+                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
+                "fail_buggy": false,
+                "pass_fixed": true,
+                "testcases": []
+            }
+        }
+    ],
+    "repository_info": null
+}

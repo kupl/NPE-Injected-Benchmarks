@@ -1,0 +1,358 @@
+{
+    "repo": "sling-org-apache-sling-testing-jcr-mock",
+    "bugs": [
+        {
+            "repo": "sling-org-apache-sling-testing-jcr-mock",
+            "bug_id": "MockSession_223",
+            "npe_info": {
+                "filepath": "src/main/java/org/apache/sling/testing/mock/jcr/MockSession.java",
+                "line": 231,
+                "deref_field": "source",
+                "npe_class": "MockSession",
+                "npe_method": "orderBefore",
+                "sink_field": null,
+                "jvmti_identify_succeed": null,
+                "is_original": null
+            },
+            "build_info": {
+                "compiled": true,
+                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
+                "java_version": 8,
+                "error_message": null,
+                "time": 20.06096103298478
+            },
+            "test_info": {
+                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
+                "fail_buggy": false,
+                "pass_fixed": true,
+                "testcases": []
+            }
+        },
+        {
+            "repo": "sling-org-apache-sling-testing-jcr-mock",
+            "bug_id": "ResourceUtil_144",
+            "npe_info": {
+                "filepath": "src/main/java/org/apache/sling/testing/mock/jcr/ResourceUtil.java",
+                "line": 145,
+                "deref_field": "workspaceName",
+                "npe_class": "ResourceUtil",
+                "npe_method": "getParent",
+                "sink_field": null,
+                "jvmti_identify_succeed": null,
+                "is_original": null
+            },
+            "build_info": {
+                "compiled": true,
+                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
+                "java_version": 8,
+                "error_message": null,
+                "time": 18.473968240898103
+            },
+            "test_info": {
+                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
+                "fail_buggy": true,
+                "pass_fixed": true,
+                "testcases": []
+            }
+        },
+        {
+            "repo": "sling-org-apache-sling-testing-jcr-mock",
+            "bug_id": "MockSession_236",
+            "npe_info": {
+                "filepath": "src/main/java/org/apache/sling/testing/mock/jcr/MockSession.java",
+                "line": 246,
+                "deref_field": "destination",
+                "npe_class": "MockSession",
+                "npe_method": "orderBefore",
+                "sink_field": null,
+                "jvmti_identify_succeed": null,
+                "is_original": null
+            },
+            "build_info": {
+                "compiled": true,
+                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
+                "java_version": 8,
+                "error_message": null,
+                "time": 21.740432413993403
+            },
+            "test_info": {
+                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
+                "fail_buggy": true,
+                "pass_fixed": true,
+                "testcases": [
+                    {
+                        "classname": "org.apache.sling.testing.mock.jcr.MockNodeTest",
+                        "method": "testOrderBefore",
+                        "exn_type": "java.lang.NullPointerException",
+                        "stack_trace": "java.lang.NullPointerException\n\tat org.apache.sling.testing.mock.jcr.MockNodeTest.testOrderBefore(MockNodeTest.java:214)\n"
+                    }
+                ]
+            }
+        },
+        {
+            "repo": "sling-org-apache-sling-testing-jcr-mock",
+            "bug_id": "ResourceUtil_151",
+            "npe_info": {
+                "filepath": "src/main/java/org/apache/sling/testing/mock/jcr/ResourceUtil.java",
+                "line": 152,
+                "deref_field": "workspaceName",
+                "npe_class": "ResourceUtil",
+                "npe_method": "getParent",
+                "sink_field": null,
+                "jvmti_identify_succeed": null,
+                "is_original": null
+            },
+            "build_info": {
+                "compiled": true,
+                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
+                "java_version": 8,
+                "error_message": null,
+                "time": 19.367369729094207
+            },
+            "test_info": {
+                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
+                "fail_buggy": true,
+                "pass_fixed": true,
+                "testcases": []
+            }
+        },
+        {
+            "repo": "sling-org-apache-sling-testing-jcr-mock",
+            "bug_id": "MockSession_89",
+            "npe_info": {
+                "filepath": "src/main/java/org/apache/sling/testing/mock/jcr/MockSession.java",
+                "line": 90,
+                "deref_field": "itemData",
+                "npe_class": "MockSession",
+                "npe_method": "getItem",
+                "sink_field": null,
+                "jvmti_identify_succeed": null,
+                "is_original": null
+            },
+            "build_info": {
+                "compiled": true,
+                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
+                "java_version": 8,
+                "error_message": null,
+                "time": 23.96016470505856
+            },
+            "test_info": {
+                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
+                "fail_buggy": true,
+                "pass_fixed": true,
+                "testcases": [
+                    {
+                        "classname": "org.apache.sling.testing.mock.jcr.MockQueryManagerTest",
+                        "method": "testQueryResults_ResultHandler_Rows",
+                        "exn_type": "java.lang.NullPointerException",
+                        "stack_trace": "java.lang.NullPointerException\n\tat org.apache.sling.testing.mock.jcr.MockQueryManagerTest.testQueryResults_ResultHandler_Rows(MockQueryManagerTest.java:195)\n"
+                    },
+                    {
+                        "classname": "org.apache.sling.testing.mock.jcr.MockSessionTest",
+                        "method": "testNodeNotFoundException",
+                        "exn_type": "java.lang.Exception",
+                        "stack_trace": "java.lang.Exception: Unexpected exception, expected<javax.jcr.PathNotFoundException> but was<java.lang.NullPointerException>\n\tat org.apache.sling.testing.mock.jcr.MockSessionTest.testItemNotFoundException(MockSessionTest.java:188)\n"
+                    },
+                    {
+                        "classname": "org.apache.sling.testing.mock.jcr.MockSessionTest",
+                        "method": "testPropertyNotFoundException",
+                        "exn_type": "java.lang.Exception",
+                        "stack_trace": "java.lang.Exception: Unexpected exception, expected<javax.jcr.PathNotFoundException> but was<java.lang.NullPointerException>\n\tat org.apache.sling.testing.mock.jcr.MockSessionTest.testNodeNotFoundException(MockSessionTest.java:174)\n"
+                    },
+                    {
+                        "classname": "org.apache.sling.testing.mock.jcr.MockSessionTest",
+                        "method": "testNodeNotFoundException",
+                        "exn_type": "java.lang.Exception",
+                        "stack_trace": "java.lang.Exception: Unexpected exception, expected<javax.jcr.PathNotFoundException> but was<java.lang.NullPointerException>\n\tat org.apache.sling.testing.mock.jcr.MockSessionTest.testPropertyNotFoundException(MockSessionTest.java:181)\n"
+                    },
+                    {
+                        "classname": "org.apache.sling.testing.mock.jcr.MockSessionTest",
+                        "method": "testPropertyNotFoundException",
+                        "exn_type": "java.lang.Exception",
+                        "stack_trace": "java.lang.Exception: Unexpected exception, expected<javax.jcr.PathNotFoundException> but was<java.lang.NullPointerException>\n\tat org.apache.sling.testing.mock.jcr.MockSessionTest.testItemNotFoundException(MockSessionTest.java:188)\n"
+                    },
+                    {
+                        "classname": "org.apache.sling.testing.mock.jcr.MockSessionTest",
+                        "method": "testPropertyNotFoundException",
+                        "exn_type": "java.lang.Exception",
+                        "stack_trace": "java.lang.Exception: Unexpected exception, expected<javax.jcr.PathNotFoundException> but was<java.lang.NullPointerException>\n\tat org.apache.sling.testing.mock.jcr.MockSessionTest.testPropertyNotFoundException(MockSessionTest.java:181)\n"
+                    },
+                    {
+                        "classname": "org.apache.sling.testing.mock.jcr.MockSessionTest",
+                        "method": "testItemNotFoundException",
+                        "exn_type": "java.lang.Exception",
+                        "stack_trace": "java.lang.Exception: Unexpected exception, expected<javax.jcr.PathNotFoundException> but was<java.lang.NullPointerException>\n\tat org.apache.sling.testing.mock.jcr.MockSessionTest.testNodeNotFoundException(MockSessionTest.java:174)\n"
+                    },
+                    {
+                        "classname": "org.apache.sling.testing.mock.jcr.MockSessionTest",
+                        "method": "testItemNotFoundException",
+                        "exn_type": "java.lang.Exception",
+                        "stack_trace": "java.lang.Exception: Unexpected exception, expected<javax.jcr.PathNotFoundException> but was<java.lang.NullPointerException>\n\tat org.apache.sling.testing.mock.jcr.MockSessionTest.testItemNotFoundException(MockSessionTest.java:188)\n"
+                    },
+                    {
+                        "classname": "org.apache.sling.testing.mock.jcr.MockSessionTest",
+                        "method": "testItemNotFoundException",
+                        "exn_type": "java.lang.Exception",
+                        "stack_trace": "java.lang.Exception: Unexpected exception, expected<javax.jcr.PathNotFoundException> but was<java.lang.NullPointerException>\n\tat org.apache.sling.testing.mock.jcr.MockSessionTest.testPropertyNotFoundException(MockSessionTest.java:181)\n"
+                    },
+                    {
+                        "classname": "org.apache.sling.testing.mock.jcr.MockRepositoryTest",
+                        "method": "testMultipleSessions",
+                        "exn_type": "java.lang.NullPointerException",
+                        "stack_trace": "java.lang.NullPointerException\n\tat org.apache.sling.testing.mock.jcr.MockRepositoryTest.testMultipleSessions(MockRepositoryTest.java:86)\n"
+                    },
+                    {
+                        "classname": "org.apache.sling.testing.mock.jcr.MockSessionTest",
+                        "method": "testNodeNotFoundException",
+                        "exn_type": "java.lang.Exception",
+                        "stack_trace": "java.lang.Exception: Unexpected exception, expected<javax.jcr.PathNotFoundException> but was<java.lang.NullPointerException>\n\tat org.apache.sling.testing.mock.jcr.MockSessionTest.testNodeNotFoundException(MockSessionTest.java:174)\n"
+                    }
+                ]
+            }
+        },
+        {
+            "repo": "sling-org-apache-sling-testing-jcr-mock",
+            "bug_id": "MockNode_377",
+            "npe_info": {
+                "filepath": "src/main/java/org/apache/sling/testing/mock/jcr/MockNode.java",
+                "line": 377,
+                "deref_field": "destChildRelPath",
+                "npe_class": "MockNode",
+                "npe_method": "orderBefore",
+                "sink_field": null,
+                "jvmti_identify_succeed": null,
+                "is_original": null
+            },
+            "build_info": {
+                "compiled": true,
+                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
+                "java_version": 8,
+                "error_message": null,
+                "time": 22.063480121083558
+            },
+            "test_info": {
+                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
+                "fail_buggy": true,
+                "pass_fixed": true,
+                "testcases": [
+                    {
+                        "classname": "org.apache.sling.testing.mock.jcr.MockNodeTest",
+                        "method": "testOrderBefore",
+                        "exn_type": "javax.jcr.PathNotFoundException",
+                        "stack_trace": "javax.jcr.PathNotFoundException: No item found at: /foo/null.\n\tat org.apache.sling.testing.mock.jcr.MockNodeTest.testOrderBefore(MockNodeTest.java:214)\n"
+                    }
+                ]
+            }
+        },
+        {
+            "repo": "sling-org-apache-sling-testing-jcr-mock",
+            "bug_id": "MockQueryManager_72",
+            "npe_info": {
+                "filepath": "src/main/java/org/apache/sling/testing/mock/jcr/MockQueryManager.java",
+                "line": 73,
+                "deref_field": "result",
+                "npe_class": "MockQueryManager",
+                "npe_method": "executeQuery",
+                "sink_field": null,
+                "jvmti_identify_succeed": null,
+                "is_original": null
+            },
+            "build_info": {
+                "compiled": true,
+                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
+                "java_version": 8,
+                "error_message": null,
+                "time": 19.199190655024722
+            },
+            "test_info": {
+                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
+                "fail_buggy": true,
+                "pass_fixed": true,
+                "testcases": [
+                    {
+                        "classname": "org.apache.sling.testing.mock.jcr.MockQueryManagerTest",
+                        "method": "testQueryResults_ResultHandler",
+                        "exn_type": "java.lang.NullPointerException",
+                        "stack_trace": "java.lang.NullPointerException\n\tat org.apache.sling.testing.mock.jcr.MockQueryManagerTest.testQueryResults_ResultHandler(MockQueryManagerTest.java:128)\n"
+                    },
+                    {
+                        "classname": "org.apache.sling.testing.mock.jcr.MockQueryManagerTest",
+                        "method": "testQueryResults_MultipleResultHandlers",
+                        "exn_type": "java.lang.NullPointerException",
+                        "stack_trace": "java.lang.NullPointerException\n\tat org.apache.sling.testing.mock.jcr.MockQueryManagerTest.testQueryResults_SpecificQuery(MockQueryManagerTest.java:106)\n"
+                    },
+                    {
+                        "classname": "org.apache.sling.testing.mock.jcr.MockQueryManagerTest",
+                        "method": "testQueryResults_SpecificQuery",
+                        "exn_type": "java.lang.NullPointerException",
+                        "stack_trace": "java.lang.NullPointerException\n\tat org.apache.sling.testing.mock.jcr.MockQueryManagerTest.testQueryResults_MultipleResultHandlers(MockQueryManagerTest.java:157)\n"
+                    },
+                    {
+                        "classname": "org.apache.sling.testing.mock.jcr.MockQueryManagerTest",
+                        "method": "testQueryResults_SpecificQuery",
+                        "exn_type": "java.lang.NullPointerException",
+                        "stack_trace": "java.lang.NullPointerException\n\tat org.apache.sling.testing.mock.jcr.MockQueryManagerTest.testQueryResults_ResultHandler(MockQueryManagerTest.java:128)\n"
+                    },
+                    {
+                        "classname": "org.apache.sling.testing.mock.jcr.MockQueryManagerTest",
+                        "method": "testQueryResults_MultipleResultHandlers",
+                        "exn_type": "java.lang.NullPointerException",
+                        "stack_trace": "java.lang.NullPointerException\n\tat org.apache.sling.testing.mock.jcr.MockQueryManagerTest.testQueryResults_ResultHandler(MockQueryManagerTest.java:128)\n"
+                    },
+                    {
+                        "classname": "org.apache.sling.testing.mock.jcr.MockQueryManagerTest",
+                        "method": "testQueryResults_ResultHandler",
+                        "exn_type": "java.lang.NullPointerException",
+                        "stack_trace": "java.lang.NullPointerException\n\tat org.apache.sling.testing.mock.jcr.MockQueryManagerTest.testQueryResults_MultipleResultHandlers(MockQueryManagerTest.java:157)\n"
+                    },
+                    {
+                        "classname": "org.apache.sling.testing.mock.jcr.MockQueryManagerTest",
+                        "method": "testQueryResults_SpecificQuery",
+                        "exn_type": "java.lang.NullPointerException",
+                        "stack_trace": "java.lang.NullPointerException\n\tat org.apache.sling.testing.mock.jcr.MockQueryManagerTest.testQueryResults_SpecificQuery(MockQueryManagerTest.java:106)\n"
+                    },
+                    {
+                        "classname": "org.apache.sling.testing.mock.jcr.MockQueryManagerTest",
+                        "method": "testQueryResults_MultipleResultHandlers",
+                        "exn_type": "java.lang.NullPointerException",
+                        "stack_trace": "java.lang.NullPointerException\n\tat org.apache.sling.testing.mock.jcr.MockQueryManagerTest.testQueryResults_MultipleResultHandlers(MockQueryManagerTest.java:157)\n"
+                    },
+                    {
+                        "classname": "org.apache.sling.testing.mock.jcr.MockQueryManagerTest",
+                        "method": "testQueryResults_ResultHandler",
+                        "exn_type": "java.lang.NullPointerException",
+                        "stack_trace": "java.lang.NullPointerException\n\tat org.apache.sling.testing.mock.jcr.MockQueryManagerTest.testQueryResults_SpecificQuery(MockQueryManagerTest.java:106)\n"
+                    }
+                ]
+            }
+        },
+        {
+            "repo": "sling-org-apache-sling-testing-jcr-mock",
+            "bug_id": "MockNode_376",
+            "npe_info": {
+                "filepath": "src/main/java/org/apache/sling/testing/mock/jcr/MockNode.java",
+                "line": 376,
+                "deref_field": "srcChildRelPath",
+                "npe_class": "MockNode",
+                "npe_method": "orderBefore",
+                "sink_field": null,
+                "jvmti_identify_succeed": null,
+                "is_original": null
+            },
+            "build_info": {
+                "compiled": true,
+                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
+                "java_version": 8,
+                "error_message": null,
+                "time": 15.211025777971372
+            },
+            "test_info": {
+                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
+                "fail_buggy": false,
+                "pass_fixed": true,
+                "testcases": []
+            }
+        }
+    ],
+    "repository_info": null
+}

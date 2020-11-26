@@ -1,0 +1,1191 @@
+{
+    "repo": "maven-ant-plugin",
+    "bugs": [
+        {
+            "repo": "maven-ant-plugin",
+            "bug_id": "AntBuildWriterUtil_400",
+            "npe_info": {
+                "filepath": "src/main/java/org/apache/maven/plugin/ant/AntBuildWriterUtil.java",
+                "line": 402,
+                "deref_field": "tags",
+                "npe_class": "AntBuildWriterUtil",
+                "npe_method": "writeJavadocTask",
+                "sink_field": null,
+                "jvmti_identify_succeed": null,
+                "is_original": null
+            },
+            "build_info": {
+                "compiled": true,
+                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
+                "java_version": 8,
+                "error_message": null,
+                "time": 19.048194963950664
+            },
+            "test_info": {
+                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
+                "fail_buggy": false,
+                "pass_fixed": true,
+                "testcases": []
+            }
+        },
+        {
+            "repo": "maven-ant-plugin",
+            "bug_id": "AntBuildWriterUtil_88",
+            "npe_info": {
+                "filepath": "src/main/java/org/apache/maven/plugin/ant/AntBuildWriterUtil.java",
+                "line": 90,
+                "deref_field": "includes",
+                "npe_class": "AntBuildWriterUtil",
+                "npe_method": "writeIncludesExcludes",
+                "sink_field": null,
+                "jvmti_identify_succeed": null,
+                "is_original": null
+            },
+            "build_info": {
+                "compiled": true,
+                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
+                "java_version": 8,
+                "error_message": null,
+                "time": 19.35981402709149
+            },
+            "test_info": {
+                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
+                "fail_buggy": false,
+                "pass_fixed": true,
+                "testcases": []
+            }
+        },
+        {
+            "repo": "maven-ant-plugin",
+            "bug_id": "AntBuildWriterUtil_473",
+            "npe_info": {
+                "filepath": "src/main/java/org/apache/maven/plugin/ant/AntBuildWriterUtil.java",
+                "line": 475,
+                "deref_field": "getMavenEarPluginBasicOption(org.apache.maven.project.MavenProject,java.lang.String,java.lang.String)",
+                "npe_class": "AntBuildWriterUtil",
+                "npe_method": "writeEarTask",
+                "sink_field": null,
+                "jvmti_identify_succeed": null,
+                "is_original": null
+            },
+            "build_info": {
+                "compiled": true,
+                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
+                "java_version": 8,
+                "error_message": null,
+                "time": 21.43885611090809
+            },
+            "test_info": {
+                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
+                "fail_buggy": true,
+                "pass_fixed": true,
+                "testcases": []
+            }
+        },
+        {
+            "repo": "maven-ant-plugin",
+            "bug_id": "AntBuildWriterUtil_1245",
+            "npe_info": {
+                "filepath": "src/main/java/org/apache/maven/plugin/ant/AntBuildWriterUtil.java",
+                "line": 1249,
+                "deref_field": "node",
+                "npe_class": "AntBuildWriterUtil",
+                "npe_method": "isElementContent",
+                "sink_field": null,
+                "jvmti_identify_succeed": null,
+                "is_original": null
+            },
+            "build_info": {
+                "compiled": true,
+                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
+                "java_version": 8,
+                "error_message": null,
+                "time": 23.58186036697589
+            },
+            "test_info": {
+                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
+                "fail_buggy": false,
+                "pass_fixed": false,
+                "testcases": []
+            }
+        },
+        {
+            "repo": "maven-ant-plugin",
+            "bug_id": "AntBuildWriterUtil_432",
+            "npe_info": {
+                "filepath": "src/main/java/org/apache/maven/plugin/ant/AntBuildWriterUtil.java",
+                "line": 435,
+                "deref_field": "getMavenJarPluginBasicOption(org.apache.maven.project.MavenProject,java.lang.String,java.lang.String)",
+                "npe_class": "AntBuildWriterUtil",
+                "npe_method": "writeJarTask",
+                "sink_field": null,
+                "jvmti_identify_succeed": null,
+                "is_original": null
+            },
+            "build_info": {
+                "compiled": true,
+                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
+                "java_version": 8,
+                "error_message": null,
+                "time": 19.94444663100876
+            },
+            "test_info": {
+                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
+                "fail_buggy": false,
+                "pass_fixed": true,
+                "testcases": []
+            }
+        },
+        {
+            "repo": "maven-ant-plugin",
+            "bug_id": "AntBuildWriter_802",
+            "npe_info": {
+                "filepath": "src/main/java/org/apache/maven/plugin/ant/AntBuildWriter.java",
+                "line": 804,
+                "deref_field": "getModules()",
+                "npe_class": "AntBuildWriter",
+                "npe_method": "writeCompileTestsTarget",
+                "sink_field": null,
+                "jvmti_identify_succeed": null,
+                "is_original": null
+            },
+            "build_info": {
+                "compiled": true,
+                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
+                "java_version": 8,
+                "error_message": null,
+                "time": 23.775741638848558
+            },
+            "test_info": {
+                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
+                "fail_buggy": false,
+                "pass_fixed": true,
+                "testcases": []
+            }
+        },
+        {
+            "repo": "maven-ant-plugin",
+            "bug_id": "AntBuildWriter_490",
+            "npe_info": {
+                "filepath": "src/main/java/org/apache/maven/plugin/ant/AntBuildWriter.java",
+                "line": 492,
+                "deref_field": "getResources()",
+                "npe_class": "AntBuildWriter",
+                "npe_method": "writeProperties",
+                "sink_field": null,
+                "jvmti_identify_succeed": null,
+                "is_original": null
+            },
+            "build_info": {
+                "compiled": true,
+                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
+                "java_version": 8,
+                "error_message": null,
+                "time": 22.412764959037304
+            },
+            "test_info": {
+                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
+                "fail_buggy": false,
+                "pass_fixed": true,
+                "testcases": []
+            }
+        },
+        {
+            "repo": "maven-ant-plugin",
+            "bug_id": "AntBuildWriterUtil_288",
+            "npe_info": {
+                "filepath": "src/main/java/org/apache/maven/plugin/ant/AntBuildWriterUtil.java",
+                "line": 291,
+                "deref_field": "header",
+                "npe_class": "AntBuildWriterUtil",
+                "npe_method": "writeJavadocTask",
+                "sink_field": null,
+                "jvmti_identify_succeed": null,
+                "is_original": null
+            },
+            "build_info": {
+                "compiled": true,
+                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
+                "java_version": 8,
+                "error_message": null,
+                "time": 24.9375560649205
+            },
+            "test_info": {
+                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
+                "fail_buggy": false,
+                "pass_fixed": true,
+                "testcases": []
+            }
+        },
+        {
+            "repo": "maven-ant-plugin",
+            "bug_id": "AntBuildWriter_1400",
+            "npe_info": {
+                "filepath": "src/main/java/org/apache/maven/plugin/ant/AntBuildWriter.java",
+                "line": 1404,
+                "deref_field": "parentDirs",
+                "npe_class": "AntBuildWriter",
+                "npe_method": "writeGetDepsTarget",
+                "sink_field": null,
+                "jvmti_identify_succeed": null,
+                "is_original": null
+            },
+            "build_info": {
+                "compiled": true,
+                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
+                "java_version": 8,
+                "error_message": null,
+                "time": 20.043945010984316
+            },
+            "test_info": {
+                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
+                "fail_buggy": false,
+                "pass_fixed": true,
+                "testcases": []
+            }
+        },
+        {
+            "repo": "maven-ant-plugin",
+            "bug_id": "AntBuildWriterUtil_196",
+            "npe_info": {
+                "filepath": "src/main/java/org/apache/maven/plugin/ant/AntBuildWriterUtil.java",
+                "line": 214,
+                "deref_field": "sourcepath",
+                "npe_class": "AntBuildWriterUtil",
+                "npe_method": "writeJavadocTask",
+                "sink_field": null,
+                "jvmti_identify_succeed": null,
+                "is_original": null
+            },
+            "build_info": {
+                "compiled": true,
+                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
+                "java_version": 8,
+                "error_message": null,
+                "time": 20.073100874898955
+            },
+            "test_info": {
+                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
+                "fail_buggy": false,
+                "pass_fixed": true,
+                "testcases": []
+            }
+        },
+        {
+            "repo": "maven-ant-plugin",
+            "bug_id": "AntBuildWriter_1268",
+            "npe_info": {
+                "filepath": "src/main/java/org/apache/maven/plugin/ant/AntBuildWriter.java",
+                "line": 1295,
+                "deref_field": "additionalClassesDirectory",
+                "npe_class": "AntBuildWriter",
+                "npe_method": "writeCompileTasks",
+                "sink_field": null,
+                "jvmti_identify_succeed": null,
+                "is_original": null
+            },
+            "build_info": {
+                "compiled": true,
+                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
+                "java_version": 8,
+                "error_message": null,
+                "time": 25.78005941095762
+            },
+            "test_info": {
+                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
+                "fail_buggy": false,
+                "pass_fixed": true,
+                "testcases": []
+            }
+        },
+        {
+            "repo": "maven-ant-plugin",
+            "bug_id": "AntBuildWriter_995",
+            "npe_info": {
+                "filepath": "src/main/java/org/apache/maven/plugin/ant/AntBuildWriter.java",
+                "line": 997,
+                "deref_field": "getModules()",
+                "npe_class": "AntBuildWriter",
+                "npe_method": "writePomParts",
+                "sink_field": null,
+                "jvmti_identify_succeed": null,
+                "is_original": null
+            },
+            "build_info": {
+                "compiled": true,
+                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
+                "java_version": 8,
+                "error_message": null,
+                "time": 19.8870853590779
+            },
+            "test_info": {
+                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
+                "fail_buggy": false,
+                "pass_fixed": true,
+                "testcases": []
+            }
+        },
+        {
+            "repo": "maven-ant-plugin",
+            "bug_id": "AntBuildWriterUtil_281",
+            "npe_info": {
+                "filepath": "src/main/java/org/apache/maven/plugin/ant/AntBuildWriterUtil.java",
+                "line": 284,
+                "deref_field": "doctitle",
+                "npe_class": "AntBuildWriterUtil",
+                "npe_method": "writeJavadocTask",
+                "sink_field": null,
+                "jvmti_identify_succeed": null,
+                "is_original": null
+            },
+            "build_info": {
+                "compiled": true,
+                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
+                "java_version": 8,
+                "error_message": null,
+                "time": 18.927392669022083
+            },
+            "test_info": {
+                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
+                "fail_buggy": false,
+                "pass_fixed": true,
+                "testcases": []
+            }
+        },
+        {
+            "repo": "maven-ant-plugin",
+            "bug_id": "AntBuildWriterUtil_1270",
+            "npe_info": {
+                "filepath": "src/main/java/org/apache/maven/plugin/ant/AntBuildWriterUtil.java",
+                "line": 1272,
+                "deref_field": "node",
+                "npe_class": "AntBuildWriterUtil",
+                "npe_method": "getTextContent",
+                "sink_field": null,
+                "jvmti_identify_succeed": null,
+                "is_original": null
+            },
+            "build_info": {
+                "compiled": true,
+                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
+                "java_version": 8,
+                "error_message": null,
+                "time": 22.31348907784559
+            },
+            "test_info": {
+                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
+                "fail_buggy": false,
+                "pass_fixed": true,
+                "testcases": []
+            }
+        },
+        {
+            "repo": "maven-ant-plugin",
+            "bug_id": "AntBuildWriterUtil_374",
+            "npe_info": {
+                "filepath": "src/main/java/org/apache/maven/plugin/ant/AntBuildWriterUtil.java",
+                "line": 380,
+                "deref_field": "taglet",
+                "npe_class": "AntBuildWriterUtil",
+                "npe_method": "writeJavadocTask",
+                "sink_field": null,
+                "jvmti_identify_succeed": null,
+                "is_original": null
+            },
+            "build_info": {
+                "compiled": true,
+                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
+                "java_version": 8,
+                "error_message": null,
+                "time": 18.35319163603708
+            },
+            "test_info": {
+                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
+                "fail_buggy": false,
+                "pass_fixed": true,
+                "testcases": []
+            }
+        },
+        {
+            "repo": "maven-ant-plugin",
+            "bug_id": "AntBuildWriterUtil_302",
+            "npe_info": {
+                "filepath": "src/main/java/org/apache/maven/plugin/ant/AntBuildWriterUtil.java",
+                "line": 305,
+                "deref_field": "bottom",
+                "npe_class": "AntBuildWriterUtil",
+                "npe_method": "writeJavadocTask",
+                "sink_field": null,
+                "jvmti_identify_succeed": null,
+                "is_original": null
+            },
+            "build_info": {
+                "compiled": true,
+                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
+                "java_version": 8,
+                "error_message": null,
+                "time": 18.450631967978552
+            },
+            "test_info": {
+                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
+                "fail_buggy": false,
+                "pass_fixed": true,
+                "testcases": []
+            }
+        },
+        {
+            "repo": "maven-ant-plugin",
+            "bug_id": "AntBuildWriterUtil_63",
+            "npe_info": {
+                "filepath": "src/main/java/org/apache/maven/plugin/ant/AntBuildWriterUtil.java",
+                "line": 66,
+                "deref_field": "compileSourceRoots",
+                "npe_class": "AntBuildWriterUtil",
+                "npe_method": "removeEmptyCompileSourceRoots",
+                "sink_field": null,
+                "jvmti_identify_succeed": null,
+                "is_original": null
+            },
+            "build_info": {
+                "compiled": true,
+                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
+                "java_version": 8,
+                "error_message": null,
+                "time": 20.888909230940044
+            },
+            "test_info": {
+                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
+                "fail_buggy": false,
+                "pass_fixed": true,
+                "testcases": []
+            }
+        },
+        {
+            "repo": "maven-ant-plugin",
+            "bug_id": "AntBuildWriterUtil_310",
+            "npe_info": {
+                "filepath": "src/main/java/org/apache/maven/plugin/ant/AntBuildWriterUtil.java",
+                "line": 312,
+                "deref_field": "links",
+                "npe_class": "AntBuildWriterUtil",
+                "npe_method": "writeJavadocTask",
+                "sink_field": null,
+                "jvmti_identify_succeed": null,
+                "is_original": null
+            },
+            "build_info": {
+                "compiled": true,
+                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
+                "java_version": 8,
+                "error_message": null,
+                "time": 25.16063487296924
+            },
+            "test_info": {
+                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
+                "fail_buggy": false,
+                "pass_fixed": true,
+                "testcases": []
+            }
+        },
+        {
+            "repo": "maven-ant-plugin",
+            "bug_id": "AntBuildWriter_175",
+            "npe_info": {
+                "filepath": "src/main/java/org/apache/maven/plugin/ant/AntBuildWriter.java",
+                "line": 177,
+                "deref_field": "getResources()",
+                "npe_class": "AntBuildWriter",
+                "npe_method": "writeBuildProperties",
+                "sink_field": null,
+                "jvmti_identify_succeed": null,
+                "is_original": null
+            },
+            "build_info": {
+                "compiled": true,
+                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
+                "java_version": 8,
+                "error_message": null,
+                "time": 22.687362330965698
+            },
+            "test_info": {
+                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
+                "fail_buggy": false,
+                "pass_fixed": true,
+                "testcases": []
+            }
+        },
+        {
+            "repo": "maven-ant-plugin",
+            "bug_id": "AntBuildWriterUtil_347",
+            "npe_info": {
+                "filepath": "src/main/java/org/apache/maven/plugin/ant/AntBuildWriterUtil.java",
+                "line": 353,
+                "deref_field": "doclet",
+                "npe_class": "AntBuildWriterUtil",
+                "npe_method": "writeJavadocTask",
+                "sink_field": null,
+                "jvmti_identify_succeed": null,
+                "is_original": null
+            },
+            "build_info": {
+                "compiled": true,
+                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
+                "java_version": 8,
+                "error_message": null,
+                "time": 22.17971293302253
+            },
+            "test_info": {
+                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
+                "fail_buggy": false,
+                "pass_fixed": true,
+                "testcases": []
+            }
+        },
+        {
+            "repo": "maven-ant-plugin",
+            "bug_id": "AntBuildWriterUtil_1165",
+            "npe_info": {
+                "filepath": "src/main/java/org/apache/maven/plugin/ant/AntBuildWriterUtil.java",
+                "line": 1167,
+                "deref_field": "getArtifacts()",
+                "npe_class": "AntBuildWriterUtil",
+                "npe_method": "writeCopyLib",
+                "sink_field": null,
+                "jvmti_identify_succeed": null,
+                "is_original": null
+            },
+            "build_info": {
+                "compiled": true,
+                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
+                "java_version": 8,
+                "error_message": null,
+                "time": 20.15226854197681
+            },
+            "test_info": {
+                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
+                "fail_buggy": false,
+                "pass_fixed": true,
+                "testcases": []
+            }
+        },
+        {
+            "repo": "maven-ant-plugin",
+            "bug_id": "AntBuildWriterUtil_1211",
+            "npe_info": {
+                "filepath": "src/main/java/org/apache/maven/plugin/ant/AntBuildWriterUtil.java",
+                "line": 1216,
+                "deref_field": "node",
+                "npe_class": "AntBuildWriterUtil",
+                "npe_method": "isList",
+                "sink_field": null,
+                "jvmti_identify_succeed": null,
+                "is_original": null
+            },
+            "build_info": {
+                "compiled": true,
+                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
+                "java_version": 8,
+                "error_message": null,
+                "time": 20.34268879890442
+            },
+            "test_info": {
+                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
+                "fail_buggy": false,
+                "pass_fixed": true,
+                "testcases": []
+            }
+        },
+        {
+            "repo": "maven-ant-plugin",
+            "bug_id": "AntBuildWriter_1079",
+            "npe_info": {
+                "filepath": "src/main/java/org/apache/maven/plugin/ant/AntBuildWriter.java",
+                "line": 1081,
+                "deref_field": "getModules()",
+                "npe_class": "AntBuildWriter",
+                "npe_method": "writeJavadocTarget",
+                "sink_field": null,
+                "jvmti_identify_succeed": null,
+                "is_original": null
+            },
+            "build_info": {
+                "compiled": true,
+                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
+                "java_version": 8,
+                "error_message": null,
+                "time": 21.667018729029223
+            },
+            "test_info": {
+                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
+                "fail_buggy": false,
+                "pass_fixed": true,
+                "testcases": []
+            }
+        },
+        {
+            "repo": "maven-ant-plugin",
+            "bug_id": "AntBuildWriterUtil_98",
+            "npe_info": {
+                "filepath": "src/main/java/org/apache/maven/plugin/ant/AntBuildWriterUtil.java",
+                "line": 100,
+                "deref_field": "excludes",
+                "npe_class": "AntBuildWriterUtil",
+                "npe_method": "writeIncludesExcludes",
+                "sink_field": null,
+                "jvmti_identify_succeed": null,
+                "is_original": null
+            },
+            "build_info": {
+                "compiled": true,
+                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
+                "java_version": 8,
+                "error_message": null,
+                "time": 20.0750750110019
+            },
+            "test_info": {
+                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
+                "fail_buggy": false,
+                "pass_fixed": true,
+                "testcases": []
+            }
+        },
+        {
+            "repo": "maven-ant-plugin",
+            "bug_id": "AntBuildWriterUtil_988",
+            "npe_info": {
+                "filepath": "src/main/java/org/apache/maven/plugin/ant/AntBuildWriterUtil.java",
+                "line": 990,
+                "deref_field": "getPluginManagement()",
+                "npe_class": "AntBuildWriterUtil",
+                "npe_method": "getMavenPluginConfigurationsImpl",
+                "sink_field": null,
+                "jvmti_identify_succeed": null,
+                "is_original": null
+            },
+            "build_info": {
+                "compiled": true,
+                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
+                "java_version": 8,
+                "error_message": null,
+                "time": 21.022848549997434
+            },
+            "test_info": {
+                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
+                "fail_buggy": true,
+                "pass_fixed": true,
+                "testcases": [
+                    {
+                        "classname": "org.apache.maven.plugin.ant.AntMojoTest",
+                        "method": "testProjectWithJavadoc",
+                        "exn_type": "java.lang.NullPointerException",
+                        "stack_trace": "java.lang.NullPointerException\n\tat org.apache.maven.plugin.ant.AntMojoTest.invokeAntMojo(AntMojoTest.java:105)\n\tat org.apache.maven.plugin.ant.AntMojoTest.testProjectWithNoDep(AntMojoTest.java:76)\n"
+                    },
+                    {
+                        "classname": "org.apache.maven.plugin.ant.AntMojoTest",
+                        "method": "testProjectWithNoDep",
+                        "exn_type": "java.lang.NullPointerException",
+                        "stack_trace": "java.lang.NullPointerException\n\tat org.apache.maven.plugin.ant.AntMojoTest.invokeAntMojo(AntMojoTest.java:105)\n\tat org.apache.maven.plugin.ant.AntMojoTest.testProjectWithNoDep(AntMojoTest.java:76)\n"
+                    },
+                    {
+                        "classname": "org.apache.maven.plugin.ant.AntMojoTest",
+                        "method": "testDefaultProject",
+                        "exn_type": "java.lang.NullPointerException",
+                        "stack_trace": "java.lang.NullPointerException\n\tat org.apache.maven.plugin.ant.AntMojoTest.invokeAntMojo(AntMojoTest.java:105)\n\tat org.apache.maven.plugin.ant.AntMojoTest.testProjectWithJavadoc(AntMojoTest.java:87)\n"
+                    },
+                    {
+                        "classname": "org.apache.maven.plugin.ant.AntMojoTest",
+                        "method": "testProjectWithNoDep",
+                        "exn_type": "java.lang.NullPointerException",
+                        "stack_trace": "java.lang.NullPointerException\n\tat org.apache.maven.plugin.ant.AntMojoTest.invokeAntMojo(AntMojoTest.java:105)\n\tat org.apache.maven.plugin.ant.AntMojoTest.testProjectWithJavadoc(AntMojoTest.java:87)\n"
+                    },
+                    {
+                        "classname": "org.apache.maven.plugin.ant.AntMojoTest",
+                        "method": "testProjectWithJavadoc",
+                        "exn_type": "java.lang.NullPointerException",
+                        "stack_trace": "java.lang.NullPointerException\n\tat org.apache.maven.plugin.ant.AntMojoTest.invokeAntMojo(AntMojoTest.java:105)\n\tat org.apache.maven.plugin.ant.AntMojoTest.testProjectWithJavadoc(AntMojoTest.java:87)\n"
+                    },
+                    {
+                        "classname": "org.apache.maven.plugin.ant.AntMojoTest",
+                        "method": "testDefaultProject",
+                        "exn_type": "java.lang.NullPointerException",
+                        "stack_trace": "java.lang.NullPointerException\n\tat org.apache.maven.plugin.ant.AntMojoTest.invokeAntMojo(AntMojoTest.java:105)\n\tat org.apache.maven.plugin.ant.AntMojoTest.testDefaultProject(AntMojoTest.java:65)\n"
+                    },
+                    {
+                        "classname": "org.apache.maven.plugin.ant.AntMojoTest",
+                        "method": "testDefaultProject",
+                        "exn_type": "java.lang.NullPointerException",
+                        "stack_trace": "java.lang.NullPointerException\n\tat org.apache.maven.plugin.ant.AntMojoTest.invokeAntMojo(AntMojoTest.java:105)\n\tat org.apache.maven.plugin.ant.AntMojoTest.testProjectWithNoDep(AntMojoTest.java:76)\n"
+                    },
+                    {
+                        "classname": "org.apache.maven.plugin.ant.AntMojoTest",
+                        "method": "testProjectWithNoDep",
+                        "exn_type": "java.lang.NullPointerException",
+                        "stack_trace": "java.lang.NullPointerException\n\tat org.apache.maven.plugin.ant.AntMojoTest.invokeAntMojo(AntMojoTest.java:105)\n\tat org.apache.maven.plugin.ant.AntMojoTest.testDefaultProject(AntMojoTest.java:65)\n"
+                    },
+                    {
+                        "classname": "org.apache.maven.plugin.ant.AntMojoTest",
+                        "method": "testProjectWithJavadoc",
+                        "exn_type": "java.lang.NullPointerException",
+                        "stack_trace": "java.lang.NullPointerException\n\tat org.apache.maven.plugin.ant.AntMojoTest.invokeAntMojo(AntMojoTest.java:105)\n\tat org.apache.maven.plugin.ant.AntMojoTest.testDefaultProject(AntMojoTest.java:65)\n"
+                    }
+                ]
+            }
+        },
+        {
+            "repo": "maven-ant-plugin",
+            "bug_id": "AntBuildWriter_205",
+            "npe_info": {
+                "filepath": "src/main/java/org/apache/maven/plugin/ant/AntBuildWriter.java",
+                "line": 207,
+                "deref_field": "getTestResources()",
+                "npe_class": "AntBuildWriter",
+                "npe_method": "writeBuildProperties",
+                "sink_field": null,
+                "jvmti_identify_succeed": null,
+                "is_original": null
+            },
+            "build_info": {
+                "compiled": true,
+                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
+                "java_version": 8,
+                "error_message": null,
+                "time": 21.57004963979125
+            },
+            "test_info": {
+                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
+                "fail_buggy": false,
+                "pass_fixed": true,
+                "testcases": []
+            }
+        },
+        {
+            "repo": "maven-ant-plugin",
+            "bug_id": "AntBuildWriterUtil_483",
+            "npe_info": {
+                "filepath": "src/main/java/org/apache/maven/plugin/ant/AntBuildWriterUtil.java",
+                "line": 485,
+                "deref_field": "getMavenEarPluginBasicOption(org.apache.maven.project.MavenProject,java.lang.String,java.lang.String)",
+                "npe_class": "AntBuildWriterUtil",
+                "npe_method": "writeEarTask",
+                "sink_field": null,
+                "jvmti_identify_succeed": null,
+                "is_original": null
+            },
+            "build_info": {
+                "compiled": true,
+                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
+                "java_version": 8,
+                "error_message": null,
+                "time": 19.536030175862834
+            },
+            "test_info": {
+                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
+                "fail_buggy": false,
+                "pass_fixed": true,
+                "testcases": []
+            }
+        },
+        {
+            "repo": "maven-ant-plugin",
+            "bug_id": "AntBuildWriter_1121",
+            "npe_info": {
+                "filepath": "src/main/java/org/apache/maven/plugin/ant/AntBuildWriter.java",
+                "line": 1123,
+                "deref_field": "getModules()",
+                "npe_class": "AntBuildWriter",
+                "npe_method": "writePackageTarget",
+                "sink_field": null,
+                "jvmti_identify_succeed": null,
+                "is_original": null
+            },
+            "build_info": {
+                "compiled": true,
+                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
+                "java_version": 8,
+                "error_message": null,
+                "time": 23.40526831499301
+            },
+            "test_info": {
+                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
+                "fail_buggy": false,
+                "pass_fixed": true,
+                "testcases": []
+            }
+        },
+        {
+            "repo": "maven-ant-plugin",
+            "bug_id": "AntBuildWriterUtil_321",
+            "npe_info": {
+                "filepath": "src/main/java/org/apache/maven/plugin/ant/AntBuildWriterUtil.java",
+                "line": 323,
+                "deref_field": "offlineLinks",
+                "npe_class": "AntBuildWriterUtil",
+                "npe_method": "writeJavadocTask",
+                "sink_field": null,
+                "jvmti_identify_succeed": null,
+                "is_original": null
+            },
+            "build_info": {
+                "compiled": true,
+                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
+                "java_version": 8,
+                "error_message": null,
+                "time": 22.402101634070277
+            },
+            "test_info": {
+                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
+                "fail_buggy": false,
+                "pass_fixed": true,
+                "testcases": []
+            }
+        },
+        {
+            "repo": "maven-ant-plugin",
+            "bug_id": "AntMojo_115",
+            "npe_info": {
+                "filepath": "src/main/java/org/apache/maven/plugin/ant/AntMojo.java",
+                "line": 115,
+                "deref_field": "session",
+                "npe_class": "AntMojo",
+                "npe_method": "execute",
+                "sink_field": null,
+                "jvmti_identify_succeed": null,
+                "is_original": null
+            },
+            "build_info": {
+                "compiled": true,
+                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
+                "java_version": 8,
+                "error_message": null,
+                "time": 20.968177729053423
+            },
+            "test_info": {
+                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
+                "fail_buggy": true,
+                "pass_fixed": true,
+                "testcases": [
+                    {
+                        "classname": "org.apache.maven.plugin.ant.AntMojoTest",
+                        "method": "testProjectWithJavadoc",
+                        "exn_type": "java.lang.NullPointerException",
+                        "stack_trace": "java.lang.NullPointerException\n\tat org.apache.maven.plugin.ant.AntMojoTest.invokeAntMojo(AntMojoTest.java:105)\n\tat org.apache.maven.plugin.ant.AntMojoTest.testProjectWithNoDep(AntMojoTest.java:76)\n"
+                    },
+                    {
+                        "classname": "org.apache.maven.plugin.ant.AntMojoTest",
+                        "method": "testProjectWithNoDep",
+                        "exn_type": "java.lang.NullPointerException",
+                        "stack_trace": "java.lang.NullPointerException\n\tat org.apache.maven.plugin.ant.AntMojoTest.invokeAntMojo(AntMojoTest.java:105)\n\tat org.apache.maven.plugin.ant.AntMojoTest.testProjectWithNoDep(AntMojoTest.java:76)\n"
+                    },
+                    {
+                        "classname": "org.apache.maven.plugin.ant.AntMojoTest",
+                        "method": "testDefaultProject",
+                        "exn_type": "java.lang.NullPointerException",
+                        "stack_trace": "java.lang.NullPointerException\n\tat org.apache.maven.plugin.ant.AntMojoTest.invokeAntMojo(AntMojoTest.java:105)\n\tat org.apache.maven.plugin.ant.AntMojoTest.testProjectWithJavadoc(AntMojoTest.java:87)\n"
+                    },
+                    {
+                        "classname": "org.apache.maven.plugin.ant.AntMojoTest",
+                        "method": "testProjectWithNoDep",
+                        "exn_type": "java.lang.NullPointerException",
+                        "stack_trace": "java.lang.NullPointerException\n\tat org.apache.maven.plugin.ant.AntMojoTest.invokeAntMojo(AntMojoTest.java:105)\n\tat org.apache.maven.plugin.ant.AntMojoTest.testProjectWithJavadoc(AntMojoTest.java:87)\n"
+                    },
+                    {
+                        "classname": "org.apache.maven.plugin.ant.AntMojoTest",
+                        "method": "testProjectWithJavadoc",
+                        "exn_type": "java.lang.NullPointerException",
+                        "stack_trace": "java.lang.NullPointerException\n\tat org.apache.maven.plugin.ant.AntMojoTest.invokeAntMojo(AntMojoTest.java:105)\n\tat org.apache.maven.plugin.ant.AntMojoTest.testProjectWithJavadoc(AntMojoTest.java:87)\n"
+                    },
+                    {
+                        "classname": "org.apache.maven.plugin.ant.AntMojoTest",
+                        "method": "testDefaultProject",
+                        "exn_type": "java.lang.NullPointerException",
+                        "stack_trace": "java.lang.NullPointerException\n\tat org.apache.maven.plugin.ant.AntMojoTest.invokeAntMojo(AntMojoTest.java:105)\n\tat org.apache.maven.plugin.ant.AntMojoTest.testDefaultProject(AntMojoTest.java:65)\n"
+                    },
+                    {
+                        "classname": "org.apache.maven.plugin.ant.AntMojoTest",
+                        "method": "testDefaultProject",
+                        "exn_type": "java.lang.NullPointerException",
+                        "stack_trace": "java.lang.NullPointerException\n\tat org.apache.maven.plugin.ant.AntMojoTest.invokeAntMojo(AntMojoTest.java:105)\n\tat org.apache.maven.plugin.ant.AntMojoTest.testProjectWithNoDep(AntMojoTest.java:76)\n"
+                    },
+                    {
+                        "classname": "org.apache.maven.plugin.ant.AntMojoTest",
+                        "method": "testProjectWithNoDep",
+                        "exn_type": "java.lang.NullPointerException",
+                        "stack_trace": "java.lang.NullPointerException\n\tat org.apache.maven.plugin.ant.AntMojoTest.invokeAntMojo(AntMojoTest.java:105)\n\tat org.apache.maven.plugin.ant.AntMojoTest.testDefaultProject(AntMojoTest.java:65)\n"
+                    },
+                    {
+                        "classname": "org.apache.maven.plugin.ant.AntMojoTest",
+                        "method": "testProjectWithJavadoc",
+                        "exn_type": "java.lang.NullPointerException",
+                        "stack_trace": "java.lang.NullPointerException\n\tat org.apache.maven.plugin.ant.AntMojoTest.invokeAntMojo(AntMojoTest.java:105)\n\tat org.apache.maven.plugin.ant.AntMojoTest.testDefaultProject(AntMojoTest.java:65)\n"
+                    }
+                ]
+            }
+        },
+        {
+            "repo": "maven-ant-plugin",
+            "bug_id": "AntBuildWriter_232",
+            "npe_info": {
+                "filepath": "src/main/java/org/apache/maven/plugin/ant/AntBuildWriter.java",
+                "line": 234,
+                "deref_field": "getProperties()",
+                "npe_class": "AntBuildWriter",
+                "npe_method": "writeBuildProperties",
+                "sink_field": null,
+                "jvmti_identify_succeed": null,
+                "is_original": null
+            },
+            "build_info": {
+                "compiled": true,
+                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
+                "java_version": 8,
+                "error_message": null,
+                "time": 28.02168238698505
+            },
+            "test_info": {
+                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
+                "fail_buggy": false,
+                "pass_fixed": true,
+                "testcases": []
+            }
+        },
+        {
+            "repo": "maven-ant-plugin",
+            "bug_id": "AntBuildWriterUtil_333",
+            "npe_info": {
+                "filepath": "src/main/java/org/apache/maven/plugin/ant/AntBuildWriterUtil.java",
+                "line": 335,
+                "deref_field": "groups",
+                "npe_class": "AntBuildWriterUtil",
+                "npe_method": "writeJavadocTask",
+                "sink_field": null,
+                "jvmti_identify_succeed": null,
+                "is_original": null
+            },
+            "build_info": {
+                "compiled": true,
+                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
+                "java_version": 8,
+                "error_message": null,
+                "time": 22.666730682831258
+            },
+            "test_info": {
+                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
+                "fail_buggy": false,
+                "pass_fixed": true,
+                "testcases": []
+            }
+        },
+        {
+            "repo": "maven-ant-plugin",
+            "bug_id": "AntBuildWriterUtil_517",
+            "npe_info": {
+                "filepath": "src/main/java/org/apache/maven/plugin/ant/AntBuildWriterUtil.java",
+                "line": 519,
+                "deref_field": "getMavenWarPluginBasicOption(org.apache.maven.project.MavenProject,java.lang.String,java.lang.String)",
+                "npe_class": "AntBuildWriterUtil",
+                "npe_method": "writeWarTask",
+                "sink_field": null,
+                "jvmti_identify_succeed": null,
+                "is_original": null
+            },
+            "build_info": {
+                "compiled": true,
+                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
+                "java_version": 8,
+                "error_message": null,
+                "time": 20.118357375031337
+            },
+            "test_info": {
+                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
+                "fail_buggy": true,
+                "pass_fixed": true,
+                "testcases": []
+            }
+        },
+        {
+            "repo": "maven-ant-plugin",
+            "bug_id": "AntBuildWriter_1414",
+            "npe_info": {
+                "filepath": "src/main/java/org/apache/maven/plugin/ant/AntBuildWriter.java",
+                "line": 1416,
+                "deref_field": "localDir",
+                "npe_class": "AntBuildWriter",
+                "npe_method": "writeGetDepsTarget",
+                "sink_field": null,
+                "jvmti_identify_succeed": null,
+                "is_original": null
+            },
+            "build_info": {
+                "compiled": false,
+                "build_command": null,
+                "java_version": null,
+                "error_message": "UNKNOWN_ERROR",
+                "time": null
+            },
+            "test_info": null
+        },
+        {
+            "repo": "maven-ant-plugin",
+            "bug_id": "AntBuildWriter_721",
+            "npe_info": {
+                "filepath": "src/main/java/org/apache/maven/plugin/ant/AntBuildWriter.java",
+                "line": 723,
+                "deref_field": "getModules()",
+                "npe_class": "AntBuildWriter",
+                "npe_method": "writeCleanTarget",
+                "sink_field": null,
+                "jvmti_identify_succeed": null,
+                "is_original": null
+            },
+            "build_info": {
+                "compiled": true,
+                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
+                "java_version": 8,
+                "error_message": null,
+                "time": 21.60321549582295
+            },
+            "test_info": {
+                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
+                "fail_buggy": false,
+                "pass_fixed": true,
+                "testcases": []
+            }
+        },
+        {
+            "repo": "maven-ant-plugin",
+            "bug_id": "AntBuildWriter_1160",
+            "npe_info": {
+                "filepath": "src/main/java/org/apache/maven/plugin/ant/AntBuildWriter.java",
+                "line": 1166,
+                "deref_field": "synonym",
+                "npe_class": "AntBuildWriter",
+                "npe_method": "writePackageTarget",
+                "sink_field": null,
+                "jvmti_identify_succeed": null,
+                "is_original": null
+            },
+            "build_info": {
+                "compiled": true,
+                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
+                "java_version": 8,
+                "error_message": null,
+                "time": 19.484116239938885
+            },
+            "test_info": {
+                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
+                "fail_buggy": false,
+                "pass_fixed": true,
+                "testcases": []
+            }
+        },
+        {
+            "repo": "maven-ant-plugin",
+            "bug_id": "AntBuildWriterUtil_295",
+            "npe_info": {
+                "filepath": "src/main/java/org/apache/maven/plugin/ant/AntBuildWriterUtil.java",
+                "line": 298,
+                "deref_field": "footer",
+                "npe_class": "AntBuildWriterUtil",
+                "npe_method": "writeJavadocTask",
+                "sink_field": null,
+                "jvmti_identify_succeed": null,
+                "is_original": null
+            },
+            "build_info": {
+                "compiled": true,
+                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
+                "java_version": 8,
+                "error_message": null,
+                "time": 19.02069941489026
+            },
+            "test_info": {
+                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
+                "fail_buggy": false,
+                "pass_fixed": true,
+                "testcases": []
+            }
+        },
+        {
+            "repo": "maven-ant-plugin",
+            "bug_id": "AntBuildWriterUtil_1028",
+            "npe_info": {
+                "filepath": "src/main/java/org/apache/maven/plugin/ant/AntBuildWriterUtil.java",
+                "line": 1036,
+                "deref_field": "pluginConf",
+                "npe_class": "AntBuildWriterUtil",
+                "npe_method": "getMavenPluginConfigurationsImpl",
+                "sink_field": null,
+                "jvmti_identify_succeed": null,
+                "is_original": null
+            },
+            "build_info": {
+                "compiled": true,
+                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
+                "java_version": 8,
+                "error_message": null,
+                "time": 22.869880445068702
+            },
+            "test_info": {
+                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
+                "fail_buggy": false,
+                "pass_fixed": true,
+                "testcases": []
+            }
+        },
+        {
+            "repo": "maven-ant-plugin",
+            "bug_id": "AntBuildWriter_526",
+            "npe_info": {
+                "filepath": "src/main/java/org/apache/maven/plugin/ant/AntBuildWriter.java",
+                "line": 528,
+                "deref_field": "getTestResources()",
+                "npe_class": "AntBuildWriter",
+                "npe_method": "writeProperties",
+                "sink_field": null,
+                "jvmti_identify_succeed": null,
+                "is_original": null
+            },
+            "build_info": {
+                "compiled": true,
+                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
+                "java_version": 8,
+                "error_message": null,
+                "time": 24.977660031989217
+            },
+            "test_info": {
+                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
+                "fail_buggy": false,
+                "pass_fixed": true,
+                "testcases": []
+            }
+        },
+        {
+            "repo": "maven-ant-plugin",
+            "bug_id": "AntBuildWriter_759",
+            "npe_info": {
+                "filepath": "src/main/java/org/apache/maven/plugin/ant/AntBuildWriter.java",
+                "line": 761,
+                "deref_field": "getModules()",
+                "npe_class": "AntBuildWriter",
+                "npe_method": "writeCompileTarget",
+                "sink_field": null,
+                "jvmti_identify_succeed": null,
+                "is_original": null
+            },
+            "build_info": {
+                "compiled": true,
+                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
+                "java_version": 8,
+                "error_message": null,
+                "time": 21.363137789070606
+            },
+            "test_info": {
+                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
+                "fail_buggy": false,
+                "pass_fixed": true,
+                "testcases": []
+            }
+        }
+    ],
+    "repository_info": null
+}

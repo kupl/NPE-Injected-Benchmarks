@@ -1,0 +1,851 @@
+{
+    "repo": "sling-org-apache-sling-resourcemerger",
+    "bugs": [
+        {
+            "repo": "sling-org-apache-sling-resourcemerger",
+            "bug_id": "CRUDMergedResource_174",
+            "npe_info": {
+                "filepath": "src/main/java/org/apache/sling/resourcemerger/impl/CRUDMergedResource.java",
+                "line": 175,
+                "deref_field": "m",
+                "npe_class": "ModifiableProperties",
+                "npe_method": "putAll",
+                "sink_field": null,
+                "jvmti_identify_succeed": null,
+                "is_original": null
+            },
+            "build_info": {
+                "compiled": true,
+                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
+                "java_version": 8,
+                "error_message": null,
+                "time": 7.288219728972763
+            },
+            "test_info": {
+                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
+                "fail_buggy": false,
+                "pass_fixed": true,
+                "testcases": []
+            }
+        },
+        {
+            "repo": "sling-org-apache-sling-resourcemerger",
+            "bug_id": "CommonMergedResourceProviderTest_90",
+            "npe_info": {
+                "filepath": "src/test/java/org/apache/sling/resourcemerger/impl/CommonMergedResourceProviderTest.java",
+                "line": 85,
+                "deref_field": "resourceToPick",
+                "npe_class": "SimpleMergedResourcePicker",
+                "npe_method": "pickResources",
+                "sink_field": null,
+                "jvmti_identify_succeed": null,
+                "is_original": null
+            },
+            "build_info": {
+                "compiled": true,
+                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
+                "java_version": 8,
+                "error_message": null,
+                "time": 4.76955376798287
+            },
+            "test_info": {
+                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
+                "fail_buggy": false,
+                "pass_fixed": true,
+                "testcases": []
+            }
+        },
+        {
+            "repo": "sling-org-apache-sling-resourcemerger",
+            "bug_id": "SearchPathBasedResourcePicker_129",
+            "npe_info": {
+                "filepath": "src/main/java/org/apache/sling/resourcemerger/impl/picker/SearchPathBasedResourcePicker.java",
+                "line": 133,
+                "deref_field": "relativePath",
+                "npe_class": "SearchPathBasedResourcePicker",
+                "npe_method": "getMergedResourcePath",
+                "sink_field": null,
+                "jvmti_identify_succeed": null,
+                "is_original": null
+            },
+            "build_info": {
+                "compiled": true,
+                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
+                "java_version": 8,
+                "error_message": null,
+                "time": 4.5673537438269705
+            },
+            "test_info": {
+                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
+                "fail_buggy": false,
+                "pass_fixed": true,
+                "testcases": []
+            }
+        },
+        {
+            "repo": "sling-org-apache-sling-resourcemerger",
+            "bug_id": "MergingResourceProvider_313",
+            "npe_info": {
+                "filepath": "src/main/java/org/apache/sling/resourcemerger/impl/MergingResourceProvider.java",
+                "line": 317,
+                "deref_field": "handler",
+                "npe_class": "MergingResourceProvider",
+                "npe_method": "listChildren",
+                "sink_field": null,
+                "jvmti_identify_succeed": null,
+                "is_original": null
+            },
+            "build_info": {
+                "compiled": true,
+                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
+                "java_version": 8,
+                "error_message": null,
+                "time": 4.469906102167442
+            },
+            "test_info": {
+                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
+                "fail_buggy": true,
+                "pass_fixed": true,
+                "testcases": []
+            }
+        },
+        {
+            "repo": "sling-org-apache-sling-resourcemerger",
+            "bug_id": "ResourceTypeHierarchyBasedResourcePicker_107",
+            "npe_info": {
+                "filepath": "src/main/java/org/apache/sling/resourcemerger/impl/picker/ResourceTypeHierarchyBasedResourcePicker.java",
+                "line": 109,
+                "deref_field": "parent",
+                "npe_class": "ResourceTypeHierarchyBasedResourcePicker",
+                "npe_method": "findInheritanceRoot",
+                "sink_field": null,
+                "jvmti_identify_succeed": null,
+                "is_original": null
+            },
+            "build_info": {
+                "compiled": true,
+                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
+                "java_version": 8,
+                "error_message": null,
+                "time": 4.339791157050058
+            },
+            "test_info": {
+                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
+                "fail_buggy": false,
+                "pass_fixed": true,
+                "testcases": []
+            }
+        },
+        {
+            "repo": "sling-org-apache-sling-resourcemerger",
+            "bug_id": "CRUDMergingResourceProvider_81",
+            "npe_info": {
+                "filepath": "src/main/java/org/apache/sling/resourcemerger/impl/CRUDMergingResourceProvider.java",
+                "line": 81,
+                "deref_field": "parent",
+                "npe_class": "CRUDMergingResourceProvider",
+                "npe_method": "getAllResources",
+                "sink_field": null,
+                "jvmti_identify_succeed": null,
+                "is_original": null
+            },
+            "build_info": {
+                "compiled": true,
+                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
+                "java_version": 8,
+                "error_message": null,
+                "time": 4.188786510843784
+            },
+            "test_info": {
+                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
+                "fail_buggy": false,
+                "pass_fixed": true,
+                "testcases": []
+            }
+        },
+        {
+            "repo": "sling-org-apache-sling-resourcemerger",
+            "bug_id": "MergedResourcePickerWhiteboard_69",
+            "npe_info": {
+                "filepath": "src/main/java/org/apache/sling/resourcemerger/impl/MergedResourcePickerWhiteboard.java",
+                "line": 76,
+                "deref_field": "pickerObj",
+                "npe_class": "MergedResourcePickerWhiteboard",
+                "npe_method": "addingService",
+                "sink_field": null,
+                "jvmti_identify_succeed": null,
+                "is_original": null
+            },
+            "build_info": {
+                "compiled": true,
+                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
+                "java_version": 8,
+                "error_message": null,
+                "time": 6.598946186015382
+            },
+            "test_info": {
+                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
+                "fail_buggy": true,
+                "pass_fixed": true,
+                "testcases": []
+            }
+        },
+        {
+            "repo": "sling-org-apache-sling-resourcemerger",
+            "bug_id": "MergingResourceProvider_148",
+            "npe_info": {
+                "filepath": "src/main/java/org/apache/sling/resourcemerger/impl/MergingResourceProvider.java",
+                "line": 149,
+                "deref_field": "result",
+                "npe_class": "ParentHidingHandler",
+                "npe_method": "isHidden",
+                "sink_field": null,
+                "jvmti_identify_succeed": null,
+                "is_original": null
+            },
+            "build_info": {
+                "compiled": true,
+                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
+                "java_version": 8,
+                "error_message": null,
+                "time": 4.338640118017793
+            },
+            "test_info": {
+                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
+                "fail_buggy": true,
+                "pass_fixed": true,
+                "testcases": [
+                    {
+                        "classname": "org.apache.sling.resourcemerger.impl.CommonMergedResourceProviderTest",
+                        "method": "testHideChildrenBeingSetOnParent",
+                        "exn_type": "java.lang.NullPointerException:",
+                        "stack_trace": "java.lang.NullPointerException: null\n\tat org.apache.sling.resourcemerger.impl.MergingResourceProvider$ParentHidingHandler.isHidden(MergingResourceProvider.java:159)\n\tat org.apache.sling.resourcemerger.impl.MergingResourceProvider.listChildren(MergingResourceProvider.java:327)\n\tat org.apache.sling.resourcemerger.impl.CommonMergedResourceProviderTest.testHideChildrenWithResourceNamesStartingWithExclamationMark(CommonMergedResourceProviderTest.java:217)\n"
+                    },
+                    {
+                        "classname": "org.apache.sling.resourcemerger.impl.CommonMergedResourceProviderTest",
+                        "method": "testHideChildren",
+                        "exn_type": "java.lang.NullPointerException:",
+                        "stack_trace": "java.lang.NullPointerException: null\n\tat org.apache.sling.resourcemerger.impl.MergingResourceProvider$ParentHidingHandler.isHidden(MergingResourceProvider.java:159)\n\tat org.apache.sling.resourcemerger.impl.MergingResourceProvider.getResource(MergingResourceProvider.java:283)\n\tat org.apache.sling.resourcemerger.impl.CommonMergedResourceProviderTest.testHideChildrenBeingSetOnParent(CommonMergedResourceProviderTest.java:239)\n"
+                    },
+                    {
+                        "classname": "org.apache.sling.resourcemerger.impl.CommonMergedResourceProviderTest",
+                        "method": "testHideChildrenWithResourceNamesStartingWithExclamationMark",
+                        "exn_type": "java.lang.NullPointerException:",
+                        "stack_trace": "java.lang.NullPointerException: null\n\tat org.apache.sling.resourcemerger.impl.MergingResourceProvider$ParentHidingHandler.isHidden(MergingResourceProvider.java:159)\n\tat org.apache.sling.resourcemerger.impl.MergingResourceProvider.getResource(MergingResourceProvider.java:283)\n\tat org.apache.sling.resourcemerger.impl.CommonMergedResourceProviderTest.testHideChildrenBeingSetOnParent(CommonMergedResourceProviderTest.java:239)\n"
+                    },
+                    {
+                        "classname": "org.apache.sling.resourcemerger.impl.CommonMergedResourceProviderTest",
+                        "method": "testHideChildrenBeingSetOnParent",
+                        "exn_type": "java.lang.NullPointerException:",
+                        "stack_trace": "java.lang.NullPointerException: null\n\tat org.apache.sling.resourcemerger.impl.MergingResourceProvider$ParentHidingHandler.isHidden(MergingResourceProvider.java:159)\n\tat org.apache.sling.resourcemerger.impl.MergingResourceProvider.getResource(MergingResourceProvider.java:283)\n\tat org.apache.sling.resourcemerger.impl.CommonMergedResourceProviderTest.testHideChildrenBeingSetOnParent(CommonMergedResourceProviderTest.java:239)\n"
+                    },
+                    {
+                        "classname": "org.apache.sling.resourcemerger.impl.CommonMergedResourceProviderTest",
+                        "method": "testHideChildren",
+                        "exn_type": "java.lang.NullPointerException:",
+                        "stack_trace": "java.lang.NullPointerException: null\n\tat org.apache.sling.resourcemerger.impl.MergingResourceProvider$ParentHidingHandler.isHidden(MergingResourceProvider.java:159)\n\tat org.apache.sling.resourcemerger.impl.MergingResourceProvider.listChildren(MergingResourceProvider.java:354)\n\tat org.apache.sling.resourcemerger.impl.CommonMergedResourceProviderTest.testHideChildren(CommonMergedResourceProviderTest.java:138)\n"
+                    },
+                    {
+                        "classname": "org.apache.sling.resourcemerger.impl.CommonMergedResourceProviderTest",
+                        "method": "testHideChildrenWithResourceNamesStartingWithExclamationMark",
+                        "exn_type": "java.lang.NullPointerException:",
+                        "stack_trace": "java.lang.NullPointerException: null\n\tat org.apache.sling.resourcemerger.impl.MergingResourceProvider$ParentHidingHandler.isHidden(MergingResourceProvider.java:159)\n\tat org.apache.sling.resourcemerger.impl.MergingResourceProvider.listChildren(MergingResourceProvider.java:354)\n\tat org.apache.sling.resourcemerger.impl.CommonMergedResourceProviderTest.testHideChildren(CommonMergedResourceProviderTest.java:138)\n"
+                    },
+                    {
+                        "classname": "org.apache.sling.resourcemerger.impl.CommonMergedResourceProviderTest",
+                        "method": "testHideChildrenWithResourceNamesStartingWithExclamationMark",
+                        "exn_type": "java.lang.NullPointerException:",
+                        "stack_trace": "java.lang.NullPointerException: null\n\tat org.apache.sling.resourcemerger.impl.MergingResourceProvider$ParentHidingHandler.isHidden(MergingResourceProvider.java:159)\n\tat org.apache.sling.resourcemerger.impl.MergingResourceProvider.listChildren(MergingResourceProvider.java:327)\n\tat org.apache.sling.resourcemerger.impl.CommonMergedResourceProviderTest.testHideChildrenWithResourceNamesStartingWithExclamationMark(CommonMergedResourceProviderTest.java:217)\n"
+                    },
+                    {
+                        "classname": "org.apache.sling.resourcemerger.impl.CommonMergedResourceProviderTest",
+                        "method": "testHideChildren",
+                        "exn_type": "java.lang.NullPointerException:",
+                        "stack_trace": "java.lang.NullPointerException: null\n\tat org.apache.sling.resourcemerger.impl.MergingResourceProvider$ParentHidingHandler.isHidden(MergingResourceProvider.java:159)\n\tat org.apache.sling.resourcemerger.impl.MergingResourceProvider.listChildren(MergingResourceProvider.java:327)\n\tat org.apache.sling.resourcemerger.impl.CommonMergedResourceProviderTest.testHideChildrenWithResourceNamesStartingWithExclamationMark(CommonMergedResourceProviderTest.java:217)\n"
+                    },
+                    {
+                        "classname": "org.apache.sling.resourcemerger.impl.CommonMergedResourceProviderTest",
+                        "method": "testHideChildrenBeingSetOnParent",
+                        "exn_type": "java.lang.NullPointerException:",
+                        "stack_trace": "java.lang.NullPointerException: null\n\tat org.apache.sling.resourcemerger.impl.MergingResourceProvider$ParentHidingHandler.isHidden(MergingResourceProvider.java:159)\n\tat org.apache.sling.resourcemerger.impl.MergingResourceProvider.listChildren(MergingResourceProvider.java:354)\n\tat org.apache.sling.resourcemerger.impl.CommonMergedResourceProviderTest.testHideChildren(CommonMergedResourceProviderTest.java:138)\n"
+                    }
+                ]
+            }
+        },
+        {
+            "repo": "sling-org-apache-sling-resourcemerger",
+            "bug_id": "MergedResourcePickerWhiteboard_71",
+            "npe_info": {
+                "filepath": "src/main/java/org/apache/sling/resourcemerger/impl/MergedResourcePickerWhiteboard.java",
+                "line": 90,
+                "deref_field": "mergeRoot",
+                "npe_class": "MergedResourcePickerWhiteboard",
+                "npe_method": "addingService",
+                "sink_field": null,
+                "jvmti_identify_succeed": null,
+                "is_original": null
+            },
+            "build_info": {
+                "compiled": true,
+                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
+                "java_version": 8,
+                "error_message": null,
+                "time": 4.320087030995637
+            },
+            "test_info": {
+                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
+                "fail_buggy": true,
+                "pass_fixed": true,
+                "testcases": []
+            }
+        },
+        {
+            "repo": "sling-org-apache-sling-resourcemerger",
+            "bug_id": "MergingResourceProvider_145",
+            "npe_info": {
+                "filepath": "src/main/java/org/apache/sling/resourcemerger/impl/MergingResourceProvider.java",
+                "line": 146,
+                "deref_field": "this.entries",
+                "npe_class": "ParentHidingHandler",
+                "npe_method": "isHidden",
+                "sink_field": null,
+                "jvmti_identify_succeed": null,
+                "is_original": null
+            },
+            "build_info": {
+                "compiled": true,
+                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
+                "java_version": 8,
+                "error_message": null,
+                "time": 4.645359429996461
+            },
+            "test_info": {
+                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
+                "fail_buggy": false,
+                "pass_fixed": true,
+                "testcases": []
+            }
+        },
+        {
+            "repo": "sling-org-apache-sling-resourcemerger",
+            "bug_id": "MergedResourcePickerWhiteboard_119",
+            "npe_info": {
+                "filepath": "src/main/java/org/apache/sling/resourcemerger/impl/MergedResourcePickerWhiteboard.java",
+                "line": 120,
+                "deref_field": "reg",
+                "npe_class": "MergedResourcePickerWhiteboard",
+                "npe_method": "removedService",
+                "sink_field": null,
+                "jvmti_identify_succeed": null,
+                "is_original": null
+            },
+            "build_info": {
+                "compiled": true,
+                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
+                "java_version": 8,
+                "error_message": null,
+                "time": 4.603966424008831
+            },
+            "test_info": {
+                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
+                "fail_buggy": false,
+                "pass_fixed": true,
+                "testcases": []
+            }
+        },
+        {
+            "repo": "sling-org-apache-sling-resourcemerger",
+            "bug_id": "CRUDMergingResourceProvider_120",
+            "npe_info": {
+                "filepath": "src/main/java/org/apache/sling/resourcemerger/impl/CRUDMergingResourceProvider.java",
+                "line": 121,
+                "deref_field": "hidingResource",
+                "npe_class": "CRUDMergingResourceProvider",
+                "npe_method": "create",
+                "sink_field": null,
+                "jvmti_identify_succeed": null,
+                "is_original": null
+            },
+            "build_info": {
+                "compiled": true,
+                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
+                "java_version": 8,
+                "error_message": null,
+                "time": 5.364303273847327
+            },
+            "test_info": {
+                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
+                "fail_buggy": false,
+                "pass_fixed": true,
+                "testcases": []
+            }
+        },
+        {
+            "repo": "sling-org-apache-sling-resourcemerger",
+            "bug_id": "CRUDMergedResource_85",
+            "npe_info": {
+                "filepath": "src/main/java/org/apache/sling/resourcemerger/impl/CRUDMergedResource.java",
+                "line": 86,
+                "deref_field": "target",
+                "npe_class": "CRUDMergedResource",
+                "npe_method": "adaptTo",
+                "sink_field": null,
+                "jvmti_identify_succeed": null,
+                "is_original": null
+            },
+            "build_info": {
+                "compiled": true,
+                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
+                "java_version": 8,
+                "error_message": null,
+                "time": 4.32340519502759
+            },
+            "test_info": {
+                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
+                "fail_buggy": false,
+                "pass_fixed": true,
+                "testcases": []
+            }
+        },
+        {
+            "repo": "sling-org-apache-sling-resourcemerger",
+            "bug_id": "CommonMergedResourceProviderTest_84",
+            "npe_info": {
+                "filepath": "src/test/java/org/apache/sling/resourcemerger/impl/CommonMergedResourceProviderTest.java",
+                "line": 85,
+                "deref_field": "resourceToPick",
+                "npe_class": "SimpleMergedResourcePicker",
+                "npe_method": "pickResources",
+                "sink_field": null,
+                "jvmti_identify_succeed": null,
+                "is_original": null
+            },
+            "build_info": {
+                "compiled": true,
+                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
+                "java_version": 8,
+                "error_message": null,
+                "time": 4.758364760084078
+            },
+            "test_info": {
+                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
+                "fail_buggy": true,
+                "pass_fixed": true,
+                "testcases": [
+                    {
+                        "classname": "org.apache.sling.resourcemerger.impl.CommonMergedResourceProviderTest",
+                        "method": "testHideChildren",
+                        "exn_type": "java.lang.NullPointerException:",
+                        "stack_trace": "java.lang.NullPointerException: null\n\tat org.apache.sling.api.resource.ResourceUtil.isNonExistingResource(ResourceUtil.java:333)\n\tat org.apache.sling.resourcemerger.impl.MergingResourceProvider.getResource(MergingResourceProvider.java:280)\n\tat org.apache.sling.resourcemerger.impl.CommonMergedResourceProviderTest.testHideChildren(CommonMergedResourceProviderTest.java:169)\n"
+                    }
+                ]
+            }
+        },
+        {
+            "repo": "sling-org-apache-sling-resourcemerger",
+            "bug_id": "CRUDMergedResource_94",
+            "npe_info": {
+                "filepath": "src/main/java/org/apache/sling/resourcemerger/impl/CRUDMergedResource.java",
+                "line": 86,
+                "deref_field": "target",
+                "npe_class": "CRUDMergedResource",
+                "npe_method": "adaptTo",
+                "sink_field": null,
+                "jvmti_identify_succeed": null,
+                "is_original": null
+            },
+            "build_info": {
+                "compiled": true,
+                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
+                "java_version": 8,
+                "error_message": null,
+                "time": 3.7184732819441706
+            },
+            "test_info": {
+                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
+                "fail_buggy": true,
+                "pass_fixed": false,
+                "testcases": []
+            }
+        },
+        {
+            "repo": "sling-org-apache-sling-resourcemerger",
+            "bug_id": "ResourceMergerUtil_37",
+            "npe_info": {
+                "filepath": "src/main/java/org/apache/sling/resourcemerger/api/ResourceMergerUtil.java",
+                "line": 41,
+                "deref_field": "resource",
+                "npe_class": "ResourceMergerUtil",
+                "npe_method": "isMergedResource",
+                "sink_field": null,
+                "jvmti_identify_succeed": null,
+                "is_original": null
+            },
+            "build_info": {
+                "compiled": true,
+                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
+                "java_version": 8,
+                "error_message": null,
+                "time": 4.33691121195443
+            },
+            "test_info": {
+                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
+                "fail_buggy": true,
+                "pass_fixed": false,
+                "testcases": []
+            }
+        },
+        {
+            "repo": "sling-org-apache-sling-resourcemerger",
+            "bug_id": "MergingResourceProvider_251",
+            "npe_info": {
+                "filepath": "src/main/java/org/apache/sling/resourcemerger/impl/MergingResourceProvider.java",
+                "line": 255,
+                "deref_field": "relativePath",
+                "npe_class": "MergingResourceProvider",
+                "npe_method": "getResource",
+                "sink_field": null,
+                "jvmti_identify_succeed": null,
+                "is_original": null
+            },
+            "build_info": {
+                "compiled": true,
+                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
+                "java_version": 8,
+                "error_message": null,
+                "time": 4.314899586839601
+            },
+            "test_info": {
+                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
+                "fail_buggy": true,
+                "pass_fixed": false,
+                "testcases": []
+            }
+        },
+        {
+            "repo": "sling-org-apache-sling-resourcemerger",
+            "bug_id": "MergingResourceProvider_410",
+            "npe_info": {
+                "filepath": "src/main/java/org/apache/sling/resourcemerger/impl/MergingResourceProvider.java",
+                "line": 411,
+                "deref_field": "mergedResource",
+                "npe_class": "MergingResourceProvider",
+                "npe_method": "listChildren",
+                "sink_field": null,
+                "jvmti_identify_succeed": null,
+                "is_original": null
+            },
+            "build_info": {
+                "compiled": true,
+                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
+                "java_version": 8,
+                "error_message": null,
+                "time": 5.44181939586997
+            },
+            "test_info": {
+                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
+                "fail_buggy": true,
+                "pass_fixed": false,
+                "testcases": []
+            }
+        },
+        {
+            "repo": "sling-org-apache-sling-resourcemerger",
+            "bug_id": "ResourceTypeHierarchyBasedResourcePicker_85",
+            "npe_info": {
+                "filepath": "src/main/java/org/apache/sling/resourcemerger/impl/picker/ResourceTypeHierarchyBasedResourcePicker.java",
+                "line": 86,
+                "deref_field": "superTypeResource",
+                "npe_class": "ResourceTypeHierarchyBasedResourcePicker",
+                "npe_method": "pickResources",
+                "sink_field": null,
+                "jvmti_identify_succeed": null,
+                "is_original": null
+            },
+            "build_info": {
+                "compiled": true,
+                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
+                "java_version": 8,
+                "error_message": null,
+                "time": 4.157172742066905
+            },
+            "test_info": {
+                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
+                "fail_buggy": true,
+                "pass_fixed": false,
+                "testcases": []
+            }
+        },
+        {
+            "repo": "sling-org-apache-sling-resourcemerger",
+            "bug_id": "MergedResourceProviderTestForSearchPathBasedPicker_330",
+            "npe_info": {
+                "filepath": "src/test/java/org/apache/sling/resourcemerger/impl/MergedResourceProviderTestForSearchPathBasedPicker.java",
+                "line": 331,
+                "deref_field": "relatedPath",
+                "npe_class": "MergedResourceProviderTestForSearchPathBasedPicker",
+                "npe_method": "testGetWithRelatedResource",
+                "sink_field": null,
+                "jvmti_identify_succeed": null,
+                "is_original": null
+            },
+            "build_info": {
+                "compiled": true,
+                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
+                "java_version": 8,
+                "error_message": null,
+                "time": 4.372511194087565
+            },
+            "test_info": {
+                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
+                "fail_buggy": false,
+                "pass_fixed": false,
+                "testcases": []
+            }
+        },
+        {
+            "repo": "sling-org-apache-sling-resourcemerger",
+            "bug_id": "MergingResourceProvider_299",
+            "npe_info": {
+                "filepath": "src/main/java/org/apache/sling/resourcemerger/impl/MergingResourceProvider.java",
+                "line": 303,
+                "deref_field": "relativePath",
+                "npe_class": "MergingResourceProvider",
+                "npe_method": "listChildren",
+                "sink_field": null,
+                "jvmti_identify_succeed": null,
+                "is_original": null
+            },
+            "build_info": {
+                "compiled": true,
+                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
+                "java_version": 8,
+                "error_message": null,
+                "time": 4.230046252952889
+            },
+            "test_info": {
+                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
+                "fail_buggy": true,
+                "pass_fixed": true,
+                "testcases": []
+            }
+        },
+        {
+            "repo": "sling-org-apache-sling-resourcemerger",
+            "bug_id": "ResourceTypeHierarchyBasedResourcePicker_72",
+            "npe_info": {
+                "filepath": "src/main/java/org/apache/sling/resourcemerger/impl/picker/ResourceTypeHierarchyBasedResourcePicker.java",
+                "line": 75,
+                "deref_field": "info.resource",
+                "npe_class": "ResourceTypeHierarchyBasedResourcePicker",
+                "npe_method": "pickResources",
+                "sink_field": null,
+                "jvmti_identify_succeed": null,
+                "is_original": null
+            },
+            "build_info": {
+                "compiled": true,
+                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
+                "java_version": 8,
+                "error_message": null,
+                "time": 4.239767303923145
+            },
+            "test_info": {
+                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
+                "fail_buggy": false,
+                "pass_fixed": true,
+                "testcases": []
+            }
+        },
+        {
+            "repo": "sling-org-apache-sling-resourcemerger",
+            "bug_id": "SearchPathBasedResourcePicker_163",
+            "npe_info": {
+                "filepath": "src/main/java/org/apache/sling/resourcemerger/impl/picker/SearchPathBasedResourcePicker.java",
+                "line": 167,
+                "deref_field": "resource",
+                "npe_class": "SearchPathBasedResourcePicker",
+                "npe_method": "isMergedResource",
+                "sink_field": null,
+                "jvmti_identify_succeed": null,
+                "is_original": null
+            },
+            "build_info": {
+                "compiled": true,
+                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
+                "java_version": 8,
+                "error_message": null,
+                "time": 6.415067705092952
+            },
+            "test_info": {
+                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
+                "fail_buggy": false,
+                "pass_fixed": true,
+                "testcases": []
+            }
+        },
+        {
+            "repo": "sling-org-apache-sling-resourcemerger",
+            "bug_id": "StubResource_62",
+            "npe_info": {
+                "filepath": "src/main/java/org/apache/sling/resourcemerger/impl/StubResource.java",
+                "line": 63,
+                "deref_field": "parent",
+                "npe_class": "StubResource",
+                "npe_method": "getParent",
+                "sink_field": null,
+                "jvmti_identify_succeed": null,
+                "is_original": null
+            },
+            "build_info": {
+                "compiled": true,
+                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
+                "java_version": 8,
+                "error_message": null,
+                "time": 4.649392775027081
+            },
+            "test_info": {
+                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
+                "fail_buggy": false,
+                "pass_fixed": true,
+                "testcases": []
+            }
+        },
+        {
+            "repo": "sling-org-apache-sling-resourcemerger",
+            "bug_id": "SearchPathBasedResourcePicker_145",
+            "npe_info": {
+                "filepath": "src/main/java/org/apache/sling/resourcemerger/impl/picker/SearchPathBasedResourcePicker.java",
+                "line": 146,
+                "deref_field": "resource",
+                "npe_class": "SearchPathBasedResourcePicker",
+                "npe_method": "getMergedResource",
+                "sink_field": null,
+                "jvmti_identify_succeed": null,
+                "is_original": null
+            },
+            "build_info": {
+                "compiled": true,
+                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
+                "java_version": 8,
+                "error_message": null,
+                "time": 4.570158411981538
+            },
+            "test_info": {
+                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
+                "fail_buggy": false,
+                "pass_fixed": true,
+                "testcases": []
+            }
+        },
+        {
+            "repo": "sling-org-apache-sling-resourcemerger",
+            "bug_id": "SearchPathBasedResourcePicker_121",
+            "npe_info": {
+                "filepath": "src/main/java/org/apache/sling/resourcemerger/impl/picker/SearchPathBasedResourcePicker.java",
+                "line": 121,
+                "deref_field": "resource",
+                "npe_class": "SearchPathBasedResourcePicker",
+                "npe_method": "getFromBaseResource",
+                "sink_field": null,
+                "jvmti_identify_succeed": null,
+                "is_original": null
+            },
+            "build_info": {
+                "compiled": true,
+                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
+                "java_version": 8,
+                "error_message": null,
+                "time": 4.367579183075577
+            },
+            "test_info": {
+                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
+                "fail_buggy": false,
+                "pass_fixed": true,
+                "testcases": []
+            }
+        },
+        {
+            "repo": "sling-org-apache-sling-resourcemerger",
+            "bug_id": "MergingResourceProvider_238",
+            "npe_info": {
+                "filepath": "src/main/java/org/apache/sling/resourcemerger/impl/MergingResourceProvider.java",
+                "line": 241,
+                "deref_field": "parentPath",
+                "npe_class": "MergingResourceProvider",
+                "npe_method": "getParent",
+                "sink_field": null,
+                "jvmti_identify_succeed": null,
+                "is_original": null
+            },
+            "build_info": {
+                "compiled": true,
+                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
+                "java_version": 8,
+                "error_message": null,
+                "time": 4.293681385926902
+            },
+            "test_info": {
+                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
+                "fail_buggy": false,
+                "pass_fixed": true,
+                "testcases": []
+            }
+        },
+        {
+            "repo": "sling-org-apache-sling-resourcemerger",
+            "bug_id": "MergedResource_167",
+            "npe_info": {
+                "filepath": "src/main/java/org/apache/sling/resourcemerger/impl/MergedResource.java",
+                "line": 170,
+                "deref_field": "o",
+                "npe_class": "MergedResource",
+                "npe_method": "equals",
+                "sink_field": null,
+                "jvmti_identify_succeed": null,
+                "is_original": null
+            },
+            "build_info": {
+                "compiled": true,
+                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
+                "java_version": 8,
+                "error_message": null,
+                "time": 4.202654625987634
+            },
+            "test_info": {
+                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
+                "fail_buggy": false,
+                "pass_fixed": true,
+                "testcases": []
+            }
+        },
+        {
+            "repo": "sling-org-apache-sling-resourcemerger",
+            "bug_id": "SearchPathBasedResourcePicker_88",
+            "npe_info": {
+                "filepath": "src/main/java/org/apache/sling/resourcemerger/impl/picker/SearchPathBasedResourcePicker.java",
+                "line": 88,
+                "deref_field": "baseResource",
+                "npe_class": "SearchPathBasedResourcePicker",
+                "npe_method": "pickResources",
+                "sink_field": null,
+                "jvmti_identify_succeed": null,
+                "is_original": null
+            },
+            "build_info": {
+                "compiled": true,
+                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
+                "java_version": 8,
+                "error_message": null,
+                "time": 6.599117483012378
+            },
+            "test_info": {
+                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
+                "fail_buggy": false,
+                "pass_fixed": true,
+                "testcases": []
+            }
+        }
+    ],
+    "repository_info": null
+}

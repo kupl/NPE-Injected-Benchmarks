@@ -1,0 +1,733 @@
+{
+    "repo": "sling-org-apache-sling-repoinit-parser",
+    "bugs": [
+        {
+            "repo": "sling-org-apache-sling-repoinit-parser",
+            "bug_id": "PropertyLine_81",
+            "npe_info": {
+                "filepath": "src/main/java/org/apache/sling/repoinit/parser/operations/PropertyLine.java",
+                "line": 82,
+                "deref_field": "value",
+                "npe_class": "PropertyLine",
+                "npe_method": "parseValue",
+                "sink_field": null,
+                "jvmti_identify_succeed": null,
+                "is_original": null
+            },
+            "build_info": {
+                "compiled": true,
+                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
+                "java_version": 8,
+                "error_message": null,
+                "time": 17.118876175954938
+            },
+            "test_info": {
+                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
+                "fail_buggy": false,
+                "pass_fixed": true,
+                "testcases": []
+            }
+        },
+        {
+            "repo": "sling-org-apache-sling-repoinit-parser",
+            "bug_id": "RegisterNamespace_37",
+            "npe_info": {
+                "filepath": "src/main/java/org/apache/sling/repoinit/parser/operations/RegisterNamespace.java",
+                "line": 37,
+                "deref_field": "prefix",
+                "npe_class": "RegisterNamespace",
+                "npe_method": "getParametersDescription",
+                "sink_field": null,
+                "jvmti_identify_succeed": null,
+                "is_original": null
+            },
+            "build_info": {
+                "compiled": true,
+                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
+                "java_version": 8,
+                "error_message": null,
+                "time": 6.293060411931947
+            },
+            "test_info": {
+                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
+                "fail_buggy": false,
+                "pass_fixed": true,
+                "testcases": []
+            }
+        },
+        {
+            "repo": "sling-org-apache-sling-repoinit-parser",
+            "bug_id": "PropertyLine_70",
+            "npe_info": {
+                "filepath": "src/main/java/org/apache/sling/repoinit/parser/operations/PropertyLine.java",
+                "line": 74,
+                "deref_field": "values",
+                "npe_class": "PropertyLine",
+                "npe_method": "parseList",
+                "sink_field": null,
+                "jvmti_identify_succeed": null,
+                "is_original": null
+            },
+            "build_info": {
+                "compiled": true,
+                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
+                "java_version": 8,
+                "error_message": null,
+                "time": 17.534429862862453
+            },
+            "test_info": {
+                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
+                "fail_buggy": true,
+                "pass_fixed": true,
+                "testcases": [
+                    {
+                        "classname": "org.apache.sling.repoinit.parser.test.PropertyLineTest",
+                        "method": "testValidPropertyType",
+                        "exn_type": "java.lang.NullPointerException",
+                        "stack_trace": "java.lang.NullPointerException\n\tat org.apache.sling.repoinit.parser.test.PropertyLineTest.testDefaultPropertyType(PropertyLineTest.java:33)\n"
+                    },
+                    {
+                        "classname": "org.apache.sling.repoinit.parser.test.PropertyLineTest",
+                        "method": "testDefaultPropertyType",
+                        "exn_type": "java.lang.NullPointerException",
+                        "stack_trace": "java.lang.NullPointerException\n\tat org.apache.sling.repoinit.parser.test.PropertyLineTest.testValidPropertyType(PropertyLineTest.java:39)\n"
+                    },
+                    {
+                        "classname": "org.apache.sling.repoinit.parser.test.PropertyLineTest",
+                        "method": "testDefaultPropertyType",
+                        "exn_type": "java.lang.NullPointerException",
+                        "stack_trace": "java.lang.NullPointerException\n\tat org.apache.sling.repoinit.parser.test.PropertyLineTest.testDefaultPropertyType(PropertyLineTest.java:33)\n"
+                    },
+                    {
+                        "classname": "org.apache.sling.repoinit.parser.test.PropertyLineTest",
+                        "method": "testValidPropertyType",
+                        "exn_type": "java.lang.NullPointerException",
+                        "stack_trace": "java.lang.NullPointerException\n\tat org.apache.sling.repoinit.parser.test.PropertyLineTest.testValidPropertyType(PropertyLineTest.java:39)\n"
+                    }
+                ]
+            }
+        },
+        {
+            "repo": "sling-org-apache-sling-repoinit-parser",
+            "bug_id": "CreateGroup_52",
+            "npe_info": {
+                "filepath": "src/main/java/org/apache/sling/repoinit/parser/operations/CreateGroup.java",
+                "line": 53,
+                "deref_field": "path",
+                "npe_class": "CreateGroup",
+                "npe_method": "getParametersDescription",
+                "sink_field": null,
+                "jvmti_identify_succeed": null,
+                "is_original": null
+            },
+            "build_info": {
+                "compiled": true,
+                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
+                "java_version": 8,
+                "error_message": null,
+                "time": 20.47096374211833
+            },
+            "test_info": {
+                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
+                "fail_buggy": true,
+                "pass_fixed": true,
+                "testcases": [
+                    {
+                        "classname": "org.apache.sling.repoinit.parser.test.ParserTest",
+                        "method": "checkResult[/testcases/test-99.txt]",
+                        "exn_type": "org.junit.ComparisonFailure",
+                        "stack_trace": "org.junit.ComparisonFailure: \nexpected:<...eateGroup since124_A[]\nCreateGroup since12...> but was:<...eateGroup since124_A[ with path null]\nCreateGroup since12...>\n\tat org.apache.sling.repoinit.parser.test.ParserTest.checkResult(ParserTest.java:132)\n"
+                    },
+                    {
+                        "classname": "org.apache.sling.repoinit.parser.test.ParserTest",
+                        "method": "checkResult[/testcases/test-99.txt]",
+                        "exn_type": "org.junit.ComparisonFailure",
+                        "stack_trace": "org.junit.ComparisonFailure: \nexpected:<CreateGroup groupa[]\nCreateGroup groupb ...> but was:<CreateGroup groupa[ with path null]\nCreateGroup groupb ...>\n\tat org.apache.sling.repoinit.parser.test.ParserTest.checkResult(ParserTest.java:132)\n"
+                    },
+                    {
+                        "classname": "org.apache.sling.repoinit.parser.test.ParserTest",
+                        "method": "checkResult[/testcases/test-62.txt]",
+                        "exn_type": "org.junit.ComparisonFailure",
+                        "stack_trace": "org.junit.ComparisonFailure: \nexpected:<...eateGroup since124_A[]\nCreateGroup since12...> but was:<...eateGroup since124_A[ with path null]\nCreateGroup since12...>\n\tat org.apache.sling.repoinit.parser.test.ParserTest.checkResult(ParserTest.java:132)\n"
+                    },
+                    {
+                        "classname": "org.apache.sling.repoinit.parser.test.ParserTest",
+                        "method": "checkResult[/testcases/test-62.txt]",
+                        "exn_type": "org.junit.ComparisonFailure",
+                        "stack_trace": "org.junit.ComparisonFailure: \nexpected:<CreateGroup groupa[]\nCreateGroup groupb ...> but was:<CreateGroup groupa[ with path null]\nCreateGroup groupb ...>\n\tat org.apache.sling.repoinit.parser.test.ParserTest.checkResult(ParserTest.java:132)\n"
+                    }
+                ]
+            }
+        },
+        {
+            "repo": "sling-org-apache-sling-repoinit-parser",
+            "bug_id": "CreateUser_56",
+            "npe_info": {
+                "filepath": "src/main/java/org/apache/sling/repoinit/parser/operations/CreateUser.java",
+                "line": 57,
+                "deref_field": "path",
+                "npe_class": "CreateUser",
+                "npe_method": "getParametersDescription",
+                "sink_field": null,
+                "jvmti_identify_succeed": null,
+                "is_original": null
+            },
+            "build_info": {
+                "compiled": true,
+                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
+                "java_version": 8,
+                "error_message": null,
+                "time": 19.14186731609516
+            },
+            "test_info": {
+                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
+                "fail_buggy": true,
+                "pass_fixed": true,
+                "testcases": [
+                    {
+                        "classname": "org.apache.sling.repoinit.parser.test.ParserTest",
+                        "method": "checkResult[/testcases/test-99.txt]",
+                        "exn_type": "org.junit.ComparisonFailure",
+                        "stack_trace": "org.junit.ComparisonFailure: \nexpected:<...v2\nCreateUser userE [(with encoded password), password=afdgwdsdf, passwordEncoding=someEncoding\nCreateUser one_with-more-chars.ok:/123456] (with encoded passw...> but was:<...v2\nCreateUser userE [with path null (with encoded password), password=afdgwdsdf, passwordEncoding=someEncoding\nCreateUser one_with-more-chars.ok:/123456 with path null] (with encoded passw...>\n\tat org.apache.sling.repoinit.parser.test.ParserTest.checkResult(ParserTest.java:132)\n"
+                    },
+                    {
+                        "classname": "org.apache.sling.repoinit.parser.test.ParserTest",
+                        "method": "checkResult[/testcases/test-60.txt]",
+                        "exn_type": "org.junit.ComparisonFailure",
+                        "stack_trace": "org.junit.ComparisonFailure: \nexpected:<...erB\nCreateUser userB[\nCreateUser userC (with password), password=some_password\nCreateUser userD (with encoded password), password=dc460da4ad72c, passwordEncoding=SHA-256\nCreateUser userE (with encoded password), password=afdgwdsdf, passwordEncoding=someEncoding\nCreateUser one_with-more-chars.ok:/123456] (with encoded passw...> but was:<...erB\nCreateUser userB[ with path null\nCreateUser userC with path null (with password), password=some_password\nCreateUser userD with path null (with encoded password), password=dc460da4ad72c, passwordEncoding=SHA-256\nCreateUser userE with path null (with encoded password), password=afdgwdsdf, passwordEncoding=someEncoding\nCreateUser one_with-more-chars.ok:/123456 with path null] (with encoded passw...>\n\tat org.apache.sling.repoinit.parser.test.ParserTest.checkResult(ParserTest.java:132)\n"
+                    },
+                    {
+                        "classname": "org.apache.sling.repoinit.parser.test.ParserTest",
+                        "method": "checkResult[/testcases/test-60.txt]",
+                        "exn_type": "org.junit.ComparisonFailure",
+                        "stack_trace": "org.junit.ComparisonFailure: \nexpected:<...v2\nCreateUser userE [(with encoded password), password=afdgwdsdf, passwordEncoding=someEncoding\nCreateUser one_with-more-chars.ok:/123456] (with encoded passw...> but was:<...v2\nCreateUser userE [with path null (with encoded password), password=afdgwdsdf, passwordEncoding=someEncoding\nCreateUser one_with-more-chars.ok:/123456 with path null] (with encoded passw...>\n\tat org.apache.sling.repoinit.parser.test.ParserTest.checkResult(ParserTest.java:132)\n"
+                    },
+                    {
+                        "classname": "org.apache.sling.repoinit.parser.test.ParserTest",
+                        "method": "checkResult[/testcases/test-99.txt]",
+                        "exn_type": "org.junit.ComparisonFailure",
+                        "stack_trace": "org.junit.ComparisonFailure: \nexpected:<...erB\nCreateUser userB[\nCreateUser userC (with password), password=some_password\nCreateUser userD (with encoded password), password=dc460da4ad72c, passwordEncoding=SHA-256\nCreateUser userE (with encoded password), password=afdgwdsdf, passwordEncoding=someEncoding\nCreateUser one_with-more-chars.ok:/123456] (with encoded passw...> but was:<...erB\nCreateUser userB[ with path null\nCreateUser userC with path null (with password), password=some_password\nCreateUser userD with path null (with encoded password), password=dc460da4ad72c, passwordEncoding=SHA-256\nCreateUser userE with path null (with encoded password), password=afdgwdsdf, passwordEncoding=someEncoding\nCreateUser one_with-more-chars.ok:/123456 with path null] (with encoded passw...>\n\tat org.apache.sling.repoinit.parser.test.ParserTest.checkResult(ParserTest.java:132)\n"
+                    }
+                ]
+            }
+        },
+        {
+            "repo": "sling-org-apache-sling-repoinit-parser",
+            "bug_id": "OperationToStringVisitor_73",
+            "npe_info": {
+                "filepath": "src/test/java/org/apache/sling/repoinit/parser/test/OperationToStringVisitor.java",
+                "line": 74,
+                "deref_field": "getPasswordEncoding()",
+                "npe_class": "OperationToStringVisitor",
+                "npe_method": "visitCreateUser",
+                "sink_field": null,
+                "jvmti_identify_succeed": null,
+                "is_original": null
+            },
+            "build_info": {
+                "compiled": true,
+                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
+                "java_version": 8,
+                "error_message": null,
+                "time": 20.90223670285195
+            },
+            "test_info": {
+                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
+                "fail_buggy": true,
+                "pass_fixed": true,
+                "testcases": [
+                    {
+                        "classname": "org.apache.sling.repoinit.parser.test.ParserTest",
+                        "method": "checkResult[/testcases/test-60.txt]",
+                        "exn_type": "org.junit.ComparisonFailure",
+                        "stack_trace": "org.junit.ComparisonFailure: \nexpected:<...with path /for/userF[\nCreateUser userG with path /for/userG (with password), password=ggg\nCreateUser userH with path for/userH\nCreateUser userJ with path for/userJ (with password), password=jjj]\nCreateServiceUser t...> but was:<...with path /for/userF[, passwordEncoding=null\nCreateUser userG with path /for/userG (with password), password=ggg, passwordEncoding=null\nCreateUser userH with path for/userH, passwordEncoding=null\nCreateUser userJ with path for/userJ (with password), password=jjj, passwordEncoding=null]\nCreateServiceUser t...>\n\tat org.apache.sling.repoinit.parser.test.ParserTest.checkResult(ParserTest.java:132)\n"
+                    },
+                    {
+                        "classname": "org.apache.sling.repoinit.parser.test.ParserTest",
+                        "method": "checkResult[/testcases/test-99.txt]",
+                        "exn_type": "org.junit.ComparisonFailure",
+                        "stack_trace": "org.junit.ComparisonFailure: \nexpected:<...with path /for/userF[\nCreateUser userG with path /for/userG (with password), password=ggg\nCreateUser userH with path for/userH\nCreateUser userJ with path for/userJ (with password), password=jjj]\nCreateServiceUser t...> but was:<...with path /for/userF[, passwordEncoding=null\nCreateUser userG with path /for/userG (with password), password=ggg, passwordEncoding=null\nCreateUser userH with path for/userH, passwordEncoding=null\nCreateUser userJ with path for/userJ (with password), password=jjj, passwordEncoding=null]\nCreateServiceUser t...>\n\tat org.apache.sling.repoinit.parser.test.ParserTest.checkResult(ParserTest.java:132)\n"
+                    },
+                    {
+                        "classname": "org.apache.sling.repoinit.parser.test.ParserTest",
+                        "method": "checkResult[/testcases/test-60.txt]",
+                        "exn_type": "org.junit.ComparisonFailure",
+                        "stack_trace": "org.junit.ComparisonFailure: \nexpected:<...erB\nCreateUser userB[\nCreateUser userC (with password), password=some_password\nCreateUser userD (with encoded password), password=dc460da4ad72c, passwordEncoding=SHA-256\nCreateUser userE (with encoded password), password=afdgwdsdf, passwordEncoding=someEncoding\nCreateUser one_with-more-chars.ok:/123456 (with encoded password), password=pw-with.ok-:/13456, passwordEncoding=encoding_with.ok-:/12345\nCreateUser userF with path /thePathF\nCreateUser userG with path /thePathG (with encoded password), password=userGpwd, passwordEncoding=theEncoding\nCreateUser userH with path thePathH]\nCreateUser userJ wi...> but was:<...erB\nCreateUser userB[, passwordEncoding=null\nCreateUser userC (with password), password=some_password, passwordEncoding=null\nCreateUser userD (with encoded password), password=dc460da4ad72c, passwordEncoding=SHA-256\nCreateUser userE (with encoded password), password=afdgwdsdf, passwordEncoding=someEncoding\nCreateUser one_with-more-chars.ok:/123456 (with encoded password), password=pw-with.ok-:/13456, passwordEncoding=encoding_with.ok-:/12345\nCreateUser userF with path /thePathF, passwordEncoding=null\nCreateUser userG with path /thePathG (with encoded password), password=userGpwd, passwordEncoding=theEncoding\nCreateUser userH with path thePathH, passwordEncoding=null]\nCreateUser userJ wi...>\n\tat org.apache.sling.repoinit.parser.test.ParserTest.checkResult(ParserTest.java:132)\n"
+                    },
+                    {
+                        "classname": "org.apache.sling.repoinit.parser.test.ParserTest",
+                        "method": "checkResult[/testcases/test-99.txt]",
+                        "exn_type": "org.junit.ComparisonFailure",
+                        "stack_trace": "org.junit.ComparisonFailure: \nexpected:<...erB\nCreateUser userB[\nCreateUser userC (with password), password=some_password\nCreateUser userD (with encoded password), password=dc460da4ad72c, passwordEncoding=SHA-256\nCreateUser userE (with encoded password), password=afdgwdsdf, passwordEncoding=someEncoding\nCreateUser one_with-more-chars.ok:/123456 (with encoded password), password=pw-with.ok-:/13456, passwordEncoding=encoding_with.ok-:/12345\nCreateUser userF with path /thePathF\nCreateUser userG with path /thePathG (with encoded password), password=userGpwd, passwordEncoding=theEncoding\nCreateUser userH with path thePathH]\nCreateUser userJ wi...> but was:<...erB\nCreateUser userB[, passwordEncoding=null\nCreateUser userC (with password), password=some_password, passwordEncoding=null\nCreateUser userD (with encoded password), password=dc460da4ad72c, passwordEncoding=SHA-256\nCreateUser userE (with encoded password), password=afdgwdsdf, passwordEncoding=someEncoding\nCreateUser one_with-more-chars.ok:/123456 (with encoded password), password=pw-with.ok-:/13456, passwordEncoding=encoding_with.ok-:/12345\nCreateUser userF with path /thePathF, passwordEncoding=null\nCreateUser userG with path /thePathG (with encoded password), password=userGpwd, passwordEncoding=theEncoding\nCreateUser userH with path thePathH, passwordEncoding=null]\nCreateUser userJ wi...>\n\tat org.apache.sling.repoinit.parser.test.ParserTest.checkResult(ParserTest.java:132)\n"
+                    }
+                ]
+            }
+        },
+        {
+            "repo": "sling-org-apache-sling-repoinit-parser",
+            "bug_id": "Operation_32",
+            "npe_info": {
+                "filepath": "src/main/java/org/apache/sling/repoinit/parser/operations/Operation.java",
+                "line": 35,
+                "deref_field": "s",
+                "npe_class": "Operation",
+                "npe_method": "cleanupQuotedString",
+                "sink_field": null,
+                "jvmti_identify_succeed": null,
+                "is_original": null
+            },
+            "build_info": {
+                "compiled": true,
+                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
+                "java_version": 8,
+                "error_message": null,
+                "time": 21.166494617937133
+            },
+            "test_info": {
+                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
+                "fail_buggy": true,
+                "pass_fixed": true,
+                "testcases": [
+                    {
+                        "classname": "org.apache.sling.repoinit.parser.test.DisableServiceUserTest",
+                        "method": "nullReason",
+                        "exn_type": "java.lang.Exception",
+                        "stack_trace": "java.lang.Exception: Unexpected exception, expected<java.lang.IllegalArgumentException> but was<java.lang.NullPointerException>\n\tat org.apache.sling.repoinit.parser.test.DisableServiceUserTest.nullReason(DisableServiceUserTest.java:39)\n"
+                    }
+                ]
+            }
+        },
+        {
+            "repo": "sling-org-apache-sling-repoinit-parser",
+            "bug_id": "DisableServiceUser_35",
+            "npe_info": {
+                "filepath": "src/main/java/org/apache/sling/repoinit/parser/operations/DisableServiceUser.java",
+                "line": 37,
+                "deref_field": "reason",
+                "npe_class": "DisableServiceUser",
+                "npe_method": "getParametersDescription",
+                "sink_field": null,
+                "jvmti_identify_succeed": null,
+                "is_original": null
+            },
+            "build_info": {
+                "compiled": true,
+                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
+                "java_version": 8,
+                "error_message": null,
+                "time": 20.415516761131585
+            },
+            "test_info": {
+                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
+                "fail_buggy": false,
+                "pass_fixed": true,
+                "testcases": []
+            }
+        },
+        {
+            "repo": "sling-org-apache-sling-repoinit-parser",
+            "bug_id": "AclLine_74",
+            "npe_info": {
+                "filepath": "src/main/java/org/apache/sling/repoinit/parser/operations/AclLine.java",
+                "line": 74,
+                "deref_field": "restrictions",
+                "npe_class": "AclLine",
+                "npe_method": "getRestrictions",
+                "sink_field": null,
+                "jvmti_identify_succeed": null,
+                "is_original": null
+            },
+            "build_info": {
+                "compiled": true,
+                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
+                "java_version": 8,
+                "error_message": null,
+                "time": 21.190471241949126
+            },
+            "test_info": {
+                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
+                "fail_buggy": false,
+                "pass_fixed": true,
+                "testcases": []
+            }
+        },
+        {
+            "repo": "sling-org-apache-sling-repoinit-parser",
+            "bug_id": "CreateServiceUser_42",
+            "npe_info": {
+                "filepath": "src/main/java/org/apache/sling/repoinit/parser/operations/CreateServiceUser.java",
+                "line": 43,
+                "deref_field": "path",
+                "npe_class": "CreateServiceUser",
+                "npe_method": "getParametersDescription",
+                "sink_field": null,
+                "jvmti_identify_succeed": null,
+                "is_original": null
+            },
+            "build_info": {
+                "compiled": true,
+                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
+                "java_version": 8,
+                "error_message": null,
+                "time": 20.10745897400193
+            },
+            "test_info": {
+                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
+                "fail_buggy": true,
+                "pass_fixed": true,
+                "testcases": [
+                    {
+                        "classname": "org.apache.sling.repoinit.parser.test.ParserTest",
+                        "method": "checkResult[/testcases/test-2.txt]",
+                        "exn_type": "org.junit.ComparisonFailure",
+                        "stack_trace": "org.junit.ComparisonFailure: \nexpected:<...ateServiceUser user1[\nCreateServiceUser u-ser_2\nSetAclPaths on /libs /apps \n  AclLine REMOVE_ALL {principals=[user1, u-ser_2]}\n  AclLine ALLOW {principals=[user1, u-ser_2], privileges=[jcr:read]}\n  AclLine DENY {principals=[u-ser_2], privileges=[jcr:write]}\n  AclLine DENY {principals=[user1], privileges=[jcr:lockManagement]}\n  AclLine REMOVE {principals=[u3], privileges=[jcr:understand, some:other]}\nCreateServiceUser bob_the_service\nCreateServiceUser zoo_the_keeper with path relative/zoo\nCreateServiceUser zoo_the_keeper with path /absolute/zoo\nSetAclPaths on /tmp \n  AclLine ALLOW {principals=[bob_the_service], privileges=[some:otherPrivilege]}\nCreatePath [content, example.com(sling:Folder)]\nCreatePath [var(nt:unstructured)]\nSetAclPrincipals for alice bob fred \n  AclLine REMOVE_ALL {paths=[/]}\n  AclLine ALLOW {paths=[/content, /var], privileges=[jcr:read]}\n  AclLine DENY {paths=[/content/example.com], privileges=[jcr:write]}\n  AclLine DENY {nodetypes=[example:Page], paths=[/], privileges=[jcr:all]}\nSetAclPrincipals for restrictions_examples \n  AclLine DENY {nodetypes=[sling:Folder, nt:unstructured], paths=[/apps, /content], privileges=[jcr:modifyProperties]} restrictions=[rep:itemNames=[prop1, prop2]]\n  AclLine ALLOW {paths=[/apps], privileges=[jcr:addChildNodes]} restrictions=[rep:ntNames=[sling:Folder, nt:unstructured]]\n  AclLine ALLOW {paths=[/apps], privileges=[jcr:modifyProperties]} restrictions=[rep:ntNames=[sling:Folder, nt:unstructured], rep:itemNames=[prop1, prop2]]\n  AclLine ALLOW {paths=[/apps, /content], privileges=[jcr:addChildNodes]} restrictions=[rep:glob=[/cat/*, */cat, *cat/*]]\n  AclLine ALLOW {paths=[/], privileges=[jcr:something]} restrictions=[rep:glob=[]]\nRegisterNamespace (NSprefix) uri:someURI/v1.42\nRegisterNodetypes:\n    <slingevent='http://sling.apache.org/jcr/event/1.0'>\n    \n [slingevent:Event] > nt:unstructured, nt:hierarchyNode\n      - slingevent:topic (string)\n      - slingevent:properties (binary)\nregister privilege crx:replicate\nregister privilege priv\nregister abstract privilege abstract_priv\nregister privilege priv with declared_aggregate_priv\nregister privilege priv with declared_aggregate_priv1,declared_aggregate_priv2\nCreateUser userE (with encoded password), password=afdgwdsdf, passwordEncoding=someEncoding\nCreateUser one_with-more-chars.ok:/123456 (with encoded password), password=pw-with.ok-:/13456, passwordEncoding=encoding_with.ok-:/12345\nCreateUser userF with path /for/userF\nCreateUser userG with path /for/userG (with password), password=ggg\nCreateUser userH with path for/userH\nCreateUser userJ with path for/userJ (with password), password=jjj\nCreateServiceUser the-last-one]\nDisableServiceUser ...> but was:<...ateServiceUser user1[ with path null\nCreateServiceUser u-ser_2 with path null\nSetAclPaths on /libs /apps \n  AclLine REMOVE_ALL {principals=[user1, u-ser_2]}\n  AclLine ALLOW {principals=[user1, u-ser_2], privileges=[jcr:read]}\n  AclLine DENY {principals=[u-ser_2], privileges=[jcr:write]}\n  AclLine DENY {principals=[user1], privileges=[jcr:lockManagement]}\n  AclLine REMOVE {principals=[u3], privileges=[jcr:understand, some:other]}\nCreateServiceUser bob_the_service with path null\nCreateServiceUser zoo_the_keeper with path relative/zoo\nCreateServiceUser zoo_the_keeper with path /absolute/zoo\nSetAclPaths on /tmp \n  AclLine ALLOW {principals=[bob_the_service], privileges=[some:otherPrivilege]}\nCreatePath [content, example.com(sling:Folder)]\nCreatePath [var(nt:unstructured)]\nSetAclPrincipals for alice bob fred \n  AclLine REMOVE_ALL {paths=[/]}\n  AclLine ALLOW {paths=[/content, /var], privileges=[jcr:read]}\n  AclLine DENY {paths=[/content/example.com], privileges=[jcr:write]}\n  AclLine DENY {nodetypes=[example:Page], paths=[/], privileges=[jcr:all]}\nSetAclPrincipals for restrictions_examples \n  AclLine DENY {nodetypes=[sling:Folder, nt:unstructured], paths=[/apps, /content], privileges=[jcr:modifyProperties]} restrictions=[rep:itemNames=[prop1, prop2]]\n  AclLine ALLOW {paths=[/apps], privileges=[jcr:addChildNodes]} restrictions=[rep:ntNames=[sling:Folder, nt:unstructured]]\n  AclLine ALLOW {paths=[/apps], privileges=[jcr:modifyProperties]} restrictions=[rep:ntNames=[sling:Folder, nt:unstructured], rep:itemNames=[prop1, prop2]]\n  AclLine ALLOW {paths=[/apps, /content], privileges=[jcr:addChildNodes]} restrictions=[rep:glob=[/cat/*, */cat, *cat/*]]\n  AclLine ALLOW {paths=[/], privileges=[jcr:something]} restrictions=[rep:glob=[]]\nRegisterNamespace (NSprefix) uri:someURI/v1.42\nRegisterNodetypes:\n    <slingevent='http://sling.apache.org/jcr/event/1.0'>\n    \n [slingevent:Event] > nt:unstructured, nt:hierarchyNode\n      - slingevent:topic (string)\n      - slingevent:properties (binary)\nregister privilege crx:replicate\nregister privilege priv\nregister abstract privilege abstract_priv\nregister privilege priv with declared_aggregate_priv\nregister privilege priv with declared_aggregate_priv1,declared_aggregate_priv2\nCreateUser userE (with encoded password), password=afdgwdsdf, passwordEncoding=someEncoding\nCreateUser one_with-more-chars.ok:/123456 (with encoded password), password=pw-with.ok-:/13456, passwordEncoding=encoding_with.ok-:/12345\nCreateUser userF with path /for/userF\nCreateUser userG with path /for/userG (with password), password=ggg\nCreateUser userH with path for/userH\nCreateUser userJ with path for/userJ (with password), password=jjj\nCreateServiceUser the-last-one with path null]\nDisableServiceUser ...>\n\tat org.apache.sling.repoinit.parser.test.ParserTest.checkResult(ParserTest.java:132)\n"
+                    },
+                    {
+                        "classname": "org.apache.sling.repoinit.parser.test.ParserTest",
+                        "method": "checkResult[/testcases/test-5.txt]",
+                        "exn_type": "org.junit.ComparisonFailure",
+                        "stack_trace": "org.junit.ComparisonFailure: expected:<...comments_test_passed[]> but was:<...comments_test_passed[ with path null]>\n\tat org.apache.sling.repoinit.parser.test.ParserTest.checkResult(ParserTest.java:132)\n"
+                    },
+                    {
+                        "classname": "org.apache.sling.repoinit.parser.test.ParserTest",
+                        "method": "checkResult[/testcases/test-99.txt]",
+                        "exn_type": "org.junit.ComparisonFailure",
+                        "stack_trace": "org.junit.ComparisonFailure: \nexpected:<...eServiceUser Mark-21[]\nDeleteServiceUser L...> but was:<...eServiceUser Mark-21[ with path null]\nDeleteServiceUser L...>\n\tat org.apache.sling.repoinit.parser.test.ParserTest.checkResult(ParserTest.java:132)\n"
+                    },
+                    {
+                        "classname": "org.apache.sling.repoinit.parser.test.ParserTest",
+                        "method": "checkResult[/testcases/test-1.txt]",
+                        "exn_type": "org.junit.ComparisonFailure",
+                        "stack_trace": "org.junit.ComparisonFailure: \nexpected:<...reateServiceUser bob[\nCreateServiceUser alice\nCreateServiceUser tom21\nCreateServiceUser lonesome]\nCreateServiceUser p...> but was:<...reateServiceUser bob[ with path null\nCreateServiceUser alice with path null\nCreateServiceUser tom21 with path null\nCreateServiceUser lonesome with path null]\nCreateServiceUser p...>\n\tat org.apache.sling.repoinit.parser.test.ParserTest.checkResult(ParserTest.java:132)\n"
+                    },
+                    {
+                        "classname": "org.apache.sling.repoinit.parser.test.ParserTest",
+                        "method": "checkResult[/testcases/test-4.txt]",
+                        "exn_type": "org.junit.ComparisonFailure",
+                        "stack_trace": "org.junit.ComparisonFailure: \nexpected:<...eServiceUser Mark-21[]\nDeleteServiceUser L...> but was:<...eServiceUser Mark-21[ with path null]\nDeleteServiceUser L...>\n\tat org.apache.sling.repoinit.parser.test.ParserTest.checkResult(ParserTest.java:132)\n"
+                    },
+                    {
+                        "classname": "org.apache.sling.repoinit.parser.test.ParserTest",
+                        "method": "checkResult[/testcases/test-2.txt]",
+                        "exn_type": "org.junit.ComparisonFailure",
+                        "stack_trace": "org.junit.ComparisonFailure: expected:<...comments_test_passed[]> but was:<...comments_test_passed[ with path null]>\n\tat org.apache.sling.repoinit.parser.test.ParserTest.checkResult(ParserTest.java:132)\n"
+                    },
+                    {
+                        "classname": "org.apache.sling.repoinit.parser.test.ParserTest",
+                        "method": "checkResult[/testcases/test-99.txt]",
+                        "exn_type": "org.junit.ComparisonFailure",
+                        "stack_trace": "org.junit.ComparisonFailure: \nexpected:<...ateServiceUser user1[\nCreateServiceUser u-ser_2\nSetAclPaths on /libs /apps \n  AclLine REMOVE_ALL {principals=[user1, u-ser_2]}\n  AclLine ALLOW {principals=[user1, u-ser_2], privileges=[jcr:read]}\n  AclLine DENY {principals=[u-ser_2], privileges=[jcr:write]}\n  AclLine DENY {principals=[user1], privileges=[jcr:lockManagement]}\n  AclLine REMOVE {principals=[u3], privileges=[jcr:understand, some:other]}\nCreateServiceUser bob_the_service\nCreateServiceUser zoo_the_keeper with path relative/zoo\nCreateServiceUser zoo_the_keeper with path /absolute/zoo\nSetAclPaths on /tmp \n  AclLine ALLOW {principals=[bob_the_service], privileges=[some:otherPrivilege]}\nCreatePath [content, example.com(sling:Folder)]\nCreatePath [var(nt:unstructured)]\nSetAclPrincipals for alice bob fred \n  AclLine REMOVE_ALL {paths=[/]}\n  AclLine ALLOW {paths=[/content, /var], privileges=[jcr:read]}\n  AclLine DENY {paths=[/content/example.com], privileges=[jcr:write]}\n  AclLine DENY {nodetypes=[example:Page], paths=[/], privileges=[jcr:all]}\nSetAclPrincipals for restrictions_examples \n  AclLine DENY {nodetypes=[sling:Folder, nt:unstructured], paths=[/apps, /content], privileges=[jcr:modifyProperties]} restrictions=[rep:itemNames=[prop1, prop2]]\n  AclLine ALLOW {paths=[/apps], privileges=[jcr:addChildNodes]} restrictions=[rep:ntNames=[sling:Folder, nt:unstructured]]\n  AclLine ALLOW {paths=[/apps], privileges=[jcr:modifyProperties]} restrictions=[rep:ntNames=[sling:Folder, nt:unstructured], rep:itemNames=[prop1, prop2]]\n  AclLine ALLOW {paths=[/apps, /content], privileges=[jcr:addChildNodes]} restrictions=[rep:glob=[/cat/*, */cat, *cat/*]]\n  AclLine ALLOW {paths=[/], privileges=[jcr:something]} restrictions=[rep:glob=[]]\nRegisterNamespace (NSprefix) uri:someURI/v1.42\nRegisterNodetypes:\n    <slingevent='http://sling.apache.org/jcr/event/1.0'>\n    \n [slingevent:Event] > nt:unstructured, nt:hierarchyNode\n      - slingevent:topic (string)\n      - slingevent:properties (binary)\nregister privilege crx:replicate\nregister privilege priv\nregister abstract privilege abstract_priv\nregister privilege priv with declared_aggregate_priv\nregister privilege priv with declared_aggregate_priv1,declared_aggregate_priv2\nCreateUser userE (with encoded password), password=afdgwdsdf, passwordEncoding=someEncoding\nCreateUser one_with-more-chars.ok:/123456 (with encoded password), password=pw-with.ok-:/13456, passwordEncoding=encoding_with.ok-:/12345\nCreateUser userF with path /for/userF\nCreateUser userG with path /for/userG (with password), password=ggg\nCreateUser userH with path for/userH\nCreateUser userJ with path for/userJ (with password), password=jjj\nCreateServiceUser the-last-one]\nDisableServiceUser ...> but was:<...ateServiceUser user1[ with path null\nCreateServiceUser u-ser_2 with path null\nSetAclPaths on /libs /apps \n  AclLine REMOVE_ALL {principals=[user1, u-ser_2]}\n  AclLine ALLOW {principals=[user1, u-ser_2], privileges=[jcr:read]}\n  AclLine DENY {principals=[u-ser_2], privileges=[jcr:write]}\n  AclLine DENY {principals=[user1], privileges=[jcr:lockManagement]}\n  AclLine REMOVE {principals=[u3], privileges=[jcr:understand, some:other]}\nCreateServiceUser bob_the_service with path null\nCreateServiceUser zoo_the_keeper with path relative/zoo\nCreateServiceUser zoo_the_keeper with path /absolute/zoo\nSetAclPaths on /tmp \n  AclLine ALLOW {principals=[bob_the_service], privileges=[some:otherPrivilege]}\nCreatePath [content, example.com(sling:Folder)]\nCreatePath [var(nt:unstructured)]\nSetAclPrincipals for alice bob fred \n  AclLine REMOVE_ALL {paths=[/]}\n  AclLine ALLOW {paths=[/content, /var], privileges=[jcr:read]}\n  AclLine DENY {paths=[/content/example.com], privileges=[jcr:write]}\n  AclLine DENY {nodetypes=[example:Page], paths=[/], privileges=[jcr:all]}\nSetAclPrincipals for restrictions_examples \n  AclLine DENY {nodetypes=[sling:Folder, nt:unstructured], paths=[/apps, /content], privileges=[jcr:modifyProperties]} restrictions=[rep:itemNames=[prop1, prop2]]\n  AclLine ALLOW {paths=[/apps], privileges=[jcr:addChildNodes]} restrictions=[rep:ntNames=[sling:Folder, nt:unstructured]]\n  AclLine ALLOW {paths=[/apps], privileges=[jcr:modifyProperties]} restrictions=[rep:ntNames=[sling:Folder, nt:unstructured], rep:itemNames=[prop1, prop2]]\n  AclLine ALLOW {paths=[/apps, /content], privileges=[jcr:addChildNodes]} restrictions=[rep:glob=[/cat/*, */cat, *cat/*]]\n  AclLine ALLOW {paths=[/], privileges=[jcr:something]} restrictions=[rep:glob=[]]\nRegisterNamespace (NSprefix) uri:someURI/v1.42\nRegisterNodetypes:\n    <slingevent='http://sling.apache.org/jcr/event/1.0'>\n    \n [slingevent:Event] > nt:unstructured, nt:hierarchyNode\n      - slingevent:topic (string)\n      - slingevent:properties (binary)\nregister privilege crx:replicate\nregister privilege priv\nregister abstract privilege abstract_priv\nregister privilege priv with declared_aggregate_priv\nregister privilege priv with declared_aggregate_priv1,declared_aggregate_priv2\nCreateUser userE (with encoded password), password=afdgwdsdf, passwordEncoding=someEncoding\nCreateUser one_with-more-chars.ok:/123456 (with encoded password), password=pw-with.ok-:/13456, passwordEncoding=encoding_with.ok-:/12345\nCreateUser userF with path /for/userF\nCreateUser userG with path /for/userG (with password), password=ggg\nCreateUser userH with path for/userH\nCreateUser userJ with path for/userJ (with password), password=jjj\nCreateServiceUser the-last-one with path null]\nDisableServiceUser ...>\n\tat org.apache.sling.repoinit.parser.test.ParserTest.checkResult(ParserTest.java:132)\n"
+                    },
+                    {
+                        "classname": "org.apache.sling.repoinit.parser.test.ParserTest",
+                        "method": "checkResult[/testcases/test-4.txt]",
+                        "exn_type": "org.junit.ComparisonFailure",
+                        "stack_trace": "org.junit.ComparisonFailure: \nexpected:<...ateServiceUser user1[\nCreateServiceUser u-ser_2\nSetAclPaths on /libs /apps \n  AclLine REMOVE_ALL {principals=[user1, u-ser_2]}\n  AclLine ALLOW {principals=[user1, u-ser_2], privileges=[jcr:read]}\n  AclLine DENY {principals=[u-ser_2], privileges=[jcr:write]}\n  AclLine DENY {principals=[user1], privileges=[jcr:lockManagement]}\n  AclLine REMOVE {principals=[u3], privileges=[jcr:understand, some:other]}\nCreateServiceUser bob_the_service\nCreateServiceUser zoo_the_keeper with path relative/zoo\nCreateServiceUser zoo_the_keeper with path /absolute/zoo\nSetAclPaths on /tmp \n  AclLine ALLOW {principals=[bob_the_service], privileges=[some:otherPrivilege]}\nCreatePath [content, example.com(sling:Folder)]\nCreatePath [var(nt:unstructured)]\nSetAclPrincipals for alice bob fred \n  AclLine REMOVE_ALL {paths=[/]}\n  AclLine ALLOW {paths=[/content, /var], privileges=[jcr:read]}\n  AclLine DENY {paths=[/content/example.com], privileges=[jcr:write]}\n  AclLine DENY {nodetypes=[example:Page], paths=[/], privileges=[jcr:all]}\nSetAclPrincipals for restrictions_examples \n  AclLine DENY {nodetypes=[sling:Folder, nt:unstructured], paths=[/apps, /content], privileges=[jcr:modifyProperties]} restrictions=[rep:itemNames=[prop1, prop2]]\n  AclLine ALLOW {paths=[/apps], privileges=[jcr:addChildNodes]} restrictions=[rep:ntNames=[sling:Folder, nt:unstructured]]\n  AclLine ALLOW {paths=[/apps], privileges=[jcr:modifyProperties]} restrictions=[rep:ntNames=[sling:Folder, nt:unstructured], rep:itemNames=[prop1, prop2]]\n  AclLine ALLOW {paths=[/apps, /content], privileges=[jcr:addChildNodes]} restrictions=[rep:glob=[/cat/*, */cat, *cat/*]]\n  AclLine ALLOW {paths=[/], privileges=[jcr:something]} restrictions=[rep:glob=[]]\nRegisterNamespace (NSprefix) uri:someURI/v1.42\nRegisterNodetypes:\n    <slingevent='http://sling.apache.org/jcr/event/1.0'>\n    \n [slingevent:Event] > nt:unstructured, nt:hierarchyNode\n      - slingevent:topic (string)\n      - slingevent:properties (binary)\nregister privilege crx:replicate\nregister privilege priv\nregister abstract privilege abstract_priv\nregister privilege priv with declared_aggregate_priv\nregister privilege priv with declared_aggregate_priv1,declared_aggregate_priv2\nCreateUser userE (with encoded password), password=afdgwdsdf, passwordEncoding=someEncoding\nCreateUser one_with-more-chars.ok:/123456 (with encoded password), password=pw-with.ok-:/13456, passwordEncoding=encoding_with.ok-:/12345\nCreateUser userF with path /for/userF\nCreateUser userG with path /for/userG (with password), password=ggg\nCreateUser userH with path for/userH\nCreateUser userJ with path for/userJ (with password), password=jjj\nCreateServiceUser the-last-one]\nDisableServiceUser ...> but was:<...ateServiceUser user1[ with path null\nCreateServiceUser u-ser_2 with path null\nSetAclPaths on /libs /apps \n  AclLine REMOVE_ALL {principals=[user1, u-ser_2]}\n  AclLine ALLOW {principals=[user1, u-ser_2], privileges=[jcr:read]}\n  AclLine DENY {principals=[u-ser_2], privileges=[jcr:write]}\n  AclLine DENY {principals=[user1], privileges=[jcr:lockManagement]}\n  AclLine REMOVE {principals=[u3], privileges=[jcr:understand, some:other]}\nCreateServiceUser bob_the_service with path null\nCreateServiceUser zoo_the_keeper with path relative/zoo\nCreateServiceUser zoo_the_keeper with path /absolute/zoo\nSetAclPaths on /tmp \n  AclLine ALLOW {principals=[bob_the_service], privileges=[some:otherPrivilege]}\nCreatePath [content, example.com(sling:Folder)]\nCreatePath [var(nt:unstructured)]\nSetAclPrincipals for alice bob fred \n  AclLine REMOVE_ALL {paths=[/]}\n  AclLine ALLOW {paths=[/content, /var], privileges=[jcr:read]}\n  AclLine DENY {paths=[/content/example.com], privileges=[jcr:write]}\n  AclLine DENY {nodetypes=[example:Page], paths=[/], privileges=[jcr:all]}\nSetAclPrincipals for restrictions_examples \n  AclLine DENY {nodetypes=[sling:Folder, nt:unstructured], paths=[/apps, /content], privileges=[jcr:modifyProperties]} restrictions=[rep:itemNames=[prop1, prop2]]\n  AclLine ALLOW {paths=[/apps], privileges=[jcr:addChildNodes]} restrictions=[rep:ntNames=[sling:Folder, nt:unstructured]]\n  AclLine ALLOW {paths=[/apps], privileges=[jcr:modifyProperties]} restrictions=[rep:ntNames=[sling:Folder, nt:unstructured], rep:itemNames=[prop1, prop2]]\n  AclLine ALLOW {paths=[/apps, /content], privileges=[jcr:addChildNodes]} restrictions=[rep:glob=[/cat/*, */cat, *cat/*]]\n  AclLine ALLOW {paths=[/], privileges=[jcr:something]} restrictions=[rep:glob=[]]\nRegisterNamespace (NSprefix) uri:someURI/v1.42\nRegisterNodetypes:\n    <slingevent='http://sling.apache.org/jcr/event/1.0'>\n    \n [slingevent:Event] > nt:unstructured, nt:hierarchyNode\n      - slingevent:topic (string)\n      - slingevent:properties (binary)\nregister privilege crx:replicate\nregister privilege priv\nregister abstract privilege abstract_priv\nregister privilege priv with declared_aggregate_priv\nregister privilege priv with declared_aggregate_priv1,declared_aggregate_priv2\nCreateUser userE (with encoded password), password=afdgwdsdf, passwordEncoding=someEncoding\nCreateUser one_with-more-chars.ok:/123456 (with encoded password), password=pw-with.ok-:/13456, passwordEncoding=encoding_with.ok-:/12345\nCreateUser userF with path /for/userF\nCreateUser userG with path /for/userG (with password), password=ggg\nCreateUser userH with path for/userH\nCreateUser userJ with path for/userJ (with password), password=jjj\nCreateServiceUser the-last-one with path null]\nDisableServiceUser ...>\n\tat org.apache.sling.repoinit.parser.test.ParserTest.checkResult(ParserTest.java:132)\n"
+                    },
+                    {
+                        "classname": "org.apache.sling.repoinit.parser.test.ParserTest",
+                        "method": "checkResult[/testcases/test-3.txt]",
+                        "exn_type": "org.junit.ComparisonFailure",
+                        "stack_trace": "org.junit.ComparisonFailure: \nexpected:<...eServiceUser Mark-21[]\nDeleteServiceUser L...> but was:<...eServiceUser Mark-21[ with path null]\nDeleteServiceUser L...>\n\tat org.apache.sling.repoinit.parser.test.ParserTest.checkResult(ParserTest.java:132)\n"
+                    },
+                    {
+                        "classname": "org.apache.sling.repoinit.parser.test.ParserTest",
+                        "method": "checkResult[/testcases/test-5.txt]",
+                        "exn_type": "org.junit.ComparisonFailure",
+                        "stack_trace": "org.junit.ComparisonFailure: \nexpected:<...reateServiceUser bob[\nCreateServiceUser alice\nCreateServiceUser tom21\nCreateServiceUser lonesome]\nCreateServiceUser p...> but was:<...reateServiceUser bob[ with path null\nCreateServiceUser alice with path null\nCreateServiceUser tom21 with path null\nCreateServiceUser lonesome with path null]\nCreateServiceUser p...>\n\tat org.apache.sling.repoinit.parser.test.ParserTest.checkResult(ParserTest.java:132)\n"
+                    },
+                    {
+                        "classname": "org.apache.sling.repoinit.parser.test.ParserTest",
+                        "method": "checkResult[/testcases/test-99.txt]",
+                        "exn_type": "org.junit.ComparisonFailure",
+                        "stack_trace": "org.junit.ComparisonFailure: expected:<...comments_test_passed[]> but was:<...comments_test_passed[ with path null]>\n\tat org.apache.sling.repoinit.parser.test.ParserTest.checkResult(ParserTest.java:132)\n"
+                    },
+                    {
+                        "classname": "org.apache.sling.repoinit.parser.test.ParserTest",
+                        "method": "checkResult[/testcases/test-2.txt]",
+                        "exn_type": "org.junit.ComparisonFailure",
+                        "stack_trace": "org.junit.ComparisonFailure: \nexpected:<...reateServiceUser bob[\nCreateServiceUser alice\nCreateServiceUser tom21\nCreateServiceUser lonesome]\nCreateServiceUser p...> but was:<...reateServiceUser bob[ with path null\nCreateServiceUser alice with path null\nCreateServiceUser tom21 with path null\nCreateServiceUser lonesome with path null]\nCreateServiceUser p...>\n\tat org.apache.sling.repoinit.parser.test.ParserTest.checkResult(ParserTest.java:132)\n"
+                    },
+                    {
+                        "classname": "org.apache.sling.repoinit.parser.test.ParserTest",
+                        "method": "checkResult[/testcases/test-3.txt]",
+                        "exn_type": "org.junit.ComparisonFailure",
+                        "stack_trace": "org.junit.ComparisonFailure: \nexpected:<...ateServiceUser user1[\nCreateServiceUser u-ser_2\nSetAclPaths on /libs /apps \n  AclLine REMOVE_ALL {principals=[user1, u-ser_2]}\n  AclLine ALLOW {principals=[user1, u-ser_2], privileges=[jcr:read]}\n  AclLine DENY {principals=[u-ser_2], privileges=[jcr:write]}\n  AclLine DENY {principals=[user1], privileges=[jcr:lockManagement]}\n  AclLine REMOVE {principals=[u3], privileges=[jcr:understand, some:other]}\nCreateServiceUser bob_the_service\nCreateServiceUser zoo_the_keeper with path relative/zoo\nCreateServiceUser zoo_the_keeper with path /absolute/zoo\nSetAclPaths on /tmp \n  AclLine ALLOW {principals=[bob_the_service], privileges=[some:otherPrivilege]}\nCreatePath [content, example.com(sling:Folder)]\nCreatePath [var(nt:unstructured)]\nSetAclPrincipals for alice bob fred \n  AclLine REMOVE_ALL {paths=[/]}\n  AclLine ALLOW {paths=[/content, /var], privileges=[jcr:read]}\n  AclLine DENY {paths=[/content/example.com], privileges=[jcr:write]}\n  AclLine DENY {nodetypes=[example:Page], paths=[/], privileges=[jcr:all]}\nSetAclPrincipals for restrictions_examples \n  AclLine DENY {nodetypes=[sling:Folder, nt:unstructured], paths=[/apps, /content], privileges=[jcr:modifyProperties]} restrictions=[rep:itemNames=[prop1, prop2]]\n  AclLine ALLOW {paths=[/apps], privileges=[jcr:addChildNodes]} restrictions=[rep:ntNames=[sling:Folder, nt:unstructured]]\n  AclLine ALLOW {paths=[/apps], privileges=[jcr:modifyProperties]} restrictions=[rep:ntNames=[sling:Folder, nt:unstructured], rep:itemNames=[prop1, prop2]]\n  AclLine ALLOW {paths=[/apps, /content], privileges=[jcr:addChildNodes]} restrictions=[rep:glob=[/cat/*, */cat, *cat/*]]\n  AclLine ALLOW {paths=[/], privileges=[jcr:something]} restrictions=[rep:glob=[]]\nRegisterNamespace (NSprefix) uri:someURI/v1.42\nRegisterNodetypes:\n    <slingevent='http://sling.apache.org/jcr/event/1.0'>\n    \n [slingevent:Event] > nt:unstructured, nt:hierarchyNode\n      - slingevent:topic (string)\n      - slingevent:properties (binary)\nregister privilege crx:replicate\nregister privilege priv\nregister abstract privilege abstract_priv\nregister privilege priv with declared_aggregate_priv\nregister privilege priv with declared_aggregate_priv1,declared_aggregate_priv2\nCreateUser userE (with encoded password), password=afdgwdsdf, passwordEncoding=someEncoding\nCreateUser one_with-more-chars.ok:/123456 (with encoded password), password=pw-with.ok-:/13456, passwordEncoding=encoding_with.ok-:/12345\nCreateUser userF with path /for/userF\nCreateUser userG with path /for/userG (with password), password=ggg\nCreateUser userH with path for/userH\nCreateUser userJ with path for/userJ (with password), password=jjj\nCreateServiceUser the-last-one]\nDisableServiceUser ...> but was:<...ateServiceUser user1[ with path null\nCreateServiceUser u-ser_2 with path null\nSetAclPaths on /libs /apps \n  AclLine REMOVE_ALL {principals=[user1, u-ser_2]}\n  AclLine ALLOW {principals=[user1, u-ser_2], privileges=[jcr:read]}\n  AclLine DENY {principals=[u-ser_2], privileges=[jcr:write]}\n  AclLine DENY {principals=[user1], privileges=[jcr:lockManagement]}\n  AclLine REMOVE {principals=[u3], privileges=[jcr:understand, some:other]}\nCreateServiceUser bob_the_service with path null\nCreateServiceUser zoo_the_keeper with path relative/zoo\nCreateServiceUser zoo_the_keeper with path /absolute/zoo\nSetAclPaths on /tmp \n  AclLine ALLOW {principals=[bob_the_service], privileges=[some:otherPrivilege]}\nCreatePath [content, example.com(sling:Folder)]\nCreatePath [var(nt:unstructured)]\nSetAclPrincipals for alice bob fred \n  AclLine REMOVE_ALL {paths=[/]}\n  AclLine ALLOW {paths=[/content, /var], privileges=[jcr:read]}\n  AclLine DENY {paths=[/content/example.com], privileges=[jcr:write]}\n  AclLine DENY {nodetypes=[example:Page], paths=[/], privileges=[jcr:all]}\nSetAclPrincipals for restrictions_examples \n  AclLine DENY {nodetypes=[sling:Folder, nt:unstructured], paths=[/apps, /content], privileges=[jcr:modifyProperties]} restrictions=[rep:itemNames=[prop1, prop2]]\n  AclLine ALLOW {paths=[/apps], privileges=[jcr:addChildNodes]} restrictions=[rep:ntNames=[sling:Folder, nt:unstructured]]\n  AclLine ALLOW {paths=[/apps], privileges=[jcr:modifyProperties]} restrictions=[rep:ntNames=[sling:Folder, nt:unstructured], rep:itemNames=[prop1, prop2]]\n  AclLine ALLOW {paths=[/apps, /content], privileges=[jcr:addChildNodes]} restrictions=[rep:glob=[/cat/*, */cat, *cat/*]]\n  AclLine ALLOW {paths=[/], privileges=[jcr:something]} restrictions=[rep:glob=[]]\nRegisterNamespace (NSprefix) uri:someURI/v1.42\nRegisterNodetypes:\n    <slingevent='http://sling.apache.org/jcr/event/1.0'>\n    \n [slingevent:Event] > nt:unstructured, nt:hierarchyNode\n      - slingevent:topic (string)\n      - slingevent:properties (binary)\nregister privilege crx:replicate\nregister privilege priv\nregister abstract privilege abstract_priv\nregister privilege priv with declared_aggregate_priv\nregister privilege priv with declared_aggregate_priv1,declared_aggregate_priv2\nCreateUser userE (with encoded password), password=afdgwdsdf, passwordEncoding=someEncoding\nCreateUser one_with-more-chars.ok:/123456 (with encoded password), password=pw-with.ok-:/13456, passwordEncoding=encoding_with.ok-:/12345\nCreateUser userF with path /for/userF\nCreateUser userG with path /for/userG (with password), password=ggg\nCreateUser userH with path for/userH\nCreateUser userJ with path for/userJ (with password), password=jjj\nCreateServiceUser the-last-one with path null]\nDisableServiceUser ...>\n\tat org.apache.sling.repoinit.parser.test.ParserTest.checkResult(ParserTest.java:132)\n"
+                    },
+                    {
+                        "classname": "org.apache.sling.repoinit.parser.test.ParserTest",
+                        "method": "checkResult[/testcases/test-4.txt]",
+                        "exn_type": "org.junit.ComparisonFailure",
+                        "stack_trace": "org.junit.ComparisonFailure: expected:<...comments_test_passed[]> but was:<...comments_test_passed[ with path null]>\n\tat org.apache.sling.repoinit.parser.test.ParserTest.checkResult(ParserTest.java:132)\n"
+                    },
+                    {
+                        "classname": "org.apache.sling.repoinit.parser.test.ParserTest",
+                        "method": "checkResult[/testcases/test-1.txt]",
+                        "exn_type": "org.junit.ComparisonFailure",
+                        "stack_trace": "org.junit.ComparisonFailure: expected:<...comments_test_passed[]> but was:<...comments_test_passed[ with path null]>\n\tat org.apache.sling.repoinit.parser.test.ParserTest.checkResult(ParserTest.java:132)\n"
+                    },
+                    {
+                        "classname": "org.apache.sling.repoinit.parser.test.ParserTest",
+                        "method": "checkResult[/testcases/test-99.txt]",
+                        "exn_type": "org.junit.ComparisonFailure",
+                        "stack_trace": "org.junit.ComparisonFailure: \nexpected:<...reateServiceUser bob[\nCreateServiceUser alice\nCreateServiceUser tom21\nCreateServiceUser lonesome]\nCreateServiceUser p...> but was:<...reateServiceUser bob[ with path null\nCreateServiceUser alice with path null\nCreateServiceUser tom21 with path null\nCreateServiceUser lonesome with path null]\nCreateServiceUser p...>\n\tat org.apache.sling.repoinit.parser.test.ParserTest.checkResult(ParserTest.java:132)\n"
+                    },
+                    {
+                        "classname": "org.apache.sling.repoinit.parser.test.ParserTest",
+                        "method": "checkResult[/testcases/test-3.txt]",
+                        "exn_type": "org.junit.ComparisonFailure",
+                        "stack_trace": "org.junit.ComparisonFailure: expected:<...comments_test_passed[]> but was:<...comments_test_passed[ with path null]>\n\tat org.apache.sling.repoinit.parser.test.ParserTest.checkResult(ParserTest.java:132)\n"
+                    },
+                    {
+                        "classname": "org.apache.sling.repoinit.parser.test.ParserTest",
+                        "method": "checkResult[/testcases/test-1.txt]",
+                        "exn_type": "org.junit.ComparisonFailure",
+                        "stack_trace": "org.junit.ComparisonFailure: \nexpected:<...eServiceUser Mark-21[]\nDeleteServiceUser L...> but was:<...eServiceUser Mark-21[ with path null]\nDeleteServiceUser L...>\n\tat org.apache.sling.repoinit.parser.test.ParserTest.checkResult(ParserTest.java:132)\n"
+                    },
+                    {
+                        "classname": "org.apache.sling.repoinit.parser.test.ParserTest",
+                        "method": "checkResult[/testcases/test-4.txt]",
+                        "exn_type": "org.junit.ComparisonFailure",
+                        "stack_trace": "org.junit.ComparisonFailure: \nexpected:<...reateServiceUser bob[\nCreateServiceUser alice\nCreateServiceUser tom21\nCreateServiceUser lonesome]\nCreateServiceUser p...> but was:<...reateServiceUser bob[ with path null\nCreateServiceUser alice with path null\nCreateServiceUser tom21 with path null\nCreateServiceUser lonesome with path null]\nCreateServiceUser p...>\n\tat org.apache.sling.repoinit.parser.test.ParserTest.checkResult(ParserTest.java:132)\n"
+                    },
+                    {
+                        "classname": "org.apache.sling.repoinit.parser.test.ParserTest",
+                        "method": "checkResult[/testcases/test-1.txt]",
+                        "exn_type": "org.junit.ComparisonFailure",
+                        "stack_trace": "org.junit.ComparisonFailure: \nexpected:<...ateServiceUser user1[\nCreateServiceUser u-ser_2\nSetAclPaths on /libs /apps \n  AclLine REMOVE_ALL {principals=[user1, u-ser_2]}\n  AclLine ALLOW {principals=[user1, u-ser_2], privileges=[jcr:read]}\n  AclLine DENY {principals=[u-ser_2], privileges=[jcr:write]}\n  AclLine DENY {principals=[user1], privileges=[jcr:lockManagement]}\n  AclLine REMOVE {principals=[u3], privileges=[jcr:understand, some:other]}\nCreateServiceUser bob_the_service\nCreateServiceUser zoo_the_keeper with path relative/zoo\nCreateServiceUser zoo_the_keeper with path /absolute/zoo\nSetAclPaths on /tmp \n  AclLine ALLOW {principals=[bob_the_service], privileges=[some:otherPrivilege]}\nCreatePath [content, example.com(sling:Folder)]\nCreatePath [var(nt:unstructured)]\nSetAclPrincipals for alice bob fred \n  AclLine REMOVE_ALL {paths=[/]}\n  AclLine ALLOW {paths=[/content, /var], privileges=[jcr:read]}\n  AclLine DENY {paths=[/content/example.com], privileges=[jcr:write]}\n  AclLine DENY {nodetypes=[example:Page], paths=[/], privileges=[jcr:all]}\nSetAclPrincipals for restrictions_examples \n  AclLine DENY {nodetypes=[sling:Folder, nt:unstructured], paths=[/apps, /content], privileges=[jcr:modifyProperties]} restrictions=[rep:itemNames=[prop1, prop2]]\n  AclLine ALLOW {paths=[/apps], privileges=[jcr:addChildNodes]} restrictions=[rep:ntNames=[sling:Folder, nt:unstructured]]\n  AclLine ALLOW {paths=[/apps], privileges=[jcr:modifyProperties]} restrictions=[rep:ntNames=[sling:Folder, nt:unstructured], rep:itemNames=[prop1, prop2]]\n  AclLine ALLOW {paths=[/apps, /content], privileges=[jcr:addChildNodes]} restrictions=[rep:glob=[/cat/*, */cat, *cat/*]]\n  AclLine ALLOW {paths=[/], privileges=[jcr:something]} restrictions=[rep:glob=[]]\nRegisterNamespace (NSprefix) uri:someURI/v1.42\nRegisterNodetypes:\n    <slingevent='http://sling.apache.org/jcr/event/1.0'>\n    \n [slingevent:Event] > nt:unstructured, nt:hierarchyNode\n      - slingevent:topic (string)\n      - slingevent:properties (binary)\nregister privilege crx:replicate\nregister privilege priv\nregister abstract privilege abstract_priv\nregister privilege priv with declared_aggregate_priv\nregister privilege priv with declared_aggregate_priv1,declared_aggregate_priv2\nCreateUser userE (with encoded password), password=afdgwdsdf, passwordEncoding=someEncoding\nCreateUser one_with-more-chars.ok:/123456 (with encoded password), password=pw-with.ok-:/13456, passwordEncoding=encoding_with.ok-:/12345\nCreateUser userF with path /for/userF\nCreateUser userG with path /for/userG (with password), password=ggg\nCreateUser userH with path for/userH\nCreateUser userJ with path for/userJ (with password), password=jjj\nCreateServiceUser the-last-one]\nDisableServiceUser ...> but was:<...ateServiceUser user1[ with path null\nCreateServiceUser u-ser_2 with path null\nSetAclPaths on /libs /apps \n  AclLine REMOVE_ALL {principals=[user1, u-ser_2]}\n  AclLine ALLOW {principals=[user1, u-ser_2], privileges=[jcr:read]}\n  AclLine DENY {principals=[u-ser_2], privileges=[jcr:write]}\n  AclLine DENY {principals=[user1], privileges=[jcr:lockManagement]}\n  AclLine REMOVE {principals=[u3], privileges=[jcr:understand, some:other]}\nCreateServiceUser bob_the_service with path null\nCreateServiceUser zoo_the_keeper with path relative/zoo\nCreateServiceUser zoo_the_keeper with path /absolute/zoo\nSetAclPaths on /tmp \n  AclLine ALLOW {principals=[bob_the_service], privileges=[some:otherPrivilege]}\nCreatePath [content, example.com(sling:Folder)]\nCreatePath [var(nt:unstructured)]\nSetAclPrincipals for alice bob fred \n  AclLine REMOVE_ALL {paths=[/]}\n  AclLine ALLOW {paths=[/content, /var], privileges=[jcr:read]}\n  AclLine DENY {paths=[/content/example.com], privileges=[jcr:write]}\n  AclLine DENY {nodetypes=[example:Page], paths=[/], privileges=[jcr:all]}\nSetAclPrincipals for restrictions_examples \n  AclLine DENY {nodetypes=[sling:Folder, nt:unstructured], paths=[/apps, /content], privileges=[jcr:modifyProperties]} restrictions=[rep:itemNames=[prop1, prop2]]\n  AclLine ALLOW {paths=[/apps], privileges=[jcr:addChildNodes]} restrictions=[rep:ntNames=[sling:Folder, nt:unstructured]]\n  AclLine ALLOW {paths=[/apps], privileges=[jcr:modifyProperties]} restrictions=[rep:ntNames=[sling:Folder, nt:unstructured], rep:itemNames=[prop1, prop2]]\n  AclLine ALLOW {paths=[/apps, /content], privileges=[jcr:addChildNodes]} restrictions=[rep:glob=[/cat/*, */cat, *cat/*]]\n  AclLine ALLOW {paths=[/], privileges=[jcr:something]} restrictions=[rep:glob=[]]\nRegisterNamespace (NSprefix) uri:someURI/v1.42\nRegisterNodetypes:\n    <slingevent='http://sling.apache.org/jcr/event/1.0'>\n    \n [slingevent:Event] > nt:unstructured, nt:hierarchyNode\n      - slingevent:topic (string)\n      - slingevent:properties (binary)\nregister privilege crx:replicate\nregister privilege priv\nregister abstract privilege abstract_priv\nregister privilege priv with declared_aggregate_priv\nregister privilege priv with declared_aggregate_priv1,declared_aggregate_priv2\nCreateUser userE (with encoded password), password=afdgwdsdf, passwordEncoding=someEncoding\nCreateUser one_with-more-chars.ok:/123456 (with encoded password), password=pw-with.ok-:/13456, passwordEncoding=encoding_with.ok-:/12345\nCreateUser userF with path /for/userF\nCreateUser userG with path /for/userG (with password), password=ggg\nCreateUser userH with path for/userH\nCreateUser userJ with path for/userJ (with password), password=jjj\nCreateServiceUser the-last-one with path null]\nDisableServiceUser ...>\n\tat org.apache.sling.repoinit.parser.test.ParserTest.checkResult(ParserTest.java:132)\n"
+                    },
+                    {
+                        "classname": "org.apache.sling.repoinit.parser.test.ParserTest",
+                        "method": "checkResult[/testcases/test-3.txt]",
+                        "exn_type": "org.junit.ComparisonFailure",
+                        "stack_trace": "org.junit.ComparisonFailure: \nexpected:<...reateServiceUser bob[\nCreateServiceUser alice\nCreateServiceUser tom21\nCreateServiceUser lonesome]\nCreateServiceUser p...> but was:<...reateServiceUser bob[ with path null\nCreateServiceUser alice with path null\nCreateServiceUser tom21 with path null\nCreateServiceUser lonesome with path null]\nCreateServiceUser p...>\n\tat org.apache.sling.repoinit.parser.test.ParserTest.checkResult(ParserTest.java:132)\n"
+                    },
+                    {
+                        "classname": "org.apache.sling.repoinit.parser.test.ParserTest",
+                        "method": "checkResult[/testcases/test-5.txt]",
+                        "exn_type": "org.junit.ComparisonFailure",
+                        "stack_trace": "org.junit.ComparisonFailure: \nexpected:<...eServiceUser Mark-21[]\nDeleteServiceUser L...> but was:<...eServiceUser Mark-21[ with path null]\nDeleteServiceUser L...>\n\tat org.apache.sling.repoinit.parser.test.ParserTest.checkResult(ParserTest.java:132)\n"
+                    },
+                    {
+                        "classname": "org.apache.sling.repoinit.parser.test.ParserTest",
+                        "method": "checkResult[/testcases/test-2.txt]",
+                        "exn_type": "org.junit.ComparisonFailure",
+                        "stack_trace": "org.junit.ComparisonFailure: \nexpected:<...eServiceUser Mark-21[]\nDeleteServiceUser L...> but was:<...eServiceUser Mark-21[ with path null]\nDeleteServiceUser L...>\n\tat org.apache.sling.repoinit.parser.test.ParserTest.checkResult(ParserTest.java:132)\n"
+                    },
+                    {
+                        "classname": "org.apache.sling.repoinit.parser.test.ParserTest",
+                        "method": "checkResult[/testcases/test-5.txt]",
+                        "exn_type": "org.junit.ComparisonFailure",
+                        "stack_trace": "org.junit.ComparisonFailure: \nexpected:<...ateServiceUser user1[\nCreateServiceUser u-ser_2\nSetAclPaths on /libs /apps \n  AclLine REMOVE_ALL {principals=[user1, u-ser_2]}\n  AclLine ALLOW {principals=[user1, u-ser_2], privileges=[jcr:read]}\n  AclLine DENY {principals=[u-ser_2], privileges=[jcr:write]}\n  AclLine DENY {principals=[user1], privileges=[jcr:lockManagement]}\n  AclLine REMOVE {principals=[u3], privileges=[jcr:understand, some:other]}\nCreateServiceUser bob_the_service\nCreateServiceUser zoo_the_keeper with path relative/zoo\nCreateServiceUser zoo_the_keeper with path /absolute/zoo\nSetAclPaths on /tmp \n  AclLine ALLOW {principals=[bob_the_service], privileges=[some:otherPrivilege]}\nCreatePath [content, example.com(sling:Folder)]\nCreatePath [var(nt:unstructured)]\nSetAclPrincipals for alice bob fred \n  AclLine REMOVE_ALL {paths=[/]}\n  AclLine ALLOW {paths=[/content, /var], privileges=[jcr:read]}\n  AclLine DENY {paths=[/content/example.com], privileges=[jcr:write]}\n  AclLine DENY {nodetypes=[example:Page], paths=[/], privileges=[jcr:all]}\nSetAclPrincipals for restrictions_examples \n  AclLine DENY {nodetypes=[sling:Folder, nt:unstructured], paths=[/apps, /content], privileges=[jcr:modifyProperties]} restrictions=[rep:itemNames=[prop1, prop2]]\n  AclLine ALLOW {paths=[/apps], privileges=[jcr:addChildNodes]} restrictions=[rep:ntNames=[sling:Folder, nt:unstructured]]\n  AclLine ALLOW {paths=[/apps], privileges=[jcr:modifyProperties]} restrictions=[rep:ntNames=[sling:Folder, nt:unstructured], rep:itemNames=[prop1, prop2]]\n  AclLine ALLOW {paths=[/apps, /content], privileges=[jcr:addChildNodes]} restrictions=[rep:glob=[/cat/*, */cat, *cat/*]]\n  AclLine ALLOW {paths=[/], privileges=[jcr:something]} restrictions=[rep:glob=[]]\nRegisterNamespace (NSprefix) uri:someURI/v1.42\nRegisterNodetypes:\n    <slingevent='http://sling.apache.org/jcr/event/1.0'>\n    \n [slingevent:Event] > nt:unstructured, nt:hierarchyNode\n      - slingevent:topic (string)\n      - slingevent:properties (binary)\nregister privilege crx:replicate\nregister privilege priv\nregister abstract privilege abstract_priv\nregister privilege priv with declared_aggregate_priv\nregister privilege priv with declared_aggregate_priv1,declared_aggregate_priv2\nCreateUser userE (with encoded password), password=afdgwdsdf, passwordEncoding=someEncoding\nCreateUser one_with-more-chars.ok:/123456 (with encoded password), password=pw-with.ok-:/13456, passwordEncoding=encoding_with.ok-:/12345\nCreateUser userF with path /for/userF\nCreateUser userG with path /for/userG (with password), password=ggg\nCreateUser userH with path for/userH\nCreateUser userJ with path for/userJ (with password), password=jjj\nCreateServiceUser the-last-one]\nDisableServiceUser ...> but was:<...ateServiceUser user1[ with path null\nCreateServiceUser u-ser_2 with path null\nSetAclPaths on /libs /apps \n  AclLine REMOVE_ALL {principals=[user1, u-ser_2]}\n  AclLine ALLOW {principals=[user1, u-ser_2], privileges=[jcr:read]}\n  AclLine DENY {principals=[u-ser_2], privileges=[jcr:write]}\n  AclLine DENY {principals=[user1], privileges=[jcr:lockManagement]}\n  AclLine REMOVE {principals=[u3], privileges=[jcr:understand, some:other]}\nCreateServiceUser bob_the_service with path null\nCreateServiceUser zoo_the_keeper with path relative/zoo\nCreateServiceUser zoo_the_keeper with path /absolute/zoo\nSetAclPaths on /tmp \n  AclLine ALLOW {principals=[bob_the_service], privileges=[some:otherPrivilege]}\nCreatePath [content, example.com(sling:Folder)]\nCreatePath [var(nt:unstructured)]\nSetAclPrincipals for alice bob fred \n  AclLine REMOVE_ALL {paths=[/]}\n  AclLine ALLOW {paths=[/content, /var], privileges=[jcr:read]}\n  AclLine DENY {paths=[/content/example.com], privileges=[jcr:write]}\n  AclLine DENY {nodetypes=[example:Page], paths=[/], privileges=[jcr:all]}\nSetAclPrincipals for restrictions_examples \n  AclLine DENY {nodetypes=[sling:Folder, nt:unstructured], paths=[/apps, /content], privileges=[jcr:modifyProperties]} restrictions=[rep:itemNames=[prop1, prop2]]\n  AclLine ALLOW {paths=[/apps], privileges=[jcr:addChildNodes]} restrictions=[rep:ntNames=[sling:Folder, nt:unstructured]]\n  AclLine ALLOW {paths=[/apps], privileges=[jcr:modifyProperties]} restrictions=[rep:ntNames=[sling:Folder, nt:unstructured], rep:itemNames=[prop1, prop2]]\n  AclLine ALLOW {paths=[/apps, /content], privileges=[jcr:addChildNodes]} restrictions=[rep:glob=[/cat/*, */cat, *cat/*]]\n  AclLine ALLOW {paths=[/], privileges=[jcr:something]} restrictions=[rep:glob=[]]\nRegisterNamespace (NSprefix) uri:someURI/v1.42\nRegisterNodetypes:\n    <slingevent='http://sling.apache.org/jcr/event/1.0'>\n    \n [slingevent:Event] > nt:unstructured, nt:hierarchyNode\n      - slingevent:topic (string)\n      - slingevent:properties (binary)\nregister privilege crx:replicate\nregister privilege priv\nregister abstract privilege abstract_priv\nregister privilege priv with declared_aggregate_priv\nregister privilege priv with declared_aggregate_priv1,declared_aggregate_priv2\nCreateUser userE (with encoded password), password=afdgwdsdf, passwordEncoding=someEncoding\nCreateUser one_with-more-chars.ok:/123456 (with encoded password), password=pw-with.ok-:/13456, passwordEncoding=encoding_with.ok-:/12345\nCreateUser userF with path /for/userF\nCreateUser userG with path /for/userG (with password), password=ggg\nCreateUser userH with path for/userH\nCreateUser userJ with path for/userJ (with password), password=jjj\nCreateServiceUser the-last-one with path null]\nDisableServiceUser ...>\n\tat org.apache.sling.repoinit.parser.test.ParserTest.checkResult(ParserTest.java:132)\n"
+                    }
+                ]
+            }
+        },
+        {
+            "repo": "sling-org-apache-sling-repoinit-parser",
+            "bug_id": "AclLine_62",
+            "npe_info": {
+                "filepath": "src/main/java/org/apache/sling/repoinit/parser/operations/AclLine.java",
+                "line": 62,
+                "deref_field": "value",
+                "npe_class": "AclLine",
+                "npe_method": "getProperty",
+                "sink_field": null,
+                "jvmti_identify_succeed": null,
+                "is_original": null
+            },
+            "build_info": {
+                "compiled": true,
+                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
+                "java_version": 8,
+                "error_message": null,
+                "time": 23.720584877068177
+            },
+            "test_info": {
+                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
+                "fail_buggy": false,
+                "pass_fixed": true,
+                "testcases": []
+            }
+        },
+        {
+            "repo": "sling-org-apache-sling-repoinit-parser",
+            "bug_id": "OperationToStringVisitor_70",
+            "npe_info": {
+                "filepath": "src/test/java/org/apache/sling/repoinit/parser/test/OperationToStringVisitor.java",
+                "line": 71,
+                "deref_field": "getPassword()",
+                "npe_class": "OperationToStringVisitor",
+                "npe_method": "visitCreateUser",
+                "sink_field": null,
+                "jvmti_identify_succeed": null,
+                "is_original": null
+            },
+            "build_info": {
+                "compiled": true,
+                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
+                "java_version": 8,
+                "error_message": null,
+                "time": 20.666695873020217
+            },
+            "test_info": {
+                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
+                "fail_buggy": true,
+                "pass_fixed": true,
+                "testcases": [
+                    {
+                        "classname": "org.apache.sling.repoinit.parser.test.ParserTest",
+                        "method": "checkResult[/testcases/test-99.txt]",
+                        "exn_type": "org.junit.ComparisonFailure",
+                        "stack_trace": "org.junit.ComparisonFailure: \nexpected:<...with path /for/userF[\nCreateUser userG with path /for/userG (with password), password=ggg\nCreateUser userH with path for/userH]\nCreateUser userJ wi...> but was:<...with path /for/userF[, password=null\nCreateUser userG with path /for/userG (with password), password=ggg\nCreateUser userH with path for/userH, password=null]\nCreateUser userJ wi...>\n\tat org.apache.sling.repoinit.parser.test.ParserTest.checkResult(ParserTest.java:132)\n"
+                    },
+                    {
+                        "classname": "org.apache.sling.repoinit.parser.test.ParserTest",
+                        "method": "checkResult[/testcases/test-60.txt]",
+                        "exn_type": "org.junit.ComparisonFailure",
+                        "stack_trace": "org.junit.ComparisonFailure: \nexpected:<...with path /for/userF[\nCreateUser userG with path /for/userG (with password), password=ggg\nCreateUser userH with path for/userH]\nCreateUser userJ wi...> but was:<...with path /for/userF[, password=null\nCreateUser userG with path /for/userG (with password), password=ggg\nCreateUser userH with path for/userH, password=null]\nCreateUser userJ wi...>\n\tat org.apache.sling.repoinit.parser.test.ParserTest.checkResult(ParserTest.java:132)\n"
+                    },
+                    {
+                        "classname": "org.apache.sling.repoinit.parser.test.ParserTest",
+                        "method": "checkResult[/testcases/test-99.txt]",
+                        "exn_type": "org.junit.ComparisonFailure",
+                        "stack_trace": "org.junit.ComparisonFailure: \nexpected:<...erB\nCreateUser userB[\nCreateUser userC (with password), password=some_password\nCreateUser userD (with encoded password), password=dc460da4ad72c, passwordEncoding=SHA-256\nCreateUser userE (with encoded password), password=afdgwdsdf, passwordEncoding=someEncoding\nCreateUser one_with-more-chars.ok:/123456 (with encoded password), password=pw-with.ok-:/13456, passwordEncoding=encoding_with.ok-:/12345\nCreateUser userF with path /thePathF\nCreateUser userG with path /thePathG (with encoded password), password=userGpwd, passwordEncoding=theEncoding\nCreateUser userH with path thePathH]\nCreateUser userJ wi...> but was:<...erB\nCreateUser userB[, password=null\nCreateUser userC (with password), password=some_password\nCreateUser userD (with encoded password), password=dc460da4ad72c, passwordEncoding=SHA-256\nCreateUser userE (with encoded password), password=afdgwdsdf, passwordEncoding=someEncoding\nCreateUser one_with-more-chars.ok:/123456 (with encoded password), password=pw-with.ok-:/13456, passwordEncoding=encoding_with.ok-:/12345\nCreateUser userF with path /thePathF, password=null\nCreateUser userG with path /thePathG (with encoded password), password=userGpwd, passwordEncoding=theEncoding\nCreateUser userH with path thePathH, password=null]\nCreateUser userJ wi...>\n\tat org.apache.sling.repoinit.parser.test.ParserTest.checkResult(ParserTest.java:132)\n"
+                    },
+                    {
+                        "classname": "org.apache.sling.repoinit.parser.test.ParserTest",
+                        "method": "checkResult[/testcases/test-60.txt]",
+                        "exn_type": "org.junit.ComparisonFailure",
+                        "stack_trace": "org.junit.ComparisonFailure: \nexpected:<...erB\nCreateUser userB[\nCreateUser userC (with password), password=some_password\nCreateUser userD (with encoded password), password=dc460da4ad72c, passwordEncoding=SHA-256\nCreateUser userE (with encoded password), password=afdgwdsdf, passwordEncoding=someEncoding\nCreateUser one_with-more-chars.ok:/123456 (with encoded password), password=pw-with.ok-:/13456, passwordEncoding=encoding_with.ok-:/12345\nCreateUser userF with path /thePathF\nCreateUser userG with path /thePathG (with encoded password), password=userGpwd, passwordEncoding=theEncoding\nCreateUser userH with path thePathH]\nCreateUser userJ wi...> but was:<...erB\nCreateUser userB[, password=null\nCreateUser userC (with password), password=some_password\nCreateUser userD (with encoded password), password=dc460da4ad72c, passwordEncoding=SHA-256\nCreateUser userE (with encoded password), password=afdgwdsdf, passwordEncoding=someEncoding\nCreateUser one_with-more-chars.ok:/123456 (with encoded password), password=pw-with.ok-:/13456, passwordEncoding=encoding_with.ok-:/12345\nCreateUser userF with path /thePathF, password=null\nCreateUser userG with path /thePathG (with encoded password), password=userGpwd, passwordEncoding=theEncoding\nCreateUser userH with path thePathH, password=null]\nCreateUser userJ wi...>\n\tat org.apache.sling.repoinit.parser.test.ParserTest.checkResult(ParserTest.java:132)\n"
+                    }
+                ]
+            }
+        },
+        {
+            "repo": "sling-org-apache-sling-repoinit-parser",
+            "bug_id": "ParserTest_104",
+            "npe_info": {
+                "filepath": "src/test/java/org/apache/sling/repoinit/parser/test/ParserTest.java",
+                "line": 105,
+                "deref_field": "tc",
+                "npe_class": "ParserTest",
+                "npe_method": "data",
+                "sink_field": null,
+                "jvmti_identify_succeed": null,
+                "is_original": null
+            },
+            "build_info": {
+                "compiled": true,
+                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
+                "java_version": 8,
+                "error_message": null,
+                "time": 18.19365255185403
+            },
+            "test_info": {
+                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
+                "fail_buggy": true,
+                "pass_fixed": true,
+                "testcases": [
+                    {
+                        "classname": "org.apache.sling.repoinit.parser.test.ParserTest",
+                        "method": "checkResult[null]",
+                        "exn_type": "java.lang.NullPointerException",
+                        "stack_trace": "java.lang.NullPointerException\n\tat org.apache.sling.repoinit.parser.test.ParserTest.checkResult(ParserTest.java:118)\n"
+                    }
+                ]
+            }
+        },
+        {
+            "repo": "sling-org-apache-sling-repoinit-parser",
+            "bug_id": "CreatePath_64",
+            "npe_info": {
+                "filepath": "src/main/java/org/apache/sling/repoinit/parser/operations/CreatePath.java",
+                "line": 65,
+                "deref_field": "primaryType",
+                "npe_class": "CreatePath",
+                "npe_method": "addSegment",
+                "sink_field": null,
+                "jvmti_identify_succeed": null,
+                "is_original": null
+            },
+            "build_info": {
+                "compiled": true,
+                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
+                "java_version": 8,
+                "error_message": null,
+                "time": 16.121915641007945
+            },
+            "test_info": {
+                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
+                "fail_buggy": true,
+                "pass_fixed": true,
+                "testcases": [
+                    {
+                        "classname": "org.apache.sling.repoinit.parser.test.ParserTest",
+                        "method": "checkResult[/testcases/test-99.txt]",
+                        "exn_type": "org.junit.ComparisonFailure",
+                        "stack_trace": "org.junit.ComparisonFailure: \nexpected:<...er)]\nCreatePath [var[(nt:unstructured)]]\nSetAclPrincipals f...> but was:<...er)]\nCreatePath [var[]]\nSetAclPrincipals f...>\n\tat org.apache.sling.repoinit.parser.test.ParserTest.checkResult(ParserTest.java:132)\n"
+                    },
+                    {
+                        "classname": "org.apache.sling.repoinit.parser.test.ParserTest",
+                        "method": "checkResult[/testcases/test-20.txt]",
+                        "exn_type": "org.junit.ComparisonFailure",
+                        "stack_trace": "org.junit.ComparisonFailure: \nexpected:<...er)]\nCreatePath [var[(nt:unstructured)]]\nSetAclPrincipals f...> but was:<...er)]\nCreatePath [var[]]\nSetAclPrincipals f...>\n\tat org.apache.sling.repoinit.parser.test.ParserTest.checkResult(ParserTest.java:132)\n"
+                    },
+                    {
+                        "classname": "org.apache.sling.repoinit.parser.test.ParserTest",
+                        "method": "checkResult[/testcases/test-99.txt]",
+                        "exn_type": "org.junit.ComparisonFailure",
+                        "stack_trace": "org.junit.ComparisonFailure: \nexpected:<...uctured), somefolder[(sling:Folder)]\nCreatePath [one, two, three]\nCreatePath [three, four(nt:folk), five(nt:jazz), six]\nCreatePath [seven(nt:x), eight(nt:x), nine(nt:x)]\nCreatePath [one(mixin [nt:art]), step(mixin [nt:dance]), two, steps]\nCreatePath [one(nt:foxtrot), step(nt:foxtrot mixin [nt:dance]), two(nt:foxtrot), steps(nt:foxtrot)]]\nCreatePath [one, s...> but was:<...uctured), somefolder[]\nCreatePath [one, two, three]\nCreatePath [three, four(nt:folk), five(nt:jazz), six]\nCreatePath [seven(nt:x), eight(nt:x), nine]\nCreatePath [one(mixin [nt:art]), step(mixin [nt:dance]), two, steps]\nCreatePath [one(nt:foxtrot), step(mixin [nt:dance]), two(nt:foxtrot), steps]]\nCreatePath [one, s...>\n\tat org.apache.sling.repoinit.parser.test.ParserTest.checkResult(ParserTest.java:132)\n"
+                    },
+                    {
+                        "classname": "org.apache.sling.repoinit.parser.test.ParserTest",
+                        "method": "checkResult[/testcases/test-20.txt]",
+                        "exn_type": "org.junit.ComparisonFailure",
+                        "stack_trace": "org.junit.ComparisonFailure: \nexpected:<...uctured), somefolder[(sling:Folder)]\nCreatePath [one, two, three]\nCreatePath [three, four(nt:folk), five(nt:jazz), six]\nCreatePath [seven(nt:x), eight(nt:x), nine(nt:x)]\nCreatePath [one(mixin [nt:art]), step(mixin [nt:dance]), two, steps]\nCreatePath [one(nt:foxtrot), step(nt:foxtrot mixin [nt:dance]), two(nt:foxtrot), steps(nt:foxtrot)]]\nCreatePath [one, s...> but was:<...uctured), somefolder[]\nCreatePath [one, two, three]\nCreatePath [three, four(nt:folk), five(nt:jazz), six]\nCreatePath [seven(nt:x), eight(nt:x), nine]\nCreatePath [one(mixin [nt:art]), step(mixin [nt:dance]), two, steps]\nCreatePath [one(nt:foxtrot), step(mixin [nt:dance]), two(nt:foxtrot), steps]]\nCreatePath [one, s...>\n\tat org.apache.sling.repoinit.parser.test.ParserTest.checkResult(ParserTest.java:132)\n"
+                    }
+                ]
+            }
+        },
+        {
+            "repo": "sling-org-apache-sling-repoinit-parser",
+            "bug_id": "PropertyLine_92",
+            "npe_info": {
+                "filepath": "src/main/java/org/apache/sling/repoinit/parser/operations/PropertyLine.java",
+                "line": 95,
+                "deref_field": "result",
+                "npe_class": "PropertyLine",
+                "npe_method": "parseDate",
+                "sink_field": null,
+                "jvmti_identify_succeed": null,
+                "is_original": null
+            },
+            "build_info": {
+                "compiled": true,
+                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
+                "java_version": 8,
+                "error_message": null,
+                "time": 22.3230907630641
+            },
+            "test_info": {
+                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
+                "fail_buggy": true,
+                "pass_fixed": true,
+                "testcases": [
+                    {
+                        "classname": "org.apache.sling.repoinit.parser.test.PropertyLineTest",
+                        "method": "testInvalidDateFormat",
+                        "exn_type": "java.lang.AssertionError",
+                        "stack_trace": "java.lang.AssertionError: Expected exception: org.apache.sling.repoinit.parser.impl.ParseException\n"
+                    },
+                    {
+                        "classname": "org.apache.sling.repoinit.parser.test.ParsingErrorsTest",
+                        "method": "checkResult[44]",
+                        "exn_type": "java.lang.AssertionError",
+                        "stack_trace": "java.lang.AssertionError: \nExpected a ParseException for [set properties on /apps  \n set dob{Date} to 13-10-2019 \n end]\n\tat org.apache.sling.repoinit.parser.test.ParsingErrorsTest.checkResult(ParsingErrorsTest.java:156)\n"
+                    }
+                ]
+            }
+        }
+    ],
+    "repository_info": null
+}

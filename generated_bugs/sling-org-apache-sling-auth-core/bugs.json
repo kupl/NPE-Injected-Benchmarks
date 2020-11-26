@@ -1,0 +1,1100 @@
+{
+    "repo": "sling-org-apache-sling-auth-core",
+    "bugs": [
+        {
+            "repo": "sling-org-apache-sling-auth-core",
+            "bug_id": "SlingAuthenticator_440",
+            "npe_info": {
+                "filepath": "src/main/java/org/apache/sling/auth/core/impl/SlingAuthenticator.java",
+                "line": 441,
+                "deref_field": "engineAuthHandlerTracker",
+                "npe_class": "SlingAuthenticator",
+                "npe_method": "deactivate",
+                "sink_field": null,
+                "jvmti_identify_succeed": null,
+                "is_original": null
+            },
+            "build_info": {
+                "compiled": false,
+                "build_command": null,
+                "java_version": null,
+                "error_message": "Compilation failure",
+                "time": null
+            },
+            "test_info": null
+        },
+        {
+            "repo": "sling-org-apache-sling-auth-core",
+            "bug_id": "SlingAuthenticator_489",
+            "npe_info": {
+                "filepath": "src/main/java/org/apache/sling/auth/core/impl/SlingAuthenticator.java",
+                "line": 491,
+                "deref_field": "sessionAttr",
+                "npe_class": "SlingAuthenticator",
+                "npe_method": "handleSecurity",
+                "sink_field": null,
+                "jvmti_identify_succeed": null,
+                "is_original": null
+            },
+            "build_info": {
+                "compiled": false,
+                "build_command": null,
+                "java_version": null,
+                "error_message": "Compilation failure",
+                "time": null
+            },
+            "test_info": null
+        },
+        {
+            "repo": "sling-org-apache-sling-auth-core",
+            "bug_id": "SlingAuthenticator_403",
+            "npe_info": {
+                "filepath": "src/main/java/org/apache/sling/auth/core/impl/SlingAuthenticator.java",
+                "line": 403,
+                "deref_field": "sling_auth_anonymous_password()",
+                "npe_class": "SlingAuthenticator",
+                "npe_method": "modified",
+                "sink_field": null,
+                "jvmti_identify_succeed": null,
+                "is_original": null
+            },
+            "build_info": {
+                "compiled": false,
+                "build_command": null,
+                "java_version": null,
+                "error_message": "Compilation failure",
+                "time": null
+            },
+            "test_info": null
+        },
+        {
+            "repo": "sling-org-apache-sling-auth-core",
+            "bug_id": "LoginServlet_124",
+            "npe_info": {
+                "filepath": "src/main/java/org/apache/sling/auth/core/impl/LoginServlet.java",
+                "line": 129,
+                "deref_field": "resourcePath",
+                "npe_class": "LoginServlet",
+                "npe_method": "isSelf",
+                "sink_field": null,
+                "jvmti_identify_succeed": null,
+                "is_original": null
+            },
+            "build_info": {
+                "compiled": false,
+                "build_command": null,
+                "java_version": null,
+                "error_message": "Compilation failure",
+                "time": null
+            },
+            "test_info": null
+        },
+        {
+            "repo": "sling-org-apache-sling-auth-core",
+            "bug_id": "PathBasedHolderCache_114",
+            "npe_info": {
+                "filepath": "src/main/java/org/apache/sling/auth/core/impl/PathBasedHolderCache.java",
+                "line": 115,
+                "deref_field": "byHostMap",
+                "npe_class": "PathBasedHolderCache",
+                "npe_method": "findApplicableHolders",
+                "sink_field": null,
+                "jvmti_identify_succeed": null,
+                "is_original": null
+            },
+            "build_info": {
+                "compiled": false,
+                "build_command": null,
+                "java_version": null,
+                "error_message": "Compilation failure",
+                "time": null
+            },
+            "test_info": null
+        },
+        {
+            "repo": "sling-org-apache-sling-auth-core",
+            "bug_id": "SlingAuthenticator_417",
+            "npe_info": {
+                "filepath": "src/main/java/org/apache/sling/auth/core/impl/SlingAuthenticator.java",
+                "line": 418,
+                "deref_field": "serviceListener",
+                "npe_class": "SlingAuthenticator",
+                "npe_method": "modified",
+                "sink_field": null,
+                "jvmti_identify_succeed": null,
+                "is_original": null
+            },
+            "build_info": {
+                "compiled": false,
+                "build_command": null,
+                "java_version": null,
+                "error_message": "Compilation failure",
+                "time": null
+            },
+            "test_info": null
+        },
+        {
+            "repo": "sling-org-apache-sling-auth-core",
+            "bug_id": "PathBasedHolder_140",
+            "npe_info": {
+                "filepath": "src/main/java/org/apache/sling/auth/core/impl/PathBasedHolder.java",
+                "line": 141,
+                "deref_field": "descr",
+                "npe_class": "PathBasedHolder",
+                "npe_method": "getProvider",
+                "sink_field": null,
+                "jvmti_identify_succeed": null,
+                "is_original": null
+            },
+            "build_info": {
+                "compiled": false,
+                "build_command": null,
+                "java_version": null,
+                "error_message": "Compilation failure",
+                "time": null
+            },
+            "test_info": null
+        },
+        {
+            "repo": "sling-org-apache-sling-auth-core",
+            "bug_id": "PathBasedHolderCache_80",
+            "npe_info": {
+                "filepath": "src/main/java/org/apache/sling/auth/core/impl/PathBasedHolderCache.java",
+                "line": 81,
+                "deref_field": "byHostMap",
+                "npe_class": "PathBasedHolderCache",
+                "npe_method": "removeHolder",
+                "sink_field": null,
+                "jvmti_identify_succeed": null,
+                "is_original": null
+            },
+            "build_info": {
+                "compiled": true,
+                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
+                "java_version": 8,
+                "error_message": null,
+                "time": 20.695926107931882
+            },
+            "test_info": {
+                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
+                "fail_buggy": false,
+                "pass_fixed": true,
+                "testcases": []
+            }
+        },
+        {
+            "repo": "sling-org-apache-sling-auth-core",
+            "bug_id": "SlingAuthenticator_589",
+            "npe_info": {
+                "filepath": "src/main/java/org/apache/sling/auth/core/impl/SlingAuthenticator.java",
+                "line": 590,
+                "deref_field": "holderList",
+                "npe_class": "SlingAuthenticator",
+                "npe_method": "login",
+                "sink_field": null,
+                "jvmti_identify_succeed": null,
+                "is_original": null
+            },
+            "build_info": {
+                "compiled": true,
+                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
+                "java_version": 8,
+                "error_message": null,
+                "time": 21.703764881007373
+            },
+            "test_info": {
+                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
+                "fail_buggy": false,
+                "pass_fixed": true,
+                "testcases": []
+            }
+        },
+        {
+            "repo": "sling-org-apache-sling-auth-core",
+            "bug_id": "SlingAuthenticator_445",
+            "npe_info": {
+                "filepath": "src/main/java/org/apache/sling/auth/core/impl/SlingAuthenticator.java",
+                "line": 446,
+                "deref_field": "authHandlerTracker",
+                "npe_class": "SlingAuthenticator",
+                "npe_method": "deactivate",
+                "sink_field": null,
+                "jvmti_identify_succeed": null,
+                "is_original": null
+            },
+            "build_info": {
+                "compiled": true,
+                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
+                "java_version": 8,
+                "error_message": null,
+                "time": 20.300831784959882
+            },
+            "test_info": {
+                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
+                "fail_buggy": false,
+                "pass_fixed": true,
+                "testcases": []
+            }
+        },
+        {
+            "repo": "sling-org-apache-sling-auth-core",
+            "bug_id": "LogoutServlet_81",
+            "npe_info": {
+                "filepath": "src/main/java/org/apache/sling/auth/core/impl/LogoutServlet.java",
+                "line": 84,
+                "deref_field": "authenticator",
+                "npe_class": "LogoutServlet",
+                "npe_method": "service",
+                "sink_field": null,
+                "jvmti_identify_succeed": null,
+                "is_original": null
+            },
+            "build_info": {
+                "compiled": true,
+                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
+                "java_version": 8,
+                "error_message": null,
+                "time": 20.96321781910956
+            },
+            "test_info": {
+                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
+                "fail_buggy": true,
+                "pass_fixed": true,
+                "testcases": []
+            }
+        },
+        {
+            "repo": "sling-org-apache-sling-auth-core",
+            "bug_id": "AuthenticationHandlerHolder_147",
+            "npe_info": {
+                "filepath": "src/main/java/org/apache/sling/auth/core/impl/AuthenticationHandlerHolder.java",
+                "line": 152,
+                "deref_field": "authType",
+                "npe_class": "AuthenticationHandlerHolder",
+                "npe_method": "doesRequestCredentials",
+                "sink_field": null,
+                "jvmti_identify_succeed": null,
+                "is_original": null
+            },
+            "build_info": {
+                "compiled": true,
+                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
+                "java_version": 8,
+                "error_message": null,
+                "time": 20.567743038991466
+            },
+            "test_info": {
+                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
+                "fail_buggy": false,
+                "pass_fixed": true,
+                "testcases": []
+            }
+        },
+        {
+            "repo": "sling-org-apache-sling-auth-core",
+            "bug_id": "SlingAuthenticator_391",
+            "npe_info": {
+                "filepath": "src/main/java/org/apache/sling/auth/core/impl/SlingAuthenticator.java",
+                "line": 392,
+                "deref_field": "authReqs",
+                "npe_class": "SlingAuthenticator",
+                "npe_method": "modified",
+                "sink_field": null,
+                "jvmti_identify_succeed": null,
+                "is_original": null
+            },
+            "build_info": {
+                "compiled": true,
+                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
+                "java_version": 8,
+                "error_message": null,
+                "time": 19.96602728893049
+            },
+            "test_info": {
+                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
+                "fail_buggy": false,
+                "pass_fixed": true,
+                "testcases": []
+            }
+        },
+        {
+            "repo": "sling-org-apache-sling-auth-core",
+            "bug_id": "EngineAuthenticationHandlerHolder_65",
+            "npe_info": {
+                "filepath": "src/main/java/org/apache/sling/auth/core/impl/engine/EngineAuthenticationHandlerHolder.java",
+                "line": 67,
+                "deref_field": "engineAuthInfo",
+                "npe_class": "EngineAuthenticationHandlerHolder",
+                "npe_method": "doExtractCredentials",
+                "sink_field": null,
+                "jvmti_identify_succeed": null,
+                "is_original": null
+            },
+            "build_info": {
+                "compiled": true,
+                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
+                "java_version": 8,
+                "error_message": null,
+                "time": 17.713066085008904
+            },
+            "test_info": {
+                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
+                "fail_buggy": false,
+                "pass_fixed": true,
+                "testcases": []
+            }
+        },
+        {
+            "repo": "sling-org-apache-sling-auth-core",
+            "bug_id": "SlingAuthenticator_450",
+            "npe_info": {
+                "filepath": "src/main/java/org/apache/sling/auth/core/impl/SlingAuthenticator.java",
+                "line": 451,
+                "deref_field": "serviceListener",
+                "npe_class": "SlingAuthenticator",
+                "npe_method": "deactivate",
+                "sink_field": null,
+                "jvmti_identify_succeed": null,
+                "is_original": null
+            },
+            "build_info": {
+                "compiled": true,
+                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
+                "java_version": 8,
+                "error_message": null,
+                "time": 20.280964395962656
+            },
+            "test_info": {
+                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
+                "fail_buggy": false,
+                "pass_fixed": true,
+                "testcases": []
+            }
+        },
+        {
+            "repo": "sling-org-apache-sling-auth-core",
+            "bug_id": "AuthenticatorWebConsolePlugin_143",
+            "npe_info": {
+                "filepath": "src/main/java/org/apache/sling/auth/core/impl/AuthenticatorWebConsolePlugin.java",
+                "line": 143,
+                "deref_field": "anonUser",
+                "npe_class": "AuthenticatorWebConsolePlugin",
+                "npe_method": "printAuthenticationConfiguration",
+                "sink_field": null,
+                "jvmti_identify_succeed": null,
+                "is_original": null
+            },
+            "build_info": {
+                "compiled": true,
+                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
+                "java_version": 8,
+                "error_message": null,
+                "time": 20.35630915989168
+            },
+            "test_info": {
+                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
+                "fail_buggy": false,
+                "pass_fixed": true,
+                "testcases": []
+            }
+        },
+        {
+            "repo": "sling-org-apache-sling-auth-core",
+            "bug_id": "AbstractAuthenticationHandlerHolder_190",
+            "npe_info": {
+                "filepath": "src/main/java/org/apache/sling/auth/core/impl/AbstractAuthenticationHandlerHolder.java",
+                "line": 193,
+                "deref_field": "value",
+                "npe_class": "AbstractAuthenticationHandlerHolder",
+                "npe_method": "setRequestAttribute",
+                "sink_field": null,
+                "jvmti_identify_succeed": null,
+                "is_original": null
+            },
+            "build_info": {
+                "compiled": true,
+                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
+                "java_version": 8,
+                "error_message": null,
+                "time": 21.2512121910695
+            },
+            "test_info": {
+                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
+                "fail_buggy": false,
+                "pass_fixed": true,
+                "testcases": []
+            }
+        },
+        {
+            "repo": "sling-org-apache-sling-auth-core",
+            "bug_id": "PathBasedHolderCache_82",
+            "npe_info": {
+                "filepath": "src/main/java/org/apache/sling/auth/core/impl/PathBasedHolderCache.java",
+                "line": 86,
+                "deref_field": "byPathSet",
+                "npe_class": "PathBasedHolderCache",
+                "npe_method": "removeHolder",
+                "sink_field": null,
+                "jvmti_identify_succeed": null,
+                "is_original": null
+            },
+            "build_info": {
+                "compiled": true,
+                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
+                "java_version": 8,
+                "error_message": null,
+                "time": 19.813883039867505
+            },
+            "test_info": {
+                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
+                "fail_buggy": false,
+                "pass_fixed": true,
+                "testcases": []
+            }
+        },
+        {
+            "repo": "sling-org-apache-sling-auth-core",
+            "bug_id": "LoginServlet_93",
+            "npe_info": {
+                "filepath": "src/main/java/org/apache/sling/auth/core/impl/LoginServlet.java",
+                "line": 98,
+                "deref_field": "authenticator",
+                "npe_class": "LoginServlet",
+                "npe_method": "service",
+                "sink_field": null,
+                "jvmti_identify_succeed": null,
+                "is_original": null
+            },
+            "build_info": {
+                "compiled": true,
+                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
+                "java_version": 8,
+                "error_message": null,
+                "time": 19.185094995889813
+            },
+            "test_info": {
+                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
+                "fail_buggy": false,
+                "pass_fixed": true,
+                "testcases": []
+            }
+        },
+        {
+            "repo": "sling-org-apache-sling-auth-core",
+            "bug_id": "PathBasedHolderCache_119",
+            "npe_info": {
+                "filepath": "src/main/java/org/apache/sling/auth/core/impl/PathBasedHolderCache.java",
+                "line": 120,
+                "deref_field": "defaultByHostMap",
+                "npe_class": "PathBasedHolderCache",
+                "npe_method": "findApplicableHolders",
+                "sink_field": null,
+                "jvmti_identify_succeed": null,
+                "is_original": null
+            },
+            "build_info": {
+                "compiled": true,
+                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
+                "java_version": 8,
+                "error_message": null,
+                "time": 18.804134842939675
+            },
+            "test_info": {
+                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
+                "fail_buggy": false,
+                "pass_fixed": true,
+                "testcases": []
+            }
+        },
+        {
+            "repo": "sling-org-apache-sling-auth-core",
+            "bug_id": "HttpBasicAuthenticationHandler_106",
+            "npe_info": {
+                "filepath": "src/main/java/org/apache/sling/auth/core/impl/HttpBasicAuthenticationHandler.java",
+                "line": 107,
+                "deref_field": "info",
+                "npe_class": "HttpBasicAuthenticationHandler",
+                "npe_method": "extractCredentials",
+                "sink_field": null,
+                "jvmti_identify_succeed": null,
+                "is_original": null
+            },
+            "build_info": {
+                "compiled": true,
+                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
+                "java_version": 8,
+                "error_message": null,
+                "time": 20.501014387933537
+            },
+            "test_info": {
+                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
+                "fail_buggy": true,
+                "pass_fixed": true,
+                "testcases": []
+            }
+        },
+        {
+            "repo": "sling-org-apache-sling-auth-core",
+            "bug_id": "SlingAuthenticator_455",
+            "npe_info": {
+                "filepath": "src/main/java/org/apache/sling/auth/core/impl/SlingAuthenticator.java",
+                "line": 456,
+                "deref_field": "webConsolePlugin",
+                "npe_class": "SlingAuthenticator",
+                "npe_method": "deactivate",
+                "sink_field": null,
+                "jvmti_identify_succeed": null,
+                "is_original": null
+            },
+            "build_info": {
+                "compiled": true,
+                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
+                "java_version": 8,
+                "error_message": null,
+                "time": 21.018990356009454
+            },
+            "test_info": {
+                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
+                "fail_buggy": false,
+                "pass_fixed": true,
+                "testcases": []
+            }
+        },
+        {
+            "repo": "sling-org-apache-sling-auth-core",
+            "bug_id": "PathBasedHolderCache_62",
+            "npe_info": {
+                "filepath": "src/main/java/org/apache/sling/auth/core/impl/PathBasedHolderCache.java",
+                "line": 63,
+                "deref_field": "currentPathSet",
+                "npe_class": "PathBasedHolderCache",
+                "npe_method": "addHolder",
+                "sink_field": null,
+                "jvmti_identify_succeed": null,
+                "is_original": null
+            },
+            "build_info": {
+                "compiled": true,
+                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
+                "java_version": 8,
+                "error_message": null,
+                "time": 17.30379904806614
+            },
+            "test_info": {
+                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
+                "fail_buggy": true,
+                "pass_fixed": true,
+                "testcases": [
+                    {
+                        "classname": "org.apache.sling.auth.core.impl.SlingAuthenticatorServiceListenerTest",
+                        "method": "testModifyRegistration",
+                        "exn_type": "java.lang.NullPointerException",
+                        "stack_trace": "java.lang.NullPointerException\n\tat org.apache.sling.auth.core.impl.SlingAuthenticatorServiceListenerTest.testDuplicateRegistration(SlingAuthenticatorServiceListenerTest.java:104)\n"
+                    },
+                    {
+                        "classname": "org.apache.sling.auth.core.impl.SlingAuthenticatorServiceListenerTest",
+                        "method": "testAddRemoveRegistration",
+                        "exn_type": "java.lang.NullPointerException",
+                        "stack_trace": "java.lang.NullPointerException\n\tat org.apache.sling.auth.core.impl.SlingAuthenticatorServiceListenerTest.testModifyRegistration(SlingAuthenticatorServiceListenerTest.java:156)\n"
+                    },
+                    {
+                        "classname": "org.apache.sling.auth.core.impl.SlingAuthenticatorServiceListenerTest",
+                        "method": "testAddRemoveRegistration",
+                        "exn_type": "java.lang.NullPointerException",
+                        "stack_trace": "java.lang.NullPointerException\n\tat org.apache.sling.auth.core.impl.SlingAuthenticatorServiceListenerTest.testAddRemoveRegistrations(SlingAuthenticatorServiceListenerTest.java:126)\n"
+                    },
+                    {
+                        "classname": "org.apache.sling.auth.core.impl.SlingAuthenticatorTest",
+                        "method": "test_childNodeShouldHaveAuthenticationInfo3",
+                        "exn_type": "java.lang.NullPointerException",
+                        "stack_trace": "java.lang.NullPointerException\n\tat org.apache.sling.auth.core.impl.SlingAuthenticatorTest.test_childNodeShouldHaveAuthenticationInfo(SlingAuthenticatorTest.java:127)\n"
+                    },
+                    {
+                        "classname": "org.apache.sling.auth.core.impl.SlingAuthenticatorTest",
+                        "method": "test_isAnonAllowed",
+                        "exn_type": "java.lang.NullPointerException",
+                        "stack_trace": "java.lang.NullPointerException\n\tat org.apache.sling.auth.core.impl.SlingAuthenticatorTest.test_childNodeShouldHaveAuthenticationInfo3(SlingAuthenticatorTest.java:181)\n"
+                    },
+                    {
+                        "classname": "org.apache.sling.auth.core.impl.SlingAuthenticatorServiceListenerTest",
+                        "method": "testDuplicateRegistration",
+                        "exn_type": "java.lang.NullPointerException",
+                        "stack_trace": "java.lang.NullPointerException\n\tat org.apache.sling.auth.core.impl.SlingAuthenticatorServiceListenerTest.testModifyRegistration(SlingAuthenticatorServiceListenerTest.java:156)\n"
+                    },
+                    {
+                        "classname": "org.apache.sling.auth.core.impl.SlingAuthenticatorTest",
+                        "method": "test_childNodeShouldHaveAuthenticationInfo3",
+                        "exn_type": "java.lang.NullPointerException",
+                        "stack_trace": "java.lang.NullPointerException\n\tat org.apache.sling.auth.core.impl.SlingAuthenticatorTest.test_childNodeShouldHaveAuthenticationInfoLonger(SlingAuthenticatorTest.java:256)\n"
+                    },
+                    {
+                        "classname": "org.apache.sling.auth.core.impl.SlingAuthenticatorServiceListenerTest",
+                        "method": "testDuplicateRegistration",
+                        "exn_type": "java.lang.NullPointerException",
+                        "stack_trace": "java.lang.NullPointerException\n\tat org.apache.sling.auth.core.impl.SlingAuthenticatorServiceListenerTest.testAddRemoveRegistration(SlingAuthenticatorServiceListenerTest.java:86)\n"
+                    },
+                    {
+                        "classname": "org.apache.sling.auth.core.impl.SlingAuthenticatorTest",
+                        "method": "test_childNodeShouldHaveAuthenticationInfoLonger",
+                        "exn_type": "java.lang.NullPointerException",
+                        "stack_trace": "java.lang.NullPointerException\n\tat org.apache.sling.auth.core.impl.SlingAuthenticatorTest.test_siblingNodeShouldNotHaveAuthenticationInfo(SlingAuthenticatorTest.java:297)\n"
+                    },
+                    {
+                        "classname": "org.apache.sling.auth.core.impl.SlingAuthenticatorTest",
+                        "method": "test_childNodeShouldHaveAuthenticationInfo",
+                        "exn_type": "java.lang.NullPointerException",
+                        "stack_trace": "java.lang.NullPointerException\n\tat org.apache.sling.auth.core.impl.SlingAuthenticatorTest.test_childNodeShouldHaveAuthenticationInfo(SlingAuthenticatorTest.java:127)\n"
+                    },
+                    {
+                        "classname": "org.apache.sling.auth.core.impl.SlingAuthenticatorTest",
+                        "method": "test_siblingNodeShouldNotHaveAuthenticationInfo",
+                        "exn_type": "java.lang.NullPointerException",
+                        "stack_trace": "java.lang.NullPointerException\n\tat org.apache.sling.auth.core.impl.SlingAuthenticatorTest.test_childNodeShouldHaveAuthenticationInfo3(SlingAuthenticatorTest.java:181)\n"
+                    },
+                    {
+                        "classname": "org.apache.sling.auth.core.impl.SlingAuthenticatorTest",
+                        "method": "test_childNodeShouldHaveAuthenticationInfo4",
+                        "exn_type": "java.lang.NullPointerException",
+                        "stack_trace": "java.lang.NullPointerException\n\tat org.apache.sling.auth.core.impl.SlingAuthenticatorTest.test_childNodeShouldHaveAuthenticationInfo4(SlingAuthenticatorTest.java:208)\n"
+                    },
+                    {
+                        "classname": "org.apache.sling.auth.core.impl.SlingAuthenticatorTest",
+                        "method": "test_childNodeShouldHaveAuthenticationInfo2",
+                        "exn_type": "java.lang.NullPointerException",
+                        "stack_trace": "java.lang.NullPointerException\n\tat org.apache.sling.auth.core.impl.SlingAuthenticatorTest.test_childNodeShouldHaveAuthenticationInfo3(SlingAuthenticatorTest.java:181)\n"
+                    },
+                    {
+                        "classname": "org.apache.sling.auth.core.impl.SlingAuthenticatorTest",
+                        "method": "test_childNodeShouldHaveAuthenticationInfo2",
+                        "exn_type": "java.lang.NullPointerException",
+                        "stack_trace": "java.lang.NullPointerException\n\tat org.apache.sling.auth.core.impl.SlingAuthenticatorTest.test_childNodeShouldHaveAuthenticationInfo2(SlingAuthenticatorTest.java:154)\n"
+                    },
+                    {
+                        "classname": "org.apache.sling.auth.core.impl.SlingAuthenticatorTest",
+                        "method": "test_childNodeShouldHaveAuthenticationInfoLonger",
+                        "exn_type": "java.lang.NullPointerException",
+                        "stack_trace": "java.lang.NullPointerException\n\tat org.apache.sling.auth.core.impl.SlingAuthenticatorTest.test_childNodeShouldHaveAuthenticationInfoRoot(SlingAuthenticatorTest.java:231)\n"
+                    },
+                    {
+                        "classname": "org.apache.sling.auth.core.impl.SlingAuthenticatorServiceListenerTest",
+                        "method": "testModifyRegistration",
+                        "exn_type": "java.lang.NullPointerException",
+                        "stack_trace": "java.lang.NullPointerException\n\tat org.apache.sling.auth.core.impl.SlingAuthenticatorServiceListenerTest.testModifyRegistration(SlingAuthenticatorServiceListenerTest.java:156)\n"
+                    },
+                    {
+                        "classname": "org.apache.sling.auth.core.impl.SlingAuthenticatorTest",
+                        "method": "test_childNodeShouldHaveAuthenticationInfo3",
+                        "exn_type": "java.lang.NullPointerException",
+                        "stack_trace": "java.lang.NullPointerException\n\tat org.apache.sling.auth.core.impl.SlingAuthenticatorTest.test_isAnonAllowed(SlingAuthenticatorTest.java:90)\n"
+                    },
+                    {
+                        "classname": "org.apache.sling.auth.core.impl.SlingAuthenticatorTest",
+                        "method": "test_childNodeShouldHaveAuthenticationInfo",
+                        "exn_type": "java.lang.NullPointerException",
+                        "stack_trace": "java.lang.NullPointerException\n\tat org.apache.sling.auth.core.impl.SlingAuthenticatorTest.test_childNodeShouldHaveAuthenticationInfoLonger(SlingAuthenticatorTest.java:256)\n"
+                    },
+                    {
+                        "classname": "org.apache.sling.auth.core.impl.SlingAuthenticatorServiceListenerTest",
+                        "method": "testModifyRegistration",
+                        "exn_type": "java.lang.NullPointerException",
+                        "stack_trace": "java.lang.NullPointerException\n\tat org.apache.sling.auth.core.impl.SlingAuthenticatorServiceListenerTest.testAddRemoveRegistration(SlingAuthenticatorServiceListenerTest.java:86)\n"
+                    },
+                    {
+                        "classname": "org.apache.sling.auth.core.impl.SlingAuthenticatorTest",
+                        "method": "test_isAnonAllowed",
+                        "exn_type": "java.lang.NullPointerException",
+                        "stack_trace": "java.lang.NullPointerException\n\tat org.apache.sling.auth.core.impl.SlingAuthenticatorTest.test_childNodeShouldHaveAuthenticationInfo(SlingAuthenticatorTest.java:127)\n"
+                    },
+                    {
+                        "classname": "org.apache.sling.auth.core.impl.SlingAuthenticatorTest",
+                        "method": "test_childNodeShouldHaveAuthenticationInfoRoot",
+                        "exn_type": "java.lang.NullPointerException",
+                        "stack_trace": "java.lang.NullPointerException\n\tat org.apache.sling.auth.core.impl.SlingAuthenticatorTest.test_childNodeShouldHaveAuthenticationInfo(SlingAuthenticatorTest.java:127)\n"
+                    },
+                    {
+                        "classname": "org.apache.sling.auth.core.impl.SlingAuthenticatorTest",
+                        "method": "test_isAnonAllowed",
+                        "exn_type": "java.lang.NullPointerException",
+                        "stack_trace": "java.lang.NullPointerException\n\tat org.apache.sling.auth.core.impl.SlingAuthenticatorTest.test_childNodeShouldHaveAuthenticationInfoLonger(SlingAuthenticatorTest.java:256)\n"
+                    },
+                    {
+                        "classname": "org.apache.sling.auth.core.impl.SlingAuthenticatorTest",
+                        "method": "test_childNodeShouldHaveAuthenticationInfo",
+                        "exn_type": "java.lang.NullPointerException",
+                        "stack_trace": "java.lang.NullPointerException\n\tat org.apache.sling.auth.core.impl.SlingAuthenticatorTest.test_isAnonAllowed(SlingAuthenticatorTest.java:90)\n"
+                    },
+                    {
+                        "classname": "org.apache.sling.auth.core.impl.SlingAuthenticatorTest",
+                        "method": "test_childNodeShouldHaveAuthenticationInfoRoot",
+                        "exn_type": "java.lang.NullPointerException",
+                        "stack_trace": "java.lang.NullPointerException\n\tat org.apache.sling.auth.core.impl.SlingAuthenticatorTest.test_childNodeShouldHaveAuthenticationInfoLonger(SlingAuthenticatorTest.java:256)\n"
+                    },
+                    {
+                        "classname": "org.apache.sling.auth.core.impl.SlingAuthenticatorTest",
+                        "method": "test_siblingNodeShouldNotHaveAuthenticationInfo",
+                        "exn_type": "java.lang.NullPointerException",
+                        "stack_trace": "java.lang.NullPointerException\n\tat org.apache.sling.auth.core.impl.SlingAuthenticatorTest.test_siblingNodeShouldNotHaveAuthenticationInfo(SlingAuthenticatorTest.java:297)\n"
+                    },
+                    {
+                        "classname": "org.apache.sling.auth.core.impl.SlingAuthenticatorTest",
+                        "method": "test_childNodeShouldHaveAuthenticationInfo3",
+                        "exn_type": "java.lang.NullPointerException",
+                        "stack_trace": "java.lang.NullPointerException\n\tat org.apache.sling.auth.core.impl.SlingAuthenticatorTest.test_childNodeShouldHaveAuthenticationInfo3(SlingAuthenticatorTest.java:181)\n"
+                    },
+                    {
+                        "classname": "org.apache.sling.auth.core.impl.SlingAuthenticatorTest",
+                        "method": "test_childNodeShouldHaveAuthenticationInfo2",
+                        "exn_type": "java.lang.NullPointerException",
+                        "stack_trace": "java.lang.NullPointerException\n\tat org.apache.sling.auth.core.impl.SlingAuthenticatorTest.test_siblingNodeShouldNotHaveAuthenticationInfo(SlingAuthenticatorTest.java:297)\n"
+                    },
+                    {
+                        "classname": "org.apache.sling.auth.core.impl.SlingAuthenticatorTest",
+                        "method": "test_childNodeShouldHaveAuthenticationInfo3",
+                        "exn_type": "java.lang.NullPointerException",
+                        "stack_trace": "java.lang.NullPointerException\n\tat org.apache.sling.auth.core.impl.SlingAuthenticatorTest.test_childNodeShouldHaveAuthenticationInfo2(SlingAuthenticatorTest.java:154)\n"
+                    },
+                    {
+                        "classname": "org.apache.sling.auth.core.impl.SlingAuthenticatorTest",
+                        "method": "test_siblingNodeShouldNotHaveAuthenticationInfo",
+                        "exn_type": "java.lang.NullPointerException",
+                        "stack_trace": "java.lang.NullPointerException\n\tat org.apache.sling.auth.core.impl.SlingAuthenticatorTest.test_childNodeShouldHaveAuthenticationInfo(SlingAuthenticatorTest.java:127)\n"
+                    },
+                    {
+                        "classname": "org.apache.sling.auth.core.impl.SlingAuthenticatorServiceListenerTest",
+                        "method": "testAddRemoveRegistration",
+                        "exn_type": "java.lang.NullPointerException",
+                        "stack_trace": "java.lang.NullPointerException\n\tat org.apache.sling.auth.core.impl.SlingAuthenticatorServiceListenerTest.testDuplicateRegistration(SlingAuthenticatorServiceListenerTest.java:104)\n"
+                    },
+                    {
+                        "classname": "org.apache.sling.auth.core.impl.SlingAuthenticatorTest",
+                        "method": "test_childNodeShouldHaveAuthenticationInfo2",
+                        "exn_type": "java.lang.NullPointerException",
+                        "stack_trace": "java.lang.NullPointerException\n\tat org.apache.sling.auth.core.impl.SlingAuthenticatorTest.test_childNodeShouldHaveAuthenticationInfoRoot(SlingAuthenticatorTest.java:231)\n"
+                    },
+                    {
+                        "classname": "org.apache.sling.auth.core.impl.SlingAuthenticatorTest",
+                        "method": "test_isAnonAllowed",
+                        "exn_type": "java.lang.NullPointerException",
+                        "stack_trace": "java.lang.NullPointerException\n\tat org.apache.sling.auth.core.impl.SlingAuthenticatorTest.test_isAnonAllowed(SlingAuthenticatorTest.java:90)\n"
+                    },
+                    {
+                        "classname": "org.apache.sling.auth.core.impl.SlingAuthenticatorTest",
+                        "method": "test_siblingNodeShouldNotHaveAuthenticationInfo",
+                        "exn_type": "java.lang.NullPointerException",
+                        "stack_trace": "java.lang.NullPointerException\n\tat org.apache.sling.auth.core.impl.SlingAuthenticatorTest.test_childNodeShouldHaveAuthenticationInfoLonger(SlingAuthenticatorTest.java:256)\n"
+                    },
+                    {
+                        "classname": "org.apache.sling.auth.core.impl.SlingAuthenticatorTest",
+                        "method": "test_childNodeShouldHaveAuthenticationInfoRoot",
+                        "exn_type": "java.lang.NullPointerException",
+                        "stack_trace": "java.lang.NullPointerException\n\tat org.apache.sling.auth.core.impl.SlingAuthenticatorTest.test_isAnonAllowed(SlingAuthenticatorTest.java:90)\n"
+                    },
+                    {
+                        "classname": "org.apache.sling.auth.core.impl.SlingAuthenticatorTest",
+                        "method": "test_childNodeShouldHaveAuthenticationInfo4",
+                        "exn_type": "java.lang.NullPointerException",
+                        "stack_trace": "java.lang.NullPointerException\n\tat org.apache.sling.auth.core.impl.SlingAuthenticatorTest.test_childNodeShouldHaveAuthenticationInfo(SlingAuthenticatorTest.java:127)\n"
+                    },
+                    {
+                        "classname": "org.apache.sling.auth.core.impl.SlingAuthenticatorTest",
+                        "method": "test_childNodeShouldHaveAuthenticationInfo",
+                        "exn_type": "java.lang.NullPointerException",
+                        "stack_trace": "java.lang.NullPointerException\n\tat org.apache.sling.auth.core.impl.SlingAuthenticatorTest.test_childNodeShouldHaveAuthenticationInfo4(SlingAuthenticatorTest.java:208)\n"
+                    },
+                    {
+                        "classname": "org.apache.sling.auth.core.impl.SlingAuthenticatorTest",
+                        "method": "test_childNodeShouldHaveAuthenticationInfo",
+                        "exn_type": "java.lang.NullPointerException",
+                        "stack_trace": "java.lang.NullPointerException\n\tat org.apache.sling.auth.core.impl.SlingAuthenticatorTest.test_childNodeShouldHaveAuthenticationInfo2(SlingAuthenticatorTest.java:154)\n"
+                    },
+                    {
+                        "classname": "org.apache.sling.auth.core.impl.SlingAuthenticatorServiceListenerTest",
+                        "method": "testAddRemoveRegistrations",
+                        "exn_type": "java.lang.NullPointerException",
+                        "stack_trace": "java.lang.NullPointerException\n\tat org.apache.sling.auth.core.impl.SlingAuthenticatorServiceListenerTest.testAddRemoveRegistrations(SlingAuthenticatorServiceListenerTest.java:126)\n"
+                    },
+                    {
+                        "classname": "org.apache.sling.auth.core.impl.SlingAuthenticatorTest",
+                        "method": "test_childNodeShouldHaveAuthenticationInfo4",
+                        "exn_type": "java.lang.NullPointerException",
+                        "stack_trace": "java.lang.NullPointerException\n\tat org.apache.sling.auth.core.impl.SlingAuthenticatorTest.test_childNodeShouldHaveAuthenticationInfoLonger(SlingAuthenticatorTest.java:256)\n"
+                    },
+                    {
+                        "classname": "org.apache.sling.auth.core.impl.SlingAuthenticatorTest",
+                        "method": "test_siblingNodeShouldNotHaveAuthenticationInfo",
+                        "exn_type": "java.lang.NullPointerException",
+                        "stack_trace": "java.lang.NullPointerException\n\tat org.apache.sling.auth.core.impl.SlingAuthenticatorTest.test_isAnonAllowed(SlingAuthenticatorTest.java:90)\n"
+                    },
+                    {
+                        "classname": "org.apache.sling.auth.core.impl.SlingAuthenticatorTest",
+                        "method": "test_childNodeShouldHaveAuthenticationInfo3",
+                        "exn_type": "java.lang.NullPointerException",
+                        "stack_trace": "java.lang.NullPointerException\n\tat org.apache.sling.auth.core.impl.SlingAuthenticatorTest.test_siblingNodeShouldNotHaveAuthenticationInfo(SlingAuthenticatorTest.java:297)\n"
+                    },
+                    {
+                        "classname": "org.apache.sling.auth.core.impl.SlingAuthenticatorTest",
+                        "method": "test_childNodeShouldHaveAuthenticationInfoLonger",
+                        "exn_type": "java.lang.NullPointerException",
+                        "stack_trace": "java.lang.NullPointerException\n\tat org.apache.sling.auth.core.impl.SlingAuthenticatorTest.test_childNodeShouldHaveAuthenticationInfo3(SlingAuthenticatorTest.java:181)\n"
+                    },
+                    {
+                        "classname": "org.apache.sling.auth.core.impl.SlingAuthenticatorTest",
+                        "method": "test_isAnonAllowed",
+                        "exn_type": "java.lang.NullPointerException",
+                        "stack_trace": "java.lang.NullPointerException\n\tat org.apache.sling.auth.core.impl.SlingAuthenticatorTest.test_childNodeShouldHaveAuthenticationInfo4(SlingAuthenticatorTest.java:208)\n"
+                    },
+                    {
+                        "classname": "org.apache.sling.auth.core.impl.SlingAuthenticatorTest",
+                        "method": "test_childNodeShouldHaveAuthenticationInfo3",
+                        "exn_type": "java.lang.NullPointerException",
+                        "stack_trace": "java.lang.NullPointerException\n\tat org.apache.sling.auth.core.impl.SlingAuthenticatorTest.test_childNodeShouldHaveAuthenticationInfoRoot(SlingAuthenticatorTest.java:231)\n"
+                    },
+                    {
+                        "classname": "org.apache.sling.auth.core.impl.SlingAuthenticatorTest",
+                        "method": "test_isAnonAllowed",
+                        "exn_type": "java.lang.NullPointerException",
+                        "stack_trace": "java.lang.NullPointerException\n\tat org.apache.sling.auth.core.impl.SlingAuthenticatorTest.test_childNodeShouldHaveAuthenticationInfo2(SlingAuthenticatorTest.java:154)\n"
+                    },
+                    {
+                        "classname": "org.apache.sling.auth.core.impl.SlingAuthenticatorTest",
+                        "method": "test_childNodeShouldHaveAuthenticationInfoRoot",
+                        "exn_type": "java.lang.NullPointerException",
+                        "stack_trace": "java.lang.NullPointerException\n\tat org.apache.sling.auth.core.impl.SlingAuthenticatorTest.test_childNodeShouldHaveAuthenticationInfo3(SlingAuthenticatorTest.java:181)\n"
+                    },
+                    {
+                        "classname": "org.apache.sling.auth.core.impl.SlingAuthenticatorServiceListenerTest",
+                        "method": "testAddRemoveRegistration",
+                        "exn_type": "java.lang.NullPointerException",
+                        "stack_trace": "java.lang.NullPointerException\n\tat org.apache.sling.auth.core.impl.SlingAuthenticatorServiceListenerTest.testAddRemoveRegistration(SlingAuthenticatorServiceListenerTest.java:86)\n"
+                    },
+                    {
+                        "classname": "org.apache.sling.auth.core.impl.SlingAuthenticatorTest",
+                        "method": "test_childNodeShouldHaveAuthenticationInfoRoot",
+                        "exn_type": "java.lang.NullPointerException",
+                        "stack_trace": "java.lang.NullPointerException\n\tat org.apache.sling.auth.core.impl.SlingAuthenticatorTest.test_childNodeShouldHaveAuthenticationInfo2(SlingAuthenticatorTest.java:154)\n"
+                    },
+                    {
+                        "classname": "org.apache.sling.auth.core.impl.SlingAuthenticatorTest",
+                        "method": "test_childNodeShouldHaveAuthenticationInfo4",
+                        "exn_type": "java.lang.NullPointerException",
+                        "stack_trace": "java.lang.NullPointerException\n\tat org.apache.sling.auth.core.impl.SlingAuthenticatorTest.test_isAnonAllowed(SlingAuthenticatorTest.java:90)\n"
+                    },
+                    {
+                        "classname": "org.apache.sling.auth.core.impl.SlingAuthenticatorTest",
+                        "method": "test_childNodeShouldHaveAuthenticationInfo",
+                        "exn_type": "java.lang.NullPointerException",
+                        "stack_trace": "java.lang.NullPointerException\n\tat org.apache.sling.auth.core.impl.SlingAuthenticatorTest.test_siblingNodeShouldNotHaveAuthenticationInfo(SlingAuthenticatorTest.java:297)\n"
+                    },
+                    {
+                        "classname": "org.apache.sling.auth.core.impl.SlingAuthenticatorServiceListenerTest",
+                        "method": "testDuplicateRegistration",
+                        "exn_type": "java.lang.NullPointerException",
+                        "stack_trace": "java.lang.NullPointerException\n\tat org.apache.sling.auth.core.impl.SlingAuthenticatorServiceListenerTest.testAddRemoveRegistrations(SlingAuthenticatorServiceListenerTest.java:126)\n"
+                    },
+                    {
+                        "classname": "org.apache.sling.auth.core.impl.SlingAuthenticatorTest",
+                        "method": "test_siblingNodeShouldNotHaveAuthenticationInfo",
+                        "exn_type": "java.lang.NullPointerException",
+                        "stack_trace": "java.lang.NullPointerException\n\tat org.apache.sling.auth.core.impl.SlingAuthenticatorTest.test_childNodeShouldHaveAuthenticationInfo4(SlingAuthenticatorTest.java:208)\n"
+                    },
+                    {
+                        "classname": "org.apache.sling.auth.core.impl.SlingAuthenticatorTest",
+                        "method": "test_childNodeShouldHaveAuthenticationInfo2",
+                        "exn_type": "java.lang.NullPointerException",
+                        "stack_trace": "java.lang.NullPointerException\n\tat org.apache.sling.auth.core.impl.SlingAuthenticatorTest.test_childNodeShouldHaveAuthenticationInfo4(SlingAuthenticatorTest.java:208)\n"
+                    },
+                    {
+                        "classname": "org.apache.sling.auth.core.impl.SlingAuthenticatorTest",
+                        "method": "test_siblingNodeShouldNotHaveAuthenticationInfo",
+                        "exn_type": "java.lang.NullPointerException",
+                        "stack_trace": "java.lang.NullPointerException\n\tat org.apache.sling.auth.core.impl.SlingAuthenticatorTest.test_childNodeShouldHaveAuthenticationInfo2(SlingAuthenticatorTest.java:154)\n"
+                    },
+                    {
+                        "classname": "org.apache.sling.auth.core.impl.SlingAuthenticatorTest",
+                        "method": "test_childNodeShouldHaveAuthenticationInfo",
+                        "exn_type": "java.lang.NullPointerException",
+                        "stack_trace": "java.lang.NullPointerException\n\tat org.apache.sling.auth.core.impl.SlingAuthenticatorTest.test_childNodeShouldHaveAuthenticationInfoRoot(SlingAuthenticatorTest.java:231)\n"
+                    },
+                    {
+                        "classname": "org.apache.sling.auth.core.impl.SlingAuthenticatorTest",
+                        "method": "test_isAnonAllowed",
+                        "exn_type": "java.lang.NullPointerException",
+                        "stack_trace": "java.lang.NullPointerException\n\tat org.apache.sling.auth.core.impl.SlingAuthenticatorTest.test_siblingNodeShouldNotHaveAuthenticationInfo(SlingAuthenticatorTest.java:297)\n"
+                    },
+                    {
+                        "classname": "org.apache.sling.auth.core.impl.SlingAuthenticatorTest",
+                        "method": "test_childNodeShouldHaveAuthenticationInfoLonger",
+                        "exn_type": "java.lang.NullPointerException",
+                        "stack_trace": "java.lang.NullPointerException\n\tat org.apache.sling.auth.core.impl.SlingAuthenticatorTest.test_childNodeShouldHaveAuthenticationInfo(SlingAuthenticatorTest.java:127)\n"
+                    },
+                    {
+                        "classname": "org.apache.sling.auth.core.impl.SlingAuthenticatorTest",
+                        "method": "test_childNodeShouldHaveAuthenticationInfo4",
+                        "exn_type": "java.lang.NullPointerException",
+                        "stack_trace": "java.lang.NullPointerException\n\tat org.apache.sling.auth.core.impl.SlingAuthenticatorTest.test_childNodeShouldHaveAuthenticationInfo3(SlingAuthenticatorTest.java:181)\n"
+                    },
+                    {
+                        "classname": "org.apache.sling.auth.core.impl.SlingAuthenticatorTest",
+                        "method": "test_childNodeShouldHaveAuthenticationInfoRoot",
+                        "exn_type": "java.lang.NullPointerException",
+                        "stack_trace": "java.lang.NullPointerException\n\tat org.apache.sling.auth.core.impl.SlingAuthenticatorTest.test_siblingNodeShouldNotHaveAuthenticationInfo(SlingAuthenticatorTest.java:297)\n"
+                    },
+                    {
+                        "classname": "org.apache.sling.auth.core.impl.SlingAuthenticatorTest",
+                        "method": "test_childNodeShouldHaveAuthenticationInfo4",
+                        "exn_type": "java.lang.NullPointerException",
+                        "stack_trace": "java.lang.NullPointerException\n\tat org.apache.sling.auth.core.impl.SlingAuthenticatorTest.test_childNodeShouldHaveAuthenticationInfo2(SlingAuthenticatorTest.java:154)\n"
+                    },
+                    {
+                        "classname": "org.apache.sling.auth.core.impl.SlingAuthenticatorServiceListenerTest",
+                        "method": "testModifyRegistration",
+                        "exn_type": "java.lang.NullPointerException",
+                        "stack_trace": "java.lang.NullPointerException\n\tat org.apache.sling.auth.core.impl.SlingAuthenticatorServiceListenerTest.testAddRemoveRegistrations(SlingAuthenticatorServiceListenerTest.java:126)\n"
+                    },
+                    {
+                        "classname": "org.apache.sling.auth.core.impl.SlingAuthenticatorTest",
+                        "method": "test_isAnonAllowed",
+                        "exn_type": "java.lang.NullPointerException",
+                        "stack_trace": "java.lang.NullPointerException\n\tat org.apache.sling.auth.core.impl.SlingAuthenticatorTest.test_childNodeShouldHaveAuthenticationInfoRoot(SlingAuthenticatorTest.java:231)\n"
+                    },
+                    {
+                        "classname": "org.apache.sling.auth.core.impl.SlingAuthenticatorTest",
+                        "method": "test_childNodeShouldHaveAuthenticationInfoLonger",
+                        "exn_type": "java.lang.NullPointerException",
+                        "stack_trace": "java.lang.NullPointerException\n\tat org.apache.sling.auth.core.impl.SlingAuthenticatorTest.test_childNodeShouldHaveAuthenticationInfoLonger(SlingAuthenticatorTest.java:256)\n"
+                    },
+                    {
+                        "classname": "org.apache.sling.auth.core.impl.SlingAuthenticatorTest",
+                        "method": "test_childNodeShouldHaveAuthenticationInfoRoot",
+                        "exn_type": "java.lang.NullPointerException",
+                        "stack_trace": "java.lang.NullPointerException\n\tat org.apache.sling.auth.core.impl.SlingAuthenticatorTest.test_childNodeShouldHaveAuthenticationInfoRoot(SlingAuthenticatorTest.java:231)\n"
+                    },
+                    {
+                        "classname": "org.apache.sling.auth.core.impl.SlingAuthenticatorServiceListenerTest",
+                        "method": "testAddRemoveRegistrations",
+                        "exn_type": "java.lang.NullPointerException",
+                        "stack_trace": "java.lang.NullPointerException\n\tat org.apache.sling.auth.core.impl.SlingAuthenticatorServiceListenerTest.testDuplicateRegistration(SlingAuthenticatorServiceListenerTest.java:104)\n"
+                    },
+                    {
+                        "classname": "org.apache.sling.auth.core.impl.SlingAuthenticatorTest",
+                        "method": "test_childNodeShouldHaveAuthenticationInfo3",
+                        "exn_type": "java.lang.NullPointerException",
+                        "stack_trace": "java.lang.NullPointerException\n\tat org.apache.sling.auth.core.impl.SlingAuthenticatorTest.test_childNodeShouldHaveAuthenticationInfo4(SlingAuthenticatorTest.java:208)\n"
+                    },
+                    {
+                        "classname": "org.apache.sling.auth.core.impl.SlingAuthenticatorTest",
+                        "method": "test_siblingNodeShouldNotHaveAuthenticationInfo",
+                        "exn_type": "java.lang.NullPointerException",
+                        "stack_trace": "java.lang.NullPointerException\n\tat org.apache.sling.auth.core.impl.SlingAuthenticatorTest.test_childNodeShouldHaveAuthenticationInfoRoot(SlingAuthenticatorTest.java:231)\n"
+                    },
+                    {
+                        "classname": "org.apache.sling.auth.core.impl.SlingAuthenticatorTest",
+                        "method": "test_childNodeShouldHaveAuthenticationInfoLonger",
+                        "exn_type": "java.lang.NullPointerException",
+                        "stack_trace": "java.lang.NullPointerException\n\tat org.apache.sling.auth.core.impl.SlingAuthenticatorTest.test_isAnonAllowed(SlingAuthenticatorTest.java:90)\n"
+                    },
+                    {
+                        "classname": "org.apache.sling.auth.core.impl.SlingAuthenticatorTest",
+                        "method": "test_childNodeShouldHaveAuthenticationInfo4",
+                        "exn_type": "java.lang.NullPointerException",
+                        "stack_trace": "java.lang.NullPointerException\n\tat org.apache.sling.auth.core.impl.SlingAuthenticatorTest.test_siblingNodeShouldNotHaveAuthenticationInfo(SlingAuthenticatorTest.java:297)\n"
+                    },
+                    {
+                        "classname": "org.apache.sling.auth.core.impl.SlingAuthenticatorTest",
+                        "method": "test_childNodeShouldHaveAuthenticationInfo2",
+                        "exn_type": "java.lang.NullPointerException",
+                        "stack_trace": "java.lang.NullPointerException\n\tat org.apache.sling.auth.core.impl.SlingAuthenticatorTest.test_childNodeShouldHaveAuthenticationInfo(SlingAuthenticatorTest.java:127)\n"
+                    },
+                    {
+                        "classname": "org.apache.sling.auth.core.impl.SlingAuthenticatorTest",
+                        "method": "test_childNodeShouldHaveAuthenticationInfo4",
+                        "exn_type": "java.lang.NullPointerException",
+                        "stack_trace": "java.lang.NullPointerException\n\tat org.apache.sling.auth.core.impl.SlingAuthenticatorTest.test_childNodeShouldHaveAuthenticationInfoRoot(SlingAuthenticatorTest.java:231)\n"
+                    },
+                    {
+                        "classname": "org.apache.sling.auth.core.impl.SlingAuthenticatorServiceListenerTest",
+                        "method": "testAddRemoveRegistrations",
+                        "exn_type": "java.lang.NullPointerException",
+                        "stack_trace": "java.lang.NullPointerException\n\tat org.apache.sling.auth.core.impl.SlingAuthenticatorServiceListenerTest.testModifyRegistration(SlingAuthenticatorServiceListenerTest.java:156)\n"
+                    },
+                    {
+                        "classname": "org.apache.sling.auth.core.impl.SlingAuthenticatorTest",
+                        "method": "test_childNodeShouldHaveAuthenticationInfo2",
+                        "exn_type": "java.lang.NullPointerException",
+                        "stack_trace": "java.lang.NullPointerException\n\tat org.apache.sling.auth.core.impl.SlingAuthenticatorTest.test_childNodeShouldHaveAuthenticationInfoLonger(SlingAuthenticatorTest.java:256)\n"
+                    },
+                    {
+                        "classname": "org.apache.sling.auth.core.impl.SlingAuthenticatorServiceListenerTest",
+                        "method": "testDuplicateRegistration",
+                        "exn_type": "java.lang.NullPointerException",
+                        "stack_trace": "java.lang.NullPointerException\n\tat org.apache.sling.auth.core.impl.SlingAuthenticatorServiceListenerTest.testDuplicateRegistration(SlingAuthenticatorServiceListenerTest.java:104)\n"
+                    },
+                    {
+                        "classname": "org.apache.sling.auth.core.impl.SlingAuthenticatorServiceListenerTest",
+                        "method": "testAddRemoveRegistrations",
+                        "exn_type": "java.lang.NullPointerException",
+                        "stack_trace": "java.lang.NullPointerException\n\tat org.apache.sling.auth.core.impl.SlingAuthenticatorServiceListenerTest.testAddRemoveRegistration(SlingAuthenticatorServiceListenerTest.java:86)\n"
+                    },
+                    {
+                        "classname": "org.apache.sling.auth.core.impl.SlingAuthenticatorTest",
+                        "method": "test_childNodeShouldHaveAuthenticationInfo",
+                        "exn_type": "java.lang.NullPointerException",
+                        "stack_trace": "java.lang.NullPointerException\n\tat org.apache.sling.auth.core.impl.SlingAuthenticatorTest.test_childNodeShouldHaveAuthenticationInfo3(SlingAuthenticatorTest.java:181)\n"
+                    },
+                    {
+                        "classname": "org.apache.sling.auth.core.impl.SlingAuthenticatorTest",
+                        "method": "test_childNodeShouldHaveAuthenticationInfoLonger",
+                        "exn_type": "java.lang.NullPointerException",
+                        "stack_trace": "java.lang.NullPointerException\n\tat org.apache.sling.auth.core.impl.SlingAuthenticatorTest.test_childNodeShouldHaveAuthenticationInfo4(SlingAuthenticatorTest.java:208)\n"
+                    },
+                    {
+                        "classname": "org.apache.sling.auth.core.impl.SlingAuthenticatorTest",
+                        "method": "test_childNodeShouldHaveAuthenticationInfoLonger",
+                        "exn_type": "java.lang.NullPointerException",
+                        "stack_trace": "java.lang.NullPointerException\n\tat org.apache.sling.auth.core.impl.SlingAuthenticatorTest.test_childNodeShouldHaveAuthenticationInfo2(SlingAuthenticatorTest.java:154)\n"
+                    },
+                    {
+                        "classname": "org.apache.sling.auth.core.impl.SlingAuthenticatorTest",
+                        "method": "test_childNodeShouldHaveAuthenticationInfoRoot",
+                        "exn_type": "java.lang.NullPointerException",
+                        "stack_trace": "java.lang.NullPointerException\n\tat org.apache.sling.auth.core.impl.SlingAuthenticatorTest.test_childNodeShouldHaveAuthenticationInfo4(SlingAuthenticatorTest.java:208)\n"
+                    },
+                    {
+                        "classname": "org.apache.sling.auth.core.impl.SlingAuthenticatorTest",
+                        "method": "test_childNodeShouldHaveAuthenticationInfo2",
+                        "exn_type": "java.lang.NullPointerException",
+                        "stack_trace": "java.lang.NullPointerException\n\tat org.apache.sling.auth.core.impl.SlingAuthenticatorTest.test_isAnonAllowed(SlingAuthenticatorTest.java:90)\n"
+                    }
+                ]
+            }
+        },
+        {
+            "repo": "sling-org-apache-sling-auth-core",
+            "bug_id": "PathBasedHolder_134",
+            "npe_info": {
+                "filepath": "src/main/java/org/apache/sling/auth/core/impl/PathBasedHolder.java",
+                "line": 139,
+                "deref_field": "serviceReference",
+                "npe_class": "PathBasedHolder",
+                "npe_method": "getProvider",
+                "sink_field": null,
+                "jvmti_identify_succeed": null,
+                "is_original": null
+            },
+            "build_info": {
+                "compiled": true,
+                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
+                "java_version": 8,
+                "error_message": null,
+                "time": 17.792851275997236
+            },
+            "test_info": {
+                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
+                "fail_buggy": false,
+                "pass_fixed": true,
+                "testcases": []
+            }
+        }
+    ],
+    "repository_info": null
+}
