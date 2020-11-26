@@ -136,7 +136,12 @@ class Bug:
         bug.find_test()
         return bug
 
-    def execute_test(self, verbosity=0, env=os.environ):
+    def compile(self):
+        original_dir = f"{BENCH_DIR}/{self.repo}"
+        compile_cmd = f"mvn test-compile {MVN_OPTION}"
+        return utils.execute(compile_cmd, dir=original_dir)
+
+    def test(self, verbosity=0, env=os.environ):
         original_dir = f"{BENCH_DIR}/{self.repo}"
         test_cmd = f'mvn test -DfailIfNoTests=false {MVN_OPTION}'
         for testcase in self.test_info.testcases:
@@ -158,26 +163,29 @@ class Bug:
             self.patches = []
             return
 
-        if os.path.isfile(f"{data_dir}/buggy.java}") is False:
-            print (f"{WARNING}: {self.bug_id} has no buggy.java")
+        if os.path.isfile(f"{data_dir}/buggy.java") is False:
+            print(f"{WARNING}: {self.bug_id} has no buggy.java")
             return
 
         if os.path.isdir(f"{original_dir}/patches"):
             execute_no_fail(f"rm -rf {original_dir}/patches", dir)
-        
+
         if os.path.isdir(f"{data_dir}/patches"):
             execute_no_fail(f"rm -rf {data_dir}/patches", dir)
 
         ### Generate patches ###
-        print (f"{PROGRESS}: generating patches for {self.bug_id}")
+        print(f"{PROGRESS}: generating patches for {self.bug_id}")
         self.apply_bug()
-        utils.execute( f"java -cp {SYNTHESIZER} npex.synthesizer.Main -patch {original_dir} {data_dir}/npe.json")
+        utils.execute(
+            f"java -cp {SYNTHESIZER} npex.synthesizer.Main -patch {original_dir} {data_dir}/npe.json",
+            dir=original_dir)
 
         if os.path.isdir(f"{original_dir}/patches") is False:
             print(f"{SERIOUS}: no patches are generated for {self.bug_id}")
             return
-            
-        execute_no_fail(f"mv {original_dir}/patches {data_dir}/patches", ROOT_DIR)
+
+        execute_no_fail(f"mv {original_dir}/patches {data_dir}/patches",
+                        ROOT_DIR)
         patch_dirs = glob.glob(f"{data_dir}/patches/*")
         for patch_dir in patch_dirs:
             patch_id = os.path.basename(patch_dir)
@@ -194,7 +202,9 @@ class Bug:
 
         ### Print ###
         if self.patches != []:
-            print( f"{PROGRESS}: {len(self.patches)} patches are generated for {self.bug_id}")
+            print(
+                f"{PROGRESS}: {len(self.patches)} patches are generated for {self.bug_id}"
+            )
         else:
             print(f"{SERIOUS}: no patches are generated for {self.bug_id}")
 
@@ -208,34 +218,38 @@ class Bug:
     def validate_patches(self):
         if self.patches == []:
             return
-        
-        print (f"{PROGRESS}: validating patches of {self.bug_id}")
+
+        print(f"{PROGRESS}: validating patches of {self.bug_id}")
         for patch in self.patches:
             if patch.compiled is False or patch.pass_testcase is not None:
                 continue
-            
+
             self.apply_patch(patch)
-            patch.compiled = self.execute_compile().return_code == 0
+            patch.compiled = self.compile().return_code == 0
             if patch.compiled and self.test_info.testcases != []:
-                patch.pass_testcase = self.execute_test().return_code == 0
+                patch.pass_testcase = self.test().return_code == 0
 
     def validate_first_patch(self):
         if self.patches == []:
             return
-       
-        patch = self.patches[0] 
-        print (f"{PROGRESS}: validating patch {patch.patch_id} of {self.bug_id}")
+
+        patch = self.patches[0]
+        print(
+            f"{PROGRESS}: validating patch {patch.patch_id} of {self.bug_id}")
         self.apply_patch(patch)
-        patch.compiled = self.execute_compile().return_code == 0
+        patch.compiled = self.compile().return_code == 0
         if patch.compiled and self.test_info.testcases != []:
-            patch.pass_testcase = self.execute_test().return_code == 0
-        
+            patch.pass_testcase = self.test().return_code == 0
+
         if patch.compiled is False:
             print(f"{FAIL}: failed to compile patch {patch.patch_id}")
         elif patch.pass_testcase:
-            print(f"{SUCCESS}: {patch.patch_id} succeed to pass testcase for {self.bug_id}")
+            print(
+                f"{SUCCESS}: {patch.patch_id} succeed to pass testcase for {self.bug_id}"
+            )
         else:
             print(f"{FAIL}: failed to pass testcase {patch.patch.id}")
+
 
 @dataclass
 class Repo:
@@ -278,7 +292,7 @@ class Repo:
         repo_data = cls.from_json(f"{LEARNING_DIR}/{repo}/bugs.json")
         for bug in repo_data.bugs:
             bug.generate_patches()
-            bug.validate_patches()
+            bug.validate_first_patch()
             repo_data.to_json()
 
 
