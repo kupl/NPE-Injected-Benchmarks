@@ -154,6 +154,14 @@ class Bug:
             self.patches = []
             return
 
+        if self.test_info == None or self.test_info.testcases == []:
+            self.patches = []
+            return
+
+        if os.path.isfile(f"{data_dir}/buggy.java}") is False:
+            print (f"{WARNING}: {self.bug_id} has no buggy.java")
+            return
+
         if os.path.isdir(f"{original_dir}/patches"):
             execute_no_fail(f"rm -rf {original_dir}/patches", dir)
         
@@ -163,9 +171,7 @@ class Bug:
         ### Generate patches ###
         print (f"{PROGRESS}: generating patches for {self.bug_id}")
         self.apply_bug()
-        utils.execute(
-            f"java -cp {SYNTHESIZER} npex.synthesizer.Main -patch {original_dir} {data_dir}/npe.json"
-        )
+        utils.execute( f"java -cp {SYNTHESIZER} npex.synthesizer.Main -patch {original_dir} {data_dir}/npe.json")
 
         if os.path.isdir(f"{original_dir}/patches") is False:
             print(f"{SERIOUS}: no patches are generated for {self.bug_id}")
@@ -186,13 +192,11 @@ class Bug:
                       patch_dir=patch_dir,
                       original_filepath=original_filepath))
 
-            ### Print ###
-            if self.patches != []:
-                print(
-                    f"{PROGRESS}: {len(self.patches)} patches are generated for {self.bug_id}"
-                )
-            else:
-                print(f"{SERIOUS}: no patches are generated for {self.bug_id}")
+        ### Print ###
+        if self.patches != []:
+            print( f"{PROGRESS}: {len(self.patches)} patches are generated for {self.bug_id}")
+        else:
+            print(f"{SERIOUS}: no patches are generated for {self.bug_id}")
 
     def apply_patch(self, patch):
         original_dir = f"{BENCH_DIR}/{self.repo}"
@@ -202,6 +206,9 @@ class Bug:
             original_dir)
 
     def validate_patches(self):
+        if self.patches == []:
+            return
+        
         print (f"{PROGRESS}: validating patches of {self.bug_id}")
         for patch in self.patches:
             if patch.compiled is False or patch.pass_testcase is not None:
@@ -212,6 +219,23 @@ class Bug:
             if patch.compiled and self.test_info.testcases != []:
                 patch.pass_testcase = self.execute_test().return_code == 0
 
+    def validate_first_patch(self):
+        if self.patches == []:
+            return
+       
+        patch = self.patches[0] 
+        print (f"{PROGRESS}: validating patch {patch.patch_id} of {self.bug_id}")
+        self.apply_patch(patch)
+        patch.compiled = self.execute_compile().return_code == 0
+        if patch.compiled and self.test_info.testcases != []:
+            patch.pass_testcase = self.execute_test().return_code == 0
+        
+        if patch.compiled is False:
+            print(f"{FAIL}: failed to compile patch {patch.patch_id}")
+        elif patch.pass_testcase:
+            print(f"{SUCCESS}: {patch.patch_id} succeed to pass testcase for {self.bug_id}")
+        else:
+            print(f"{FAIL}: failed to pass testcase {patch.patch.id}")
 
 @dataclass
 class Repo:
