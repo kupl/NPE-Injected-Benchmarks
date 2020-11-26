@@ -147,26 +147,36 @@ class Bug:
 
     def generate_patches(self):
         original_dir = f"{BENCH_DIR}/{self.repo}"
+        data_dir = f"{LEARNING_DIR}/{self.repo}/bugs/{self.bug_id}"
 
         ### Pre condition ###
         if self.build_info == None or self.build_info.compiled is False:
             self.patches = []
             return
 
-        if os.path.isdir(f"{dir}/patches"):
-            execute_no_fail(f"rm -rf {dir}/patches", dir)
+        if os.path.isdir(f"{original_dir}/patches"):
+            execute_no_fail(f"rm -rf {original_dir}/patches", dir)
+        
+        if os.path.isdir(f"{data_dir}/patches"):
+            execute_no_fail(f"rm -rf {data_dir}/patches", dir)
 
+        ### Generate patches ###
+        print (f"{PROGRESS}: generating patches for {self.bug_id}")
         self.apply_bug()
-        data_dir = f"{LEARNING_DIR}/{self.repo}/bugs/{self.bug_id}"
         utils.execute(
             f"java -cp {SYNTHESIZER} npex.synthesizer.Main -patch {original_dir} {data_dir}/npe.json"
         )
 
+        if os.path.isdir(f"{original_dir}/patches") is False:
+            print(f"{SERIOUS}: no patches are generated for {self.bug_id}")
+            return
+            
+        execute_no_fail(f"mv {original_dir}/patches {data_dir}/patches", ROOT_DIR)
         patch_dirs = glob.glob(f"{data_dir}/patches/*")
         for patch_dir in patch_dirs:
             patch_id = os.path.basename(patch_dir)
             if os.path.isfile(f"{patch_dir}/patch.json") is False:
-                execute_no_fail(f"rm -rf {patch_dir}", dir)
+                execute_no_fail(f"rm -rf {patch_dir}", ROOT_DIR)
                 print(f"{ERROR} {self.bug_id}-{patch_id} NOT IMPLEMENTED")
                 continue
             original_filepath = utils.read_json_from_file(
@@ -192,9 +202,11 @@ class Bug:
             original_dir)
 
     def validate_patches(self):
+        print (f"{PROGRESS}: validating patches of {self.bug_id}")
         for patch in self.patches:
             if patch.compiled is False or patch.pass_testcase is not None:
                 continue
+            
             self.apply_patch(patch)
             patch.compiled = self.execute_compile().return_code == 0
             if patch.compiled and self.test_info.testcases != []:
@@ -283,6 +295,10 @@ if __name__ == "__main__":
                         action='store_true',
                         default=False,
                         help="get metadata")
+    parser.add_argument("--generate_and_validate_patches",
+                        action='store_true',
+                        default=False,
+                        help="generate and validate patches")
     parser.add_argument("--n_cpus", default=20, help="number of cpus")
     args = parser.parse_args()
 
