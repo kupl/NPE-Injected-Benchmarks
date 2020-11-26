@@ -150,10 +150,24 @@ class Bug:
         self.test_info.test_command = test_cmd
         return utils.execute(test_cmd, dir=dir, env=env, verbosity=verbosity)
 
+    def modify_npe(self):
+        data_dir = f"{LEARNING_DIR}/{self.repo}/bugs/{self.bug_id}"
+        lines = open(f"{data_dir}/buggy.java", 'r')
+        i = 1
+        line_number = None
+        for line in lines:
+            if "NPEX_NULL_EXP" in line:
+                npe_line_number = i + 1
+                npe_json = utils.read_json_from_file(f"{data_dir}/npe.json")
+                npe_json["line"] = npe_line_number
+                utils.save_dict_to_jsonfile(f"{data_dir}/npe.json", npe_json)
+                return True
+            i = i + 1
+        return False
+
     def generate_patches(self):
         original_dir = f"{BENCH_DIR}/{self.repo}"
         data_dir = f"{LEARNING_DIR}/{self.repo}/bugs/{self.bug_id}"
-
         ### Pre condition ###
         if self.build_info == None or self.build_info.compiled is False:
             self.patches = []
@@ -173,8 +187,12 @@ class Bug:
         if os.path.isdir(f"{data_dir}/patches"):
             execute_no_fail(f"rm -rf {data_dir}/patches", dir)
 
+        ### TODO: remove it ###
+        if self.modify_npe() is False:
+            print(f"{FAIL}: failed to convert npe")
+            return
+
         ### Generate patches ###
-        print(f"{PROGRESS}: generating patches for {self.bug_id}")
         self.apply_bug()
         utils.execute(
             f"java -cp {SYNTHESIZER} npex.synthesizer.Main -patch {original_dir} {data_dir}/npe.json",
@@ -189,16 +207,22 @@ class Bug:
         patch_dirs = glob.glob(f"{data_dir}/patches/*")
         for patch_dir in patch_dirs:
             patch_id = os.path.basename(patch_dir)
+
             if os.path.isfile(f"{patch_dir}/patch.json") is False:
                 execute_no_fail(f"rm -rf {patch_dir}", ROOT_DIR)
                 print(f"{ERROR} {self.bug_id}-{patch_id} NOT IMPLEMENTED")
                 continue
+
             original_filepath = utils.read_json_from_file(
                 f"{patch_dir}/patch.json")["original_filepath"]
-            self.patches.append(
-                Patch(patch_id=patch_id,
-                      patch_dir=patch_dir,
-                      original_filepath=original_filepath))
+            patch = Patch(patch_id=patch_id,
+                          patch_dir=patch_dir,
+                          original_filepath=original_filepath)
+
+            ## collect only compilable patches ##
+            self.apply_patch(patch)
+            if self.compile().return_code == 0:
+                self.patches.append(patch)
 
         ### Print ###
         if self.patches != []:
@@ -206,7 +230,7 @@ class Bug:
                 f"{PROGRESS}: {len(self.patches)} patches are generated for {self.bug_id}"
             )
         else:
-            print(f"{SERIOUS}: no patches are generated for {self.bug_id}")
+            print(f"{FAIL}: no patches are generated for {self.bug_id}")
 
     def apply_patch(self, patch):
         original_dir = f"{BENCH_DIR}/{self.repo}"
@@ -340,7 +364,10 @@ if __name__ == "__main__":
     parser.add_argument("--n_cpus", default=20, help="number of cpus")
     args = parser.parse_args()
 
-    repos = [repo for repo in utils.read_json_from_file("metadata.json")]
+    repos = [
+        os.path.basename(repo_dir) for repo_dir in glob.glob("benchmarks/*")
+    ]
+    # repos = [repo for repo in utils.read_json_from_file("metadata.json")]
     p = Pool(args.n_cpus)
     if args.generate_bugs:
         p.map(generate_bugs, repos)
@@ -352,6 +379,10 @@ if __name__ == "__main__":
         to_metadata(repos)
 
     if args.generate_and_validate_patches:
+        repos = [
+            repo for repo in repos
+            if os.path.isfile(f"{LEARNING_DIR}/{repo}/bugs.json")
+        ]
         p.map(Repo.generate_and_validate_patches, repos)
 
     p.close()
