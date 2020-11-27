@@ -1,6 +1,0 @@
-Sling-Initial-Content:\
-  initial-content
-
--removeheaders:\
-  Include-Resource,\
-  Private-Package

@@ -1,4 +1,0 @@
-Bundle-SymbolicName: test-bundle3
-Bundle-Version: 100
-Bundle-ManifestVersion: 2
-Import-Package: org.foo.a;version="[1,2)",org.foo.e;version="[1,1.1)"

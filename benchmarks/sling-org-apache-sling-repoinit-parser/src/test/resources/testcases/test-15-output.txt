@@ -1,2 +1,0 @@
-SetAclPaths on /content :repository 
-  AclLine ALLOW {principals=[user1], privileges=[jcr:all]}

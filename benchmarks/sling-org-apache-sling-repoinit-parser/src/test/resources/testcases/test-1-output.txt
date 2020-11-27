@@ -1,6 +1,0 @@
-CreateServiceUser bob
-CreateServiceUser alice
-CreateServiceUser tom21
-CreateServiceUser lonesome
-CreateServiceUser pathA with path some/relative/path
-CreateServiceUser pathA with path /some/absolute/path

@@ -1,5 +1,0 @@
-A visitor of Fling left a comment.
-
-[[${form.name}]] says:
-
-[[${form.comment}]]

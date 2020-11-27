@@ -1,2 +1,0 @@
-SetAclPrincipals for user1 
-  AclLine ALLOW {paths=[:repository, /content], privileges=[jcr:all]}

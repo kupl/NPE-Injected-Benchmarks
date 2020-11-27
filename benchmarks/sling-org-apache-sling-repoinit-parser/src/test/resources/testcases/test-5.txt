@@ -1,3 +1,0 @@
-# trailing comments test without following blank lines
-create service user comments_test_passed
-# something

@@ -1,6 +1,0 @@
-{
-    "jcr:primaryType":"sling:Folder",
-    "sling:resourceType":"slingshot/Streamentry",
-    "title":"Welcome",
-    "description":"This guy looks charming"
-}

@@ -1,8 +1,0 @@
-github:
-  description: "Apache Sling OSGi Feature Model"
-  homepage: "https://sling.apache.org/"
-  labels:
-    - java
-    - sling
-    - osgi
-    - osgi-feature-model

@@ -1,5 +1,0 @@
-= Apache Winegrower
-
-* xref:getting-started.adoc[Getting Started]
-* xref:core/index.adoc[Core] documentation
-* xref:extension/index.adoc[Extension] documentation
