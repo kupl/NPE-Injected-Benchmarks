@@ -427,7 +427,7 @@ def bug_table(repos):
         failure = 0
         
         bugs_with_tc = [bug for bug in repo_data.bugs if bug.test_info and bug.test_info.testcases != []]
-        for bug in repo_data.bugs:
+        for bug in bugs_with_tc:
             if bug.patches == []:
                 no_patch = no_patch + 1
             elif bug.patches[0].pass_testcase:
