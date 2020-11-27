@@ -7,6 +7,7 @@ from functools import wraps
 import utils
 from config import *
 from time import sleep
+import csv
 
 ROOT_DIR = os.getcwd()
 LEARNING_DIR = f"{ROOT_DIR}/generated_bugs"
@@ -42,7 +43,7 @@ def checkout(repo: str):
     while True:
         ret = utils.execute("git checkout -f -- .", repo_dir)
         if ret.return_code == 128:
-            print(f"wait for git checkout at {repo_dir}")
+            # print(f"wait for git checkout at {repo_dir}")
             sleep(0.5)
             continue
         else:
@@ -57,6 +58,7 @@ class Bug:
     build_info: Optional[Build] = None
     test_info: Optional[Test] = None
     patches: List[Patch] = field(default_factory=list)
+    time_to_generate_patches: float = 0
 
     @classmethod
     def init_by_bug_dir(cls, repo, bug_dir):
@@ -148,7 +150,10 @@ class Bug:
             test_cmd = test_cmd + f" -Dtest={testcase.classname}#{testcase.method}"
 
         self.test_info.test_command = test_cmd
-        return utils.execute(test_cmd, dir=dir, env=env, verbosity=verbosity)
+        return utils.execute(test_cmd,
+                             dir=original_dir,
+                             env=env,
+                             verbosity=verbosity)
 
     def modify_npe(self):
         data_dir = f"{LEARNING_DIR}/{self.repo}/bugs/{self.bug_id}"
@@ -182,10 +187,10 @@ class Bug:
             return
 
         if os.path.isdir(f"{original_dir}/patches"):
-            execute_no_fail(f"rm -rf {original_dir}/patches", dir)
+            execute_no_fail(f"rm -rf {original_dir}/patches", ROOT_DIR)
 
         if os.path.isdir(f"{data_dir}/patches"):
-            execute_no_fail(f"rm -rf {data_dir}/patches", dir)
+            execute_no_fail(f"rm -rf {data_dir}/patches", ROOT_DIR)
 
         ### TODO: remove it ###
         if self.modify_npe() is False:
@@ -194,7 +199,7 @@ class Bug:
 
         ### Generate patches ###
         self.apply_bug()
-        utils.execute(
+        ret_patch = utils.execute(
             f"java -cp {SYNTHESIZER} npex.synthesizer.Main -patch {original_dir} {data_dir}/npe.json",
             dir=original_dir)
 
@@ -223,6 +228,9 @@ class Bug:
             self.apply_patch(patch)
             if self.compile().return_code == 0:
                 self.patches.append(patch)
+            else:
+                execute_no_fail(f"rm -rf {patch_dir}", ROOT_DIR)
+                continue
 
         ### Print ###
         if self.patches != []:
@@ -230,49 +238,35 @@ class Bug:
                 f"{PROGRESS}: {len(self.patches)} patches are generated for {self.bug_id}"
             )
         else:
-            print(f"{FAIL}: no patches are generated for {self.bug_id}")
+            print(f"{FAIL}: no compilable patches for {self.bug_id}")
+        self.time_to_generate_patches = ret_patch.time
 
     def apply_patch(self, patch):
         original_dir = f"{BENCH_DIR}/{self.repo}"
+        patch_dir = f"{LEARNING_DIR}/{self.repo}/bugs/{self.bug_id}/patches/{patch.patch_id}"
         checkout(self.repo)
         execute_no_fail(
-            f"cp \"{patch.patch_dir}/patch.java\" {original_dir}/{patch.original_filepath}",
+            f"cp \"{patch_dir}/patch.java\" {original_dir}/{patch.original_filepath}",
             original_dir)
-
-    def validate_patches(self):
-        if self.patches == []:
-            return
-
-        print(f"{PROGRESS}: validating patches of {self.bug_id}")
-        for patch in self.patches:
-            if patch.compiled is False or patch.pass_testcase is not None:
-                continue
-
-            self.apply_patch(patch)
-            patch.compiled = self.compile().return_code == 0
-            if patch.compiled and self.test_info.testcases != []:
-                patch.pass_testcase = self.test().return_code == 0
 
     def validate_first_patch(self):
         if self.patches == []:
             return
+        else:
+            patch = self.patches[0]
 
-        patch = self.patches[0]
         print(
             f"{PROGRESS}: validating patch {patch.patch_id} of {self.bug_id}")
         self.apply_patch(patch)
-        patch.compiled = self.compile().return_code == 0
-        if patch.compiled and self.test_info.testcases != []:
+        if self.test_info.testcases != []:
             patch.pass_testcase = self.test().return_code == 0
 
-        if patch.compiled is False:
-            print(f"{FAIL}: failed to compile patch {patch.patch_id}")
-        elif patch.pass_testcase:
+        if patch.pass_testcase:
             print(
                 f"{SUCCESS}: {patch.patch_id} succeed to pass testcase for {self.bug_id}"
             )
         else:
-            print(f"{FAIL}: failed to pass testcase {patch.patch.id}")
+            print(f"{FAIL}: failed to pass testcase {patch.patch_id}")
 
 
 @dataclass
@@ -312,12 +306,94 @@ class Repo:
         return repo_data
 
     @classmethod
-    def generate_and_validate_patches(cls, repo):
+    def generate_patches(cls, repo):
         repo_data = cls.from_json(f"{LEARNING_DIR}/{repo}/bugs.json")
-        for bug in repo_data.bugs:
-            bug.generate_patches()
-            bug.validate_first_patch()
+        try:
+            for bug in repo_data.bugs:
+                bug.generate_patches()
+                repo_data.to_json()
+        finally:
             repo_data.to_json()
+
+    @classmethod
+    def validate_patches(cls, repo):
+        repo_data = cls.from_json(f"{LEARNING_DIR}/{repo}/bugs.json")
+        try:
+            for bug in repo_data.bugs:
+                bug.validate_first_patch()
+                repo_data.to_json()
+        finally:
+            repo_data.to_json()
+
+
+@dataclass
+class Statistics:
+    ratio_of_compiled_patches: str
+    reliability: str
+    fix_rate: str
+    bugs: int = 0
+    compiled: int = 0
+    has_validating_tc: int = 0
+    fixed: int = 0
+    has_plasible_patches: List[str] = field(default_factory=list)
+    no_validating_testcases: List[str] = field(default_factory=list)
+    no_plausible_patches: List[str] = field(default_factory=list)
+    no_patch_bugs: List[str] = field(default_factory=list)
+    not_compled_bugs: List[str] = field(default_factory=list)
+
+    def __init__(self, target_branches):
+        patch_not_compiled = 0
+        patch_compiled = 0
+        patch_passed = 0
+        self.has_plasible_patches: List[str] = []
+        self.no_plausible_patches: List[str] = []
+        self.no_patch_bugs: List[str] = []
+        self.not_compled_bugs: List[str] = []
+        self.no_validating_testcases = []
+
+        target_branches = [
+            br for br in target_branches
+            if os.path.isfile(f"{ROOT_DIR}/{br}/bug.json")
+        ]
+
+        for target_branch in target_branches:
+            print(f"{PROGRESS}: reading {target_branch}...")
+            self.bugs = self.bugs + 1
+            bug = Bug.from_branch(target_branch)
+
+            if bug.build_info.compiled:
+                self.compiled = self.compiled + 1
+
+            if bug.test_info and bug.test_info.testcases != []:
+                self.has_validating_tc = self.has_validating_tc + 1
+            elif bug.build_info.compiled:
+                self.no_validating_testcases.append(bug.bug_id)
+
+            for patch in bug.patch_results:
+                if patch.compiled:
+                    patch_compiled = patch_compiled + 1
+                else:
+                    patch_not_compiled = patch_not_compiled + 1
+                if patch.pass_testcase:
+                    patch_passed = patch_passed + 1
+
+            if any([patch.pass_testcase for patch in bug.patch_results]):
+                self.fixed = self.fixed + 1
+                self.has_plasible_patches.append(bug.bug_id)
+            elif bug.patch_results != []:
+                self.no_plausible_patches.append(bug.bug_id)
+            elif bug.build_info.compiled:
+                self.no_patch_bugs.append(bug.bug_id)
+            else:
+                self.not_compled_bugs.append(bug.bug_id)
+
+        self.ratio_of_compiled_patches = f"{patch_compiled}/{patch_compiled + patch_not_compiled}"
+        self.reliability = f"{patch_passed}/{patch_compiled}"
+        self.fix_rate = f"{self.fixed}/{self.has_validating_tc}"
+
+    def to_json(self):
+        utils.save_dict_to_jsonfile(f"{ROOT_DIR}/statistics.json",
+                                    asdict(self))
 
 
 def generate_bugs(repo):
@@ -342,6 +418,30 @@ def to_metadata(repos):
             del results[repo]
     utils.save_dict_to_jsonfile("metadata.json", results)
 
+def bug_table(repos):
+    results = {}
+    def count_repo(repo):
+        repo_data = Repo.from_json(f"{LEARNING_DIR}/{repo}/bugs.json")
+        no_patch = 0
+        success = 0
+        failure = 0
+        
+        bugs_with_tc = [bug for bug in repo_data.bugs if bug.test_info and bug.test_info.testcases != []]
+        for bug in repo_data.bugs:
+            if bug.patches == []:
+                no_patch = no_patch + 1
+            elif bug.patches[0].pass_testcase:
+                success = success + 1
+            else:
+                failure = failure + 1
+        return (repo, len(bugs_with_tc), no_patch, success, failure)
+        
+    with open('projects.csv', 'w') as csvfile:
+        writer = csv.writer(csvfile, delimiter=',')
+        for repo in repos: 
+            writer.writerow(row := count_repo(repo))
+            print(row)
+
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
@@ -357,10 +457,18 @@ if __name__ == "__main__":
                         action='store_true',
                         default=False,
                         help="get metadata")
-    parser.add_argument("--generate_and_validate_patches",
+    parser.add_argument("--generate_patches",
                         action='store_true',
                         default=False,
-                        help="generate and validate patches")
+                        help="generate patches")
+    parser.add_argument("--validate_patches",
+                        action='store_true',
+                        default=False,
+                        help="validate patches")
+    parser.add_argument("--count",
+                        action='store_true',
+                        default=False,
+                        help="count")
     parser.add_argument("--n_cpus", default=20, help="number of cpus")
     args = parser.parse_args()
 
@@ -378,11 +486,22 @@ if __name__ == "__main__":
     if args.metadata:
         to_metadata(repos)
 
-    if args.generate_and_validate_patches:
-        repos = [
-            repo for repo in repos
-            if os.path.isfile(f"{LEARNING_DIR}/{repo}/bugs.json")
-        ]
-        p.map(Repo.generate_and_validate_patches, repos)
+    ### check input
+    for repo in repos:
+        if os.path.isfile(f"{LEARNING_DIR}/{repo}/bugs.json") is False:
+            print(f"{WARNING}: {repo} has no bugs.json")
+        else:
+            try:
+                Repo.from_json(f"{LEARNING_DIR}/{repo}/bugs.json")
+            except:
+                print(f"{ERROR}: {repo} has invalid bugs.json")
+
+    if args.generate_patches:
+        p.map(Repo.generate_patches, repos)
+
+    if args.validate_patches:
+        p.map(Repo.validate_patches, repos)
+
+    bug_table(repos)
 
     p.close()
