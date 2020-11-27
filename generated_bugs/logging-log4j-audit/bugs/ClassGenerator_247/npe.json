@@ -1,7 +1,0 @@
-{
-    "filepath": "log4j-audit/log4j-audit-api/src/main/java/org/apache/logging/log4j/audit/generator/ClassGenerator.java",
-    "line": 248,
-    "npe_method": "getClassContents",
-    "deref_field": "getJavadocComment()",
-    "npe_class": "ClassGenerator"
-}

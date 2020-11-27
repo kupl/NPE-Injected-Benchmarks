@@ -1,7 +1,0 @@
-{
-    "filepath": "validator/src/main/java/org/apache/skywalking/plugin/test/agent/tool/validator/entity/Data.java",
-    "line": 54,
-    "npe_method": "loadData",
-    "deref_field": "result",
-    "npe_class": "Loader"
-}

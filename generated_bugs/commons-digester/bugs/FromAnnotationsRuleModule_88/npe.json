@@ -1,7 +1,0 @@
-{
-    "filepath": "core/src/main/java/org/apache/commons/digester3/annotations/FromAnnotationsRuleModule.java",
-    "line": 93,
-    "npe_method": "useAnnotationHandlerFactory",
-    "deref_field": "annotationHandlerFactory",
-    "npe_class": "FromAnnotationsRuleModule"
-}

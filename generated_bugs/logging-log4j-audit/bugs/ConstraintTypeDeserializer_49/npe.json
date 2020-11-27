@@ -1,7 +1,0 @@
-{
-    "filepath": "log4j-catalog/log4j-catalog-api/src/main/java/org/apache/logging/log4j/catalog/api/plugins/ConstraintTypeDeserializer.java",
-    "line": 52,
-    "npe_method": "deserialize",
-    "deref_field": "type",
-    "npe_class": "ConstraintTypeDeserializer"
-}

@@ -1,7 +1,0 @@
-{
-    "filepath": "src/main/java/org/apache/sling/feature/maven/mojos/ApisJarMojo.java",
-    "line": 1258,
-    "npe_method": "downloadSourceAndDeflate",
-    "deref_field": "url",
-    "npe_class": "ApisJarMojo"
-}

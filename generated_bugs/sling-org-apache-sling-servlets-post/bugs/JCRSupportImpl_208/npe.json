@@ -1,7 +1,0 @@
-{
-    "filepath": "src/main/java/org/apache/sling/servlets/post/impl/helper/JCRSupportImpl.java",
-    "line": 209,
-    "npe_method": "checkoutIfNecessary",
-    "deref_field": "versionableNode",
-    "npe_class": "JCRSupportImpl"
-}

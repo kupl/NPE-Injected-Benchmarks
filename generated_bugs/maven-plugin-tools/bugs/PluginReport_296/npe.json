@@ -1,7 +1,0 @@
-{
-    "filepath": "maven-plugin-plugin/src/main/java/org/apache/maven/plugin/plugin/PluginReport.java",
-    "line": 302,
-    "npe_method": "extractPluginDescriptor",
-    "deref_field": "goalPrefix",
-    "npe_class": "PluginReport"
-}

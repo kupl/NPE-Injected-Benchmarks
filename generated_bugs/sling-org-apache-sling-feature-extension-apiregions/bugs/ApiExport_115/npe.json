@@ -1,7 +1,0 @@
-{
-    "filepath": "src/main/java/org/apache/sling/feature/extension/apiregions/api/ApiExport.java",
-    "line": 115,
-    "npe_method": "hashCode",
-    "deref_field": "name",
-    "npe_class": "ApiExport"
-}

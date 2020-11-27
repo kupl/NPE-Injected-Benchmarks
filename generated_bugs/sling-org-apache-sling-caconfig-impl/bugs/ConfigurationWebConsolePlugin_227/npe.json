@@ -1,7 +1,0 @@
-{
-    "filepath": "src/main/java/org/apache/sling/caconfig/management/impl/console/ConfigurationWebConsolePlugin.java",
-    "line": 232,
-    "npe_method": "printResolutionTestTool",
-    "deref_field": "valueInfo",
-    "npe_class": "ConfigurationWebConsolePlugin"
-}

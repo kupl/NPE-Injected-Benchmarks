@@ -1,7 +1,0 @@
-{
-    "filepath": "enforcer-rules/src/main/java/org/apache/maven/plugins/enforcer/BanTransitiveDependencies.java",
-    "line": 111,
-    "npe_method": "searchTree",
-    "deref_field": "message",
-    "npe_class": "BanTransitiveDependencies"
-}

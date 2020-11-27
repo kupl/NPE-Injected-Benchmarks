@@ -1,7 +1,0 @@
-{
-    "filepath": "src/main/java/org/apache/sling/feature/maven/Preprocessor.java",
-    "line": 163,
-    "npe_method": "process",
-    "deref_field": "getJarStartOrder()",
-    "npe_class": "Preprocessor"
-}

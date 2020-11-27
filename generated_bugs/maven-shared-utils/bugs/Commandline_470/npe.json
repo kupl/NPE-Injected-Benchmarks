@@ -1,7 +1,0 @@
-{
-    "filepath": "src/main/java/org/apache/maven/shared/utils/cli/Commandline.java",
-    "line": 472,
-    "npe_method": "setValue",
-    "deref_field": "value",
-    "npe_class": "Argument"
-}

@@ -1,7 +1,0 @@
-{
-    "filepath": "core/src/test/java/org/apache/commons/digester3/annotations/catalog/Book.java",
-    "line": 110,
-    "npe_method": "equals",
-    "deref_field": "this.desc",
-    "npe_class": "Book"
-}

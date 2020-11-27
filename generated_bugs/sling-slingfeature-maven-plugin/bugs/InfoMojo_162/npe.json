@@ -1,7 +1,0 @@
-{
-    "filepath": "src/main/java/org/apache/sling/feature/maven/mojos/InfoMojo.java",
-    "line": 163,
-    "npe_method": "execute",
-    "deref_field": "this.artifactExcludesList",
-    "npe_class": "InfoMojo"
-}

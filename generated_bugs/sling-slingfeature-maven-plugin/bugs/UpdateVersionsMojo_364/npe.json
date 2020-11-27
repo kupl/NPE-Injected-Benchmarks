@@ -1,7 +1,0 @@
-{
-    "filepath": "src/main/java/org/apache/sling/feature/maven/mojos/UpdateVersionsMojo.java",
-    "line": 365,
-    "npe_method": "shouldHandle",
-    "deref_field": "cfg.includes",
-    "npe_class": "UpdateVersionsMojo"
-}

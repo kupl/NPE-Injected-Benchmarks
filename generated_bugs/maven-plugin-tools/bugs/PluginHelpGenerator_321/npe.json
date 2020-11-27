@@ -1,7 +1,0 @@
-{
-    "filepath": "maven-plugin-tools-generators/src/main/java/org/apache/maven/tools/plugin/generator/PluginHelpGenerator.java",
-    "line": 324,
-    "npe_method": "rewriteHelpMojo",
-    "deref_field": "helpMojoImplementation",
-    "npe_class": "PluginHelpGenerator"
-}

@@ -1,7 +1,0 @@
-{
-    "filepath": "validator/src/main/java/org/apache/skywalking/plugin/test/agent/tool/validator/assertor/SegmentItemsAssert.java",
-    "line": 94,
-    "npe_method": "findSegmentItem",
-    "deref_field": "actual",
-    "npe_class": "SegmentItemsAssert"
-}

@@ -1,7 +1,0 @@
-{
-    "filepath": "src/main/java/org/apache/sling/caconfig/management/impl/ConfigurationManagerImpl.java",
-    "line": 295,
-    "npe_method": "persistConfigurationCollection",
-    "deref_field": "configResourceParentPath",
-    "npe_class": "ConfigurationManagerImpl"
-}

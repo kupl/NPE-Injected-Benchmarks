@@ -1,7 +1,0 @@
-{
-    "filepath": "log4j-catalog/log4j-catalog-jpa/src/main/java/org/apache/logging/log4j/catalog/jpa/service/AbstractPagingAndSortingService.java",
-    "line": 35,
-    "npe_method": "createPageRequest",
-    "deref_field": "direction",
-    "npe_class": "AbstractPagingAndSortingService"
-}

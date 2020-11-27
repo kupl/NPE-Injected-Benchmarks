@@ -1,7 +1,0 @@
-{
-    "filepath": "src/main/java/org/apache/sling/installer/api/tasks/ChangeStateTask.java",
-    "line": 106,
-    "npe_method": "execute",
-    "deref_field": "this.removeAttributes",
-    "npe_class": "ChangeStateTask"
-}

@@ -1,7 +1,0 @@
-{
-    "filepath": "src/main/java/org/apache/sling/feature/maven/mojos/AbstractRepositoryMojo.java",
-    "line": 124,
-    "npe_method": "getRepositoryFile",
-    "deref_field": "getClassifier()",
-    "npe_class": "AbstractRepositoryMojo"
-}

@@ -1,7 +1,0 @@
-{
-    "filepath": "log4j-catalog/log4j-catalog-api/src/main/java/org/apache/logging/log4j/catalog/api/Event.java",
-    "line": 133,
-    "npe_method": "setCatalogId",
-    "deref_field": "catalogId",
-    "npe_class": "Event"
-}

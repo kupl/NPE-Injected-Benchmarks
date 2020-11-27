@@ -1,7 +1,0 @@
-{
-    "filepath": "enforcer-rules/src/main/java/org/apache/maven/plugins/enforcer/AbstractBanDependencies.java",
-    "line": 147,
-    "npe_method": "getDependenciesToCheck",
-    "deref_field": "getChildren()",
-    "npe_class": "AbstractBanDependencies"
-}

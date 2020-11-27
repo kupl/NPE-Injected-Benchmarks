@@ -1,7 +1,0 @@
-{
-    "filepath": "src/test/java/org/apache/sling/jcr/resource/internal/helper/jcr/JcrItemResourceTestBase.java",
-    "line": 86,
-    "npe_method": "assertEquals",
-    "deref_field": "actual",
-    "npe_class": "JcrItemResourceTestBase"
-}

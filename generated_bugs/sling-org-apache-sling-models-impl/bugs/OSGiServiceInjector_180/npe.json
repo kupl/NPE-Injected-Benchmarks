@@ -1,7 +1,0 @@
-{
-    "filepath": "src/main/java/org/apache/sling/models/impl/injectors/OSGiServiceInjector.java",
-    "line": 183,
-    "npe_method": "getValue",
-    "deref_field": "services",
-    "npe_class": "OSGiServiceInjector"
-}

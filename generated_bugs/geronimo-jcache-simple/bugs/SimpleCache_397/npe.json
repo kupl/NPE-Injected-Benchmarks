@@ -1,7 +1,0 @@
-{
-    "filepath": "src/main/java/org/apache/geronimo/jcache/simple/SimpleCache.java",
-    "line": 397,
-    "npe_method": "doGetControllingExpiry",
-    "deref_field": "elt",
-    "npe_class": "SimpleCache"
-}

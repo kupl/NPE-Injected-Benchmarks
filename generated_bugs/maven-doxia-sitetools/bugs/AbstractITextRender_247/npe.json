@@ -1,7 +1,0 @@
-{
-    "filepath": "doxia-doc-renderer/src/main/java/org/apache/maven/doxia/docrenderer/itext/AbstractITextRender.java",
-    "line": 259,
-    "npe_method": "render",
-    "deref_field": "getRef()",
-    "npe_class": "AbstractITextRender"
-}

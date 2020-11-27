@@ -1,7 +1,0 @@
-{
-    "filepath": "src/main/java/org/apache/sling/installer/provider/jcr/impl/JcrInstaller.java",
-    "line": 245,
-    "npe_method": "shutdown",
-    "deref_field": "session",
-    "npe_class": "StoppableThread"
-}

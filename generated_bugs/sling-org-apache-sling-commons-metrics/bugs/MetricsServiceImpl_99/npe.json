@@ -1,7 +1,0 @@
-{
-    "filepath": "src/main/java/org/apache/sling/commons/metrics/internal/MetricsServiceImpl.java",
-    "line": 100,
-    "npe_method": "deactivate",
-    "deref_field": "reporter",
-    "npe_class": "MetricsServiceImpl"
-}

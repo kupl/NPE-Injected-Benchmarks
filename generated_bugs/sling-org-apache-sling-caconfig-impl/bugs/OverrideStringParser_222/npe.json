@@ -1,7 +1,0 @@
-{
-    "filepath": "src/main/java/org/apache/sling/caconfig/impl/override/OverrideStringParser.java",
-    "line": 223,
-    "npe_method": "convertJsonArray",
-    "deref_field": "firstValue",
-    "npe_class": "OverrideStringParser"
-}

@@ -1,7 +1,0 @@
-{
-    "filepath": "src/main/java/org/apache/maven/plugin/changelog/ChangeLogHandler.java",
-    "line": 250,
-    "npe_method": "startElement",
-    "deref_field": "endVersion",
-    "npe_class": "ChangeLogHandler"
-}

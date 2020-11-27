@@ -1,7 +1,0 @@
-{
-    "filepath": "log4j-audit/log4j-audit-api/src/test/java/org/apache/logging/log4j/audit/catalog/StringCatalogReader.java",
-    "line": 110,
-    "npe_method": "getEvent",
-    "deref_field": "getEvents()",
-    "npe_class": "StringCatalogReader"
-}

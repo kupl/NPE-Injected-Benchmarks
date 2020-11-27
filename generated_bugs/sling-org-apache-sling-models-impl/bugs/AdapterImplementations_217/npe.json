@@ -1,7 +1,0 @@
-{
-    "filepath": "src/main/java/org/apache/sling/models/impl/AdapterImplementations.java",
-    "line": 219,
-    "npe_method": "lookup",
-    "deref_field": "implementation",
-    "npe_class": "AdapterImplementations"
-}

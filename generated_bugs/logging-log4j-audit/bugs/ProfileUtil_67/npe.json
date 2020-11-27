@@ -1,7 +1,0 @@
-{
-    "filepath": "log4j-catalog/log4j-catalog-api/src/main/java/org/apache/logging/log4j/catalog/api/util/ProfileUtil.java",
-    "line": 69,
-    "npe_method": "loadProperties",
-    "deref_field": "is",
-    "npe_class": "ProfileUtil"
-}

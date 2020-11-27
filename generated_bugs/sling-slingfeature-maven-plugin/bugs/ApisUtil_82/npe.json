@@ -1,7 +1,0 @@
-{
-    "filepath": "src/main/java/org/apache/sling/feature/maven/mojos/apis/ApisUtil.java",
-    "line": 84,
-    "npe_method": "getApiIds",
-    "deref_field": "val",
-    "npe_class": "ApisUtil"
-}

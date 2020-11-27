@@ -1,7 +1,0 @@
-{
-    "filepath": "maven-plugin-tools-generators/src/main/java/org/apache/maven/tools/plugin/generator/PluginHelpGenerator.java",
-    "line": 190,
-    "npe_method": "getHelpClassSources",
-    "deref_field": "this.helpPackageName",
-    "npe_class": "PluginHelpGenerator"
-}

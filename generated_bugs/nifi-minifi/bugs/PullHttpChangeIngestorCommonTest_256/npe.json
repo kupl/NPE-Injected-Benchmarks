@@ -1,7 +1,0 @@
-{
-    "filepath": "minifi-bootstrap/src/test/java/org/apache/nifi/minifi/bootstrap/configuration/ingestors/common/PullHttpChangeIngestorCommonTest.java",
-    "line": 258,
-    "npe_method": "writeOutput",
-    "deref_field": "responseBuffer",
-    "npe_class": "JettyHandler"
-}

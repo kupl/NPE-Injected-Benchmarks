@@ -1,7 +1,0 @@
-{
-    "filepath": "log4j-audit/log4j-audit-war/src/main/java/org/apache/logging/log4j/audit/service/controller/CatalogController.java",
-    "line": 457,
-    "npe_method": "validateSortDirection",
-    "deref_field": "sortDirection",
-    "npe_class": "CatalogController"
-}

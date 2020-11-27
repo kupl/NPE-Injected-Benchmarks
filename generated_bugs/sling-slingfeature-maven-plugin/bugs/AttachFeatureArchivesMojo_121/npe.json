@@ -1,7 +1,0 @@
-{
-    "filepath": "src/main/java/org/apache/sling/feature/maven/mojos/AttachFeatureArchivesMojo.java",
-    "line": 122,
-    "npe_method": "createBaseManifest",
-    "deref_field": "getVendor()",
-    "npe_class": "AttachFeatureArchivesMojo"
-}

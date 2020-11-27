@@ -1,7 +1,0 @@
-{
-    "filepath": "src/test/java/org/apache/sling/jcr/contentparser/impl/mapsupport/ContentElementImpl.java",
-    "line": 61,
-    "npe_method": "getChild",
-    "deref_field": "child",
-    "npe_class": "ContentElementImpl"
-}

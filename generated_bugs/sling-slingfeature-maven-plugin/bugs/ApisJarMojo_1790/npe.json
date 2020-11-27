@@ -1,7 +1,0 @@
-{
-    "filepath": "src/main/java/org/apache/sling/feature/maven/mojos/ApisJarMojo.java",
-    "line": 1790,
-    "npe_method": "generateJavadoc",
-    "deref_field": "this.apiVersion",
-    "npe_class": "ApisJarMojo"
-}

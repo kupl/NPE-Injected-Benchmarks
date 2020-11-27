@@ -1,7 +1,0 @@
-{
-    "filepath": "src/main/java/org/apache/sling/jcr/resource/internal/helper/jcr/JcrItemResourceFactory.java",
-    "line": 137,
-    "npe_method": "getHistoricItem",
-    "deref_field": "version",
-    "npe_class": "JcrItemResourceFactory"
-}

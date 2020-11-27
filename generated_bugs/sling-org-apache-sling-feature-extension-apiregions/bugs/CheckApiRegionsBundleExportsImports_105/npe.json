@@ -1,7 +1,0 @@
-{
-    "filepath": "src/main/java/org/apache/sling/feature/extension/apiregions/analyser/CheckApiRegionsBundleExportsImports.java",
-    "line": 106,
-    "npe_method": "checkForVersionOnImportingPackages",
-    "deref_field": "getImportedPackages()",
-    "npe_class": "CheckApiRegionsBundleExportsImports"
-}

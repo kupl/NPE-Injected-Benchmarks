@@ -1,7 +1,0 @@
-{
-    "filepath": "core/src/test/java/org/apache/commons/digester3/annotations/rss/Channel.java",
-    "line": 131,
-    "npe_method": "equals",
-    "deref_field": "description",
-    "npe_class": "Channel"
-}

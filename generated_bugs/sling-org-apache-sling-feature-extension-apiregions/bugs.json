@@ -51,35 +51,6 @@
         },
         {
             "repo": "sling-org-apache-sling-feature-extension-apiregions",
-            "bug_id": "CheckApiRegionsBundleExportsImports_171",
-            "npe_info": {
-                "filepath": "src/main/java/org/apache/sling/feature/extension/apiregions/analyser/CheckApiRegionsBundleExportsImports.java",
-                "line": 172,
-                "deref_field": "getImportedPackages()",
-                "npe_class": "CheckApiRegionsBundleExportsImports",
-                "npe_method": "execute",
-                "sink_field": null,
-                "jvmti_identify_succeed": null,
-                "is_original": null
-            },
-            "build_info": {
-                "compiled": true,
-                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "java_version": 8,
-                "error_message": null,
-                "time": 15.80272727808915
-            },
-            "test_info": {
-                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "fail_buggy": false,
-                "pass_fixed": true,
-                "testcases": []
-            },
-            "patches": [],
-            "time_to_generate_patches": 0
-        },
-        {
-            "repo": "sling-org-apache-sling-feature-extension-apiregions",
             "bug_id": "ApiExport_146",
             "npe_info": {
                 "filepath": "src/main/java/org/apache/sling/feature/extension/apiregions/api/ApiExport.java",
@@ -1040,35 +1011,6 @@
         },
         {
             "repo": "sling-org-apache-sling-feature-extension-apiregions",
-            "bug_id": "ApiExport_115",
-            "npe_info": {
-                "filepath": "src/main/java/org/apache/sling/feature/extension/apiregions/api/ApiExport.java",
-                "line": 115,
-                "deref_field": "name",
-                "npe_class": "ApiExport",
-                "npe_method": "hashCode",
-                "sink_field": null,
-                "jvmti_identify_succeed": null,
-                "is_original": null
-            },
-            "build_info": {
-                "compiled": true,
-                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "java_version": 8,
-                "error_message": null,
-                "time": 17.86012497008778
-            },
-            "test_info": {
-                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "fail_buggy": false,
-                "pass_fixed": true,
-                "testcases": []
-            },
-            "patches": [],
-            "time_to_generate_patches": 0
-        },
-        {
-            "repo": "sling-org-apache-sling-feature-extension-apiregions",
             "bug_id": "AbstractApiRegionsAnalyserTask_39",
             "npe_info": {
                 "filepath": "src/main/java/org/apache/sling/feature/extension/apiregions/analyser/AbstractApiRegionsAnalyserTask.java",
@@ -1225,64 +1167,6 @@
         },
         {
             "repo": "sling-org-apache-sling-feature-extension-apiregions",
-            "bug_id": "CheckApiRegionsBundleExportsImports_105",
-            "npe_info": {
-                "filepath": "src/main/java/org/apache/sling/feature/extension/apiregions/analyser/CheckApiRegionsBundleExportsImports.java",
-                "line": 106,
-                "deref_field": "getImportedPackages()",
-                "npe_class": "CheckApiRegionsBundleExportsImports",
-                "npe_method": "checkForVersionOnImportingPackages",
-                "sink_field": null,
-                "jvmti_identify_succeed": null,
-                "is_original": null
-            },
-            "build_info": {
-                "compiled": true,
-                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "java_version": 8,
-                "error_message": null,
-                "time": 11.580641217064112
-            },
-            "test_info": {
-                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "fail_buggy": false,
-                "pass_fixed": true,
-                "testcases": []
-            },
-            "patches": [],
-            "time_to_generate_patches": 0
-        },
-        {
-            "repo": "sling-org-apache-sling-feature-extension-apiregions",
-            "bug_id": "CheckApiRegionsBundleExportsImports_93",
-            "npe_info": {
-                "filepath": "src/main/java/org/apache/sling/feature/extension/apiregions/analyser/CheckApiRegionsBundleExportsImports.java",
-                "line": 94,
-                "deref_field": "getExportedPackages()",
-                "npe_class": "CheckApiRegionsBundleExportsImports",
-                "npe_method": "checkForVersionOnExportedPackages",
-                "sink_field": null,
-                "jvmti_identify_succeed": null,
-                "is_original": null
-            },
-            "build_info": {
-                "compiled": true,
-                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "java_version": 8,
-                "error_message": null,
-                "time": 14.218174376059324
-            },
-            "test_info": {
-                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "fail_buggy": false,
-                "pass_fixed": true,
-                "testcases": []
-            },
-            "patches": [],
-            "time_to_generate_patches": 0
-        },
-        {
-            "repo": "sling-org-apache-sling-feature-extension-apiregions",
             "bug_id": "ApiRegion_135",
             "npe_info": {
                 "filepath": "src/main/java/org/apache/sling/feature/extension/apiregions/api/ApiRegion.java",
@@ -1409,64 +1293,6 @@
                         "stack_trace": "java.lang.NullPointerException\n\tat org.apache.sling.feature.extension.apiregions.analyser.CheckApiRegionsBundleExportsImportsTest.testImportExportWithRegionMismatch(CheckApiRegionsBundleExportsImportsTest.java:189)\n"
                     }
                 ]
-            },
-            "patches": [],
-            "time_to_generate_patches": 0
-        },
-        {
-            "repo": "sling-org-apache-sling-feature-extension-apiregions",
-            "bug_id": "ApiRegion_74",
-            "npe_info": {
-                "filepath": "src/main/java/org/apache/sling/feature/extension/apiregions/api/ApiRegion.java",
-                "line": 75,
-                "deref_field": "featureOrigins",
-                "npe_class": "ApiRegion",
-                "npe_method": "setFeatureOrigins",
-                "sink_field": null,
-                "jvmti_identify_succeed": null,
-                "is_original": null
-            },
-            "build_info": {
-                "compiled": true,
-                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "java_version": 8,
-                "error_message": null,
-                "time": 14.67090407712385
-            },
-            "test_info": {
-                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "fail_buggy": false,
-                "pass_fixed": true,
-                "testcases": []
-            },
-            "patches": [],
-            "time_to_generate_patches": 0
-        },
-        {
-            "repo": "sling-org-apache-sling-feature-extension-apiregions",
-            "bug_id": "ApiExport_116",
-            "npe_info": {
-                "filepath": "src/main/java/org/apache/sling/feature/extension/apiregions/api/ApiExport.java",
-                "line": 116,
-                "deref_field": "previous",
-                "npe_class": "ApiExport",
-                "npe_method": "hashCode",
-                "sink_field": null,
-                "jvmti_identify_succeed": null,
-                "is_original": null
-            },
-            "build_info": {
-                "compiled": true,
-                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "java_version": 8,
-                "error_message": null,
-                "time": 13.598774060141295
-            },
-            "test_info": {
-                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "fail_buggy": false,
-                "pass_fixed": true,
-                "testcases": []
             },
             "patches": [],
             "time_to_generate_patches": 0

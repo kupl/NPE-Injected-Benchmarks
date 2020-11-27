@@ -1,7 +1,0 @@
-{
-    "filepath": "src/main/java/org/apache/sling/feature/maven/mojos/FeatureLauncherMojo.java",
-    "line": 175,
-    "npe_method": "execute",
-    "deref_field": "id",
-    "npe_class": "FeatureLauncherMojo"
-}

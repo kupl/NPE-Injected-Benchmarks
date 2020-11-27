@@ -1,7 +1,0 @@
-{
-    "filepath": "spec/src/main/java/jakarta/servlet/jsp/jstl/core/Config.java",
-    "line": 146,
-    "npe_method": "get",
-    "deref_field": "session",
-    "npe_class": "Config"
-}

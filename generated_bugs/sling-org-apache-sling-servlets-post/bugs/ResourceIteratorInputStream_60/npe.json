@@ -1,7 +1,0 @@
-{
-    "filepath": "src/main/java/org/apache/sling/servlets/post/impl/helper/ResourceIteratorInputStream.java",
-    "line": 61,
-    "npe_method": "read",
-    "deref_field": "currentStream",
-    "npe_class": "ResourceIteratorInputStream"
-}

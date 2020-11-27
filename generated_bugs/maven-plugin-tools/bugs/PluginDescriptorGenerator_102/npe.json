@@ -1,7 +1,0 @@
-{
-    "filepath": "maven-plugin-tools-generators/src/main/java/org/apache/maven/tools/plugin/generator/PluginDescriptorGenerator.java",
-    "line": 102,
-    "npe_method": "getVersion",
-    "deref_field": "version",
-    "npe_class": "PluginDescriptorGenerator"
-}

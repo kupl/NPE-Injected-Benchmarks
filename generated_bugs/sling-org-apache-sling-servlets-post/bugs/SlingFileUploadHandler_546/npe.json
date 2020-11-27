@@ -1,7 +1,0 @@
-{
-    "filepath": "src/main/java/org/apache/sling/servlets/post/impl/helper/SlingFileUploadHandler.java",
-    "line": 547,
-    "npe_method": "setFile",
-    "deref_field": "ctx",
-    "npe_class": "SlingFileUploadHandler"
-}

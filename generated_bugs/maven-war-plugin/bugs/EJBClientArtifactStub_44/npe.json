@@ -1,7 +1,0 @@
-{
-    "filepath": "src/test/java/org/apache/maven/plugins/war/stub/EJBClientArtifactStub.java",
-    "line": 46,
-    "npe_method": "getGroupId",
-    "deref_field": "groupId",
-    "npe_class": "EJBClientArtifactStub"
-}

@@ -1,7 +1,0 @@
-{
-    "filepath": "src/main/java/org/apache/commons/validator/routines/DateValidator.java",
-    "line": 341,
-    "npe_method": "getCalendar",
-    "deref_field": "timeZone",
-    "npe_class": "DateValidator"
-}

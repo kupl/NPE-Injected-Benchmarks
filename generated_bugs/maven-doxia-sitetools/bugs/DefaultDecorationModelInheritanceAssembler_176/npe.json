@@ -1,7 +1,0 @@
-{
-    "filepath": "doxia-decoration-model/src/main/java/org/apache/maven/doxia/site/decoration/inheritance/DefaultDecorationModelInheritanceAssembler.java",
-    "line": 178,
-    "npe_method": "rebaseBannerPaths",
-    "deref_field": "getHref()",
-    "npe_class": "DefaultDecorationModelInheritanceAssembler"
-}

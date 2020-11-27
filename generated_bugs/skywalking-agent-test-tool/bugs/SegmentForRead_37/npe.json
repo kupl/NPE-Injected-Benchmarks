@@ -1,7 +1,0 @@
-{
-    "filepath": "validator/src/main/java/org/apache/skywalking/plugin/test/agent/tool/validator/entity/SegmentForRead.java",
-    "line": 40,
-    "npe_method": "spans",
-    "deref_field": "spans",
-    "npe_class": "SegmentForRead"
-}

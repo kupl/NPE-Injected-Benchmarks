@@ -1,7 +1,0 @@
-{
-    "filepath": "src/main/java/org/apache/sling/serviceusermapping/impl/MappingInventoryPrinter.java",
-    "line": 172,
-    "npe_method": "asText",
-    "deref_field": "sub",
-    "npe_class": "MappingInventoryPrinter"
-}

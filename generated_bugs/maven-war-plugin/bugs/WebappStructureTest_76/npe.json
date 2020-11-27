@@ -1,7 +1,0 @@
-{
-    "filepath": "src/test/java/org/apache/maven/plugins/war/util/WebappStructureTest.java",
-    "line": 82,
-    "npe_method": "createDependency",
-    "deref_field": "type",
-    "npe_class": "WebappStructureTest"
-}

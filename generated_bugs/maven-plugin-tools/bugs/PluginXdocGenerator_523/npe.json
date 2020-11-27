@@ -1,7 +1,0 @@
-{
-    "filepath": "maven-plugin-tools-generators/src/main/java/org/apache/maven/tools/plugin/generator/PluginXdocGenerator.java",
-    "line": 529,
-    "npe_method": "writeParameterDetails",
-    "deref_field": "property",
-    "npe_class": "PluginXdocGenerator"
-}

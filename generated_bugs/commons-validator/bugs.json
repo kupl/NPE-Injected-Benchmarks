@@ -39,35 +39,6 @@
         },
         {
             "repo": "commons-validator",
-            "bug_id": "DomainValidator_184",
-            "npe_info": {
-                "filepath": "src/main/java/org/apache/commons/validator/routines/DomainValidator.java",
-                "line": 187,
-                "deref_field": "domain",
-                "npe_class": "DomainValidator",
-                "npe_method": "isValidDomainSyntax",
-                "sink_field": null,
-                "jvmti_identify_succeed": null,
-                "is_original": null
-            },
-            "build_info": {
-                "compiled": true,
-                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "java_version": 8,
-                "error_message": null,
-                "time": 24.01643047691323
-            },
-            "test_info": {
-                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "fail_buggy": false,
-                "pass_fixed": true,
-                "testcases": []
-            },
-            "patches": [],
-            "time_to_generate_patches": 0
-        },
-        {
-            "repo": "commons-validator",
             "bug_id": "AbstractCalendarValidator_251",
             "npe_info": {
                 "filepath": "src/main/java/org/apache/commons/validator/routines/AbstractCalendarValidator.java",
@@ -1376,93 +1347,6 @@
                         "stack_trace": "java.lang.NullPointerException\n\tat org.apache.commons.validator.routines.RegexValidatorTest.testNullValue(RegexValidatorTest.java:185)\n"
                     }
                 ]
-            },
-            "patches": [],
-            "time_to_generate_patches": 0
-        },
-        {
-            "repo": "commons-validator",
-            "bug_id": "DateValidator_340",
-            "npe_info": {
-                "filepath": "src/main/java/org/apache/commons/validator/routines/DateValidator.java",
-                "line": 341,
-                "deref_field": "timeZone",
-                "npe_class": "DateValidator",
-                "npe_method": "getCalendar",
-                "sink_field": null,
-                "jvmti_identify_succeed": null,
-                "is_original": null
-            },
-            "build_info": {
-                "compiled": true,
-                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "java_version": 8,
-                "error_message": null,
-                "time": 21.930763280019164
-            },
-            "test_info": {
-                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "fail_buggy": false,
-                "pass_fixed": true,
-                "testcases": []
-            },
-            "patches": [],
-            "time_to_generate_patches": 0
-        },
-        {
-            "repo": "commons-validator",
-            "bug_id": "UrlValidator_299",
-            "npe_info": {
-                "filepath": "src/main/java/org/apache/commons/validator/routines/UrlValidator.java",
-                "line": 304,
-                "deref_field": "value",
-                "npe_class": "UrlValidator",
-                "npe_method": "isValid",
-                "sink_field": null,
-                "jvmti_identify_succeed": null,
-                "is_original": null
-            },
-            "build_info": {
-                "compiled": true,
-                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "java_version": 8,
-                "error_message": null,
-                "time": 20.23211667407304
-            },
-            "test_info": {
-                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "fail_buggy": false,
-                "pass_fixed": true,
-                "testcases": []
-            },
-            "patches": [],
-            "time_to_generate_patches": 0
-        },
-        {
-            "repo": "commons-validator",
-            "bug_id": "AbstractCommonTest_54",
-            "npe_info": {
-                "filepath": "src/test/java/org/apache/commons/validator/AbstractCommonTest.java",
-                "line": 55,
-                "deref_field": "in",
-                "npe_class": "AbstractCommonTest",
-                "npe_method": "loadResources",
-                "sink_field": null,
-                "jvmti_identify_succeed": null,
-                "is_original": null
-            },
-            "build_info": {
-                "compiled": true,
-                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "java_version": 8,
-                "error_message": null,
-                "time": 22.54077170905657
-            },
-            "test_info": {
-                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "fail_buggy": false,
-                "pass_fixed": true,
-                "testcases": []
             },
             "patches": [],
             "time_to_generate_patches": 0
@@ -6017,35 +5901,6 @@
         },
         {
             "repo": "commons-validator",
-            "bug_id": "IBANValidatorTest_259",
-            "npe_info": {
-                "filepath": "src/test/java/org/apache/commons/validator/routines/IBANValidatorTest.java",
-                "line": 267,
-                "deref_field": "valre",
-                "npe_class": "IBANValidatorTest",
-                "npe_method": "checkIBAN",
-                "sink_field": null,
-                "jvmti_identify_succeed": null,
-                "is_original": null
-            },
-            "build_info": {
-                "compiled": true,
-                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "java_version": 8,
-                "error_message": null,
-                "time": 21.627543778857216
-            },
-            "test_info": {
-                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "fail_buggy": false,
-                "pass_fixed": true,
-                "testcases": []
-            },
-            "patches": [],
-            "time_to_generate_patches": 0
-        },
-        {
-            "repo": "commons-validator",
             "bug_id": "AbstractCalendarValidator_158",
             "npe_info": {
                 "filepath": "src/main/java/org/apache/commons/validator/routines/AbstractCalendarValidator.java",
@@ -6184,35 +6039,6 @@
                         "stack_trace": "java.lang.NullPointerException\n\tat org.apache.commons.validator.routines.ISBNValidatorTest.testInvalidISBN10Format(ISBNValidatorTest.java:125)\n"
                     }
                 ]
-            },
-            "patches": [],
-            "time_to_generate_patches": 0
-        },
-        {
-            "repo": "commons-validator",
-            "bug_id": "Field_374",
-            "npe_info": {
-                "filepath": "src/main/java/org/apache/commons/validator/Field.java",
-                "line": 374,
-                "deref_field": "getName()",
-                "npe_class": "Field",
-                "npe_method": "determineArgPosition",
-                "sink_field": null,
-                "jvmti_identify_succeed": null,
-                "is_original": null
-            },
-            "build_info": {
-                "compiled": true,
-                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "java_version": 8,
-                "error_message": null,
-                "time": 22.279920370085165
-            },
-            "test_info": {
-                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "fail_buggy": false,
-                "pass_fixed": true,
-                "testcases": []
             },
             "patches": [],
             "time_to_generate_patches": 0
@@ -6669,35 +6495,6 @@
         },
         {
             "repo": "commons-validator",
-            "bug_id": "AbstractCalendarValidator_178",
-            "npe_info": {
-                "filepath": "src/main/java/org/apache/commons/validator/routines/AbstractCalendarValidator.java",
-                "line": 178,
-                "deref_field": "value",
-                "npe_class": "AbstractCalendarValidator",
-                "npe_method": "parse",
-                "sink_field": null,
-                "jvmti_identify_succeed": null,
-                "is_original": null
-            },
-            "build_info": {
-                "compiled": true,
-                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "java_version": 8,
-                "error_message": null,
-                "time": 21.8478971819859
-            },
-            "test_info": {
-                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "fail_buggy": false,
-                "pass_fixed": true,
-                "testcases": []
-            },
-            "patches": [],
-            "time_to_generate_patches": 0
-        },
-        {
-            "repo": "commons-validator",
             "bug_id": "ISSNValidator_186",
             "npe_info": {
                 "filepath": "src/main/java/org/apache/commons/validator/routines/ISSNValidator.java",
@@ -6866,35 +6663,6 @@
                         "stack_trace": "java.lang.NullPointerException\n"
                     }
                 ]
-            },
-            "patches": [],
-            "time_to_generate_patches": 0
-        },
-        {
-            "repo": "commons-validator",
-            "bug_id": "EmailValidator_158",
-            "npe_info": {
-                "filepath": "src/main/java/org/apache/commons/validator/routines/EmailValidator.java",
-                "line": 162,
-                "deref_field": "email",
-                "npe_class": "EmailValidator",
-                "npe_method": "isValid",
-                "sink_field": null,
-                "jvmti_identify_succeed": null,
-                "is_original": null
-            },
-            "build_info": {
-                "compiled": true,
-                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "java_version": 8,
-                "error_message": null,
-                "time": 24.991225503152236
-            },
-            "test_info": {
-                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "fail_buggy": false,
-                "pass_fixed": true,
-                "testcases": []
             },
             "patches": [],
             "time_to_generate_patches": 0
@@ -8341,35 +8109,6 @@
                         "stack_trace": "java.lang.NullPointerException\n\tat org.apache.commons.validator.routines.RegexValidatorTest.testNullValue(RegexValidatorTest.java:184)\n"
                     }
                 ]
-            },
-            "patches": [],
-            "time_to_generate_patches": 0
-        },
-        {
-            "repo": "commons-validator",
-            "bug_id": "AbstractNumberValidator_251",
-            "npe_info": {
-                "filepath": "src/main/java/org/apache/commons/validator/routines/AbstractNumberValidator.java",
-                "line": 254,
-                "deref_field": "locale",
-                "npe_class": "AbstractNumberValidator",
-                "npe_method": "getFormat",
-                "sink_field": null,
-                "jvmti_identify_succeed": null,
-                "is_original": null
-            },
-            "build_info": {
-                "compiled": true,
-                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "java_version": 8,
-                "error_message": null,
-                "time": 24.74523999891244
-            },
-            "test_info": {
-                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "fail_buggy": false,
-                "pass_fixed": true,
-                "testcases": []
             },
             "patches": [],
             "time_to_generate_patches": 0

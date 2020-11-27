@@ -1,7 +1,0 @@
-{
-    "filepath": "enforcer-rules/src/main/java/org/apache/maven/plugins/enforcer/BannedDependencies.java",
-    "line": 80,
-    "npe_method": "checkDependencies",
-    "deref_field": "excluded",
-    "npe_class": "BannedDependencies"
-}

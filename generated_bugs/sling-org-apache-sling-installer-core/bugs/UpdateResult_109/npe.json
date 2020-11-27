@@ -1,7 +1,0 @@
-{
-    "filepath": "src/main/java/org/apache/sling/installer/api/UpdateResult.java",
-    "line": 109,
-    "npe_method": "getPriority",
-    "deref_field": "this.priority",
-    "npe_class": "UpdateResult"
-}

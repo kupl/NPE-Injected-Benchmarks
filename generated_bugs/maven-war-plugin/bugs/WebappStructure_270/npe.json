@@ -1,7 +1,0 @@
-{
-    "filepath": "src/main/java/org/apache/maven/plugins/war/util/WebappStructure.java",
-    "line": 272,
-    "npe_method": "registerTargetFileName",
-    "deref_field": "dependenciesInfo",
-    "npe_class": "WebappStructure"
-}

@@ -1,7 +1,0 @@
-{
-    "filepath": "src/main/java/org/apache/commons/beanutils2/converters/DateTimeConverter.java",
-    "line": 660,
-    "npe_method": "toString",
-    "deref_field": "displayPatterns",
-    "npe_class": "DateTimeConverter"
-}

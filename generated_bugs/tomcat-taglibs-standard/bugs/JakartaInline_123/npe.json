@@ -1,7 +1,0 @@
-{
-    "filepath": "spec/src/main/java/jakarta/servlet/jsp/jstl/fmt/JakartaInline.java",
-    "line": 111,
-    "npe_method": "getLocalizationContext",
-    "deref_field": "bundle",
-    "npe_class": "JakartaInline"
-}

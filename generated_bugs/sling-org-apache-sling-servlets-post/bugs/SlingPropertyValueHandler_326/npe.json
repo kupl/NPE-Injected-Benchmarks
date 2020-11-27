@@ -1,7 +1,0 @@
-{
-    "filepath": "src/main/java/org/apache/sling/servlets/post/impl/helper/SlingPropertyValueHandler.java",
-    "line": 328,
-    "npe_method": "getType",
-    "deref_field": "getTypeHint()",
-    "npe_class": "SlingPropertyValueHandler"
-}

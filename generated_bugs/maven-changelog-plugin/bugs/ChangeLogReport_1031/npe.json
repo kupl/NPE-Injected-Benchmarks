@@ -1,7 +1,0 @@
-{
-    "filepath": "src/main/java/org/apache/maven/plugin/changelog/ChangeLogReport.java",
-    "line": 1031,
-    "npe_method": "checkResult",
-    "deref_field": "getCommandOutput()",
-    "npe_class": "ChangeLogReport"
-}

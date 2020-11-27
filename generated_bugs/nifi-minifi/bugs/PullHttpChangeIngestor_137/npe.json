@@ -1,7 +1,0 @@
-{
-    "filepath": "minifi-bootstrap/src/main/java/org/apache/nifi/minifi/bootstrap/configuration/ingestors/PullHttpChangeIngestor.java",
-    "line": 140,
-    "npe_method": "initialize",
-    "deref_field": "portString",
-    "npe_class": "PullHttpChangeIngestor"
-}

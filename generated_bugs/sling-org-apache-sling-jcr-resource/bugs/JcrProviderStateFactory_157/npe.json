@@ -1,7 +1,0 @@
-{
-    "filepath": "src/main/java/org/apache/sling/jcr/resource/internal/helper/jcr/JcrProviderStateFactory.java",
-    "line": 157,
-    "npe_method": "createJcrProviderState",
-    "deref_field": "ctx",
-    "npe_class": "JcrProviderStateFactory"
-}

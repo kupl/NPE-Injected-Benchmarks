@@ -1,7 +1,0 @@
-{
-    "filepath": "doxia-doc-renderer/src/main/java/org/apache/maven/doxia/docrenderer/pdf/itext/ITextPdfRenderer.java",
-    "line": 419,
-    "npe_method": "addTransformerParameters",
-    "deref_field": "getTitle()",
-    "npe_class": "ITextPdfRenderer"
-}

@@ -1,7 +1,0 @@
-{
-    "filepath": "src/test/java/org/apache/maven/plugins/war/overlay/OverlayManagerTest.java",
-    "line": 216,
-    "npe_method": "newWarArtifact",
-    "deref_field": "classifier",
-    "npe_class": "OverlayManagerTest"
-}

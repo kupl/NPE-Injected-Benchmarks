@@ -1,7 +1,0 @@
-{
-    "filepath": "src/main/java/org/apache/any23/servlet/Servlet.java",
-    "line": 258,
-    "npe_method": "getContentTypeHeader",
-    "deref_field": "getHeader(java.lang.String)",
-    "npe_class": "Servlet"
-}

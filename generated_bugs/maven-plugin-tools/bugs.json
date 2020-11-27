@@ -309,35 +309,6 @@
         },
         {
             "repo": "maven-plugin-tools",
-            "bug_id": "JavaAnnotationsMojoDescriptorExtractor_384",
-            "npe_info": {
-                "filepath": "maven-plugin-tools-annotations/src/main/java/org/apache/maven/tools/plugin/extractor/annotations/JavaAnnotationsMojoDescriptorExtractor.java",
-                "line": 386,
-                "deref_field": "superClass",
-                "npe_class": "JavaAnnotationsMojoDescriptorExtractor",
-                "npe_method": "extractFieldParameterTags",
-                "sink_field": null,
-                "jvmti_identify_succeed": null,
-                "is_original": null
-            },
-            "build_info": {
-                "compiled": true,
-                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "java_version": 8,
-                "error_message": null,
-                "time": 30.786946021951735
-            },
-            "test_info": {
-                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "fail_buggy": true,
-                "pass_fixed": true,
-                "testcases": []
-            },
-            "patches": [],
-            "time_to_generate_patches": 0
-        },
-        {
-            "repo": "maven-plugin-tools",
             "bug_id": "PluginDescriptorGenerator_380",
             "npe_info": {
                 "filepath": "maven-plugin-tools-generators/src/main/java/org/apache/maven/tools/plugin/generator/PluginDescriptorGenerator.java",
@@ -644,35 +615,6 @@
         },
         {
             "repo": "maven-plugin-tools",
-            "bug_id": "JavaAnnotationsMojoDescriptorExtractor_638",
-            "npe_info": {
-                "filepath": "maven-plugin-tools-annotations/src/main/java/org/apache/maven/tools/plugin/extractor/annotations/JavaAnnotationsMojoDescriptorExtractor.java",
-                "line": 642,
-                "deref_field": "parent",
-                "npe_class": "JavaAnnotationsMojoDescriptorExtractor",
-                "npe_method": "findExecuteInParentHierarchy",
-                "sink_field": null,
-                "jvmti_identify_succeed": null,
-                "is_original": null
-            },
-            "build_info": {
-                "compiled": true,
-                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "java_version": 8,
-                "error_message": null,
-                "time": 31.22042608796619
-            },
-            "test_info": {
-                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "fail_buggy": false,
-                "pass_fixed": true,
-                "testcases": []
-            },
-            "patches": [],
-            "time_to_generate_patches": 0
-        },
-        {
-            "repo": "maven-plugin-tools",
             "bug_id": "JavaJavadocMojoDescriptorExtractor_412",
             "npe_info": {
                 "filepath": "maven-plugin-tools-java/src/main/java/org/apache/maven/tools/plugin/extractor/javadoc/JavaJavadocMojoDescriptorExtractor.java",
@@ -751,35 +693,6 @@
                         "stack_trace": "java.lang.NullPointerException\n\tat org.apache.maven.tools.plugin.extractor.javadoc.JavaMojoDescriptorExtractorTest.generate(JavaMojoDescriptorExtractorTest.java:116)\n\tat org.apache.maven.tools.plugin.extractor.javadoc.JavaMojoDescriptorExtractorTest.extract(JavaMojoDescriptorExtractorTest.java:166)\n\tat org.apache.maven.tools.plugin.extractor.javadoc.JavaMojoDescriptorExtractorTest.testMaven30Parameters(JavaMojoDescriptorExtractorTest.java:205)\n"
                     }
                 ]
-            },
-            "patches": [],
-            "time_to_generate_patches": 0
-        },
-        {
-            "repo": "maven-plugin-tools",
-            "bug_id": "PluginReport_773",
-            "npe_info": {
-                "filepath": "maven-plugin-plugin/src/main/java/org/apache/maven/plugin/plugin/PluginReport.java",
-                "line": 775,
-                "deref_field": "jdk",
-                "npe_class": "PluginOverviewRenderer",
-                "npe_method": "discoverJdkRequirement",
-                "sink_field": null,
-                "jvmti_identify_succeed": null,
-                "is_original": null
-            },
-            "build_info": {
-                "compiled": true,
-                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "java_version": 8,
-                "error_message": null,
-                "time": 33.29683444998227
-            },
-            "test_info": {
-                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "fail_buggy": true,
-                "pass_fixed": true,
-                "testcases": []
             },
             "patches": [],
             "time_to_generate_patches": 0
@@ -1266,35 +1179,6 @@
         },
         {
             "repo": "maven-plugin-tools",
-            "bug_id": "JavaJavadocMojoDescriptorExtractor_331",
-            "npe_info": {
-                "filepath": "maven-plugin-tools-java/src/main/java/org/apache/maven/tools/plugin/extractor/javadoc/JavaJavadocMojoDescriptorExtractor.java",
-                "line": 333,
-                "deref_field": "tag",
-                "npe_class": "JavaJavadocMojoDescriptorExtractor",
-                "npe_method": "getBooleanTagValue",
-                "sink_field": null,
-                "jvmti_identify_succeed": null,
-                "is_original": null
-            },
-            "build_info": {
-                "compiled": true,
-                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "java_version": 8,
-                "error_message": null,
-                "time": 27.173879182897508
-            },
-            "test_info": {
-                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "fail_buggy": true,
-                "pass_fixed": true,
-                "testcases": []
-            },
-            "patches": [],
-            "time_to_generate_patches": 0
-        },
-        {
-            "repo": "maven-plugin-tools",
             "bug_id": "JavaJavadocMojoDescriptorExtractor_648",
             "npe_info": {
                 "filepath": "maven-plugin-tools-java/src/main/java/org/apache/maven/tools/plugin/extractor/javadoc/JavaJavadocMojoDescriptorExtractor.java",
@@ -1367,35 +1251,6 @@
         },
         {
             "repo": "maven-plugin-tools",
-            "bug_id": "PluginHelpGenerator_321",
-            "npe_info": {
-                "filepath": "maven-plugin-tools-generators/src/main/java/org/apache/maven/tools/plugin/generator/PluginHelpGenerator.java",
-                "line": 324,
-                "deref_field": "helpMojoImplementation",
-                "npe_class": "PluginHelpGenerator",
-                "npe_method": "rewriteHelpMojo",
-                "sink_field": null,
-                "jvmti_identify_succeed": null,
-                "is_original": null
-            },
-            "build_info": {
-                "compiled": true,
-                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "java_version": 8,
-                "error_message": null,
-                "time": 29.245993359014392
-            },
-            "test_info": {
-                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "fail_buggy": false,
-                "pass_fixed": true,
-                "testcases": []
-            },
-            "patches": [],
-            "time_to_generate_patches": 0
-        },
-        {
-            "repo": "maven-plugin-tools",
             "bug_id": "PluginMetadataParser_120",
             "npe_info": {
                 "filepath": "maven-script/maven-plugin-tools-model/src/main/java/org/apache/maven/tools/plugin/extractor/model/PluginMetadataParser.java",
@@ -1450,35 +1305,6 @@
         },
         {
             "repo": "maven-plugin-tools",
-            "bug_id": "JavaJavadocMojoDescriptorExtractor_172",
-            "npe_info": {
-                "filepath": "maven-plugin-tools-java/src/main/java/org/apache/maven/tools/plugin/extractor/javadoc/JavaJavadocMojoDescriptorExtractor.java",
-                "line": 174,
-                "deref_field": "goal",
-                "npe_class": "JavaJavadocMojoDescriptorExtractor",
-                "npe_method": "createMojoDescriptor",
-                "sink_field": null,
-                "jvmti_identify_succeed": null,
-                "is_original": null
-            },
-            "build_info": {
-                "compiled": true,
-                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "java_version": 8,
-                "error_message": null,
-                "time": 29.16758240805939
-            },
-            "test_info": {
-                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "fail_buggy": false,
-                "pass_fixed": true,
-                "testcases": []
-            },
-            "patches": [],
-            "time_to_generate_patches": 0
-        },
-        {
-            "repo": "maven-plugin-tools",
             "bug_id": "AntMojoWrapper_239",
             "npe_info": {
                 "filepath": "maven-script/maven-script-ant/src/main/java/org/apache/maven/script/ant/AntMojoWrapper.java",
@@ -1509,64 +1335,6 @@
                         "stack_trace": "java.lang.NullPointerException\n\tat org.apache.maven.script.ant.AntMojoWrapperTest.run(AntMojoWrapperTest.java:239)\n\tat org.apache.maven.script.ant.AntMojoWrapperTest.test20StylePlugin(AntMojoWrapperTest.java:116)\n"
                     }
                 ]
-            },
-            "patches": [],
-            "time_to_generate_patches": 0
-        },
-        {
-            "repo": "maven-plugin-tools",
-            "bug_id": "PluginXdocGenerator_432",
-            "npe_info": {
-                "filepath": "maven-plugin-tools-generators/src/main/java/org/apache/maven/tools/plugin/generator/PluginXdocGenerator.java",
-                "line": 434,
-                "deref_field": "parameterList",
-                "npe_class": "PluginXdocGenerator",
-                "npe_method": "filterParameters",
-                "sink_field": null,
-                "jvmti_identify_succeed": null,
-                "is_original": null
-            },
-            "build_info": {
-                "compiled": true,
-                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "java_version": 8,
-                "error_message": null,
-                "time": 30.41959884087555
-            },
-            "test_info": {
-                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "fail_buggy": false,
-                "pass_fixed": true,
-                "testcases": []
-            },
-            "patches": [],
-            "time_to_generate_patches": 0
-        },
-        {
-            "repo": "maven-plugin-tools",
-            "bug_id": "JavaAnnotationsMojoDescriptorExtractor_322",
-            "npe_info": {
-                "filepath": "maven-plugin-tools-annotations/src/main/java/org/apache/maven/tools/plugin/extractor/annotations/JavaAnnotationsMojoDescriptorExtractor.java",
-                "line": 328,
-                "deref_field": "javaField",
-                "npe_class": "JavaAnnotationsMojoDescriptorExtractor",
-                "npe_method": "populateDataFromJavadoc",
-                "sink_field": null,
-                "jvmti_identify_succeed": null,
-                "is_original": null
-            },
-            "build_info": {
-                "compiled": true,
-                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "java_version": 8,
-                "error_message": null,
-                "time": 32.88133255694993
-            },
-            "test_info": {
-                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "fail_buggy": false,
-                "pass_fixed": true,
-                "testcases": []
             },
             "patches": [],
             "time_to_generate_patches": 0
@@ -1873,93 +1641,6 @@
         },
         {
             "repo": "maven-plugin-tools",
-            "bug_id": "AbstractGeneratorMojo_297",
-            "npe_info": {
-                "filepath": "maven-plugin-plugin/src/main/java/org/apache/maven/plugin/plugin/AbstractGeneratorMojo.java",
-                "line": 301,
-                "deref_field": "mojoDependencies",
-                "npe_class": "AbstractGeneratorMojo",
-                "npe_method": "filterMojoDependencies",
-                "sink_field": null,
-                "jvmti_identify_succeed": null,
-                "is_original": null
-            },
-            "build_info": {
-                "compiled": true,
-                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "java_version": 8,
-                "error_message": null,
-                "time": 31.56574630108662
-            },
-            "test_info": {
-                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "fail_buggy": false,
-                "pass_fixed": false,
-                "testcases": []
-            },
-            "patches": [],
-            "time_to_generate_patches": 0
-        },
-        {
-            "repo": "maven-plugin-tools",
-            "bug_id": "PluginDescriptorGenerator_102",
-            "npe_info": {
-                "filepath": "maven-plugin-tools-generators/src/main/java/org/apache/maven/tools/plugin/generator/PluginDescriptorGenerator.java",
-                "line": 102,
-                "deref_field": "version",
-                "npe_class": "PluginDescriptorGenerator",
-                "npe_method": "getVersion",
-                "sink_field": null,
-                "jvmti_identify_succeed": null,
-                "is_original": null
-            },
-            "build_info": {
-                "compiled": true,
-                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "java_version": 8,
-                "error_message": null,
-                "time": 28.21263178717345
-            },
-            "test_info": {
-                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "fail_buggy": false,
-                "pass_fixed": true,
-                "testcases": []
-            },
-            "patches": [],
-            "time_to_generate_patches": 0
-        },
-        {
-            "repo": "maven-plugin-tools",
-            "bug_id": "JavaAnnotationsMojoDescriptorExtractor_676",
-            "npe_info": {
-                "filepath": "maven-plugin-tools-annotations/src/main/java/org/apache/maven/tools/plugin/extractor/annotations/JavaAnnotationsMojoDescriptorExtractor.java",
-                "line": 678,
-                "deref_field": "parent",
-                "npe_class": "JavaAnnotationsMojoDescriptorExtractor",
-                "npe_method": "getParametersParent",
-                "sink_field": null,
-                "jvmti_identify_succeed": null,
-                "is_original": null
-            },
-            "build_info": {
-                "compiled": true,
-                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "java_version": 8,
-                "error_message": null,
-                "time": 34.85788754094392
-            },
-            "test_info": {
-                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "fail_buggy": true,
-                "pass_fixed": true,
-                "testcases": []
-            },
-            "patches": [],
-            "time_to_generate_patches": 0
-        },
-        {
-            "repo": "maven-plugin-tools",
             "bug_id": "DefaultMojoScanner_89",
             "npe_info": {
                 "filepath": "maven-plugin-tools-api/src/main/java/org/apache/maven/tools/plugin/scanner/DefaultMojoScanner.java",
@@ -1990,64 +1671,6 @@
                         "stack_trace": "java.lang.NullPointerException\n\tat org.apache.maven.tools.plugin.scanner.DefaultMojoScannerTest.testUnknownExtractor(DefaultMojoScannerTest.java:157)\n"
                     }
                 ]
-            },
-            "patches": [],
-            "time_to_generate_patches": 0
-        },
-        {
-            "repo": "maven-plugin-tools",
-            "bug_id": "JavaAnnotationsMojoDescriptorExtractor_488",
-            "npe_info": {
-                "filepath": "maven-plugin-tools-annotations/src/main/java/org/apache/maven/tools/plugin/extractor/annotations/JavaAnnotationsMojoDescriptorExtractor.java",
-                "line": 500,
-                "deref_field": "getMojo()",
-                "npe_class": "JavaAnnotationsMojoDescriptorExtractor",
-                "npe_method": "toMojoDescriptors",
-                "sink_field": null,
-                "jvmti_identify_succeed": null,
-                "is_original": null
-            },
-            "build_info": {
-                "compiled": true,
-                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "java_version": 8,
-                "error_message": null,
-                "time": 32.573373278137296
-            },
-            "test_info": {
-                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "fail_buggy": false,
-                "pass_fixed": true,
-                "testcases": []
-            },
-            "patches": [],
-            "time_to_generate_patches": 0
-        },
-        {
-            "repo": "maven-plugin-tools",
-            "bug_id": "JavaAnnotationsMojoDescriptorExtractor_280",
-            "npe_info": {
-                "filepath": "maven-plugin-tools-annotations/src/main/java/org/apache/maven/tools/plugin/extractor/annotations/JavaAnnotationsMojoDescriptorExtractor.java",
-                "line": 282,
-                "deref_field": "deprecated",
-                "npe_class": "JavaAnnotationsMojoDescriptorExtractor",
-                "npe_method": "populateDataFromJavadoc",
-                "sink_field": null,
-                "jvmti_identify_succeed": null,
-                "is_original": null
-            },
-            "build_info": {
-                "compiled": true,
-                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "java_version": 8,
-                "error_message": null,
-                "time": 38.157289067981765
-            },
-            "test_info": {
-                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "fail_buggy": false,
-                "pass_fixed": true,
-                "testcases": []
             },
             "patches": [],
             "time_to_generate_patches": 0
@@ -2264,35 +1887,6 @@
                         "stack_trace": "java.lang.NullPointerException\n\tat org.apache.maven.tools.plugin.extractor.javadoc.JavaMojoDescriptorExtractorTest.generate(JavaMojoDescriptorExtractorTest.java:124)\n\tat org.apache.maven.tools.plugin.extractor.javadoc.JavaMojoDescriptorExtractorTest.extract(JavaMojoDescriptorExtractorTest.java:166)\n\tat org.apache.maven.tools.plugin.extractor.javadoc.JavaMojoDescriptorExtractorTest.testJava15SyntaxParsing(JavaMojoDescriptorExtractorTest.java:236)\n"
                     }
                 ]
-            },
-            "patches": [],
-            "time_to_generate_patches": 0
-        },
-        {
-            "repo": "maven-plugin-tools",
-            "bug_id": "PluginHelpGenerator_188",
-            "npe_info": {
-                "filepath": "maven-plugin-tools-generators/src/main/java/org/apache/maven/tools/plugin/generator/PluginHelpGenerator.java",
-                "line": 190,
-                "deref_field": "this.helpPackageName",
-                "npe_class": "PluginHelpGenerator",
-                "npe_method": "getHelpClassSources",
-                "sink_field": null,
-                "jvmti_identify_succeed": null,
-                "is_original": null
-            },
-            "build_info": {
-                "compiled": true,
-                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "java_version": 8,
-                "error_message": null,
-                "time": 28.31851228605956
-            },
-            "test_info": {
-                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "fail_buggy": false,
-                "pass_fixed": true,
-                "testcases": []
             },
             "patches": [],
             "time_to_generate_patches": 0
@@ -2545,64 +2139,6 @@
                         "stack_trace": "java.lang.NullPointerException\n\tat org.apache.maven.tools.plugin.extractor.javadoc.JavaMojoDescriptorExtractorTest.generate(JavaMojoDescriptorExtractorTest.java:116)\n\tat org.apache.maven.tools.plugin.extractor.javadoc.JavaMojoDescriptorExtractorTest.extract(JavaMojoDescriptorExtractorTest.java:166)\n\tat org.apache.maven.tools.plugin.extractor.javadoc.JavaMojoDescriptorExtractorTest.testJava15SyntaxParsing(JavaMojoDescriptorExtractorTest.java:236)\n"
                     }
                 ]
-            },
-            "patches": [],
-            "time_to_generate_patches": 0
-        },
-        {
-            "repo": "maven-plugin-tools",
-            "bug_id": "ParameterAnnotationContent_180",
-            "npe_info": {
-                "filepath": "maven-plugin-tools-annotations/src/main/java/org/apache/maven/tools/plugin/extractor/annotations/datamodel/ParameterAnnotationContent.java",
-                "line": 180,
-                "deref_field": "getFieldName()",
-                "npe_class": "ParameterAnnotationContent",
-                "npe_method": "equals",
-                "sink_field": null,
-                "jvmti_identify_succeed": null,
-                "is_original": null
-            },
-            "build_info": {
-                "compiled": true,
-                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "java_version": 8,
-                "error_message": null,
-                "time": 32.450825817883015
-            },
-            "test_info": {
-                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "fail_buggy": false,
-                "pass_fixed": true,
-                "testcases": []
-            },
-            "patches": [],
-            "time_to_generate_patches": 0
-        },
-        {
-            "repo": "maven-plugin-tools",
-            "bug_id": "JavaAnnotationsMojoDescriptorExtractor_529",
-            "npe_info": {
-                "filepath": "maven-plugin-tools-annotations/src/main/java/org/apache/maven/tools/plugin/extractor/annotations/JavaAnnotationsMojoDescriptorExtractor.java",
-                "line": 531,
-                "deref_field": "phase()",
-                "npe_class": "JavaAnnotationsMojoDescriptorExtractor",
-                "npe_method": "toMojoDescriptors",
-                "sink_field": null,
-                "jvmti_identify_succeed": null,
-                "is_original": null
-            },
-            "build_info": {
-                "compiled": true,
-                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "java_version": 8,
-                "error_message": null,
-                "time": 28.73306282190606
-            },
-            "test_info": {
-                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "fail_buggy": false,
-                "pass_fixed": true,
-                "testcases": []
             },
             "patches": [],
             "time_to_generate_patches": 0
@@ -2999,64 +2535,6 @@
                         "stack_trace": "java.lang.NullPointerException\n\tat org.apache.maven.tools.plugin.extractor.javadoc.JavaMojoDescriptorExtractorTest.generate(JavaMojoDescriptorExtractorTest.java:116)\n\tat org.apache.maven.tools.plugin.extractor.javadoc.JavaMojoDescriptorExtractorTest.extract(JavaMojoDescriptorExtractorTest.java:166)\n\tat org.apache.maven.tools.plugin.extractor.javadoc.JavaMojoDescriptorExtractorTest.testJava15SyntaxParsing(JavaMojoDescriptorExtractorTest.java:236)\n"
                     }
                 ]
-            },
-            "patches": [],
-            "time_to_generate_patches": 0
-        },
-        {
-            "repo": "maven-plugin-tools",
-            "bug_id": "JavaMojoDescriptorExtractorTest_73",
-            "npe_info": {
-                "filepath": "maven-plugin-tools-java/src/test/java/org/apache/maven/tools/plugin/extractor/javadoc/JavaMojoDescriptorExtractorTest.java",
-                "line": 75,
-                "deref_field": "resource",
-                "npe_class": "JavaMojoDescriptorExtractorTest",
-                "npe_method": "fileOf",
-                "sink_field": null,
-                "jvmti_identify_succeed": null,
-                "is_original": null
-            },
-            "build_info": {
-                "compiled": true,
-                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "java_version": 8,
-                "error_message": null,
-                "time": 32.24429811909795
-            },
-            "test_info": {
-                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "fail_buggy": false,
-                "pass_fixed": true,
-                "testcases": []
-            },
-            "patches": [],
-            "time_to_generate_patches": 0
-        },
-        {
-            "repo": "maven-plugin-tools",
-            "bug_id": "ComponentAnnotationContent_68",
-            "npe_info": {
-                "filepath": "maven-plugin-tools-annotations/src/main/java/org/apache/maven/tools/plugin/extractor/annotations/datamodel/ComponentAnnotationContent.java",
-                "line": 68,
-                "deref_field": "hint",
-                "npe_class": "ComponentAnnotationContent",
-                "npe_method": "hint",
-                "sink_field": null,
-                "jvmti_identify_succeed": null,
-                "is_original": null
-            },
-            "build_info": {
-                "compiled": true,
-                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "java_version": 8,
-                "error_message": null,
-                "time": 26.923292021965608
-            },
-            "test_info": {
-                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "fail_buggy": false,
-                "pass_fixed": true,
-                "testcases": []
             },
             "patches": [],
             "time_to_generate_patches": 0
@@ -3489,35 +2967,6 @@
         },
         {
             "repo": "maven-plugin-tools",
-            "bug_id": "JavaAnnotationsMojoDescriptorExtractor_392",
-            "npe_info": {
-                "filepath": "maven-plugin-tools-annotations/src/main/java/org/apache/maven/tools/plugin/extractor/annotations/JavaAnnotationsMojoDescriptorExtractor.java",
-                "line": 388,
-                "deref_field": "superClass",
-                "npe_class": "JavaAnnotationsMojoDescriptorExtractor",
-                "npe_method": "extractFieldParameterTags",
-                "sink_field": null,
-                "jvmti_identify_succeed": null,
-                "is_original": null
-            },
-            "build_info": {
-                "compiled": true,
-                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "java_version": 8,
-                "error_message": null,
-                "time": 32.55229535698891
-            },
-            "test_info": {
-                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "fail_buggy": false,
-                "pass_fixed": true,
-                "testcases": []
-            },
-            "patches": [],
-            "time_to_generate_patches": 0
-        },
-        {
-            "repo": "maven-plugin-tools",
             "bug_id": "JavaJavadocMojoDescriptorExtractor_219",
             "npe_info": {
                 "filepath": "maven-plugin-tools-java/src/main/java/org/apache/maven/tools/plugin/extractor/javadoc/JavaJavadocMojoDescriptorExtractor.java",
@@ -3776,64 +3225,6 @@
                         "stack_trace": "java.lang.NullPointerException\n\tat org.apache.maven.tools.plugin.extractor.javadoc.JavaMojoDescriptorExtractorTest.generate(JavaMojoDescriptorExtractorTest.java:116)\n\tat org.apache.maven.tools.plugin.extractor.javadoc.JavaMojoDescriptorExtractorTest.extract(JavaMojoDescriptorExtractorTest.java:166)\n\tat org.apache.maven.tools.plugin.extractor.javadoc.JavaMojoDescriptorExtractorTest.testJava15SyntaxParsing(JavaMojoDescriptorExtractorTest.java:236)\n"
                     }
                 ]
-            },
-            "patches": [],
-            "time_to_generate_patches": 0
-        },
-        {
-            "repo": "maven-plugin-tools",
-            "bug_id": "PluginXdocGenerator_523",
-            "npe_info": {
-                "filepath": "maven-plugin-tools-generators/src/main/java/org/apache/maven/tools/plugin/generator/PluginXdocGenerator.java",
-                "line": 529,
-                "deref_field": "property",
-                "npe_class": "PluginXdocGenerator",
-                "npe_method": "writeParameterDetails",
-                "sink_field": null,
-                "jvmti_identify_succeed": null,
-                "is_original": null
-            },
-            "build_info": {
-                "compiled": true,
-                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "java_version": 8,
-                "error_message": null,
-                "time": 26.46092839119956
-            },
-            "test_info": {
-                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "fail_buggy": false,
-                "pass_fixed": true,
-                "testcases": []
-            },
-            "patches": [],
-            "time_to_generate_patches": 0
-        },
-        {
-            "repo": "maven-plugin-tools",
-            "bug_id": "PluginReport_814",
-            "npe_info": {
-                "filepath": "maven-plugin-plugin/src/main/java/org/apache/maven/plugin/plugin/PluginReport.java",
-                "line": 816,
-                "deref_field": "pluginConf",
-                "npe_class": "PluginOverviewRenderer",
-                "npe_method": "getPluginParameter",
-                "sink_field": null,
-                "jvmti_identify_succeed": null,
-                "is_original": null
-            },
-            "build_info": {
-                "compiled": true,
-                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "java_version": 8,
-                "error_message": null,
-                "time": 30.263296599965543
-            },
-            "test_info": {
-                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "fail_buggy": false,
-                "pass_fixed": true,
-                "testcases": []
             },
             "patches": [],
             "time_to_generate_patches": 0
@@ -4146,122 +3537,6 @@
         },
         {
             "repo": "maven-plugin-tools",
-            "bug_id": "PluginReport_296",
-            "npe_info": {
-                "filepath": "maven-plugin-plugin/src/main/java/org/apache/maven/plugin/plugin/PluginReport.java",
-                "line": 302,
-                "deref_field": "goalPrefix",
-                "npe_class": "PluginReport",
-                "npe_method": "extractPluginDescriptor",
-                "sink_field": null,
-                "jvmti_identify_succeed": null,
-                "is_original": null
-            },
-            "build_info": {
-                "compiled": true,
-                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "java_version": 8,
-                "error_message": null,
-                "time": 25.30614945292473
-            },
-            "test_info": {
-                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "fail_buggy": false,
-                "pass_fixed": false,
-                "testcases": []
-            },
-            "patches": [],
-            "time_to_generate_patches": 0
-        },
-        {
-            "repo": "maven-plugin-tools",
-            "bug_id": "JavaAnnotationsMojoDescriptorExtractor_673",
-            "npe_info": {
-                "filepath": "maven-plugin-tools-annotations/src/main/java/org/apache/maven/tools/plugin/extractor/annotations/JavaAnnotationsMojoDescriptorExtractor.java",
-                "line": 675,
-                "deref_field": "parentClassName",
-                "npe_class": "JavaAnnotationsMojoDescriptorExtractor",
-                "npe_method": "getParametersParent",
-                "sink_field": null,
-                "jvmti_identify_succeed": null,
-                "is_original": null
-            },
-            "build_info": {
-                "compiled": true,
-                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "java_version": 8,
-                "error_message": null,
-                "time": 21.561528322985396
-            },
-            "test_info": {
-                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "fail_buggy": false,
-                "pass_fixed": true,
-                "testcases": []
-            },
-            "patches": [],
-            "time_to_generate_patches": 0
-        },
-        {
-            "repo": "maven-plugin-tools",
-            "bug_id": "PluginReport_598",
-            "npe_info": {
-                "filepath": "maven-plugin-plugin/src/main/java/org/apache/maven/plugin/plugin/PluginReport.java",
-                "line": 599,
-                "deref_field": "jdk",
-                "npe_class": "PluginOverviewRenderer",
-                "npe_method": "renderBody",
-                "sink_field": null,
-                "jvmti_identify_succeed": null,
-                "is_original": null
-            },
-            "build_info": {
-                "compiled": true,
-                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "java_version": 8,
-                "error_message": null,
-                "time": 28.43721860391088
-            },
-            "test_info": {
-                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "fail_buggy": false,
-                "pass_fixed": true,
-                "testcases": []
-            },
-            "patches": [],
-            "time_to_generate_patches": 0
-        },
-        {
-            "repo": "maven-plugin-tools",
-            "bug_id": "MojoClassVisitor_118",
-            "npe_info": {
-                "filepath": "maven-plugin-tools-annotations/src/main/java/org/apache/maven/tools/plugin/extractor/annotations/scanner/visitors/MojoClassVisitor.java",
-                "line": 120,
-                "deref_field": "superName",
-                "npe_class": "MojoClassVisitor",
-                "npe_method": "visit",
-                "sink_field": null,
-                "jvmti_identify_succeed": null,
-                "is_original": null
-            },
-            "build_info": {
-                "compiled": true,
-                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "java_version": 8,
-                "error_message": null,
-                "time": 27.838093290803954
-            },
-            "test_info": {
-                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "fail_buggy": false,
-                "pass_fixed": true,
-                "testcases": []
-            },
-            "patches": [],
-            "time_to_generate_patches": 0
-        },
-        {
-            "repo": "maven-plugin-tools",
             "bug_id": "DefaultMojoAnnotationsScanner_269",
             "npe_info": {
                 "filepath": "maven-plugin-tools-annotations/src/main/java/org/apache/maven/tools/plugin/extractor/annotations/scanner/DefaultMojoAnnotationsScanner.java",
@@ -4478,35 +3753,6 @@
         },
         {
             "repo": "maven-plugin-tools",
-            "bug_id": "JavaAnnotationsMojoDescriptorExtractor_711",
-            "npe_info": {
-                "filepath": "maven-plugin-tools-annotations/src/main/java/org/apache/maven/tools/plugin/extractor/annotations/JavaAnnotationsMojoDescriptorExtractor.java",
-                "line": 713,
-                "deref_field": "parentClassName",
-                "npe_class": "JavaAnnotationsMojoDescriptorExtractor",
-                "npe_method": "getComponentParent",
-                "sink_field": null,
-                "jvmti_identify_succeed": null,
-                "is_original": null
-            },
-            "build_info": {
-                "compiled": true,
-                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "java_version": 8,
-                "error_message": null,
-                "time": 28.032316674944013
-            },
-            "test_info": {
-                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "fail_buggy": false,
-                "pass_fixed": true,
-                "testcases": []
-            },
-            "patches": [],
-            "time_to_generate_patches": 0
-        },
-        {
-            "repo": "maven-plugin-tools",
             "bug_id": "PluginDescriptorGenerator_551",
             "npe_info": {
                 "filepath": "maven-plugin-tools-generators/src/main/java/org/apache/maven/tools/plugin/generator/PluginDescriptorGenerator.java",
@@ -4537,35 +3783,6 @@
                         "stack_trace": "java.lang.NullPointerException\n\tat org.apache.maven.tools.plugin.extractor.javadoc.JavaMojoDescriptorExtractorTest.generate(JavaMojoDescriptorExtractorTest.java:131)\n\tat org.apache.maven.tools.plugin.extractor.javadoc.JavaMojoDescriptorExtractorTest.extract(JavaMojoDescriptorExtractorTest.java:166)\n\tat org.apache.maven.tools.plugin.extractor.javadoc.JavaMojoDescriptorExtractorTest.testShouldFindTwoMojoDescriptorsInTestSourceDirectory(JavaMojoDescriptorExtractorTest.java:177)\n"
                     }
                 ]
-            },
-            "patches": [],
-            "time_to_generate_patches": 0
-        },
-        {
-            "repo": "maven-plugin-tools",
-            "bug_id": "PluginReport_779",
-            "npe_info": {
-                "filepath": "maven-plugin-plugin/src/main/java/org/apache/maven/plugin/plugin/PluginReport.java",
-                "line": 781,
-                "deref_field": "jdk",
-                "npe_class": "PluginOverviewRenderer",
-                "npe_method": "discoverJdkRequirement",
-                "sink_field": null,
-                "jvmti_identify_succeed": null,
-                "is_original": null
-            },
-            "build_info": {
-                "compiled": true,
-                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "java_version": 8,
-                "error_message": null,
-                "time": 27.899344622856006
-            },
-            "test_info": {
-                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "fail_buggy": true,
-                "pass_fixed": true,
-                "testcases": []
             },
             "patches": [],
             "time_to_generate_patches": 0
@@ -4746,35 +3963,6 @@
                         "stack_trace": "java.lang.NullPointerException\n\tat org.apache.maven.tools.plugin.extractor.javadoc.JavaMojoDescriptorExtractorTest.generate(JavaMojoDescriptorExtractorTest.java:116)\n\tat org.apache.maven.tools.plugin.extractor.javadoc.JavaMojoDescriptorExtractorTest.extract(JavaMojoDescriptorExtractorTest.java:166)\n\tat org.apache.maven.tools.plugin.extractor.javadoc.JavaMojoDescriptorExtractorTest.testJava15SyntaxParsing(JavaMojoDescriptorExtractorTest.java:236)\n"
                     }
                 ]
-            },
-            "patches": [],
-            "time_to_generate_patches": 0
-        },
-        {
-            "repo": "maven-plugin-tools",
-            "bug_id": "PluginXdocGenerator_109",
-            "npe_info": {
-                "filepath": "maven-plugin-tools-generators/src/main/java/org/apache/maven/tools/plugin/generator/PluginXdocGenerator.java",
-                "line": 111,
-                "deref_field": "getMojos()",
-                "npe_class": "PluginXdocGenerator",
-                "npe_method": "execute",
-                "sink_field": null,
-                "jvmti_identify_succeed": null,
-                "is_original": null
-            },
-            "build_info": {
-                "compiled": true,
-                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "java_version": 8,
-                "error_message": null,
-                "time": 26.182353287003934
-            },
-            "test_info": {
-                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "fail_buggy": false,
-                "pass_fixed": true,
-                "testcases": []
             },
             "patches": [],
             "time_to_generate_patches": 0

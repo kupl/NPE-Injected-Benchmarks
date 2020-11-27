@@ -1,7 +1,0 @@
-{
-    "filepath": "src/main/java/org/apache/sling/servlets/post/impl/helper/SlingPropertyValueHandler.java",
-    "line": 278,
-    "npe_method": "patch",
-    "deref_field": "setValues",
-    "npe_class": "SlingPropertyValueHandler"
-}

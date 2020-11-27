@@ -1,7 +1,0 @@
-{
-    "filepath": "core/src/test/java/org/apache/commons/digester3/annotations/servletbean/ServletBean.java",
-    "line": 112,
-    "npe_method": "equals",
-    "deref_field": "servletName",
-    "npe_class": "ServletBean"
-}

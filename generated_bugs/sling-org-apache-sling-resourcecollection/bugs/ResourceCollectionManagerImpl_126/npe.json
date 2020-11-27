@@ -1,7 +1,0 @@
-{
-    "filepath": "src/main/java/org/apache/sling/resource/collection/impl/ResourceCollectionManagerImpl.java",
-    "line": 127,
-    "npe_method": "deleteCollection",
-    "deref_field": "resource",
-    "npe_class": "ResourceCollectionManagerImpl"
-}

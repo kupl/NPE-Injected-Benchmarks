@@ -1,7 +1,0 @@
-{
-    "filepath": "core/src/test/java/org/apache/commons/digester3/annotations/employee/Address.java",
-    "line": 149,
-    "npe_method": "equals",
-    "deref_field": "this.type",
-    "npe_class": "Address"
-}

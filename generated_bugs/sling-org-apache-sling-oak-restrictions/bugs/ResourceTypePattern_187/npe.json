@@ -1,7 +1,0 @@
-{
-    "filepath": "src/main/java/org/apache/sling/oak/restrictions/impl/ResourceTypePattern.java",
-    "line": 190,
-    "npe_method": "equals",
-    "deref_field": "limitedToPath",
-    "npe_class": "ResourceTypePattern"
-}

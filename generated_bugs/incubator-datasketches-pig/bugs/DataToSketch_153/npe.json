@@ -1,7 +1,0 @@
-{
-    "filepath": "src/main/java/org/apache/datasketches/pig/kll/DataToSketch.java",
-    "line": 157,
-    "npe_method": "accumulate",
-    "deref_field": "bag",
-    "npe_class": "DataToSketch"
-}

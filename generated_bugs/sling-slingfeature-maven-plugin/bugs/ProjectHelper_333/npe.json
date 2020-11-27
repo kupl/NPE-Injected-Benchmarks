@@ -1,7 +1,0 @@
-{
-    "filepath": "src/main/java/org/apache/sling/feature/maven/ProjectHelper.java",
-    "line": 336,
-    "npe_method": "toString",
-    "deref_field": "d",
-    "npe_class": "ProjectHelper"
-}

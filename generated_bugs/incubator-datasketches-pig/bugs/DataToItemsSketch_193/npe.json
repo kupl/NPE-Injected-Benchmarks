@@ -1,7 +1,0 @@
-{
-    "filepath": "src/main/java/org/apache/datasketches/pig/quantiles/DataToItemsSketch.java",
-    "line": 194,
-    "npe_method": "accumulate",
-    "deref_field": "value",
-    "npe_class": "DataToItemsSketch"
-}

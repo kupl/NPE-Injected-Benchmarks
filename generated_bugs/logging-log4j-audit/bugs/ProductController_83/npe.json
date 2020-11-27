@@ -1,7 +1,0 @@
-{
-    "filepath": "log4j-catalog/log4j-catalog-editor/src/main/java/org/apache/logging/log4j/catalog/controller/ProductController.java",
-    "line": 84,
-    "npe_method": "productList",
-    "deref_field": "sorting",
-    "npe_class": "ProductController"
-}

@@ -1,7 +1,0 @@
-{
-    "filepath": "log4j-catalog/log4j-catalog-git/src/main/java/org/apache/logging/log4j/catalog/git/dao/GitCatalogDao.java",
-    "line": 175,
-    "npe_method": "write",
-    "deref_field": "transportConfigCallback",
-    "npe_class": "GitCatalogDao"
-}

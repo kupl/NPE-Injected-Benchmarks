@@ -1,7 +1,0 @@
-{
-    "filepath": "src/main/java/org/apache/maven/plugin/changelog/ChangeLogReport.java",
-    "line": 1721,
-    "npe_method": "generateLinks",
-    "deref_field": "linkFile",
-    "npe_class": "ChangeLogReport"
-}

@@ -1,7 +1,0 @@
-{
-    "filepath": "src/main/java/org/apache/sling/resource/collection/impl/ResourceCollectionImpl.java",
-    "line": 234,
-    "npe_method": "findRes",
-    "deref_field": "res",
-    "npe_class": "ResourceCollectionImpl"
-}

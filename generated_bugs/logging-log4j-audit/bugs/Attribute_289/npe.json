@@ -1,7 +1,0 @@
-{
-    "filepath": "log4j-catalog/log4j-catalog-api/src/main/java/org/apache/logging/log4j/catalog/api/Attribute.java",
-    "line": 292,
-    "npe_method": "toString",
-    "deref_field": "dataType",
-    "npe_class": "Attribute"
-}

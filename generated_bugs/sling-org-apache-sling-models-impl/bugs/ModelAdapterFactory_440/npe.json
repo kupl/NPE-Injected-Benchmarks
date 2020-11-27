@@ -1,7 +1,0 @@
-{
-    "filepath": "src/main/java/org/apache/sling/models/impl/ModelAdapterFactory.java",
-    "line": 443,
-    "npe_method": "validateModel",
-    "deref_field": "modelValidation",
-    "npe_class": "ModelAdapterFactory"
-}

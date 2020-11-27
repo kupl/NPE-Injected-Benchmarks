@@ -1,7 +1,0 @@
-{
-    "filepath": "src/test/java/org/apache/maven/shared/utils/io/DirectoryScannerTest.java",
-    "line": 279,
-    "npe_method": "fitScanTest",
-    "deref_field": "excludes",
-    "npe_class": "DirectoryScannerTest"
-}

@@ -1,7 +1,0 @@
-{
-    "filepath": "src/test/java/org/apache/maven/shared/utils/io/DirectoryScannerTest.java",
-    "line": 309,
-    "npe_method": "checkFiles",
-    "deref_field": "expectedFiles",
-    "npe_class": "DirectoryScannerTest"
-}

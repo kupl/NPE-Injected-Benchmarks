@@ -1,7 +1,0 @@
-{
-    "filepath": "src/main/java/org/apache/commons/beanutils2/BaseDynaBeanMapDecorator.java",
-    "line": 215,
-    "npe_method": "keySet",
-    "deref_field": "keySet",
-    "npe_class": "BaseDynaBeanMapDecorator"
-}

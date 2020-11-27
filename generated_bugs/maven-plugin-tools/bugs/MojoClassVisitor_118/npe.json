@@ -1,7 +1,0 @@
-{
-    "filepath": "maven-plugin-tools-annotations/src/main/java/org/apache/maven/tools/plugin/extractor/annotations/scanner/visitors/MojoClassVisitor.java",
-    "line": 120,
-    "npe_method": "visit",
-    "deref_field": "superName",
-    "npe_class": "MojoClassVisitor"
-}

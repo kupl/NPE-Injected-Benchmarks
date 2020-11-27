@@ -1,7 +1,0 @@
-{
-    "filepath": "src/main/java/org/apache/sling/models/impl/ModelAdapterFactory.java",
-    "line": 555,
-    "npe_method": "injectElement",
-    "deref_field": "fromMap",
-    "npe_class": "ModelAdapterFactory"
-}

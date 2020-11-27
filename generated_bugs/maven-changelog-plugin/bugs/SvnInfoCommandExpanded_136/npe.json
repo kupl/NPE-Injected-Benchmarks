@@ -1,7 +1,0 @@
-{
-    "filepath": "src/main/java/org/apache/maven/scm/provider/svn/svnexe/command/info/SvnInfoCommandExpanded.java",
-    "line": 142,
-    "npe_method": "createCommandLine",
-    "deref_field": "repository",
-    "npe_class": "SvnInfoCommandExpanded"
-}

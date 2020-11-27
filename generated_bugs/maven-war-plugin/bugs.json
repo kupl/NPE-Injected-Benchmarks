@@ -57,93 +57,6 @@
         },
         {
             "repo": "maven-war-plugin",
-            "bug_id": "XarArtifactStub_50",
-            "npe_info": {
-                "filepath": "src/test/java/org/apache/maven/plugins/war/stub/XarArtifactStub.java",
-                "line": 52,
-                "deref_field": "groupId",
-                "npe_class": "XarArtifactStub",
-                "npe_method": "getGroupId",
-                "sink_field": null,
-                "jvmti_identify_succeed": null,
-                "is_original": null
-            },
-            "build_info": {
-                "compiled": true,
-                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "java_version": 8,
-                "error_message": null,
-                "time": 23.39259328204207
-            },
-            "test_info": {
-                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "fail_buggy": false,
-                "pass_fixed": true,
-                "testcases": []
-            },
-            "patches": [],
-            "time_to_generate_patches": 0
-        },
-        {
-            "repo": "maven-war-plugin",
-            "bug_id": "WebappStructure_174",
-            "npe_info": {
-                "filepath": "src/main/java/org/apache/maven/plugins/war/util/WebappStructure.java",
-                "line": 179,
-                "deref_field": "getOwner(java.lang.String)",
-                "npe_class": "WebappStructure",
-                "npe_method": "registerFile",
-                "sink_field": null,
-                "jvmti_identify_succeed": null,
-                "is_original": null
-            },
-            "build_info": {
-                "compiled": true,
-                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "java_version": 8,
-                "error_message": null,
-                "time": 20.802807077998295
-            },
-            "test_info": {
-                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "fail_buggy": false,
-                "pass_fixed": true,
-                "testcases": []
-            },
-            "patches": [],
-            "time_to_generate_patches": 0
-        },
-        {
-            "repo": "maven-war-plugin",
-            "bug_id": "WebappStructure_292",
-            "npe_info": {
-                "filepath": "src/main/java/org/apache/maven/plugins/war/util/WebappStructure.java",
-                "line": 297,
-                "deref_field": "dependencies",
-                "npe_class": "WebappStructure",
-                "npe_method": "createDependenciesInfoList",
-                "sink_field": null,
-                "jvmti_identify_succeed": null,
-                "is_original": null
-            },
-            "build_info": {
-                "compiled": true,
-                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "java_version": 8,
-                "error_message": null,
-                "time": 26.26832255604677
-            },
-            "test_info": {
-                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "fail_buggy": false,
-                "pass_fixed": true,
-                "testcases": []
-            },
-            "patches": [],
-            "time_to_generate_patches": 0
-        },
-        {
-            "repo": "maven-war-plugin",
             "bug_id": "WarArtifactStub_51",
             "npe_info": {
                 "filepath": "src/test/java/org/apache/maven/plugins/war/stub/WarArtifactStub.java",
@@ -1914,35 +1827,6 @@
         },
         {
             "repo": "maven-war-plugin",
-            "bug_id": "OverlayManagerTest_214",
-            "npe_info": {
-                "filepath": "src/test/java/org/apache/maven/plugins/war/overlay/OverlayManagerTest.java",
-                "line": 216,
-                "deref_field": "classifier",
-                "npe_class": "OverlayManagerTest",
-                "npe_method": "newWarArtifact",
-                "sink_field": null,
-                "jvmti_identify_succeed": null,
-                "is_original": null
-            },
-            "build_info": {
-                "compiled": true,
-                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "java_version": 8,
-                "error_message": null,
-                "time": 21.259368375875056
-            },
-            "test_info": {
-                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "fail_buggy": false,
-                "pass_fixed": true,
-                "testcases": []
-            },
-            "patches": [],
-            "time_to_generate_patches": 0
-        },
-        {
-            "repo": "maven-war-plugin",
             "bug_id": "JarArtifactStub_91",
             "npe_info": {
                 "filepath": "src/test/java/org/apache/maven/plugins/war/stub/JarArtifactStub.java",
@@ -1997,35 +1881,6 @@
                         "stack_trace": "java.lang.NullPointerException\n\tat org.apache.maven.plugins.war.WarExplodedMojoTest.testExplodedWarWithJar(WarExplodedMojoTest.java:433)\n"
                     }
                 ]
-            },
-            "patches": [],
-            "time_to_generate_patches": 0
-        },
-        {
-            "repo": "maven-war-plugin",
-            "bug_id": "AbstractWarPackagingTask_463",
-            "npe_info": {
-                "filepath": "src/main/java/org/apache/maven/plugins/war/packaging/AbstractWarPackagingTask.java",
-                "line": 465,
-                "deref_field": "getOutputFileNameMapping()",
-                "npe_class": "AbstractWarPackagingTask",
-                "npe_method": "getArtifactFinalName",
-                "sink_field": null,
-                "jvmti_identify_succeed": null,
-                "is_original": null
-            },
-            "build_info": {
-                "compiled": true,
-                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "java_version": 8,
-                "error_message": null,
-                "time": 19.26053941086866
-            },
-            "test_info": {
-                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "fail_buggy": true,
-                "pass_fixed": true,
-                "testcases": []
             },
             "patches": [],
             "time_to_generate_patches": 0
@@ -5842,35 +5697,6 @@
                         "stack_trace": "junit.framework.AssertionFailedError: web xml not found: /media/4tb/npex/NPE-Injected-Benchmarks/benchmarks/maven-war-plugin/target/test-classes/unit/waroverlays/overlays-includes-excludes-multiple-defs2/WEB-INF/web.xml\n\tat org.apache.maven.plugins.war.WarOverlaysTest.testOverlaysIncludesExcludesWithMultipleDefinitions2(WarOverlaysTest.java:413)\n"
                     }
                 ]
-            },
-            "patches": [],
-            "time_to_generate_patches": 0
-        },
-        {
-            "repo": "maven-war-plugin",
-            "bug_id": "WebappStructureTest_76",
-            "npe_info": {
-                "filepath": "src/test/java/org/apache/maven/plugins/war/util/WebappStructureTest.java",
-                "line": 82,
-                "deref_field": "type",
-                "npe_class": "WebappStructureTest",
-                "npe_method": "createDependency",
-                "sink_field": null,
-                "jvmti_identify_succeed": null,
-                "is_original": null
-            },
-            "build_info": {
-                "compiled": true,
-                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "java_version": 8,
-                "error_message": null,
-                "time": 22.80478322901763
-            },
-            "test_info": {
-                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "fail_buggy": false,
-                "pass_fixed": true,
-                "testcases": []
             },
             "patches": [],
             "time_to_generate_patches": 0
@@ -10401,35 +10227,6 @@
         },
         {
             "repo": "maven-war-plugin",
-            "bug_id": "WebappStructureTest_92",
-            "npe_info": {
-                "filepath": "src/test/java/org/apache/maven/plugins/war/util/WebappStructureTest.java",
-                "line": 94,
-                "deref_field": "classifier",
-                "npe_class": "WebappStructureTest",
-                "npe_method": "createDependency",
-                "sink_field": null,
-                "jvmti_identify_succeed": null,
-                "is_original": null
-            },
-            "build_info": {
-                "compiled": true,
-                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "java_version": 8,
-                "error_message": null,
-                "time": 20.145015840884298
-            },
-            "test_info": {
-                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "fail_buggy": false,
-                "pass_fixed": true,
-                "testcases": []
-            },
-            "patches": [],
-            "time_to_generate_patches": 0
-        },
-        {
-            "repo": "maven-war-plugin",
             "bug_id": "OverlayManager_200",
             "npe_info": {
                 "filepath": "src/main/java/org/apache/maven/plugins/war/overlay/OverlayManager.java",
@@ -10460,64 +10257,6 @@
                         "stack_trace": "java.lang.NullPointerException\n\tat org.apache.maven.plugins.war.overlay.OverlayManagerTest.testUnknownOverlay(OverlayManagerTest.java:132)\n"
                     }
                 ]
-            },
-            "patches": [],
-            "time_to_generate_patches": 0
-        },
-        {
-            "repo": "maven-war-plugin",
-            "bug_id": "OverlayManager_141",
-            "npe_info": {
-                "filepath": "src/main/java/org/apache/maven/plugins/war/overlay/OverlayManager.java",
-                "line": 143,
-                "deref_field": "artifact",
-                "npe_class": "OverlayManager",
-                "npe_method": "initialize",
-                "sink_field": null,
-                "jvmti_identify_succeed": null,
-                "is_original": null
-            },
-            "build_info": {
-                "compiled": true,
-                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "java_version": 8,
-                "error_message": null,
-                "time": 21.963397898944095
-            },
-            "test_info": {
-                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "fail_buggy": false,
-                "pass_fixed": true,
-                "testcases": []
-            },
-            "patches": [],
-            "time_to_generate_patches": 0
-        },
-        {
-            "repo": "maven-war-plugin",
-            "bug_id": "WebappStructure_270",
-            "npe_info": {
-                "filepath": "src/main/java/org/apache/maven/plugins/war/util/WebappStructure.java",
-                "line": 272,
-                "deref_field": "dependenciesInfo",
-                "npe_class": "WebappStructure",
-                "npe_method": "registerTargetFileName",
-                "sink_field": null,
-                "jvmti_identify_succeed": null,
-                "is_original": null
-            },
-            "build_info": {
-                "compiled": true,
-                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "java_version": 8,
-                "error_message": null,
-                "time": 21.149468522053212
-            },
-            "test_info": {
-                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "fail_buggy": false,
-                "pass_fixed": true,
-                "testcases": []
             },
             "patches": [],
             "time_to_generate_patches": 0
@@ -10560,64 +10299,6 @@
                         "stack_trace": "junit.framework.AssertionFailedError: resources doesn't exist: /media/4tb/npex/NPE-Injected-Benchmarks/benchmarks/maven-war-plugin/target/test-classes/unit/warexplodedmojo/test-dir/SimpleExplodedWar/pix/panis_na.jpg\n\tat org.apache.maven.plugins.war.WarExplodedMojoTest.testSimpleExplodedWar(WarExplodedMojoTest.java:96)\n"
                     }
                 ]
-            },
-            "patches": [],
-            "time_to_generate_patches": 0
-        },
-        {
-            "repo": "maven-war-plugin",
-            "bug_id": "EJBArtifactStub_44",
-            "npe_info": {
-                "filepath": "src/test/java/org/apache/maven/plugins/war/stub/EJBArtifactStub.java",
-                "line": 46,
-                "deref_field": "groupId",
-                "npe_class": "EJBArtifactStub",
-                "npe_method": "getGroupId",
-                "sink_field": null,
-                "jvmti_identify_succeed": null,
-                "is_original": null
-            },
-            "build_info": {
-                "compiled": true,
-                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "java_version": 8,
-                "error_message": null,
-                "time": 20.455962141044438
-            },
-            "test_info": {
-                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "fail_buggy": false,
-                "pass_fixed": true,
-                "testcases": []
-            },
-            "patches": [],
-            "time_to_generate_patches": 0
-        },
-        {
-            "repo": "maven-war-plugin",
-            "bug_id": "AarArtifactStub_50",
-            "npe_info": {
-                "filepath": "src/test/java/org/apache/maven/plugins/war/stub/AarArtifactStub.java",
-                "line": 52,
-                "deref_field": "groupId",
-                "npe_class": "AarArtifactStub",
-                "npe_method": "getGroupId",
-                "sink_field": null,
-                "jvmti_identify_succeed": null,
-                "is_original": null
-            },
-            "build_info": {
-                "compiled": true,
-                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "java_version": 8,
-                "error_message": null,
-                "time": 22.502935725962743
-            },
-            "test_info": {
-                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "fail_buggy": false,
-                "pass_fixed": true,
-                "testcases": []
             },
             "patches": [],
             "time_to_generate_patches": 0
@@ -11614,93 +11295,6 @@
         },
         {
             "repo": "maven-war-plugin",
-            "bug_id": "AbstractArtifactStub_157",
-            "npe_info": {
-                "filepath": "src/test/java/org/apache/maven/plugins/war/stub/AbstractArtifactStub.java",
-                "line": 157,
-                "deref_field": "getClassifier()",
-                "npe_class": "AbstractArtifactStub",
-                "npe_method": "equals",
-                "sink_field": null,
-                "jvmti_identify_succeed": null,
-                "is_original": null
-            },
-            "build_info": {
-                "compiled": true,
-                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "java_version": 8,
-                "error_message": null,
-                "time": 19.832817473914474
-            },
-            "test_info": {
-                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "fail_buggy": false,
-                "pass_fixed": true,
-                "testcases": []
-            },
-            "patches": [],
-            "time_to_generate_patches": 0
-        },
-        {
-            "repo": "maven-war-plugin",
-            "bug_id": "EJBClientArtifactStub_44",
-            "npe_info": {
-                "filepath": "src/test/java/org/apache/maven/plugins/war/stub/EJBClientArtifactStub.java",
-                "line": 46,
-                "deref_field": "groupId",
-                "npe_class": "EJBClientArtifactStub",
-                "npe_method": "getGroupId",
-                "sink_field": null,
-                "jvmti_identify_succeed": null,
-                "is_original": null
-            },
-            "build_info": {
-                "compiled": true,
-                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "java_version": 8,
-                "error_message": null,
-                "time": 18.224404548993334
-            },
-            "test_info": {
-                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "fail_buggy": false,
-                "pass_fixed": true,
-                "testcases": []
-            },
-            "patches": [],
-            "time_to_generate_patches": 0
-        },
-        {
-            "repo": "maven-war-plugin",
-            "bug_id": "Overlay_362",
-            "npe_info": {
-                "filepath": "src/main/java/org/apache/maven/plugins/war/Overlay.java",
-                "line": 362,
-                "deref_field": "excludes",
-                "npe_class": "Overlay",
-                "npe_method": "hashCode",
-                "sink_field": null,
-                "jvmti_identify_succeed": null,
-                "is_original": null
-            },
-            "build_info": {
-                "compiled": true,
-                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "java_version": 8,
-                "error_message": null,
-                "time": 18.811977186007425
-            },
-            "test_info": {
-                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "fail_buggy": false,
-                "pass_fixed": true,
-                "testcases": []
-            },
-            "patches": [],
-            "time_to_generate_patches": 0
-        },
-        {
-            "repo": "maven-war-plugin",
             "bug_id": "JarArtifactStub_79",
             "npe_info": {
                 "filepath": "src/test/java/org/apache/maven/plugins/war/stub/JarArtifactStub.java",
@@ -12223,35 +11817,6 @@
         },
         {
             "repo": "maven-war-plugin",
-            "bug_id": "WebappStructure_79",
-            "npe_info": {
-                "filepath": "src/main/java/org/apache/maven/plugins/war/util/WebappStructure.java",
-                "line": 83,
-                "deref_field": "dependenciesInfo",
-                "npe_class": "WebappStructure",
-                "npe_method": "getDependencies",
-                "sink_field": null,
-                "jvmti_identify_succeed": null,
-                "is_original": null
-            },
-            "build_info": {
-                "compiled": true,
-                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "java_version": 8,
-                "error_message": null,
-                "time": 18.349419235019013
-            },
-            "test_info": {
-                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "fail_buggy": false,
-                "pass_fixed": true,
-                "testcases": []
-            },
-            "patches": [],
-            "time_to_generate_patches": 0
-        },
-        {
-            "repo": "maven-war-plugin",
             "bug_id": "JarArtifactStub_135",
             "npe_info": {
                 "filepath": "src/test/java/org/apache/maven/plugins/war/stub/JarArtifactStub.java",
@@ -12300,64 +11865,6 @@
                         "stack_trace": "java.lang.NullPointerException\n\tat org.apache.maven.plugins.war.WarExplodedMojoTest.testExplodedWarWithOutputFileNameMapping(WarExplodedMojoTest.java:980)\n"
                     }
                 ]
-            },
-            "patches": [],
-            "time_to_generate_patches": 0
-        },
-        {
-            "repo": "maven-war-plugin",
-            "bug_id": "AbstractWarMojo_488",
-            "npe_info": {
-                "filepath": "src/main/java/org/apache/maven/plugins/war/AbstractWarMojo.java",
-                "line": 490,
-                "deref_field": "nonFilteredFileExtensions",
-                "npe_class": "AbstractWarMojo",
-                "npe_method": "buildWebapp",
-                "sink_field": null,
-                "jvmti_identify_succeed": null,
-                "is_original": null
-            },
-            "build_info": {
-                "compiled": true,
-                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "java_version": 8,
-                "error_message": null,
-                "time": 17.075721787987277
-            },
-            "test_info": {
-                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "fail_buggy": false,
-                "pass_fixed": true,
-                "testcases": []
-            },
-            "patches": [],
-            "time_to_generate_patches": 0
-        },
-        {
-            "repo": "maven-war-plugin",
-            "bug_id": "AbstractWarMojoTest_102",
-            "npe_info": {
-                "filepath": "src/test/java/org/apache/maven/plugins/war/AbstractWarMojoTest.java",
-                "line": 104,
-                "deref_field": "xmlFiles",
-                "npe_class": "AbstractWarMojoTest",
-                "npe_method": "createXMLConfigDir",
-                "sink_field": null,
-                "jvmti_identify_succeed": null,
-                "is_original": null
-            },
-            "build_info": {
-                "compiled": true,
-                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "java_version": 8,
-                "error_message": null,
-                "time": 19.85990115418099
-            },
-            "test_info": {
-                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "fail_buggy": false,
-                "pass_fixed": true,
-                "testcases": []
             },
             "patches": [],
             "time_to_generate_patches": 0

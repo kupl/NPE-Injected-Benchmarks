@@ -1,7 +1,0 @@
-{
-    "filepath": "src/test/java/org/apache/sling/caconfig/impl/override/ConfigurationOverrideMultiplexerImplTest.java",
-    "line": 93,
-    "npe_method": "assertOverride",
-    "deref_field": "output",
-    "npe_class": "ConfigurationOverrideMultiplexerImplTest"
-}

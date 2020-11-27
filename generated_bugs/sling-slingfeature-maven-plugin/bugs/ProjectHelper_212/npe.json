@@ -1,7 +1,0 @@
-{
-    "filepath": "src/main/java/org/apache/sling/feature/maven/ProjectHelper.java",
-    "line": 212,
-    "npe_method": "getConfigValue",
-    "deref_field": "config",
-    "npe_class": "ProjectHelper"
-}

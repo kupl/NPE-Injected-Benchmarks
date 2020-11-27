@@ -1,7 +1,0 @@
-{
-    "filepath": "doxia-doc-renderer/src/main/java/org/apache/maven/doxia/docrenderer/itext/AbstractITextRender.java",
-    "line": 474,
-    "npe_method": "addTransformerParameters",
-    "deref_field": "getKeywords()",
-    "npe_class": "AbstractITextRender"
-}

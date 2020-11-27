@@ -1,7 +1,0 @@
-{
-    "filepath": "tiles-compat/src/main/java/org/apache/tiles/beans/SimpleMenuItem.java",
-    "line": 146,
-    "npe_method": "toString",
-    "deref_field": "getTooltip()",
-    "npe_class": "SimpleMenuItem"
-}

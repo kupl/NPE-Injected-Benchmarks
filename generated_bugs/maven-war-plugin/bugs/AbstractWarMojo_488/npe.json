@@ -1,7 +1,0 @@
-{
-    "filepath": "src/main/java/org/apache/maven/plugins/war/AbstractWarMojo.java",
-    "line": 490,
-    "npe_method": "buildWebapp",
-    "deref_field": "nonFilteredFileExtensions",
-    "npe_class": "AbstractWarMojo"
-}

@@ -1,7 +1,0 @@
-{
-    "filepath": "src/main/java/org/apache/commons/beanutils2/BeanMap.java",
-    "line": 697,
-    "npe_method": "convertType",
-    "deref_field": "transformer",
-    "npe_class": "BeanMap"
-}

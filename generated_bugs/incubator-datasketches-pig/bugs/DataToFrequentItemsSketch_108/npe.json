@@ -1,7 +1,0 @@
-{
-    "filepath": "src/main/java/org/apache/datasketches/pig/frequencies/DataToFrequentItemsSketch.java",
-    "line": 111,
-    "npe_method": "updateSketch",
-    "deref_field": "bag",
-    "npe_class": "DataToFrequentItemsSketch"
-}

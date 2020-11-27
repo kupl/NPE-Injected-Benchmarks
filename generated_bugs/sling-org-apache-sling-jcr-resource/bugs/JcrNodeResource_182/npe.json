@@ -1,7 +1,0 @@
-{
-    "filepath": "src/main/java/org/apache/sling/jcr/resource/internal/helper/jcr/JcrNodeResource.java",
-    "line": 186,
-    "npe_method": "getInputStream",
-    "deref_field": "node",
-    "npe_class": "JcrNodeResource"
-}

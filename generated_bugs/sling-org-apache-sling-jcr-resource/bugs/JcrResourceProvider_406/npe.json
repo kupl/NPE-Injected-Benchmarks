@@ -1,7 +1,0 @@
-{
-    "filepath": "src/main/java/org/apache/sling/jcr/resource/internal/helper/jcr/JcrResourceProvider.java",
-    "line": 406,
-    "npe_method": "create",
-    "deref_field": "properties",
-    "npe_class": "JcrResourceProvider"
-}

@@ -1,7 +1,0 @@
-{
-    "filepath": "enforcer-rules/src/test/java/org/apache/maven/plugins/enforcer/MockProject.java",
-    "line": 474,
-    "npe_method": "addTestCompileSourceRoot",
-    "deref_field": "testCompileSourceRoots",
-    "npe_class": "MockProject"
-}

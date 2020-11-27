@@ -1,7 +1,0 @@
-{
-    "filepath": "log4j-audit/log4j-audit-api/src/main/java/org/apache/logging/log4j/audit/generator/MethodDefinition.java",
-    "line": 248,
-    "npe_method": "toString",
-    "deref_field": "getJavadocComments()",
-    "npe_class": "MethodDefinition"
-}

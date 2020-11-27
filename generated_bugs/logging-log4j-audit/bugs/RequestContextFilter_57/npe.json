@@ -1,7 +1,0 @@
-{
-    "filepath": "log4j-audit/log4j-audit-api/src/main/java/org/apache/logging/log4j/audit/rest/RequestContextFilter.java",
-    "line": 58,
-    "npe_method": "init",
-    "deref_field": "requestContextClass",
-    "npe_class": "RequestContextFilter"
-}

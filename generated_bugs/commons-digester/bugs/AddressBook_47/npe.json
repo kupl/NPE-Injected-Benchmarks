@@ -1,7 +1,0 @@
-{
-    "filepath": "core/src/test/java/org/apache/commons/digester3/annotations/addressbook/AddressBook.java",
-    "line": 50,
-    "npe_method": "equals",
-    "deref_field": "obj",
-    "npe_class": "AddressBook"
-}

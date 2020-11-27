@@ -1,7 +1,0 @@
-{
-    "filepath": "src/main/java/org/apache/datasketches/pig/cpc/AlgebraicFinal.java",
-    "line": 87,
-    "npe_method": "process",
-    "deref_field": "f0",
-    "npe_class": "AlgebraicFinal"
-}

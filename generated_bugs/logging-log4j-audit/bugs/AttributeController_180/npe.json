@@ -1,7 +1,0 @@
-{
-    "filepath": "log4j-catalog/log4j-catalog-editor/src/main/java/org/apache/logging/log4j/catalog/controller/AttributeController.java",
-    "line": 181,
-    "npe_method": "constraintList",
-    "deref_field": "constraintModels",
-    "npe_class": "AttributeController"
-}

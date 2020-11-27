@@ -1,7 +1,0 @@
-{
-    "filepath": "src/main/java/org/apache/sling/servlets/post/impl/helper/SlingFileUploadHandler.java",
-    "line": 428,
-    "npe_method": "deleteChunks",
-    "deref_field": "chunkParent",
-    "npe_class": "SlingFileUploadHandler"
-}

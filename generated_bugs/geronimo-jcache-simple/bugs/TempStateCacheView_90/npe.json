@@ -1,7 +1,0 @@
-{
-    "filepath": "src/main/java/org/apache/geronimo/jcache/simple/TempStateCacheView.java",
-    "line": 91,
-    "npe_method": "getAll",
-    "deref_field": "value",
-    "npe_class": "TempStateCacheView"
-}

@@ -1,7 +1,0 @@
-{
-    "filepath": "src/main/java/org/apache/commons/beanutils2/ContextClassLoaderLocal.java",
-    "line": 187,
-    "npe_method": "set",
-    "deref_field": "contextClassLoader",
-    "npe_class": "ContextClassLoaderLocal"
-}

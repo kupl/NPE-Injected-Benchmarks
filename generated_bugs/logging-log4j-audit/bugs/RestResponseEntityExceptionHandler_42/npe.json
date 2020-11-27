@@ -1,7 +1,0 @@
-{
-    "filepath": "log4j-catalog/log4j-catalog-editor/src/main/java/org/apache/logging/log4j/catalog/controller/RestResponseEntityExceptionHandler.java",
-    "line": 43,
-    "npe_method": "errorResponse",
-    "deref_field": "throwable",
-    "npe_class": "RestResponseEntityExceptionHandler"
-}
