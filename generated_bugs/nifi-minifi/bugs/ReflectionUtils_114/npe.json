@@ -1,0 +1,7 @@
+{
+    "filepath": "minifi-nar-bundles/minifi-framework-bundle/minifi-framework/minifi-nar-utils/src/main/java/org/apache/nifi/init/ReflectionUtils.java",
+    "line": 118,
+    "npe_method": "quietlyInvokeMethodsWithAnnotation",
+    "deref_field": "logger",
+    "npe_class": "ReflectionUtils"
+}

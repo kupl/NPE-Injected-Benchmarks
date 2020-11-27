@@ -1,0 +1,7 @@
+{
+    "filepath": "src/main/java/org/apache/sling/jcr/resource/internal/helper/jcr/JcrResourceProvider.java",
+    "line": 133,
+    "npe_method": "activate",
+    "deref_field": "repository",
+    "npe_class": "JcrResourceProvider"
+}

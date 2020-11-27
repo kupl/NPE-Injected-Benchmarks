@@ -3,33 +3,6 @@
     "bugs": [
         {
             "repo": "tomcat-taglibs-standard",
-            "bug_id": "JakartaInline_107",
-            "npe_info": {
-                "filepath": "spec/src/main/java/jakarta/servlet/jsp/jstl/fmt/JakartaInline.java",
-                "line": 109,
-                "deref_field": "pref",
-                "npe_class": "JakartaInline",
-                "npe_method": "getLocalizationContext",
-                "sink_field": null,
-                "jvmti_identify_succeed": null,
-                "is_original": null
-            },
-            "build_info": {
-                "compiled": true,
-                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "java_version": 8,
-                "error_message": null,
-                "time": 19.78469408885576
-            },
-            "test_info": {
-                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "fail_buggy": false,
-                "pass_fixed": true,
-                "testcases": []
-            }
-        },
-        {
-            "repo": "tomcat-taglibs-standard",
             "bug_id": "LoopTagSupport_570",
             "npe_info": {
                 "filepath": "spec/src/main/java/jakarta/servlet/jsp/jstl/core/LoopTagSupport.java",
@@ -53,34 +26,9 @@
                 "fail_buggy": false,
                 "pass_fixed": true,
                 "testcases": []
-            }
-        },
-        {
-            "repo": "tomcat-taglibs-standard",
-            "bug_id": "JakartaInline_142",
-            "npe_info": {
-                "filepath": "spec/src/main/java/jakarta/servlet/jsp/jstl/fmt/JakartaInline.java",
-                "line": 144,
-                "deref_field": "locCtxt",
-                "npe_class": "JakartaInline",
-                "npe_method": "getLocalizationContext",
-                "sink_field": null,
-                "jvmti_identify_succeed": null,
-                "is_original": null
             },
-            "build_info": {
-                "compiled": true,
-                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "java_version": 8,
-                "error_message": null,
-                "time": 15.943446725839749
-            },
-            "test_info": {
-                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "fail_buggy": false,
-                "pass_fixed": true,
-                "testcases": []
-            }
+            "patches": [],
+            "time_to_generate_patches": 0
         },
         {
             "repo": "tomcat-taglibs-standard",
@@ -107,7 +55,9 @@
                 "fail_buggy": false,
                 "pass_fixed": true,
                 "testcases": []
-            }
+            },
+            "patches": [],
+            "time_to_generate_patches": 0
         },
         {
             "repo": "tomcat-taglibs-standard",
@@ -141,34 +91,9 @@
                         "stack_trace": "java.lang.AssertionError: \n\n  Unexpected method call removeAttribute(null, 1):\n\tat org.apache.taglibs.standard.tag.common.xml.ForEachTagTest.testIteration(ForEachTagTest.java:96)\n"
                     }
                 ]
-            }
-        },
-        {
-            "repo": "tomcat-taglibs-standard",
-            "bug_id": "JakartaInline_110",
-            "npe_info": {
-                "filepath": "spec/src/main/java/jakarta/servlet/jsp/jstl/fmt/JakartaInline.java",
-                "line": 111,
-                "deref_field": "bundle",
-                "npe_class": "JakartaInline",
-                "npe_method": "getLocalizationContext",
-                "sink_field": null,
-                "jvmti_identify_succeed": null,
-                "is_original": null
             },
-            "build_info": {
-                "compiled": true,
-                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "java_version": 8,
-                "error_message": null,
-                "time": 16.55660379398614
-            },
-            "test_info": {
-                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "fail_buggy": false,
-                "pass_fixed": true,
-                "testcases": []
-            }
+            "patches": [],
+            "time_to_generate_patches": 0
         },
         {
             "repo": "tomcat-taglibs-standard",
@@ -202,34 +127,9 @@
                         "stack_trace": "java.lang.AssertionError: \n\n  Unexpected method call removeAttribute(null, 1):\n\tat org.apache.taglibs.standard.tag.common.xml.ForEachTagTest.testIteration(ForEachTagTest.java:96)\n"
                     }
                 ]
-            }
-        },
-        {
-            "repo": "tomcat-taglibs-standard",
-            "bug_id": "LoopTagSupport_558",
-            "npe_info": {
-                "filepath": "spec/src/main/java/jakarta/servlet/jsp/jstl/core/LoopTagSupport.java",
-                "line": 560,
-                "deref_field": "itemId",
-                "npe_class": "LoopTagSupport",
-                "npe_method": "exposeVariables",
-                "sink_field": null,
-                "jvmti_identify_succeed": null,
-                "is_original": null
             },
-            "build_info": {
-                "compiled": true,
-                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "java_version": 8,
-                "error_message": null,
-                "time": 18.55409229383804
-            },
-            "test_info": {
-                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "fail_buggy": false,
-                "pass_fixed": true,
-                "testcases": []
-            }
+            "patches": [],
+            "time_to_generate_patches": 0
         },
         {
             "repo": "tomcat-taglibs-standard",
@@ -256,34 +156,9 @@
                 "fail_buggy": false,
                 "pass_fixed": true,
                 "testcases": []
-            }
-        },
-        {
-            "repo": "tomcat-taglibs-standard",
-            "bug_id": "LoopTagSupport_571",
-            "npe_info": {
-                "filepath": "spec/src/main/java/jakarta/servlet/jsp/jstl/core/LoopTagSupport.java",
-                "line": 574,
-                "deref_field": "getLoopStatus()",
-                "npe_class": "LoopTagSupport",
-                "npe_method": "exposeVariables",
-                "sink_field": null,
-                "jvmti_identify_succeed": null,
-                "is_original": null
             },
-            "build_info": {
-                "compiled": true,
-                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "java_version": 8,
-                "error_message": null,
-                "time": 16.26916464813985
-            },
-            "test_info": {
-                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "fail_buggy": false,
-                "pass_fixed": true,
-                "testcases": []
-            }
+            "patches": [],
+            "time_to_generate_patches": 0
         },
         {
             "repo": "tomcat-taglibs-standard",
@@ -310,34 +185,9 @@
                 "fail_buggy": false,
                 "pass_fixed": true,
                 "testcases": []
-            }
-        },
-        {
-            "repo": "tomcat-taglibs-standard",
-            "bug_id": "ConditionalTagSupport_150",
-            "npe_info": {
-                "filepath": "spec/src/main/java/jakarta/servlet/jsp/jstl/core/ConditionalTagSupport.java",
-                "line": 151,
-                "deref_field": "var",
-                "npe_class": "ConditionalTagSupport",
-                "npe_method": "exposeVariables",
-                "sink_field": null,
-                "jvmti_identify_succeed": null,
-                "is_original": null
             },
-            "build_info": {
-                "compiled": true,
-                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "java_version": 8,
-                "error_message": null,
-                "time": 18.677796509116888
-            },
-            "test_info": {
-                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "fail_buggy": false,
-                "pass_fixed": true,
-                "testcases": []
-            }
+            "patches": [],
+            "time_to_generate_patches": 0
         },
         {
             "repo": "tomcat-taglibs-standard",
@@ -364,34 +214,9 @@
                 "fail_buggy": false,
                 "pass_fixed": true,
                 "testcases": []
-            }
-        },
-        {
-            "repo": "tomcat-taglibs-standard",
-            "bug_id": "JakartaInline_61",
-            "npe_info": {
-                "filepath": "spec/src/main/java/jakarta/servlet/jsp/jstl/fmt/JakartaInline.java",
-                "line": 65,
-                "deref_field": "obj",
-                "npe_class": "JakartaInline",
-                "npe_method": "getLocalizationContext",
-                "sink_field": null,
-                "jvmti_identify_succeed": null,
-                "is_original": null
             },
-            "build_info": {
-                "compiled": true,
-                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "java_version": 8,
-                "error_message": null,
-                "time": 16.581040764926
-            },
-            "test_info": {
-                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "fail_buggy": false,
-                "pass_fixed": true,
-                "testcases": []
-            }
+            "patches": [],
+            "time_to_generate_patches": 0
         },
         {
             "repo": "tomcat-taglibs-standard",
@@ -418,7 +243,9 @@
                 "fail_buggy": false,
                 "pass_fixed": true,
                 "testcases": []
-            }
+            },
+            "patches": [],
+            "time_to_generate_patches": 0
         }
     ],
     "repository_info": null

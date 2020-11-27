@@ -1,0 +1,7 @@
+{
+    "filepath": "src/main/java/org/apache/sling/jcr/resource/internal/helper/jcr/JcrResourceProvider.java",
+    "line": 248,
+    "npe_method": "unregisterListeners",
+    "deref_field": "this.listenerConfig",
+    "npe_class": "JcrResourceProvider"
+}

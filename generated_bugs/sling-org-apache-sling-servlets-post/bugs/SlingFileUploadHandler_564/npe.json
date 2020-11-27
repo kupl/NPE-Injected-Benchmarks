@@ -1,0 +1,7 @@
+{
+    "filepath": "src/main/java/org/apache/sling/servlets/post/impl/helper/SlingFileUploadHandler.java",
+    "line": 565,
+    "npe_method": "getOrCreateChildResource",
+    "deref_field": "result",
+    "npe_class": "SlingFileUploadHandler"
+}

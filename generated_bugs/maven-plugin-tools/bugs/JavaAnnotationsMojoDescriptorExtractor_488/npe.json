@@ -1,0 +1,7 @@
+{
+    "filepath": "maven-plugin-tools-annotations/src/main/java/org/apache/maven/tools/plugin/extractor/annotations/JavaAnnotationsMojoDescriptorExtractor.java",
+    "line": 500,
+    "npe_method": "toMojoDescriptors",
+    "deref_field": "getMojo()",
+    "npe_class": "JavaAnnotationsMojoDescriptorExtractor"
+}

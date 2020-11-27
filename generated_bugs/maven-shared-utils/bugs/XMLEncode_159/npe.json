@@ -1,0 +1,7 @@
+{
+    "filepath": "src/main/java/org/apache/maven/shared/utils/xml/XMLEncode.java",
+    "line": 166,
+    "npe_method": "xmlEncodeTextAsPCDATA",
+    "deref_field": "text",
+    "npe_class": "XMLEncode"
+}

@@ -3,33 +3,6 @@
     "bugs": [
         {
             "repo": "sling-slingfeature-maven-plugin",
-            "bug_id": "ApisJarMojo_1640",
-            "npe_info": {
-                "filepath": "src/main/java/org/apache/sling/feature/maven/mojos/ApisJarMojo.java",
-                "line": 1641,
-                "deref_field": "getOrganization()",
-                "npe_class": "ApisJarMojo",
-                "npe_method": "createArchive",
-                "sink_field": null,
-                "jvmti_identify_succeed": null,
-                "is_original": null
-            },
-            "build_info": {
-                "compiled": true,
-                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "java_version": 8,
-                "error_message": null,
-                "time": 28.9443897921592
-            },
-            "test_info": {
-                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "fail_buggy": false,
-                "pass_fixed": true,
-                "testcases": []
-            }
-        },
-        {
-            "repo": "sling-slingfeature-maven-plugin",
             "bug_id": "ApisJarMojo_1594",
             "npe_info": {
                 "filepath": "src/main/java/org/apache/sling/feature/maven/mojos/ApisJarMojo.java",
@@ -53,34 +26,9 @@
                 "fail_buggy": false,
                 "pass_fixed": true,
                 "testcases": []
-            }
-        },
-        {
-            "repo": "sling-slingfeature-maven-plugin",
-            "bug_id": "AttachFeatureArchivesMojo_102",
-            "npe_info": {
-                "filepath": "src/main/java/org/apache/sling/feature/maven/mojos/AttachFeatureArchivesMojo.java",
-                "line": 110,
-                "deref_field": "getClassifier()",
-                "npe_class": "AttachFeatureArchivesMojo",
-                "npe_method": "execute",
-                "sink_field": null,
-                "jvmti_identify_succeed": null,
-                "is_original": null
             },
-            "build_info": {
-                "compiled": true,
-                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "java_version": 8,
-                "error_message": null,
-                "time": 32.57690200395882
-            },
-            "test_info": {
-                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "fail_buggy": false,
-                "pass_fixed": true,
-                "testcases": []
-            }
+            "patches": [],
+            "time_to_generate_patches": 0
         },
         {
             "repo": "sling-slingfeature-maven-plugin",
@@ -107,34 +55,9 @@
                 "fail_buggy": true,
                 "pass_fixed": true,
                 "testcases": []
-            }
-        },
-        {
-            "repo": "sling-slingfeature-maven-plugin",
-            "bug_id": "ApisJarMojo_1293",
-            "npe_info": {
-                "filepath": "src/main/java/org/apache/sling/feature/maven/mojos/ApisJarMojo.java",
-                "line": 1294,
-                "deref_field": "scmIds",
-                "npe_class": "ApisJarMojo",
-                "npe_method": "downloadSources",
-                "sink_field": null,
-                "jvmti_identify_succeed": null,
-                "is_original": null
             },
-            "build_info": {
-                "compiled": true,
-                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "java_version": 8,
-                "error_message": null,
-                "time": 29.204765405971557
-            },
-            "test_info": {
-                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "fail_buggy": false,
-                "pass_fixed": true,
-                "testcases": []
-            }
+            "patches": [],
+            "time_to_generate_patches": 0
         },
         {
             "repo": "sling-slingfeature-maven-plugin",
@@ -161,34 +84,9 @@
                 "fail_buggy": false,
                 "pass_fixed": true,
                 "testcases": []
-            }
-        },
-        {
-            "repo": "sling-slingfeature-maven-plugin",
-            "bug_id": "EmbedFeaturesMojo_64",
-            "npe_info": {
-                "filepath": "src/main/java/org/apache/sling/feature/maven/mojos/EmbedFeaturesMojo.java",
-                "line": 65,
-                "deref_field": "classifier",
-                "npe_class": "EmbedFeaturesMojo",
-                "npe_method": "include",
-                "sink_field": null,
-                "jvmti_identify_succeed": null,
-                "is_original": null
             },
-            "build_info": {
-                "compiled": true,
-                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "java_version": 8,
-                "error_message": null,
-                "time": 29.640833811834455
-            },
-            "test_info": {
-                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "fail_buggy": false,
-                "pass_fixed": true,
-                "testcases": []
-            }
+            "patches": [],
+            "time_to_generate_patches": 0
         },
         {
             "repo": "sling-slingfeature-maven-plugin",
@@ -215,34 +113,9 @@
                 "fail_buggy": false,
                 "pass_fixed": true,
                 "testcases": []
-            }
-        },
-        {
-            "repo": "sling-slingfeature-maven-plugin",
-            "bug_id": "ExtractExtensionMojo_60",
-            "npe_info": {
-                "filepath": "src/main/java/org/apache/sling/feature/maven/mojos/ExtractExtensionMojo.java",
-                "line": 71,
-                "deref_field": "ext",
-                "npe_class": "ExtractExtensionMojo",
-                "npe_method": "execute",
-                "sink_field": null,
-                "jvmti_identify_succeed": null,
-                "is_original": null
             },
-            "build_info": {
-                "compiled": true,
-                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "java_version": 8,
-                "error_message": null,
-                "time": 28.12604969390668
-            },
-            "test_info": {
-                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "fail_buggy": false,
-                "pass_fixed": true,
-                "testcases": []
-            }
+            "patches": [],
+            "time_to_generate_patches": 0
         },
         {
             "repo": "sling-slingfeature-maven-plugin",
@@ -269,34 +142,9 @@
                 "fail_buggy": false,
                 "pass_fixed": true,
                 "testcases": []
-            }
-        },
-        {
-            "repo": "sling-slingfeature-maven-plugin",
-            "bug_id": "ApisJarMojo_1377",
-            "npe_info": {
-                "filepath": "src/main/java/org/apache/sling/feature/maven/mojos/ApisJarMojo.java",
-                "line": 1378,
-                "deref_field": "tag",
-                "npe_class": "ApisJarMojo",
-                "npe_method": "checkoutSourcesFromSCM",
-                "sink_field": null,
-                "jvmti_identify_succeed": null,
-                "is_original": null
             },
-            "build_info": {
-                "compiled": true,
-                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "java_version": 8,
-                "error_message": null,
-                "time": 31.80011124908924
-            },
-            "test_info": {
-                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "fail_buggy": false,
-                "pass_fixed": true,
-                "testcases": []
-            }
+            "patches": [],
+            "time_to_generate_patches": 0
         },
         {
             "repo": "sling-slingfeature-maven-plugin",
@@ -323,34 +171,9 @@
                 "fail_buggy": false,
                 "pass_fixed": true,
                 "testcases": []
-            }
-        },
-        {
-            "repo": "sling-slingfeature-maven-plugin",
-            "bug_id": "ApisJarMojo_1568",
-            "npe_info": {
-                "filepath": "src/main/java/org/apache/sling/feature/maven/mojos/ApisJarMojo.java",
-                "line": 1570,
-                "deref_field": "dir",
-                "npe_class": "ApisJarMojo",
-                "npe_method": "createArchive",
-                "sink_field": null,
-                "jvmti_identify_succeed": null,
-                "is_original": null
             },
-            "build_info": {
-                "compiled": true,
-                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "java_version": 8,
-                "error_message": null,
-                "time": 35.072389025008306
-            },
-            "test_info": {
-                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "fail_buggy": false,
-                "pass_fixed": true,
-                "testcases": []
-            }
+            "patches": [],
+            "time_to_generate_patches": 0
         },
         {
             "repo": "sling-slingfeature-maven-plugin",
@@ -377,34 +200,9 @@
                 "fail_buggy": false,
                 "pass_fixed": true,
                 "testcases": []
-            }
-        },
-        {
-            "repo": "sling-slingfeature-maven-plugin",
-            "bug_id": "ProjectHelper_218",
-            "npe_info": {
-                "filepath": "src/main/java/org/apache/sling/feature/maven/ProjectHelper.java",
-                "line": 218,
-                "deref_field": "cfg",
-                "npe_class": "ProjectHelper",
-                "npe_method": "getConfigValue",
-                "sink_field": null,
-                "jvmti_identify_succeed": null,
-                "is_original": null
             },
-            "build_info": {
-                "compiled": true,
-                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "java_version": 8,
-                "error_message": null,
-                "time": 32.50867802789435
-            },
-            "test_info": {
-                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "fail_buggy": false,
-                "pass_fixed": true,
-                "testcases": []
-            }
+            "patches": [],
+            "time_to_generate_patches": 0
         },
         {
             "repo": "sling-slingfeature-maven-plugin",
@@ -431,34 +229,9 @@
                 "fail_buggy": false,
                 "pass_fixed": true,
                 "testcases": []
-            }
-        },
-        {
-            "repo": "sling-slingfeature-maven-plugin",
-            "bug_id": "UpdateVersionsMojo_481",
-            "npe_info": {
-                "filepath": "src/main/java/org/apache/sling/feature/maven/mojos/UpdateVersionsMojo.java",
-                "line": 482,
-                "deref_field": "newestVersion",
-                "npe_class": "UpdateVersionsMojo",
-                "npe_method": "getVersion",
-                "sink_field": null,
-                "jvmti_identify_succeed": null,
-                "is_original": null
             },
-            "build_info": {
-                "compiled": true,
-                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "java_version": 8,
-                "error_message": null,
-                "time": 39.28794277179986
-            },
-            "test_info": {
-                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "fail_buggy": false,
-                "pass_fixed": true,
-                "testcases": []
-            }
+            "patches": [],
+            "time_to_generate_patches": 0
         },
         {
             "repo": "sling-slingfeature-maven-plugin",
@@ -485,34 +258,9 @@
                 "fail_buggy": false,
                 "pass_fixed": true,
                 "testcases": []
-            }
-        },
-        {
-            "repo": "sling-slingfeature-maven-plugin",
-            "bug_id": "ProjectHelper_336",
-            "npe_info": {
-                "filepath": "src/main/java/org/apache/sling/feature/maven/ProjectHelper.java",
-                "line": 337,
-                "deref_field": "getClassifier()",
-                "npe_class": "ProjectHelper",
-                "npe_method": "toString",
-                "sink_field": null,
-                "jvmti_identify_succeed": null,
-                "is_original": null
             },
-            "build_info": {
-                "compiled": true,
-                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "java_version": 8,
-                "error_message": null,
-                "time": 42.34529175213538
-            },
-            "test_info": {
-                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "fail_buggy": false,
-                "pass_fixed": true,
-                "testcases": []
-            }
+            "patches": [],
+            "time_to_generate_patches": 0
         },
         {
             "repo": "sling-slingfeature-maven-plugin",
@@ -636,34 +384,9 @@
                         "stack_trace": "java.lang.NullPointerException\n\tat org.apache.sling.feature.maven.mojos.FeatureLauncherMojoTest.testMainReflectionFailure(FeatureLauncherMojoTest.java:248)\n"
                     }
                 ]
-            }
-        },
-        {
-            "repo": "sling-slingfeature-maven-plugin",
-            "bug_id": "ApisJarMojo_813",
-            "npe_info": {
-                "filepath": "src/main/java/org/apache/sling/feature/maven/mojos/ApisJarMojo.java",
-                "line": 814,
-                "deref_field": "embeddedBundles",
-                "npe_class": "ApisJarMojo",
-                "npe_method": "onArtifact",
-                "sink_field": null,
-                "jvmti_identify_succeed": null,
-                "is_original": null
             },
-            "build_info": {
-                "compiled": true,
-                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "java_version": 8,
-                "error_message": null,
-                "time": 35.52578477282077
-            },
-            "test_info": {
-                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "fail_buggy": false,
-                "pass_fixed": true,
-                "testcases": []
-            }
+            "patches": [],
+            "time_to_generate_patches": 0
         },
         {
             "repo": "sling-slingfeature-maven-plugin",
@@ -697,34 +420,9 @@
                         "stack_trace": "java.lang.NullPointerException\n\tat org.apache.sling.feature.maven.SubstitutionTest.testReplaceMavenVars(SubstitutionTest.java:33)\n"
                     }
                 ]
-            }
-        },
-        {
-            "repo": "sling-slingfeature-maven-plugin",
-            "bug_id": "AbstractRepositoryMojo_95",
-            "npe_info": {
-                "filepath": "src/main/java/org/apache/sling/feature/maven/mojos/AbstractRepositoryMojo.java",
-                "line": 96,
-                "deref_field": "getPrototype()",
-                "npe_class": "AbstractRepositoryMojo",
-                "npe_method": "processFeature",
-                "sink_field": null,
-                "jvmti_identify_succeed": null,
-                "is_original": null
             },
-            "build_info": {
-                "compiled": true,
-                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "java_version": 8,
-                "error_message": null,
-                "time": 39.383622450055555
-            },
-            "test_info": {
-                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "fail_buggy": false,
-                "pass_fixed": true,
-                "testcases": []
-            }
+            "patches": [],
+            "time_to_generate_patches": 0
         },
         {
             "repo": "sling-slingfeature-maven-plugin",
@@ -751,34 +449,9 @@
                 "fail_buggy": false,
                 "pass_fixed": true,
                 "testcases": []
-            }
-        },
-        {
-            "repo": "sling-slingfeature-maven-plugin",
-            "bug_id": "UpdateVersionsMojo_443",
-            "npe_info": {
-                "filepath": "src/main/java/org/apache/sling/feature/maven/mojos/UpdateVersionsMojo.java",
-                "line": 444,
-                "deref_field": "found",
-                "npe_class": "UpdateVersionsMojo",
-                "npe_method": "update",
-                "sink_field": null,
-                "jvmti_identify_succeed": null,
-                "is_original": null
             },
-            "build_info": {
-                "compiled": true,
-                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "java_version": 8,
-                "error_message": null,
-                "time": 35.00982032506727
-            },
-            "test_info": {
-                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "fail_buggy": false,
-                "pass_fixed": true,
-                "testcases": []
-            }
+            "patches": [],
+            "time_to_generate_patches": 0
         },
         {
             "repo": "sling-slingfeature-maven-plugin",
@@ -805,34 +478,9 @@
                 "fail_buggy": false,
                 "pass_fixed": true,
                 "testcases": []
-            }
-        },
-        {
-            "repo": "sling-slingfeature-maven-plugin",
-            "bug_id": "JavadocLinks_50",
-            "npe_info": {
-                "filepath": "src/main/java/org/apache/sling/feature/maven/mojos/apis/JavadocLinks.java",
-                "line": 51,
-                "deref_field": "links",
-                "npe_class": "JavadocLinks",
-                "npe_method": "calculateLinks",
-                "sink_field": null,
-                "jvmti_identify_succeed": null,
-                "is_original": null
             },
-            "build_info": {
-                "compiled": true,
-                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "java_version": 8,
-                "error_message": null,
-                "time": 35.021565621951595
-            },
-            "test_info": {
-                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "fail_buggy": false,
-                "pass_fixed": true,
-                "testcases": []
-            }
+            "patches": [],
+            "time_to_generate_patches": 0
         },
         {
             "repo": "sling-slingfeature-maven-plugin",
@@ -859,34 +507,9 @@
                 "fail_buggy": false,
                 "pass_fixed": true,
                 "testcases": []
-            }
-        },
-        {
-            "repo": "sling-slingfeature-maven-plugin",
-            "bug_id": "ProjectHelper_354",
-            "npe_info": {
-                "filepath": "src/main/java/org/apache/sling/feature/maven/ProjectHelper.java",
-                "line": 357,
-                "deref_field": "dep",
-                "npe_class": "ProjectHelper",
-                "npe_method": "toArtifactId",
-                "sink_field": null,
-                "jvmti_identify_succeed": null,
-                "is_original": null
             },
-            "build_info": {
-                "compiled": true,
-                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "java_version": 8,
-                "error_message": null,
-                "time": 35.653192014899105
-            },
-            "test_info": {
-                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "fail_buggy": false,
-                "pass_fixed": true,
-                "testcases": []
-            }
+            "patches": [],
+            "time_to_generate_patches": 0
         },
         {
             "repo": "sling-slingfeature-maven-plugin",
@@ -913,34 +536,9 @@
                 "fail_buggy": false,
                 "pass_fixed": true,
                 "testcases": []
-            }
-        },
-        {
-            "repo": "sling-slingfeature-maven-plugin",
-            "bug_id": "ApisJarMojo_697",
-            "npe_info": {
-                "filepath": "src/main/java/org/apache/sling/feature/maven/mojos/ApisJarMojo.java",
-                "line": 703,
-                "deref_field": "artifactURL",
-                "npe_class": "ApisJarMojo",
-                "npe_method": "getArtifactFile",
-                "sink_field": null,
-                "jvmti_identify_succeed": null,
-                "is_original": null
             },
-            "build_info": {
-                "compiled": true,
-                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "java_version": 8,
-                "error_message": null,
-                "time": 37.15200131898746
-            },
-            "test_info": {
-                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "fail_buggy": false,
-                "pass_fixed": true,
-                "testcases": []
-            }
+            "patches": [],
+            "time_to_generate_patches": 0
         },
         {
             "repo": "sling-slingfeature-maven-plugin",
@@ -967,7 +565,9 @@
                 "fail_buggy": false,
                 "pass_fixed": true,
                 "testcases": []
-            }
+            },
+            "patches": [],
+            "time_to_generate_patches": 0
         },
         {
             "repo": "sling-slingfeature-maven-plugin",
@@ -1481,34 +1081,9 @@
                         "stack_trace": "java.lang.NullPointerException\n\tat org.apache.sling.feature.maven.mojos.AggregateFeaturesMojoTest.testAggregateFeaturesFromDirectoryWithIncludesExcludes(AggregateFeaturesMojoTest.java:204)\n"
                     }
                 ]
-            }
-        },
-        {
-            "repo": "sling-slingfeature-maven-plugin",
-            "bug_id": "ApisJarContext_184",
-            "npe_info": {
-                "filepath": "src/main/java/org/apache/sling/feature/maven/mojos/apis/ApisJarContext.java",
-                "line": 185,
-                "deref_field": "sourceIds",
-                "npe_class": "ArtifactInfo",
-                "npe_method": "getDependencyArtifacts",
-                "sink_field": null,
-                "jvmti_identify_succeed": null,
-                "is_original": null
             },
-            "build_info": {
-                "compiled": true,
-                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "java_version": 8,
-                "error_message": null,
-                "time": 31.264049746096134
-            },
-            "test_info": {
-                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "fail_buggy": false,
-                "pass_fixed": true,
-                "testcases": []
-            }
+            "patches": [],
+            "time_to_generate_patches": 0
         },
         {
             "repo": "sling-slingfeature-maven-plugin",
@@ -1535,34 +1110,9 @@
                 "fail_buggy": false,
                 "pass_fixed": true,
                 "testcases": []
-            }
-        },
-        {
-            "repo": "sling-slingfeature-maven-plugin",
-            "bug_id": "UpdateVersionsMojo_567",
-            "npe_info": {
-                "filepath": "src/main/java/org/apache/sling/feature/maven/mojos/UpdateVersionsMojo.java",
-                "line": 570,
-                "deref_field": "update.extension",
-                "npe_class": "UpdateVersionsMojo",
-                "npe_method": "updateVersions",
-                "sink_field": null,
-                "jvmti_identify_succeed": null,
-                "is_original": null
             },
-            "build_info": {
-                "compiled": true,
-                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "java_version": 8,
-                "error_message": null,
-                "time": 37.03129922784865
-            },
-            "test_info": {
-                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "fail_buggy": false,
-                "pass_fixed": true,
-                "testcases": []
-            }
+            "patches": [],
+            "time_to_generate_patches": 0
         },
         {
             "repo": "sling-slingfeature-maven-plugin",
@@ -1589,34 +1139,9 @@
                 "fail_buggy": false,
                 "pass_fixed": true,
                 "testcases": []
-            }
-        },
-        {
-            "repo": "sling-slingfeature-maven-plugin",
-            "bug_id": "JavadocLinks_59",
-            "npe_info": {
-                "filepath": "src/main/java/org/apache/sling/feature/maven/mojos/apis/JavadocLinks.java",
-                "line": 51,
-                "deref_field": "links",
-                "npe_class": "JavadocLinks",
-                "npe_method": "calculateLinks",
-                "sink_field": null,
-                "jvmti_identify_succeed": null,
-                "is_original": null
             },
-            "build_info": {
-                "compiled": true,
-                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "java_version": 8,
-                "error_message": null,
-                "time": 31.910292433109134
-            },
-            "test_info": {
-                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "fail_buggy": false,
-                "pass_fixed": true,
-                "testcases": []
-            }
+            "patches": [],
+            "time_to_generate_patches": 0
         },
         {
             "repo": "sling-slingfeature-maven-plugin",
@@ -1643,34 +1168,9 @@
                 "fail_buggy": true,
                 "pass_fixed": true,
                 "testcases": []
-            }
-        },
-        {
-            "repo": "sling-slingfeature-maven-plugin",
-            "bug_id": "ApisJarContext_196",
-            "npe_info": {
-                "filepath": "src/main/java/org/apache/sling/feature/maven/mojos/apis/ApisJarContext.java",
-                "line": 197,
-                "deref_field": "id",
-                "npe_class": "ArtifactInfo",
-                "npe_method": "addSourceInfo",
-                "sink_field": null,
-                "jvmti_identify_succeed": null,
-                "is_original": null
             },
-            "build_info": {
-                "compiled": true,
-                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "java_version": 8,
-                "error_message": null,
-                "time": 33.23972980002873
-            },
-            "test_info": {
-                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "fail_buggy": false,
-                "pass_fixed": true,
-                "testcases": []
-            }
+            "patches": [],
+            "time_to_generate_patches": 0
         },
         {
             "repo": "sling-slingfeature-maven-plugin",
@@ -1697,7 +1197,9 @@
                 "fail_buggy": true,
                 "pass_fixed": true,
                 "testcases": []
-            }
+            },
+            "patches": [],
+            "time_to_generate_patches": 0
         },
         {
             "repo": "sling-slingfeature-maven-plugin",
@@ -2739,34 +2241,9 @@
                         "stack_trace": "java.lang.NullPointerException\n\tat org.apache.sling.feature.maven.mojos.AggregateFeaturesMojoTest.testNonMatchingDirectoryIncludes(AggregateFeaturesMojoTest.java:278)\n"
                     }
                 ]
-            }
-        },
-        {
-            "repo": "sling-slingfeature-maven-plugin",
-            "bug_id": "ApisJarMojo_1365",
-            "npe_info": {
-                "filepath": "src/main/java/org/apache/sling/feature/maven/mojos/ApisJarMojo.java",
-                "line": 1374,
-                "deref_field": "connection",
-                "npe_class": "ApisJarMojo",
-                "npe_method": "checkoutSourcesFromSCM",
-                "sink_field": null,
-                "jvmti_identify_succeed": null,
-                "is_original": null
             },
-            "build_info": {
-                "compiled": true,
-                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "java_version": 8,
-                "error_message": null,
-                "time": 26.518792246934026
-            },
-            "test_info": {
-                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "fail_buggy": false,
-                "pass_fixed": true,
-                "testcases": []
-            }
+            "patches": [],
+            "time_to_generate_patches": 0
         },
         {
             "repo": "sling-slingfeature-maven-plugin",
@@ -2793,34 +2270,9 @@
                 "fail_buggy": false,
                 "pass_fixed": true,
                 "testcases": []
-            }
-        },
-        {
-            "repo": "sling-slingfeature-maven-plugin",
-            "bug_id": "ProjectHelper_255",
-            "npe_info": {
-                "filepath": "src/main/java/org/apache/sling/feature/maven/ProjectHelper.java",
-                "line": 255,
-                "deref_field": "classifier",
-                "npe_class": "ProjectHelper",
-                "npe_method": "createTmpFeatureFile",
-                "sink_field": null,
-                "jvmti_identify_succeed": null,
-                "is_original": null
             },
-            "build_info": {
-                "compiled": true,
-                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "java_version": 8,
-                "error_message": null,
-                "time": 26.76598615804687
-            },
-            "test_info": {
-                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "fail_buggy": false,
-                "pass_fixed": true,
-                "testcases": []
-            }
+            "patches": [],
+            "time_to_generate_patches": 0
         },
         {
             "repo": "sling-slingfeature-maven-plugin",
@@ -2847,34 +2299,9 @@
                 "fail_buggy": false,
                 "pass_fixed": true,
                 "testcases": []
-            }
-        },
-        {
-            "repo": "sling-slingfeature-maven-plugin",
-            "bug_id": "ApisJarMojo_1911",
-            "npe_info": {
-                "filepath": "src/main/java/org/apache/sling/feature/maven/mojos/ApisJarMojo.java",
-                "line": 1912,
-                "deref_field": "licenseDefault",
-                "npe_class": "ApisJarMojo",
-                "npe_method": "createLicenseReport",
-                "sink_field": null,
-                "jvmti_identify_succeed": null,
-                "is_original": null
             },
-            "build_info": {
-                "compiled": true,
-                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "java_version": 8,
-                "error_message": null,
-                "time": 23.773974479874596
-            },
-            "test_info": {
-                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "fail_buggy": false,
-                "pass_fixed": true,
-                "testcases": []
-            }
+            "patches": [],
+            "time_to_generate_patches": 0
         },
         {
             "repo": "sling-slingfeature-maven-plugin",
@@ -3922,34 +3349,9 @@
                         "stack_trace": "java.lang.NullPointerException\n\tat org.apache.sling.feature.maven.mojos.AggregateFeaturesMojoTest.testNonMatchingDirectoryIncludes(AggregateFeaturesMojoTest.java:278)\n"
                     }
                 ]
-            }
-        },
-        {
-            "repo": "sling-slingfeature-maven-plugin",
-            "bug_id": "AttachFeaturesMojo_108",
-            "npe_info": {
-                "filepath": "src/main/java/org/apache/sling/feature/maven/mojos/AttachFeaturesMojo.java",
-                "line": 109,
-                "deref_field": "this.referenceFileClassifier",
-                "npe_class": "AttachFeaturesMojo",
-                "npe_method": "createReferenceFile",
-                "sink_field": null,
-                "jvmti_identify_succeed": null,
-                "is_original": null
             },
-            "build_info": {
-                "compiled": true,
-                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "java_version": 8,
-                "error_message": null,
-                "time": 24.815584077034146
-            },
-            "test_info": {
-                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "fail_buggy": false,
-                "pass_fixed": true,
-                "testcases": []
-            }
+            "patches": [],
+            "time_to_generate_patches": 0
         },
         {
             "repo": "sling-slingfeature-maven-plugin",
@@ -4991,34 +4393,9 @@
                         "stack_trace": "java.lang.NullPointerException\n\tat org.apache.sling.feature.maven.mojos.AggregateFeaturesMojoTest.testNonMatchingDirectoryIncludes(AggregateFeaturesMojoTest.java:278)\n"
                     }
                 ]
-            }
-        },
-        {
-            "repo": "sling-slingfeature-maven-plugin",
-            "bug_id": "UpdateVersionsMojo_225",
-            "npe_info": {
-                "filepath": "src/main/java/org/apache/sling/feature/maven/mojos/UpdateVersionsMojo.java",
-                "line": 227,
-                "deref_field": "cfg.includes",
-                "npe_class": "UpdateVersionsMojo",
-                "npe_method": "createConfiguration",
-                "sink_field": null,
-                "jvmti_identify_succeed": null,
-                "is_original": null
             },
-            "build_info": {
-                "compiled": true,
-                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "java_version": 8,
-                "error_message": null,
-                "time": 23.04593014298007
-            },
-            "test_info": {
-                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "fail_buggy": false,
-                "pass_fixed": true,
-                "testcases": []
-            }
+            "patches": [],
+            "time_to_generate_patches": 0
         },
         {
             "repo": "sling-slingfeature-maven-plugin",
@@ -5045,34 +4422,9 @@
                 "fail_buggy": false,
                 "pass_fixed": true,
                 "testcases": []
-            }
-        },
-        {
-            "repo": "sling-slingfeature-maven-plugin",
-            "bug_id": "UpdateVersionsMojo_151",
-            "npe_info": {
-                "filepath": "src/main/java/org/apache/sling/feature/maven/mojos/UpdateVersionsMojo.java",
-                "line": 151,
-                "deref_field": "this.classifiers",
-                "npe_class": "UpdateVersionsMojo",
-                "npe_method": "getFeatures",
-                "sink_field": null,
-                "jvmti_identify_succeed": null,
-                "is_original": null
             },
-            "build_info": {
-                "compiled": true,
-                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "java_version": 8,
-                "error_message": null,
-                "time": 23.96417471487075
-            },
-            "test_info": {
-                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "fail_buggy": false,
-                "pass_fixed": true,
-                "testcases": []
-            }
+            "patches": [],
+            "time_to_generate_patches": 0
         },
         {
             "repo": "sling-slingfeature-maven-plugin",
@@ -5099,34 +4451,9 @@
                 "fail_buggy": false,
                 "pass_fixed": true,
                 "testcases": []
-            }
-        },
-        {
-            "repo": "sling-slingfeature-maven-plugin",
-            "bug_id": "UpdateVersionsMojo_413",
-            "npe_info": {
-                "filepath": "src/main/java/org/apache/sling/feature/maven/mojos/UpdateVersionsMojo.java",
-                "line": 414,
-                "deref_field": "versionInfo",
-                "npe_class": "UpdateVersionsMojo",
-                "npe_method": "match",
-                "sink_field": null,
-                "jvmti_identify_succeed": null,
-                "is_original": null
             },
-            "build_info": {
-                "compiled": true,
-                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "java_version": 8,
-                "error_message": null,
-                "time": 21.72765152109787
-            },
-            "test_info": {
-                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "fail_buggy": true,
-                "pass_fixed": true,
-                "testcases": []
-            }
+            "patches": [],
+            "time_to_generate_patches": 0
         },
         {
             "repo": "sling-slingfeature-maven-plugin",
@@ -6174,34 +5501,9 @@
                         "stack_trace": "java.lang.NullPointerException\n\tat org.apache.sling.feature.maven.mojos.AggregateFeaturesMojoTest.testNonMatchingDirectoryIncludes(AggregateFeaturesMojoTest.java:278)\n"
                     }
                 ]
-            }
-        },
-        {
-            "repo": "sling-slingfeature-maven-plugin",
-            "bug_id": "ApisJarContext_202",
-            "npe_info": {
-                "filepath": "src/main/java/org/apache/sling/feature/maven/mojos/apis/ApisJarContext.java",
-                "line": 203,
-                "deref_field": "connection",
-                "npe_class": "ArtifactInfo",
-                "npe_method": "addSourceInfo",
-                "sink_field": null,
-                "jvmti_identify_succeed": null,
-                "is_original": null
             },
-            "build_info": {
-                "compiled": true,
-                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "java_version": 8,
-                "error_message": null,
-                "time": 22.620097829960287
-            },
-            "test_info": {
-                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "fail_buggy": false,
-                "pass_fixed": true,
-                "testcases": []
-            }
+            "patches": [],
+            "time_to_generate_patches": 0
         },
         {
             "repo": "sling-slingfeature-maven-plugin",
@@ -6228,34 +5530,9 @@
                 "fail_buggy": false,
                 "pass_fixed": true,
                 "testcases": []
-            }
-        },
-        {
-            "repo": "sling-slingfeature-maven-plugin",
-            "bug_id": "ProjectHelper_432",
-            "npe_info": {
-                "filepath": "src/main/java/org/apache/sling/feature/maven/ProjectHelper.java",
-                "line": 432,
-                "deref_field": "classifier",
-                "npe_class": "ProjectHelper",
-                "npe_method": "addClassifier",
-                "sink_field": null,
-                "jvmti_identify_succeed": null,
-                "is_original": null
             },
-            "build_info": {
-                "compiled": true,
-                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "java_version": 8,
-                "error_message": null,
-                "time": 21.53618521615863
-            },
-            "test_info": {
-                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "fail_buggy": false,
-                "pass_fixed": true,
-                "testcases": []
-            }
+            "patches": [],
+            "time_to_generate_patches": 0
         },
         {
             "repo": "sling-slingfeature-maven-plugin",
@@ -6282,34 +5559,9 @@
                 "fail_buggy": false,
                 "pass_fixed": true,
                 "testcases": []
-            }
-        },
-        {
-            "repo": "sling-slingfeature-maven-plugin",
-            "bug_id": "DependencyLifecycleParticipant_70",
-            "npe_info": {
-                "filepath": "src/main/java/org/apache/sling/feature/maven/mojos/DependencyLifecycleParticipant.java",
-                "line": 73,
-                "deref_field": "plugin",
-                "npe_class": "DependencyLifecycleParticipant",
-                "npe_method": "afterProjectsRead",
-                "sink_field": null,
-                "jvmti_identify_succeed": null,
-                "is_original": null
             },
-            "build_info": {
-                "compiled": true,
-                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "java_version": 8,
-                "error_message": null,
-                "time": 20.850593951065093
-            },
-            "test_info": {
-                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "fail_buggy": false,
-                "pass_fixed": true,
-                "testcases": []
-            }
+            "patches": [],
+            "time_to_generate_patches": 0
         },
         {
             "repo": "sling-slingfeature-maven-plugin",
@@ -6336,34 +5588,9 @@
                 "fail_buggy": false,
                 "pass_fixed": true,
                 "testcases": []
-            }
-        },
-        {
-            "repo": "sling-slingfeature-maven-plugin",
-            "bug_id": "ApisJarMojo_1691",
-            "npe_info": {
-                "filepath": "src/main/java/org/apache/sling/feature/maven/mojos/ApisJarMojo.java",
-                "line": 1693,
-                "deref_field": "this.apiVersion",
-                "npe_class": "ApisJarMojo",
-                "npe_method": "buildArtifactId",
-                "sink_field": null,
-                "jvmti_identify_succeed": null,
-                "is_original": null
             },
-            "build_info": {
-                "compiled": true,
-                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "java_version": 8,
-                "error_message": null,
-                "time": 22.208829317009076
-            },
-            "test_info": {
-                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "fail_buggy": false,
-                "pass_fixed": true,
-                "testcases": []
-            }
+            "patches": [],
+            "time_to_generate_patches": 0
         },
         {
             "repo": "sling-slingfeature-maven-plugin",
@@ -6390,34 +5617,9 @@
                 "fail_buggy": false,
                 "pass_fixed": true,
                 "testcases": []
-            }
-        },
-        {
-            "repo": "sling-slingfeature-maven-plugin",
-            "bug_id": "ApisJarMojo_465",
-            "npe_info": {
-                "filepath": "src/main/java/org/apache/sling/feature/maven/mojos/ApisJarMojo.java",
-                "line": 466,
-                "deref_field": "apiRegionsExtension",
-                "npe_class": "ApisJarMojo",
-                "npe_method": "getApiRegions",
-                "sink_field": null,
-                "jvmti_identify_succeed": null,
-                "is_original": null
             },
-            "build_info": {
-                "compiled": true,
-                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "java_version": 8,
-                "error_message": null,
-                "time": 28.683465439127758
-            },
-            "test_info": {
-                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "fail_buggy": false,
-                "pass_fixed": true,
-                "testcases": []
-            }
+            "patches": [],
+            "time_to_generate_patches": 0
         },
         {
             "repo": "sling-slingfeature-maven-plugin",
@@ -6444,7 +5646,9 @@
                 "fail_buggy": false,
                 "pass_fixed": true,
                 "testcases": []
-            }
+            },
+            "patches": [],
+            "time_to_generate_patches": 0
         },
         {
             "repo": "sling-slingfeature-maven-plugin",
@@ -7072,34 +6276,9 @@
                         "stack_trace": "java.lang.NullPointerException\n\tat org.apache.sling.feature.maven.mojos.AggregateFeaturesMojoTest.testAggregateFeaturesFromDirectoryWithIncludesExcludes(AggregateFeaturesMojoTest.java:204)\n"
                     }
                 ]
-            }
-        },
-        {
-            "repo": "sling-slingfeature-maven-plugin",
-            "bug_id": "AbstractRepositoryMojo_60",
-            "npe_info": {
-                "filepath": "src/main/java/org/apache/sling/feature/maven/mojos/AbstractRepositoryMojo.java",
-                "line": 61,
-                "deref_field": "embed",
-                "npe_class": "AbstractRepositoryMojo",
-                "npe_method": "doExecute",
-                "sink_field": null,
-                "jvmti_identify_succeed": null,
-                "is_original": null
             },
-            "build_info": {
-                "compiled": true,
-                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "java_version": 8,
-                "error_message": null,
-                "time": 21.692896469961852
-            },
-            "test_info": {
-                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "fail_buggy": false,
-                "pass_fixed": true,
-                "testcases": []
-            }
+            "patches": [],
+            "time_to_generate_patches": 0
         },
         {
             "repo": "sling-slingfeature-maven-plugin",
@@ -7126,34 +6305,9 @@
                 "fail_buggy": false,
                 "pass_fixed": true,
                 "testcases": []
-            }
-        },
-        {
-            "repo": "sling-slingfeature-maven-plugin",
-            "bug_id": "UpdateVersionsMojo_512",
-            "npe_info": {
-                "filepath": "src/main/java/org/apache/sling/feature/maven/mojos/UpdateVersionsMojo.java",
-                "line": 517,
-                "deref_field": "defaultScope",
-                "npe_class": "UpdateVersionsMojo",
-                "npe_method": "calculateUpdateInfos",
-                "sink_field": null,
-                "jvmti_identify_succeed": null,
-                "is_original": null
             },
-            "build_info": {
-                "compiled": true,
-                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "java_version": 8,
-                "error_message": null,
-                "time": 22.024952416075394
-            },
-            "test_info": {
-                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "fail_buggy": false,
-                "pass_fixed": true,
-                "testcases": []
-            }
+            "patches": [],
+            "time_to_generate_patches": 0
         },
         {
             "repo": "sling-slingfeature-maven-plugin",
@@ -7180,34 +6334,9 @@
                 "fail_buggy": false,
                 "pass_fixed": true,
                 "testcases": []
-            }
-        },
-        {
-            "repo": "sling-slingfeature-maven-plugin",
-            "bug_id": "ApisJarMojo_1682",
-            "npe_info": {
-                "filepath": "src/main/java/org/apache/sling/feature/maven/mojos/ApisJarMojo.java",
-                "line": 1683,
-                "deref_field": "getClassifier()",
-                "npe_class": "ApisJarMojo",
-                "npe_method": "buildArtifactId",
-                "sink_field": null,
-                "jvmti_identify_succeed": null,
-                "is_original": null
             },
-            "build_info": {
-                "compiled": true,
-                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "java_version": 8,
-                "error_message": null,
-                "time": 28.13771507004276
-            },
-            "test_info": {
-                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "fail_buggy": false,
-                "pass_fixed": true,
-                "testcases": []
-            }
+            "patches": [],
+            "time_to_generate_patches": 0
         },
         {
             "repo": "sling-slingfeature-maven-plugin",
@@ -7234,34 +6363,9 @@
                 "fail_buggy": false,
                 "pass_fixed": true,
                 "testcases": []
-            }
-        },
-        {
-            "repo": "sling-slingfeature-maven-plugin",
-            "bug_id": "AggregateFeaturesMojo_141",
-            "npe_info": {
-                "filepath": "src/main/java/org/apache/sling/feature/maven/mojos/AggregateFeaturesMojo.java",
-                "line": 142,
-                "deref_field": "aggregate.title",
-                "npe_class": "AggregateFeaturesMojo",
-                "npe_method": "execute",
-                "sink_field": null,
-                "jvmti_identify_succeed": null,
-                "is_original": null
             },
-            "build_info": {
-                "compiled": true,
-                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "java_version": 8,
-                "error_message": null,
-                "time": 17.96636211895384
-            },
-            "test_info": {
-                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "fail_buggy": false,
-                "pass_fixed": true,
-                "testcases": []
-            }
+            "patches": [],
+            "time_to_generate_patches": 0
         },
         {
             "repo": "sling-slingfeature-maven-plugin",
@@ -7288,7 +6392,9 @@
                 "fail_buggy": false,
                 "pass_fixed": true,
                 "testcases": []
-            }
+            },
+            "patches": [],
+            "time_to_generate_patches": 0
         },
         {
             "repo": "sling-slingfeature-maven-plugin",
@@ -8042,34 +7148,9 @@
                         "stack_trace": "java.lang.NullPointerException\n\tat org.apache.sling.feature.maven.mojos.AggregateFeaturesMojoTest.testAggregateFeaturesFromDirectoryWithIncludesExcludes(AggregateFeaturesMojoTest.java:204)\n"
                     }
                 ]
-            }
-        },
-        {
-            "repo": "sling-slingfeature-maven-plugin",
-            "bug_id": "UpdateVersionsMojo_354",
-            "npe_info": {
-                "filepath": "src/main/java/org/apache/sling/feature/maven/mojos/UpdateVersionsMojo.java",
-                "line": 357,
-                "deref_field": "oldValue",
-                "npe_class": "UpdateVersionsMojo",
-                "npe_method": "execute",
-                "sink_field": null,
-                "jvmti_identify_succeed": null,
-                "is_original": null
             },
-            "build_info": {
-                "compiled": true,
-                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "java_version": 8,
-                "error_message": null,
-                "time": 24.84567739116028
-            },
-            "test_info": {
-                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "fail_buggy": false,
-                "pass_fixed": true,
-                "testcases": []
-            }
+            "patches": [],
+            "time_to_generate_patches": 0
         },
         {
             "repo": "sling-slingfeature-maven-plugin",
@@ -8096,7 +7177,9 @@
                 "fail_buggy": false,
                 "pass_fixed": true,
                 "testcases": []
-            }
+            },
+            "patches": [],
+            "time_to_generate_patches": 0
         },
         {
             "repo": "sling-slingfeature-maven-plugin",
@@ -8850,34 +7933,9 @@
                         "stack_trace": "java.lang.NullPointerException\n\tat org.apache.sling.feature.maven.mojos.AggregateFeaturesMojoTest.testAggregateFeaturesFromDirectoryWithIncludesExcludes(AggregateFeaturesMojoTest.java:204)\n"
                     }
                 ]
-            }
-        },
-        {
-            "repo": "sling-slingfeature-maven-plugin",
-            "bug_id": "ApisJarMojo_1142",
-            "npe_info": {
-                "filepath": "src/main/java/org/apache/sling/feature/maven/mojos/ApisJarMojo.java",
-                "line": 1144,
-                "deref_field": "getFile()",
-                "npe_class": "ApisJarMojo",
-                "npe_method": "buildJavadocClasspath",
-                "sink_field": null,
-                "jvmti_identify_succeed": null,
-                "is_original": null
             },
-            "build_info": {
-                "compiled": true,
-                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "java_version": 8,
-                "error_message": null,
-                "time": 18.84217519010417
-            },
-            "test_info": {
-                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "fail_buggy": false,
-                "pass_fixed": true,
-                "testcases": []
-            }
+            "patches": [],
+            "time_to_generate_patches": 0
         },
         {
             "repo": "sling-slingfeature-maven-plugin",
@@ -8904,34 +7962,9 @@
                 "fail_buggy": false,
                 "pass_fixed": true,
                 "testcases": []
-            }
-        },
-        {
-            "repo": "sling-slingfeature-maven-plugin",
-            "bug_id": "AttachFeatureArchivesMojo_105",
-            "npe_info": {
-                "filepath": "src/main/java/org/apache/sling/feature/maven/mojos/AttachFeatureArchivesMojo.java",
-                "line": 110,
-                "deref_field": "getType()",
-                "npe_class": "AttachFeatureArchivesMojo",
-                "npe_method": "execute",
-                "sink_field": null,
-                "jvmti_identify_succeed": null,
-                "is_original": null
             },
-            "build_info": {
-                "compiled": true,
-                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "java_version": 8,
-                "error_message": null,
-                "time": 20.12105773994699
-            },
-            "test_info": {
-                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "fail_buggy": false,
-                "pass_fixed": true,
-                "testcases": []
-            }
+            "patches": [],
+            "time_to_generate_patches": 0
         },
         {
             "repo": "sling-slingfeature-maven-plugin",
@@ -8958,34 +7991,9 @@
                 "fail_buggy": false,
                 "pass_fixed": true,
                 "testcases": []
-            }
-        },
-        {
-            "repo": "sling-slingfeature-maven-plugin",
-            "bug_id": "JavadocLinks_42",
-            "npe_info": {
-                "filepath": "src/main/java/org/apache/sling/feature/maven/mojos/apis/JavadocLinks.java",
-                "line": 43,
-                "deref_field": "globalJavaDocLinks",
-                "npe_class": "JavadocLinks",
-                "npe_method": "calculateLinks",
-                "sink_field": null,
-                "jvmti_identify_succeed": null,
-                "is_original": null
             },
-            "build_info": {
-                "compiled": true,
-                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "java_version": 8,
-                "error_message": null,
-                "time": 17.733443268109113
-            },
-            "test_info": {
-                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "fail_buggy": false,
-                "pass_fixed": true,
-                "testcases": []
-            }
+            "patches": [],
+            "time_to_generate_patches": 0
         },
         {
             "repo": "sling-slingfeature-maven-plugin",
@@ -9012,34 +8020,9 @@
                 "fail_buggy": false,
                 "pass_fixed": true,
                 "testcases": []
-            }
-        },
-        {
-            "repo": "sling-slingfeature-maven-plugin",
-            "bug_id": "ApisJarContext_335",
-            "npe_info": {
-                "filepath": "src/main/java/org/apache/sling/feature/maven/mojos/apis/ApisJarContext.java",
-                "line": 336,
-                "deref_field": "list",
-                "npe_class": "ApisJarContext",
-                "npe_method": "setDependencyRepositories",
-                "sink_field": null,
-                "jvmti_identify_succeed": null,
-                "is_original": null
             },
-            "build_info": {
-                "compiled": true,
-                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "java_version": 8,
-                "error_message": null,
-                "time": 17.06189403613098
-            },
-            "test_info": {
-                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "fail_buggy": false,
-                "pass_fixed": true,
-                "testcases": []
-            }
+            "patches": [],
+            "time_to_generate_patches": 0
         },
         {
             "repo": "sling-slingfeature-maven-plugin",
@@ -9066,34 +8049,9 @@
                 "fail_buggy": false,
                 "pass_fixed": true,
                 "testcases": []
-            }
-        },
-        {
-            "repo": "sling-slingfeature-maven-plugin",
-            "bug_id": "InfoMojo_197",
-            "npe_info": {
-                "filepath": "src/main/java/org/apache/sling/feature/maven/mojos/InfoMojo.java",
-                "line": 198,
-                "deref_field": "outputDirectory",
-                "npe_class": "InfoMojo",
-                "npe_method": "execute",
-                "sink_field": null,
-                "jvmti_identify_succeed": null,
-                "is_original": null
             },
-            "build_info": {
-                "compiled": true,
-                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "java_version": 8,
-                "error_message": null,
-                "time": 18.64494740520604
-            },
-            "test_info": {
-                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "fail_buggy": false,
-                "pass_fixed": true,
-                "testcases": []
-            }
+            "patches": [],
+            "time_to_generate_patches": 0
         },
         {
             "repo": "sling-slingfeature-maven-plugin",
@@ -9120,34 +8078,9 @@
                 "fail_buggy": false,
                 "pass_fixed": true,
                 "testcases": []
-            }
-        },
-        {
-            "repo": "sling-slingfeature-maven-plugin",
-            "bug_id": "ApisJarMojo_1356",
-            "npe_info": {
-                "filepath": "src/main/java/org/apache/sling/feature/maven/mojos/ApisJarMojo.java",
-                "line": 1358,
-                "deref_field": "scm",
-                "npe_class": "ApisJarMojo",
-                "npe_method": "checkoutSourcesFromSCM",
-                "sink_field": null,
-                "jvmti_identify_succeed": null,
-                "is_original": null
             },
-            "build_info": {
-                "compiled": true,
-                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "java_version": 8,
-                "error_message": null,
-                "time": 24.894816949032247
-            },
-            "test_info": {
-                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "fail_buggy": false,
-                "pass_fixed": true,
-                "testcases": []
-            }
+            "patches": [],
+            "time_to_generate_patches": 0
         },
         {
             "repo": "sling-slingfeature-maven-plugin",
@@ -9174,34 +8107,9 @@
                 "fail_buggy": false,
                 "pass_fixed": true,
                 "testcases": []
-            }
-        },
-        {
-            "repo": "sling-slingfeature-maven-plugin",
-            "bug_id": "ApisJarMojo_588",
-            "npe_info": {
-                "filepath": "src/main/java/org/apache/sling/feature/maven/mojos/ApisJarMojo.java",
-                "line": 590,
-                "deref_field": "infos",
-                "npe_class": "ApisJarMojo",
-                "npe_method": "onFeature",
-                "sink_field": null,
-                "jvmti_identify_succeed": null,
-                "is_original": null
             },
-            "build_info": {
-                "compiled": true,
-                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "java_version": 8,
-                "error_message": null,
-                "time": 19.59934553108178
-            },
-            "test_info": {
-                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "fail_buggy": false,
-                "pass_fixed": true,
-                "testcases": []
-            }
+            "patches": [],
+            "time_to_generate_patches": 0
         },
         {
             "repo": "sling-slingfeature-maven-plugin",
@@ -9228,34 +8136,9 @@
                 "fail_buggy": false,
                 "pass_fixed": true,
                 "testcases": []
-            }
-        },
-        {
-            "repo": "sling-slingfeature-maven-plugin",
-            "bug_id": "InfoMojo_228",
-            "npe_info": {
-                "filepath": "src/main/java/org/apache/sling/feature/maven/mojos/InfoMojo.java",
-                "line": 237,
-                "deref_field": "reports",
-                "npe_class": "InfoMojo",
-                "npe_method": "getReporters",
-                "sink_field": null,
-                "jvmti_identify_succeed": null,
-                "is_original": null
             },
-            "build_info": {
-                "compiled": true,
-                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "java_version": 8,
-                "error_message": null,
-                "time": 18.93517388822511
-            },
-            "test_info": {
-                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "fail_buggy": false,
-                "pass_fixed": true,
-                "testcases": []
-            }
+            "patches": [],
+            "time_to_generate_patches": 0
         },
         {
             "repo": "sling-slingfeature-maven-plugin",
@@ -9282,34 +8165,9 @@
                 "fail_buggy": false,
                 "pass_fixed": true,
                 "testcases": []
-            }
-        },
-        {
-            "repo": "sling-slingfeature-maven-plugin",
-            "bug_id": "ApisJarMojo_1963",
-            "npe_info": {
-                "filepath": "src/main/java/org/apache/sling/feature/maven/mojos/ApisJarMojo.java",
-                "line": 1964,
-                "deref_field": "getParent()",
-                "npe_class": "ApisJarMojo",
-                "npe_method": "getLicenses",
-                "sink_field": null,
-                "jvmti_identify_succeed": null,
-                "is_original": null
             },
-            "build_info": {
-                "compiled": true,
-                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "java_version": 8,
-                "error_message": null,
-                "time": 18.514959580032155
-            },
-            "test_info": {
-                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "fail_buggy": false,
-                "pass_fixed": true,
-                "testcases": []
-            }
+            "patches": [],
+            "time_to_generate_patches": 0
         },
         {
             "repo": "sling-slingfeature-maven-plugin",
@@ -9336,34 +8194,9 @@
                 "fail_buggy": false,
                 "pass_fixed": true,
                 "testcases": []
-            }
-        },
-        {
-            "repo": "sling-slingfeature-maven-plugin",
-            "bug_id": "InfoMojo_255",
-            "npe_info": {
-                "filepath": "src/main/java/org/apache/sling/feature/maven/mojos/InfoMojo.java",
-                "line": 256,
-                "deref_field": "infoFeatureFiles",
-                "npe_class": "InfoMojo",
-                "npe_method": "selectFeatures",
-                "sink_field": null,
-                "jvmti_identify_succeed": null,
-                "is_original": null
             },
-            "build_info": {
-                "compiled": true,
-                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "java_version": 8,
-                "error_message": null,
-                "time": 28.117133043939248
-            },
-            "test_info": {
-                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "fail_buggy": false,
-                "pass_fixed": true,
-                "testcases": []
-            }
+            "patches": [],
+            "time_to_generate_patches": 0
         },
         {
             "repo": "sling-slingfeature-maven-plugin",
@@ -9390,34 +8223,9 @@
                 "fail_buggy": false,
                 "pass_fixed": true,
                 "testcases": []
-            }
-        },
-        {
-            "repo": "sling-slingfeature-maven-plugin",
-            "bug_id": "ProjectHelper_425",
-            "npe_info": {
-                "filepath": "src/main/java/org/apache/sling/feature/maven/ProjectHelper.java",
-                "line": 425,
-                "deref_field": "classifier",
-                "npe_class": "ProjectHelper",
-                "npe_method": "generateAggregateFeatureKey",
-                "sink_field": null,
-                "jvmti_identify_succeed": null,
-                "is_original": null
             },
-            "build_info": {
-                "compiled": true,
-                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "java_version": 8,
-                "error_message": null,
-                "time": 19.593884211033583
-            },
-            "test_info": {
-                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "fail_buggy": false,
-                "pass_fixed": true,
-                "testcases": []
-            }
+            "patches": [],
+            "time_to_generate_patches": 0
         },
         {
             "repo": "sling-slingfeature-maven-plugin",
@@ -9444,7 +8252,9 @@
                 "fail_buggy": false,
                 "pass_fixed": true,
                 "testcases": []
-            }
+            },
+            "patches": [],
+            "time_to_generate_patches": 0
         },
         {
             "repo": "sling-slingfeature-maven-plugin",
@@ -9478,34 +8288,9 @@
                         "stack_trace": "org.junit.ComparisonFailure: expected:<1.2.3[]> but was:<1.2.3[.null]>\n\tat org.apache.sling.feature.maven.SubstitutionTest.testOSGiVersion(SubstitutionTest.java:57)\n"
                     }
                 ]
-            }
-        },
-        {
-            "repo": "sling-slingfeature-maven-plugin",
-            "bug_id": "ApisJarMojo_1653",
-            "npe_info": {
-                "filepath": "src/main/java/org/apache/sling/feature/maven/mojos/ApisJarMojo.java",
-                "line": 1654,
-                "deref_field": "getOrganization()",
-                "npe_class": "ApisJarMojo",
-                "npe_method": "createArchive",
-                "sink_field": null,
-                "jvmti_identify_succeed": null,
-                "is_original": null
             },
-            "build_info": {
-                "compiled": true,
-                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "java_version": 8,
-                "error_message": null,
-                "time": 23.29941872297786
-            },
-            "test_info": {
-                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "fail_buggy": false,
-                "pass_fixed": true,
-                "testcases": []
-            }
+            "patches": [],
+            "time_to_generate_patches": 0
         },
         {
             "repo": "sling-slingfeature-maven-plugin",
@@ -9532,7 +8317,9 @@
                 "fail_buggy": false,
                 "pass_fixed": true,
                 "testcases": []
-            }
+            },
+            "patches": [],
+            "time_to_generate_patches": 0
         },
         {
             "repo": "sling-slingfeature-maven-plugin",
@@ -10580,7 +9367,9 @@
                         "stack_trace": "java.lang.NullPointerException\n\tat org.apache.sling.feature.maven.mojos.AggregateFeaturesMojoTest.testNonMatchingDirectoryIncludes(AggregateFeaturesMojoTest.java:278)\n"
                     }
                 ]
-            }
+            },
+            "patches": [],
+            "time_to_generate_patches": 0
         },
         {
             "repo": "sling-slingfeature-maven-plugin",
@@ -10704,34 +9493,9 @@
                         "stack_trace": "java.lang.NullPointerException\n\tat org.apache.sling.feature.maven.mojos.FeatureLauncherMojoTest.testMainReflectionFailure(FeatureLauncherMojoTest.java:248)\n"
                     }
                 ]
-            }
-        },
-        {
-            "repo": "sling-slingfeature-maven-plugin",
-            "bug_id": "UpdateVersionsMojo_184",
-            "npe_info": {
-                "filepath": "src/main/java/org/apache/sling/feature/maven/mojos/UpdateVersionsMojo.java",
-                "line": 188,
-                "deref_field": "versionInfo",
-                "npe_class": "UpdateVersionsMojo",
-                "npe_method": "addDependencies",
-                "sink_field": null,
-                "jvmti_identify_succeed": null,
-                "is_original": null
             },
-            "build_info": {
-                "compiled": true,
-                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "java_version": 8,
-                "error_message": null,
-                "time": 17.08919668290764
-            },
-            "test_info": {
-                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "fail_buggy": false,
-                "pass_fixed": true,
-                "testcases": []
-            }
+            "patches": [],
+            "time_to_generate_patches": 0
         },
         {
             "repo": "sling-slingfeature-maven-plugin",
@@ -10758,34 +9522,9 @@
                 "fail_buggy": false,
                 "pass_fixed": true,
                 "testcases": []
-            }
-        },
-        {
-            "repo": "sling-slingfeature-maven-plugin",
-            "bug_id": "AttachFeatureArchivesMojo_95",
-            "npe_info": {
-                "filepath": "src/main/java/org/apache/sling/feature/maven/mojos/AttachFeatureArchivesMojo.java",
-                "line": 96,
-                "deref_field": "getClassifier()",
-                "npe_class": "AttachFeatureArchivesMojo",
-                "npe_method": "execute",
-                "sink_field": null,
-                "jvmti_identify_succeed": null,
-                "is_original": null
             },
-            "build_info": {
-                "compiled": true,
-                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "java_version": 8,
-                "error_message": null,
-                "time": 17.12381460890174
-            },
-            "test_info": {
-                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "fail_buggy": false,
-                "pass_fixed": true,
-                "testcases": []
-            }
+            "patches": [],
+            "time_to_generate_patches": 0
         },
         {
             "repo": "sling-slingfeature-maven-plugin",
@@ -10812,34 +9551,9 @@
                 "fail_buggy": false,
                 "pass_fixed": true,
                 "testcases": []
-            }
-        },
-        {
-            "repo": "sling-slingfeature-maven-plugin",
-            "bug_id": "JavadocLinks_57",
-            "npe_info": {
-                "filepath": "src/main/java/org/apache/sling/feature/maven/mojos/apis/JavadocLinks.java",
-                "line": 58,
-                "deref_field": "framework",
-                "npe_class": "JavadocLinks",
-                "npe_method": "calculateLinks",
-                "sink_field": null,
-                "jvmti_identify_succeed": null,
-                "is_original": null
             },
-            "build_info": {
-                "compiled": true,
-                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "java_version": 8,
-                "error_message": null,
-                "time": 18.827119041001424
-            },
-            "test_info": {
-                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "fail_buggy": false,
-                "pass_fixed": true,
-                "testcases": []
-            }
+            "patches": [],
+            "time_to_generate_patches": 0
         },
         {
             "repo": "sling-slingfeature-maven-plugin",
@@ -10866,34 +9580,9 @@
                 "fail_buggy": false,
                 "pass_fixed": true,
                 "testcases": []
-            }
-        },
-        {
-            "repo": "sling-slingfeature-maven-plugin",
-            "bug_id": "AbstractFeatureMojo_223",
-            "npe_info": {
-                "filepath": "src/main/java/org/apache/sling/feature/maven/mojos/AbstractFeatureMojo.java",
-                "line": 224,
-                "deref_field": "errorMessage",
-                "npe_class": "AbstractFeatureMojo",
-                "npe_method": "checkPreconditions",
-                "sink_field": null,
-                "jvmti_identify_succeed": null,
-                "is_original": null
             },
-            "build_info": {
-                "compiled": true,
-                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "java_version": 8,
-                "error_message": null,
-                "time": 25.533480193000287
-            },
-            "test_info": {
-                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "fail_buggy": true,
-                "pass_fixed": true,
-                "testcases": []
-            }
+            "patches": [],
+            "time_to_generate_patches": 0
         },
         {
             "repo": "sling-slingfeature-maven-plugin",
@@ -10920,34 +9609,9 @@
                 "fail_buggy": false,
                 "pass_fixed": true,
                 "testcases": []
-            }
-        },
-        {
-            "repo": "sling-slingfeature-maven-plugin",
-            "bug_id": "ProjectHelper_233",
-            "npe_info": {
-                "filepath": "src/main/java/org/apache/sling/feature/maven/ProjectHelper.java",
-                "line": 234,
-                "deref_field": "artifacts",
-                "npe_class": "ProjectHelper",
-                "npe_method": "findArtifact",
-                "sink_field": null,
-                "jvmti_identify_succeed": null,
-                "is_original": null
             },
-            "build_info": {
-                "compiled": true,
-                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "java_version": 8,
-                "error_message": null,
-                "time": 21.366138148121536
-            },
-            "test_info": {
-                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "fail_buggy": false,
-                "pass_fixed": true,
-                "testcases": []
-            }
+            "patches": [],
+            "time_to_generate_patches": 0
         },
         {
             "repo": "sling-slingfeature-maven-plugin",
@@ -10974,7 +9638,9 @@
                 "fail_buggy": false,
                 "pass_fixed": true,
                 "testcases": []
-            }
+            },
+            "patches": [],
+            "time_to_generate_patches": 0
         },
         {
             "repo": "sling-slingfeature-maven-plugin",
@@ -12016,34 +10682,9 @@
                         "stack_trace": "java.lang.NullPointerException\n\tat org.apache.sling.feature.maven.mojos.AggregateFeaturesMojoTest.testNonMatchingDirectoryIncludes(AggregateFeaturesMojoTest.java:278)\n"
                     }
                 ]
-            }
-        },
-        {
-            "repo": "sling-slingfeature-maven-plugin",
-            "bug_id": "ApisUtil_137",
-            "npe_info": {
-                "filepath": "src/main/java/org/apache/sling/feature/maven/mojos/apis/ApisUtil.java",
-                "line": 138,
-                "deref_field": "ignore",
-                "npe_class": "ApisUtil",
-                "npe_method": "getIgnoredPackages",
-                "sink_field": null,
-                "jvmti_identify_succeed": null,
-                "is_original": null
             },
-            "build_info": {
-                "compiled": true,
-                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "java_version": 8,
-                "error_message": null,
-                "time": 24.6375281191431
-            },
-            "test_info": {
-                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "fail_buggy": false,
-                "pass_fixed": true,
-                "testcases": []
-            }
+            "patches": [],
+            "time_to_generate_patches": 0
         },
         {
             "repo": "sling-slingfeature-maven-plugin",
@@ -12070,34 +10711,9 @@
                 "fail_buggy": true,
                 "pass_fixed": true,
                 "testcases": []
-            }
-        },
-        {
-            "repo": "sling-slingfeature-maven-plugin",
-            "bug_id": "UpdateVersionsMojo_488",
-            "npe_info": {
-                "filepath": "src/main/java/org/apache/sling/feature/maven/mojos/UpdateVersionsMojo.java",
-                "line": 483,
-                "deref_field": "latest",
-                "npe_class": "UpdateVersionsMojo",
-                "npe_method": "getVersion",
-                "sink_field": null,
-                "jvmti_identify_succeed": null,
-                "is_original": null
             },
-            "build_info": {
-                "compiled": true,
-                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "java_version": 8,
-                "error_message": null,
-                "time": 18.193609456997365
-            },
-            "test_info": {
-                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "fail_buggy": false,
-                "pass_fixed": true,
-                "testcases": []
-            }
+            "patches": [],
+            "time_to_generate_patches": 0
         },
         {
             "repo": "sling-slingfeature-maven-plugin",
@@ -12124,34 +10740,9 @@
                 "fail_buggy": false,
                 "pass_fixed": true,
                 "testcases": []
-            }
-        },
-        {
-            "repo": "sling-slingfeature-maven-plugin",
-            "bug_id": "ApisJarMojo_917",
-            "npe_info": {
-                "filepath": "src/main/java/org/apache/sling/feature/maven/mojos/ApisJarMojo.java",
-                "line": 918,
-                "deref_field": "embeddedBundles",
-                "npe_class": "ApisJarMojo",
-                "npe_method": "processBinary",
-                "sink_field": null,
-                "jvmti_identify_succeed": null,
-                "is_original": null
             },
-            "build_info": {
-                "compiled": true,
-                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "java_version": 8,
-                "error_message": null,
-                "time": 17.369230445008725
-            },
-            "test_info": {
-                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "fail_buggy": false,
-                "pass_fixed": true,
-                "testcases": []
-            }
+            "patches": [],
+            "time_to_generate_patches": 0
         },
         {
             "repo": "sling-slingfeature-maven-plugin",
@@ -12185,34 +10776,9 @@
                         "stack_trace": "java.lang.NullPointerException\n\tat org.apache.sling.feature.maven.mojos.selection.TestIncludeExcludeMatcher.testInfoMatcher(TestIncludeExcludeMatcher.java:49)\n"
                     }
                 ]
-            }
-        },
-        {
-            "repo": "sling-slingfeature-maven-plugin",
-            "bug_id": "ProjectHelper_211",
-            "npe_info": {
-                "filepath": "src/main/java/org/apache/sling/feature/maven/ProjectHelper.java",
-                "line": 211,
-                "deref_field": "plugin",
-                "npe_class": "ProjectHelper",
-                "npe_method": "getConfigValue",
-                "sink_field": null,
-                "jvmti_identify_succeed": null,
-                "is_original": null
             },
-            "build_info": {
-                "compiled": true,
-                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "java_version": 8,
-                "error_message": null,
-                "time": 15.596578299999237
-            },
-            "test_info": {
-                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "fail_buggy": false,
-                "pass_fixed": true,
-                "testcases": []
-            }
+            "patches": [],
+            "time_to_generate_patches": 0
         },
         {
             "repo": "sling-slingfeature-maven-plugin",
@@ -12239,34 +10805,9 @@
                 "fail_buggy": false,
                 "pass_fixed": true,
                 "testcases": []
-            }
-        },
-        {
-            "repo": "sling-slingfeature-maven-plugin",
-            "bug_id": "AggregateFeaturesMojo_147",
-            "npe_info": {
-                "filepath": "src/main/java/org/apache/sling/feature/maven/mojos/AggregateFeaturesMojo.java",
-                "line": 148,
-                "deref_field": "aggregate.vendor",
-                "npe_class": "AggregateFeaturesMojo",
-                "npe_method": "execute",
-                "sink_field": null,
-                "jvmti_identify_succeed": null,
-                "is_original": null
             },
-            "build_info": {
-                "compiled": true,
-                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "java_version": 8,
-                "error_message": null,
-                "time": 14.96497902018018
-            },
-            "test_info": {
-                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "fail_buggy": false,
-                "pass_fixed": true,
-                "testcases": []
-            }
+            "patches": [],
+            "time_to_generate_patches": 0
         },
         {
             "repo": "sling-slingfeature-maven-plugin",
@@ -12293,34 +10834,9 @@
                 "fail_buggy": false,
                 "pass_fixed": true,
                 "testcases": []
-            }
-        },
-        {
-            "repo": "sling-slingfeature-maven-plugin",
-            "bug_id": "IncludeArtifactMojo_184",
-            "npe_info": {
-                "filepath": "src/main/java/org/apache/sling/feature/maven/mojos/IncludeArtifactMojo.java",
-                "line": 185,
-                "deref_field": "extensionName",
-                "npe_class": "IncludeArtifactMojo",
-                "npe_method": "includeArtifact",
-                "sink_field": null,
-                "jvmti_identify_succeed": null,
-                "is_original": null
             },
-            "build_info": {
-                "compiled": true,
-                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "java_version": 8,
-                "error_message": null,
-                "time": 21.885040258988738
-            },
-            "test_info": {
-                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "fail_buggy": false,
-                "pass_fixed": true,
-                "testcases": []
-            }
+            "patches": [],
+            "time_to_generate_patches": 0
         },
         {
             "repo": "sling-slingfeature-maven-plugin",
@@ -12347,34 +10863,9 @@
                 "fail_buggy": false,
                 "pass_fixed": true,
                 "testcases": []
-            }
-        },
-        {
-            "repo": "sling-slingfeature-maven-plugin",
-            "bug_id": "ProjectHelper_519",
-            "npe_info": {
-                "filepath": "src/main/java/org/apache/sling/feature/maven/ProjectHelper.java",
-                "line": 520,
-                "deref_field": "excludes",
-                "npe_class": "ProjectHelper",
-                "npe_method": "scan",
-                "sink_field": null,
-                "jvmti_identify_succeed": null,
-                "is_original": null
             },
-            "build_info": {
-                "compiled": true,
-                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "java_version": 8,
-                "error_message": null,
-                "time": 16.78355975402519
-            },
-            "test_info": {
-                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "fail_buggy": false,
-                "pass_fixed": true,
-                "testcases": []
-            }
+            "patches": [],
+            "time_to_generate_patches": 0
         },
         {
             "repo": "sling-slingfeature-maven-plugin",
@@ -12401,7 +10892,9 @@
                 "fail_buggy": false,
                 "pass_fixed": true,
                 "testcases": []
-            }
+            },
+            "patches": [],
+            "time_to_generate_patches": 0
         }
     ],
     "repository_info": null

@@ -1,0 +1,7 @@
+{
+    "filepath": "src/main/java/org/apache/any23/servlet/WebResponder.java",
+    "line": 261,
+    "npe_method": "printReport",
+    "deref_field": "e",
+    "npe_class": "WebResponder"
+}

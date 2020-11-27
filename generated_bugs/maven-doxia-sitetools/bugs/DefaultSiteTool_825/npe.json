@@ -1,0 +1,7 @@
+{
+    "filepath": "doxia-integration-tools/src/main/java/org/apache/maven/doxia/tools/DefaultSiteTool.java",
+    "line": 826,
+    "npe_method": "populateModulesMenu",
+    "deref_field": "getName()",
+    "npe_class": "DefaultSiteTool"
+}

@@ -3,33 +3,6 @@
     "bugs": [
         {
             "repo": "sling-org-apache-sling-resourcecollection",
-            "bug_id": "ResourceCollectionManagerImpl_57",
-            "npe_info": {
-                "filepath": "src/main/java/org/apache/sling/resource/collection/impl/ResourceCollectionManagerImpl.java",
-                "line": 58,
-                "deref_field": "resource",
-                "npe_class": "ResourceCollectionManagerImpl",
-                "npe_method": "getCollection",
-                "sink_field": null,
-                "jvmti_identify_succeed": null,
-                "is_original": null
-            },
-            "build_info": {
-                "compiled": true,
-                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "java_version": 8,
-                "error_message": null,
-                "time": 15.633704414125532
-            },
-            "test_info": {
-                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "fail_buggy": false,
-                "pass_fixed": true,
-                "testcases": []
-            }
-        },
-        {
-            "repo": "sling-org-apache-sling-resourcecollection",
             "bug_id": "ResourceCollectionImpl_205",
             "npe_info": {
                 "filepath": "src/main/java/org/apache/sling/resource/collection/impl/ResourceCollectionImpl.java",
@@ -53,34 +26,9 @@
                 "fail_buggy": false,
                 "pass_fixed": true,
                 "testcases": []
-            }
-        },
-        {
-            "repo": "sling-org-apache-sling-resourcecollection",
-            "bug_id": "ResourceCollectionImpl_252",
-            "npe_info": {
-                "filepath": "src/main/java/org/apache/sling/resource/collection/impl/ResourceCollectionImpl.java",
-                "line": 257,
-                "deref_field": "srcResource",
-                "npe_class": "ResourceCollectionImpl",
-                "npe_method": "orderBefore",
-                "sink_field": null,
-                "jvmti_identify_succeed": null,
-                "is_original": null
             },
-            "build_info": {
-                "compiled": true,
-                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "java_version": 8,
-                "error_message": null,
-                "time": 17.264930731849745
-            },
-            "test_info": {
-                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "fail_buggy": false,
-                "pass_fixed": true,
-                "testcases": []
-            }
+            "patches": [],
+            "time_to_generate_patches": 0
         },
         {
             "repo": "sling-org-apache-sling-resourcecollection",
@@ -107,34 +55,9 @@
                 "fail_buggy": false,
                 "pass_fixed": true,
                 "testcases": []
-            }
-        },
-        {
-            "repo": "sling-org-apache-sling-resourcecollection",
-            "bug_id": "ResourceCollectionImpl_264",
-            "npe_info": {
-                "filepath": "src/main/java/org/apache/sling/resource/collection/impl/ResourceCollectionImpl.java",
-                "line": 269,
-                "deref_field": "destResource",
-                "npe_class": "ResourceCollectionImpl",
-                "npe_method": "orderBefore",
-                "sink_field": null,
-                "jvmti_identify_succeed": null,
-                "is_original": null
             },
-            "build_info": {
-                "compiled": true,
-                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "java_version": 8,
-                "error_message": null,
-                "time": 13.468178648035973
-            },
-            "test_info": {
-                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "fail_buggy": false,
-                "pass_fixed": true,
-                "testcases": []
-            }
+            "patches": [],
+            "time_to_generate_patches": 0
         },
         {
             "repo": "sling-org-apache-sling-resourcecollection",
@@ -161,34 +84,9 @@
                 "fail_buggy": false,
                 "pass_fixed": true,
                 "testcases": []
-            }
-        },
-        {
-            "repo": "sling-org-apache-sling-resourcecollection",
-            "bug_id": "ResourceCollectionAdapterFactory_76",
-            "npe_info": {
-                "filepath": "src/main/java/org/apache/sling/resource/collection/impl/ResourceCollectionAdapterFactory.java",
-                "line": 78,
-                "deref_field": "resource",
-                "npe_class": "ResourceCollectionAdapterFactory",
-                "npe_method": "getAdapter",
-                "sink_field": null,
-                "jvmti_identify_succeed": null,
-                "is_original": null
             },
-            "build_info": {
-                "compiled": true,
-                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "java_version": 8,
-                "error_message": null,
-                "time": 15.983766352990642
-            },
-            "test_info": {
-                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "fail_buggy": false,
-                "pass_fixed": true,
-                "testcases": []
-            }
+            "patches": [],
+            "time_to_generate_patches": 0
         },
         {
             "repo": "sling-org-apache-sling-resourcecollection",
@@ -215,34 +113,9 @@
                 "fail_buggy": false,
                 "pass_fixed": true,
                 "testcases": []
-            }
-        },
-        {
-            "repo": "sling-org-apache-sling-resourcecollection",
-            "bug_id": "ResourceCollectionManagerImpl_84",
-            "npe_info": {
-                "filepath": "src/main/java/org/apache/sling/resource/collection/impl/ResourceCollectionManagerImpl.java",
-                "line": 85,
-                "deref_field": "parentResource",
-                "npe_class": "ResourceCollectionManagerImpl",
-                "npe_method": "createCollection",
-                "sink_field": null,
-                "jvmti_identify_succeed": null,
-                "is_original": null
             },
-            "build_info": {
-                "compiled": true,
-                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "java_version": 8,
-                "error_message": null,
-                "time": 15.651783321984112
-            },
-            "test_info": {
-                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "fail_buggy": false,
-                "pass_fixed": true,
-                "testcases": []
-            }
+            "patches": [],
+            "time_to_generate_patches": 0
         },
         {
             "repo": "sling-org-apache-sling-resourcecollection",
@@ -269,34 +142,9 @@
                 "fail_buggy": false,
                 "pass_fixed": true,
                 "testcases": []
-            }
-        },
-        {
-            "repo": "sling-org-apache-sling-resourcecollection",
-            "bug_id": "ResourceCollectionImpl_186",
-            "npe_info": {
-                "filepath": "src/main/java/org/apache/sling/resource/collection/impl/ResourceCollectionImpl.java",
-                "line": 190,
-                "deref_field": "res",
-                "npe_class": "ResourceCollectionImpl",
-                "npe_method": "contains",
-                "sink_field": null,
-                "jvmti_identify_succeed": null,
-                "is_original": null
             },
-            "build_info": {
-                "compiled": true,
-                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "java_version": 8,
-                "error_message": null,
-                "time": 16.948484434047714
-            },
-            "test_info": {
-                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "fail_buggy": true,
-                "pass_fixed": true,
-                "testcases": []
-            }
+            "patches": [],
+            "time_to_generate_patches": 0
         }
     ],
     "repository_info": null

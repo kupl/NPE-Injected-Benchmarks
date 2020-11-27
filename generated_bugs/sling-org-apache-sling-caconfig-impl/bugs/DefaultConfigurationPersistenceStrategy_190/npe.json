@@ -1,0 +1,7 @@
+{
+    "filepath": "src/main/java/org/apache/sling/caconfig/impl/def/DefaultConfigurationPersistenceStrategy.java",
+    "line": 192,
+    "npe_method": "deleteConfiguration",
+    "deref_field": "resource",
+    "npe_class": "DefaultConfigurationPersistenceStrategy"
+}

@@ -1,0 +1,7 @@
+{
+    "filepath": "src/main/java/org/apache/sling/feature/maven/mojos/AbstractRepositoryMojo.java",
+    "line": 102,
+    "npe_method": "processFeature",
+    "deref_field": "prototype",
+    "npe_class": "AbstractRepositoryMojo"
+}

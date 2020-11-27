@@ -1,0 +1,7 @@
+{
+    "filepath": "maven-plugin-tools-annotations/src/main/java/org/apache/maven/tools/plugin/extractor/annotations/datamodel/ComponentAnnotationContent.java",
+    "line": 68,
+    "npe_method": "hint",
+    "deref_field": "hint",
+    "npe_class": "ComponentAnnotationContent"
+}

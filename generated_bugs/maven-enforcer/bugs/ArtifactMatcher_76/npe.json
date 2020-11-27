@@ -1,0 +1,7 @@
+{
+    "filepath": "enforcer-rules/src/main/java/org/apache/maven/plugins/enforcer/utils/ArtifactMatcher.java",
+    "line": 84,
+    "npe_method": "match",
+    "deref_field": "artifact",
+    "npe_class": "Pattern"
+}

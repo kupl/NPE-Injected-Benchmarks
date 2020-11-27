@@ -1,0 +1,7 @@
+{
+    "filepath": "src/main/java/org/apache/sling/servlets/post/impl/helper/SlingPropertyValueHandler.java",
+    "line": 364,
+    "npe_method": "isMultiValue",
+    "deref_field": "parent.node",
+    "npe_class": "SlingPropertyValueHandler"
+}

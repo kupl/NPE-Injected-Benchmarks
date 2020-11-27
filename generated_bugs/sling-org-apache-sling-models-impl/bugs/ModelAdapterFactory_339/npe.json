@@ -1,0 +1,7 @@
+{
+    "filepath": "src/main/java/org/apache/sling/models/impl/ModelAdapterFactory.java",
+    "line": 340,
+    "npe_method": "getImplementationTypeForAdapterType",
+    "deref_field": "modelClass",
+    "npe_class": "ModelAdapterFactory"
+}

@@ -1,0 +1,7 @@
+{
+    "filepath": "src/main/java/org/apache/maven/shared/utils/cli/CommandLineUtils.java",
+    "line": 392,
+    "npe_method": "call",
+    "deref_field": "runAfterProcessTermination",
+    "npe_class": "2"
+}

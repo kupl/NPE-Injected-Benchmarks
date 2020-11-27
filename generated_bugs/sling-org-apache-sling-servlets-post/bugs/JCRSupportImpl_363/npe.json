@@ -1,0 +1,7 @@
+{
+    "filepath": "src/main/java/org/apache/sling/servlets/post/impl/helper/JCRSupportImpl.java",
+    "line": 365,
+    "npe_method": "storeAsReference",
+    "deref_field": "v",
+    "npe_class": "JCRSupportImpl"
+}

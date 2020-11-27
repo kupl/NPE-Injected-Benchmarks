@@ -1,0 +1,7 @@
+{
+    "filepath": "src/main/java/org/apache/sling/commons/metrics/MetricsServiceFactory.java",
+    "line": 60,
+    "npe_method": "getMetricsService",
+    "deref_field": "ref",
+    "npe_class": "MetricsServiceFactory"
+}

@@ -1,0 +1,7 @@
+{
+    "filepath": "src/test/java/org/apache/sling/commons/metrics/internal/LogReporterTest.java",
+    "line": 210,
+    "npe_method": "testSpecificRegistryNameInclude",
+    "deref_field": "reporter",
+    "npe_class": "LogReporterTest"
+}

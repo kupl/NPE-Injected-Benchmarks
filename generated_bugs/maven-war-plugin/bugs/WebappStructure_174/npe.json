@@ -1,0 +1,7 @@
+{
+    "filepath": "src/main/java/org/apache/maven/plugins/war/util/WebappStructure.java",
+    "line": 179,
+    "npe_method": "registerFile",
+    "deref_field": "getOwner(java.lang.String)",
+    "npe_class": "WebappStructure"
+}

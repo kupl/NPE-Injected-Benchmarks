@@ -1,0 +1,7 @@
+{
+    "filepath": "src/test/java/org/apache/commons/beanutils2/converters/DateConverterTestBase.java",
+    "line": 489,
+    "npe_method": "toCalendar",
+    "deref_field": "locale",
+    "npe_class": "DateConverterTestBase"
+}

@@ -1,0 +1,7 @@
+{
+    "filepath": "src/main/java/org/apache/geronimo/jcache/simple/ConfigurableMBeanServerIdBuilder.java",
+    "line": 70,
+    "npe_method": "equals",
+    "deref_field": "domain",
+    "npe_class": "Key"
+}

@@ -1,0 +1,7 @@
+{
+    "filepath": "src/test/java/org/apache/maven/plugins/war/AbstractWarMojoTest.java",
+    "line": 104,
+    "npe_method": "createXMLConfigDir",
+    "deref_field": "xmlFiles",
+    "npe_class": "AbstractWarMojoTest"
+}

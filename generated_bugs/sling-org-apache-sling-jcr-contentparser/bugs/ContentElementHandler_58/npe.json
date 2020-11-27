@@ -1,0 +1,7 @@
+{
+    "filepath": "src/test/java/org/apache/sling/jcr/contentparser/impl/mapsupport/ContentElementHandler.java",
+    "line": 61,
+    "npe_method": "resource",
+    "deref_field": "parent",
+    "npe_class": "ContentElementHandler"
+}

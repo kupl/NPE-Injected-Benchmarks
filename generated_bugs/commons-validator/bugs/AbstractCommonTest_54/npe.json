@@ -1,0 +1,7 @@
+{
+    "filepath": "src/test/java/org/apache/commons/validator/AbstractCommonTest.java",
+    "line": 55,
+    "npe_method": "loadResources",
+    "deref_field": "in",
+    "npe_class": "AbstractCommonTest"
+}

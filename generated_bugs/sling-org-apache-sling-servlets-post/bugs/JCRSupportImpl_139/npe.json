@@ -1,0 +1,7 @@
+{
+    "filepath": "src/main/java/org/apache/sling/servlets/post/impl/helper/JCRSupportImpl.java",
+    "line": 140,
+    "npe_method": "orderNode",
+    "deref_field": "next",
+    "npe_class": "JCRSupportImpl"
+}

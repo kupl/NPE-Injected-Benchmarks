@@ -1,0 +1,7 @@
+{
+    "filepath": "minifi-bootstrap/src/test/java/org/apache/nifi/minifi/bootstrap/configuration/ingestors/common/PullHttpChangeIngestorCommonTest.java",
+    "line": 272,
+    "npe_method": "writeFileOutput",
+    "deref_field": "file",
+    "npe_class": "JettyHandler"
+}

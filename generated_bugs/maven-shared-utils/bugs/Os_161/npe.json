@@ -1,0 +1,7 @@
+{
+    "filepath": "src/main/java/org/apache/maven/shared/utils/Os.java",
+    "line": 163,
+    "npe_method": "getValidFamilies",
+    "deref_field": "org.apache.maven.shared.utils.Os.VALID_FAMILIES",
+    "npe_class": "Os"
+}

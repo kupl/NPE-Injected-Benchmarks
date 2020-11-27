@@ -1,0 +1,7 @@
+{
+    "filepath": "maven-plugin-plugin/src/main/java/org/apache/maven/plugin/plugin/AbstractGeneratorMojo.java",
+    "line": 301,
+    "npe_method": "filterMojoDependencies",
+    "deref_field": "mojoDependencies",
+    "npe_class": "AbstractGeneratorMojo"
+}

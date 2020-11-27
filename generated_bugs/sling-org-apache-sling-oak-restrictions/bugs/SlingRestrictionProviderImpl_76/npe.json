@@ -1,0 +1,7 @@
+{
+    "filepath": "src/main/java/org/apache/sling/oak/restrictions/impl/SlingRestrictionProviderImpl.java",
+    "line": 79,
+    "npe_method": "getPattern",
+    "deref_field": "oakPath",
+    "npe_class": "SlingRestrictionProviderImpl"
+}

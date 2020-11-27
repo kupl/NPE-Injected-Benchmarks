@@ -1,0 +1,7 @@
+{
+    "filepath": "maven-plugin-tools-generators/src/main/java/org/apache/maven/tools/plugin/generator/PluginXdocGenerator.java",
+    "line": 111,
+    "npe_method": "execute",
+    "deref_field": "getMojos()",
+    "npe_class": "PluginXdocGenerator"
+}

@@ -1,0 +1,7 @@
+{
+    "filepath": "src/main/java/org/apache/sling/models/impl/injectors/BindingsInjector.java",
+    "line": 83,
+    "npe_method": "prepareValue",
+    "deref_field": "prepared",
+    "npe_class": "BindingsInjector"
+}

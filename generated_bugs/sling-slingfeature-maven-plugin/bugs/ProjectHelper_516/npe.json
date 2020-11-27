@@ -1,0 +1,7 @@
+{
+    "filepath": "src/main/java/org/apache/sling/feature/maven/ProjectHelper.java",
+    "line": 517,
+    "npe_method": "scan",
+    "deref_field": "includes",
+    "npe_class": "ProjectHelper"
+}

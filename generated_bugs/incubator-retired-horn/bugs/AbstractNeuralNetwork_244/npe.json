@@ -1,0 +1,7 @@
+{
+    "filepath": "src/main/java/org/apache/horn/core/AbstractNeuralNetwork.java",
+    "line": 245,
+    "npe_method": "write",
+    "deref_field": "modelPath",
+    "npe_class": "AbstractNeuralNetwork"
+}

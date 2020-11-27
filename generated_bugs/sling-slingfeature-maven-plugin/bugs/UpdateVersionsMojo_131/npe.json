@@ -1,0 +1,7 @@
+{
+    "filepath": "src/main/java/org/apache/sling/feature/maven/mojos/UpdateVersionsMojo.java",
+    "line": 133,
+    "npe_method": "parseMatches",
+    "deref_field": "value",
+    "npe_class": "UpdateVersionsMojo"
+}

@@ -1,0 +1,7 @@
+{
+    "filepath": "core/src/test/java/org/apache/commons/digester3/annotations/catalog/BookFactory.java",
+    "line": 43,
+    "npe_method": "createObject",
+    "deref_field": "isbn",
+    "npe_class": "BookFactory"
+}

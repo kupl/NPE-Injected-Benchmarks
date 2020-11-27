@@ -1,0 +1,7 @@
+{
+    "filepath": "src/main/java/org/apache/maven/plugin/changelog/FileActivityComparator.java",
+    "line": 104,
+    "npe_method": "sortByRevision",
+    "deref_field": "revision2",
+    "npe_class": "FileActivityComparator"
+}

@@ -3,28 +3,6 @@
     "bugs": [
         {
             "repo": "sling-org-apache-sling-servlets-post",
-            "bug_id": "ChunkCleanUpTask_173",
-            "npe_info": {
-                "filepath": "src/main/java/org/apache/sling/servlets/post/impl/helper/ChunkCleanUpTask.java",
-                "line": 174,
-                "deref_field": "lastChunkNode",
-                "npe_class": "ChunkCleanUpTask",
-                "npe_method": "isEligibleForCleanUp",
-                "sink_field": null,
-                "jvmti_identify_succeed": null,
-                "is_original": null
-            },
-            "build_info": {
-                "compiled": false,
-                "build_command": null,
-                "java_version": null,
-                "error_message": "Compilation failure",
-                "time": null
-            },
-            "test_info": null
-        },
-        {
-            "repo": "sling-org-apache-sling-servlets-post",
             "bug_id": "SlingPropertyValueHandler_277",
             "npe_info": {
                 "filepath": "src/main/java/org/apache/sling/servlets/post/impl/helper/SlingPropertyValueHandler.java",
@@ -43,29 +21,9 @@
                 "error_message": "Compilation failure",
                 "time": null
             },
-            "test_info": null
-        },
-        {
-            "repo": "sling-org-apache-sling-servlets-post",
-            "bug_id": "SlingPropertyValueHandler_417",
-            "npe_info": {
-                "filepath": "src/main/java/org/apache/sling/servlets/post/impl/helper/SlingPropertyValueHandler.java",
-                "line": 385,
-                "deref_field": "removePath",
-                "npe_class": "SlingPropertyValueHandler",
-                "npe_method": "removeIfSingleValueProperty",
-                "sink_field": null,
-                "jvmti_identify_succeed": null,
-                "is_original": null
-            },
-            "build_info": {
-                "compiled": false,
-                "build_command": null,
-                "java_version": null,
-                "error_message": "Compilation failure",
-                "time": null
-            },
-            "test_info": null
+            "test_info": null,
+            "patches": [],
+            "time_to_generate_patches": 0
         },
         {
             "repo": "sling-org-apache-sling-servlets-post",
@@ -87,29 +45,9 @@
                 "error_message": "Compilation failure",
                 "time": null
             },
-            "test_info": null
-        },
-        {
-            "repo": "sling-org-apache-sling-servlets-post",
-            "bug_id": "SlingPropertyValueHandler_384",
-            "npe_info": {
-                "filepath": "src/main/java/org/apache/sling/servlets/post/impl/helper/SlingPropertyValueHandler.java",
-                "line": 385,
-                "deref_field": "removePath",
-                "npe_class": "SlingPropertyValueHandler",
-                "npe_method": "clearProperty",
-                "sink_field": null,
-                "jvmti_identify_succeed": null,
-                "is_original": null
-            },
-            "build_info": {
-                "compiled": false,
-                "build_command": null,
-                "java_version": null,
-                "error_message": "Compilation failure",
-                "time": null
-            },
-            "test_info": null
+            "test_info": null,
+            "patches": [],
+            "time_to_generate_patches": 0
         },
         {
             "repo": "sling-org-apache-sling-servlets-post",
@@ -131,34 +69,9 @@
                 "error_message": "Compilation failure",
                 "time": null
             },
-            "test_info": null
-        },
-        {
-            "repo": "sling-org-apache-sling-servlets-post",
-            "bug_id": "SlingFileUploadHandler_219",
-            "npe_info": {
-                "filepath": "src/main/java/org/apache/sling/servlets/post/impl/helper/SlingFileUploadHandler.java",
-                "line": 273,
-                "deref_field": "get(java.lang.Object)",
-                "npe_class": "SlingFileUploadHandler",
-                "npe_method": "processChunk",
-                "sink_field": null,
-                "jvmti_identify_succeed": null,
-                "is_original": null
-            },
-            "build_info": {
-                "compiled": true,
-                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "java_version": 8,
-                "error_message": null,
-                "time": 14.880389780038968
-            },
-            "test_info": {
-                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "fail_buggy": false,
-                "pass_fixed": true,
-                "testcases": []
-            }
+            "test_info": null,
+            "patches": [],
+            "time_to_generate_patches": 0
         },
         {
             "repo": "sling-org-apache-sling-servlets-post",
@@ -185,34 +98,9 @@
                 "fail_buggy": false,
                 "pass_fixed": true,
                 "testcases": []
-            }
-        },
-        {
-            "repo": "sling-org-apache-sling-servlets-post",
-            "bug_id": "DefaultNodeNameGenerator_77",
-            "npe_info": {
-                "filepath": "src/main/java/org/apache/sling/servlets/post/impl/helper/DefaultNodeNameGenerator.java",
-                "line": 78,
-                "deref_field": "specialParam",
-                "npe_class": "DefaultNodeNameGenerator",
-                "npe_method": "getNodeName",
-                "sink_field": null,
-                "jvmti_identify_succeed": null,
-                "is_original": null
             },
-            "build_info": {
-                "compiled": true,
-                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "java_version": 8,
-                "error_message": null,
-                "time": 22.051684634992853
-            },
-            "test_info": {
-                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "fail_buggy": false,
-                "pass_fixed": true,
-                "testcases": []
-            }
+            "patches": [],
+            "time_to_generate_patches": 0
         },
         {
             "repo": "sling-org-apache-sling-servlets-post",
@@ -270,34 +158,9 @@
                         "stack_trace": "junit.framework.AssertionFailedError\n\tat org.apache.sling.servlets.post.impl.SlingPostServletTest.testGetJsonResponse(SlingPostServletTest.java:87)\n"
                     }
                 ]
-            }
-        },
-        {
-            "repo": "sling-org-apache-sling-servlets-post",
-            "bug_id": "MediaRangeList_229",
-            "npe_info": {
-                "filepath": "src/main/java/org/apache/sling/servlets/post/impl/helper/MediaRangeList.java",
-                "line": 229,
-                "deref_field": "supertype",
-                "npe_class": "MediaRange",
-                "npe_method": "setType",
-                "sink_field": null,
-                "jvmti_identify_succeed": null,
-                "is_original": null
             },
-            "build_info": {
-                "compiled": true,
-                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "java_version": 8,
-                "error_message": null,
-                "time": 20.395215347176418
-            },
-            "test_info": {
-                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "fail_buggy": false,
-                "pass_fixed": true,
-                "testcases": []
-            }
+            "patches": [],
+            "time_to_generate_patches": 0
         },
         {
             "repo": "sling-org-apache-sling-servlets-post",
@@ -324,34 +187,9 @@
                 "fail_buggy": false,
                 "pass_fixed": true,
                 "testcases": []
-            }
-        },
-        {
-            "repo": "sling-org-apache-sling-servlets-post",
-            "bug_id": "SlingPropertyValueHandler_463",
-            "npe_info": {
-                "filepath": "src/main/java/org/apache/sling/servlets/post/impl/helper/SlingPropertyValueHandler.java",
-                "line": 464,
-                "deref_field": "c",
-                "npe_class": "SlingPropertyValueHandler",
-                "npe_method": "storeAsDate",
-                "sink_field": null,
-                "jvmti_identify_succeed": null,
-                "is_original": null
             },
-            "build_info": {
-                "compiled": true,
-                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "java_version": 8,
-                "error_message": null,
-                "time": 21.805859799031168
-            },
-            "test_info": {
-                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "fail_buggy": false,
-                "pass_fixed": true,
-                "testcases": []
-            }
+            "patches": [],
+            "time_to_generate_patches": 0
         },
         {
             "repo": "sling-org-apache-sling-servlets-post",
@@ -378,34 +216,9 @@
                 "fail_buggy": false,
                 "pass_fixed": true,
                 "testcases": []
-            }
-        },
-        {
-            "repo": "sling-org-apache-sling-servlets-post",
-            "bug_id": "SlingFileUploadHandler_494",
-            "npe_info": {
-                "filepath": "src/main/java/org/apache/sling/servlets/post/impl/helper/SlingFileUploadHandler.java",
-                "line": 495,
-                "deref_field": "mixinTypes",
-                "npe_class": "SlingFileUploadHandler",
-                "npe_method": "hasChunks",
-                "sink_field": null,
-                "jvmti_identify_succeed": null,
-                "is_original": null
             },
-            "build_info": {
-                "compiled": true,
-                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "java_version": 8,
-                "error_message": null,
-                "time": 21.52392363315448
-            },
-            "test_info": {
-                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "fail_buggy": false,
-                "pass_fixed": true,
-                "testcases": []
-            }
+            "patches": [],
+            "time_to_generate_patches": 0
         },
         {
             "repo": "sling-org-apache-sling-servlets-post",
@@ -432,34 +245,9 @@
                 "fail_buggy": true,
                 "pass_fixed": true,
                 "testcases": []
-            }
-        },
-        {
-            "repo": "sling-org-apache-sling-servlets-post",
-            "bug_id": "DefaultNodeNameGenerator_101",
-            "npe_info": {
-                "filepath": "src/main/java/org/apache/sling/servlets/post/impl/helper/DefaultNodeNameGenerator.java",
-                "line": 102,
-                "deref_field": "pp",
-                "npe_class": "DefaultNodeNameGenerator",
-                "npe_method": "getNodeName",
-                "sink_field": null,
-                "jvmti_identify_succeed": null,
-                "is_original": null
             },
-            "build_info": {
-                "compiled": true,
-                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "java_version": 8,
-                "error_message": null,
-                "time": 20.81929265311919
-            },
-            "test_info": {
-                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "fail_buggy": false,
-                "pass_fixed": true,
-                "testcases": []
-            }
+            "patches": [],
+            "time_to_generate_patches": 0
         },
         {
             "repo": "sling-org-apache-sling-servlets-post",
@@ -493,34 +281,9 @@
                         "stack_trace": "java.lang.NullPointerException\n\tat org.apache.sling.servlets.post.impl.helper.HtmlResponseProxyTest.testConstructor(HtmlResponseProxyTest.java:30)\n"
                     }
                 ]
-            }
-        },
-        {
-            "repo": "sling-org-apache-sling-servlets-post",
-            "bug_id": "MediaRangeList_230",
-            "npe_info": {
-                "filepath": "src/main/java/org/apache/sling/servlets/post/impl/helper/MediaRangeList.java",
-                "line": 230,
-                "deref_field": "subtype",
-                "npe_class": "MediaRange",
-                "npe_method": "setType",
-                "sink_field": null,
-                "jvmti_identify_succeed": null,
-                "is_original": null
             },
-            "build_info": {
-                "compiled": true,
-                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "java_version": 8,
-                "error_message": null,
-                "time": 24.598538608057424
-            },
-            "test_info": {
-                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "fail_buggy": false,
-                "pass_fixed": true,
-                "testcases": []
-            }
+            "patches": [],
+            "time_to_generate_patches": 0
         },
         {
             "repo": "sling-org-apache-sling-servlets-post",
@@ -547,34 +310,9 @@
                 "fail_buggy": false,
                 "pass_fixed": true,
                 "testcases": []
-            }
-        },
-        {
-            "repo": "sling-org-apache-sling-servlets-post",
-            "bug_id": "JCRSupportImpl_273",
-            "npe_info": {
-                "filepath": "src/main/java/org/apache/sling/servlets/post/impl/helper/JCRSupportImpl.java",
-                "line": 274,
-                "deref_field": "result",
-                "npe_class": "JCRSupportImpl",
-                "npe_method": "searchPropertyDefinition",
-                "sink_field": null,
-                "jvmti_identify_succeed": null,
-                "is_original": null
             },
-            "build_info": {
-                "compiled": true,
-                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "java_version": 8,
-                "error_message": null,
-                "time": 22.739007756114006
-            },
-            "test_info": {
-                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "fail_buggy": false,
-                "pass_fixed": true,
-                "testcases": []
-            }
+            "patches": [],
+            "time_to_generate_patches": 0
         },
         {
             "repo": "sling-org-apache-sling-servlets-post",
@@ -608,34 +346,9 @@
                         "stack_trace": "java.lang.NullPointerException\n\tat org.apache.sling.servlets.post.impl.RequestPropertyTest.testSingleValueWithDefaultToNull(RequestPropertyTest.java:105)\n"
                     }
                 ]
-            }
-        },
-        {
-            "repo": "sling-org-apache-sling-servlets-post",
-            "bug_id": "ReferenceParser_43",
-            "npe_info": {
-                "filepath": "src/main/java/org/apache/sling/servlets/post/impl/helper/ReferenceParser.java",
-                "line": 46,
-                "deref_field": "n",
-                "npe_class": "ReferenceParser",
-                "npe_method": "parse",
-                "sink_field": null,
-                "jvmti_identify_succeed": null,
-                "is_original": null
             },
-            "build_info": {
-                "compiled": true,
-                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "java_version": 8,
-                "error_message": null,
-                "time": 23.098914443980902
-            },
-            "test_info": {
-                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "fail_buggy": false,
-                "pass_fixed": true,
-                "testcases": []
-            }
+            "patches": [],
+            "time_to_generate_patches": 0
         },
         {
             "repo": "sling-org-apache-sling-servlets-post",
@@ -662,34 +375,9 @@
                 "fail_buggy": false,
                 "pass_fixed": true,
                 "testcases": []
-            }
-        },
-        {
-            "repo": "sling-org-apache-sling-servlets-post",
-            "bug_id": "JCRSupportImpl_356",
-            "npe_info": {
-                "filepath": "src/main/java/org/apache/sling/servlets/post/impl/helper/JCRSupportImpl.java",
-                "line": 358,
-                "deref_field": "array",
-                "npe_class": "JCRSupportImpl",
-                "npe_method": "storeAsReference",
-                "sink_field": null,
-                "jvmti_identify_succeed": null,
-                "is_original": null
             },
-            "build_info": {
-                "compiled": true,
-                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "java_version": 8,
-                "error_message": null,
-                "time": 22.558653635904193
-            },
-            "test_info": {
-                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "fail_buggy": false,
-                "pass_fixed": true,
-                "testcases": []
-            }
+            "patches": [],
+            "time_to_generate_patches": 0
         },
         {
             "repo": "sling-org-apache-sling-servlets-post",
@@ -716,34 +404,9 @@
                 "fail_buggy": false,
                 "pass_fixed": true,
                 "testcases": []
-            }
-        },
-        {
-            "repo": "sling-org-apache-sling-servlets-post",
-            "bug_id": "SlingFileUploadHandler_437",
-            "npe_info": {
-                "filepath": "src/main/java/org/apache/sling/servlets/post/impl/helper/SlingFileUploadHandler.java",
-                "line": 440,
-                "deref_field": "mixins",
-                "npe_class": "SlingFileUploadHandler",
-                "npe_method": "addChunkMixin",
-                "sink_field": null,
-                "jvmti_identify_succeed": null,
-                "is_original": null
             },
-            "build_info": {
-                "compiled": true,
-                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "java_version": 8,
-                "error_message": null,
-                "time": 25.766519997036085
-            },
-            "test_info": {
-                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "fail_buggy": false,
-                "pass_fixed": true,
-                "testcases": []
-            }
+            "patches": [],
+            "time_to_generate_patches": 0
         },
         {
             "repo": "sling-org-apache-sling-servlets-post",
@@ -770,34 +433,9 @@
                 "fail_buggy": false,
                 "pass_fixed": true,
                 "testcases": []
-            }
-        },
-        {
-            "repo": "sling-org-apache-sling-servlets-post",
-            "bug_id": "SlingFileUploadHandler_128",
-            "npe_info": {
-                "filepath": "src/main/java/org/apache/sling/servlets/post/impl/helper/SlingFileUploadHandler.java",
-                "line": 129,
-                "deref_field": "typeHint",
-                "npe_class": "SlingFileUploadHandler",
-                "npe_method": "setFile",
-                "sink_field": null,
-                "jvmti_identify_succeed": null,
-                "is_original": null
             },
-            "build_info": {
-                "compiled": true,
-                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "java_version": 8,
-                "error_message": null,
-                "time": 22.02401860198006
-            },
-            "test_info": {
-                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "fail_buggy": false,
-                "pass_fixed": true,
-                "testcases": []
-            }
+            "patches": [],
+            "time_to_generate_patches": 0
         },
         {
             "repo": "sling-org-apache-sling-servlets-post",
@@ -824,34 +462,9 @@
                 "fail_buggy": false,
                 "pass_fixed": true,
                 "testcases": []
-            }
-        },
-        {
-            "repo": "sling-org-apache-sling-servlets-post",
-            "bug_id": "ReferenceParser_65",
-            "npe_info": {
-                "filepath": "src/main/java/org/apache/sling/servlets/post/impl/helper/ReferenceParser.java",
-                "line": 68,
-                "deref_field": "n",
-                "npe_class": "ReferenceParser",
-                "npe_method": "parse",
-                "sink_field": null,
-                "jvmti_identify_succeed": null,
-                "is_original": null
             },
-            "build_info": {
-                "compiled": true,
-                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "java_version": 8,
-                "error_message": null,
-                "time": 22.21193344099447
-            },
-            "test_info": {
-                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "fail_buggy": false,
-                "pass_fixed": true,
-                "testcases": []
-            }
+            "patches": [],
+            "time_to_generate_patches": 0
         },
         {
             "repo": "sling-org-apache-sling-servlets-post",
@@ -878,34 +491,9 @@
                 "fail_buggy": false,
                 "pass_fixed": true,
                 "testcases": []
-            }
-        },
-        {
-            "repo": "sling-org-apache-sling-servlets-post",
-            "bug_id": "DefaultNodeNameGenerator_85",
-            "npe_info": {
-                "filepath": "src/main/java/org/apache/sling/servlets/post/impl/helper/DefaultNodeNameGenerator.java",
-                "line": 86,
-                "deref_field": "specialParam",
-                "npe_class": "DefaultNodeNameGenerator",
-                "npe_method": "getNodeName",
-                "sink_field": null,
-                "jvmti_identify_succeed": null,
-                "is_original": null
             },
-            "build_info": {
-                "compiled": true,
-                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "java_version": 8,
-                "error_message": null,
-                "time": 21.444177814060822
-            },
-            "test_info": {
-                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "fail_buggy": false,
-                "pass_fixed": true,
-                "testcases": []
-            }
+            "patches": [],
+            "time_to_generate_patches": 0
         },
         {
             "repo": "sling-org-apache-sling-servlets-post",
@@ -932,34 +520,9 @@
                 "fail_buggy": false,
                 "pass_fixed": true,
                 "testcases": []
-            }
-        },
-        {
-            "repo": "sling-org-apache-sling-servlets-post",
-            "bug_id": "JCRSupportImpl_173",
-            "npe_info": {
-                "filepath": "src/main/java/org/apache/sling/servlets/post/impl/helper/JCRSupportImpl.java",
-                "line": 175,
-                "deref_field": "node",
-                "npe_class": "JCRSupportImpl",
-                "npe_method": "checkin",
-                "sink_field": null,
-                "jvmti_identify_succeed": null,
-                "is_original": null
             },
-            "build_info": {
-                "compiled": true,
-                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "java_version": 8,
-                "error_message": null,
-                "time": 25.588929824065417
-            },
-            "test_info": {
-                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "fail_buggy": false,
-                "pass_fixed": true,
-                "testcases": []
-            }
+            "patches": [],
+            "time_to_generate_patches": 0
         },
         {
             "repo": "sling-org-apache-sling-servlets-post",
@@ -986,34 +549,9 @@
                 "fail_buggy": false,
                 "pass_fixed": true,
                 "testcases": []
-            }
-        },
-        {
-            "repo": "sling-org-apache-sling-servlets-post",
-            "bug_id": "ChunkCleanUpTask_148",
-            "npe_info": {
-                "filepath": "src/main/java/org/apache/sling/servlets/post/impl/helper/ChunkCleanUpTask.java",
-                "line": 149,
-                "deref_field": "admin",
-                "npe_class": "ChunkCleanUpTask",
-                "npe_method": "cleanup",
-                "sink_field": null,
-                "jvmti_identify_succeed": null,
-                "is_original": null
             },
-            "build_info": {
-                "compiled": true,
-                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "java_version": 8,
-                "error_message": null,
-                "time": 19.076397369150072
-            },
-            "test_info": {
-                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "fail_buggy": false,
-                "pass_fixed": true,
-                "testcases": []
-            }
+            "patches": [],
+            "time_to_generate_patches": 0
         },
         {
             "repo": "sling-org-apache-sling-servlets-post",
@@ -1040,34 +578,9 @@
                 "fail_buggy": false,
                 "pass_fixed": true,
                 "testcases": []
-            }
-        },
-        {
-            "repo": "sling-org-apache-sling-servlets-post",
-            "bug_id": "SlingPropertyValueHandler_400",
-            "npe_info": {
-                "filepath": "src/main/java/org/apache/sling/servlets/post/impl/helper/SlingPropertyValueHandler.java",
-                "line": 385,
-                "deref_field": "removePath",
-                "npe_class": "SlingPropertyValueHandler",
-                "npe_method": "removeProperty",
-                "sink_field": null,
-                "jvmti_identify_succeed": null,
-                "is_original": null
             },
-            "build_info": {
-                "compiled": true,
-                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "java_version": 8,
-                "error_message": null,
-                "time": 22.79326180391945
-            },
-            "test_info": {
-                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "fail_buggy": false,
-                "pass_fixed": true,
-                "testcases": []
-            }
+            "patches": [],
+            "time_to_generate_patches": 0
         },
         {
             "repo": "sling-org-apache-sling-servlets-post",
@@ -1094,34 +607,9 @@
                 "fail_buggy": false,
                 "pass_fixed": true,
                 "testcases": []
-            }
-        },
-        {
-            "repo": "sling-org-apache-sling-servlets-post",
-            "bug_id": "SlingFileUploadHandler_580",
-            "npe_info": {
-                "filepath": "src/main/java/org/apache/sling/servlets/post/impl/helper/SlingFileUploadHandler.java",
-                "line": 583,
-                "deref_field": "typeHint",
-                "npe_class": "SlingFileUploadHandler",
-                "npe_method": "createWithChanges",
-                "sink_field": null,
-                "jvmti_identify_succeed": null,
-                "is_original": null
             },
-            "build_info": {
-                "compiled": true,
-                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "java_version": 8,
-                "error_message": null,
-                "time": 20.594961285125464
-            },
-            "test_info": {
-                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "fail_buggy": false,
-                "pass_fixed": true,
-                "testcases": []
-            }
+            "patches": [],
+            "time_to_generate_patches": 0
         },
         {
             "repo": "sling-org-apache-sling-servlets-post",
@@ -1148,34 +636,9 @@
                 "fail_buggy": false,
                 "pass_fixed": true,
                 "testcases": []
-            }
-        },
-        {
-            "repo": "sling-org-apache-sling-servlets-post",
-            "bug_id": "JCRSupportImpl_287",
-            "npe_info": {
-                "filepath": "src/main/java/org/apache/sling/servlets/post/impl/helper/JCRSupportImpl.java",
-                "line": 289,
-                "deref_field": "pd",
-                "npe_class": "JCRSupportImpl",
-                "npe_method": "isPropertyProtectedOrNewAutoCreated",
-                "sink_field": null,
-                "jvmti_identify_succeed": null,
-                "is_original": null
             },
-            "build_info": {
-                "compiled": true,
-                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "java_version": 8,
-                "error_message": null,
-                "time": 21.084297341061756
-            },
-            "test_info": {
-                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "fail_buggy": false,
-                "pass_fixed": true,
-                "testcases": []
-            }
+            "patches": [],
+            "time_to_generate_patches": 0
         },
         {
             "repo": "sling-org-apache-sling-servlets-post",
@@ -1202,34 +665,9 @@
                 "fail_buggy": false,
                 "pass_fixed": true,
                 "testcases": []
-            }
-        },
-        {
-            "repo": "sling-org-apache-sling-servlets-post",
-            "bug_id": "JCRSupportImpl_205",
-            "npe_info": {
-                "filepath": "src/main/java/org/apache/sling/servlets/post/impl/helper/JCRSupportImpl.java",
-                "line": 207,
-                "deref_field": "node",
-                "npe_class": "JCRSupportImpl",
-                "npe_method": "checkoutIfNecessary",
-                "sink_field": null,
-                "jvmti_identify_succeed": null,
-                "is_original": null
             },
-            "build_info": {
-                "compiled": true,
-                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "java_version": 8,
-                "error_message": null,
-                "time": 19.88222502102144
-            },
-            "test_info": {
-                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "fail_buggy": false,
-                "pass_fixed": true,
-                "testcases": []
-            }
+            "patches": [],
+            "time_to_generate_patches": 0
         },
         {
             "repo": "sling-org-apache-sling-servlets-post",
@@ -1269,34 +707,9 @@
                         "stack_trace": "junit.framework.AssertionFailedError: Did not contain media type from query param\n\tat org.apache.sling.servlets.post.impl.helper.MediaRangeListTest.testHttpEquivParam(MediaRangeListTest.java:70)\n"
                     }
                 ]
-            }
-        },
-        {
-            "repo": "sling-org-apache-sling-servlets-post",
-            "bug_id": "JCRSupportImpl_253",
-            "npe_info": {
-                "filepath": "src/main/java/org/apache/sling/servlets/post/impl/helper/JCRSupportImpl.java",
-                "line": 254,
-                "deref_field": "getPropertyDefinitions()",
-                "npe_class": "JCRSupportImpl",
-                "npe_method": "searchPropertyDefinition",
-                "sink_field": null,
-                "jvmti_identify_succeed": null,
-                "is_original": null
             },
-            "build_info": {
-                "compiled": true,
-                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "java_version": 8,
-                "error_message": null,
-                "time": 20.707455295836553
-            },
-            "test_info": {
-                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "fail_buggy": false,
-                "pass_fixed": true,
-                "testcases": []
-            }
+            "patches": [],
+            "time_to_generate_patches": 0
         },
         {
             "repo": "sling-org-apache-sling-servlets-post",
@@ -1323,34 +736,9 @@
                 "fail_buggy": false,
                 "pass_fixed": true,
                 "testcases": []
-            }
-        },
-        {
-            "repo": "sling-org-apache-sling-servlets-post",
-            "bug_id": "SlingFileUploadHandler_450",
-            "npe_info": {
-                "filepath": "src/main/java/org/apache/sling/servlets/post/impl/helper/SlingFileUploadHandler.java",
-                "line": 451,
-                "deref_field": "mixins",
-                "npe_class": "SlingFileUploadHandler",
-                "npe_method": "removeChunkMixin",
-                "sink_field": null,
-                "jvmti_identify_succeed": null,
-                "is_original": null
             },
-            "build_info": {
-                "compiled": true,
-                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "java_version": 8,
-                "error_message": null,
-                "time": 21.950730607146397
-            },
-            "test_info": {
-                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "fail_buggy": false,
-                "pass_fixed": true,
-                "testcases": []
-            }
+            "patches": [],
+            "time_to_generate_patches": 0
         },
         {
             "repo": "sling-org-apache-sling-servlets-post",
@@ -1377,34 +765,9 @@
                 "fail_buggy": false,
                 "pass_fixed": true,
                 "testcases": []
-            }
-        },
-        {
-            "repo": "sling-org-apache-sling-servlets-post",
-            "bug_id": "JCRSupportImpl_270",
-            "npe_info": {
-                "filepath": "src/main/java/org/apache/sling/servlets/post/impl/helper/JCRSupportImpl.java",
-                "line": 271,
-                "deref_field": "getMixinNodeTypes()",
-                "npe_class": "JCRSupportImpl",
-                "npe_method": "searchPropertyDefinition",
-                "sink_field": null,
-                "jvmti_identify_succeed": null,
-                "is_original": null
             },
-            "build_info": {
-                "compiled": true,
-                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "java_version": 8,
-                "error_message": null,
-                "time": 20.48772621410899
-            },
-            "test_info": {
-                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "fail_buggy": false,
-                "pass_fixed": true,
-                "testcases": []
-            }
+            "patches": [],
+            "time_to_generate_patches": 0
         },
         {
             "repo": "sling-org-apache-sling-servlets-post",
@@ -1431,34 +794,9 @@
                 "fail_buggy": false,
                 "pass_fixed": true,
                 "testcases": []
-            }
-        },
-        {
-            "repo": "sling-org-apache-sling-servlets-post",
-            "bug_id": "SlingPropertyValueHandler_436",
-            "npe_info": {
-                "filepath": "src/main/java/org/apache/sling/servlets/post/impl/helper/SlingPropertyValueHandler.java",
-                "line": 439,
-                "deref_field": "c",
-                "npe_class": "SlingPropertyValueHandler",
-                "npe_method": "parse",
-                "sink_field": null,
-                "jvmti_identify_succeed": null,
-                "is_original": null
             },
-            "build_info": {
-                "compiled": true,
-                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "java_version": 8,
-                "error_message": null,
-                "time": 20.77681846311316
-            },
-            "test_info": {
-                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "fail_buggy": false,
-                "pass_fixed": true,
-                "testcases": []
-            }
+            "patches": [],
+            "time_to_generate_patches": 0
         },
         {
             "repo": "sling-org-apache-sling-servlets-post",
@@ -1485,7 +823,9 @@
                 "fail_buggy": false,
                 "pass_fixed": true,
                 "testcases": []
-            }
+            },
+            "patches": [],
+            "time_to_generate_patches": 0
         }
     ],
     "repository_info": null

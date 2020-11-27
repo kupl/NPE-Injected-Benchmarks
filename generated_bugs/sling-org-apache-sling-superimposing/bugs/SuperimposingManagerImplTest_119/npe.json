@@ -1,0 +1,7 @@
+{
+    "filepath": "src/test/java/org/apache/sling/superimposing/impl/SuperimposingManagerImplTest.java",
+    "line": 120,
+    "npe_method": "answer",
+    "deref_field": "resource",
+    "npe_class": "2"
+}

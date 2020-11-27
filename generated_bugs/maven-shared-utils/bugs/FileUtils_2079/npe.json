@@ -1,0 +1,7 @@
+{
+    "filepath": "src/main/java/org/apache/maven/shared/utils/io/FileUtils.java",
+    "line": 2081,
+    "npe_method": "isValidWindowsFileName",
+    "deref_field": "getParentFile()",
+    "npe_class": "FileUtils"
+}

@@ -1,0 +1,7 @@
+{
+    "filepath": "log4j-audit/log4j-audit-api/src/test/java/org/apache/logging/log4j/audit/catalog/StringCatalogReader.java",
+    "line": 119,
+    "npe_method": "getProduct",
+    "deref_field": "getProducts()",
+    "npe_class": "StringCatalogReader"
+}

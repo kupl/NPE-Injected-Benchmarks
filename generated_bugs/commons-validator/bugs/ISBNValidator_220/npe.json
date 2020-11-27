@@ -1,0 +1,7 @@
+{
+    "filepath": "src/main/java/org/apache/commons/validator/routines/ISBNValidator.java",
+    "line": 220,
+    "npe_method": "validateISBN10",
+    "deref_field": "result",
+    "npe_class": "ISBNValidator"
+}

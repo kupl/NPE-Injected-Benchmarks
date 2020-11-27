@@ -1,0 +1,7 @@
+{
+    "filepath": "src/main/java/org/apache/sling/jobs/impl/JobUpdateBuilderImpl.java",
+    "line": 100,
+    "npe_method": "build",
+    "deref_field": "job",
+    "npe_class": "JobUpdateBuilderImpl"
+}

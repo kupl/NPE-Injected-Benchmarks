@@ -1,0 +1,7 @@
+{
+    "filepath": "maven-plugin-plugin/src/main/java/org/apache/maven/plugin/plugin/PluginReport.java",
+    "line": 816,
+    "npe_method": "getPluginParameter",
+    "deref_field": "pluginConf",
+    "npe_class": "PluginOverviewRenderer"
+}

@@ -81,7 +81,9 @@
                         "stack_trace": "org.apache.maven.plugin.MojoExecutionException: Failed to deploy artifacts: Could not transfer artifact org.apache.maven.test:maven-deploy-file-test:jar:javadoc:1.0 from deploy-test (file:///media/4tb/npex/NPE-Injected-Benchmarks/benchmarks/maven-deploy-plugin/target/remote-repo/deploy-file-classifier): source file not specified\n\tat org.apache.maven.plugins.deploy.DeployFileMojoTest.testDeployIfClassifierIsSet(DeployFileMojoTest.java:210)\nCaused by: org.apache.maven.shared.transfer.artifact.deploy.ArtifactDeployerException: Failed to deploy artifacts: Could not transfer artifact org.apache.maven.test:maven-deploy-file-test:jar:javadoc:1.0 from deploy-test (file:///media/4tb/npex/NPE-Injected-Benchmarks/benchmarks/maven-deploy-plugin/target/remote-repo/deploy-file-classifier): source file not specified\n\tat org.apache.maven.plugins.deploy.DeployFileMojoTest.testDeployIfClassifierIsSet(DeployFileMojoTest.java:210)\nCaused by: org.sonatype.aether.deployment.DeploymentException: Failed to deploy artifacts: Could not transfer artifact org.apache.maven.test:maven-deploy-file-test:jar:javadoc:1.0 from deploy-test (file:///media/4tb/npex/NPE-Injected-Benchmarks/benchmarks/maven-deploy-plugin/target/remote-repo/deploy-file-classifier): source file not specified\n\tat org.apache.maven.plugins.deploy.DeployFileMojoTest.testDeployIfClassifierIsSet(DeployFileMojoTest.java:210)\nCaused by: org.sonatype.aether.transfer.ArtifactTransferException: Could not transfer artifact org.apache.maven.test:maven-deploy-file-test:jar:javadoc:1.0 from deploy-test (file:///media/4tb/npex/NPE-Injected-Benchmarks/benchmarks/maven-deploy-plugin/target/remote-repo/deploy-file-classifier): source file not specified\nCaused by: java.lang.IllegalArgumentException: source file not specified\n"
                     }
                 ]
-            }
+            },
+            "patches": [],
+            "time_to_generate_patches": 0
         },
         {
             "repo": "maven-deploy-plugin",
@@ -163,7 +165,9 @@
                         "stack_trace": "org.apache.maven.plugin.MojoExecutionException: ArtifactDeployerException\n\tat org.apache.maven.plugins.deploy.DeployMojoTest.testBasicDeploy(DeployMojoTest.java:167)\nCaused by: org.apache.maven.shared.transfer.artifact.deploy.ArtifactDeployerException\n\tat org.apache.maven.plugins.deploy.DeployMojoTest.testBasicDeploy(DeployMojoTest.java:167)\nCaused by: java.lang.reflect.InvocationTargetException\n\tat org.apache.maven.plugins.deploy.DeployMojoTest.testBasicDeploy(DeployMojoTest.java:167)\nCaused by: java.lang.NullPointerException\n\tat org.apache.maven.plugins.deploy.DeployMojoTest.testBasicDeploy(DeployMojoTest.java:167)\n"
                     }
                 ]
-            }
+            },
+            "patches": [],
+            "time_to_generate_patches": 0
         },
         {
             "repo": "maven-deploy-plugin",
@@ -215,7 +219,9 @@
                         "stack_trace": "org.apache.maven.artifact.InvalidArtifactRTException: For artifact {org.apache.maven.test:maven-deploy-file-test:1.0:zip}: An attached artifact must have a different ID than its corresponding main artifact.\n\tat org.apache.maven.plugins.deploy.DeployFileMojoTest.testDeployIfArtifactIsNotJar(DeployFileMojoTest.java:260)\n"
                     }
                 ]
-            }
+            },
+            "patches": [],
+            "time_to_generate_patches": 0
         },
         {
             "repo": "maven-deploy-plugin",
@@ -297,7 +303,9 @@
                         "stack_trace": "java.lang.NullPointerException\n\tat org.apache.maven.plugins.deploy.DeployFileMojoTest.testDeployIfClassifierIsSet(DeployFileMojoTest.java:210)\n"
                     }
                 ]
-            }
+            },
+            "patches": [],
+            "time_to_generate_patches": 0
         },
         {
             "repo": "maven-deploy-plugin",
@@ -379,7 +387,9 @@
                         "stack_trace": "org.apache.maven.plugin.MojoExecutionException: Failed to deploy artifacts: Could not transfer artifact org.apache.maven.test:maven-deploy-file-test:jar:sources:1.0 from deploy-test (file:///media/4tb/npex/NPE-Injected-Benchmarks/benchmarks/maven-deploy-plugin/target/remote-repo/deploy-file-classifier): source file not specified\n\tat org.apache.maven.plugins.deploy.DeployFileMojoTest.testDeployIfClassifierIsSet(DeployFileMojoTest.java:210)\nCaused by: org.apache.maven.shared.transfer.artifact.deploy.ArtifactDeployerException: Failed to deploy artifacts: Could not transfer artifact org.apache.maven.test:maven-deploy-file-test:jar:sources:1.0 from deploy-test (file:///media/4tb/npex/NPE-Injected-Benchmarks/benchmarks/maven-deploy-plugin/target/remote-repo/deploy-file-classifier): source file not specified\n\tat org.apache.maven.plugins.deploy.DeployFileMojoTest.testDeployIfClassifierIsSet(DeployFileMojoTest.java:210)\nCaused by: org.sonatype.aether.deployment.DeploymentException: Failed to deploy artifacts: Could not transfer artifact org.apache.maven.test:maven-deploy-file-test:jar:sources:1.0 from deploy-test (file:///media/4tb/npex/NPE-Injected-Benchmarks/benchmarks/maven-deploy-plugin/target/remote-repo/deploy-file-classifier): source file not specified\n\tat org.apache.maven.plugins.deploy.DeployFileMojoTest.testDeployIfClassifierIsSet(DeployFileMojoTest.java:210)\nCaused by: org.sonatype.aether.transfer.ArtifactTransferException: Could not transfer artifact org.apache.maven.test:maven-deploy-file-test:jar:sources:1.0 from deploy-test (file:///media/4tb/npex/NPE-Injected-Benchmarks/benchmarks/maven-deploy-plugin/target/remote-repo/deploy-file-classifier): source file not specified\nCaused by: java.lang.IllegalArgumentException: source file not specified\n"
                     }
                 ]
-            }
+            },
+            "patches": [],
+            "time_to_generate_patches": 0
         },
         {
             "repo": "maven-deploy-plugin",
@@ -461,7 +471,9 @@
                         "stack_trace": "org.apache.maven.plugin.MojoExecutionException: You must specify 'types' if you specify 'files'\n\tat org.apache.maven.plugins.deploy.DeployFileMojoTest.testDeployIfClassifierIsSet(DeployFileMojoTest.java:210)\n"
                     }
                 ]
-            }
+            },
+            "patches": [],
+            "time_to_generate_patches": 0
         },
         {
             "repo": "maven-deploy-plugin",
@@ -513,34 +525,9 @@
                         "stack_trace": "java.lang.NullPointerException\n\tat org.apache.maven.plugins.deploy.DeployMojoTest.testDeployWithAttachedArtifacts(DeployMojoTest.java:437)\n"
                     }
                 ]
-            }
-        },
-        {
-            "repo": "maven-deploy-plugin",
-            "bug_id": "DeployFileMojo_366",
-            "npe_info": {
-                "filepath": "src/main/java/org/apache/maven/plugins/deploy/DeployFileMojo.java",
-                "line": 370,
-                "deref_field": "pom",
-                "npe_class": "DeployFileMojo",
-                "npe_method": "execute",
-                "sink_field": null,
-                "jvmti_identify_succeed": null,
-                "is_original": null
             },
-            "build_info": {
-                "compiled": true,
-                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "java_version": 8,
-                "error_message": null,
-                "time": 18.89788127504289
-            },
-            "test_info": {
-                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "fail_buggy": false,
-                "pass_fixed": true,
-                "testcases": []
-            }
+            "patches": [],
+            "time_to_generate_patches": 0
         },
         {
             "repo": "maven-deploy-plugin",
@@ -622,7 +609,9 @@
                         "stack_trace": "java.lang.NullPointerException\n\tat org.apache.maven.plugins.deploy.DeployFileMojoTest.testDeployIfClassifierIsSet(DeployFileMojoTest.java:210)\n"
                     }
                 ]
-            }
+            },
+            "patches": [],
+            "time_to_generate_patches": 0
         },
         {
             "repo": "maven-deploy-plugin",
@@ -704,7 +693,9 @@
                         "stack_trace": "java.lang.NullPointerException\n\tat org.apache.maven.plugins.deploy.DeployMojoTest.testDeployWithAttachedArtifacts(DeployMojoTest.java:437)\n"
                     }
                 ]
-            }
+            },
+            "patches": [],
+            "time_to_generate_patches": 0
         }
     ],
     "repository_info": null

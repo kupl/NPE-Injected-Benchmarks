@@ -1,0 +1,7 @@
+{
+    "filepath": "src/main/java/org/apache/sling/jobs/impl/JobManagerImpl.java",
+    "line": 99,
+    "npe_method": "retryJobById",
+    "deref_field": "job",
+    "npe_class": "JobManagerImpl"
+}

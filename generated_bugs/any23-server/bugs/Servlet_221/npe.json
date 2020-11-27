@@ -1,0 +1,7 @@
+{
+    "filepath": "src/main/java/org/apache/any23/servlet/Servlet.java",
+    "line": 222,
+    "npe_method": "getInputIRIFromRequest",
+    "deref_field": "getParameter(java.lang.String)",
+    "npe_class": "Servlet"
+}

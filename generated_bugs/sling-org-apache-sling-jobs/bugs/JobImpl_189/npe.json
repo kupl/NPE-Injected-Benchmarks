@@ -1,0 +1,7 @@
+{
+    "filepath": "src/main/java/org/apache/sling/jobs/impl/JobImpl.java",
+    "line": 190,
+    "npe_method": "update",
+    "deref_field": "jobController",
+    "npe_class": "JobImpl"
+}

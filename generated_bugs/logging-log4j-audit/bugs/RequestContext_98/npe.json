@@ -1,0 +1,7 @@
+{
+    "filepath": "log4j-audit/log4j-audit-api/src/test/java/org/apache/logging/log4j/audit/RequestContext.java",
+    "line": 99,
+    "npe_method": "setSessionId",
+    "deref_field": "sessionId",
+    "npe_class": "RequestContext"
+}

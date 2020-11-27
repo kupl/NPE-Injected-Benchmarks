@@ -1,0 +1,7 @@
+{
+    "filepath": "src/test/java/org/apache/any23/servlet/ServletTest.java",
+    "line": 518,
+    "npe_method": "createHTTPDocumentSource",
+    "deref_field": "org.apache.any23.servlet.ServletTest.content",
+    "npe_class": "TestableServlet"
+}

@@ -3,33 +3,6 @@
     "bugs": [
         {
             "repo": "maven-changelog-plugin",
-            "bug_id": "ChangeLogReport_1259",
-            "npe_info": {
-                "filepath": "src/main/java/org/apache/maven/plugin/changelog/ChangeLogReport.java",
-                "line": 1269,
-                "deref_field": "getEndDate()",
-                "npe_class": "ChangeLogReport",
-                "npe_method": "doChangeSetTitle",
-                "sink_field": null,
-                "jvmti_identify_succeed": null,
-                "is_original": null
-            },
-            "build_info": {
-                "compiled": true,
-                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "java_version": 8,
-                "error_message": null,
-                "time": 16.9114699291531
-            },
-            "test_info": {
-                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "fail_buggy": false,
-                "pass_fixed": true,
-                "testcases": []
-            }
-        },
-        {
-            "repo": "maven-changelog-plugin",
             "bug_id": "ChangeLogReport_1027",
             "npe_info": {
                 "filepath": "src/main/java/org/apache/maven/plugin/changelog/ChangeLogReport.java",
@@ -53,34 +26,9 @@
                 "fail_buggy": false,
                 "pass_fixed": true,
                 "testcases": []
-            }
-        },
-        {
-            "repo": "maven-changelog-plugin",
-            "bug_id": "ChangeLogReport_1051",
-            "npe_info": {
-                "filepath": "src/main/java/org/apache/maven/plugin/changelog/ChangeLogReport.java",
-                "line": 1056,
-                "deref_field": "getScm()",
-                "npe_class": "ChangeLogReport",
-                "npe_method": "getConnection",
-                "sink_field": null,
-                "jvmti_identify_succeed": null,
-                "is_original": null
             },
-            "build_info": {
-                "compiled": true,
-                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "java_version": 8,
-                "error_message": null,
-                "time": 16.98102461406961
-            },
-            "test_info": {
-                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "fail_buggy": false,
-                "pass_fixed": true,
-                "testcases": []
-            }
+            "patches": [],
+            "time_to_generate_patches": 0
         },
         {
             "repo": "maven-changelog-plugin",
@@ -107,34 +55,9 @@
                 "fail_buggy": false,
                 "pass_fixed": true,
                 "testcases": []
-            }
-        },
-        {
-            "repo": "maven-changelog-plugin",
-            "bug_id": "ChangeLogReport_1300",
-            "npe_info": {
-                "filepath": "src/main/java/org/apache/maven/plugin/changelog/ChangeLogReport.java",
-                "line": 1305,
-                "deref_field": "entries",
-                "npe_class": "ChangeLogReport",
-                "npe_method": "countFilesChanged",
-                "sink_field": null,
-                "jvmti_identify_succeed": null,
-                "is_original": null
             },
-            "build_info": {
-                "compiled": true,
-                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "java_version": 8,
-                "error_message": null,
-                "time": 13.54510756698437
-            },
-            "test_info": {
-                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "fail_buggy": false,
-                "pass_fixed": true,
-                "testcases": []
-            }
+            "patches": [],
+            "time_to_generate_patches": 0
         },
         {
             "repo": "maven-changelog-plugin",
@@ -161,34 +84,9 @@
                 "fail_buggy": false,
                 "pass_fixed": true,
                 "testcases": []
-            }
-        },
-        {
-            "repo": "maven-changelog-plugin",
-            "bug_id": "ChangeLogReport_1544",
-            "npe_info": {
-                "filepath": "src/main/java/org/apache/maven/plugin/changelog/ChangeLogReport.java",
-                "line": 1546,
-                "deref_field": "scmUrl",
-                "npe_class": "ChangeLogReport",
-                "npe_method": "initReportUrls",
-                "sink_field": null,
-                "jvmti_identify_succeed": null,
-                "is_original": null
             },
-            "build_info": {
-                "compiled": true,
-                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "java_version": 8,
-                "error_message": null,
-                "time": 17.54810976306908
-            },
-            "test_info": {
-                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "fail_buggy": false,
-                "pass_fixed": true,
-                "testcases": []
-            }
+            "patches": [],
+            "time_to_generate_patches": 0
         },
         {
             "repo": "maven-changelog-plugin",
@@ -215,34 +113,9 @@
                 "fail_buggy": false,
                 "pass_fixed": true,
                 "testcases": []
-            }
-        },
-        {
-            "repo": "maven-changelog-plugin",
-            "bug_id": "ChangeLogReport_768",
-            "npe_info": {
-                "filepath": "src/main/java/org/apache/maven/plugin/changelog/ChangeLogReport.java",
-                "line": 777,
-                "deref_field": "tag",
-                "npe_class": "ChangeLogReport",
-                "npe_method": "getRevisionForTag",
-                "sink_field": null,
-                "jvmti_identify_succeed": null,
-                "is_original": null
             },
-            "build_info": {
-                "compiled": true,
-                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "java_version": 8,
-                "error_message": null,
-                "time": 12.993164324900135
-            },
-            "test_info": {
-                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "fail_buggy": false,
-                "pass_fixed": true,
-                "testcases": []
-            }
+            "patches": [],
+            "time_to_generate_patches": 0
         },
         {
             "repo": "maven-changelog-plugin",
@@ -269,7 +142,9 @@
                 "fail_buggy": false,
                 "pass_fixed": true,
                 "testcases": []
-            }
+            },
+            "patches": [],
+            "time_to_generate_patches": 0
         },
         {
             "repo": "maven-changelog-plugin",
@@ -1173,34 +1048,9 @@
                         "stack_trace": "java.lang.NullPointerException\n\tat org.apache.maven.plugin.changelog.ChangeLogReportTest.executeMojo(ChangeLogReportTest.java:211)\n\tat org.apache.maven.plugin.changelog.ChangeLogReportTest.testDatesType(ChangeLogReportTest.java:167)\n"
                     }
                 ]
-            }
-        },
-        {
-            "repo": "maven-changelog-plugin",
-            "bug_id": "ChangeLogReport_1255",
-            "npe_info": {
-                "filepath": "src/main/java/org/apache/maven/plugin/changelog/ChangeLogReport.java",
-                "line": 1262,
-                "deref_field": "getStartDate()",
-                "npe_class": "ChangeLogReport",
-                "npe_method": "doChangeSetTitle",
-                "sink_field": null,
-                "jvmti_identify_succeed": null,
-                "is_original": null
             },
-            "build_info": {
-                "compiled": true,
-                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "java_version": 8,
-                "error_message": null,
-                "time": 14.218430783133954
-            },
-            "test_info": {
-                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "fail_buggy": false,
-                "pass_fixed": true,
-                "testcases": []
-            }
+            "patches": [],
+            "time_to_generate_patches": 0
         },
         {
             "repo": "maven-changelog-plugin",
@@ -1227,34 +1077,9 @@
                 "fail_buggy": false,
                 "pass_fixed": true,
                 "testcases": []
-            }
-        },
-        {
-            "repo": "maven-changelog-plugin",
-            "bug_id": "SvnInfoCommandExpanded_182",
-            "npe_info": {
-                "filepath": "src/main/java/org/apache/maven/scm/provider/svn/svnexe/command/info/SvnInfoCommandExpanded.java",
-                "line": 190,
-                "deref_field": "repository",
-                "npe_class": "SvnInfoCommandExpanded",
-                "npe_method": "createTagCommandLine",
-                "sink_field": null,
-                "jvmti_identify_succeed": null,
-                "is_original": null
             },
-            "build_info": {
-                "compiled": true,
-                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "java_version": 8,
-                "error_message": null,
-                "time": 14.7005444529932
-            },
-            "test_info": {
-                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "fail_buggy": false,
-                "pass_fixed": true,
-                "testcases": []
-            }
+            "patches": [],
+            "time_to_generate_patches": 0
         },
         {
             "repo": "maven-changelog-plugin",
@@ -1281,34 +1106,9 @@
                 "fail_buggy": false,
                 "pass_fixed": true,
                 "testcases": []
-            }
-        },
-        {
-            "repo": "maven-changelog-plugin",
-            "bug_id": "ChangeLogReport_811",
-            "npe_info": {
-                "filepath": "src/main/java/org/apache/maven/plugin/changelog/ChangeLogReport.java",
-                "line": 815,
-                "deref_field": "patternArray",
-                "npe_class": "ChangeLogReport",
-                "npe_method": "compilePatterns",
-                "sink_field": null,
-                "jvmti_identify_succeed": null,
-                "is_original": null
             },
-            "build_info": {
-                "compiled": true,
-                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "java_version": 8,
-                "error_message": null,
-                "time": 13.754492972046137
-            },
-            "test_info": {
-                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "fail_buggy": false,
-                "pass_fixed": true,
-                "testcases": []
-            }
+            "patches": [],
+            "time_to_generate_patches": 0
         },
         {
             "repo": "maven-changelog-plugin",
@@ -1335,34 +1135,9 @@
                 "fail_buggy": false,
                 "pass_fixed": true,
                 "testcases": []
-            }
-        },
-        {
-            "repo": "maven-changelog-plugin",
-            "bug_id": "FileActivityComparator_94",
-            "npe_info": {
-                "filepath": "src/main/java/org/apache/maven/plugin/changelog/FileActivityComparator.java",
-                "line": 104,
-                "deref_field": "revision1",
-                "npe_class": "FileActivityComparator",
-                "npe_method": "sortByRevision",
-                "sink_field": null,
-                "jvmti_identify_succeed": null,
-                "is_original": null
             },
-            "build_info": {
-                "compiled": true,
-                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "java_version": 8,
-                "error_message": null,
-                "time": 15.01741951983422
-            },
-            "test_info": {
-                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "fail_buggy": false,
-                "pass_fixed": true,
-                "testcases": []
-            }
+            "patches": [],
+            "time_to_generate_patches": 0
         },
         {
             "repo": "maven-changelog-plugin",
@@ -2260,34 +2035,9 @@
                         "stack_trace": "java.lang.NullPointerException\n\tat org.apache.maven.plugin.changelog.ChangeLogReportTest.executeMojo(ChangeLogReportTest.java:211)\n\tat org.apache.maven.plugin.changelog.ChangeLogReportTest.testDatesType(ChangeLogReportTest.java:167)\n"
                     }
                 ]
-            }
-        },
-        {
-            "repo": "maven-changelog-plugin",
-            "bug_id": "ChangeLogReport_1744",
-            "npe_info": {
-                "filepath": "src/main/java/org/apache/maven/plugin/changelog/ChangeLogReport.java",
-                "line": 1746,
-                "deref_field": "linkRev",
-                "npe_class": "ChangeLogReport",
-                "npe_method": "generateLinks",
-                "sink_field": null,
-                "jvmti_identify_succeed": null,
-                "is_original": null
             },
-            "build_info": {
-                "compiled": true,
-                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "java_version": 8,
-                "error_message": null,
-                "time": 14.095942378975451
-            },
-            "test_info": {
-                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "fail_buggy": false,
-                "pass_fixed": true,
-                "testcases": []
-            }
+            "patches": [],
+            "time_to_generate_patches": 0
         },
         {
             "repo": "maven-changelog-plugin",
@@ -2314,34 +2064,9 @@
                 "fail_buggy": false,
                 "pass_fixed": true,
                 "testcases": []
-            }
-        },
-        {
-            "repo": "maven-changelog-plugin",
-            "bug_id": "ChangeLogReport_1712",
-            "npe_info": {
-                "filepath": "src/main/java/org/apache/maven/plugin/changelog/ChangeLogReport.java",
-                "line": 1714,
-                "deref_field": "revision",
-                "npe_class": "ChangeLogReport",
-                "npe_method": "generateLinks",
-                "sink_field": null,
-                "jvmti_identify_succeed": null,
-                "is_original": null
             },
-            "build_info": {
-                "compiled": true,
-                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "java_version": 8,
-                "error_message": null,
-                "time": 10.598942826036364
-            },
-            "test_info": {
-                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "fail_buggy": false,
-                "pass_fixed": true,
-                "testcases": []
-            }
+            "patches": [],
+            "time_to_generate_patches": 0
         },
         {
             "repo": "maven-changelog-plugin",
@@ -2368,34 +2093,9 @@
                 "fail_buggy": false,
                 "pass_fixed": true,
                 "testcases": []
-            }
-        },
-        {
-            "repo": "maven-changelog-plugin",
-            "bug_id": "ChangeLogReport_1645",
-            "npe_info": {
-                "filepath": "src/main/java/org/apache/maven/plugin/changelog/ChangeLogReport.java",
-                "line": 1647,
-                "deref_field": "linkFile",
-                "npe_class": "ChangeLogReport",
-                "npe_method": "generateLinks",
-                "sink_field": null,
-                "jvmti_identify_succeed": null,
-                "is_original": null
             },
-            "build_info": {
-                "compiled": true,
-                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "java_version": 8,
-                "error_message": null,
-                "time": 14.405250801006332
-            },
-            "test_info": {
-                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "fail_buggy": false,
-                "pass_fixed": true,
-                "testcases": []
-            }
+            "patches": [],
+            "time_to_generate_patches": 0
         },
         {
             "repo": "maven-changelog-plugin",
@@ -2422,34 +2122,9 @@
                 "fail_buggy": false,
                 "pass_fixed": true,
                 "testcases": []
-            }
-        },
-        {
-            "repo": "maven-changelog-plugin",
-            "bug_id": "ChangeLogReport_1750",
-            "npe_info": {
-                "filepath": "src/main/java/org/apache/maven/plugin/changelog/ChangeLogReport.java",
-                "line": 1752,
-                "deref_field": "revision",
-                "npe_class": "ChangeLogReport",
-                "npe_method": "generateLinks",
-                "sink_field": null,
-                "jvmti_identify_succeed": null,
-                "is_original": null
             },
-            "build_info": {
-                "compiled": true,
-                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "java_version": 8,
-                "error_message": null,
-                "time": 11.208169596968219
-            },
-            "test_info": {
-                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "fail_buggy": false,
-                "pass_fixed": true,
-                "testcases": []
-            }
+            "patches": [],
+            "time_to_generate_patches": 0
         },
         {
             "repo": "maven-changelog-plugin",
@@ -2476,7 +2151,9 @@
                 "fail_buggy": true,
                 "pass_fixed": true,
                 "testcases": []
-            }
+            },
+            "patches": [],
+            "time_to_generate_patches": 0
         },
         {
             "repo": "maven-changelog-plugin",
@@ -2522,7 +2199,9 @@
                         "stack_trace": "java.lang.NullPointerException\n\tat org.apache.maven.plugin.changelog.ChangeLogReportTest.executeMojo(ChangeLogReportTest.java:211)\n\tat org.apache.maven.plugin.changelog.ChangeLogReportTest.testUsageOfCachedXml(ChangeLogReportTest.java:113)\n"
                     }
                 ]
-            }
+            },
+            "patches": [],
+            "time_to_generate_patches": 0
         },
         {
             "repo": "maven-changelog-plugin",
@@ -2574,7 +2253,9 @@
                         "stack_trace": "org.apache.maven.plugin.MojoExecutionException: An error has occurred in Developer Activity report generation.\n\tat org.apache.maven.plugin.changelog.DeveloperActivityReportTest.executeMojo(DeveloperActivityReportTest.java:106)\n\tat org.apache.maven.plugin.changelog.DeveloperActivityReportTest.testMinConfig(DeveloperActivityReportTest.java:92)\nCaused by: org.apache.maven.reporting.MavenReportException: An error occurred while parsing /media/4tb/npex/NPE-Injected-Benchmarks/benchmarks/maven-changelog-plugin/src/test/changelog-xml/min-changelog.xml\n\tat org.apache.maven.plugin.changelog.DeveloperActivityReportTest.executeMojo(DeveloperActivityReportTest.java:106)\n\tat org.apache.maven.plugin.changelog.DeveloperActivityReportTest.testMinConfig(DeveloperActivityReportTest.java:92)\nCaused by: java.lang.NullPointerException\n\tat org.apache.maven.plugin.changelog.DeveloperActivityReportTest.executeMojo(DeveloperActivityReportTest.java:106)\n\tat org.apache.maven.plugin.changelog.DeveloperActivityReportTest.testMinConfig(DeveloperActivityReportTest.java:92)\n"
                     }
                 ]
-            }
+            },
+            "patches": [],
+            "time_to_generate_patches": 0
         },
         {
             "repo": "maven-changelog-plugin",
@@ -3340,7 +3021,9 @@
                         "stack_trace": "java.lang.NullPointerException\n\tat org.apache.maven.plugin.changelog.ChangeLogReportTest.executeMojo(ChangeLogReportTest.java:211)\n\tat org.apache.maven.plugin.changelog.ChangeLogReportTest.testTagType(ChangeLogReportTest.java:135)\n"
                     }
                 ]
-            }
+            },
+            "patches": [],
+            "time_to_generate_patches": 0
         },
         {
             "repo": "maven-changelog-plugin",
@@ -3374,34 +3057,9 @@
                         "stack_trace": "java.lang.NullPointerException\n\tat org.apache.maven.plugin.changelog.ChangeLogReportTest.executeMojo(ChangeLogReportTest.java:211)\n\tat org.apache.maven.plugin.changelog.ChangeLogReportTest.testUsageOfCachedXml(ChangeLogReportTest.java:113)\n"
                     }
                 ]
-            }
-        },
-        {
-            "repo": "maven-changelog-plugin",
-            "bug_id": "ChangeLogReport_1702",
-            "npe_info": {
-                "filepath": "src/main/java/org/apache/maven/plugin/changelog/ChangeLogReport.java",
-                "line": 1705,
-                "deref_field": "revision",
-                "npe_class": "ChangeLogReport",
-                "npe_method": "generateLinks",
-                "sink_field": null,
-                "jvmti_identify_succeed": null,
-                "is_original": null
             },
-            "build_info": {
-                "compiled": true,
-                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "java_version": 8,
-                "error_message": null,
-                "time": 10.764432305004448
-            },
-            "test_info": {
-                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "fail_buggy": false,
-                "pass_fixed": true,
-                "testcases": []
-            }
+            "patches": [],
+            "time_to_generate_patches": 0
         },
         {
             "repo": "maven-changelog-plugin",
@@ -3453,7 +3111,9 @@
                         "stack_trace": "org.apache.maven.plugin.MojoExecutionException: An error has occurred in Developer Activity report generation.\n\tat org.apache.maven.plugin.changelog.DeveloperActivityReportTest.executeMojo(DeveloperActivityReportTest.java:106)\n\tat org.apache.maven.plugin.changelog.DeveloperActivityReportTest.testMinConfig(DeveloperActivityReportTest.java:92)\nCaused by: org.apache.maven.reporting.MavenReportException: An error occurred while parsing /media/4tb/npex/NPE-Injected-Benchmarks/benchmarks/maven-changelog-plugin/src/test/changelog-xml/min-changelog.xml\n\tat org.apache.maven.plugin.changelog.DeveloperActivityReportTest.executeMojo(DeveloperActivityReportTest.java:106)\n\tat org.apache.maven.plugin.changelog.DeveloperActivityReportTest.testMinConfig(DeveloperActivityReportTest.java:92)\nCaused by: java.lang.NullPointerException\n\tat org.apache.maven.plugin.changelog.DeveloperActivityReportTest.executeMojo(DeveloperActivityReportTest.java:106)\n\tat org.apache.maven.plugin.changelog.DeveloperActivityReportTest.testMinConfig(DeveloperActivityReportTest.java:92)\n"
                     }
                 ]
-            }
+            },
+            "patches": [],
+            "time_to_generate_patches": 0
         }
     ],
     "repository_info": null

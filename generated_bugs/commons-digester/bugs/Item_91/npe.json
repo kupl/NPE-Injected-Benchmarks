@@ -1,0 +1,7 @@
+{
+    "filepath": "core/src/test/java/org/apache/commons/digester3/annotations/rss/Item.java",
+    "line": 97,
+    "npe_method": "equals",
+    "deref_field": "link",
+    "npe_class": "Item"
+}

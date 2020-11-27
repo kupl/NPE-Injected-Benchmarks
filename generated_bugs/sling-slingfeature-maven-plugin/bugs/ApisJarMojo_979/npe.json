@@ -1,0 +1,7 @@
+{
+    "filepath": "src/main/java/org/apache/sling/feature/maven/mojos/ApisJarMojo.java",
+    "line": 981,
+    "npe_method": "postProcessSourcesDirectory",
+    "deref_field": "readEncoding",
+    "npe_class": "ApisJarMojo"
+}

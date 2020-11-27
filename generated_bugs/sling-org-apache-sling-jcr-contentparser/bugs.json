@@ -3,28 +3,6 @@
     "bugs": [
         {
             "repo": "sling-org-apache-sling-jcr-contentparser",
-            "bug_id": "JcrXmlValueConverter_48",
-            "npe_info": {
-                "filepath": "src/main/java/org/apache/sling/jcr/contentparser/impl/JcrXmlValueConverter.java",
-                "line": 51,
-                "deref_field": "value",
-                "npe_class": "JcrXmlValueConverter",
-                "npe_method": "parseValue",
-                "sink_field": null,
-                "jvmti_identify_succeed": null,
-                "is_original": null
-            },
-            "build_info": {
-                "compiled": false,
-                "build_command": null,
-                "java_version": null,
-                "error_message": "Compilation failure",
-                "time": null
-            },
-            "test_info": null
-        },
-        {
-            "repo": "sling-org-apache-sling-jcr-contentparser",
             "bug_id": "ContentElementHandler_58",
             "npe_info": {
                 "filepath": "src/test/java/org/apache/sling/jcr/contentparser/impl/mapsupport/ContentElementHandler.java",
@@ -43,29 +21,9 @@
                 "error_message": "Compilation failure",
                 "time": null
             },
-            "test_info": null
-        },
-        {
-            "repo": "sling-org-apache-sling-jcr-contentparser",
-            "bug_id": "JcrXmlContentParser_135",
-            "npe_info": {
-                "filepath": "src/main/java/org/apache/sling/jcr/contentparser/impl/JcrXmlContentParser.java",
-                "line": 136,
-                "deref_field": "value",
-                "npe_class": "XmlHandler",
-                "npe_method": "startElement",
-                "sink_field": null,
-                "jvmti_identify_succeed": null,
-                "is_original": null
-            },
-            "build_info": {
-                "compiled": false,
-                "build_command": null,
-                "java_version": null,
-                "error_message": "Compilation failure",
-                "time": null
-            },
-            "test_info": null
+            "test_info": null,
+            "patches": [],
+            "time_to_generate_patches": 0
         },
         {
             "repo": "sling-org-apache-sling-jcr-contentparser",
@@ -87,29 +45,9 @@
                 "error_message": "Compilation failure",
                 "time": null
             },
-            "test_info": null
-        },
-        {
-            "repo": "sling-org-apache-sling-jcr-contentparser",
-            "bug_id": "JsonContentParser_169",
-            "npe_info": {
-                "filepath": "src/main/java/org/apache/sling/jcr/contentparser/impl/JsonContentParser.java",
-                "line": 170,
-                "deref_field": "calendarValue",
-                "npe_class": "JsonContentParser",
-                "npe_method": "convertValue",
-                "sink_field": null,
-                "jvmti_identify_succeed": null,
-                "is_original": null
-            },
-            "build_info": {
-                "compiled": false,
-                "build_command": null,
-                "java_version": null,
-                "error_message": "Compilation failure",
-                "time": null
-            },
-            "test_info": null
+            "test_info": null,
+            "patches": [],
+            "time_to_generate_patches": 0
         },
         {
             "repo": "sling-org-apache-sling-jcr-contentparser",
@@ -131,7 +69,9 @@
                 "error_message": "Compilation failure",
                 "time": null
             },
-            "test_info": null
+            "test_info": null,
+            "patches": [],
+            "time_to_generate_patches": 0
         },
         {
             "repo": "sling-org-apache-sling-jcr-contentparser",
@@ -453,7 +393,9 @@
                         "stack_trace": "org.apache.sling.jcr.contentparser.ParseException: Child node without name detected below path null\n\tat org.apache.sling.jcr.contentparser.impl.XmlContentParser.parse(XmlContentParser.java:77)\n\tat org.apache.sling.jcr.contentparser.impl.XmlContentParser.parse(XmlContentParser.java:64)\n\tat org.apache.sling.jcr.contentparser.impl.TestUtils.parse(TestUtils.java:42)\n\tat org.apache.sling.jcr.contentparser.impl.XmlContentParserTest.testIgnoreResourcesProperties(XmlContentParserTest.java:140)\n"
                     }
                 ]
-            }
+            },
+            "patches": [],
+            "time_to_generate_patches": 0
         },
         {
             "repo": "sling-org-apache-sling-jcr-contentparser",
@@ -1213,7 +1155,9 @@
                         "stack_trace": "java.lang.NullPointerException: null\n\tat org.apache.sling.jcr.contentparser.impl.ParserHelper.convertSingleTypeArray(ParserHelper.java:132)\n\tat org.apache.sling.jcr.contentparser.impl.JsonContentParser.convertValue(JsonContentParser.java:195)\n\tat org.apache.sling.jcr.contentparser.impl.JsonContentParser.parse(JsonContentParser.java:123)\n\tat org.apache.sling.jcr.contentparser.impl.JsonContentParser.parse(JsonContentParser.java:160)\n\tat org.apache.sling.jcr.contentparser.impl.JsonContentParser.parse(JsonContentParser.java:160)\n\tat org.apache.sling.jcr.contentparser.impl.JsonContentParser.parse(JsonContentParser.java:79)\n\tat org.apache.sling.jcr.contentparser.impl.TestUtils.parse(TestUtils.java:42)\n\tat org.apache.sling.jcr.contentparser.impl.JsonContentParserTest.testIso8601Calendar(JsonContentParserTest.java:115)\n"
                     }
                 ]
-            }
+            },
+            "patches": [],
+            "time_to_generate_patches": 0
         },
         {
             "repo": "sling-org-apache-sling-jcr-contentparser",
@@ -1247,7 +1191,9 @@
                         "stack_trace": "java.lang.AssertionError: expected:<{prop1=value1}> but was:<{prop1=value1, jcr:primaryType=null}>\n\tat org.junit.Assert.fail(Assert.java:88)\n\tat org.junit.Assert.failNotEquals(Assert.java:834)\n\tat org.junit.Assert.assertEquals(Assert.java:118)\n\tat org.junit.Assert.assertEquals(Assert.java:144)\n\tat org.apache.sling.jcr.contentparser.impl.ParserHelperTest.testEnsureDefaultPrimaryType_Disabled(ParserHelperTest.java:62)\n"
                     }
                 ]
-            }
+            },
+            "patches": [],
+            "time_to_generate_patches": 0
         },
         {
             "repo": "sling-org-apache-sling-jcr-contentparser",
@@ -1281,34 +1227,9 @@
                         "stack_trace": "java.lang.Exception: Unexpected exception, expected<org.apache.sling.jcr.contentparser.ParseException> but was<java.lang.NullPointerException>\n\tat org.apache.sling.jcr.contentparser.impl.ParserHelper.convertSingleTypeArray(ParserHelper.java:130)\n\tat org.apache.sling.jcr.contentparser.impl.ParserHelperTest.testConvertSingleTypeArray_WithNull(ParserHelperTest.java:181)\n"
                     }
                 ]
-            }
-        },
-        {
-            "repo": "sling-org-apache-sling-jcr-contentparser",
-            "bug_id": "JcrXmlValueConverter_56",
-            "npe_info": {
-                "filepath": "src/main/java/org/apache/sling/jcr/contentparser/impl/JcrXmlValueConverter.java",
-                "line": 59,
-                "deref_field": "arrayType",
-                "npe_class": "JcrXmlValueConverter",
-                "npe_method": "parseValue",
-                "sink_field": null,
-                "jvmti_identify_succeed": null,
-                "is_original": null
             },
-            "build_info": {
-                "compiled": true,
-                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "java_version": 8,
-                "error_message": null,
-                "time": 20.31467839796096
-            },
-            "test_info": {
-                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "fail_buggy": false,
-                "pass_fixed": true,
-                "testcases": []
-            }
+            "patches": [],
+            "time_to_generate_patches": 0
         },
         {
             "repo": "sling-org-apache-sling-jcr-contentparser",
@@ -1335,34 +1256,9 @@
                 "fail_buggy": false,
                 "pass_fixed": true,
                 "testcases": []
-            }
-        },
-        {
-            "repo": "sling-org-apache-sling-jcr-contentparser",
-            "bug_id": "ParserHelper_75",
-            "npe_info": {
-                "filepath": "src/main/java/org/apache/sling/jcr/contentparser/impl/ParserHelper.java",
-                "line": 76,
-                "deref_field": "calendar",
-                "npe_class": "ParserHelper",
-                "npe_method": "tryParseCalendar",
-                "sink_field": null,
-                "jvmti_identify_succeed": null,
-                "is_original": null
             },
-            "build_info": {
-                "compiled": true,
-                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "java_version": 8,
-                "error_message": null,
-                "time": 17.881847091019154
-            },
-            "test_info": {
-                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "fail_buggy": true,
-                "pass_fixed": true,
-                "testcases": []
-            }
+            "patches": [],
+            "time_to_generate_patches": 0
         }
     ],
     "repository_info": null

@@ -1,0 +1,7 @@
+{
+    "filepath": "core/src/test/java/org/apache/commons/digester3/annotations/employee/Employee.java",
+    "line": 99,
+    "npe_method": "equals",
+    "deref_field": "this.firstName",
+    "npe_class": "Employee"
+}

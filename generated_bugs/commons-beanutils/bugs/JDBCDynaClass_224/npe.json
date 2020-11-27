@@ -1,0 +1,7 @@
+{
+    "filepath": "src/main/java/org/apache/commons/beanutils2/JDBCDynaClass.java",
+    "line": 225,
+    "npe_method": "createDynaProperty",
+    "deref_field": "className",
+    "npe_class": "JDBCDynaClass"
+}

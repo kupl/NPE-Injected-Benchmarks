@@ -1,0 +1,7 @@
+{
+    "filepath": "src/main/java/org/apache/sling/feature/maven/mojos/ApisJarMojo.java",
+    "line": 949,
+    "npe_method": "getIncludeResourcePatterns",
+    "deref_field": "this.includeResources",
+    "npe_class": "ApisJarMojo"
+}

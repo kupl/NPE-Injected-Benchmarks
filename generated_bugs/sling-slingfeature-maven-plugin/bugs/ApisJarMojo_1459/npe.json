@@ -1,0 +1,7 @@
+{
+    "filepath": "src/main/java/org/apache/sling/feature/maven/mojos/ApisJarMojo.java",
+    "line": 1377,
+    "npe_method": "checkoutSourcesFromSCM",
+    "deref_field": "tag",
+    "npe_class": "ApisJarMojo"
+}

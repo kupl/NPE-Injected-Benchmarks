@@ -1,0 +1,7 @@
+{
+    "filepath": "src/main/java/org/apache/datasketches/pig/hll/SketchToEstimateAndErrorBounds.java",
+    "line": 71,
+    "npe_method": "outputSchema",
+    "deref_field": "input",
+    "npe_class": "SketchToEstimateAndErrorBounds"
+}

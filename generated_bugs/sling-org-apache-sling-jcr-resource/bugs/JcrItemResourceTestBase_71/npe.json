@@ -1,0 +1,7 @@
+{
+    "filepath": "src/test/java/org/apache/sling/jcr/resource/internal/helper/jcr/JcrItemResourceTestBase.java",
+    "line": 72,
+    "npe_method": "tearDown",
+    "deref_field": "rootNode",
+    "npe_class": "JcrItemResourceTestBase"
+}

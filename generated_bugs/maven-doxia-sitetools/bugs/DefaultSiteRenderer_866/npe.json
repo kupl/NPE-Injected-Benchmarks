@@ -1,0 +1,7 @@
+{
+    "filepath": "doxia-site-renderer/src/main/java/org/apache/maven/doxia/siterenderer/DefaultSiteRenderer.java",
+    "line": 882,
+    "npe_method": "matchVersion",
+    "deref_field": "recommendedVersion",
+    "npe_class": "DefaultSiteRenderer"
+}

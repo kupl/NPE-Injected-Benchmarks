@@ -3,33 +3,6 @@
     "bugs": [
         {
             "repo": "sling-org-apache-sling-caconfig-impl",
-            "bug_id": "ConfigurationWebConsolePlugin_195",
-            "npe_info": {
-                "filepath": "src/main/java/org/apache/sling/caconfig/management/impl/console/ConfigurationWebConsolePlugin.java",
-                "line": 196,
-                "deref_field": "configData",
-                "npe_class": "ConfigurationWebConsolePlugin",
-                "npe_method": "printResolutionTestTool",
-                "sink_field": null,
-                "jvmti_identify_succeed": null,
-                "is_original": null
-            },
-            "build_info": {
-                "compiled": true,
-                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "java_version": 8,
-                "error_message": null,
-                "time": 30.018715236103162
-            },
-            "test_info": {
-                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "fail_buggy": false,
-                "pass_fixed": true,
-                "testcases": []
-            }
-        },
-        {
-            "repo": "sling-org-apache-sling-caconfig-impl",
             "bug_id": "ConfigurationWebConsolePlugin_227",
             "npe_info": {
                 "filepath": "src/main/java/org/apache/sling/caconfig/management/impl/console/ConfigurationWebConsolePlugin.java",
@@ -53,7 +26,9 @@
                 "fail_buggy": false,
                 "pass_fixed": true,
                 "testcases": []
-            }
+            },
+            "patches": [],
+            "time_to_generate_patches": 0
         },
         {
             "repo": "sling-org-apache-sling-caconfig-impl",
@@ -153,7 +128,9 @@
                         "stack_trace": "java.lang.NullPointerException\n\tat org.apache.sling.caconfig.management.impl.ConfigurationManagerImplTest.testGetConfiguration_NoConfigMetadata(ConfigurationManagerImplTest.java:378)\n"
                     }
                 ]
-            }
+            },
+            "patches": [],
+            "time_to_generate_patches": 0
         },
         {
             "repo": "sling-org-apache-sling-caconfig-impl",
@@ -229,34 +206,9 @@
                         "stack_trace": "java.lang.NullPointerException\n\tat org.apache.sling.caconfig.management.impl.ConfigurationManagerImplTest.testNewCollectionItem_Nested_SubList(ConfigurationManagerImplTest.java:820)\n"
                     }
                 ]
-            }
-        },
-        {
-            "repo": "sling-org-apache-sling-caconfig-impl",
-            "bug_id": "ConfigurationDataImpl_170",
-            "npe_info": {
-                "filepath": "src/main/java/org/apache/sling/caconfig/management/impl/ConfigurationDataImpl.java",
-                "line": 171,
-                "deref_field": "resolvedConfigurationResource",
-                "npe_class": "ConfigurationDataImpl",
-                "npe_method": "getEffectiveValues",
-                "sink_field": null,
-                "jvmti_identify_succeed": null,
-                "is_original": null
             },
-            "build_info": {
-                "compiled": true,
-                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "java_version": 8,
-                "error_message": null,
-                "time": 24.003387404838577
-            },
-            "test_info": {
-                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "fail_buggy": false,
-                "pass_fixed": true,
-                "testcases": []
-            }
+            "patches": [],
+            "time_to_generate_patches": 0
         },
         {
             "repo": "sling-org-apache-sling-caconfig-impl",
@@ -283,7 +235,9 @@
                 "fail_buggy": false,
                 "pass_fixed": true,
                 "testcases": []
-            }
+            },
+            "patches": [],
+            "time_to_generate_patches": 0
         },
         {
             "repo": "sling-org-apache-sling-caconfig-impl",
@@ -317,34 +271,9 @@
                         "stack_trace": "java.lang.Exception: Unexpected exception, expected<java.lang.IllegalArgumentException> but was<java.lang.NullPointerException>\n\tat org.apache.sling.caconfig.impl.metadata.AnnotationClassParserTest.testBuildConfigurationMetadata_IllegalClass(AnnotationClassParserTest.java:172)\n"
                     }
                 ]
-            }
-        },
-        {
-            "repo": "sling-org-apache-sling-caconfig-impl",
-            "bug_id": "DefaultConfigurationPersistenceStrategy_206",
-            "npe_info": {
-                "filepath": "src/main/java/org/apache/sling/caconfig/impl/def/DefaultConfigurationPersistenceStrategy.java",
-                "line": 207,
-                "deref_field": "properties",
-                "npe_class": "DefaultConfigurationPersistenceStrategy",
-                "npe_method": "getOrCreateResource",
-                "sink_field": null,
-                "jvmti_identify_succeed": null,
-                "is_original": null
             },
-            "build_info": {
-                "compiled": true,
-                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "java_version": 8,
-                "error_message": null,
-                "time": 23.659568343078718
-            },
-            "test_info": {
-                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "fail_buggy": false,
-                "pass_fixed": true,
-                "testcases": []
-            }
+            "patches": [],
+            "time_to_generate_patches": 0
         },
         {
             "repo": "sling-org-apache-sling-caconfig-impl",
@@ -371,34 +300,9 @@
                 "fail_buggy": false,
                 "pass_fixed": true,
                 "testcases": []
-            }
-        },
-        {
-            "repo": "sling-org-apache-sling-caconfig-impl",
-            "bug_id": "ConfigurationWebConsolePlugin_362",
-            "npe_info": {
-                "filepath": "src/main/java/org/apache/sling/caconfig/management/impl/console/ConfigurationWebConsolePlugin.java",
-                "line": 363,
-                "deref_field": "value",
-                "npe_class": "ConfigurationWebConsolePlugin",
-                "npe_method": "td",
-                "sink_field": null,
-                "jvmti_identify_succeed": null,
-                "is_original": null
             },
-            "build_info": {
-                "compiled": true,
-                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "java_version": 8,
-                "error_message": null,
-                "time": 25.415700094075873
-            },
-            "test_info": {
-                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "fail_buggy": false,
-                "pass_fixed": true,
-                "testcases": []
-            }
+            "patches": [],
+            "time_to_generate_patches": 0
         },
         {
             "repo": "sling-org-apache-sling-caconfig-impl",
@@ -480,34 +384,9 @@
                         "stack_trace": "java.lang.NullPointerException\n\tat org.apache.sling.caconfig.impl.metadata.AnnotationClassConfigurationMetadataProviderTest.testGetConfigurationMetadata(AnnotationClassConfigurationMetadataProviderTest.java:59)\n"
                     }
                 ]
-            }
-        },
-        {
-            "repo": "sling-org-apache-sling-caconfig-impl",
-            "bug_id": "ConfigurationManagerImpl_306",
-            "npe_info": {
-                "filepath": "src/main/java/org/apache/sling/caconfig/management/impl/ConfigurationManagerImpl.java",
-                "line": 307,
-                "deref_field": "configMetadata",
-                "npe_class": "ConfigurationManagerImpl",
-                "npe_method": "newCollectionItem",
-                "sink_field": null,
-                "jvmti_identify_succeed": null,
-                "is_original": null
             },
-            "build_info": {
-                "compiled": true,
-                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "java_version": 8,
-                "error_message": null,
-                "time": 25.597595911007375
-            },
-            "test_info": {
-                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "fail_buggy": true,
-                "pass_fixed": true,
-                "testcases": []
-            }
+            "patches": [],
+            "time_to_generate_patches": 0
         },
         {
             "repo": "sling-org-apache-sling-caconfig-impl",
@@ -534,34 +413,9 @@
                 "fail_buggy": false,
                 "pass_fixed": true,
                 "testcases": []
-            }
-        },
-        {
-            "repo": "sling-org-apache-sling-caconfig-impl",
-            "bug_id": "ConfigurationDataImpl_137",
-            "npe_info": {
-                "filepath": "src/main/java/org/apache/sling/caconfig/management/impl/ConfigurationDataImpl.java",
-                "line": 138,
-                "deref_field": "resolvedConfigurationResource",
-                "npe_class": "ConfigurationDataImpl",
-                "npe_method": "getPropertyNames",
-                "sink_field": null,
-                "jvmti_identify_succeed": null,
-                "is_original": null
             },
-            "build_info": {
-                "compiled": true,
-                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "java_version": 8,
-                "error_message": null,
-                "time": 23.15840277913958
-            },
-            "test_info": {
-                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "fail_buggy": false,
-                "pass_fixed": true,
-                "testcases": []
-            }
+            "patches": [],
+            "time_to_generate_patches": 0
         },
         {
             "repo": "sling-org-apache-sling-caconfig-impl",
@@ -595,34 +449,9 @@
                         "stack_trace": "java.lang.NullPointerException\n\tat org.apache.sling.caconfig.management.impl.ConfigurationCollectionDataImplTest.testEmpty(ConfigurationCollectionDataImplTest.java:76)\n"
                     }
                 ]
-            }
-        },
-        {
-            "repo": "sling-org-apache-sling-caconfig-impl",
-            "bug_id": "OverrideStringParser_270",
-            "npe_info": {
-                "filepath": "src/main/java/org/apache/sling/caconfig/impl/override/OverrideStringParser.java",
-                "line": 273,
-                "deref_field": "value",
-                "npe_class": "OverrideStringParser",
-                "npe_method": "isSupportedType",
-                "sink_field": null,
-                "jvmti_identify_succeed": null,
-                "is_original": null
             },
-            "build_info": {
-                "compiled": true,
-                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "java_version": 8,
-                "error_message": null,
-                "time": 25.194880473893136
-            },
-            "test_info": {
-                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "fail_buggy": false,
-                "pass_fixed": true,
-                "testcases": []
-            }
+            "patches": [],
+            "time_to_generate_patches": 0
         },
         {
             "repo": "sling-org-apache-sling-caconfig-impl",
@@ -649,7 +478,9 @@
                 "fail_buggy": false,
                 "pass_fixed": true,
                 "testcases": []
-            }
+            },
+            "patches": [],
+            "time_to_generate_patches": 0
         },
         {
             "repo": "sling-org-apache-sling-caconfig-impl",
@@ -4175,7 +4006,9 @@
                         "stack_trace": "java.lang.NullPointerException\n\tat org.apache.sling.caconfig.management.impl.ConfigurationManagerImplTest.testGetConfigurationCollection_WithResourceCollectionInheritance(ConfigurationManagerImplTest.java:430)\n"
                     }
                 ]
-            }
+            },
+            "patches": [],
+            "time_to_generate_patches": 0
         },
         {
             "repo": "sling-org-apache-sling-caconfig-impl",
@@ -4209,34 +4042,9 @@
                         "stack_trace": "org.mockito.exceptions.verification.NeverWantedButInvoked: \n\nbindings.put(isA(java.lang.String), <any>);\nNever wanted here:\n-> at org.apache.sling.caconfig.impl.ConfigurationBindingsValueProviderTest.testNoResource(ConfigurationBindingsValueProviderTest.java:121)\nBut invoked here:\n-> at org.apache.sling.caconfig.impl.ConfigurationBindingsValueProvider.addBindings(ConfigurationBindingsValueProvider.java:85)\n\n\tat org.apache.sling.caconfig.impl.ConfigurationBindingsValueProviderTest.testNoResource(ConfigurationBindingsValueProviderTest.java:121)\n"
                     }
                 ]
-            }
-        },
-        {
-            "repo": "sling-org-apache-sling-caconfig-impl",
-            "bug_id": "ConfigurationManagerImpl_129",
-            "npe_info": {
-                "filepath": "src/main/java/org/apache/sling/caconfig/management/impl/ConfigurationManagerImpl.java",
-                "line": 130,
-                "deref_field": "configResource",
-                "npe_class": "ConfigurationManagerImpl",
-                "npe_method": "getConfiguration",
-                "sink_field": null,
-                "jvmti_identify_succeed": null,
-                "is_original": null
             },
-            "build_info": {
-                "compiled": true,
-                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "java_version": 8,
-                "error_message": null,
-                "time": 27.80325955990702
-            },
-            "test_info": {
-                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "fail_buggy": true,
-                "pass_fixed": true,
-                "testcases": []
-            }
+            "patches": [],
+            "time_to_generate_patches": 0
         },
         {
             "repo": "sling-org-apache-sling-caconfig-impl",
@@ -4270,7 +4078,9 @@
                         "stack_trace": "java.lang.NullPointerException\n\tat org.apache.sling.caconfig.impl.metadata.ConfigurationMetadataProviderMultiplexerImplTest.testWithTwoProviders(ConfigurationMetadataProviderMultiplexerImplTest.java:95)\n"
                     }
                 ]
-            }
+            },
+            "patches": [],
+            "time_to_generate_patches": 0
         },
         {
             "repo": "sling-org-apache-sling-caconfig-impl",
@@ -4802,34 +4612,9 @@
                         "stack_trace": "java.lang.NullPointerException: Iterator must not be null\n\tat org.apache.sling.caconfig.management.impl.ConfigurationManagerImplTest.testGetConfigurationNested(ConfigurationManagerImplTest.java:698)\n"
                     }
                 ]
-            }
-        },
-        {
-            "repo": "sling-org-apache-sling-caconfig-impl",
-            "bug_id": "ConfigurationOverrideMultiplexerImpl_135",
-            "npe_info": {
-                "filepath": "src/main/java/org/apache/sling/caconfig/impl/override/ConfigurationOverrideMultiplexerImpl.java",
-                "line": 136,
-                "deref_field": "configResource",
-                "npe_class": "ConfigurationOverrideMultiplexerImpl",
-                "npe_method": "overrideProperties",
-                "sink_field": null,
-                "jvmti_identify_succeed": null,
-                "is_original": null
             },
-            "build_info": {
-                "compiled": true,
-                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "java_version": 8,
-                "error_message": null,
-                "time": 26.128671386046335
-            },
-            "test_info": {
-                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "fail_buggy": false,
-                "pass_fixed": true,
-                "testcases": []
-            }
+            "patches": [],
+            "time_to_generate_patches": 0
         },
         {
             "repo": "sling-org-apache-sling-caconfig-impl",
@@ -4929,34 +4714,9 @@
                         "stack_trace": "java.lang.NullPointerException\n\tat org.apache.sling.caconfig.management.impl.ConfigurationDataImplTest.testWithResourceOnly(ConfigurationDataImplTest.java:137)\n"
                     }
                 ]
-            }
-        },
-        {
-            "repo": "sling-org-apache-sling-caconfig-impl",
-            "bug_id": "ConfigurationManagerImpl_322",
-            "npe_info": {
-                "filepath": "src/main/java/org/apache/sling/caconfig/management/impl/ConfigurationManagerImpl.java",
-                "line": 325,
-                "deref_field": "configResourcePath",
-                "npe_class": "ConfigurationManagerImpl",
-                "npe_method": "deleteConfiguration",
-                "sink_field": null,
-                "jvmti_identify_succeed": null,
-                "is_original": null
             },
-            "build_info": {
-                "compiled": true,
-                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "java_version": 8,
-                "error_message": null,
-                "time": 27.12186163314618
-            },
-            "test_info": {
-                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "fail_buggy": false,
-                "pass_fixed": true,
-                "testcases": []
-            }
+            "patches": [],
+            "time_to_generate_patches": 0
         },
         {
             "repo": "sling-org-apache-sling-caconfig-impl",
@@ -4983,7 +4743,9 @@
                 "fail_buggy": false,
                 "pass_fixed": true,
                 "testcases": []
-            }
+            },
+            "patches": [],
+            "time_to_generate_patches": 0
         },
         {
             "repo": "sling-org-apache-sling-caconfig-impl",
@@ -5245,34 +5007,9 @@
                         "stack_trace": "java.lang.NullPointerException\n\tat org.apache.sling.caconfig.management.impl.ConfigurationManagerImplTest.testGetConfiguration_NoConfigMetadata(ConfigurationManagerImplTest.java:381)\n"
                     }
                 ]
-            }
-        },
-        {
-            "repo": "sling-org-apache-sling-caconfig-impl",
-            "bug_id": "ConfigurationManagerImpl_126",
-            "npe_info": {
-                "filepath": "src/main/java/org/apache/sling/caconfig/management/impl/ConfigurationManagerImpl.java",
-                "line": 130,
-                "deref_field": "configMetadata",
-                "npe_class": "ConfigurationManagerImpl",
-                "npe_method": "getConfiguration",
-                "sink_field": null,
-                "jvmti_identify_succeed": null,
-                "is_original": null
             },
-            "build_info": {
-                "compiled": true,
-                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "java_version": 8,
-                "error_message": null,
-                "time": 24.837495285086334
-            },
-            "test_info": {
-                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "fail_buggy": true,
-                "pass_fixed": true,
-                "testcases": []
-            }
+            "patches": [],
+            "time_to_generate_patches": 0
         },
         {
             "repo": "sling-org-apache-sling-caconfig-impl",
@@ -5299,34 +5036,9 @@
                 "fail_buggy": false,
                 "pass_fixed": true,
                 "testcases": []
-            }
-        },
-        {
-            "repo": "sling-org-apache-sling-caconfig-impl",
-            "bug_id": "ConfigurationManagerImpl_354",
-            "npe_info": {
-                "filepath": "src/main/java/org/apache/sling/caconfig/management/impl/ConfigurationManagerImpl.java",
-                "line": 355,
-                "deref_field": "partialConfigMetadata",
-                "npe_class": "ConfigurationManagerImpl",
-                "npe_method": "getConfigurationMetadata",
-                "sink_field": null,
-                "jvmti_identify_succeed": null,
-                "is_original": null
             },
-            "build_info": {
-                "compiled": true,
-                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "java_version": 8,
-                "error_message": null,
-                "time": 25.68034777487628
-            },
-            "test_info": {
-                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "fail_buggy": false,
-                "pass_fixed": true,
-                "testcases": []
-            }
+            "patches": [],
+            "time_to_generate_patches": 0
         },
         {
             "repo": "sling-org-apache-sling-caconfig-impl",
@@ -5353,34 +5065,9 @@
                 "fail_buggy": false,
                 "pass_fixed": true,
                 "testcases": []
-            }
-        },
-        {
-            "repo": "sling-org-apache-sling-caconfig-impl",
-            "bug_id": "ConfigurationManagerImpl_258",
-            "npe_info": {
-                "filepath": "src/main/java/org/apache/sling/caconfig/management/impl/ConfigurationManagerImpl.java",
-                "line": 263,
-                "deref_field": "configResourceInheritanceChain",
-                "npe_class": "ConfigurationManagerImpl",
-                "npe_method": "applyPersistenceAndInheritance",
-                "sink_field": null,
-                "jvmti_identify_succeed": null,
-                "is_original": null
             },
-            "build_info": {
-                "compiled": true,
-                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "java_version": 8,
-                "error_message": null,
-                "time": 32.44540923112072
-            },
-            "test_info": {
-                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "fail_buggy": false,
-                "pass_fixed": true,
-                "testcases": []
-            }
+            "patches": [],
+            "time_to_generate_patches": 0
         },
         {
             "repo": "sling-org-apache-sling-caconfig-impl",
@@ -5407,34 +5094,9 @@
                 "fail_buggy": true,
                 "pass_fixed": true,
                 "testcases": []
-            }
-        },
-        {
-            "repo": "sling-org-apache-sling-caconfig-impl",
-            "bug_id": "ConfigurationWebConsolePlugin_131",
-            "npe_info": {
-                "filepath": "src/main/java/org/apache/sling/caconfig/management/impl/console/ConfigurationWebConsolePlugin.java",
-                "line": 132,
-                "deref_field": "resolver",
-                "npe_class": "ConfigurationWebConsolePlugin",
-                "npe_method": "printResolutionTestTool",
-                "sink_field": null,
-                "jvmti_identify_succeed": null,
-                "is_original": null
             },
-            "build_info": {
-                "compiled": true,
-                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "java_version": 8,
-                "error_message": null,
-                "time": 24.589030768023804
-            },
-            "test_info": {
-                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "fail_buggy": false,
-                "pass_fixed": true,
-                "testcases": []
-            }
+            "patches": [],
+            "time_to_generate_patches": 0
         },
         {
             "repo": "sling-org-apache-sling-caconfig-impl",
@@ -5534,34 +5196,9 @@
                         "stack_trace": "java.lang.NullPointerException\n\tat org.apache.sling.caconfig.management.impl.ConfigurationDataImplTest.testIgnoreProperties(ConfigurationDataImplTest.java:203)\n"
                     }
                 ]
-            }
-        },
-        {
-            "repo": "sling-org-apache-sling-caconfig-impl",
-            "bug_id": "ConfigurationOverrideMultiplexerImpl_117",
-            "npe_info": {
-                "filepath": "src/main/java/org/apache/sling/caconfig/impl/override/ConfigurationOverrideMultiplexerImpl.java",
-                "line": 120,
-                "deref_field": "configResource",
-                "npe_class": "ConfigurationOverrideMultiplexerImpl",
-                "npe_method": "overrideProperties",
-                "sink_field": null,
-                "jvmti_identify_succeed": null,
-                "is_original": null
             },
-            "build_info": {
-                "compiled": true,
-                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "java_version": 8,
-                "error_message": null,
-                "time": 28.888075042981654
-            },
-            "test_info": {
-                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "fail_buggy": false,
-                "pass_fixed": true,
-                "testcases": []
-            }
+            "patches": [],
+            "time_to_generate_patches": 0
         },
         {
             "repo": "sling-org-apache-sling-caconfig-impl",
@@ -5595,7 +5232,9 @@
                         "stack_trace": "java.lang.NullPointerException\n\tat org.apache.sling.caconfig.impl.override.ConfigurationOverrideMultiplexerImplTest.assertOverride(ConfigurationOverrideMultiplexerImplTest.java:93)\n\tat org.apache.sling.caconfig.impl.override.ConfigurationOverrideMultiplexerImplTest.testWithMultipleProviders(ConfigurationOverrideMultiplexerImplTest.java:67)\n"
                     }
                 ]
-            }
+            },
+            "patches": [],
+            "time_to_generate_patches": 0
         },
         {
             "repo": "sling-org-apache-sling-caconfig-impl",
@@ -5803,34 +5442,9 @@
                         "stack_trace": "java.lang.NullPointerException\n\tat org.apache.sling.caconfig.impl.override.OverrideStringParserTest.parse(OverrideStringParserTest.java:222)\n\tat org.apache.sling.caconfig.impl.override.OverrideStringParserTest.testBasicTypes(OverrideStringParserTest.java:62)\n"
                     }
                 ]
-            }
-        },
-        {
-            "repo": "sling-org-apache-sling-caconfig-impl",
-            "bug_id": "CAConfigInventoryPrinter_161",
-            "npe_info": {
-                "filepath": "src/main/java/org/apache/sling/caconfig/management/impl/console/CAConfigInventoryPrinter.java",
-                "line": 162,
-                "deref_field": "enabledObject",
-                "npe_class": "CAConfigInventoryPrinter",
-                "npe_method": "isEnabled",
-                "sink_field": null,
-                "jvmti_identify_succeed": null,
-                "is_original": null
             },
-            "build_info": {
-                "compiled": true,
-                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "java_version": 8,
-                "error_message": null,
-                "time": 27.885985628003255
-            },
-            "test_info": {
-                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "fail_buggy": true,
-                "pass_fixed": true,
-                "testcases": []
-            }
+            "patches": [],
+            "time_to_generate_patches": 0
         },
         {
             "repo": "sling-org-apache-sling-caconfig-impl",
@@ -5906,7 +5520,9 @@
                         "stack_trace": "java.lang.NullPointerException\n"
                     }
                 ]
-            }
+            },
+            "patches": [],
+            "time_to_generate_patches": 0
         },
         {
             "repo": "sling-org-apache-sling-caconfig-impl",
@@ -6042,34 +5658,9 @@
                         "stack_trace": "java.lang.NullPointerException\n\tat org.apache.sling.caconfig.impl.metadata.AnnotationClassConfigurationMetadataProviderTest.testGetConfigurationMetadata(AnnotationClassConfigurationMetadataProviderTest.java:59)\n"
                     }
                 ]
-            }
-        },
-        {
-            "repo": "sling-org-apache-sling-caconfig-impl",
-            "bug_id": "ConfigClassBundleTackerCustomizer_44",
-            "npe_info": {
-                "filepath": "src/main/java/org/apache/sling/caconfig/impl/metadata/ConfigClassBundleTackerCustomizer.java",
-                "line": 47,
-                "deref_field": "classeNamesList",
-                "npe_class": "ConfigClassBundleTackerCustomizer",
-                "npe_method": "addingBundle",
-                "sink_field": null,
-                "jvmti_identify_succeed": null,
-                "is_original": null
             },
-            "build_info": {
-                "compiled": true,
-                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "java_version": 8,
-                "error_message": null,
-                "time": 26.384126493008807
-            },
-            "test_info": {
-                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "fail_buggy": false,
-                "pass_fixed": true,
-                "testcases": []
-            }
+            "patches": [],
+            "time_to_generate_patches": 0
         },
         {
             "repo": "sling-org-apache-sling-caconfig-impl",
@@ -6096,7 +5687,9 @@
                 "fail_buggy": false,
                 "pass_fixed": true,
                 "testcases": []
-            }
+            },
+            "patches": [],
+            "time_to_generate_patches": 0
         },
         {
             "repo": "sling-org-apache-sling-caconfig-impl",
@@ -6196,34 +5789,9 @@
                         "stack_trace": "java.lang.NullPointerException\n\tat org.apache.sling.caconfig.management.impl.ConfigurationDataImplTest.testIgnoreProperties(ConfigurationDataImplTest.java:203)\n"
                     }
                 ]
-            }
-        },
-        {
-            "repo": "sling-org-apache-sling-caconfig-impl",
-            "bug_id": "ConfigurationDataImpl_121",
-            "npe_info": {
-                "filepath": "src/main/java/org/apache/sling/caconfig/management/impl/ConfigurationDataImpl.java",
-                "line": 122,
-                "deref_field": "writebackConfigurationResource",
-                "npe_class": "ConfigurationDataImpl",
-                "npe_method": "getResourcePath",
-                "sink_field": null,
-                "jvmti_identify_succeed": null,
-                "is_original": null
             },
-            "build_info": {
-                "compiled": true,
-                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "java_version": 8,
-                "error_message": null,
-                "time": 25.105529058957472
-            },
-            "test_info": {
-                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "fail_buggy": true,
-                "pass_fixed": true,
-                "testcases": []
-            }
+            "patches": [],
+            "time_to_generate_patches": 0
         },
         {
             "repo": "sling-org-apache-sling-caconfig-impl",
@@ -6305,34 +5873,9 @@
                         "stack_trace": "java.lang.NullPointerException\n\tat org.apache.sling.caconfig.management.impl.ConfigurationDataImplTest.testWithResourceOnly(ConfigurationDataImplTest.java:147)\n"
                     }
                 ]
-            }
-        },
-        {
-            "repo": "sling-org-apache-sling-caconfig-impl",
-            "bug_id": "DefaultConfigurationPersistenceStrategy_247",
-            "npe_info": {
-                "filepath": "src/main/java/org/apache/sling/caconfig/impl/def/DefaultConfigurationPersistenceStrategy.java",
-                "line": 251,
-                "deref_field": "modValueMap",
-                "npe_class": "DefaultConfigurationPersistenceStrategy",
-                "npe_method": "replaceProperties",
-                "sink_field": null,
-                "jvmti_identify_succeed": null,
-                "is_original": null
             },
-            "build_info": {
-                "compiled": true,
-                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "java_version": 8,
-                "error_message": null,
-                "time": 27.167677701916546
-            },
-            "test_info": {
-                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "fail_buggy": false,
-                "pass_fixed": true,
-                "testcases": []
-            }
+            "patches": [],
+            "time_to_generate_patches": 0
         },
         {
             "repo": "sling-org-apache-sling-caconfig-impl",
@@ -6359,34 +5902,9 @@
                 "fail_buggy": false,
                 "pass_fixed": true,
                 "testcases": []
-            }
-        },
-        {
-            "repo": "sling-org-apache-sling-caconfig-impl",
-            "bug_id": "ConfigurationWebConsolePlugin_129",
-            "npe_info": {
-                "filepath": "src/main/java/org/apache/sling/caconfig/management/impl/console/ConfigurationWebConsolePlugin.java",
-                "line": 132,
-                "deref_field": "path",
-                "npe_class": "ConfigurationWebConsolePlugin",
-                "npe_method": "printResolutionTestTool",
-                "sink_field": null,
-                "jvmti_identify_succeed": null,
-                "is_original": null
             },
-            "build_info": {
-                "compiled": true,
-                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "java_version": 8,
-                "error_message": null,
-                "time": 28.082329190103337
-            },
-            "test_info": {
-                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "fail_buggy": false,
-                "pass_fixed": true,
-                "testcases": []
-            }
+            "patches": [],
+            "time_to_generate_patches": 0
         },
         {
             "repo": "sling-org-apache-sling-caconfig-impl",
@@ -6420,34 +5938,9 @@
                         "stack_trace": "java.lang.AssertionError: expected same:<resource1> was not:<null>\n\tat org.apache.sling.caconfig.impl.ConfigurationInheritanceStrategyMultiplexerImplTest.testWithMultipleStrategies(ConfigurationInheritanceStrategyMultiplexerImplTest.java:118)\n"
                     }
                 ]
-            }
-        },
-        {
-            "repo": "sling-org-apache-sling-caconfig-impl",
-            "bug_id": "ConfigurationBindingsValueProvider_138",
-            "npe_info": {
-                "filepath": "src/main/java/org/apache/sling/caconfig/impl/ConfigurationBindingsValueProvider.java",
-                "line": 139,
-                "deref_field": "value",
-                "npe_class": "ConfigMap",
-                "npe_method": "get",
-                "sink_field": null,
-                "jvmti_identify_succeed": null,
-                "is_original": null
             },
-            "build_info": {
-                "compiled": true,
-                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "java_version": 8,
-                "error_message": null,
-                "time": 30.642789727076888
-            },
-            "test_info": {
-                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "fail_buggy": false,
-                "pass_fixed": true,
-                "testcases": []
-            }
+            "patches": [],
+            "time_to_generate_patches": 0
         },
         {
             "repo": "sling-org-apache-sling-caconfig-impl",
@@ -6481,34 +5974,9 @@
                         "stack_trace": "java.lang.NullPointerException\n\tat org.apache.sling.caconfig.management.impl.console.CAConfigInventoryPrinterTest.testPrintConfiguration(CAConfigInventoryPrinterTest.java:84)\n"
                     }
                 ]
-            }
-        },
-        {
-            "repo": "sling-org-apache-sling-caconfig-impl",
-            "bug_id": "ConfigurationBindingsValueProvider_158",
-            "npe_info": {
-                "filepath": "src/main/java/org/apache/sling/caconfig/impl/ConfigurationBindingsValueProvider.java",
-                "line": 159,
-                "deref_field": "configMetadata",
-                "npe_class": "ConfigMap",
-                "npe_method": "isCollection",
-                "sink_field": null,
-                "jvmti_identify_succeed": null,
-                "is_original": null
             },
-            "build_info": {
-                "compiled": true,
-                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "java_version": 8,
-                "error_message": null,
-                "time": 24.632709671976045
-            },
-            "test_info": {
-                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "fail_buggy": false,
-                "pass_fixed": true,
-                "testcases": []
-            }
+            "patches": [],
+            "time_to_generate_patches": 0
         },
         {
             "repo": "sling-org-apache-sling-caconfig-impl",
@@ -6535,34 +6003,9 @@
                 "fail_buggy": false,
                 "pass_fixed": true,
                 "testcases": []
-            }
-        },
-        {
-            "repo": "sling-org-apache-sling-caconfig-impl",
-            "bug_id": "ConfigurationManagerImpl_107",
-            "npe_info": {
-                "filepath": "src/main/java/org/apache/sling/caconfig/management/impl/ConfigurationManagerImpl.java",
-                "line": 108,
-                "deref_field": "writebackConfigResource",
-                "npe_class": "ConfigurationManagerImpl",
-                "npe_method": "getConfiguration",
-                "sink_field": null,
-                "jvmti_identify_succeed": null,
-                "is_original": null
             },
-            "build_info": {
-                "compiled": true,
-                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "java_version": 8,
-                "error_message": null,
-                "time": 26.937038704985753
-            },
-            "test_info": {
-                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "fail_buggy": true,
-                "pass_fixed": true,
-                "testcases": []
-            }
+            "patches": [],
+            "time_to_generate_patches": 0
         },
         {
             "repo": "sling-org-apache-sling-caconfig-impl",
@@ -6614,34 +6057,9 @@
                         "stack_trace": "java.lang.Exception: Unexpected exception, expected<org.apache.sling.caconfig.ConfigurationResolveException> but was<java.lang.NullPointerException>\n\tat org.apache.sling.caconfig.impl.ConfigurationResolverCustomPersistence2Test.testInvalidClassConversion(ConfigurationResolverCustomPersistence2Test.java:263)\n"
                     }
                 ]
-            }
-        },
-        {
-            "repo": "sling-org-apache-sling-caconfig-impl",
-            "bug_id": "ConfigurationMetadataPrinter_41",
-            "npe_info": {
-                "filepath": "src/main/java/org/apache/sling/caconfig/management/impl/console/ConfigurationMetadataPrinter.java",
-                "line": 46,
-                "deref_field": "metadata",
-                "npe_class": "ConfigurationMetadataPrinter",
-                "npe_method": "printConfiguration",
-                "sink_field": null,
-                "jvmti_identify_succeed": null,
-                "is_original": null
             },
-            "build_info": {
-                "compiled": true,
-                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "java_version": 8,
-                "error_message": null,
-                "time": 20.751426092116162
-            },
-            "test_info": {
-                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "fail_buggy": false,
-                "pass_fixed": true,
-                "testcases": []
-            }
+            "patches": [],
+            "time_to_generate_patches": 0
         },
         {
             "repo": "sling-org-apache-sling-caconfig-impl",
@@ -6675,7 +6093,9 @@
                         "stack_trace": "java.lang.NullPointerException\n\tat org.apache.sling.caconfig.impl.override.OverrideStringParserTest.parse(OverrideStringParserTest.java:222)\n\tat org.apache.sling.caconfig.impl.override.OverrideStringParserTest.testInvalidSyntax(OverrideStringParserTest.java:189)\n"
                     }
                 ]
-            }
+            },
+            "patches": [],
+            "time_to_generate_patches": 0
         },
         {
             "repo": "sling-org-apache-sling-caconfig-impl",
@@ -7189,7 +6609,9 @@
                         "stack_trace": "java.lang.NullPointerException\n\tat org.apache.sling.caconfig.management.impl.ConfigurationManagerImplTest.testGetConfigurationNested(ConfigurationManagerImplTest.java:698)\n"
                     }
                 ]
-            }
+            },
+            "patches": [],
+            "time_to_generate_patches": 0
         },
         {
             "repo": "sling-org-apache-sling-caconfig-impl",
@@ -7223,34 +6645,9 @@
                         "stack_trace": "java.lang.NullPointerException\n\tat org.apache.sling.caconfig.impl.metadata.AnnotationClassConfigurationMetadataProviderTest.testUnmappedConfigName(AnnotationClassConfigurationMetadataProviderTest.java:76)\n"
                     }
                 ]
-            }
-        },
-        {
-            "repo": "sling-org-apache-sling-caconfig-impl",
-            "bug_id": "ConfigurationManagerImpl_239",
-            "npe_info": {
-                "filepath": "src/main/java/org/apache/sling/caconfig/management/impl/ConfigurationManagerImpl.java",
-                "line": 242,
-                "deref_field": "configResourceInheritanceChain",
-                "npe_class": "ConfigurationManagerImpl",
-                "npe_method": "applyPersistence",
-                "sink_field": null,
-                "jvmti_identify_succeed": null,
-                "is_original": null
             },
-            "build_info": {
-                "compiled": true,
-                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "java_version": 8,
-                "error_message": null,
-                "time": 28.281879510032013
-            },
-            "test_info": {
-                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "fail_buggy": false,
-                "pass_fixed": true,
-                "testcases": []
-            }
+            "patches": [],
+            "time_to_generate_patches": 0
         },
         {
             "repo": "sling-org-apache-sling-caconfig-impl",
@@ -7277,34 +6674,9 @@
                 "fail_buggy": true,
                 "pass_fixed": true,
                 "testcases": []
-            }
-        },
-        {
-            "repo": "sling-org-apache-sling-caconfig-impl",
-            "bug_id": "ConfigurationManagerImpl_396",
-            "npe_info": {
-                "filepath": "src/main/java/org/apache/sling/caconfig/management/impl/ConfigurationManagerImpl.java",
-                "line": 397,
-                "deref_field": "partialConfigMetadata",
-                "npe_class": "ConfigurationManagerImpl",
-                "npe_method": "getNestedConfigurationMetadata",
-                "sink_field": null,
-                "jvmti_identify_succeed": null,
-                "is_original": null
             },
-            "build_info": {
-                "compiled": true,
-                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "java_version": 8,
-                "error_message": null,
-                "time": 26.31888641999103
-            },
-            "test_info": {
-                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "fail_buggy": false,
-                "pass_fixed": true,
-                "testcases": []
-            }
+            "patches": [],
+            "time_to_generate_patches": 0
         },
         {
             "repo": "sling-org-apache-sling-caconfig-impl",
@@ -7386,34 +6758,9 @@
                         "stack_trace": "java.lang.NullPointerException\n\tat org.apache.sling.caconfig.impl.metadata.AnnotationClassConfigurationMetadataProviderTest.testGetConfigurationMetadata(AnnotationClassConfigurationMetadataProviderTest.java:59)\n"
                     }
                 ]
-            }
-        },
-        {
-            "repo": "sling-org-apache-sling-caconfig-impl",
-            "bug_id": "ConfigurationManagerImpl_105",
-            "npe_info": {
-                "filepath": "src/main/java/org/apache/sling/caconfig/management/impl/ConfigurationManagerImpl.java",
-                "line": 106,
-                "deref_field": "writebackConfigResourcePath",
-                "npe_class": "ConfigurationManagerImpl",
-                "npe_method": "getConfiguration",
-                "sink_field": null,
-                "jvmti_identify_succeed": null,
-                "is_original": null
             },
-            "build_info": {
-                "compiled": true,
-                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "java_version": 8,
-                "error_message": null,
-                "time": 26.718504570890218
-            },
-            "test_info": {
-                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "fail_buggy": true,
-                "pass_fixed": true,
-                "testcases": []
-            }
+            "patches": [],
+            "time_to_generate_patches": 0
         },
         {
             "repo": "sling-org-apache-sling-caconfig-impl",
@@ -7447,34 +6794,9 @@
                         "stack_trace": "java.lang.NullPointerException\n\tat org.apache.sling.caconfig.management.impl.console.CAConfigInventoryPrinterTest.testPrintConfiguration(CAConfigInventoryPrinterTest.java:84)\n"
                     }
                 ]
-            }
-        },
-        {
-            "repo": "sling-org-apache-sling-caconfig-impl",
-            "bug_id": "ConfigurationManagerImpl_346",
-            "npe_info": {
-                "filepath": "src/main/java/org/apache/sling/caconfig/management/impl/ConfigurationManagerImpl.java",
-                "line": 348,
-                "deref_field": "metadata",
-                "npe_class": "ConfigurationManagerImpl",
-                "npe_method": "getConfigurationMetadata",
-                "sink_field": null,
-                "jvmti_identify_succeed": null,
-                "is_original": null
             },
-            "build_info": {
-                "compiled": true,
-                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "java_version": 8,
-                "error_message": null,
-                "time": 28.858376360032707
-            },
-            "test_info": {
-                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "fail_buggy": true,
-                "pass_fixed": true,
-                "testcases": []
-            }
+            "patches": [],
+            "time_to_generate_patches": 0
         },
         {
             "repo": "sling-org-apache-sling-caconfig-impl",
@@ -7501,7 +6823,9 @@
                 "fail_buggy": false,
                 "pass_fixed": true,
                 "testcases": []
-            }
+            },
+            "patches": [],
+            "time_to_generate_patches": 0
         },
         {
             "repo": "sling-org-apache-sling-caconfig-impl",
@@ -7583,34 +6907,9 @@
                         "stack_trace": "java.lang.NullPointerException\n\tat org.apache.sling.caconfig.impl.metadata.AnnotationClassConfigurationMetadataProviderTest.testNameConflictAccrossBundles(AnnotationClassConfigurationMetadataProviderTest.java:120)\n"
                     }
                 ]
-            }
-        },
-        {
-            "repo": "sling-org-apache-sling-caconfig-impl",
-            "bug_id": "ConfigurationDataImpl_149",
-            "npe_info": {
-                "filepath": "src/main/java/org/apache/sling/caconfig/management/impl/ConfigurationDataImpl.java",
-                "line": 150,
-                "deref_field": "writebackConfigurationResource",
-                "npe_class": "ConfigurationDataImpl",
-                "npe_method": "getValues",
-                "sink_field": null,
-                "jvmti_identify_succeed": null,
-                "is_original": null
             },
-            "build_info": {
-                "compiled": true,
-                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "java_version": 8,
-                "error_message": null,
-                "time": 27.258073390927166
-            },
-            "test_info": {
-                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "fail_buggy": false,
-                "pass_fixed": true,
-                "testcases": []
-            }
+            "patches": [],
+            "time_to_generate_patches": 0
         },
         {
             "repo": "sling-org-apache-sling-caconfig-impl",
@@ -7637,7 +6936,9 @@
                 "fail_buggy": true,
                 "pass_fixed": true,
                 "testcases": []
-            }
+            },
+            "patches": [],
+            "time_to_generate_patches": 0
         }
     ],
     "repository_info": null

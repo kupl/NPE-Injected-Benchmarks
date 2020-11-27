@@ -1,0 +1,7 @@
+{
+    "filepath": "src/main/java/org/apache/sling/testing/mock/jcr/ResourceUtil.java",
+    "line": 145,
+    "npe_method": "getParent",
+    "deref_field": "workspaceName",
+    "npe_class": "ResourceUtil"
+}

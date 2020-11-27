@@ -1,0 +1,7 @@
+{
+    "filepath": "core/src/test/java/org/apache/commons/digester3/annotations/person/Person.java",
+    "line": 117,
+    "npe_method": "equals",
+    "deref_field": "emails",
+    "npe_class": "Person"
+}

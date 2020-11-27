@@ -81,7 +81,9 @@
                         "stack_trace": "java.lang.NullPointerException\n\tat org.apache.maven.plugins.release.PrepareReleaseMojoTest.testPrepare(PrepareReleaseMojoTest.java:96)\n"
                     }
                 ]
-            }
+            },
+            "patches": [],
+            "time_to_generate_patches": 0
         },
         {
             "repo": "maven-release",
@@ -133,7 +135,9 @@
                         "stack_trace": "java.lang.NullPointerException\n\tat org.apache.maven.plugins.release.PerformReleaseMojoTest.testPerformWithProfiles(PerformReleaseMojoTest.java:296)\n"
                     }
                 ]
-            }
+            },
+            "patches": [],
+            "time_to_generate_patches": 0
         },
         {
             "repo": "maven-release",
@@ -215,7 +219,9 @@
                         "stack_trace": "java.lang.NullPointerException\n\tat org.apache.maven.plugins.release.PrepareReleaseMojoTest.testPrepare(PrepareReleaseMojoTest.java:96)\n"
                     }
                 ]
-            }
+            },
+            "patches": [],
+            "time_to_generate_patches": 0
         }
     ],
     "repository_info": null

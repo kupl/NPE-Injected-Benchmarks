@@ -33,7 +33,9 @@
                         "stack_trace": "java.lang.ArrayIndexOutOfBoundsException: -1\n\tat org.apache.directory.mavibot.btree.InMemoryBulkDataSorterTest.testSortedFileMerge(InMemoryBulkDataSorterTest.java:153)\n\tat org.apache.directory.mavibot.btree.InMemoryBulkDataSorterTest.testSortedFileMerge(InMemoryBulkDataSorterTest.java:105)\n"
                     }
                 ]
-            }
+            },
+            "patches": [],
+            "time_to_generate_patches": 0
         },
         {
             "repo": "directory-mavibot",
@@ -73,7 +75,9 @@
                         "stack_trace": "java.lang.AssertionError: expected:<5> but was:<4>\n\tat org.apache.directory.mavibot.btree.PageReclaimerTest.testReclaimerWithMultiThreads(PageReclaimerTest.java:233)\n"
                     }
                 ]
-            }
+            },
+            "patches": [],
+            "time_to_generate_patches": 0
         },
         {
             "repo": "directory-mavibot",
@@ -107,7 +111,9 @@
                         "stack_trace": "java.lang.NullPointerException\n\tat org.apache.directory.mavibot.btree.comparator.ShortComparatorTest.testShortComparator(ShortComparatorTest.java:43)\n"
                     }
                 ]
-            }
+            },
+            "patches": [],
+            "time_to_generate_patches": 0
         },
         {
             "repo": "directory-mavibot",
@@ -141,7 +147,9 @@
                         "stack_trace": "java.lang.NullPointerException\n\tat org.apache.directory.mavibot.btree.comparator.ShortArrayComparatorTest.testShortArrayComparator(ShortArrayComparatorTest.java:65)\n"
                     }
                 ]
-            }
+            },
+            "patches": [],
+            "time_to_generate_patches": 0
         },
         {
             "repo": "directory-mavibot",
@@ -175,7 +183,9 @@
                         "stack_trace": "java.lang.NullPointerException\n\tat org.apache.directory.mavibot.btree.comparator.ShortComparatorTest.testShortComparator(ShortComparatorTest.java:47)\n"
                     }
                 ]
-            }
+            },
+            "patches": [],
+            "time_to_generate_patches": 0
         },
         {
             "repo": "directory-mavibot",
@@ -209,7 +219,9 @@
                         "stack_trace": "java.lang.NullPointerException\n\tat org.apache.directory.mavibot.btree.comparator.LongArrayComparatorTest.testLongArrayComparator(LongArrayComparatorTest.java:65)\n"
                     }
                 ]
-            }
+            },
+            "patches": [],
+            "time_to_generate_patches": 0
         },
         {
             "repo": "directory-mavibot",
@@ -243,7 +255,9 @@
                         "stack_trace": "java.lang.NullPointerException\n\tat org.apache.directory.mavibot.btree.comparator.LongComparatorTest.testLongComparator(LongComparatorTest.java:47)\n"
                     }
                 ]
-            }
+            },
+            "patches": [],
+            "time_to_generate_patches": 0
         },
         {
             "repo": "directory-mavibot",
@@ -277,7 +291,9 @@
                         "stack_trace": "java.lang.NullPointerException\n\tat org.apache.directory.mavibot.btree.comparator.ByteArrayComparatorTest.testByteArrayComparator(ByteArrayComparatorTest.java:50)\n"
                     }
                 ]
-            }
+            },
+            "patches": [],
+            "time_to_generate_patches": 0
         },
         {
             "repo": "directory-mavibot",
@@ -311,7 +327,9 @@
                         "stack_trace": "java.lang.NullPointerException\n\tat org.apache.directory.mavibot.btree.comparator.LongComparatorTest.testLongComparator(LongComparatorTest.java:43)\n"
                     }
                 ]
-            }
+            },
+            "patches": [],
+            "time_to_generate_patches": 0
         },
         {
             "repo": "directory-mavibot",
@@ -345,7 +363,9 @@
                         "stack_trace": "java.lang.NullPointerException\n\tat org.apache.directory.mavibot.btree.comparator.ByteComparatorTest.testByteComparator(ByteComparatorTest.java:47)\n"
                     }
                 ]
-            }
+            },
+            "patches": [],
+            "time_to_generate_patches": 0
         },
         {
             "repo": "directory-mavibot",
@@ -379,7 +399,9 @@
                         "stack_trace": "java.lang.NullPointerException\n\tat org.apache.directory.mavibot.btree.comparator.IntArrayComparatorTest.testIntArrayComparator(IntArrayComparatorTest.java:65)\n"
                     }
                 ]
-            }
+            },
+            "patches": [],
+            "time_to_generate_patches": 0
         },
         {
             "repo": "directory-mavibot",
@@ -413,7 +435,9 @@
                         "stack_trace": "java.lang.NullPointerException\n\tat org.apache.directory.mavibot.btree.comparator.LongArrayComparatorTest.testLongArrayComparator(LongArrayComparatorTest.java:50)\n"
                     }
                 ]
-            }
+            },
+            "patches": [],
+            "time_to_generate_patches": 0
         },
         {
             "repo": "directory-mavibot",
@@ -447,7 +471,9 @@
                         "stack_trace": "java.lang.NullPointerException\n\tat org.apache.directory.mavibot.btree.comparator.IntComparatorTest.testIntComparator(IntComparatorTest.java:43)\n"
                     }
                 ]
-            }
+            },
+            "patches": [],
+            "time_to_generate_patches": 0
         },
         {
             "repo": "directory-mavibot",
@@ -481,7 +507,9 @@
                         "stack_trace": "java.lang.NullPointerException\n\tat org.apache.directory.mavibot.btree.comparator.ByteComparatorTest.testByteComparator(ByteComparatorTest.java:43)\n"
                     }
                 ]
-            }
+            },
+            "patches": [],
+            "time_to_generate_patches": 0
         },
         {
             "repo": "directory-mavibot",
@@ -515,7 +543,9 @@
                         "stack_trace": "java.lang.NullPointerException\n\tat org.apache.directory.mavibot.btree.comparator.CharArrayComparatorTest.testCharArrayComparator(CharArrayComparatorTest.java:50)\n"
                     }
                 ]
-            }
+            },
+            "patches": [],
+            "time_to_generate_patches": 0
         },
         {
             "repo": "directory-mavibot",
@@ -549,7 +579,9 @@
                         "stack_trace": "java.lang.NullPointerException\n\tat org.apache.directory.mavibot.btree.comparator.ByteArrayComparatorTest.testByteArrayComparator(ByteArrayComparatorTest.java:65)\n"
                     }
                 ]
-            }
+            },
+            "patches": [],
+            "time_to_generate_patches": 0
         },
         {
             "repo": "directory-mavibot",
@@ -583,7 +615,9 @@
                         "stack_trace": "java.lang.NullPointerException\n\tat org.apache.directory.mavibot.btree.comparator.BooleanArrayComparatorTest.testBooleanArrayComparator(BooleanArrayComparatorTest.java:61)\n"
                     }
                 ]
-            }
+            },
+            "patches": [],
+            "time_to_generate_patches": 0
         },
         {
             "repo": "directory-mavibot",
@@ -617,7 +651,9 @@
                         "stack_trace": "java.lang.NullPointerException\n\tat org.apache.directory.mavibot.btree.comparator.BooleanComparatorTest.testBooleanComparator(BooleanComparatorTest.java:46)\n"
                     }
                 ]
-            }
+            },
+            "patches": [],
+            "time_to_generate_patches": 0
         },
         {
             "repo": "directory-mavibot",
@@ -657,7 +693,9 @@
                         "stack_trace": "java.lang.NullPointerException\n\tat org.apache.directory.mavibot.btree.comparator.BooleanComparatorTest.testBooleanComparator(BooleanComparatorTest.java:43)\n"
                     }
                 ]
-            }
+            },
+            "patches": [],
+            "time_to_generate_patches": 0
         },
         {
             "repo": "directory-mavibot",
@@ -691,7 +729,9 @@
                         "stack_trace": "java.lang.NullPointerException\n\tat org.apache.directory.mavibot.btree.comparator.IntComparatorTest.testIntComparator(IntComparatorTest.java:47)\n"
                     }
                 ]
-            }
+            },
+            "patches": [],
+            "time_to_generate_patches": 0
         },
         {
             "repo": "directory-mavibot",
@@ -725,7 +765,9 @@
                         "stack_trace": "java.lang.NullPointerException\n\tat org.apache.directory.mavibot.btree.comparator.CharComparatorTest.testCharComparator(CharComparatorTest.java:46)\n"
                     }
                 ]
-            }
+            },
+            "patches": [],
+            "time_to_generate_patches": 0
         },
         {
             "repo": "directory-mavibot",
@@ -759,7 +801,9 @@
                         "stack_trace": "java.lang.NullPointerException\n\tat org.apache.directory.mavibot.btree.comparator.CharArrayComparatorTest.testCharArrayComparator(CharArrayComparatorTest.java:65)\n"
                     }
                 ]
-            }
+            },
+            "patches": [],
+            "time_to_generate_patches": 0
         },
         {
             "repo": "directory-mavibot",
@@ -793,7 +837,9 @@
                         "stack_trace": "java.lang.NullPointerException\n\tat org.apache.directory.mavibot.btree.comparator.BooleanArrayComparatorTest.testBooleanArrayComparator(BooleanArrayComparatorTest.java:72)\n"
                     }
                 ]
-            }
+            },
+            "patches": [],
+            "time_to_generate_patches": 0
         },
         {
             "repo": "directory-mavibot",
@@ -827,7 +873,9 @@
                         "stack_trace": "java.lang.NullPointerException\n\tat org.apache.directory.mavibot.btree.comparator.IntArrayComparatorTest.testIntArrayComparator(IntArrayComparatorTest.java:50)\n"
                     }
                 ]
-            }
+            },
+            "patches": [],
+            "time_to_generate_patches": 0
         },
         {
             "repo": "directory-mavibot",
@@ -861,7 +909,9 @@
                         "stack_trace": "java.lang.NullPointerException\n\tat org.apache.directory.mavibot.btree.comparator.ShortArrayComparatorTest.testShortArrayComparator(ShortArrayComparatorTest.java:50)\n"
                     }
                 ]
-            }
+            },
+            "patches": [],
+            "time_to_generate_patches": 0
         }
     ],
     "repository_info": null

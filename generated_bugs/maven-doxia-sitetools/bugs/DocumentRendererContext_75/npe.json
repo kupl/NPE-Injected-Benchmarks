@@ -1,0 +1,7 @@
+{
+    "filepath": "doxia-doc-renderer/src/main/java/org/apache/maven/doxia/docrenderer/DocumentRendererContext.java",
+    "line": 80,
+    "npe_method": "put",
+    "deref_field": "key",
+    "npe_class": "DocumentRendererContext"
+}

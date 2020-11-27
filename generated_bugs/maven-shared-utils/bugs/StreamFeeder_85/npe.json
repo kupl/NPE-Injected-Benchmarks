@@ -1,0 +1,7 @@
+{
+    "filepath": "src/main/java/org/apache/maven/shared/utils/cli/StreamFeeder.java",
+    "line": 89,
+    "npe_method": "close",
+    "deref_field": "is",
+    "npe_class": "StreamFeeder"
+}

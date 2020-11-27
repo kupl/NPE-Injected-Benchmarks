@@ -3,33 +3,6 @@
     "bugs": [
         {
             "repo": "maven-enforcer",
-            "bug_id": "RequirePluginVersions_880",
-            "npe_info": {
-                "filepath": "enforcer-rules/src/main/java/org/apache/maven/plugins/enforcer/RequirePluginVersions.java",
-                "line": 882,
-                "deref_field": "m",
-                "npe_class": "RequirePluginVersions",
-                "npe_method": "findOptionalMojosForLifecycle",
-                "sink_field": null,
-                "jvmti_identify_succeed": null,
-                "is_original": null
-            },
-            "build_info": {
-                "compiled": true,
-                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "java_version": 8,
-                "error_message": null,
-                "time": 22.981695079011843
-            },
-            "test_info": {
-                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "fail_buggy": false,
-                "pass_fixed": true,
-                "testcases": []
-            }
-        },
-        {
-            "repo": "maven-enforcer",
             "bug_id": "BanTransitiveDependencies_180",
             "npe_info": {
                 "filepath": "enforcer-rules/src/main/java/org/apache/maven/plugins/enforcer/BanTransitiveDependencies.java",
@@ -53,7 +26,9 @@
                 "fail_buggy": false,
                 "pass_fixed": true,
                 "testcases": []
-            }
+            },
+            "patches": [],
+            "time_to_generate_patches": 0
         },
         {
             "repo": "maven-enforcer",
@@ -87,34 +62,9 @@
                         "stack_trace": "java.lang.AssertionError: \n\nExpected: (an instance of org.apache.maven.enforcer.rule.api.EnforcerRuleException and exception with message a string containing \"Checksum unspecified\")\n     but: exception with message a string containing \"Checksum unspecified\" message was \"md5 hash of /tmp/junit5665897614518755506/junit3418917553778968150.tmp was d41d8cd98f00b204e9800998ecf8427e but expected null\"\nStacktrace was: org.apache.maven.enforcer.rule.api.EnforcerRuleException: md5 hash of /tmp/junit5665897614518755506/junit3418917553778968150.tmp was d41d8cd98f00b204e9800998ecf8427e but expected null\n\tat org.apache.maven.plugins.enforcer.RequireFileChecksum.execute(RequireFileChecksum.java:78)\n\tat org.apache.maven.plugins.enforcer.TestRequireFileChecksum.testFileChecksumMd5NoChecksumSpecifiedFailure(TestRequireFileChecksum.java:177)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.lang.reflect.Method.invoke(Method.java:498)\n\tat org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)\n\tat org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)\n\tat org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)\n\tat org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)\n\tat org.junit.rules.ExpectedException$ExpectedExceptionStatement.evaluate(ExpectedException.java:258)\n\tat org.junit.rules.ExternalResource$1.evaluate(ExternalResource.java:54)\n\tat org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)\n\tat org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100)\n\tat org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366)\n\tat org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103)\n\tat org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63)\n\tat org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)\n\tat org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)\n\tat org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:413)\n\tat org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:365)\n\tat org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:273)\n\tat org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:238)\n\tat org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:159)\n\tat org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:383)\n\tat org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:344)\n\tat org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:125)\n\tat org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:417)\n\n"
                     }
                 ]
-            }
-        },
-        {
-            "repo": "maven-enforcer",
-            "bug_id": "MockProject_434",
-            "npe_info": {
-                "filepath": "enforcer-rules/src/test/java/org/apache/maven/plugins/enforcer/MockProject.java",
-                "line": 440,
-                "deref_field": "compileSourceRoots",
-                "npe_class": "MockProject",
-                "npe_method": "addCompileSourceRoot",
-                "sink_field": null,
-                "jvmti_identify_succeed": null,
-                "is_original": null
             },
-            "build_info": {
-                "compiled": true,
-                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "java_version": 8,
-                "error_message": null,
-                "time": 29.447080258047208
-            },
-            "test_info": {
-                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "fail_buggy": false,
-                "pass_fixed": true,
-                "testcases": []
-            }
+            "patches": [],
+            "time_to_generate_patches": 0
         },
         {
             "repo": "maven-enforcer",
@@ -141,7 +91,9 @@
                 "fail_buggy": false,
                 "pass_fixed": true,
                 "testcases": []
-            }
+            },
+            "patches": [],
+            "time_to_generate_patches": 0
         },
         {
             "repo": "maven-enforcer",
@@ -175,34 +127,9 @@
                         "stack_trace": "java.lang.AssertionError: \n\nExpected: (an instance of org.apache.maven.enforcer.rule.api.EnforcerRuleException and exception with message a string containing \"Hash type unspecified\")\n     but: exception with message a string containing \"Hash type unspecified\" message was \"Unsupported hash type: null\"\nStacktrace was: org.apache.maven.enforcer.rule.api.EnforcerRuleException: Unsupported hash type: null\n\tat org.apache.maven.plugins.enforcer.RequireFileChecksum.calculateChecksum(RequireFileChecksum.java:151)\n\tat org.apache.maven.plugins.enforcer.RequireFileChecksum.execute(RequireFileChecksum.java:71)\n\tat org.apache.maven.plugins.enforcer.TestRequireFileChecksum.testFileChecksumMd5NoTypeSpecifiedFailure(TestRequireFileChecksum.java:192)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.lang.reflect.Method.invoke(Method.java:498)\n\tat org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)\n\tat org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)\n\tat org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)\n\tat org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)\n\tat org.junit.rules.ExpectedException$ExpectedExceptionStatement.evaluate(ExpectedException.java:258)\n\tat org.junit.rules.ExternalResource$1.evaluate(ExternalResource.java:54)\n\tat org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)\n\tat org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100)\n\tat org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366)\n\tat org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103)\n\tat org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63)\n\tat org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)\n\tat org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)\n\tat org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:413)\n\tat org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:365)\n\tat org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:273)\n\tat org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:238)\n\tat org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:159)\n\tat org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:383)\n\tat org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:344)\n\tat org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:125)\n\tat org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:417)\n\n"
                     }
                 ]
-            }
-        },
-        {
-            "repo": "maven-enforcer",
-            "bug_id": "MockEnforcerExpressionEvaluator_48",
-            "npe_info": {
-                "filepath": "enforcer-rules/src/test/java/org/apache/maven/plugins/enforcer/utils/MockEnforcerExpressionEvaluator.java",
-                "line": 51,
-                "deref_field": "expr",
-                "npe_class": "MockEnforcerExpressionEvaluator",
-                "npe_method": "evaluate",
-                "sink_field": null,
-                "jvmti_identify_succeed": null,
-                "is_original": null
             },
-            "build_info": {
-                "compiled": true,
-                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "java_version": 8,
-                "error_message": null,
-                "time": 20.6895472870674
-            },
-            "test_info": {
-                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "fail_buggy": false,
-                "pass_fixed": true,
-                "testcases": []
-            }
+            "patches": [],
+            "time_to_generate_patches": 0
         },
         {
             "repo": "maven-enforcer",
@@ -236,34 +163,9 @@
                         "stack_trace": "java.lang.NullPointerException\n\tat org.apache.maven.plugins.enforcer.TestRequireFilesDontExist.testEmptyFileAllowNull(TestRequireFilesDontExist.java:81)\n"
                     }
                 ]
-            }
-        },
-        {
-            "repo": "maven-enforcer",
-            "bug_id": "AbstractBanDependencies_114",
-            "npe_info": {
-                "filepath": "enforcer-rules/src/main/java/org/apache/maven/plugins/enforcer/AbstractBanDependencies.java",
-                "line": 116,
-                "deref_field": "message",
-                "npe_class": "AbstractBanDependencies",
-                "npe_method": "execute",
-                "sink_field": null,
-                "jvmti_identify_succeed": null,
-                "is_original": null
             },
-            "build_info": {
-                "compiled": true,
-                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "java_version": 8,
-                "error_message": null,
-                "time": 30.89806006499566
-            },
-            "test_info": {
-                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "fail_buggy": false,
-                "pass_fixed": true,
-                "testcases": []
-            }
+            "patches": [],
+            "time_to_generate_patches": 0
         },
         {
             "repo": "maven-enforcer",
@@ -290,7 +192,9 @@
                 "fail_buggy": false,
                 "pass_fixed": true,
                 "testcases": []
-            }
+            },
+            "patches": [],
+            "time_to_generate_patches": 0
         },
         {
             "repo": "maven-enforcer",
@@ -330,34 +234,9 @@
                         "stack_trace": "java.lang.NullPointerException\n\tat org.apache.maven.plugins.enforcer.TestRequireReleaseVersion.testMojo(TestRequireReleaseVersion.java:56)\n"
                     }
                 ]
-            }
-        },
-        {
-            "repo": "maven-enforcer",
-            "bug_id": "DependencyVersionMap_108",
-            "npe_info": {
-                "filepath": "enforcer-rules/src/main/java/org/apache/maven/plugins/enforcer/utils/DependencyVersionMap.java",
-                "line": 114,
-                "deref_field": "version",
-                "npe_class": "DependencyVersionMap",
-                "npe_method": "containsConflicts",
-                "sink_field": null,
-                "jvmti_identify_succeed": null,
-                "is_original": null
             },
-            "build_info": {
-                "compiled": true,
-                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "java_version": 8,
-                "error_message": null,
-                "time": 25.55643362714909
-            },
-            "test_info": {
-                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "fail_buggy": false,
-                "pass_fixed": true,
-                "testcases": []
-            }
+            "patches": [],
+            "time_to_generate_patches": 0
         },
         {
             "repo": "maven-enforcer",
@@ -397,7 +276,9 @@
                         "stack_trace": "junit.framework.AssertionFailedError: Expected an exception.\n\tat org.apache.maven.plugins.enforcer.TestRequireEnvironmentVariable.testRule(TestRequireEnvironmentVariable.java:54)\n"
                     }
                 ]
-            }
+            },
+            "patches": [],
+            "time_to_generate_patches": 0
         },
         {
             "repo": "maven-enforcer",
@@ -431,7 +312,9 @@
                         "stack_trace": "java.lang.NullPointerException\n\tat org.apache.maven.plugins.enforcer.TestRequirePluginVersions.testGetAdditionalPluginsNull(TestRequirePluginVersions.java:195)\n"
                     }
                 ]
-            }
+            },
+            "patches": [],
+            "time_to_generate_patches": 0
         },
         {
             "repo": "maven-enforcer",
@@ -465,34 +348,9 @@
                         "stack_trace": "java.lang.NullPointerException\n\tat org.apache.maven.plugins.enforcer.TestRequireFilesExist.testEmptyFileAllowNull(TestRequireFilesExist.java:74)\n"
                     }
                 ]
-            }
-        },
-        {
-            "repo": "maven-enforcer",
-            "bug_id": "MockProject_1662",
-            "npe_info": {
-                "filepath": "enforcer-rules/src/test/java/org/apache/maven/plugins/enforcer/MockProject.java",
-                "line": 1668,
-                "deref_field": "attachedArtifacts",
-                "npe_class": "MockProject",
-                "npe_method": "addAttachedArtifact",
-                "sink_field": null,
-                "jvmti_identify_succeed": null,
-                "is_original": null
             },
-            "build_info": {
-                "compiled": true,
-                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "java_version": 8,
-                "error_message": null,
-                "time": 24.733783535892144
-            },
-            "test_info": {
-                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "fail_buggy": false,
-                "pass_fixed": true,
-                "testcases": []
-            }
+            "patches": [],
+            "time_to_generate_patches": 0
         },
         {
             "repo": "maven-enforcer",
@@ -526,34 +384,9 @@
                         "stack_trace": "java.lang.NullPointerException\n\tat org.apache.maven.plugins.enforcer.TestRequireFilesSize.testEmptyFileAllowNull(TestRequireFilesSize.java:78)\n"
                     }
                 ]
-            }
-        },
-        {
-            "repo": "maven-enforcer",
-            "bug_id": "AlwaysPass_43",
-            "npe_info": {
-                "filepath": "enforcer-rules/src/main/java/org/apache/maven/plugins/enforcer/AlwaysPass.java",
-                "line": 45,
-                "deref_field": "message",
-                "npe_class": "AlwaysPass",
-                "npe_method": "execute",
-                "sink_field": null,
-                "jvmti_identify_succeed": null,
-                "is_original": null
             },
-            "build_info": {
-                "compiled": true,
-                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "java_version": 8,
-                "error_message": null,
-                "time": 25.782936119940132
-            },
-            "test_info": {
-                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "fail_buggy": false,
-                "pass_fixed": true,
-                "testcases": []
-            }
+            "patches": [],
+            "time_to_generate_patches": 0
         },
         {
             "repo": "maven-enforcer",
@@ -580,34 +413,9 @@
                 "fail_buggy": false,
                 "pass_fixed": true,
                 "testcases": []
-            }
-        },
-        {
-            "repo": "maven-enforcer",
-            "bug_id": "ArtifactUtils_54",
-            "npe_info": {
-                "filepath": "enforcer-rules/src/main/java/org/apache/maven/plugins/enforcer/utils/ArtifactUtils.java",
-                "line": 56,
-                "deref_field": "subNodes",
-                "npe_class": "ArtifactUtils",
-                "npe_method": "getAllDescendants",
-                "sink_field": null,
-                "jvmti_identify_succeed": null,
-                "is_original": null
             },
-            "build_info": {
-                "compiled": true,
-                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "java_version": 8,
-                "error_message": null,
-                "time": 24.443233087891713
-            },
-            "test_info": {
-                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "fail_buggy": false,
-                "pass_fixed": true,
-                "testcases": []
-            }
+            "patches": [],
+            "time_to_generate_patches": 0
         },
         {
             "repo": "maven-enforcer",
@@ -634,34 +442,9 @@
                 "fail_buggy": false,
                 "pass_fixed": true,
                 "testcases": []
-            }
-        },
-        {
-            "repo": "maven-enforcer",
-            "bug_id": "AbstractRequireFiles_91",
-            "npe_info": {
-                "filepath": "enforcer-rules/src/main/java/org/apache/maven/plugins/enforcer/AbstractRequireFiles.java",
-                "line": 93,
-                "deref_field": "message",
-                "npe_class": "AbstractRequireFiles",
-                "npe_method": "execute",
-                "sink_field": null,
-                "jvmti_identify_succeed": null,
-                "is_original": null
             },
-            "build_info": {
-                "compiled": true,
-                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "java_version": 8,
-                "error_message": null,
-                "time": 20.86570472898893
-            },
-            "test_info": {
-                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "fail_buggy": false,
-                "pass_fixed": true,
-                "testcases": []
-            }
+            "patches": [],
+            "time_to_generate_patches": 0
         },
         {
             "repo": "maven-enforcer",
@@ -707,7 +490,9 @@
                         "stack_trace": "java.lang.NullPointerException\n\tat org.apache.maven.plugins.enforcer.TestRequireFilesExist.testId(TestRequireFilesExist.java:138)\n"
                     }
                 ]
-            }
+            },
+            "patches": [],
+            "time_to_generate_patches": 0
         },
         {
             "repo": "maven-enforcer",
@@ -765,34 +550,9 @@
                         "stack_trace": "junit.framework.AssertionFailedError: No Exception expected. Caught:null\n\tat org.apache.maven.plugins.enforcer.TestAbstractVersionEnforcer.testEnforceVersion(TestAbstractVersionEnforcer.java:147)\n"
                     }
                 ]
-            }
-        },
-        {
-            "repo": "maven-enforcer",
-            "bug_id": "RequirePluginVersions_798",
-            "npe_info": {
-                "filepath": "enforcer-rules/src/main/java/org/apache/maven/plugins/enforcer/RequirePluginVersions.java",
-                "line": 802,
-                "deref_field": "lifecycle",
-                "npe_class": "RequirePluginVersions",
-                "npe_method": "getLifecycleForPhase",
-                "sink_field": null,
-                "jvmti_identify_succeed": null,
-                "is_original": null
             },
-            "build_info": {
-                "compiled": true,
-                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "java_version": 8,
-                "error_message": null,
-                "time": 30.01843410707079
-            },
-            "test_info": {
-                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "fail_buggy": false,
-                "pass_fixed": true,
-                "testcases": []
-            }
+            "patches": [],
+            "time_to_generate_patches": 0
         },
         {
             "repo": "maven-enforcer",
@@ -819,7 +579,9 @@
                 "fail_buggy": true,
                 "pass_fixed": false,
                 "testcases": []
-            }
+            },
+            "patches": [],
+            "time_to_generate_patches": 0
         },
         {
             "repo": "maven-enforcer",
@@ -865,34 +627,9 @@
                         "stack_trace": "java.lang.NullPointerException\n\tat org.apache.maven.plugins.enforcer.TestRequireFilesExist.testId(TestRequireFilesExist.java:138)\n"
                     }
                 ]
-            }
-        },
-        {
-            "repo": "maven-enforcer",
-            "bug_id": "RequirePluginVersions_473",
-            "npe_info": {
-                "filepath": "enforcer-rules/src/main/java/org/apache/maven/plugins/enforcer/RequirePluginVersions.java",
-                "line": 475,
-                "deref_field": "b",
-                "npe_class": "RequirePluginVersions",
-                "npe_method": "getProfilePlugins",
-                "sink_field": null,
-                "jvmti_identify_succeed": null,
-                "is_original": null
             },
-            "build_info": {
-                "compiled": true,
-                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "java_version": 8,
-                "error_message": null,
-                "time": 23.1331919899676
-            },
-            "test_info": {
-                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "fail_buggy": false,
-                "pass_fixed": true,
-                "testcases": []
-            }
+            "patches": [],
+            "time_to_generate_patches": 0
         },
         {
             "repo": "maven-enforcer",
@@ -938,34 +675,9 @@
                         "stack_trace": "java.lang.NullPointerException\n\tat org.apache.maven.plugins.enforcer.TestRequireFilesSize.testEmptyFile(TestRequireFilesSize.java:62)\n"
                     }
                 ]
-            }
-        },
-        {
-            "repo": "maven-enforcer",
-            "bug_id": "RequireReleaseVersion_58",
-            "npe_info": {
-                "filepath": "enforcer-rules/src/main/java/org/apache/maven/plugins/enforcer/RequireReleaseVersion.java",
-                "line": 60,
-                "deref_field": "message",
-                "npe_class": "RequireReleaseVersion",
-                "npe_method": "execute",
-                "sink_field": null,
-                "jvmti_identify_succeed": null,
-                "is_original": null
             },
-            "build_info": {
-                "compiled": true,
-                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "java_version": 8,
-                "error_message": null,
-                "time": 23.722443664912134
-            },
-            "test_info": {
-                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "fail_buggy": false,
-                "pass_fixed": true,
-                "testcases": []
-            }
+            "patches": [],
+            "time_to_generate_patches": 0
         },
         {
             "repo": "maven-enforcer",
@@ -999,7 +711,9 @@
                         "stack_trace": "java.lang.NullPointerException\n\tat org.apache.maven.plugins.enforcer.RequirePrerequisiteTest.testNoSpecifiedPrerequisite(RequirePrerequisiteTest.java:69)\n"
                     }
                 ]
-            }
+            },
+            "patches": [],
+            "time_to_generate_patches": 0
         },
         {
             "repo": "maven-enforcer",
@@ -1033,34 +747,9 @@
                         "stack_trace": "java.lang.NullPointerException\n\tat org.apache.maven.plugins.enforcer.TestRequireReleaseDeps.testRule(TestRequireReleaseDeps.java:87)\n"
                     }
                 ]
-            }
-        },
-        {
-            "repo": "maven-enforcer",
-            "bug_id": "RequirePluginVersions_293",
-            "npe_info": {
-                "filepath": "enforcer-rules/src/main/java/org/apache/maven/plugins/enforcer/RequirePluginVersions.java",
-                "line": 295,
-                "deref_field": "currentPlugin",
-                "npe_class": "RequirePluginVersions",
-                "npe_method": "handleMessagesToTheUser",
-                "sink_field": null,
-                "jvmti_identify_succeed": null,
-                "is_original": null
             },
-            "build_info": {
-                "compiled": true,
-                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "java_version": 8,
-                "error_message": null,
-                "time": 22.75516850594431
-            },
-            "test_info": {
-                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "fail_buggy": false,
-                "pass_fixed": true,
-                "testcases": []
-            }
+            "patches": [],
+            "time_to_generate_patches": 0
         },
         {
             "repo": "maven-enforcer",
@@ -1087,7 +776,9 @@
                 "fail_buggy": false,
                 "pass_fixed": true,
                 "testcases": []
-            }
+            },
+            "patches": [],
+            "time_to_generate_patches": 0
         },
         {
             "repo": "maven-enforcer",
@@ -1127,34 +818,9 @@
                         "stack_trace": "java.lang.AssertionError: Expected exception: org.apache.maven.enforcer.rule.api.EnforcerRuleException\n"
                     }
                 ]
-            }
-        },
-        {
-            "repo": "maven-enforcer",
-            "bug_id": "RequireReleaseDeps_177",
-            "npe_info": {
-                "filepath": "enforcer-rules/src/main/java/org/apache/maven/plugins/enforcer/RequireReleaseDeps.java",
-                "line": 179,
-                "deref_field": "excludes",
-                "npe_class": "RequireReleaseDeps",
-                "npe_method": "filterArtifacts",
-                "sink_field": null,
-                "jvmti_identify_succeed": null,
-                "is_original": null
             },
-            "build_info": {
-                "compiled": true,
-                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "java_version": 8,
-                "error_message": null,
-                "time": 27.65891062305309
-            },
-            "test_info": {
-                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "fail_buggy": false,
-                "pass_fixed": true,
-                "testcases": []
-            }
+            "patches": [],
+            "time_to_generate_patches": 0
         },
         {
             "repo": "maven-enforcer",
@@ -1181,7 +847,9 @@
                 "fail_buggy": false,
                 "pass_fixed": true,
                 "testcases": []
-            }
+            },
+            "patches": [],
+            "time_to_generate_patches": 0
         },
         {
             "repo": "maven-enforcer",
@@ -1215,7 +883,9 @@
                         "stack_trace": "java.lang.NullPointerException\n\tat org.apache.maven.plugins.enforcer.TestRequirePluginVersions.testCombinePlugins2(TestRequirePluginVersions.java:371)\n"
                     }
                 ]
-            }
+            },
+            "patches": [],
+            "time_to_generate_patches": 0
         },
         {
             "repo": "maven-enforcer",
@@ -1393,7 +1063,9 @@
                         "stack_trace": "java.lang.NullPointerException\n\tat org.apache.maven.plugins.enforcer.TestEnforceMojo.testEnforceMojo(TestEnforceMojo.java:70)\n"
                     }
                 ]
-            }
+            },
+            "patches": [],
+            "time_to_generate_patches": 0
         },
         {
             "repo": "maven-enforcer",
@@ -1427,34 +1099,9 @@
                         "stack_trace": "java.lang.AssertionError: \n\nExpected: (an instance of org.apache.maven.enforcer.rule.api.EnforcerRuleException and exception with message a string containing \"Input file unspecified\")\n     but: an instance of org.apache.maven.enforcer.rule.api.EnforcerRuleException <java.lang.NullPointerException> is a java.lang.NullPointerException\nStacktrace was: java.lang.NullPointerException\n\tat org.apache.maven.plugins.enforcer.RequireFileChecksum.execute(RequireFileChecksum.java:59)\n\tat org.apache.maven.plugins.enforcer.TestRequireFileChecksum.testFileChecksumMd5NoFileSpecifiedFailure(TestRequireFileChecksum.java:162)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.lang.reflect.Method.invoke(Method.java:498)\n\tat org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)\n\tat org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)\n\tat org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)\n\tat org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)\n\tat org.junit.rules.ExpectedException$ExpectedExceptionStatement.evaluate(ExpectedException.java:258)\n\tat org.junit.rules.ExternalResource$1.evaluate(ExternalResource.java:54)\n\tat org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)\n\tat org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100)\n\tat org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366)\n\tat org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103)\n\tat org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63)\n\tat org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)\n\tat org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)\n\tat org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:413)\n\tat org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:365)\n\tat org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:273)\n\tat org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:238)\n\tat org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:159)\n\tat org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:383)\n\tat org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:344)\n\tat org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:125)\n\tat org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:417)\n\n"
                     }
                 ]
-            }
-        },
-        {
-            "repo": "maven-enforcer",
-            "bug_id": "RequireActiveProfile_107",
-            "npe_info": {
-                "filepath": "enforcer-rules/src/main/java/org/apache/maven/plugins/enforcer/RequireActiveProfile.java",
-                "line": 109,
-                "deref_field": "message",
-                "npe_class": "RequireActiveProfile",
-                "npe_method": "execute",
-                "sink_field": null,
-                "jvmti_identify_succeed": null,
-                "is_original": null
             },
-            "build_info": {
-                "compiled": true,
-                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "java_version": 8,
-                "error_message": null,
-                "time": 25.14218303305097
-            },
-            "test_info": {
-                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "fail_buggy": false,
-                "pass_fixed": true,
-                "testcases": []
-            }
+            "patches": [],
+            "time_to_generate_patches": 0
         },
         {
             "repo": "maven-enforcer",
@@ -1506,34 +1153,9 @@
                         "stack_trace": "java.lang.NullPointerException\n\tat org.apache.maven.plugins.enforcer.TestRequirePluginVersions.testGetAdditionalPluginsNull(TestRequirePluginVersions.java:195)\n"
                     }
                 ]
-            }
-        },
-        {
-            "repo": "maven-enforcer",
-            "bug_id": "RequirePluginVersions_476",
-            "npe_info": {
-                "filepath": "enforcer-rules/src/main/java/org/apache/maven/plugins/enforcer/RequirePluginVersions.java",
-                "line": 478,
-                "deref_field": "plugins",
-                "npe_class": "RequirePluginVersions",
-                "npe_method": "getProfilePlugins",
-                "sink_field": null,
-                "jvmti_identify_succeed": null,
-                "is_original": null
             },
-            "build_info": {
-                "compiled": true,
-                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "java_version": 8,
-                "error_message": null,
-                "time": 24.049558793893084
-            },
-            "test_info": {
-                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "fail_buggy": false,
-                "pass_fixed": true,
-                "testcases": []
-            }
+            "patches": [],
+            "time_to_generate_patches": 0
         },
         {
             "repo": "maven-enforcer",
@@ -1560,7 +1182,9 @@
                 "fail_buggy": false,
                 "pass_fixed": true,
                 "testcases": []
-            }
+            },
+            "patches": [],
+            "time_to_generate_patches": 0
         },
         {
             "repo": "maven-enforcer",
@@ -3124,34 +2748,9 @@
                         "stack_trace": "java.lang.Exception: Unexpected exception, expected<org.apache.maven.enforcer.rule.api.EnforcerRuleException> but was<java.lang.NullPointerException>\n\tat org.apache.maven.plugins.enforcer.TestBannedDependencies$PartialWildcardExcludesUsingTransitiveDependencies.addExcludeAndRunRule(TestBannedDependencies.java:213)\n\tat org.apache.maven.plugins.enforcer.TestBannedDependencies$PartialWildcardExcludesUsingTransitiveDependencies.groupIdArtifactIdVersionTypeWildcardScope(TestBannedDependencies.java:227)\n"
                     }
                 ]
-            }
-        },
-        {
-            "repo": "maven-enforcer",
-            "bug_id": "RequireOS_146",
-            "npe_info": {
-                "filepath": "enforcer-rules/src/main/java/org/apache/maven/plugins/enforcer/RequireOS.java",
-                "line": 154,
-                "deref_field": "version",
-                "npe_class": "RequireOS",
-                "npe_method": "execute",
-                "sink_field": null,
-                "jvmti_identify_succeed": null,
-                "is_original": null
             },
-            "build_info": {
-                "compiled": true,
-                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "java_version": 8,
-                "error_message": null,
-                "time": 26.25812747492455
-            },
-            "test_info": {
-                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "fail_buggy": false,
-                "pass_fixed": true,
-                "testcases": []
-            }
+            "patches": [],
+            "time_to_generate_patches": 0
         },
         {
             "repo": "maven-enforcer",
@@ -3178,34 +2777,9 @@
                 "fail_buggy": false,
                 "pass_fixed": true,
                 "testcases": []
-            }
-        },
-        {
-            "repo": "maven-enforcer",
-            "bug_id": "ArtifactUtils_47",
-            "npe_info": {
-                "filepath": "enforcer-rules/src/main/java/org/apache/maven/plugins/enforcer/utils/ArtifactUtils.java",
-                "line": 50,
-                "deref_field": "getChildren()",
-                "npe_class": "ArtifactUtils",
-                "npe_method": "getAllDescendants",
-                "sink_field": null,
-                "jvmti_identify_succeed": null,
-                "is_original": null
             },
-            "build_info": {
-                "compiled": true,
-                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "java_version": 8,
-                "error_message": null,
-                "time": 23.37005385896191
-            },
-            "test_info": {
-                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "fail_buggy": false,
-                "pass_fixed": true,
-                "testcases": []
-            }
+            "patches": [],
+            "time_to_generate_patches": 0
         },
         {
             "repo": "maven-enforcer",
@@ -3232,34 +2806,9 @@
                 "fail_buggy": false,
                 "pass_fixed": true,
                 "testcases": []
-            }
-        },
-        {
-            "repo": "maven-enforcer",
-            "bug_id": "MockProject_451",
-            "npe_info": {
-                "filepath": "enforcer-rules/src/test/java/org/apache/maven/plugins/enforcer/MockProject.java",
-                "line": 457,
-                "deref_field": "scriptSourceRoots",
-                "npe_class": "MockProject",
-                "npe_method": "addScriptSourceRoot",
-                "sink_field": null,
-                "jvmti_identify_succeed": null,
-                "is_original": null
             },
-            "build_info": {
-                "compiled": true,
-                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "java_version": 8,
-                "error_message": null,
-                "time": 24.995210387045518
-            },
-            "test_info": {
-                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "fail_buggy": false,
-                "pass_fixed": true,
-                "testcases": []
-            }
+            "patches": [],
+            "time_to_generate_patches": 0
         },
         {
             "repo": "maven-enforcer",
@@ -3286,34 +2835,9 @@
                 "fail_buggy": false,
                 "pass_fixed": true,
                 "testcases": []
-            }
-        },
-        {
-            "repo": "maven-enforcer",
-            "bug_id": "RequirePluginVersions_435",
-            "npe_info": {
-                "filepath": "enforcer-rules/src/main/java/org/apache/maven/plugins/enforcer/RequirePluginVersions.java",
-                "line": 437,
-                "deref_field": "pluginString",
-                "npe_class": "RequirePluginVersions",
-                "npe_method": "parsePluginString",
-                "sink_field": null,
-                "jvmti_identify_succeed": null,
-                "is_original": null
             },
-            "build_info": {
-                "compiled": true,
-                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "java_version": 8,
-                "error_message": null,
-                "time": 27.126728839008138
-            },
-            "test_info": {
-                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "fail_buggy": false,
-                "pass_fixed": true,
-                "testcases": []
-            }
+            "patches": [],
+            "time_to_generate_patches": 0
         }
     ],
     "repository_info": null

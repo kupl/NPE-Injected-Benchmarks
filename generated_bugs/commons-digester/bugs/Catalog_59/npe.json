@@ -1,0 +1,7 @@
+{
+    "filepath": "core/src/test/java/org/apache/commons/digester3/annotations/catalog/Catalog.java",
+    "line": 65,
+    "npe_method": "equals",
+    "deref_field": "this.items",
+    "npe_class": "Catalog"
+}

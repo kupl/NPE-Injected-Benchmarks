@@ -1,0 +1,7 @@
+{
+    "filepath": "src/main/java/org/apache/sling/models/impl/ModelAdapterFactory.java",
+    "line": 1281,
+    "npe_method": "getModelFromResource",
+    "deref_field": "clazz",
+    "npe_class": "ModelAdapterFactory"
+}

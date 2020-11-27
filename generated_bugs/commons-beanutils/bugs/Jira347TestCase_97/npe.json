@@ -1,0 +1,7 @@
+{
+    "filepath": "src/test/java/org/apache/commons/beanutils2/bugs/Jira347TestCase.java",
+    "line": 97,
+    "npe_method": "getMappedWriteMethod",
+    "deref_field": "m",
+    "npe_class": "Jira347TestCase"
+}

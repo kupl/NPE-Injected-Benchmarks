@@ -1,0 +1,7 @@
+{
+    "filepath": "log4j-audit/log4j-audit-war/src/main/java/org/apache/logging/log4j/audit/service/controller/CatalogController.java",
+    "line": 267,
+    "npe_method": "createEvent",
+    "deref_field": "getCatalogId()",
+    "npe_class": "CatalogController"
+}

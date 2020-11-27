@@ -1,0 +1,7 @@
+{
+    "filepath": "src/test/java/org/apache/sling/jcr/resource/internal/JcrModifiableValueMapTest.java",
+    "line": 131,
+    "npe_method": "tearDown",
+    "deref_field": "rootNode",
+    "npe_class": "JcrModifiableValueMapTest"
+}

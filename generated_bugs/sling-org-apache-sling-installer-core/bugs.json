@@ -3,28 +3,6 @@
     "bugs": [
         {
             "repo": "sling-org-apache-sling-installer-core",
-            "bug_id": "InstallTask_59",
-            "npe_info": {
-                "filepath": "src/main/java/org/apache/sling/installer/api/tasks/InstallTask.java",
-                "line": 60,
-                "deref_field": "this.resourceGroup",
-                "npe_class": "InstallTask",
-                "npe_method": "getResource",
-                "sink_field": null,
-                "jvmti_identify_succeed": null,
-                "is_original": null
-            },
-            "build_info": {
-                "compiled": false,
-                "build_command": null,
-                "java_version": null,
-                "error_message": "Compilation failure",
-                "time": null
-            },
-            "test_info": null
-        },
-        {
-            "repo": "sling-org-apache-sling-installer-core",
             "bug_id": "UpdateResult_109",
             "npe_info": {
                 "filepath": "src/main/java/org/apache/sling/installer/api/UpdateResult.java",
@@ -43,29 +21,9 @@
                 "error_message": "Compilation failure",
                 "time": null
             },
-            "test_info": null
-        },
-        {
-            "repo": "sling-org-apache-sling-installer-core",
-            "bug_id": "ChangeStateTask_110",
-            "npe_info": {
-                "filepath": "src/main/java/org/apache/sling/installer/api/tasks/ChangeStateTask.java",
-                "line": 111,
-                "deref_field": "this.addAttributes",
-                "npe_class": "ChangeStateTask",
-                "npe_method": "execute",
-                "sink_field": null,
-                "jvmti_identify_succeed": null,
-                "is_original": null
-            },
-            "build_info": {
-                "compiled": false,
-                "build_command": null,
-                "java_version": null,
-                "error_message": "Compilation failure",
-                "time": null
-            },
-            "test_info": null
+            "test_info": null,
+            "patches": [],
+            "time_to_generate_patches": 0
         },
         {
             "repo": "sling-org-apache-sling-installer-core",
@@ -87,29 +45,9 @@
                 "error_message": "Compilation failure",
                 "time": null
             },
-            "test_info": null
-        },
-        {
-            "repo": "sling-org-apache-sling-installer-core",
-            "bug_id": "ChangeStateTask_104",
-            "npe_info": {
-                "filepath": "src/main/java/org/apache/sling/installer/api/tasks/ChangeStateTask.java",
-                "line": 107,
-                "deref_field": "resource",
-                "npe_class": "ChangeStateTask",
-                "npe_method": "execute",
-                "sink_field": null,
-                "jvmti_identify_succeed": null,
-                "is_original": null
-            },
-            "build_info": {
-                "compiled": false,
-                "build_command": null,
-                "java_version": null,
-                "error_message": "Compilation failure",
-                "time": null
-            },
-            "test_info": null
+            "test_info": null,
+            "patches": [],
+            "time_to_generate_patches": 0
         },
         {
             "repo": "sling-org-apache-sling-installer-core",
@@ -131,34 +69,9 @@
                 "error_message": "Compilation failure",
                 "time": null
             },
-            "test_info": null
-        },
-        {
-            "repo": "sling-org-apache-sling-installer-core",
-            "bug_id": "AbstractBundleTask_53",
-            "npe_info": {
-                "filepath": "src/main/java/org/apache/sling/installer/core/impl/tasks/AbstractBundleTask.java",
-                "line": 54,
-                "deref_field": "getDictionary()",
-                "npe_class": "AbstractBundleTask",
-                "npe_method": "getBundleStartLevel",
-                "sink_field": null,
-                "jvmti_identify_succeed": null,
-                "is_original": null
-            },
-            "build_info": {
-                "compiled": true,
-                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "java_version": 8,
-                "error_message": null,
-                "time": 24.75555808795616
-            },
-            "test_info": {
-                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "fail_buggy": false,
-                "pass_fixed": true,
-                "testcases": []
-            }
+            "test_info": null,
+            "patches": [],
+            "time_to_generate_patches": 0
         }
     ],
     "repository_info": null

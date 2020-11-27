@@ -1,0 +1,7 @@
+{
+    "filepath": "tiles-autotag-core/src/main/java/org/apache/tiles/autotag/tool/StringTool.java",
+    "line": 120,
+    "npe_method": "getDefaultValue",
+    "deref_field": "overriddenDefaultValue",
+    "npe_class": "StringTool"
+}

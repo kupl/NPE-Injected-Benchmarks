@@ -1,0 +1,7 @@
+{
+    "filepath": "src/test/java/org/apache/sling/resource/collection/impl/ResourceCollectionImplTest.java",
+    "line": 172,
+    "npe_method": "testAddResourceWithProperties",
+    "deref_field": "vm",
+    "npe_class": "ResourceCollectionImplTest"
+}

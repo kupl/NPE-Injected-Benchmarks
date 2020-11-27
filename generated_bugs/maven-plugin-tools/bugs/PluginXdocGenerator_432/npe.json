@@ -1,0 +1,7 @@
+{
+    "filepath": "maven-plugin-tools-generators/src/main/java/org/apache/maven/tools/plugin/generator/PluginXdocGenerator.java",
+    "line": 434,
+    "npe_method": "filterParameters",
+    "deref_field": "parameterList",
+    "npe_class": "PluginXdocGenerator"
+}

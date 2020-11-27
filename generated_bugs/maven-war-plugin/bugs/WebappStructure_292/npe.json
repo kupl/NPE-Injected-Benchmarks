@@ -1,0 +1,7 @@
+{
+    "filepath": "src/main/java/org/apache/maven/plugins/war/util/WebappStructure.java",
+    "line": 297,
+    "npe_method": "createDependenciesInfoList",
+    "deref_field": "dependencies",
+    "npe_class": "WebappStructure"
+}

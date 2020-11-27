@@ -1,0 +1,7 @@
+{
+    "filepath": "maven-plugin-plugin/src/main/java/org/apache/maven/plugin/plugin/PluginReport.java",
+    "line": 599,
+    "npe_method": "renderBody",
+    "deref_field": "jdk",
+    "npe_class": "PluginOverviewRenderer"
+}

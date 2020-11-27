@@ -1,0 +1,7 @@
+{
+    "filepath": "src/test/java/org/apache/sling/jcr/resource/internal/AssertCalendar.java",
+    "line": 37,
+    "npe_method": "assertEqualsCalendar",
+    "deref_field": "expected",
+    "npe_class": "AssertCalendar"
+}

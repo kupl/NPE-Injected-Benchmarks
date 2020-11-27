@@ -1,0 +1,7 @@
+{
+    "filepath": "src/main/java/org/apache/sling/installer/api/tasks/InstallTask.java",
+    "line": 118,
+    "npe_method": "setFinishedState",
+    "deref_field": "this.resourceGroup",
+    "npe_class": "InstallTask"
+}

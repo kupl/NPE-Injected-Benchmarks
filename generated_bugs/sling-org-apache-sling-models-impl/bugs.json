@@ -3,33 +3,6 @@
     "bugs": [
         {
             "repo": "sling-org-apache-sling-models-impl",
-            "bug_id": "ModelAdapterFactory_618",
-            "npe_info": {
-                "filepath": "src/main/java/org/apache/sling/models/impl/ModelAdapterFactory.java",
-                "line": 619,
-                "deref_field": "modelBundle",
-                "npe_class": "ModelAdapterFactory",
-                "npe_method": "getModelBundleContext",
-                "sink_field": null,
-                "jvmti_identify_succeed": null,
-                "is_original": null
-            },
-            "build_info": {
-                "compiled": true,
-                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "java_version": 8,
-                "error_message": null,
-                "time": 18.913204634096473
-            },
-            "test_info": {
-                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "fail_buggy": true,
-                "pass_fixed": false,
-                "testcases": []
-            }
-        },
-        {
-            "repo": "sling-org-apache-sling-models-impl",
             "bug_id": "ResourcePathInjector_71",
             "npe_info": {
                 "filepath": "src/main/java/org/apache/sling/models/impl/injectors/ResourcePathInjector.java",
@@ -60,34 +33,9 @@
                         "stack_trace": "java.lang.AssertionError\n\tat org.apache.sling.models.impl.ResourcePathInjectionTest.testOptionalPathInjectionWithNonResourceAdaptable(ResourcePathInjectionTest.java:130)\n"
                     }
                 ]
-            }
-        },
-        {
-            "repo": "sling-org-apache-sling-models-impl",
-            "bug_id": "ChildResourceViaProvider_54",
-            "npe_info": {
-                "filepath": "src/main/java/org/apache/sling/models/impl/via/ChildResourceViaProvider.java",
-                "line": 58,
-                "deref_field": "child",
-                "npe_class": "ChildResourceViaProvider",
-                "npe_method": "getAdaptable",
-                "sink_field": null,
-                "jvmti_identify_succeed": null,
-                "is_original": null
             },
-            "build_info": {
-                "compiled": true,
-                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "java_version": 8,
-                "error_message": null,
-                "time": 20.267649464076385
-            },
-            "test_info": {
-                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "fail_buggy": true,
-                "pass_fixed": false,
-                "testcases": []
-            }
+            "patches": [],
+            "time_to_generate_patches": 0
         },
         {
             "repo": "sling-org-apache-sling-models-impl",
@@ -114,7 +62,9 @@
                 "fail_buggy": true,
                 "pass_fixed": false,
                 "testcases": []
-            }
+            },
+            "patches": [],
+            "time_to_generate_patches": 0
         },
         {
             "repo": "sling-org-apache-sling-models-impl",
@@ -148,34 +98,9 @@
                         "stack_trace": "java.lang.AssertionError\n\tat org.apache.sling.models.impl.ConstructorTest.testMultiThreadedConstructorInjection(ConstructorTest.java:177)\n"
                     }
                 ]
-            }
-        },
-        {
-            "repo": "sling-org-apache-sling-models-impl",
-            "bug_id": "ConstructorTest_151",
-            "npe_info": {
-                "filepath": "src/test/java/org/apache/sling/models/impl/ConstructorTest.java",
-                "line": 154,
-                "deref_field": "model",
-                "npe_class": "1ModelCreator",
-                "npe_method": "call",
-                "sink_field": null,
-                "jvmti_identify_succeed": null,
-                "is_original": null
             },
-            "build_info": {
-                "compiled": true,
-                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "java_version": 8,
-                "error_message": null,
-                "time": 19.47196528594941
-            },
-            "test_info": {
-                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "fail_buggy": true,
-                "pass_fixed": false,
-                "testcases": []
-            }
+            "patches": [],
+            "time_to_generate_patches": 0
         },
         {
             "repo": "sling-org-apache-sling-models-impl",
@@ -209,34 +134,9 @@
                         "stack_trace": "java.lang.NullPointerException\n\tat org.apache.sling.models.impl.AdapterImplementationsTest.testResourceTypeRegistrationForResourceWithoutResourceType(AdapterImplementationsTest.java:254)\n"
                     }
                 ]
-            }
-        },
-        {
-            "repo": "sling-org-apache-sling-models-impl",
-            "bug_id": "SlingObjectInjector_118",
-            "npe_info": {
-                "filepath": "src/main/java/org/apache/sling/models/impl/injectors/SlingObjectInjector.java",
-                "line": 119,
-                "deref_field": "scriptHelper",
-                "npe_class": "SlingObjectInjector",
-                "npe_method": "getSlingHttpServletResponse",
-                "sink_field": null,
-                "jvmti_identify_succeed": null,
-                "is_original": null
             },
-            "build_info": {
-                "compiled": true,
-                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "java_version": 8,
-                "error_message": null,
-                "time": 18.688382418826222
-            },
-            "test_info": {
-                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "fail_buggy": true,
-                "pass_fixed": false,
-                "testcases": []
-            }
+            "patches": [],
+            "time_to_generate_patches": 0
         },
         {
             "repo": "sling-org-apache-sling-models-impl",
@@ -263,34 +163,9 @@
                 "fail_buggy": true,
                 "pass_fixed": false,
                 "testcases": []
-            }
-        },
-        {
-            "repo": "sling-org-apache-sling-models-impl",
-            "bug_id": "RequestAttributeInjector_57",
-            "npe_info": {
-                "filepath": "src/main/java/org/apache/sling/models/impl/injectors/RequestAttributeInjector.java",
-                "line": 58,
-                "deref_field": "annotation",
-                "npe_class": "RequestAttributeInjector",
-                "npe_method": "createAnnotationProcessor",
-                "sink_field": null,
-                "jvmti_identify_succeed": null,
-                "is_original": null
             },
-            "build_info": {
-                "compiled": true,
-                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "java_version": 8,
-                "error_message": null,
-                "time": 18.746192699996755
-            },
-            "test_info": {
-                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "fail_buggy": true,
-                "pass_fixed": false,
-                "testcases": []
-            }
+            "patches": [],
+            "time_to_generate_patches": 0
         },
         {
             "repo": "sling-org-apache-sling-models-impl",
@@ -317,34 +192,9 @@
                 "fail_buggy": true,
                 "pass_fixed": false,
                 "testcases": []
-            }
-        },
-        {
-            "repo": "sling-org-apache-sling-models-impl",
-            "bug_id": "ValueMapInjector_140",
-            "npe_info": {
-                "filepath": "src/main/java/org/apache/sling/models/impl/injectors/ValueMapInjector.java",
-                "line": 140,
-                "deref_field": "prepared",
-                "npe_class": "ValueMapInjector",
-                "npe_method": "prepareValue",
-                "sink_field": null,
-                "jvmti_identify_succeed": null,
-                "is_original": null
             },
-            "build_info": {
-                "compiled": true,
-                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "java_version": 8,
-                "error_message": null,
-                "time": 17.81665066513233
-            },
-            "test_info": {
-                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "fail_buggy": true,
-                "pass_fixed": false,
-                "testcases": []
-            }
+            "patches": [],
+            "time_to_generate_patches": 0
         },
         {
             "repo": "sling-org-apache-sling-models-impl",
@@ -371,34 +221,9 @@
                 "fail_buggy": true,
                 "pass_fixed": false,
                 "testcases": []
-            }
-        },
-        {
-            "repo": "sling-org-apache-sling-models-impl",
-            "bug_id": "ModelAdapterFactory_1317",
-            "npe_info": {
-                "filepath": "src/main/java/org/apache/sling/models/impl/ModelAdapterFactory.java",
-                "line": 1320,
-                "deref_field": "clazz",
-                "npe_class": "ModelAdapterFactory",
-                "npe_method": "exportModelForResource",
-                "sink_field": null,
-                "jvmti_identify_succeed": null,
-                "is_original": null
             },
-            "build_info": {
-                "compiled": true,
-                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "java_version": 8,
-                "error_message": null,
-                "time": 20.27017114800401
-            },
-            "test_info": {
-                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "fail_buggy": true,
-                "pass_fixed": false,
-                "testcases": []
-            }
+            "patches": [],
+            "time_to_generate_patches": 0
         },
         {
             "repo": "sling-org-apache-sling-models-impl",
@@ -3924,34 +3749,9 @@
                         "stack_trace": "java.lang.AssertionError\n\tat org.apache.sling.models.impl.ConstructorTest.testThreeConstructorsOneInjectInjection(ConstructorTest.java:137)\n"
                     }
                 ]
-            }
-        },
-        {
-            "repo": "sling-org-apache-sling-models-impl",
-            "bug_id": "ModelAdapterFactory_1353",
-            "npe_info": {
-                "filepath": "src/main/java/org/apache/sling/models/impl/ModelAdapterFactory.java",
-                "line": 1354,
-                "deref_field": "registry",
-                "npe_class": "ModelAdapterFactory",
-                "npe_method": "requestDestroyed",
-                "sink_field": null,
-                "jvmti_identify_succeed": null,
-                "is_original": null
             },
-            "build_info": {
-                "compiled": true,
-                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "java_version": 8,
-                "error_message": null,
-                "time": 21.61531638400629
-            },
-            "test_info": {
-                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "fail_buggy": true,
-                "pass_fixed": false,
-                "testcases": []
-            }
+            "patches": [],
+            "time_to_generate_patches": 0
         },
         {
             "repo": "sling-org-apache-sling-models-impl",
@@ -3978,34 +3778,9 @@
                 "fail_buggy": true,
                 "pass_fixed": false,
                 "testcases": []
-            }
-        },
-        {
-            "repo": "sling-org-apache-sling-models-impl",
-            "bug_id": "OSGiServiceInjector_201",
-            "npe_info": {
-                "filepath": "src/main/java/org/apache/sling/models/impl/injectors/OSGiServiceInjector.java",
-                "line": 202,
-                "deref_field": "refs",
-                "npe_class": "Callback",
-                "npe_method": "onDisposed",
-                "sink_field": null,
-                "jvmti_identify_succeed": null,
-                "is_original": null
             },
-            "build_info": {
-                "compiled": true,
-                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "java_version": 8,
-                "error_message": null,
-                "time": 21.03024431387894
-            },
-            "test_info": {
-                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "fail_buggy": true,
-                "pass_fixed": false,
-                "testcases": []
-            }
+            "patches": [],
+            "time_to_generate_patches": 0
         },
         {
             "repo": "sling-org-apache-sling-models-impl",
@@ -4032,34 +3807,9 @@
                 "fail_buggy": true,
                 "pass_fixed": false,
                 "testcases": []
-            }
-        },
-        {
-            "repo": "sling-org-apache-sling-models-impl",
-            "bug_id": "ModelAdapterFactory_393",
-            "npe_info": {
-                "filepath": "src/main/java/org/apache/sling/models/impl/ModelAdapterFactory.java",
-                "line": 394,
-                "deref_field": "t",
-                "npe_class": "ModelAdapterFactory",
-                "npe_method": "internalCreateModel",
-                "sink_field": null,
-                "jvmti_identify_succeed": null,
-                "is_original": null
             },
-            "build_info": {
-                "compiled": true,
-                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "java_version": 8,
-                "error_message": null,
-                "time": 19.114866517018527
-            },
-            "test_info": {
-                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "fail_buggy": true,
-                "pass_fixed": false,
-                "testcases": []
-            }
+            "patches": [],
+            "time_to_generate_patches": 0
         },
         {
             "repo": "sling-org-apache-sling-models-impl",
@@ -4111,34 +3861,9 @@
                         "stack_trace": "java.lang.NullPointerException\n\tat org.apache.sling.models.impl.injectors.BindingsInjectorTest.testRequestThatDoesNotContainBindings(BindingsInjectorTest.java:93)\n"
                     }
                 ]
-            }
-        },
-        {
-            "repo": "sling-org-apache-sling-models-impl",
-            "bug_id": "ModelAdapterFactory_900",
-            "npe_info": {
-                "filepath": "src/main/java/org/apache/sling/models/impl/ModelAdapterFactory.java",
-                "line": 904,
-                "deref_field": "viaProvider",
-                "npe_class": "ModelAdapterFactory",
-                "npe_method": "getAdaptable",
-                "sink_field": null,
-                "jvmti_identify_succeed": null,
-                "is_original": null
             },
-            "build_info": {
-                "compiled": true,
-                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "java_version": 8,
-                "error_message": null,
-                "time": 18.472091734874994
-            },
-            "test_info": {
-                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "fail_buggy": true,
-                "pass_fixed": false,
-                "testcases": []
-            }
+            "patches": [],
+            "time_to_generate_patches": 0
         },
         {
             "repo": "sling-org-apache-sling-models-impl",
@@ -4165,7 +3890,9 @@
                 "fail_buggy": true,
                 "pass_fixed": false,
                 "testcases": []
-            }
+            },
+            "patches": [],
+            "time_to_generate_patches": 0
         },
         {
             "repo": "sling-org-apache-sling-models-impl",
@@ -4235,34 +3962,9 @@
                         "stack_trace": "java.lang.AssertionError\n\tat org.apache.sling.models.impl.CachingTest.testNoCachedInterface(CachingTest.java:94)\n"
                     }
                 ]
-            }
-        },
-        {
-            "repo": "sling-org-apache-sling-models-impl",
-            "bug_id": "ModelAdapterFactory_181",
-            "npe_info": {
-                "filepath": "src/main/java/org/apache/sling/models/impl/ModelAdapterFactory.java",
-                "line": 184,
-                "deref_field": "current",
-                "npe_class": "RequestDisposalCallbacks",
-                "npe_method": "put",
-                "sink_field": null,
-                "jvmti_identify_succeed": null,
-                "is_original": null
             },
-            "build_info": {
-                "compiled": true,
-                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "java_version": 8,
-                "error_message": null,
-                "time": 18.162561956094578
-            },
-            "test_info": {
-                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "fail_buggy": true,
-                "pass_fixed": false,
-                "testcases": []
-            }
+            "patches": [],
+            "time_to_generate_patches": 0
         },
         {
             "repo": "sling-org-apache-sling-models-impl",
@@ -4289,34 +3991,9 @@
                 "fail_buggy": true,
                 "pass_fixed": false,
                 "testcases": []
-            }
-        },
-        {
-            "repo": "sling-org-apache-sling-models-impl",
-            "bug_id": "OSGiServiceInjector_213",
-            "npe_info": {
-                "filepath": "src/main/java/org/apache/sling/models/impl/injectors/OSGiServiceInjector.java",
-                "line": 214,
-                "deref_field": "annotation",
-                "npe_class": "OSGiServiceInjector",
-                "npe_method": "createAnnotationProcessor",
-                "sink_field": null,
-                "jvmti_identify_succeed": null,
-                "is_original": null
             },
-            "build_info": {
-                "compiled": true,
-                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "java_version": 8,
-                "error_message": null,
-                "time": 15.625483985058963
-            },
-            "test_info": {
-                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "fail_buggy": true,
-                "pass_fixed": false,
-                "testcases": []
-            }
+            "patches": [],
+            "time_to_generate_patches": 0
         },
         {
             "repo": "sling-org-apache-sling-models-impl",
@@ -4343,34 +4020,9 @@
                 "fail_buggy": true,
                 "pass_fixed": false,
                 "testcases": []
-            }
-        },
-        {
-            "repo": "sling-org-apache-sling-models-impl",
-            "bug_id": "ModelAdapterFactory_531",
-            "npe_info": {
-                "filepath": "src/main/java/org/apache/sling/models/impl/ModelAdapterFactory.java",
-                "line": 548,
-                "deref_field": "injectionAdaptable",
-                "npe_class": "ModelAdapterFactory",
-                "npe_method": "injectElement",
-                "sink_field": null,
-                "jvmti_identify_succeed": null,
-                "is_original": null
             },
-            "build_info": {
-                "compiled": true,
-                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "java_version": 8,
-                "error_message": null,
-                "time": 21.025573262013495
-            },
-            "test_info": {
-                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "fail_buggy": true,
-                "pass_fixed": false,
-                "testcases": []
-            }
+            "patches": [],
+            "time_to_generate_patches": 0
         },
         {
             "repo": "sling-org-apache-sling-models-impl",
@@ -4397,34 +4049,9 @@
                 "fail_buggy": true,
                 "pass_fixed": false,
                 "testcases": []
-            }
-        },
-        {
-            "repo": "sling-org-apache-sling-models-impl",
-            "bug_id": "BindingsInjector_74",
-            "npe_info": {
-                "filepath": "src/main/java/org/apache/sling/models/impl/injectors/BindingsInjector.java",
-                "line": 75,
-                "deref_field": "annotation",
-                "npe_class": "BindingsInjector",
-                "npe_method": "createAnnotationProcessor",
-                "sink_field": null,
-                "jvmti_identify_succeed": null,
-                "is_original": null
             },
-            "build_info": {
-                "compiled": true,
-                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "java_version": 8,
-                "error_message": null,
-                "time": 18.507130200974643
-            },
-            "test_info": {
-                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "fail_buggy": true,
-                "pass_fixed": false,
-                "testcases": []
-            }
+            "patches": [],
+            "time_to_generate_patches": 0
         },
         {
             "repo": "sling-org-apache-sling-models-impl",
@@ -4451,34 +4078,9 @@
                 "fail_buggy": true,
                 "pass_fixed": false,
                 "testcases": []
-            }
-        },
-        {
-            "repo": "sling-org-apache-sling-models-impl",
-            "bug_id": "ModelAdapterFactory_746",
-            "npe_info": {
-                "filepath": "src/main/java/org/apache/sling/models/impl/ModelAdapterFactory.java",
-                "line": 748,
-                "deref_field": "missingElements",
-                "npe_class": "ModelAdapterFactory",
-                "npe_method": "createObject",
-                "sink_field": null,
-                "jvmti_identify_succeed": null,
-                "is_original": null
             },
-            "build_info": {
-                "compiled": true,
-                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "java_version": 8,
-                "error_message": null,
-                "time": 21.010701750870794
-            },
-            "test_info": {
-                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "fail_buggy": true,
-                "pass_fixed": false,
-                "testcases": []
-            }
+            "patches": [],
+            "time_to_generate_patches": 0
         },
         {
             "repo": "sling-org-apache-sling-models-impl",
@@ -4505,34 +4107,9 @@
                 "fail_buggy": true,
                 "pass_fixed": false,
                 "testcases": []
-            }
-        },
-        {
-            "repo": "sling-org-apache-sling-models-impl",
-            "bug_id": "SlingObjectInjector_110",
-            "npe_info": {
-                "filepath": "src/main/java/org/apache/sling/models/impl/injectors/SlingObjectInjector.java",
-                "line": 111,
-                "deref_field": "bindings",
-                "npe_class": "SlingObjectInjector",
-                "npe_method": "getSlingScriptHelper",
-                "sink_field": null,
-                "jvmti_identify_succeed": null,
-                "is_original": null
             },
-            "build_info": {
-                "compiled": true,
-                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "java_version": 8,
-                "error_message": null,
-                "time": 17.777186086168513
-            },
-            "test_info": {
-                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "fail_buggy": true,
-                "pass_fixed": false,
-                "testcases": []
-            }
+            "patches": [],
+            "time_to_generate_patches": 0
         },
         {
             "repo": "sling-org-apache-sling-models-impl",
@@ -4614,7 +4191,9 @@
                         "stack_trace": "java.lang.AssertionError: expected:<class java.lang.String> but was:<null>\n\tat org.apache.sling.models.impl.AdapterImplementationsTest.testResourceTypeRegistrationForAbsolutePath(AdapterImplementationsTest.java:186)\n"
                     }
                 ]
-            }
+            },
+            "patches": [],
+            "time_to_generate_patches": 0
         },
         {
             "repo": "sling-org-apache-sling-models-impl",
@@ -4666,7 +4245,9 @@
                         "stack_trace": "java.lang.RuntimeException: Unable to invoke method 'deactivate' for class org.apache.sling.models.impl.ModelAdapterFactory\nCaused by: java.lang.NullPointerException\n"
                     }
                 ]
-            }
+            },
+            "patches": [],
+            "time_to_generate_patches": 0
         },
         {
             "repo": "sling-org-apache-sling-models-impl",
@@ -5192,34 +4773,9 @@
                         "stack_trace": "java.lang.AssertionError\n\tat org.apache.sling.models.impl.DefaultTest.testDefaultWrappersConstructor(DefaultTest.java:159)\n"
                     }
                 ]
-            }
-        },
-        {
-            "repo": "sling-org-apache-sling-models-impl",
-            "bug_id": "OSGiServiceInjector_98",
-            "npe_info": {
-                "filepath": "src/main/java/org/apache/sling/models/impl/injectors/OSGiServiceInjector.java",
-                "line": 98,
-                "deref_field": "modelContext",
-                "npe_class": "OSGiServiceInjector",
-                "npe_method": "getValue",
-                "sink_field": null,
-                "jvmti_identify_succeed": null,
-                "is_original": null
             },
-            "build_info": {
-                "compiled": true,
-                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "java_version": 8,
-                "error_message": null,
-                "time": 16.475363651989028
-            },
-            "test_info": {
-                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "fail_buggy": true,
-                "pass_fixed": false,
-                "testcases": []
-            }
+            "patches": [],
+            "time_to_generate_patches": 0
         },
         {
             "repo": "sling-org-apache-sling-models-impl",
@@ -5613,34 +5169,9 @@
                         "stack_trace": "java.lang.AssertionError\n\tat org.apache.sling.models.impl.ConstructorTest.testSuperclassConstructorsInjection(ConstructorTest.java:113)\n"
                     }
                 ]
-            }
-        },
-        {
-            "repo": "sling-org-apache-sling-models-impl",
-            "bug_id": "ModelAdapterFactory_595",
-            "npe_info": {
-                "filepath": "src/main/java/org/apache/sling/models/impl/ModelAdapterFactory.java",
-                "line": 596,
-                "deref_field": "lastInjectionException",
-                "npe_class": "ModelAdapterFactory",
-                "npe_method": "injectElement",
-                "sink_field": null,
-                "jvmti_identify_succeed": null,
-                "is_original": null
             },
-            "build_info": {
-                "compiled": true,
-                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "java_version": 8,
-                "error_message": null,
-                "time": 15.559104208135977
-            },
-            "test_info": {
-                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "fail_buggy": true,
-                "pass_fixed": false,
-                "testcases": []
-            }
+            "patches": [],
+            "time_to_generate_patches": 0
         },
         {
             "repo": "sling-org-apache-sling-models-impl",
@@ -5667,34 +5198,9 @@
                 "fail_buggy": true,
                 "pass_fixed": false,
                 "testcases": []
-            }
-        },
-        {
-            "repo": "sling-org-apache-sling-models-impl",
-            "bug_id": "AbstractResourceTypeViaProvider_49",
-            "npe_info": {
-                "filepath": "src/main/java/org/apache/sling/models/impl/via/AbstractResourceTypeViaProvider.java",
-                "line": 52,
-                "deref_field": "resource",
-                "npe_class": "AbstractResourceTypeViaProvider",
-                "npe_method": "getAdaptable",
-                "sink_field": null,
-                "jvmti_identify_succeed": null,
-                "is_original": null
             },
-            "build_info": {
-                "compiled": true,
-                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "java_version": 8,
-                "error_message": null,
-                "time": 16.504405169049278
-            },
-            "test_info": {
-                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "fail_buggy": true,
-                "pass_fixed": false,
-                "testcases": []
-            }
+            "patches": [],
+            "time_to_generate_patches": 0
         },
         {
             "repo": "sling-org-apache-sling-models-impl",
@@ -5721,7 +5227,9 @@
                 "fail_buggy": true,
                 "pass_fixed": false,
                 "testcases": []
-            }
+            },
+            "patches": [],
+            "time_to_generate_patches": 0
         },
         {
             "repo": "sling-org-apache-sling-models-impl",
@@ -6733,7 +6241,9 @@
                         "stack_trace": "java.lang.AssertionError\n\tat org.apache.sling.models.impl.ResourceModelConstructorTest.testChildModel(ResourceModelConstructorTest.java:89)\n"
                     }
                 ]
-            }
+            },
+            "patches": [],
+            "time_to_generate_patches": 0
         },
         {
             "repo": "sling-org-apache-sling-models-impl",
@@ -6785,34 +6295,9 @@
                         "stack_trace": "java.lang.RuntimeException: Unable to invoke method 'deactivate' for class org.apache.sling.models.impl.ModelAdapterFactory\nCaused by: java.lang.NullPointerException\n"
                     }
                 ]
-            }
-        },
-        {
-            "repo": "sling-org-apache-sling-models-impl",
-            "bug_id": "ModelAdapterFactory_1190",
-            "npe_info": {
-                "filepath": "src/main/java/org/apache/sling/models/impl/ModelAdapterFactory.java",
-                "line": 1191,
-                "deref_field": "injectorsPerInjectorName",
-                "npe_class": "ModelAdapterFactory",
-                "npe_method": "unbindInjector",
-                "sink_field": null,
-                "jvmti_identify_succeed": null,
-                "is_original": null
             },
-            "build_info": {
-                "compiled": true,
-                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "java_version": 8,
-                "error_message": null,
-                "time": 16.277474934933707
-            },
-            "test_info": {
-                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "fail_buggy": true,
-                "pass_fixed": false,
-                "testcases": []
-            }
+            "patches": [],
+            "time_to_generate_patches": 0
         },
         {
             "repo": "sling-org-apache-sling-models-impl",
@@ -6839,34 +6324,9 @@
                 "fail_buggy": true,
                 "pass_fixed": false,
                 "testcases": []
-            }
-        },
-        {
-            "repo": "sling-org-apache-sling-models-impl",
-            "bug_id": "ModelAdapterFactory_814",
-            "npe_info": {
-                "filepath": "src/main/java/org/apache/sling/models/impl/ModelAdapterFactory.java",
-                "line": 816,
-                "deref_field": "missingElements",
-                "npe_class": "ModelAdapterFactory",
-                "npe_method": "newInstanceWithConstructorInjection",
-                "sink_field": null,
-                "jvmti_identify_succeed": null,
-                "is_original": null
             },
-            "build_info": {
-                "compiled": true,
-                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "java_version": 8,
-                "error_message": null,
-                "time": 16.44023528206162
-            },
-            "test_info": {
-                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "fail_buggy": true,
-                "pass_fixed": false,
-                "testcases": []
-            }
+            "patches": [],
+            "time_to_generate_patches": 0
         },
         {
             "repo": "sling-org-apache-sling-models-impl",
@@ -7416,7 +6876,9 @@
                         "stack_trace": "java.lang.AssertionError\n\tat org.apache.sling.models.impl.DefaultTest.testDefaultWrappersConstructor(DefaultTest.java:159)\n"
                     }
                 ]
-            }
+            },
+            "patches": [],
+            "time_to_generate_patches": 0
         },
         {
             "repo": "sling-org-apache-sling-models-impl",
@@ -7450,34 +6912,9 @@
                         "stack_trace": "java.lang.NullPointerException\n\tat org.apache.sling.models.impl.AdapterImplementationsTest.testNoMapping(AdapterImplementationsTest.java:72)\n"
                     }
                 ]
-            }
-        },
-        {
-            "repo": "sling-org-apache-sling-models-impl",
-            "bug_id": "Result_60",
-            "npe_info": {
-                "filepath": "src/main/java/org/apache/sling/models/impl/Result.java",
-                "line": 63,
-                "deref_field": "t",
-                "npe_class": "Result",
-                "npe_method": "getThrowable",
-                "sink_field": null,
-                "jvmti_identify_succeed": null,
-                "is_original": null
             },
-            "build_info": {
-                "compiled": true,
-                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "java_version": 8,
-                "error_message": null,
-                "time": 15.97533365781419
-            },
-            "test_info": {
-                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "fail_buggy": true,
-                "pass_fixed": false,
-                "testcases": []
-            }
+            "patches": [],
+            "time_to_generate_patches": 0
         },
         {
             "repo": "sling-org-apache-sling-models-impl",
@@ -7504,7 +6941,9 @@
                 "fail_buggy": true,
                 "pass_fixed": false,
                 "testcases": []
-            }
+            },
+            "patches": [],
+            "time_to_generate_patches": 0
         },
         {
             "repo": "sling-org-apache-sling-models-impl",
@@ -7538,7 +6977,9 @@
                         "stack_trace": "java.lang.AssertionError\n\tat org.apache.sling.models.impl.ResourcePathInjectionTest.testOptionalPathInjectionWithNonResourceAdaptable(ResourcePathInjectionTest.java:130)\n"
                     }
                 ]
-            }
+            },
+            "patches": [],
+            "time_to_generate_patches": 0
         },
         {
             "repo": "sling-org-apache-sling-models-impl",
@@ -7590,34 +7031,9 @@
                         "stack_trace": "java.lang.RuntimeException: Unable to invoke method 'deactivate' for class org.apache.sling.models.impl.ModelAdapterFactory\nCaused by: java.lang.NullPointerException\n"
                     }
                 ]
-            }
-        },
-        {
-            "repo": "sling-org-apache-sling-models-impl",
-            "bug_id": "ModelAdapterFactory_1060",
-            "npe_info": {
-                "filepath": "src/main/java/org/apache/sling/models/impl/ModelAdapterFactory.java",
-                "line": 1061,
-                "deref_field": "adaptedValue",
-                "npe_class": "ModelAdapterFactory",
-                "npe_method": "adapt",
-                "sink_field": null,
-                "jvmti_identify_succeed": null,
-                "is_original": null
             },
-            "build_info": {
-                "compiled": true,
-                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "java_version": 8,
-                "error_message": null,
-                "time": 16.67790711997077
-            },
-            "test_info": {
-                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "fail_buggy": true,
-                "pass_fixed": false,
-                "testcases": []
-            }
+            "patches": [],
+            "time_to_generate_patches": 0
         },
         {
             "repo": "sling-org-apache-sling-models-impl",
@@ -7741,34 +7157,9 @@
                         "stack_trace": "java.lang.AssertionError\n\tat org.apache.sling.models.impl.ResourcePathInjectionTest.testOptionalPathInjectionWithNonResourceAdaptable(ResourcePathInjectionTest.java:130)\n"
                     }
                 ]
-            }
-        },
-        {
-            "repo": "sling-org-apache-sling-models-impl",
-            "bug_id": "ModelAdapterFactory_600",
-            "npe_info": {
-                "filepath": "src/main/java/org/apache/sling/models/impl/ModelAdapterFactory.java",
-                "line": 601,
-                "deref_field": "throwable",
-                "npe_class": "ModelAdapterFactory",
-                "npe_method": "injectElement",
-                "sink_field": null,
-                "jvmti_identify_succeed": null,
-                "is_original": null
             },
-            "build_info": {
-                "compiled": true,
-                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "java_version": 8,
-                "error_message": null,
-                "time": 19.18014457798563
-            },
-            "test_info": {
-                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "fail_buggy": true,
-                "pass_fixed": false,
-                "testcases": []
-            }
+            "patches": [],
+            "time_to_generate_patches": 0
         },
         {
             "repo": "sling-org-apache-sling-models-impl",
@@ -7795,7 +7186,9 @@
                 "fail_buggy": true,
                 "pass_fixed": false,
                 "testcases": []
-            }
+            },
+            "patches": [],
+            "time_to_generate_patches": 0
         },
         {
             "repo": "sling-org-apache-sling-models-impl",
@@ -7829,34 +7222,9 @@
                         "stack_trace": "java.lang.NullPointerException\n\tat org.apache.sling.models.impl.injectors.ValueMapInjectorTest.testNonValueMapAdaptable(ValueMapInjectorTest.java:88)\n"
                     }
                 ]
-            }
-        },
-        {
-            "repo": "sling-org-apache-sling-models-impl",
-            "bug_id": "ModelConfigurationPrinter_142",
-            "npe_info": {
-                "filepath": "src/main/java/org/apache/sling/models/impl/ModelConfigurationPrinter.java",
-                "line": 143,
-                "deref_field": "servlets",
-                "npe_class": "ModelConfigurationPrinter",
-                "npe_method": "printConfiguration",
-                "sink_field": null,
-                "jvmti_identify_succeed": null,
-                "is_original": null
             },
-            "build_info": {
-                "compiled": true,
-                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "java_version": 8,
-                "error_message": null,
-                "time": 16.96359891910106
-            },
-            "test_info": {
-                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "fail_buggy": true,
-                "pass_fixed": false,
-                "testcases": []
-            }
+            "patches": [],
+            "time_to_generate_patches": 0
         },
         {
             "repo": "sling-org-apache-sling-models-impl",
@@ -7883,34 +7251,9 @@
                 "fail_buggy": true,
                 "pass_fixed": false,
                 "testcases": []
-            }
-        },
-        {
-            "repo": "sling-org-apache-sling-models-impl",
-            "bug_id": "ChildResourceViaProvider_50",
-            "npe_info": {
-                "filepath": "src/main/java/org/apache/sling/models/impl/via/ChildResourceViaProvider.java",
-                "line": 53,
-                "deref_field": "resource",
-                "npe_class": "ChildResourceViaProvider",
-                "npe_method": "getAdaptable",
-                "sink_field": null,
-                "jvmti_identify_succeed": null,
-                "is_original": null
             },
-            "build_info": {
-                "compiled": true,
-                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "java_version": 8,
-                "error_message": null,
-                "time": 19.76330581190996
-            },
-            "test_info": {
-                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "fail_buggy": true,
-                "pass_fixed": false,
-                "testcases": []
-            }
+            "patches": [],
+            "time_to_generate_patches": 0
         },
         {
             "repo": "sling-org-apache-sling-models-impl",
@@ -7962,34 +7305,9 @@
                         "stack_trace": "java.lang.RuntimeException: Unable to invoke method 'deactivate' for class org.apache.sling.models.impl.ModelAdapterFactory\nCaused by: java.lang.NullPointerException\n"
                     }
                 ]
-            }
-        },
-        {
-            "repo": "sling-org-apache-sling-models-impl",
-            "bug_id": "Result_73",
-            "npe_info": {
-                "filepath": "src/main/java/org/apache/sling/models/impl/Result.java",
-                "line": 77,
-                "deref_field": "object",
-                "npe_class": "Result",
-                "npe_method": "getValue",
-                "sink_field": null,
-                "jvmti_identify_succeed": null,
-                "is_original": null
             },
-            "build_info": {
-                "compiled": true,
-                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "java_version": 8,
-                "error_message": null,
-                "time": 21.754150134976953
-            },
-            "test_info": {
-                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "fail_buggy": true,
-                "pass_fixed": false,
-                "testcases": []
-            }
+            "patches": [],
+            "time_to_generate_patches": 0
         },
         {
             "repo": "sling-org-apache-sling-models-impl",
@@ -8016,34 +7334,9 @@
                 "fail_buggy": true,
                 "pass_fixed": false,
                 "testcases": []
-            }
-        },
-        {
-            "repo": "sling-org-apache-sling-models-impl",
-            "bug_id": "AbstractResourceTypeViaProvider_41",
-            "npe_info": {
-                "filepath": "src/main/java/org/apache/sling/models/impl/via/AbstractResourceTypeViaProvider.java",
-                "line": 45,
-                "deref_field": "resourceType",
-                "npe_class": "AbstractResourceTypeViaProvider",
-                "npe_method": "getAdaptable",
-                "sink_field": null,
-                "jvmti_identify_succeed": null,
-                "is_original": null
             },
-            "build_info": {
-                "compiled": true,
-                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "java_version": 8,
-                "error_message": null,
-                "time": 17.519038002938032
-            },
-            "test_info": {
-                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "fail_buggy": true,
-                "pass_fixed": false,
-                "testcases": []
-            }
+            "patches": [],
+            "time_to_generate_patches": 0
         },
         {
             "repo": "sling-org-apache-sling-models-impl",
@@ -8125,7 +7418,9 @@
                         "stack_trace": "java.lang.AssertionError\n\tat org.apache.sling.models.impl.ResourcePathInjectionTest.testOptionalPathInjectionWithNonResourceAdaptable(ResourcePathInjectionTest.java:130)\n"
                     }
                 ]
-            }
+            },
+            "patches": [],
+            "time_to_generate_patches": 0
         },
         {
             "repo": "sling-org-apache-sling-models-impl",
@@ -8183,34 +7478,9 @@
                         "stack_trace": "java.lang.NullPointerException\n\tat org.apache.sling.models.impl.CachingTest.testCachedClass(CachingTest.java:55)\n"
                     }
                 ]
-            }
-        },
-        {
-            "repo": "sling-org-apache-sling-models-impl",
-            "bug_id": "SelfInjector_68",
-            "npe_info": {
-                "filepath": "src/main/java/org/apache/sling/models/impl/injectors/SelfInjector.java",
-                "line": 69,
-                "deref_field": "annotation",
-                "npe_class": "SelfInjector",
-                "npe_method": "createAnnotationProcessor",
-                "sink_field": null,
-                "jvmti_identify_succeed": null,
-                "is_original": null
             },
-            "build_info": {
-                "compiled": true,
-                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "java_version": 8,
-                "error_message": null,
-                "time": 18.892718410119414
-            },
-            "test_info": {
-                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "fail_buggy": true,
-                "pass_fixed": false,
-                "testcases": []
-            }
+            "patches": [],
+            "time_to_generate_patches": 0
         },
         {
             "repo": "sling-org-apache-sling-models-impl",
@@ -8237,34 +7507,9 @@
                 "fail_buggy": true,
                 "pass_fixed": false,
                 "testcases": []
-            }
-        },
-        {
-            "repo": "sling-org-apache-sling-models-impl",
-            "bug_id": "AdapterImplementations_197",
-            "npe_info": {
-                "filepath": "src/main/java/org/apache/sling/models/impl/AdapterImplementations.java",
-                "line": 198,
-                "deref_field": "modelClass",
-                "npe_class": "AdapterImplementations",
-                "npe_method": "lookup",
-                "sink_field": null,
-                "jvmti_identify_succeed": null,
-                "is_original": null
             },
-            "build_info": {
-                "compiled": true,
-                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "java_version": 8,
-                "error_message": null,
-                "time": 18.44420384685509
-            },
-            "test_info": {
-                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "fail_buggy": true,
-                "pass_fixed": false,
-                "testcases": []
-            }
+            "patches": [],
+            "time_to_generate_patches": 0
         },
         {
             "repo": "sling-org-apache-sling-models-impl",
@@ -8291,7 +7536,9 @@
                 "fail_buggy": true,
                 "pass_fixed": false,
                 "testcases": []
-            }
+            },
+            "patches": [],
+            "time_to_generate_patches": 0
         },
         {
             "repo": "sling-org-apache-sling-models-impl",
@@ -8415,34 +7662,9 @@
                         "stack_trace": "java.lang.AssertionError: expected null, but was:<class java.lang.String>\n\tat org.apache.sling.models.impl.AdapterImplementationsTest.testResourceTypeRegistrationForResource(AdapterImplementationsTest.java:164)\n"
                     }
                 ]
-            }
-        },
-        {
-            "repo": "sling-org-apache-sling-models-impl",
-            "bug_id": "AbstractResourceTypeViaProvider_53",
-            "npe_info": {
-                "filepath": "src/main/java/org/apache/sling/models/impl/via/AbstractResourceTypeViaProvider.java",
-                "line": 57,
-                "deref_field": "resourceType",
-                "npe_class": "AbstractResourceTypeViaProvider",
-                "npe_method": "getAdaptable",
-                "sink_field": null,
-                "jvmti_identify_succeed": null,
-                "is_original": null
             },
-            "build_info": {
-                "compiled": true,
-                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "java_version": 8,
-                "error_message": null,
-                "time": 19.769653310999274
-            },
-            "test_info": {
-                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "fail_buggy": true,
-                "pass_fixed": false,
-                "testcases": []
-            }
+            "patches": [],
+            "time_to_generate_patches": 0
         },
         {
             "repo": "sling-org-apache-sling-models-impl",
@@ -8469,7 +7691,9 @@
                 "fail_buggy": true,
                 "pass_fixed": false,
                 "testcases": []
-            }
+            },
+            "patches": [],
+            "time_to_generate_patches": 0
         },
         {
             "repo": "sling-org-apache-sling-models-impl",
@@ -8521,7 +7745,9 @@
                         "stack_trace": "java.lang.NullPointerException\n\tat org.apache.sling.models.impl.CachingTest.testCachedInterface(CachingTest.java:79)\n"
                     }
                 ]
-            }
+            },
+            "patches": [],
+            "time_to_generate_patches": 0
         },
         {
             "repo": "sling-org-apache-sling-models-impl",
@@ -8555,7 +7781,9 @@
                         "stack_trace": "java.lang.NullPointerException\n\tat org.apache.sling.models.impl.injectors.ValueMapInjectorTest.testNonValueMapAdaptable(ValueMapInjectorTest.java:88)\n"
                     }
                 ]
-            }
+            },
+            "patches": [],
+            "time_to_generate_patches": 0
         },
         {
             "repo": "sling-org-apache-sling-models-impl",
@@ -12081,34 +11309,9 @@
                         "stack_trace": "java.lang.AssertionError\n\tat org.apache.sling.models.impl.ConstructorTest.testThreeConstructorsOneInjectInjection(ConstructorTest.java:137)\n"
                     }
                 ]
-            }
-        },
-        {
-            "repo": "sling-org-apache-sling-models-impl",
-            "bug_id": "OSGiServiceInjector_94",
-            "npe_info": {
-                "filepath": "src/main/java/org/apache/sling/models/impl/injectors/OSGiServiceInjector.java",
-                "line": 95,
-                "deref_field": "filter",
-                "npe_class": "OSGiServiceInjector",
-                "npe_method": "getValue",
-                "sink_field": null,
-                "jvmti_identify_succeed": null,
-                "is_original": null
             },
-            "build_info": {
-                "compiled": true,
-                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "java_version": 8,
-                "error_message": null,
-                "time": 18.081830834969878
-            },
-            "test_info": {
-                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "fail_buggy": true,
-                "pass_fixed": false,
-                "testcases": []
-            }
+            "patches": [],
+            "time_to_generate_patches": 0
         },
         {
             "repo": "sling-org-apache-sling-models-impl",
@@ -12135,34 +11338,9 @@
                 "fail_buggy": true,
                 "pass_fixed": false,
                 "testcases": []
-            }
-        },
-        {
-            "repo": "sling-org-apache-sling-models-impl",
-            "bug_id": "OSGiServiceInjector_157",
-            "npe_info": {
-                "filepath": "src/main/java/org/apache/sling/models/impl/injectors/OSGiServiceInjector.java",
-                "line": 160,
-                "deref_field": "services",
-                "npe_class": "OSGiServiceInjector",
-                "npe_method": "getValue",
-                "sink_field": null,
-                "jvmti_identify_succeed": null,
-                "is_original": null
             },
-            "build_info": {
-                "compiled": true,
-                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "java_version": 8,
-                "error_message": null,
-                "time": 21.137479105964303
-            },
-            "test_info": {
-                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "fail_buggy": true,
-                "pass_fixed": false,
-                "testcases": []
-            }
+            "patches": [],
+            "time_to_generate_patches": 0
         },
         {
             "repo": "sling-org-apache-sling-models-impl",
@@ -12268,7 +11446,9 @@
                         "stack_trace": "java.lang.NullPointerException\n\tat org.apache.sling.models.impl.AdapterImplementationsTest.testResourceTypeRegistrationForResourceHavingAbsolutePath(AdapterImplementationsTest.java:213)\n"
                     }
                 ]
-            }
+            },
+            "patches": [],
+            "time_to_generate_patches": 0
         },
         {
             "repo": "sling-org-apache-sling-models-impl",
@@ -12326,7 +11506,9 @@
                         "stack_trace": "java.lang.NullPointerException\n\tat org.apache.sling.models.impl.CachingTest.testCachedClass(CachingTest.java:55)\n"
                     }
                 ]
-            }
+            },
+            "patches": [],
+            "time_to_generate_patches": 0
         },
         {
             "repo": "sling-org-apache-sling-models-impl",
@@ -12360,34 +11542,9 @@
                         "stack_trace": "java.lang.AssertionError: expected:<4> but was:<0>\n\tat org.apache.sling.models.impl.ResourceModelClassesTest.testListModel(ResourceModelClassesTest.java:162)\n"
                     }
                 ]
-            }
-        },
-        {
-            "repo": "sling-org-apache-sling-models-impl",
-            "bug_id": "ResourceTypeBasedResourcePicker_36",
-            "npe_info": {
-                "filepath": "src/main/java/org/apache/sling/models/impl/ResourceTypeBasedResourcePicker.java",
-                "line": 41,
-                "deref_field": "resource",
-                "npe_class": "ResourceTypeBasedResourcePicker",
-                "npe_method": "pick",
-                "sink_field": null,
-                "jvmti_identify_succeed": null,
-                "is_original": null
             },
-            "build_info": {
-                "compiled": true,
-                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "java_version": 8,
-                "error_message": null,
-                "time": 20.50295898108743
-            },
-            "test_info": {
-                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "fail_buggy": true,
-                "pass_fixed": false,
-                "testcases": []
-            }
+            "patches": [],
+            "time_to_generate_patches": 0
         },
         {
             "repo": "sling-org-apache-sling-models-impl",
@@ -12414,34 +11571,9 @@
                 "fail_buggy": true,
                 "pass_fixed": false,
                 "testcases": []
-            }
-        },
-        {
-            "repo": "sling-org-apache-sling-models-impl",
-            "bug_id": "ResourceTypeBasedResourcePicker_60",
-            "npe_info": {
-                "filepath": "src/main/java/org/apache/sling/models/impl/ResourceTypeBasedResourcePicker.java",
-                "line": 61,
-                "deref_field": "modelAnnotation",
-                "npe_class": "ResourceTypeBasedResourcePicker",
-                "npe_method": "mapByResourceType",
-                "sink_field": null,
-                "jvmti_identify_succeed": null,
-                "is_original": null
             },
-            "build_info": {
-                "compiled": true,
-                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "java_version": 8,
-                "error_message": null,
-                "time": 18.598039277130738
-            },
-            "test_info": {
-                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "fail_buggy": true,
-                "pass_fixed": false,
-                "testcases": []
-            }
+            "patches": [],
+            "time_to_generate_patches": 0
         },
         {
             "repo": "sling-org-apache-sling-models-impl",
@@ -12967,34 +12099,9 @@
                         "stack_trace": "java.lang.AssertionError\n\tat org.apache.sling.models.impl.DefaultTest.testDefaultWrappersField(DefaultTest.java:107)\n"
                     }
                 ]
-            }
-        },
-        {
-            "repo": "sling-org-apache-sling-models-impl",
-            "bug_id": "ModelAdapterFactory_1287",
-            "npe_info": {
-                "filepath": "src/main/java/org/apache/sling/models/impl/ModelAdapterFactory.java",
-                "line": 1290,
-                "deref_field": "clazz",
-                "npe_class": "ModelAdapterFactory",
-                "npe_method": "getModelFromRequest",
-                "sink_field": null,
-                "jvmti_identify_succeed": null,
-                "is_original": null
             },
-            "build_info": {
-                "compiled": true,
-                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "java_version": 8,
-                "error_message": null,
-                "time": 17.315669431816787
-            },
-            "test_info": {
-                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "fail_buggy": true,
-                "pass_fixed": false,
-                "testcases": []
-            }
+            "patches": [],
+            "time_to_generate_patches": 0
         },
         {
             "repo": "sling-org-apache-sling-models-impl",
@@ -13021,7 +12128,9 @@
                 "fail_buggy": true,
                 "pass_fixed": false,
                 "testcases": []
-            }
+            },
+            "patches": [],
+            "time_to_generate_patches": 0
         },
         {
             "repo": "sling-org-apache-sling-models-impl",
@@ -13055,34 +12164,9 @@
                         "stack_trace": "java.lang.NullPointerException\n\tat org.apache.sling.models.impl.injectors.ValueMapInjectorTest.testNonValueMapAdaptable(ValueMapInjectorTest.java:88)\n"
                     }
                 ]
-            }
-        },
-        {
-            "repo": "sling-org-apache-sling-models-impl",
-            "bug_id": "ModelAdapterFactory_655",
-            "npe_info": {
-                "filepath": "src/main/java/org/apache/sling/models/impl/ModelAdapterFactory.java",
-                "line": 657,
-                "deref_field": "missingElements",
-                "npe_class": "ModelAdapterFactory",
-                "npe_method": "createInvocationHandler",
-                "sink_field": null,
-                "jvmti_identify_succeed": null,
-                "is_original": null
             },
-            "build_info": {
-                "compiled": true,
-                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "java_version": 8,
-                "error_message": null,
-                "time": 17.82026564888656
-            },
-            "test_info": {
-                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "fail_buggy": true,
-                "pass_fixed": false,
-                "testcases": []
-            }
+            "patches": [],
+            "time_to_generate_patches": 0
         }
     ],
     "repository_info": null

@@ -1,0 +1,7 @@
+{
+    "filepath": "src/main/java/org/apache/sling/feature/maven/mojos/FeaturesDiffMojo.java",
+    "line": 159,
+    "npe_method": "getPreviousFeature",
+    "deref_field": "version",
+    "npe_class": "FeaturesDiffMojo"
+}

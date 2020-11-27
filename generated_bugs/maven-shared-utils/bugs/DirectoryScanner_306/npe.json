@@ -1,0 +1,7 @@
+{
+    "filepath": "src/main/java/org/apache/maven/shared/utils/io/DirectoryScanner.java",
+    "line": 312,
+    "npe_method": "setIncludes",
+    "deref_field": "includes",
+    "npe_class": "DirectoryScanner"
+}

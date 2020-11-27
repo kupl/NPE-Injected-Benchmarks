@@ -3,33 +3,6 @@
     "bugs": [
         {
             "repo": "logging-log4j-audit",
-            "bug_id": "LogEventFactory_203",
-            "npe_info": {
-                "filepath": "log4j-audit/log4j-audit-api/src/main/java/org/apache/logging/log4j/audit/LogEventFactory.java",
-                "line": 204,
-                "deref_field": "intrface",
-                "npe_class": "LogEventFactory",
-                "npe_method": "getPropertyNames",
-                "sink_field": null,
-                "jvmti_identify_succeed": null,
-                "is_original": null
-            },
-            "build_info": {
-                "compiled": true,
-                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "java_version": 8,
-                "error_message": null,
-                "time": 51.55499018984847
-            },
-            "test_info": {
-                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "fail_buggy": false,
-                "pass_fixed": true,
-                "testcases": []
-            }
-        },
-        {
-            "repo": "logging-log4j-audit",
             "bug_id": "GitCatalogDao_195",
             "npe_info": {
                 "filepath": "log4j-catalog/log4j-catalog-git/src/main/java/org/apache/logging/log4j/catalog/git/dao/GitCatalogDao.java",
@@ -53,7 +26,9 @@
                 "fail_buggy": false,
                 "pass_fixed": true,
                 "testcases": []
-            }
+            },
+            "patches": [],
+            "time_to_generate_patches": 0
         },
         {
             "repo": "logging-log4j-audit",
@@ -87,34 +62,9 @@
                         "stack_trace": "java.lang.IllegalStateException: Failed to load ApplicationContext\nCaused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'auditController': Unsatisfied dependency expressed through field 'auditLogger'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'auditLogger' defined in org.apache.logging.log4j.audit.service.config.WebMvcAppContext: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.logging.log4j.audit.AuditLogger]: Factory method 'auditLogger' threw exception; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'auditManager': Invocation of init method failed; nested exception is java.lang.NullPointerException\nCaused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'auditLogger' defined in org.apache.logging.log4j.audit.service.config.WebMvcAppContext: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.logging.log4j.audit.AuditLogger]: Factory method 'auditLogger' threw exception; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'auditManager': Invocation of init method failed; nested exception is java.lang.NullPointerException\nCaused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.logging.log4j.audit.AuditLogger]: Factory method 'auditLogger' threw exception; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'auditManager': Invocation of init method failed; nested exception is java.lang.NullPointerException\nCaused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'auditManager': Invocation of init method failed; nested exception is java.lang.NullPointerException\nCaused by: java.lang.NullPointerException\n"
                     }
                 ]
-            }
-        },
-        {
-            "repo": "logging-log4j-audit",
-            "bug_id": "CatalogManagerImpl_86",
-            "npe_info": {
-                "filepath": "log4j-audit/log4j-audit-api/src/main/java/org/apache/logging/log4j/audit/catalog/CatalogManagerImpl.java",
-                "line": 90,
-                "deref_field": "event",
-                "npe_class": "CatalogManagerImpl",
-                "npe_method": "getAttributes",
-                "sink_field": null,
-                "jvmti_identify_succeed": null,
-                "is_original": null
             },
-            "build_info": {
-                "compiled": true,
-                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "java_version": 8,
-                "error_message": null,
-                "time": 48.0368707429152
-            },
-            "test_info": {
-                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "fail_buggy": false,
-                "pass_fixed": true,
-                "testcases": []
-            }
+            "patches": [],
+            "time_to_generate_patches": 0
         },
         {
             "repo": "logging-log4j-audit",
@@ -141,34 +91,9 @@
                 "fail_buggy": false,
                 "pass_fixed": true,
                 "testcases": []
-            }
-        },
-        {
-            "repo": "logging-log4j-audit",
-            "bug_id": "ClassGenerator_265",
-            "npe_info": {
-                "filepath": "log4j-audit/log4j-audit-api/src/main/java/org/apache/logging/log4j/audit/generator/ClassGenerator.java",
-                "line": 266,
-                "deref_field": "typeStatement",
-                "npe_class": "ClassGenerator",
-                "npe_method": "getClassContents",
-                "sink_field": null,
-                "jvmti_identify_succeed": null,
-                "is_original": null
             },
-            "build_info": {
-                "compiled": true,
-                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "java_version": 8,
-                "error_message": null,
-                "time": 56.39229369210079
-            },
-            "test_info": {
-                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "fail_buggy": false,
-                "pass_fixed": true,
-                "testcases": []
-            }
+            "patches": [],
+            "time_to_generate_patches": 0
         },
         {
             "repo": "logging-log4j-audit",
@@ -195,34 +120,9 @@
                 "fail_buggy": false,
                 "pass_fixed": true,
                 "testcases": []
-            }
-        },
-        {
-            "repo": "logging-log4j-audit",
-            "bug_id": "CatalogController_179",
-            "npe_info": {
-                "filepath": "log4j-audit/log4j-audit-war/src/main/java/org/apache/logging/log4j/audit/service/controller/CatalogController.java",
-                "line": 182,
-                "deref_field": "getCatalogId()",
-                "npe_class": "CatalogController",
-                "npe_method": "createAttribute",
-                "sink_field": null,
-                "jvmti_identify_succeed": null,
-                "is_original": null
             },
-            "build_info": {
-                "compiled": true,
-                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "java_version": 8,
-                "error_message": null,
-                "time": 54.061683129984885
-            },
-            "test_info": {
-                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "fail_buggy": false,
-                "pass_fixed": true,
-                "testcases": []
-            }
+            "patches": [],
+            "time_to_generate_patches": 0
         },
         {
             "repo": "logging-log4j-audit",
@@ -249,34 +149,9 @@
                 "fail_buggy": false,
                 "pass_fixed": true,
                 "testcases": []
-            }
-        },
-        {
-            "repo": "logging-log4j-audit",
-            "bug_id": "ClassGenerator_323",
-            "npe_info": {
-                "filepath": "log4j-audit/log4j-audit-api/src/main/java/org/apache/logging/log4j/audit/generator/ClassGenerator.java",
-                "line": 324,
-                "deref_field": "code",
-                "npe_class": "ClassGenerator",
-                "npe_method": "getClassContents",
-                "sink_field": null,
-                "jvmti_identify_succeed": null,
-                "is_original": null
             },
-            "build_info": {
-                "compiled": true,
-                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "java_version": 8,
-                "error_message": null,
-                "time": 57.795575871132314
-            },
-            "test_info": {
-                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "fail_buggy": false,
-                "pass_fixed": true,
-                "testcases": []
-            }
+            "patches": [],
+            "time_to_generate_patches": 0
         },
         {
             "repo": "logging-log4j-audit",
@@ -303,34 +178,9 @@
                 "fail_buggy": false,
                 "pass_fixed": true,
                 "testcases": []
-            }
-        },
-        {
-            "repo": "logging-log4j-audit",
-            "bug_id": "Attribute_299",
-            "npe_info": {
-                "filepath": "log4j-catalog/log4j-catalog-api/src/main/java/org/apache/logging/log4j/catalog/api/Attribute.java",
-                "line": 302,
-                "deref_field": "constraints",
-                "npe_class": "Attribute",
-                "npe_method": "toString",
-                "sink_field": null,
-                "jvmti_identify_succeed": null,
-                "is_original": null
             },
-            "build_info": {
-                "compiled": true,
-                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "java_version": 8,
-                "error_message": null,
-                "time": 55.632203597109765
-            },
-            "test_info": {
-                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "fail_buggy": false,
-                "pass_fixed": true,
-                "testcases": []
-            }
+            "patches": [],
+            "time_to_generate_patches": 0
         },
         {
             "repo": "logging-log4j-audit",
@@ -357,7 +207,9 @@
                 "fail_buggy": false,
                 "pass_fixed": true,
                 "testcases": []
-            }
+            },
+            "patches": [],
+            "time_to_generate_patches": 0
         },
         {
             "repo": "logging-log4j-audit",
@@ -391,34 +243,9 @@
                         "stack_trace": "java.lang.NullPointerException\n\tat org.apache.logging.log4j.audit.generator.TestInterfacesGenerator.testInterfaceGenerator(TestInterfacesGenerator.java:55)\n"
                     }
                 ]
-            }
-        },
-        {
-            "repo": "logging-log4j-audit",
-            "bug_id": "CatalogManagerImpl_197",
-            "npe_info": {
-                "filepath": "log4j-audit/log4j-audit-api/src/main/java/org/apache/logging/log4j/audit/catalog/CatalogManagerImpl.java",
-                "line": 162,
-                "deref_field": "catalogId",
-                "npe_class": "CatalogManagerImpl",
-                "npe_method": "addEntry",
-                "sink_field": null,
-                "jvmti_identify_succeed": null,
-                "is_original": null
             },
-            "build_info": {
-                "compiled": true,
-                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "java_version": 8,
-                "error_message": null,
-                "time": 56.118357497034594
-            },
-            "test_info": {
-                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "fail_buggy": false,
-                "pass_fixed": true,
-                "testcases": []
-            }
+            "patches": [],
+            "time_to_generate_patches": 0
         },
         {
             "repo": "logging-log4j-audit",
@@ -445,7 +272,9 @@
                 "fail_buggy": false,
                 "pass_fixed": true,
                 "testcases": []
-            }
+            },
+            "patches": [],
+            "time_to_generate_patches": 0
         },
         {
             "repo": "logging-log4j-audit",
@@ -479,34 +308,9 @@
                         "stack_trace": "java.lang.IllegalStateException: Failed to load ApplicationContext\nCaused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'auditController': Unsatisfied dependency expressed through field 'auditLogger'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'auditLogger' defined in org.apache.logging.log4j.audit.service.config.WebMvcAppContext: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.logging.log4j.audit.AuditLogger]: Factory method 'auditLogger' threw exception; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'auditManager': Invocation of init method failed; nested exception is java.lang.NullPointerException\nCaused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'auditLogger' defined in org.apache.logging.log4j.audit.service.config.WebMvcAppContext: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.logging.log4j.audit.AuditLogger]: Factory method 'auditLogger' threw exception; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'auditManager': Invocation of init method failed; nested exception is java.lang.NullPointerException\nCaused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.logging.log4j.audit.AuditLogger]: Factory method 'auditLogger' threw exception; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'auditManager': Invocation of init method failed; nested exception is java.lang.NullPointerException\nCaused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'auditManager': Invocation of init method failed; nested exception is java.lang.NullPointerException\nCaused by: java.lang.NullPointerException\n"
                     }
                 ]
-            }
-        },
-        {
-            "repo": "logging-log4j-audit",
-            "bug_id": "GitCatalogDao_201",
-            "npe_info": {
-                "filepath": "log4j-catalog/log4j-catalog-git/src/main/java/org/apache/logging/log4j/catalog/git/dao/GitCatalogDao.java",
-                "line": 202,
-                "deref_field": "transportConfigCallback",
-                "npe_class": "GitCatalogDao",
-                "npe_method": "updateRepo",
-                "sink_field": null,
-                "jvmti_identify_succeed": null,
-                "is_original": null
             },
-            "build_info": {
-                "compiled": true,
-                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "java_version": 8,
-                "error_message": null,
-                "time": 50.328537940979004
-            },
-            "test_info": {
-                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "fail_buggy": false,
-                "pass_fixed": true,
-                "testcases": []
-            }
+            "patches": [],
+            "time_to_generate_patches": 0
         },
         {
             "repo": "logging-log4j-audit",
@@ -533,34 +337,9 @@
                 "fail_buggy": false,
                 "pass_fixed": true,
                 "testcases": []
-            }
-        },
-        {
-            "repo": "logging-log4j-audit",
-            "bug_id": "EventAttributeModel_115",
-            "npe_info": {
-                "filepath": "log4j-catalog/log4j-catalog-jpa/src/main/java/org/apache/logging/log4j/catalog/jpa/model/EventAttributeModel.java",
-                "line": 115,
-                "deref_field": "event",
-                "npe_class": "EventAttributeModel",
-                "npe_method": "hashCode",
-                "sink_field": null,
-                "jvmti_identify_succeed": null,
-                "is_original": null
             },
-            "build_info": {
-                "compiled": true,
-                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "java_version": 8,
-                "error_message": null,
-                "time": 55.795711596962065
-            },
-            "test_info": {
-                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "fail_buggy": false,
-                "pass_fixed": true,
-                "testcases": []
-            }
+            "patches": [],
+            "time_to_generate_patches": 0
         },
         {
             "repo": "logging-log4j-audit",
@@ -594,34 +373,9 @@
                         "stack_trace": "java.lang.NullPointerException\n\tat org.apache.logging.log4j.audit.generator.TestInterfacesGenerator.testInterfaceGenerator(TestInterfacesGenerator.java:55)\n"
                     }
                 ]
-            }
-        },
-        {
-            "repo": "logging-log4j-audit",
-            "bug_id": "AbstractCatalogReader_45",
-            "npe_info": {
-                "filepath": "log4j-catalog/log4j-catalog-api/src/main/java/org/apache/logging/log4j/catalog/api/dao/AbstractCatalogReader.java",
-                "line": 46,
-                "deref_field": "getCategories()",
-                "npe_class": "AbstractCatalogReader",
-                "npe_method": "getCategory",
-                "sink_field": null,
-                "jvmti_identify_succeed": null,
-                "is_original": null
             },
-            "build_info": {
-                "compiled": true,
-                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "java_version": 8,
-                "error_message": null,
-                "time": 57.36770140007138
-            },
-            "test_info": {
-                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "fail_buggy": true,
-                "pass_fixed": true,
-                "testcases": []
-            }
+            "patches": [],
+            "time_to_generate_patches": 0
         },
         {
             "repo": "logging-log4j-audit",
@@ -648,34 +402,9 @@
                 "fail_buggy": false,
                 "pass_fixed": true,
                 "testcases": []
-            }
-        },
-        {
-            "repo": "logging-log4j-audit",
-            "bug_id": "ClassGenerator_316",
-            "npe_info": {
-                "filepath": "log4j-audit/log4j-audit-api/src/main/java/org/apache/logging/log4j/audit/generator/ClassGenerator.java",
-                "line": 317,
-                "deref_field": "methods",
-                "npe_class": "ClassGenerator",
-                "npe_method": "getClassContents",
-                "sink_field": null,
-                "jvmti_identify_succeed": null,
-                "is_original": null
             },
-            "build_info": {
-                "compiled": true,
-                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "java_version": 8,
-                "error_message": null,
-                "time": 59.40033846301958
-            },
-            "test_info": {
-                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "fail_buggy": false,
-                "pass_fixed": true,
-                "testcases": []
-            }
+            "patches": [],
+            "time_to_generate_patches": 0
         },
         {
             "repo": "logging-log4j-audit",
@@ -702,34 +431,9 @@
                 "fail_buggy": false,
                 "pass_fixed": true,
                 "testcases": []
-            }
-        },
-        {
-            "repo": "logging-log4j-audit",
-            "bug_id": "CatalogController_286",
-            "npe_info": {
-                "filepath": "log4j-audit/log4j-audit-war/src/main/java/org/apache/logging/log4j/audit/service/controller/CatalogController.java",
-                "line": 289,
-                "deref_field": "getCatalogId()",
-                "npe_class": "CatalogController",
-                "npe_method": "updateEvent",
-                "sink_field": null,
-                "jvmti_identify_succeed": null,
-                "is_original": null
             },
-            "build_info": {
-                "compiled": true,
-                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "java_version": 8,
-                "error_message": null,
-                "time": 55.602971624117345
-            },
-            "test_info": {
-                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "fail_buggy": false,
-                "pass_fixed": true,
-                "testcases": []
-            }
+            "patches": [],
+            "time_to_generate_patches": 0
         },
         {
             "repo": "logging-log4j-audit",
@@ -756,7 +460,9 @@
                 "fail_buggy": false,
                 "pass_fixed": true,
                 "testcases": []
-            }
+            },
+            "patches": [],
+            "time_to_generate_patches": 0
         },
         {
             "repo": "logging-log4j-audit",
@@ -790,34 +496,9 @@
                         "stack_trace": "java.lang.IllegalStateException: Failed to load ApplicationContext\nCaused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'auditController': Unsatisfied dependency expressed through field 'auditLogger'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'auditLogger' defined in org.apache.logging.log4j.audit.service.config.WebMvcAppContext: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.logging.log4j.audit.AuditLogger]: Factory method 'auditLogger' threw exception; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'auditManager': Invocation of init method failed; nested exception is java.lang.NullPointerException\nCaused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'auditLogger' defined in org.apache.logging.log4j.audit.service.config.WebMvcAppContext: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.logging.log4j.audit.AuditLogger]: Factory method 'auditLogger' threw exception; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'auditManager': Invocation of init method failed; nested exception is java.lang.NullPointerException\nCaused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.logging.log4j.audit.AuditLogger]: Factory method 'auditLogger' threw exception; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'auditManager': Invocation of init method failed; nested exception is java.lang.NullPointerException\nCaused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'auditManager': Invocation of init method failed; nested exception is java.lang.NullPointerException\nCaused by: java.lang.NullPointerException\n"
                     }
                 ]
-            }
-        },
-        {
-            "repo": "logging-log4j-audit",
-            "bug_id": "DataTypeConverter_31",
-            "npe_info": {
-                "filepath": "log4j-catalog/log4j-catalog-jpa/src/main/java/org/apache/logging/log4j/catalog/jpa/converter/DataTypeConverter.java",
-                "line": 31,
-                "deref_field": "value",
-                "npe_class": "DataTypeConverter",
-                "npe_method": "convertToDatabaseColumn",
-                "sink_field": null,
-                "jvmti_identify_succeed": null,
-                "is_original": null
             },
-            "build_info": {
-                "compiled": true,
-                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "java_version": 8,
-                "error_message": null,
-                "time": 53.08476864499971
-            },
-            "test_info": {
-                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "fail_buggy": false,
-                "pass_fixed": true,
-                "testcases": []
-            }
+            "patches": [],
+            "time_to_generate_patches": 0
         },
         {
             "repo": "logging-log4j-audit",
@@ -869,34 +550,9 @@
                         "stack_trace": "java.lang.AssertionError: Should have thrown a ConstraintValidationException\n\tat org.apache.logging.log4j.audit.TransferTest.testValidationFailureForMissingRequestContextAttribute(TransferTest.java:91)\n"
                     }
                 ]
-            }
-        },
-        {
-            "repo": "logging-log4j-audit",
-            "bug_id": "GitCatalogDao_217",
-            "npe_info": {
-                "filepath": "log4j-catalog/log4j-catalog-git/src/main/java/org/apache/logging/log4j/catalog/git/dao/GitCatalogDao.java",
-                "line": 218,
-                "deref_field": "credentialsProvider",
-                "npe_class": "GitCatalogDao",
-                "npe_method": "updateRepo",
-                "sink_field": null,
-                "jvmti_identify_succeed": null,
-                "is_original": null
             },
-            "build_info": {
-                "compiled": true,
-                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "java_version": 8,
-                "error_message": null,
-                "time": 53.75156728597358
-            },
-            "test_info": {
-                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "fail_buggy": false,
-                "pass_fixed": true,
-                "testcases": []
-            }
+            "patches": [],
+            "time_to_generate_patches": 0
         },
         {
             "repo": "logging-log4j-audit",
@@ -923,34 +579,9 @@
                 "fail_buggy": false,
                 "pass_fixed": true,
                 "testcases": []
-            }
-        },
-        {
-            "repo": "logging-log4j-audit",
-            "bug_id": "ClassGenerator_210",
-            "npe_info": {
-                "filepath": "log4j-audit/log4j-audit-api/src/main/java/org/apache/logging/log4j/audit/generator/ClassGenerator.java",
-                "line": 211,
-                "deref_field": "getPackageName()",
-                "npe_class": "ClassGenerator",
-                "npe_method": "generate",
-                "sink_field": null,
-                "jvmti_identify_succeed": null,
-                "is_original": null
             },
-            "build_info": {
-                "compiled": true,
-                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "java_version": 8,
-                "error_message": null,
-                "time": 60.287746554007754
-            },
-            "test_info": {
-                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "fail_buggy": false,
-                "pass_fixed": true,
-                "testcases": []
-            }
+            "patches": [],
+            "time_to_generate_patches": 0
         },
         {
             "repo": "logging-log4j-audit",
@@ -977,34 +608,9 @@
                 "fail_buggy": false,
                 "pass_fixed": true,
                 "testcases": []
-            }
-        },
-        {
-            "repo": "logging-log4j-audit",
-            "bug_id": "MethodDefinition_265",
-            "npe_info": {
-                "filepath": "log4j-audit/log4j-audit-api/src/main/java/org/apache/logging/log4j/audit/generator/MethodDefinition.java",
-                "line": 266,
-                "deref_field": "getVisability()",
-                "npe_class": "MethodDefinition",
-                "npe_method": "toString",
-                "sink_field": null,
-                "jvmti_identify_succeed": null,
-                "is_original": null
             },
-            "build_info": {
-                "compiled": true,
-                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "java_version": 8,
-                "error_message": null,
-                "time": 50.48553305212408
-            },
-            "test_info": {
-                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "fail_buggy": false,
-                "pass_fixed": true,
-                "testcases": []
-            }
+            "patches": [],
+            "time_to_generate_patches": 0
         },
         {
             "repo": "logging-log4j-audit",
@@ -1031,34 +637,9 @@
                 "fail_buggy": false,
                 "pass_fixed": true,
                 "testcases": []
-            }
-        },
-        {
-            "repo": "logging-log4j-audit",
-            "bug_id": "MethodDefinition_279",
-            "npe_info": {
-                "filepath": "log4j-audit/log4j-audit-api/src/main/java/org/apache/logging/log4j/audit/generator/MethodDefinition.java",
-                "line": 281,
-                "deref_field": "getParameters()",
-                "npe_class": "MethodDefinition",
-                "npe_method": "toString",
-                "sink_field": null,
-                "jvmti_identify_succeed": null,
-                "is_original": null
             },
-            "build_info": {
-                "compiled": true,
-                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "java_version": 8,
-                "error_message": null,
-                "time": 51.38871760596521
-            },
-            "test_info": {
-                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "fail_buggy": false,
-                "pass_fixed": true,
-                "testcases": []
-            }
+            "patches": [],
+            "time_to_generate_patches": 0
         },
         {
             "repo": "logging-log4j-audit",
@@ -1085,34 +666,9 @@
                 "fail_buggy": false,
                 "pass_fixed": true,
                 "testcases": []
-            }
-        },
-        {
-            "repo": "logging-log4j-audit",
-            "bug_id": "BooleanToStringConverter_30",
-            "npe_info": {
-                "filepath": "log4j-catalog/log4j-catalog-jpa/src/main/java/org/apache/logging/log4j/catalog/jpa/converter/BooleanToStringConverter.java",
-                "line": 33,
-                "deref_field": "value",
-                "npe_class": "BooleanToStringConverter",
-                "npe_method": "convertToDatabaseColumn",
-                "sink_field": null,
-                "jvmti_identify_succeed": null,
-                "is_original": null
             },
-            "build_info": {
-                "compiled": true,
-                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "java_version": 8,
-                "error_message": null,
-                "time": 57.142667734995484
-            },
-            "test_info": {
-                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "fail_buggy": false,
-                "pass_fixed": true,
-                "testcases": []
-            }
+            "patches": [],
+            "time_to_generate_patches": 0
         },
         {
             "repo": "logging-log4j-audit",
@@ -1139,7 +695,9 @@
                 "fail_buggy": false,
                 "pass_fixed": true,
                 "testcases": []
-            }
+            },
+            "patches": [],
+            "time_to_generate_patches": 0
         },
         {
             "repo": "logging-log4j-audit",
@@ -1269,34 +827,9 @@
                         "stack_trace": "org.apache.logging.log4j.audit.exception.AuditException: Unable to initialize catalog data\n\tat org.apache.logging.log4j.audit.catalog.CatalogManagerTest.testCatalog(CatalogManagerTest.java:31)\nCaused by: java.lang.NullPointerException\n\tat org.apache.logging.log4j.audit.catalog.CatalogManagerTest.testCatalog(CatalogManagerTest.java:31)\n"
                     }
                 ]
-            }
-        },
-        {
-            "repo": "logging-log4j-audit",
-            "bug_id": "DateTimeConverter_39",
-            "npe_info": {
-                "filepath": "log4j-catalog/log4j-catalog-jpa/src/main/java/org/apache/logging/log4j/catalog/jpa/converter/DateTimeConverter.java",
-                "line": 39,
-                "deref_field": "timestamp",
-                "npe_class": "DateTimeConverter",
-                "npe_method": "convertToEntityAttribute",
-                "sink_field": null,
-                "jvmti_identify_succeed": null,
-                "is_original": null
             },
-            "build_info": {
-                "compiled": true,
-                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "java_version": 8,
-                "error_message": null,
-                "time": 53.32502869796008
-            },
-            "test_info": {
-                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "fail_buggy": false,
-                "pass_fixed": true,
-                "testcases": []
-            }
+            "patches": [],
+            "time_to_generate_patches": 0
         },
         {
             "repo": "logging-log4j-audit",
@@ -1323,34 +856,9 @@
                 "fail_buggy": false,
                 "pass_fixed": true,
                 "testcases": []
-            }
-        },
-        {
-            "repo": "logging-log4j-audit",
-            "bug_id": "ConstructorDefinition_84",
-            "npe_info": {
-                "filepath": "log4j-audit/log4j-audit-api/src/main/java/org/apache/logging/log4j/audit/generator/ConstructorDefinition.java",
-                "line": 86,
-                "deref_field": "getParameters()",
-                "npe_class": "ConstructorDefinition",
-                "npe_method": "toString",
-                "sink_field": null,
-                "jvmti_identify_succeed": null,
-                "is_original": null
             },
-            "build_info": {
-                "compiled": true,
-                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "java_version": 8,
-                "error_message": null,
-                "time": 40.85760659701191
-            },
-            "test_info": {
-                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "fail_buggy": false,
-                "pass_fixed": true,
-                "testcases": []
-            }
+            "patches": [],
+            "time_to_generate_patches": 0
         },
         {
             "repo": "logging-log4j-audit",
@@ -1377,34 +885,9 @@
                 "fail_buggy": true,
                 "pass_fixed": true,
                 "testcases": []
-            }
-        },
-        {
-            "repo": "logging-log4j-audit",
-            "bug_id": "AbstractCatalogReader_63",
-            "npe_info": {
-                "filepath": "log4j-catalog/log4j-catalog-api/src/main/java/org/apache/logging/log4j/catalog/api/dao/AbstractCatalogReader.java",
-                "line": 64,
-                "deref_field": "getProducts()",
-                "npe_class": "AbstractCatalogReader",
-                "npe_method": "getProduct",
-                "sink_field": null,
-                "jvmti_identify_succeed": null,
-                "is_original": null
             },
-            "build_info": {
-                "compiled": true,
-                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "java_version": 8,
-                "error_message": null,
-                "time": 49.35622235597111
-            },
-            "test_info": {
-                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "fail_buggy": true,
-                "pass_fixed": true,
-                "testcases": []
-            }
+            "patches": [],
+            "time_to_generate_patches": 0
         },
         {
             "repo": "logging-log4j-audit",
@@ -1431,34 +914,9 @@
                 "fail_buggy": false,
                 "pass_fixed": true,
                 "testcases": []
-            }
-        },
-        {
-            "repo": "logging-log4j-audit",
-            "bug_id": "CatalogController_362",
-            "npe_info": {
-                "filepath": "log4j-audit/log4j-audit-war/src/main/java/org/apache/logging/log4j/audit/service/controller/CatalogController.java",
-                "line": 365,
-                "deref_field": "getCatalogId()",
-                "npe_class": "CatalogController",
-                "npe_method": "updateProduct",
-                "sink_field": null,
-                "jvmti_identify_succeed": null,
-                "is_original": null
             },
-            "build_info": {
-                "compiled": true,
-                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "java_version": 8,
-                "error_message": null,
-                "time": 46.37758245691657
-            },
-            "test_info": {
-                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "fail_buggy": false,
-                "pass_fixed": true,
-                "testcases": []
-            }
+            "patches": [],
+            "time_to_generate_patches": 0
         },
         {
             "repo": "logging-log4j-audit",
@@ -1485,34 +943,9 @@
                 "fail_buggy": false,
                 "pass_fixed": true,
                 "testcases": []
-            }
-        },
-        {
-            "repo": "logging-log4j-audit",
-            "bug_id": "CategoryController_84",
-            "npe_info": {
-                "filepath": "log4j-catalog/log4j-catalog-editor/src/main/java/org/apache/logging/log4j/catalog/controller/CategoryController.java",
-                "line": 85,
-                "deref_field": "sorting",
-                "npe_class": "CategoryController",
-                "npe_method": "categoryList",
-                "sink_field": null,
-                "jvmti_identify_succeed": null,
-                "is_original": null
             },
-            "build_info": {
-                "compiled": true,
-                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "java_version": 8,
-                "error_message": null,
-                "time": 50.487986660096794
-            },
-            "test_info": {
-                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "fail_buggy": false,
-                "pass_fixed": true,
-                "testcases": []
-            }
+            "patches": [],
+            "time_to_generate_patches": 0
         },
         {
             "repo": "logging-log4j-audit",
@@ -1546,34 +979,9 @@
                         "stack_trace": "org.apache.logging.log4j.audit.exception.AuditException: Unable to initialize catalog data\n\tat org.apache.logging.log4j.audit.AuditLoggerTest.buildAuditLogger(AuditLoggerTest.java:71)\n\tat org.apache.logging.log4j.audit.AuditLoggerTest.testAuditLoggerWithBasicCatalog(AuditLoggerTest.java:143)\nCaused by: java.lang.NullPointerException\n\tat org.apache.logging.log4j.audit.AuditLoggerTest.buildAuditLogger(AuditLoggerTest.java:71)\n\tat org.apache.logging.log4j.audit.AuditLoggerTest.testAuditLoggerWithBasicCatalog(AuditLoggerTest.java:143)\n"
                     }
                 ]
-            }
-        },
-        {
-            "repo": "logging-log4j-audit",
-            "bug_id": "CatalogManagerImpl_109",
-            "npe_info": {
-                "filepath": "log4j-audit/log4j-audit-api/src/main/java/org/apache/logging/log4j/audit/catalog/CatalogManagerImpl.java",
-                "line": 109,
-                "deref_field": "attrMap",
-                "npe_class": "CatalogManagerImpl",
-                "npe_method": "getAttribute",
-                "sink_field": null,
-                "jvmti_identify_succeed": null,
-                "is_original": null
             },
-            "build_info": {
-                "compiled": true,
-                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "java_version": 8,
-                "error_message": null,
-                "time": 45.10486010182649
-            },
-            "test_info": {
-                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "fail_buggy": false,
-                "pass_fixed": true,
-                "testcases": []
-            }
+            "patches": [],
+            "time_to_generate_patches": 0
         },
         {
             "repo": "logging-log4j-audit",
@@ -1600,34 +1008,9 @@
                 "fail_buggy": false,
                 "pass_fixed": true,
                 "testcases": []
-            }
-        },
-        {
-            "repo": "logging-log4j-audit",
-            "bug_id": "BooleanToStringConverter_38",
-            "npe_info": {
-                "filepath": "log4j-catalog/log4j-catalog-jpa/src/main/java/org/apache/logging/log4j/catalog/jpa/converter/BooleanToStringConverter.java",
-                "line": 41,
-                "deref_field": "value",
-                "npe_class": "BooleanToStringConverter",
-                "npe_method": "convertToEntityAttribute",
-                "sink_field": null,
-                "jvmti_identify_succeed": null,
-                "is_original": null
             },
-            "build_info": {
-                "compiled": true,
-                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "java_version": 8,
-                "error_message": null,
-                "time": 47.75712118204683
-            },
-            "test_info": {
-                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "fail_buggy": false,
-                "pass_fixed": true,
-                "testcases": []
-            }
+            "patches": [],
+            "time_to_generate_patches": 0
         },
         {
             "repo": "logging-log4j-audit",
@@ -1654,34 +1037,9 @@
                 "fail_buggy": false,
                 "pass_fixed": true,
                 "testcases": []
-            }
-        },
-        {
-            "repo": "logging-log4j-audit",
-            "bug_id": "ConstraintPlugins_82",
-            "npe_info": {
-                "filepath": "log4j-catalog/log4j-catalog-api/src/main/java/org/apache/logging/log4j/catalog/api/plugins/ConstraintPlugins.java",
-                "line": 95,
-                "deref_field": "constraintType",
-                "npe_class": "ConstraintPlugins",
-                "npe_method": "validateConstraint",
-                "sink_field": null,
-                "jvmti_identify_succeed": null,
-                "is_original": null
             },
-            "build_info": {
-                "compiled": true,
-                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "java_version": 8,
-                "error_message": null,
-                "time": 40.16675672796555
-            },
-            "test_info": {
-                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "fail_buggy": false,
-                "pass_fixed": true,
-                "testcases": []
-            }
+            "patches": [],
+            "time_to_generate_patches": 0
         },
         {
             "repo": "logging-log4j-audit",
@@ -1715,34 +1073,9 @@
                         "stack_trace": "java.lang.IllegalStateException: Failed to load ApplicationContext\nCaused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'auditController': Unsatisfied dependency expressed through field 'auditLogger'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'auditLogger' defined in org.apache.logging.log4j.audit.service.config.WebMvcAppContext: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.logging.log4j.audit.AuditLogger]: Factory method 'auditLogger' threw exception; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'auditManager': Invocation of init method failed; nested exception is java.lang.NullPointerException\nCaused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'auditLogger' defined in org.apache.logging.log4j.audit.service.config.WebMvcAppContext: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.logging.log4j.audit.AuditLogger]: Factory method 'auditLogger' threw exception; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'auditManager': Invocation of init method failed; nested exception is java.lang.NullPointerException\nCaused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.logging.log4j.audit.AuditLogger]: Factory method 'auditLogger' threw exception; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'auditManager': Invocation of init method failed; nested exception is java.lang.NullPointerException\nCaused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'auditManager': Invocation of init method failed; nested exception is java.lang.NullPointerException\nCaused by: java.lang.NullPointerException\n"
                     }
                 ]
-            }
-        },
-        {
-            "repo": "logging-log4j-audit",
-            "bug_id": "AttributeModel_288",
-            "npe_info": {
-                "filepath": "log4j-catalog/log4j-catalog-jpa/src/main/java/org/apache/logging/log4j/catalog/jpa/model/AttributeModel.java",
-                "line": 293,
-                "deref_field": "constraints",
-                "npe_class": "AttributeModel",
-                "npe_method": "setConstraints",
-                "sink_field": null,
-                "jvmti_identify_succeed": null,
-                "is_original": null
             },
-            "build_info": {
-                "compiled": true,
-                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "java_version": 8,
-                "error_message": null,
-                "time": 44.15565355704166
-            },
-            "test_info": {
-                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "fail_buggy": false,
-                "pass_fixed": true,
-                "testcases": []
-            }
+            "patches": [],
+            "time_to_generate_patches": 0
         },
         {
             "repo": "logging-log4j-audit",
@@ -1769,34 +1102,9 @@
                 "fail_buggy": false,
                 "pass_fixed": true,
                 "testcases": []
-            }
-        },
-        {
-            "repo": "logging-log4j-audit",
-            "bug_id": "CatalogController_205",
-            "npe_info": {
-                "filepath": "log4j-audit/log4j-audit-war/src/main/java/org/apache/logging/log4j/audit/service/controller/CatalogController.java",
-                "line": 208,
-                "deref_field": "getCatalogId()",
-                "npe_class": "CatalogController",
-                "npe_method": "updateAttribute",
-                "sink_field": null,
-                "jvmti_identify_succeed": null,
-                "is_original": null
             },
-            "build_info": {
-                "compiled": true,
-                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "java_version": 8,
-                "error_message": null,
-                "time": 40.675398853141814
-            },
-            "test_info": {
-                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "fail_buggy": false,
-                "pass_fixed": true,
-                "testcases": []
-            }
+            "patches": [],
+            "time_to_generate_patches": 0
         },
         {
             "repo": "logging-log4j-audit",
@@ -1823,7 +1131,9 @@
                 "fail_buggy": false,
                 "pass_fixed": true,
                 "testcases": []
-            }
+            },
+            "patches": [],
+            "time_to_generate_patches": 0
         },
         {
             "repo": "logging-log4j-audit",
@@ -1857,7 +1167,9 @@
                         "stack_trace": "java.lang.IllegalStateException: Failed to load ApplicationContext\nCaused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'auditController': Unsatisfied dependency expressed through field 'auditLogger'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'auditLogger' defined in org.apache.logging.log4j.audit.service.config.WebMvcAppContext: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.logging.log4j.audit.AuditLogger]: Factory method 'auditLogger' threw exception; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'auditManager': Invocation of init method failed; nested exception is java.lang.NullPointerException\nCaused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'auditLogger' defined in org.apache.logging.log4j.audit.service.config.WebMvcAppContext: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.logging.log4j.audit.AuditLogger]: Factory method 'auditLogger' threw exception; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'auditManager': Invocation of init method failed; nested exception is java.lang.NullPointerException\nCaused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.logging.log4j.audit.AuditLogger]: Factory method 'auditLogger' threw exception; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'auditManager': Invocation of init method failed; nested exception is java.lang.NullPointerException\nCaused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'auditManager': Invocation of init method failed; nested exception is java.lang.NullPointerException\nCaused by: java.lang.NullPointerException\n"
                     }
                 ]
-            }
+            },
+            "patches": [],
+            "time_to_generate_patches": 0
         },
         {
             "repo": "logging-log4j-audit",
@@ -1891,34 +1203,9 @@
                         "stack_trace": "java.lang.NullPointerException\n\tat org.apache.logging.log4j.audit.AuditLoggerTest.testAuditLoggerWithBasicCatalog(AuditLoggerTest.java:145)\n"
                     }
                 ]
-            }
-        },
-        {
-            "repo": "logging-log4j-audit",
-            "bug_id": "RequestContextFilter_83",
-            "npe_info": {
-                "filepath": "log4j-audit/log4j-audit-api/src/main/java/org/apache/logging/log4j/audit/rest/RequestContextFilter.java",
-                "line": 84,
-                "deref_field": "mapping",
-                "npe_class": "RequestContextFilter",
-                "npe_method": "doFilter",
-                "sink_field": null,
-                "jvmti_identify_succeed": null,
-                "is_original": null
             },
-            "build_info": {
-                "compiled": true,
-                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "java_version": 8,
-                "error_message": null,
-                "time": 38.07132828398608
-            },
-            "test_info": {
-                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "fail_buggy": false,
-                "pass_fixed": true,
-                "testcases": []
-            }
+            "patches": [],
+            "time_to_generate_patches": 0
         },
         {
             "repo": "logging-log4j-audit",
@@ -1945,34 +1232,9 @@
                 "fail_buggy": false,
                 "pass_fixed": true,
                 "testcases": []
-            }
-        },
-        {
-            "repo": "logging-log4j-audit",
-            "bug_id": "GitCatalogDao_198",
-            "npe_info": {
-                "filepath": "log4j-catalog/log4j-catalog-git/src/main/java/org/apache/logging/log4j/catalog/git/dao/GitCatalogDao.java",
-                "line": 199,
-                "deref_field": "credentialsProvider",
-                "npe_class": "GitCatalogDao",
-                "npe_method": "updateRepo",
-                "sink_field": null,
-                "jvmti_identify_succeed": null,
-                "is_original": null
             },
-            "build_info": {
-                "compiled": true,
-                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "java_version": 8,
-                "error_message": null,
-                "time": 36.60244467109442
-            },
-            "test_info": {
-                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "fail_buggy": false,
-                "pass_fixed": true,
-                "testcases": []
-            }
+            "patches": [],
+            "time_to_generate_patches": 0
         },
         {
             "repo": "logging-log4j-audit",
@@ -1999,34 +1261,9 @@
                 "fail_buggy": false,
                 "pass_fixed": true,
                 "testcases": []
-            }
-        },
-        {
-            "repo": "logging-log4j-audit",
-            "bug_id": "LogEventFactory_75",
-            "npe_info": {
-                "filepath": "log4j-audit/log4j-audit-api/src/main/java/org/apache/logging/log4j/audit/LogEventFactory.java",
-                "line": 75,
-                "deref_field": "exceptionHandler",
-                "npe_class": "LogEventFactory",
-                "npe_method": "setDefaultHandler",
-                "sink_field": null,
-                "jvmti_identify_succeed": null,
-                "is_original": null
             },
-            "build_info": {
-                "compiled": true,
-                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "java_version": 8,
-                "error_message": null,
-                "time": 44.278399106813595
-            },
-            "test_info": {
-                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "fail_buggy": false,
-                "pass_fixed": true,
-                "testcases": []
-            }
+            "patches": [],
+            "time_to_generate_patches": 0
         },
         {
             "repo": "logging-log4j-audit",
@@ -2060,34 +1297,9 @@
                         "stack_trace": "java.lang.NullPointerException\n\tat org.apache.logging.log4j.audit.generator.TestInterfacesGenerator.testInterfaceGenerator(TestInterfacesGenerator.java:55)\n"
                     }
                 ]
-            }
-        },
-        {
-            "repo": "logging-log4j-audit",
-            "bug_id": "AbstractEventLogger_94",
-            "npe_info": {
-                "filepath": "log4j-audit/log4j-audit-api/src/main/java/org/apache/logging/log4j/audit/AbstractEventLogger.java",
-                "line": 97,
-                "deref_field": "event",
-                "npe_class": "AbstractEventLogger",
-                "npe_method": "logEvent",
-                "sink_field": null,
-                "jvmti_identify_succeed": null,
-                "is_original": null
             },
-            "build_info": {
-                "compiled": true,
-                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "java_version": 8,
-                "error_message": null,
-                "time": 48.98854306899011
-            },
-            "test_info": {
-                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "fail_buggy": false,
-                "pass_fixed": true,
-                "testcases": []
-            }
+            "patches": [],
+            "time_to_generate_patches": 0
         },
         {
             "repo": "logging-log4j-audit",
@@ -2114,34 +1326,9 @@
                 "fail_buggy": false,
                 "pass_fixed": true,
                 "testcases": []
-            }
-        },
-        {
-            "repo": "logging-log4j-audit",
-            "bug_id": "StringCatalogReader_100",
-            "npe_info": {
-                "filepath": "log4j-audit/log4j-audit-api/src/test/java/org/apache/logging/log4j/audit/catalog/StringCatalogReader.java",
-                "line": 101,
-                "deref_field": "getCategories()",
-                "npe_class": "StringCatalogReader",
-                "npe_method": "getCategory",
-                "sink_field": null,
-                "jvmti_identify_succeed": null,
-                "is_original": null
             },
-            "build_info": {
-                "compiled": true,
-                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "java_version": 8,
-                "error_message": null,
-                "time": 42.120822387048975
-            },
-            "test_info": {
-                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "fail_buggy": true,
-                "pass_fixed": true,
-                "testcases": []
-            }
+            "patches": [],
+            "time_to_generate_patches": 0
         },
         {
             "repo": "logging-log4j-audit",
@@ -2168,34 +1355,9 @@
                 "fail_buggy": false,
                 "pass_fixed": true,
                 "testcases": []
-            }
-        },
-        {
-            "repo": "logging-log4j-audit",
-            "bug_id": "AbstractEventLogger_214",
-            "npe_info": {
-                "filepath": "log4j-audit/log4j-audit-api/src/main/java/org/apache/logging/log4j/audit/AbstractEventLogger.java",
-                "line": 217,
-                "deref_field": "exceptionHandler",
-                "npe_class": "AbstractEventLogger",
-                "npe_method": "logEvent",
-                "sink_field": null,
-                "jvmti_identify_succeed": null,
-                "is_original": null
             },
-            "build_info": {
-                "compiled": true,
-                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "java_version": 8,
-                "error_message": null,
-                "time": 38.03191466699354
-            },
-            "test_info": {
-                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "fail_buggy": false,
-                "pass_fixed": true,
-                "testcases": []
-            }
+            "patches": [],
+            "time_to_generate_patches": 0
         },
         {
             "repo": "logging-log4j-audit",
@@ -2222,34 +1384,9 @@
                 "fail_buggy": false,
                 "pass_fixed": true,
                 "testcases": []
-            }
-        },
-        {
-            "repo": "logging-log4j-audit",
-            "bug_id": "AccessorDefinition_97",
-            "npe_info": {
-                "filepath": "log4j-audit/log4j-audit-api/src/main/java/org/apache/logging/log4j/audit/generator/AccessorDefinition.java",
-                "line": 98,
-                "deref_field": "packageName",
-                "npe_class": "AccessorDefinition",
-                "npe_method": "addBean",
-                "sink_field": null,
-                "jvmti_identify_succeed": null,
-                "is_original": null
             },
-            "build_info": {
-                "compiled": true,
-                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "java_version": 8,
-                "error_message": null,
-                "time": 38.26521668210626
-            },
-            "test_info": {
-                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "fail_buggy": false,
-                "pass_fixed": true,
-                "testcases": []
-            }
+            "patches": [],
+            "time_to_generate_patches": 0
         },
         {
             "repo": "logging-log4j-audit",
@@ -2276,34 +1413,9 @@
                 "fail_buggy": false,
                 "pass_fixed": true,
                 "testcases": []
-            }
-        },
-        {
-            "repo": "logging-log4j-audit",
-            "bug_id": "LogEventFactory_217",
-            "npe_info": {
-                "filepath": "log4j-audit/log4j-audit-api/src/main/java/org/apache/logging/log4j/audit/LogEventFactory.java",
-                "line": 218,
-                "deref_field": "props",
-                "npe_class": "LogEventFactory",
-                "npe_method": "getProperties",
-                "sink_field": null,
-                "jvmti_identify_succeed": null,
-                "is_original": null
             },
-            "build_info": {
-                "compiled": true,
-                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "java_version": 8,
-                "error_message": null,
-                "time": 40.921824858058244
-            },
-            "test_info": {
-                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "fail_buggy": true,
-                "pass_fixed": true,
-                "testcases": []
-            }
+            "patches": [],
+            "time_to_generate_patches": 0
         },
         {
             "repo": "logging-log4j-audit",
@@ -2330,34 +1442,9 @@
                 "fail_buggy": true,
                 "pass_fixed": true,
                 "testcases": []
-            }
-        },
-        {
-            "repo": "logging-log4j-audit",
-            "bug_id": "RequestContext_92",
-            "npe_info": {
-                "filepath": "log4j-audit/log4j-audit-api/src/test/java/org/apache/logging/log4j/audit/RequestContext.java",
-                "line": 93,
-                "deref_field": "sessionId",
-                "npe_class": "RequestContext",
-                "npe_method": "setSessionId",
-                "sink_field": null,
-                "jvmti_identify_succeed": null,
-                "is_original": null
             },
-            "build_info": {
-                "compiled": true,
-                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "java_version": 8,
-                "error_message": null,
-                "time": 48.51939981803298
-            },
-            "test_info": {
-                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "fail_buggy": false,
-                "pass_fixed": true,
-                "testcases": []
-            }
+            "patches": [],
+            "time_to_generate_patches": 0
         },
         {
             "repo": "logging-log4j-audit",
@@ -2384,34 +1471,9 @@
                 "fail_buggy": false,
                 "pass_fixed": true,
                 "testcases": []
-            }
-        },
-        {
-            "repo": "logging-log4j-audit",
-            "bug_id": "CatalogManagerImpl_94",
-            "npe_info": {
-                "filepath": "log4j-audit/log4j-audit-api/src/main/java/org/apache/logging/log4j/audit/catalog/CatalogManagerImpl.java",
-                "line": 95,
-                "deref_field": "attr",
-                "npe_class": "CatalogManagerImpl",
-                "npe_method": "getAttributes",
-                "sink_field": null,
-                "jvmti_identify_succeed": null,
-                "is_original": null
             },
-            "build_info": {
-                "compiled": true,
-                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "java_version": 8,
-                "error_message": null,
-                "time": 43.5264608389698
-            },
-            "test_info": {
-                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "fail_buggy": false,
-                "pass_fixed": true,
-                "testcases": []
-            }
+            "patches": [],
+            "time_to_generate_patches": 0
         },
         {
             "repo": "logging-log4j-audit",
@@ -2438,34 +1500,9 @@
                 "fail_buggy": false,
                 "pass_fixed": true,
                 "testcases": []
-            }
-        },
-        {
-            "repo": "logging-log4j-audit",
-            "bug_id": "RestResponseEntityExceptionHandler_47",
-            "npe_info": {
-                "filepath": "log4j-audit/log4j-audit-war/src/main/java/org/apache/logging/log4j/audit/service/controller/RestResponseEntityExceptionHandler.java",
-                "line": 48,
-                "deref_field": "throwable",
-                "npe_class": "RestResponseEntityExceptionHandler",
-                "npe_method": "errorResponse",
-                "sink_field": null,
-                "jvmti_identify_succeed": null,
-                "is_original": null
             },
-            "build_info": {
-                "compiled": true,
-                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "java_version": 8,
-                "error_message": null,
-                "time": 47.3050102351699
-            },
-            "test_info": {
-                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "fail_buggy": false,
-                "pass_fixed": true,
-                "testcases": []
-            }
+            "patches": [],
+            "time_to_generate_patches": 0
         },
         {
             "repo": "logging-log4j-audit",
@@ -2499,7 +1536,9 @@
                         "stack_trace": "java.lang.NullPointerException\n\tat org.apache.logging.log4j.audit.AuditLoggerTest.testAuditLoggerWithBasicCatalog(AuditLoggerTest.java:145)\n"
                     }
                 ]
-            }
+            },
+            "patches": [],
+            "time_to_generate_patches": 0
         },
         {
             "repo": "logging-log4j-audit",
@@ -2533,7 +1572,9 @@
                         "stack_trace": "java.lang.IllegalStateException: Failed to load ApplicationContext\nCaused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'auditController': Unsatisfied dependency expressed through field 'auditLogger'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'auditLogger' defined in org.apache.logging.log4j.audit.service.config.WebMvcAppContext: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.logging.log4j.audit.AuditLogger]: Factory method 'auditLogger' threw exception; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'auditManager': Invocation of init method failed; nested exception is java.lang.NullPointerException\nCaused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'auditLogger' defined in org.apache.logging.log4j.audit.service.config.WebMvcAppContext: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.logging.log4j.audit.AuditLogger]: Factory method 'auditLogger' threw exception; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'auditManager': Invocation of init method failed; nested exception is java.lang.NullPointerException\nCaused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.logging.log4j.audit.AuditLogger]: Factory method 'auditLogger' threw exception; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'auditManager': Invocation of init method failed; nested exception is java.lang.NullPointerException\nCaused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'auditManager': Invocation of init method failed; nested exception is java.lang.NullPointerException\nCaused by: java.lang.NullPointerException\n"
                     }
                 ]
-            }
+            },
+            "patches": [],
+            "time_to_generate_patches": 0
         },
         {
             "repo": "logging-log4j-audit",
@@ -2567,34 +1608,9 @@
                         "stack_trace": "java.lang.IllegalStateException: Failed to load ApplicationContext\nCaused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'auditController': Unsatisfied dependency expressed through field 'auditLogger'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'auditLogger' defined in org.apache.logging.log4j.audit.service.config.WebMvcAppContext: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.logging.log4j.audit.AuditLogger]: Factory method 'auditLogger' threw exception; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'auditManager': Invocation of init method failed; nested exception is java.lang.IllegalArgumentException: The given id must not be null!\nCaused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'auditLogger' defined in org.apache.logging.log4j.audit.service.config.WebMvcAppContext: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.logging.log4j.audit.AuditLogger]: Factory method 'auditLogger' threw exception; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'auditManager': Invocation of init method failed; nested exception is java.lang.IllegalArgumentException: The given id must not be null!\nCaused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.logging.log4j.audit.AuditLogger]: Factory method 'auditLogger' threw exception; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'auditManager': Invocation of init method failed; nested exception is java.lang.IllegalArgumentException: The given id must not be null!\nCaused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'auditManager': Invocation of init method failed; nested exception is java.lang.IllegalArgumentException: The given id must not be null!\nCaused by: java.lang.IllegalArgumentException: The given id must not be null!\n"
                     }
                 ]
-            }
-        },
-        {
-            "repo": "logging-log4j-audit",
-            "bug_id": "AuditCatalogEditor_72",
-            "npe_info": {
-                "filepath": "log4j-catalog/log4j-catalog-editor/src/main/java/org/apache/logging/log4j/catalog/AuditCatalogEditor.java",
-                "line": 74,
-                "deref_field": "is",
-                "npe_class": "AuditCatalogEditor",
-                "npe_method": "loadProperties",
-                "sink_field": null,
-                "jvmti_identify_succeed": null,
-                "is_original": null
             },
-            "build_info": {
-                "compiled": true,
-                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "java_version": 8,
-                "error_message": null,
-                "time": 42.20591207104735
-            },
-            "test_info": {
-                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "fail_buggy": false,
-                "pass_fixed": true,
-                "testcases": []
-            }
+            "patches": [],
+            "time_to_generate_patches": 0
         },
         {
             "repo": "logging-log4j-audit",
@@ -2621,34 +1637,9 @@
                 "fail_buggy": false,
                 "pass_fixed": true,
                 "testcases": []
-            }
-        },
-        {
-            "repo": "logging-log4j-audit",
-            "bug_id": "AttributeModel_317",
-            "npe_info": {
-                "filepath": "log4j-catalog/log4j-catalog-jpa/src/main/java/org/apache/logging/log4j/catalog/jpa/model/AttributeModel.java",
-                "line": 318,
-                "deref_field": "o",
-                "npe_class": "AttributeModel",
-                "npe_method": "equals",
-                "sink_field": null,
-                "jvmti_identify_succeed": null,
-                "is_original": null
             },
-            "build_info": {
-                "compiled": true,
-                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "java_version": 8,
-                "error_message": null,
-                "time": 43.70835171197541
-            },
-            "test_info": {
-                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "fail_buggy": false,
-                "pass_fixed": true,
-                "testcases": []
-            }
+            "patches": [],
+            "time_to_generate_patches": 0
         },
         {
             "repo": "logging-log4j-audit",
@@ -2675,34 +1666,9 @@
                 "fail_buggy": false,
                 "pass_fixed": true,
                 "testcases": []
-            }
-        },
-        {
-            "repo": "logging-log4j-audit",
-            "bug_id": "ProfileUtil_62",
-            "npe_info": {
-                "filepath": "log4j-catalog/log4j-catalog-api/src/main/java/org/apache/logging/log4j/catalog/api/util/ProfileUtil.java",
-                "line": 63,
-                "deref_field": "env",
-                "npe_class": "ProfileUtil",
-                "npe_method": "loadProperties",
-                "sink_field": null,
-                "jvmti_identify_succeed": null,
-                "is_original": null
             },
-            "build_info": {
-                "compiled": true,
-                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "java_version": 8,
-                "error_message": null,
-                "time": 37.95231827208772
-            },
-            "test_info": {
-                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "fail_buggy": false,
-                "pass_fixed": true,
-                "testcases": []
-            }
+            "patches": [],
+            "time_to_generate_patches": 0
         },
         {
             "repo": "logging-log4j-audit",
@@ -2729,34 +1695,9 @@
                 "fail_buggy": false,
                 "pass_fixed": true,
                 "testcases": []
-            }
-        },
-        {
-            "repo": "logging-log4j-audit",
-            "bug_id": "MethodDefinition_260",
-            "npe_info": {
-                "filepath": "log4j-audit/log4j-audit-api/src/main/java/org/apache/logging/log4j/audit/generator/MethodDefinition.java",
-                "line": 261,
-                "deref_field": "getAnnotation()",
-                "npe_class": "MethodDefinition",
-                "npe_method": "toString",
-                "sink_field": null,
-                "jvmti_identify_succeed": null,
-                "is_original": null
             },
-            "build_info": {
-                "compiled": true,
-                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "java_version": 8,
-                "error_message": null,
-                "time": 33.99781703297049
-            },
-            "test_info": {
-                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "fail_buggy": false,
-                "pass_fixed": true,
-                "testcases": []
-            }
+            "patches": [],
+            "time_to_generate_patches": 0
         },
         {
             "repo": "logging-log4j-audit",
@@ -2783,34 +1724,9 @@
                 "fail_buggy": false,
                 "pass_fixed": true,
                 "testcases": []
-            }
-        },
-        {
-            "repo": "logging-log4j-audit",
-            "bug_id": "ProductConverter_47",
-            "npe_info": {
-                "filepath": "log4j-catalog/log4j-catalog-jpa/src/main/java/org/apache/logging/log4j/catalog/jpa/converter/ProductConverter.java",
-                "line": 48,
-                "deref_field": "event",
-                "npe_class": "ProductConverter",
-                "npe_method": "convert",
-                "sink_field": null,
-                "jvmti_identify_succeed": null,
-                "is_original": null
             },
-            "build_info": {
-                "compiled": true,
-                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "java_version": 8,
-                "error_message": null,
-                "time": 33.707614165963605
-            },
-            "test_info": {
-                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "fail_buggy": false,
-                "pass_fixed": true,
-                "testcases": []
-            }
+            "patches": [],
+            "time_to_generate_patches": 0
         },
         {
             "repo": "logging-log4j-audit",
@@ -2837,34 +1753,9 @@
                 "fail_buggy": false,
                 "pass_fixed": true,
                 "testcases": []
-            }
-        },
-        {
-            "repo": "logging-log4j-audit",
-            "bug_id": "PropertyExistsCondition_32",
-            "npe_info": {
-                "filepath": "log4j-catalog/log4j-catalog-api/src/main/java/org/apache/logging/log4j/catalog/api/annotation/PropertyExistsCondition.java",
-                "line": 33,
-                "deref_field": "attrs",
-                "npe_class": "PropertyExistsCondition",
-                "npe_method": "matches",
-                "sink_field": null,
-                "jvmti_identify_succeed": null,
-                "is_original": null
             },
-            "build_info": {
-                "compiled": true,
-                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "java_version": 8,
-                "error_message": null,
-                "time": 29.377851641969755
-            },
-            "test_info": {
-                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "fail_buggy": true,
-                "pass_fixed": true,
-                "testcases": []
-            }
+            "patches": [],
+            "time_to_generate_patches": 0
         },
         {
             "repo": "logging-log4j-audit",
@@ -2898,7 +1789,9 @@
                         "stack_trace": "java.lang.IllegalStateException: Failed to load ApplicationContext\nCaused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'auditController': Unsatisfied dependency expressed through field 'auditLogger'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'auditLogger' defined in org.apache.logging.log4j.audit.service.config.WebMvcAppContext: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.logging.log4j.audit.AuditLogger]: Factory method 'auditLogger' threw exception; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'auditManager': Invocation of init method failed; nested exception is java.lang.IllegalArgumentException: The given id must not be null!\nCaused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'auditLogger' defined in org.apache.logging.log4j.audit.service.config.WebMvcAppContext: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.logging.log4j.audit.AuditLogger]: Factory method 'auditLogger' threw exception; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'auditManager': Invocation of init method failed; nested exception is java.lang.IllegalArgumentException: The given id must not be null!\nCaused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.logging.log4j.audit.AuditLogger]: Factory method 'auditLogger' threw exception; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'auditManager': Invocation of init method failed; nested exception is java.lang.IllegalArgumentException: The given id must not be null!\nCaused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'auditManager': Invocation of init method failed; nested exception is java.lang.IllegalArgumentException: The given id must not be null!\nCaused by: java.lang.IllegalArgumentException: The given id must not be null!\n"
                     }
                 ]
-            }
+            },
+            "patches": [],
+            "time_to_generate_patches": 0
         },
         {
             "repo": "logging-log4j-audit",
@@ -2980,34 +1873,9 @@
                         "stack_trace": "java.lang.NullPointerException\n\tat org.apache.logging.log4j.audit.LogoutTest.testAuditLog(LogoutTest.java:67)\n"
                     }
                 ]
-            }
-        },
-        {
-            "repo": "logging-log4j-audit",
-            "bug_id": "RequestContextFilter_61",
-            "npe_info": {
-                "filepath": "log4j-audit/log4j-audit-api/src/main/java/org/apache/logging/log4j/audit/rest/RequestContextFilter.java",
-                "line": 65,
-                "deref_field": "requestContextClassName",
-                "npe_class": "RequestContextFilter",
-                "npe_method": "init",
-                "sink_field": null,
-                "jvmti_identify_succeed": null,
-                "is_original": null
             },
-            "build_info": {
-                "compiled": true,
-                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "java_version": 8,
-                "error_message": null,
-                "time": 24.34296161495149
-            },
-            "test_info": {
-                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "fail_buggy": false,
-                "pass_fixed": true,
-                "testcases": []
-            }
+            "patches": [],
+            "time_to_generate_patches": 0
         },
         {
             "repo": "logging-log4j-audit",
@@ -3034,7 +1902,9 @@
                 "fail_buggy": false,
                 "pass_fixed": true,
                 "testcases": []
-            }
+            },
+            "patches": [],
+            "time_to_generate_patches": 0
         },
         {
             "repo": "logging-log4j-audit",
@@ -3086,34 +1956,9 @@
                         "stack_trace": "java.lang.NullPointerException\n\tat org.apache.logging.log4j.audit.LogoutTest.testAuditLog(LogoutTest.java:67)\n"
                     }
                 ]
-            }
-        },
-        {
-            "repo": "logging-log4j-audit",
-            "bug_id": "DateTimeConverter_34",
-            "npe_info": {
-                "filepath": "log4j-catalog/log4j-catalog-jpa/src/main/java/org/apache/logging/log4j/catalog/jpa/converter/DateTimeConverter.java",
-                "line": 34,
-                "deref_field": "localDateTime",
-                "npe_class": "DateTimeConverter",
-                "npe_method": "convertToDatabaseColumn",
-                "sink_field": null,
-                "jvmti_identify_succeed": null,
-                "is_original": null
             },
-            "build_info": {
-                "compiled": true,
-                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "java_version": 8,
-                "error_message": null,
-                "time": 20.506923869950697
-            },
-            "test_info": {
-                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "fail_buggy": false,
-                "pass_fixed": true,
-                "testcases": []
-            }
+            "patches": [],
+            "time_to_generate_patches": 0
         },
         {
             "repo": "logging-log4j-audit",
@@ -3140,7 +1985,9 @@
                 "fail_buggy": true,
                 "pass_fixed": true,
                 "testcases": []
-            }
+            },
+            "patches": [],
+            "time_to_generate_patches": 0
         },
         {
             "repo": "logging-log4j-audit",
@@ -3192,7 +2039,9 @@
                         "stack_trace": "java.lang.NullPointerException\n\tat org.apache.logging.log4j.audit.LogoutTest.testAuditLog(LogoutTest.java:67)\n"
                     }
                 ]
-            }
+            },
+            "patches": [],
+            "time_to_generate_patches": 0
         },
         {
             "repo": "logging-log4j-audit",
@@ -3226,7 +2075,9 @@
                         "stack_trace": "java.lang.NullPointerException\n\tat org.apache.logging.log4j.audit.catalog.CatalogManagerTest.testCatalog(CatalogManagerTest.java:40)\n"
                     }
                 ]
-            }
+            },
+            "patches": [],
+            "time_to_generate_patches": 0
         },
         {
             "repo": "logging-log4j-audit",
@@ -3740,7 +2591,9 @@
                         "stack_trace": "java.lang.Exception: Unexpected exception, expected<org.apache.logging.log4j.audit.exception.ConstraintValidationException> but was<java.lang.NullPointerException>\n\tat org.apache.logging.log4j.audit.TransferTest.testAuditLogWithMissingEventAttribute(TransferTest.java:239)\n"
                     }
                 ]
-            }
+            },
+            "patches": [],
+            "time_to_generate_patches": 0
         },
         {
             "repo": "logging-log4j-audit",
@@ -3774,34 +2627,9 @@
                         "stack_trace": "java.lang.NullPointerException\n\tat org.apache.logging.log4j.audit.LogoutTest.testAuditLog(LogoutTest.java:67)\n"
                     }
                 ]
-            }
-        },
-        {
-            "repo": "logging-log4j-audit",
-            "bug_id": "CatalogManagerImpl_117",
-            "npe_info": {
-                "filepath": "log4j-audit/log4j-audit-api/src/main/java/org/apache/logging/log4j/audit/catalog/CatalogManagerImpl.java",
-                "line": 114,
-                "deref_field": "attrMap",
-                "npe_class": "CatalogManagerImpl",
-                "npe_method": "getAttribute",
-                "sink_field": null,
-                "jvmti_identify_succeed": null,
-                "is_original": null
             },
-            "build_info": {
-                "compiled": true,
-                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "java_version": 8,
-                "error_message": null,
-                "time": 21.153254975099117
-            },
-            "test_info": {
-                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "fail_buggy": false,
-                "pass_fixed": true,
-                "testcases": []
-            }
+            "patches": [],
+            "time_to_generate_patches": 0
         },
         {
             "repo": "logging-log4j-audit",
@@ -3828,34 +2656,9 @@
                 "fail_buggy": false,
                 "pass_fixed": true,
                 "testcases": []
-            }
-        },
-        {
-            "repo": "logging-log4j-audit",
-            "bug_id": "GitCatalogDao_171",
-            "npe_info": {
-                "filepath": "log4j-catalog/log4j-catalog-git/src/main/java/org/apache/logging/log4j/catalog/git/dao/GitCatalogDao.java",
-                "line": 172,
-                "deref_field": "credentialsProvider",
-                "npe_class": "GitCatalogDao",
-                "npe_method": "write",
-                "sink_field": null,
-                "jvmti_identify_succeed": null,
-                "is_original": null
             },
-            "build_info": {
-                "compiled": true,
-                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "java_version": 8,
-                "error_message": null,
-                "time": 21.487771668005735
-            },
-            "test_info": {
-                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "fail_buggy": false,
-                "pass_fixed": true,
-                "testcases": []
-            }
+            "patches": [],
+            "time_to_generate_patches": 0
         },
         {
             "repo": "logging-log4j-audit",
@@ -3882,7 +2685,9 @@
                 "fail_buggy": false,
                 "pass_fixed": true,
                 "testcases": []
-            }
+            },
+            "patches": [],
+            "time_to_generate_patches": 0
         },
         {
             "repo": "logging-log4j-audit",
@@ -4012,7 +2817,9 @@
                         "stack_trace": "org.apache.logging.log4j.audit.exception.AuditException: Unable to initialize catalog data\n\tat org.apache.logging.log4j.audit.catalog.CatalogManagerTest.testCatalog(CatalogManagerTest.java:31)\nCaused by: java.lang.NullPointerException\n\tat org.apache.logging.log4j.audit.catalog.CatalogManagerTest.testCatalog(CatalogManagerTest.java:31)\n"
                     }
                 ]
-            }
+            },
+            "patches": [],
+            "time_to_generate_patches": 0
         },
         {
             "repo": "logging-log4j-audit",
@@ -4046,34 +2853,9 @@
                         "stack_trace": "java.lang.IllegalStateException: Failed to load ApplicationContext\nCaused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'auditController': Unsatisfied dependency expressed through field 'auditLogger'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'auditLogger' defined in org.apache.logging.log4j.audit.service.config.WebMvcAppContext: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.logging.log4j.audit.AuditLogger]: Factory method 'auditLogger' threw exception; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'auditManager': Invocation of init method failed; nested exception is java.lang.NullPointerException\nCaused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'auditLogger' defined in org.apache.logging.log4j.audit.service.config.WebMvcAppContext: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.logging.log4j.audit.AuditLogger]: Factory method 'auditLogger' threw exception; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'auditManager': Invocation of init method failed; nested exception is java.lang.NullPointerException\nCaused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.logging.log4j.audit.AuditLogger]: Factory method 'auditLogger' threw exception; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'auditManager': Invocation of init method failed; nested exception is java.lang.NullPointerException\nCaused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'auditManager': Invocation of init method failed; nested exception is java.lang.NullPointerException\nCaused by: java.lang.NullPointerException\n"
                     }
                 ]
-            }
-        },
-        {
-            "repo": "logging-log4j-audit",
-            "bug_id": "VariableDefinition_122",
-            "npe_info": {
-                "filepath": "log4j-audit/log4j-audit-api/src/main/java/org/apache/logging/log4j/audit/generator/VariableDefinition.java",
-                "line": 123,
-                "deref_field": "getAnnotation()",
-                "npe_class": "VariableDefinition",
-                "npe_method": "toString",
-                "sink_field": null,
-                "jvmti_identify_succeed": null,
-                "is_original": null
             },
-            "build_info": {
-                "compiled": true,
-                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "java_version": 8,
-                "error_message": null,
-                "time": 19.327578120864928
-            },
-            "test_info": {
-                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "fail_buggy": false,
-                "pass_fixed": true,
-                "testcases": []
-            }
+            "patches": [],
+            "time_to_generate_patches": 0
         },
         {
             "repo": "logging-log4j-audit",
@@ -4100,34 +2882,9 @@
                 "fail_buggy": false,
                 "pass_fixed": true,
                 "testcases": []
-            }
-        },
-        {
-            "repo": "logging-log4j-audit",
-            "bug_id": "CatalogManagerImpl_127",
-            "npe_info": {
-                "filepath": "log4j-audit/log4j-audit-api/src/main/java/org/apache/logging/log4j/audit/catalog/CatalogManagerImpl.java",
-                "line": 127,
-                "deref_field": "catalogId",
-                "npe_class": "CatalogManagerImpl",
-                "npe_method": "getCatalogInfo",
-                "sink_field": null,
-                "jvmti_identify_succeed": null,
-                "is_original": null
             },
-            "build_info": {
-                "compiled": true,
-                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "java_version": 8,
-                "error_message": null,
-                "time": 19.159610796021298
-            },
-            "test_info": {
-                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "fail_buggy": false,
-                "pass_fixed": true,
-                "testcases": []
-            }
+            "patches": [],
+            "time_to_generate_patches": 0
         },
         {
             "repo": "logging-log4j-audit",
@@ -4154,34 +2911,9 @@
                 "fail_buggy": false,
                 "pass_fixed": true,
                 "testcases": []
-            }
-        },
-        {
-            "repo": "logging-log4j-audit",
-            "bug_id": "CatalogManagerImpl_79",
-            "npe_info": {
-                "filepath": "log4j-audit/log4j-audit-api/src/main/java/org/apache/logging/log4j/audit/catalog/CatalogManagerImpl.java",
-                "line": 79,
-                "deref_field": "catalogId",
-                "npe_class": "CatalogManagerImpl",
-                "npe_method": "getRequiredContextAttributes",
-                "sink_field": null,
-                "jvmti_identify_succeed": null,
-                "is_original": null
             },
-            "build_info": {
-                "compiled": true,
-                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "java_version": 8,
-                "error_message": null,
-                "time": 27.710649830987677
-            },
-            "test_info": {
-                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "fail_buggy": false,
-                "pass_fixed": true,
-                "testcases": []
-            }
+            "patches": [],
+            "time_to_generate_patches": 0
         },
         {
             "repo": "logging-log4j-audit",
@@ -4208,34 +2940,9 @@
                 "fail_buggy": false,
                 "pass_fixed": true,
                 "testcases": []
-            }
-        },
-        {
-            "repo": "logging-log4j-audit",
-            "bug_id": "CategoryConverter_47",
-            "npe_info": {
-                "filepath": "log4j-catalog/log4j-catalog-jpa/src/main/java/org/apache/logging/log4j/catalog/jpa/converter/CategoryConverter.java",
-                "line": 48,
-                "deref_field": "event",
-                "npe_class": "CategoryConverter",
-                "npe_method": "convert",
-                "sink_field": null,
-                "jvmti_identify_succeed": null,
-                "is_original": null
             },
-            "build_info": {
-                "compiled": true,
-                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "java_version": 8,
-                "error_message": null,
-                "time": 22.595556199084967
-            },
-            "test_info": {
-                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "fail_buggy": false,
-                "pass_fixed": true,
-                "testcases": []
-            }
+            "patches": [],
+            "time_to_generate_patches": 0
         }
     ],
     "repository_info": null

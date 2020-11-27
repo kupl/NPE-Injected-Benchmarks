@@ -1,0 +1,7 @@
+{
+    "filepath": "src/main/java/org/apache/sling/serviceusermapping/impl/ServiceUserMapperImpl.java",
+    "line": 460,
+    "npe_method": "isValidUser",
+    "deref_field": "userId",
+    "npe_class": "ServiceUserMapperImpl"
+}

@@ -1,0 +1,7 @@
+{
+    "filepath": "maven-plugin-tools-annotations/src/main/java/org/apache/maven/tools/plugin/extractor/annotations/JavaAnnotationsMojoDescriptorExtractor.java",
+    "line": 328,
+    "npe_method": "populateDataFromJavadoc",
+    "deref_field": "javaField",
+    "npe_class": "JavaAnnotationsMojoDescriptorExtractor"
+}

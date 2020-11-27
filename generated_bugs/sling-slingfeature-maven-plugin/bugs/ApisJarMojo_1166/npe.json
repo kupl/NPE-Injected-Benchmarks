@@ -1,0 +1,7 @@
+{
+    "filepath": "src/main/java/org/apache/sling/feature/maven/mojos/ApisJarMojo.java",
+    "line": 1167,
+    "npe_method": "retrieve",
+    "deref_field": "sourceFile",
+    "npe_class": "ApisJarMojo"
+}

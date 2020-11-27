@@ -33,34 +33,9 @@
                         "stack_trace": "junit.framework.ComparisonFailure: expected:<null> but was:<null>\n\tat org.apache.sling.serviceusermapping.impl.MappingTest.assertMapping(MappingTest.java:134)\n\tat org.apache.sling.serviceusermapping.impl.MappingTest.test_constructor_and_map(MappingTest.java:70)\n"
                     }
                 ]
-            }
-        },
-        {
-            "repo": "sling-org-apache-sling-serviceusermapper",
-            "bug_id": "Mapping_147",
-            "npe_info": {
-                "filepath": "src/main/java/org/apache/sling/serviceusermapping/Mapping.java",
-                "line": 147,
-                "deref_field": "userName",
-                "npe_class": "Mapping",
-                "npe_method": "toString",
-                "sink_field": null,
-                "jvmti_identify_succeed": null,
-                "is_original": null
             },
-            "build_info": {
-                "compiled": true,
-                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "java_version": 8,
-                "error_message": null,
-                "time": 12.796902412781492
-            },
-            "test_info": {
-                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "fail_buggy": false,
-                "pass_fixed": true,
-                "testcases": []
-            }
+            "patches": [],
+            "time_to_generate_patches": 0
         },
         {
             "repo": "sling-org-apache-sling-serviceusermapper",
@@ -87,34 +62,9 @@
                 "fail_buggy": false,
                 "pass_fixed": true,
                 "testcases": []
-            }
-        },
-        {
-            "repo": "sling-org-apache-sling-serviceusermapper",
-            "bug_id": "MappingInventoryPrinter_175",
-            "npe_info": {
-                "filepath": "src/main/java/org/apache/sling/serviceusermapping/impl/MappingInventoryPrinter.java",
-                "line": 176,
-                "deref_field": "principalNames",
-                "npe_class": "MappingInventoryPrinter",
-                "npe_method": "asText",
-                "sink_field": null,
-                "jvmti_identify_succeed": null,
-                "is_original": null
             },
-            "build_info": {
-                "compiled": true,
-                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "java_version": 8,
-                "error_message": null,
-                "time": 16.240673100110143
-            },
-            "test_info": {
-                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "fail_buggy": false,
-                "pass_fixed": true,
-                "testcases": []
-            }
+            "patches": [],
+            "time_to_generate_patches": 0
         },
         {
             "repo": "sling-org-apache-sling-serviceusermapper",
@@ -141,34 +91,9 @@
                 "fail_buggy": false,
                 "pass_fixed": true,
                 "testcases": []
-            }
-        },
-        {
-            "repo": "sling-org-apache-sling-serviceusermapper",
-            "bug_id": "MappingInventoryPrinter_100",
-            "npe_info": {
-                "filepath": "src/main/java/org/apache/sling/serviceusermapping/impl/MappingInventoryPrinter.java",
-                "line": 101,
-                "deref_field": "principalNames",
-                "npe_class": "MappingInventoryPrinter",
-                "npe_method": "getMappingsByPrincipalName",
-                "sink_field": null,
-                "jvmti_identify_succeed": null,
-                "is_original": null
             },
-            "build_info": {
-                "compiled": true,
-                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "java_version": 8,
-                "error_message": null,
-                "time": 16.272440884960815
-            },
-            "test_info": {
-                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "fail_buggy": false,
-                "pass_fixed": true,
-                "testcases": []
-            }
+            "patches": [],
+            "time_to_generate_patches": 0
         },
         {
             "repo": "sling-org-apache-sling-serviceusermapper",
@@ -412,7 +337,9 @@
                         "stack_trace": "junit.framework.ComparisonFailure: expected:<another> but was:<null>\n\tat org.apache.sling.serviceusermapping.impl.ServiceUserMapperImplTest.test_getServiceUserIDwithDefaultMappingEnabledAndNoDefaultUser(ServiceUserMapperImplTest.java:164)\n"
                     }
                 ]
-            }
+            },
+            "patches": [],
+            "time_to_generate_patches": 0
         },
         {
             "repo": "sling-org-apache-sling-serviceusermapper",
@@ -446,34 +373,9 @@
                         "stack_trace": "java.lang.Exception: Unexpected exception, expected<java.lang.IllegalArgumentException> but was<junit.framework.AssertionFailedError>\n\tat org.apache.sling.serviceusermapping.impl.MappingTest.assertMapping(MappingTest.java:138)\n\tat org.apache.sling.serviceusermapping.impl.MappingTest.test_constructor_and_null_principals(MappingTest.java:76)\n"
                     }
                 ]
-            }
-        },
-        {
-            "repo": "sling-org-apache-sling-serviceusermapper",
-            "bug_id": "MappingTest_154",
-            "npe_info": {
-                "filepath": "src/test/java/org/apache/sling/serviceusermapping/impl/MappingTest.java",
-                "line": 157,
-                "deref_field": "expectedPrincipalsNames",
-                "npe_class": "MappingTest",
-                "npe_method": "assertMapping",
-                "sink_field": null,
-                "jvmti_identify_succeed": null,
-                "is_original": null
             },
-            "build_info": {
-                "compiled": true,
-                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "java_version": 8,
-                "error_message": null,
-                "time": 14.183965486939996
-            },
-            "test_info": {
-                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "fail_buggy": false,
-                "pass_fixed": true,
-                "testcases": []
-            }
+            "patches": [],
+            "time_to_generate_patches": 0
         },
         {
             "repo": "sling-org-apache-sling-serviceusermapper",
@@ -500,7 +402,9 @@
                 "fail_buggy": false,
                 "pass_fixed": true,
                 "testcases": []
-            }
+            },
+            "patches": [],
+            "time_to_generate_patches": 0
         },
         {
             "repo": "sling-org-apache-sling-serviceusermapper",
@@ -552,34 +456,9 @@
                         "stack_trace": "java.lang.NullPointerException\n\tat org.apache.sling.serviceusermapping.impl.ServiceUserMapperImplTest.assertEqualPrincipalNames(ServiceUserMapperImplTest.java:310)\n\tat org.apache.sling.serviceusermapping.impl.ServiceUserMapperImplTest.test_getServicePrincipalNames(ServiceUserMapperImplTest.java:223)\n"
                     }
                 ]
-            }
-        },
-        {
-            "repo": "sling-org-apache-sling-serviceusermapper",
-            "bug_id": "MappingInventoryPrinter_84",
-            "npe_info": {
-                "filepath": "src/main/java/org/apache/sling/serviceusermapping/impl/MappingInventoryPrinter.java",
-                "line": 85,
-                "deref_field": "user",
-                "npe_class": "MappingInventoryPrinter",
-                "npe_method": "getMappingsByUser",
-                "sink_field": null,
-                "jvmti_identify_succeed": null,
-                "is_original": null
             },
-            "build_info": {
-                "compiled": true,
-                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "java_version": 8,
-                "error_message": null,
-                "time": 13.670924753183499
-            },
-            "test_info": {
-                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "fail_buggy": false,
-                "pass_fixed": false,
-                "testcases": []
-            }
+            "patches": [],
+            "time_to_generate_patches": 0
         },
         {
             "repo": "sling-org-apache-sling-serviceusermapper",
@@ -637,7 +516,9 @@
                         "stack_trace": "java.lang.NullPointerException\n\tat org.apache.sling.serviceusermapping.impl.ServiceUserMappedBundleFilterTest.testEvent(ServiceUserMappedBundleFilterTest.java:97)\n"
                     }
                 ]
-            }
+            },
+            "patches": [],
+            "time_to_generate_patches": 0
         },
         {
             "repo": "sling-org-apache-sling-serviceusermapper",
@@ -815,7 +696,9 @@
                         "stack_trace": "junit.framework.ComparisonFailure: expected:<another> but was:<null>\n\tat org.apache.sling.serviceusermapping.impl.ServiceUserMapperImplTest.test_getServiceUserIDwithDefaultMappingEnabledAndDefaultUser(ServiceUserMapperImplTest.java:142)\n"
                     }
                 ]
-            }
+            },
+            "patches": [],
+            "time_to_generate_patches": 0
         },
         {
             "repo": "sling-org-apache-sling-serviceusermapper",
@@ -867,34 +750,9 @@
                         "stack_trace": "java.lang.NullPointerException\n\tat org.apache.sling.serviceusermapping.impl.ServiceUserMapperImplTest.test_amendment(ServiceUserMapperImplTest.java:343)\n"
                     }
                 ]
-            }
-        },
-        {
-            "repo": "sling-org-apache-sling-serviceusermapper",
-            "bug_id": "MappingInventoryPrinter_119",
-            "npe_info": {
-                "filepath": "src/main/java/org/apache/sling/serviceusermapping/impl/MappingInventoryPrinter.java",
-                "line": 120,
-                "deref_field": "pNames",
-                "npe_class": "MappingInventoryPrinter",
-                "npe_method": "asJSON",
-                "sink_field": null,
-                "jvmti_identify_succeed": null,
-                "is_original": null
             },
-            "build_info": {
-                "compiled": true,
-                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "java_version": 8,
-                "error_message": null,
-                "time": 16.796556213172153
-            },
-            "test_info": {
-                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "fail_buggy": false,
-                "pass_fixed": true,
-                "testcases": []
-            }
+            "patches": [],
+            "time_to_generate_patches": 0
         },
         {
             "repo": "sling-org-apache-sling-serviceusermapper",
@@ -946,34 +804,9 @@
                         "stack_trace": "java.lang.Exception: Unexpected exception, expected<java.lang.IllegalArgumentException> but was<junit.framework.AssertionFailedError>\n\tat org.apache.sling.serviceusermapping.impl.MappingTest.assertMapping(MappingTest.java:133)\n\tat org.apache.sling.serviceusermapping.impl.MappingTest.test_constructor_and_null_principals(MappingTest.java:76)\n"
                     }
                 ]
-            }
-        },
-        {
-            "repo": "sling-org-apache-sling-serviceusermapper",
-            "bug_id": "MappingTest_136",
-            "npe_info": {
-                "filepath": "src/test/java/org/apache/sling/serviceusermapping/impl/MappingTest.java",
-                "line": 139,
-                "deref_field": "expectedUserName",
-                "npe_class": "MappingTest",
-                "npe_method": "assertMapping",
-                "sink_field": null,
-                "jvmti_identify_succeed": null,
-                "is_original": null
             },
-            "build_info": {
-                "compiled": true,
-                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "java_version": 8,
-                "error_message": null,
-                "time": 12.28742842702195
-            },
-            "test_info": {
-                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "fail_buggy": false,
-                "pass_fixed": true,
-                "testcases": []
-            }
+            "patches": [],
+            "time_to_generate_patches": 0
         },
         {
             "repo": "sling-org-apache-sling-serviceusermapper",
@@ -1007,34 +840,9 @@
                         "stack_trace": "java.lang.NullPointerException\n\tat org.apache.sling.serviceusermapping.impl.ServiceUserMapperImplTest.test_amendmentServiceUserMapping(ServiceUserMapperImplTest.java:426)\n"
                     }
                 ]
-            }
-        },
-        {
-            "repo": "sling-org-apache-sling-serviceusermapper",
-            "bug_id": "ServiceUserMapperImpl_474",
-            "npe_info": {
-                "filepath": "src/main/java/org/apache/sling/serviceusermapping/impl/ServiceUserMapperImpl.java",
-                "line": 480,
-                "deref_field": "principalNames",
-                "npe_class": "ServiceUserMapperImpl",
-                "npe_method": "areValidPrincipals",
-                "sink_field": null,
-                "jvmti_identify_succeed": null,
-                "is_original": null
             },
-            "build_info": {
-                "compiled": true,
-                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "java_version": 8,
-                "error_message": null,
-                "time": 15.00705477502197
-            },
-            "test_info": {
-                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "fail_buggy": false,
-                "pass_fixed": true,
-                "testcases": []
-            }
+            "patches": [],
+            "time_to_generate_patches": 0
         },
         {
             "repo": "sling-org-apache-sling-serviceusermapper",
@@ -1061,7 +869,9 @@
                 "fail_buggy": false,
                 "pass_fixed": true,
                 "testcases": []
-            }
+            },
+            "patches": [],
+            "time_to_generate_patches": 0
         },
         {
             "repo": "sling-org-apache-sling-serviceusermapper",
@@ -1095,7 +905,9 @@
                         "stack_trace": "junit.framework.ComparisonFailure: expected:<serviceuser--bundle3[]> but was:<serviceuser--bundle3[--null]>\n\tat org.apache.sling.serviceusermapping.impl.ServiceUserMapperImplTest.test_getServiceUserIDwithDefaultMappingEnabledAndNoDefaultUser(ServiceUserMapperImplTest.java:169)\n"
                     }
                 ]
-            }
+            },
+            "patches": [],
+            "time_to_generate_patches": 0
         },
         {
             "repo": "sling-org-apache-sling-serviceusermapper",
@@ -1609,7 +1421,9 @@
                         "stack_trace": "java.lang.NullPointerException\n\tat org.apache.sling.serviceusermapping.impl.ServiceUserMapperImplTest.test_amendmentServiceUserMapping(ServiceUserMapperImplTest.java:426)\n"
                     }
                 ]
-            }
+            },
+            "patches": [],
+            "time_to_generate_patches": 0
         },
         {
             "repo": "sling-org-apache-sling-serviceusermapper",
@@ -1643,7 +1457,9 @@
                         "stack_trace": "java.lang.NullPointerException\n\tat org.apache.sling.serviceusermapping.impl.ServiceUserMapperImplTest.test_amendmentServiceUserMapping(ServiceUserMapperImplTest.java:426)\n"
                     }
                 ]
-            }
+            },
+            "patches": [],
+            "time_to_generate_patches": 0
         },
         {
             "repo": "sling-org-apache-sling-serviceusermapper",
@@ -1677,7 +1493,9 @@
                         "stack_trace": "java.lang.NullPointerException\n\tat org.apache.sling.serviceusermapping.impl.ServiceUserMapperImplTest.test_amendmentServiceUserMapping(ServiceUserMapperImplTest.java:426)\n"
                     }
                 ]
-            }
+            },
+            "patches": [],
+            "time_to_generate_patches": 0
         },
         {
             "repo": "sling-org-apache-sling-serviceusermapper",
@@ -1711,34 +1529,9 @@
                         "stack_trace": "java.lang.NullPointerException\n\tat org.apache.sling.serviceusermapping.impl.ServiceUserMapperImplTest.assertEqualPrincipalNames(ServiceUserMapperImplTest.java:310)\n\tat org.apache.sling.serviceusermapping.impl.ServiceUserMapperImplTest.test_getServicePrincipalNames_EmptySubService(ServiceUserMapperImplTest.java:242)\n"
                     }
                 ]
-            }
-        },
-        {
-            "repo": "sling-org-apache-sling-serviceusermapper",
-            "bug_id": "MappingInventoryPrinter_69",
-            "npe_info": {
-                "filepath": "src/main/java/org/apache/sling/serviceusermapping/impl/MappingInventoryPrinter.java",
-                "line": 73,
-                "deref_field": "principalNames",
-                "npe_class": "MappingInventoryPrinter",
-                "npe_method": "getMappedPrincipalNames",
-                "sink_field": null,
-                "jvmti_identify_succeed": null,
-                "is_original": null
             },
-            "build_info": {
-                "compiled": true,
-                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "java_version": 8,
-                "error_message": null,
-                "time": 13.645616727881134
-            },
-            "test_info": {
-                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "fail_buggy": false,
-                "pass_fixed": true,
-                "testcases": []
-            }
+            "patches": [],
+            "time_to_generate_patches": 0
         },
         {
             "repo": "sling-org-apache-sling-serviceusermapper",
@@ -1765,7 +1558,9 @@
                 "fail_buggy": false,
                 "pass_fixed": true,
                 "testcases": []
-            }
+            },
+            "patches": [],
+            "time_to_generate_patches": 0
         },
         {
             "repo": "sling-org-apache-sling-serviceusermapper",
@@ -2399,7 +2194,9 @@
                         "stack_trace": "java.lang.NullPointerException\n\tat org.apache.sling.serviceusermapping.impl.ServiceUserMapperImplTest.test_getServicePrincipalNames_EmptySubService(ServiceUserMapperImplTest.java:241)\n"
                     }
                 ]
-            }
+            },
+            "patches": [],
+            "time_to_generate_patches": 0
         }
     ],
     "repository_info": null

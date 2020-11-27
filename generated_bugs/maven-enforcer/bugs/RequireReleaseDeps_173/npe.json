@@ -1,0 +1,7 @@
+{
+    "filepath": "enforcer-rules/src/main/java/org/apache/maven/plugins/enforcer/RequireReleaseDeps.java",
+    "line": 175,
+    "npe_method": "filterArtifacts",
+    "deref_field": "includes",
+    "npe_class": "RequireReleaseDeps"
+}

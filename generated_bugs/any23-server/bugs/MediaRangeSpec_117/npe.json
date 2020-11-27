@@ -1,0 +1,7 @@
+{
+    "filepath": "src/main/java/org/apache/any23/servlet/conneg/MediaRangeSpec.java",
+    "line": 117,
+    "npe_method": "parseRange",
+    "deref_field": "group(int)",
+    "npe_class": "MediaRangeSpec"
+}

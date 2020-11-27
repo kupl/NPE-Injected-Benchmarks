@@ -1,0 +1,7 @@
+{
+    "filepath": "doxia-site-renderer/src/main/java/org/apache/maven/doxia/siterenderer/DefaultSiteRenderer.java",
+    "line": 1170,
+    "npe_method": "getZipFile",
+    "deref_field": "file",
+    "npe_class": "DefaultSiteRenderer"
+}

@@ -1,0 +1,7 @@
+{
+    "filepath": "log4j-catalog/log4j-catalog-editor/src/main/java/org/apache/logging/log4j/catalog/AuditCatalogEditor.java",
+    "line": 68,
+    "npe_method": "loadProperties",
+    "deref_field": "env",
+    "npe_class": "AuditCatalogEditor"
+}

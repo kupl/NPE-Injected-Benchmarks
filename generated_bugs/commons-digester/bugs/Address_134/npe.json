@@ -1,0 +1,7 @@
+{
+    "filepath": "core/src/test/java/org/apache/commons/digester3/annotations/employee/Address.java",
+    "line": 140,
+    "npe_method": "equals",
+    "deref_field": "this.street",
+    "npe_class": "Address"
+}

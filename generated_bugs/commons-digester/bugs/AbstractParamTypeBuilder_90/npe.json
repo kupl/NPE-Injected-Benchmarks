@@ -1,0 +1,7 @@
+{
+    "filepath": "core/src/main/java/org/apache/commons/digester3/binder/AbstractParamTypeBuilder.java",
+    "line": 100,
+    "npe_method": "withParameterType",
+    "deref_field": "paramType",
+    "npe_class": "AbstractParamTypeBuilder"
+}

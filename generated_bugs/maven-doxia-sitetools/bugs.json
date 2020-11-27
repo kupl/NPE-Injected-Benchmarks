@@ -3,33 +3,6 @@
     "bugs": [
         {
             "repo": "maven-doxia-sitetools",
-            "bug_id": "SiteRendererSink_291",
-            "npe_info": {
-                "filepath": "doxia-site-renderer/src/main/java/org/apache/maven/doxia/siterenderer/sink/SiteRendererSink.java",
-                "line": 293,
-                "deref_field": "renderingContext",
-                "npe_class": "SiteRendererSink",
-                "npe_method": "write",
-                "sink_field": null,
-                "jvmti_identify_succeed": null,
-                "is_original": null
-            },
-            "build_info": {
-                "compiled": true,
-                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "java_version": 8,
-                "error_message": null,
-                "time": 24.566202909918502
-            },
-            "test_info": {
-                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "fail_buggy": false,
-                "pass_fixed": true,
-                "testcases": []
-            }
-        },
-        {
-            "repo": "maven-doxia-sitetools",
             "bug_id": "DefaultSiteTool_700",
             "npe_info": {
                 "filepath": "doxia-integration-tools/src/main/java/org/apache/maven/doxia/tools/DefaultSiteTool.java",
@@ -53,34 +26,9 @@
                 "fail_buggy": false,
                 "pass_fixed": true,
                 "testcases": []
-            }
-        },
-        {
-            "repo": "maven-doxia-sitetools",
-            "bug_id": "DefaultSiteTool_870",
-            "npe_info": {
-                "filepath": "doxia-integration-tools/src/main/java/org/apache/maven/doxia/tools/DefaultSiteTool.java",
-                "line": 870,
-                "deref_field": "locale",
-                "npe_class": "DefaultSiteTool",
-                "npe_method": "populateReportsMenu",
-                "sink_field": null,
-                "jvmti_identify_succeed": null,
-                "is_original": null
             },
-            "build_info": {
-                "compiled": true,
-                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "java_version": 8,
-                "error_message": null,
-                "time": 22.08859520009719
-            },
-            "test_info": {
-                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "fail_buggy": false,
-                "pass_fixed": true,
-                "testcases": []
-            }
+            "patches": [],
+            "time_to_generate_patches": 0
         },
         {
             "repo": "maven-doxia-sitetools",
@@ -114,34 +62,9 @@
                         "stack_trace": "java.lang.NullPointerException\n\tat org.apache.maven.doxia.siterenderer.DefaultSiteRendererTest.testVelocityToolManager(DefaultSiteRendererTest.java:309)\n"
                     }
                 ]
-            }
-        },
-        {
-            "repo": "maven-doxia-sitetools",
-            "bug_id": "AbstractDocumentRenderer_676",
-            "npe_info": {
-                "filepath": "doxia-doc-renderer/src/main/java/org/apache/maven/doxia/docrenderer/AbstractDocumentRenderer.java",
-                "line": 678,
-                "deref_field": "getKeys()",
-                "npe_class": "AbstractDocumentRenderer",
-                "npe_method": "getVelocityReader",
-                "sink_field": null,
-                "jvmti_identify_succeed": null,
-                "is_original": null
             },
-            "build_info": {
-                "compiled": true,
-                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "java_version": 8,
-                "error_message": null,
-                "time": 22.56320277787745
-            },
-            "test_info": {
-                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "fail_buggy": false,
-                "pass_fixed": true,
-                "testcases": []
-            }
+            "patches": [],
+            "time_to_generate_patches": 0
         },
         {
             "repo": "maven-doxia-sitetools",
@@ -168,34 +91,9 @@
                 "fail_buggy": false,
                 "pass_fixed": true,
                 "testcases": []
-            }
-        },
-        {
-            "repo": "maven-doxia-sitetools",
-            "bug_id": "DefaultSiteTool_380",
-            "npe_info": {
-                "filepath": "doxia-integration-tools/src/main/java/org/apache/maven/doxia/tools/DefaultSiteTool.java",
-                "line": 380,
-                "deref_field": "locale",
-                "npe_class": "DefaultSiteTool",
-                "npe_method": "getSiteDescriptorFromRepository",
-                "sink_field": null,
-                "jvmti_identify_succeed": null,
-                "is_original": null
             },
-            "build_info": {
-                "compiled": true,
-                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "java_version": 8,
-                "error_message": null,
-                "time": 25.353289793012664
-            },
-            "test_info": {
-                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "fail_buggy": false,
-                "pass_fixed": true,
-                "testcases": []
-            }
+            "patches": [],
+            "time_to_generate_patches": 0
         },
         {
             "repo": "maven-doxia-sitetools",
@@ -229,7 +127,9 @@
                         "stack_trace": "java.lang.NullPointerException\n\tat org.apache.maven.doxia.tools.SiteToolTest.testDecorationModelInheritanceAndInterpolation(SiteToolTest.java:360)\n"
                     }
                 ]
-            }
+            },
+            "patches": [],
+            "time_to_generate_patches": 0
         },
         {
             "repo": "maven-doxia-sitetools",
@@ -269,7 +169,9 @@
                         "stack_trace": "java.lang.IllegalStateException: \nThe internal default plexus-bootstrap.xml is missing. This is highly irregular, your plexus JAR is most likely corrupt. Realms:\n  plexus.core parent=null (null)\n\tat org.apache.maven.doxia.siterenderer.DefaultSiteRendererTest.setUp(DefaultSiteRendererTest.java:97)\n"
                     }
                 ]
-            }
+            },
+            "patches": [],
+            "time_to_generate_patches": 0
         },
         {
             "repo": "maven-doxia-sitetools",
@@ -303,34 +205,9 @@
                         "stack_trace": "org.apache.maven.doxia.siterenderer.RendererException: Error parsing '/media/4tb/npex/NPE-Injected-Benchmarks/benchmarks/maven-doxia-sitetools/doxia-site-renderer/src/test/resources/site/confluence/confluence/paragraph-header.confluence': line [6] null\n\tat org.apache.maven.doxia.siterenderer.DefaultSiteRendererTest.testRender(DefaultSiteRendererTest.java:242)\nCaused by: org.apache.maven.doxia.parser.ParseException\n\tat org.apache.maven.doxia.siterenderer.DefaultSiteRendererTest.testRender(DefaultSiteRendererTest.java:242)\nCaused by: java.lang.NullPointerException\n\tat org.apache.maven.doxia.siterenderer.DefaultSiteRendererTest.testRender(DefaultSiteRendererTest.java:242)\n"
                     }
                 ]
-            }
-        },
-        {
-            "repo": "maven-doxia-sitetools",
-            "bug_id": "DefaultSiteTool_718",
-            "npe_info": {
-                "filepath": "doxia-integration-tools/src/main/java/org/apache/maven/doxia/tools/DefaultSiteTool.java",
-                "line": 721,
-                "deref_field": "parentBasedir",
-                "npe_class": "DefaultSiteTool",
-                "npe_method": "populateParentMenu",
-                "sink_field": null,
-                "jvmti_identify_succeed": null,
-                "is_original": null
             },
-            "build_info": {
-                "compiled": true,
-                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "java_version": 8,
-                "error_message": null,
-                "time": 26.66205365699716
-            },
-            "test_info": {
-                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "fail_buggy": false,
-                "pass_fixed": true,
-                "testcases": []
-            }
+            "patches": [],
+            "time_to_generate_patches": 0
         },
         {
             "repo": "maven-doxia-sitetools",
@@ -357,34 +234,9 @@
                 "fail_buggy": false,
                 "pass_fixed": true,
                 "testcases": []
-            }
-        },
-        {
-            "repo": "maven-doxia-sitetools",
-            "bug_id": "FoPdfRenderer_281",
-            "npe_info": {
-                "filepath": "doxia-doc-renderer/src/main/java/org/apache/maven/doxia/docrenderer/pdf/fo/FoPdfRenderer.java",
-                "line": 283,
-                "deref_field": "getItems()",
-                "npe_class": "FoPdfRenderer",
-                "npe_method": "parseTocItems",
-                "sink_field": null,
-                "jvmti_identify_succeed": null,
-                "is_original": null
             },
-            "build_info": {
-                "compiled": true,
-                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "java_version": 8,
-                "error_message": null,
-                "time": 25.91960812197067
-            },
-            "test_info": {
-                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "fail_buggy": false,
-                "pass_fixed": true,
-                "testcases": []
-            }
+            "patches": [],
+            "time_to_generate_patches": 0
         },
         {
             "repo": "maven-doxia-sitetools",
@@ -418,7 +270,9 @@
                         "stack_trace": "java.lang.NullPointerException: entry\n\tat org.apache.maven.doxia.siterenderer.DefaultSiteRendererTest.testVelocityToolManagerForSkin(DefaultSiteRendererTest.java:366)\n"
                     }
                 ]
-            }
+            },
+            "patches": [],
+            "time_to_generate_patches": 0
         },
         {
             "repo": "maven-doxia-sitetools",
@@ -452,7 +306,9 @@
                         "stack_trace": "java.lang.NullPointerException\n\tat org.apache.maven.doxia.siterenderer.DefaultSiteRendererTest.testRender(DefaultSiteRendererTest.java:242)\n"
                     }
                 ]
-            }
+            },
+            "patches": [],
+            "time_to_generate_patches": 0
         },
         {
             "repo": "maven-doxia-sitetools",
@@ -576,34 +432,9 @@
                         "stack_trace": "java.lang.NullPointerException\n\tat org.apache.maven.doxia.siterenderer.DefaultSiteRendererTest.testVelocityToolManagerForTemplate(DefaultSiteRendererTest.java:340)\n"
                     }
                 ]
-            }
-        },
-        {
-            "repo": "maven-doxia-sitetools",
-            "bug_id": "ITextPdfRenderer_285",
-            "npe_info": {
-                "filepath": "doxia-doc-renderer/src/main/java/org/apache/maven/doxia/docrenderer/pdf/itext/ITextPdfRenderer.java",
-                "line": 287,
-                "deref_field": "sink",
-                "npe_class": "ITextPdfRenderer",
-                "npe_method": "parse",
-                "sink_field": null,
-                "jvmti_identify_succeed": null,
-                "is_original": null
             },
-            "build_info": {
-                "compiled": true,
-                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "java_version": 8,
-                "error_message": null,
-                "time": 25.816641971003264
-            },
-            "test_info": {
-                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "fail_buggy": false,
-                "pass_fixed": true,
-                "testcases": []
-            }
+            "patches": [],
+            "time_to_generate_patches": 0
         },
         {
             "repo": "maven-doxia-sitetools",
@@ -630,7 +461,9 @@
                 "fail_buggy": false,
                 "pass_fixed": true,
                 "testcases": []
-            }
+            },
+            "patches": [],
+            "time_to_generate_patches": 0
         },
         {
             "repo": "maven-doxia-sitetools",
@@ -664,34 +497,9 @@
                         "stack_trace": "org.apache.maven.doxia.siterenderer.RendererException: Error parsing '/media/4tb/npex/NPE-Injected-Benchmarks/benchmarks/maven-doxia-sitetools/doxia-site-renderer/src/test/resources/site/confluence/confluence/paragraph-header.confluence': line [6] null\n\tat org.apache.maven.doxia.siterenderer.DefaultSiteRendererTest.testRender(DefaultSiteRendererTest.java:242)\nCaused by: org.apache.maven.doxia.parser.ParseException\n\tat org.apache.maven.doxia.siterenderer.DefaultSiteRendererTest.testRender(DefaultSiteRendererTest.java:242)\nCaused by: java.lang.NullPointerException\n\tat org.apache.maven.doxia.siterenderer.DefaultSiteRendererTest.testRender(DefaultSiteRendererTest.java:242)\n"
                     }
                 ]
-            }
-        },
-        {
-            "repo": "maven-doxia-sitetools",
-            "bug_id": "DefaultSiteRenderer_971",
-            "npe_info": {
-                "filepath": "doxia-site-renderer/src/main/java/org/apache/maven/doxia/siterenderer/DefaultSiteRenderer.java",
-                "line": 977,
-                "deref_field": "resourceList",
-                "npe_class": "DefaultSiteRenderer",
-                "npe_method": "copyResources",
-                "sink_field": null,
-                "jvmti_identify_succeed": null,
-                "is_original": null
             },
-            "build_info": {
-                "compiled": true,
-                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "java_version": 8,
-                "error_message": null,
-                "time": 31.036923866951838
-            },
-            "test_info": {
-                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "fail_buggy": false,
-                "pass_fixed": true,
-                "testcases": []
-            }
+            "patches": [],
+            "time_to_generate_patches": 0
         },
         {
             "repo": "maven-doxia-sitetools",
@@ -725,7 +533,9 @@
                         "stack_trace": "java.lang.NullPointerException: entry\n\tat org.apache.maven.doxia.siterenderer.DefaultSiteRendererTest.testVelocityToolManagerForSkin(DefaultSiteRendererTest.java:366)\n"
                     }
                 ]
-            }
+            },
+            "patches": [],
+            "time_to_generate_patches": 0
         },
         {
             "repo": "maven-doxia-sitetools",
@@ -777,34 +587,9 @@
                         "stack_trace": "java.lang.IllegalArgumentException: The parameter 'parentProject' cannot be null.\n\tat org.apache.maven.doxia.tools.SiteToolTest.testGetDefaultDecorationModel(SiteToolTest.java:295)\n"
                     }
                 ]
-            }
-        },
-        {
-            "repo": "maven-doxia-sitetools",
-            "bug_id": "DefaultSiteRenderer_749",
-            "npe_info": {
-                "filepath": "doxia-site-renderer/src/main/java/org/apache/maven/doxia/siterenderer/DefaultSiteRenderer.java",
-                "line": 750,
-                "deref_field": "skin",
-                "npe_class": "DefaultSiteRenderer",
-                "npe_method": "mergeDocumentIntoSite",
-                "sink_field": null,
-                "jvmti_identify_succeed": null,
-                "is_original": null
             },
-            "build_info": {
-                "compiled": true,
-                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "java_version": 8,
-                "error_message": null,
-                "time": 23.512268190970644
-            },
-            "test_info": {
-                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "fail_buggy": false,
-                "pass_fixed": true,
-                "testcases": []
-            }
+            "patches": [],
+            "time_to_generate_patches": 0
         },
         {
             "repo": "maven-doxia-sitetools",
@@ -831,34 +616,9 @@
                 "fail_buggy": false,
                 "pass_fixed": true,
                 "testcases": []
-            }
-        },
-        {
-            "repo": "maven-doxia-sitetools",
-            "bug_id": "ITextPdfRenderer_658",
-            "npe_info": {
-                "filepath": "doxia-doc-renderer/src/main/java/org/apache/maven/doxia/docrenderer/pdf/itext/ITextPdfRenderer.java",
-                "line": 665,
-                "deref_field": "logo",
-                "npe_class": "ITextPdfRenderer",
-                "npe_method": "getLogoURL",
-                "sink_field": null,
-                "jvmti_identify_succeed": null,
-                "is_original": null
             },
-            "build_info": {
-                "compiled": true,
-                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "java_version": 8,
-                "error_message": null,
-                "time": 25.80373397306539
-            },
-            "test_info": {
-                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "fail_buggy": false,
-                "pass_fixed": true,
-                "testcases": []
-            }
+            "patches": [],
+            "time_to_generate_patches": 0
         },
         {
             "repo": "maven-doxia-sitetools",
@@ -885,7 +645,9 @@
                 "fail_buggy": false,
                 "pass_fixed": true,
                 "testcases": []
-            }
+            },
+            "patches": [],
+            "time_to_generate_patches": 0
         },
         {
             "repo": "maven-doxia-sitetools",
@@ -973,34 +735,9 @@
                         "stack_trace": "java.lang.AssertionError: expected:<null (Base: null) Location: null> but was:<file:/home/henning/foo (Base: http://www.apache.org/) Location: /home/henning/foo>\n\tat org.apache.maven.doxia.site.decoration.inheritance.Doxia91Test.testNewPathNull(Doxia91Test.java:57)\n"
                     }
                 ]
-            }
-        },
-        {
-            "repo": "maven-doxia-sitetools",
-            "bug_id": "DefaultSiteRenderer_582",
-            "npe_info": {
-                "filepath": "doxia-site-renderer/src/main/java/org/apache/maven/doxia/siterenderer/DefaultSiteRenderer.java",
-                "line": 589,
-                "deref_field": "properties",
-                "npe_class": "DefaultSiteRenderer",
-                "npe_method": "createDocumentVelocityContext",
-                "sink_field": null,
-                "jvmti_identify_succeed": null,
-                "is_original": null
             },
-            "build_info": {
-                "compiled": true,
-                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "java_version": 8,
-                "error_message": null,
-                "time": 24.053518004948273
-            },
-            "test_info": {
-                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "fail_buggy": false,
-                "pass_fixed": true,
-                "testcases": []
-            }
+            "patches": [],
+            "time_to_generate_patches": 0
         },
         {
             "repo": "maven-doxia-sitetools",
@@ -1027,34 +764,9 @@
                 "fail_buggy": false,
                 "pass_fixed": true,
                 "testcases": []
-            }
-        },
-        {
-            "repo": "maven-doxia-sitetools",
-            "bug_id": "DocumentRendererContext_91",
-            "npe_info": {
-                "filepath": "doxia-doc-renderer/src/main/java/org/apache/maven/doxia/docrenderer/DocumentRendererContext.java",
-                "line": 96,
-                "deref_field": "key",
-                "npe_class": "DocumentRendererContext",
-                "npe_method": "get",
-                "sink_field": null,
-                "jvmti_identify_succeed": null,
-                "is_original": null
             },
-            "build_info": {
-                "compiled": true,
-                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "java_version": 8,
-                "error_message": null,
-                "time": 25.976841830881312
-            },
-            "test_info": {
-                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "fail_buggy": false,
-                "pass_fixed": true,
-                "testcases": []
-            }
+            "patches": [],
+            "time_to_generate_patches": 0
         },
         {
             "repo": "maven-doxia-sitetools",
@@ -1081,34 +793,9 @@
                 "fail_buggy": false,
                 "pass_fixed": true,
                 "testcases": []
-            }
-        },
-        {
-            "repo": "maven-doxia-sitetools",
-            "bug_id": "AbstractITextRender_468",
-            "npe_info": {
-                "filepath": "doxia-doc-renderer/src/main/java/org/apache/maven/doxia/docrenderer/itext/AbstractITextRender.java",
-                "line": 470,
-                "deref_field": "getSubject()",
-                "npe_class": "AbstractITextRender",
-                "npe_method": "addTransformerParameters",
-                "sink_field": null,
-                "jvmti_identify_succeed": null,
-                "is_original": null
             },
-            "build_info": {
-                "compiled": true,
-                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "java_version": 8,
-                "error_message": null,
-                "time": 29.85560994897969
-            },
-            "test_info": {
-                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "fail_buggy": false,
-                "pass_fixed": true,
-                "testcases": []
-            }
+            "patches": [],
+            "time_to_generate_patches": 0
         },
         {
             "repo": "maven-doxia-sitetools",
@@ -1135,34 +822,9 @@
                 "fail_buggy": false,
                 "pass_fixed": true,
                 "testcases": []
-            }
-        },
-        {
-            "repo": "maven-doxia-sitetools",
-            "bug_id": "DefaultSiteTool_1211",
-            "npe_info": {
-                "filepath": "doxia-integration-tools/src/main/java/org/apache/maven/doxia/tools/DefaultSiteTool.java",
-                "line": 1217,
-                "deref_field": "getBasedir()",
-                "npe_class": "DefaultSiteTool",
-                "npe_method": "getDecorationModel",
-                "sink_field": null,
-                "jvmti_identify_succeed": null,
-                "is_original": null
             },
-            "build_info": {
-                "compiled": true,
-                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "java_version": 8,
-                "error_message": null,
-                "time": 24.590147202135995
-            },
-            "test_info": {
-                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "fail_buggy": false,
-                "pass_fixed": true,
-                "testcases": []
-            }
+            "patches": [],
+            "time_to_generate_patches": 0
         },
         {
             "repo": "maven-doxia-sitetools",
@@ -1196,7 +858,9 @@
                         "stack_trace": "java.lang.NullPointerException: entry\n\tat org.apache.maven.doxia.siterenderer.DefaultSiteRendererTest.testVelocityToolManagerForSkin(DefaultSiteRendererTest.java:366)\n"
                     }
                 ]
-            }
+            },
+            "patches": [],
+            "time_to_generate_patches": 0
         },
         {
             "repo": "maven-doxia-sitetools",
@@ -1248,7 +912,9 @@
                         "stack_trace": "java.lang.NullPointerException\n\tat org.apache.maven.doxia.tools.SiteToolTest.testDecorationModelInheritanceAndInterpolation(SiteToolTest.java:360)\n"
                     }
                 ]
-            }
+            },
+            "patches": [],
+            "time_to_generate_patches": 0
         },
         {
             "repo": "maven-doxia-sitetools",
@@ -1372,34 +1038,9 @@
                         "stack_trace": "java.lang.NullPointerException\n\tat org.apache.maven.doxia.docrenderer.DocumentRendererTest.renderAggregatedImpl(DocumentRendererTest.java:138)\n\tat org.apache.maven.doxia.docrenderer.DocumentRendererTest.testITextAggregate(DocumentRendererTest.java:86)\n"
                     }
                 ]
-            }
-        },
-        {
-            "repo": "maven-doxia-sitetools",
-            "bug_id": "DefaultSiteTool_450",
-            "npe_info": {
-                "filepath": "doxia-integration-tools/src/main/java/org/apache/maven/doxia/tools/DefaultSiteTool.java",
-                "line": 450,
-                "deref_field": "locale",
-                "npe_class": "DefaultSiteTool",
-                "npe_method": "getDecorationModel",
-                "sink_field": null,
-                "jvmti_identify_succeed": null,
-                "is_original": null
             },
-            "build_info": {
-                "compiled": true,
-                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "java_version": 8,
-                "error_message": null,
-                "time": 25.83296865480952
-            },
-            "test_info": {
-                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "fail_buggy": false,
-                "pass_fixed": true,
-                "testcases": []
-            }
+            "patches": [],
+            "time_to_generate_patches": 0
         },
         {
             "repo": "maven-doxia-sitetools",
@@ -1433,7 +1074,9 @@
                         "stack_trace": "java.lang.NullPointerException\n\tat org.apache.maven.doxia.tools.SiteToolTest.testGetSiteDescriptorFromBasedir(SiteToolTest.java:204)\n"
                     }
                 ]
-            }
+            },
+            "patches": [],
+            "time_to_generate_patches": 0
         },
         {
             "repo": "maven-doxia-sitetools",
@@ -1521,7 +1164,9 @@
                         "stack_trace": "java.lang.NullPointerException\n\tat org.apache.maven.doxia.site.decoration.inheritance.PathDescriptorTest.testUrlBaseNullPath(PathDescriptorTest.java:321)\n"
                     }
                 ]
-            }
+            },
+            "patches": [],
+            "time_to_generate_patches": 0
         },
         {
             "repo": "maven-doxia-sitetools",
@@ -1555,34 +1200,9 @@
                         "stack_trace": "java.lang.NullPointerException\n\tat org.apache.maven.doxia.docrenderer.DocumentRendererTest.renderImpl(DocumentRendererTest.java:102)\n\tat org.apache.maven.doxia.docrenderer.DocumentRendererTest.testFo(DocumentRendererTest.java:65)\n"
                     }
                 ]
-            }
-        },
-        {
-            "repo": "maven-doxia-sitetools",
-            "bug_id": "SkinResourceLoader_64",
-            "npe_info": {
-                "filepath": "doxia-site-renderer/src/main/java/org/apache/maven/doxia/siterenderer/SkinResourceLoader.java",
-                "line": 71,
-                "deref_field": "in",
-                "npe_class": "SkinResourceLoader",
-                "npe_method": "normalizeNewline",
-                "sink_field": null,
-                "jvmti_identify_succeed": null,
-                "is_original": null
             },
-            "build_info": {
-                "compiled": true,
-                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "java_version": 8,
-                "error_message": null,
-                "time": 28.067020466085523
-            },
-            "test_info": {
-                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "fail_buggy": false,
-                "pass_fixed": true,
-                "testcases": []
-            }
+            "patches": [],
+            "time_to_generate_patches": 0
         },
         {
             "repo": "maven-doxia-sitetools",
@@ -1609,7 +1229,9 @@
                 "fail_buggy": false,
                 "pass_fixed": true,
                 "testcases": []
-            }
+            },
+            "patches": [],
+            "time_to_generate_patches": 0
         },
         {
             "repo": "maven-doxia-sitetools",
@@ -2045,34 +1667,9 @@
                         "stack_trace": "java.lang.NullPointerException\n\tat org.apache.maven.doxia.site.decoration.inheritance.PathDescriptorTest.testAbsPath(PathDescriptorTest.java:45)\n"
                     }
                 ]
-            }
-        },
-        {
-            "repo": "maven-doxia-sitetools",
-            "bug_id": "DefaultDecorationModelInheritanceAssembler_181",
-            "npe_info": {
-                "filepath": "doxia-decoration-model/src/main/java/org/apache/maven/doxia/site/decoration/inheritance/DefaultDecorationModelInheritanceAssembler.java",
-                "line": 183,
-                "deref_field": "getSrc()",
-                "npe_class": "DefaultDecorationModelInheritanceAssembler",
-                "npe_method": "rebaseBannerPaths",
-                "sink_field": null,
-                "jvmti_identify_succeed": null,
-                "is_original": null
             },
-            "build_info": {
-                "compiled": true,
-                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "java_version": 8,
-                "error_message": null,
-                "time": 36.372349741868675
-            },
-            "test_info": {
-                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "fail_buggy": false,
-                "pass_fixed": true,
-                "testcases": []
-            }
+            "patches": [],
+            "time_to_generate_patches": 0
         },
         {
             "repo": "maven-doxia-sitetools",
@@ -2099,34 +1696,9 @@
                 "fail_buggy": false,
                 "pass_fixed": true,
                 "testcases": []
-            }
-        },
-        {
-            "repo": "maven-doxia-sitetools",
-            "bug_id": "DefaultSiteTool_728",
-            "npe_info": {
-                "filepath": "doxia-integration-tools/src/main/java/org/apache/maven/doxia/tools/DefaultSiteTool.java",
-                "line": 741,
-                "deref_field": "parentUrl",
-                "npe_class": "DefaultSiteTool",
-                "npe_method": "populateParentMenu",
-                "sink_field": null,
-                "jvmti_identify_succeed": null,
-                "is_original": null
             },
-            "build_info": {
-                "compiled": true,
-                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "java_version": 8,
-                "error_message": null,
-                "time": 27.500325466971844
-            },
-            "test_info": {
-                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "fail_buggy": false,
-                "pass_fixed": true,
-                "testcases": []
-            }
+            "patches": [],
+            "time_to_generate_patches": 0
         },
         {
             "repo": "maven-doxia-sitetools",
@@ -2153,34 +1725,9 @@
                 "fail_buggy": false,
                 "pass_fixed": true,
                 "testcases": []
-            }
-        },
-        {
-            "repo": "maven-doxia-sitetools",
-            "bug_id": "DefaultSiteRenderer_743",
-            "npe_info": {
-                "filepath": "doxia-site-renderer/src/main/java/org/apache/maven/doxia/siterenderer/DefaultSiteRenderer.java",
-                "line": 744,
-                "deref_field": "skin",
-                "npe_class": "DefaultSiteRenderer",
-                "npe_method": "mergeDocumentIntoSite",
-                "sink_field": null,
-                "jvmti_identify_succeed": null,
-                "is_original": null
             },
-            "build_info": {
-                "compiled": true,
-                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "java_version": 8,
-                "error_message": null,
-                "time": 28.325513751013204
-            },
-            "test_info": {
-                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "fail_buggy": false,
-                "pass_fixed": true,
-                "testcases": []
-            }
+            "patches": [],
+            "time_to_generate_patches": 0
         },
         {
             "repo": "maven-doxia-sitetools",
@@ -2207,7 +1754,9 @@
                 "fail_buggy": false,
                 "pass_fixed": true,
                 "testcases": []
-            }
+            },
+            "patches": [],
+            "time_to_generate_patches": 0
         },
         {
             "repo": "maven-doxia-sitetools",
@@ -2241,7 +1790,9 @@
                         "stack_trace": "java.lang.NullPointerException\n\tat org.apache.maven.doxia.site.decoration.DecorationUtilsTest.testGetCustomChild(DecorationUtilsTest.java:56)\n"
                     }
                 ]
-            }
+            },
+            "patches": [],
+            "time_to_generate_patches": 0
         },
         {
             "repo": "maven-doxia-sitetools",
@@ -2875,7 +2426,9 @@
                         "stack_trace": "java.lang.NullPointerException\n\tat org.apache.maven.doxia.site.decoration.inheritance.PathDescriptorTest.testNullBaseNullPath(PathDescriptorTest.java:227)\n"
                     }
                 ]
-            }
+            },
+            "patches": [],
+            "time_to_generate_patches": 0
         },
         {
             "repo": "maven-doxia-sitetools",
@@ -2909,34 +2462,9 @@
                         "stack_trace": "java.lang.NullPointerException\n\tat org.apache.maven.doxia.site.decoration.DecorationUtilsTest.testGetCustomChild(DecorationUtilsTest.java:60)\n"
                     }
                 ]
-            }
-        },
-        {
-            "repo": "maven-doxia-sitetools",
-            "bug_id": "AbstractITextRender_459",
-            "npe_info": {
-                "filepath": "doxia-doc-renderer/src/main/java/org/apache/maven/doxia/docrenderer/itext/AbstractITextRender.java",
-                "line": 461,
-                "deref_field": "getTitle()",
-                "npe_class": "AbstractITextRender",
-                "npe_method": "addTransformerParameters",
-                "sink_field": null,
-                "jvmti_identify_succeed": null,
-                "is_original": null
             },
-            "build_info": {
-                "compiled": true,
-                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "java_version": 8,
-                "error_message": null,
-                "time": 23.567445546854287
-            },
-            "test_info": {
-                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "fail_buggy": false,
-                "pass_fixed": true,
-                "testcases": []
-            }
+            "patches": [],
+            "time_to_generate_patches": 0
         },
         {
             "repo": "maven-doxia-sitetools",
@@ -2963,7 +2491,9 @@
                 "fail_buggy": false,
                 "pass_fixed": true,
                 "testcases": []
-            }
+            },
+            "patches": [],
+            "time_to_generate_patches": 0
         },
         {
             "repo": "maven-doxia-sitetools",
@@ -2997,34 +2527,9 @@
                         "stack_trace": "java.lang.NullPointerException\n\tat org.apache.maven.doxia.tools.DefaultSiteToolTest.testGetNormalizedPath(DefaultSiteToolTest.java:54)\n"
                     }
                 ]
-            }
-        },
-        {
-            "repo": "maven-doxia-sitetools",
-            "bug_id": "ITextPdfRenderer_589",
-            "npe_info": {
-                "filepath": "doxia-doc-renderer/src/main/java/org/apache/maven/doxia/docrenderer/pdf/itext/ITextPdfRenderer.java",
-                "line": 597,
-                "deref_field": "getRef()",
-                "npe_class": "ITextPdfRenderer",
-                "npe_method": "parseTOCFiles",
-                "sink_field": null,
-                "jvmti_identify_succeed": null,
-                "is_original": null
             },
-            "build_info": {
-                "compiled": true,
-                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "java_version": 8,
-                "error_message": null,
-                "time": 21.90916055510752
-            },
-            "test_info": {
-                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "fail_buggy": false,
-                "pass_fixed": true,
-                "testcases": []
-            }
+            "patches": [],
+            "time_to_generate_patches": 0
         },
         {
             "repo": "maven-doxia-sitetools",
@@ -3076,34 +2581,9 @@
                         "stack_trace": "java.lang.NullPointerException\n\tat org.apache.maven.doxia.site.decoration.inheritance.URIPathDescriptorTest.testRebaseLink(URIPathDescriptorTest.java:179)\n"
                     }
                 ]
-            }
-        },
-        {
-            "repo": "maven-doxia-sitetools",
-            "bug_id": "DefaultSiteTool_865",
-            "npe_info": {
-                "filepath": "doxia-integration-tools/src/main/java/org/apache/maven/doxia/tools/DefaultSiteTool.java",
-                "line": 872,
-                "deref_field": "menu",
-                "npe_class": "DefaultSiteTool",
-                "npe_method": "populateReportsMenu",
-                "sink_field": null,
-                "jvmti_identify_succeed": null,
-                "is_original": null
             },
-            "build_info": {
-                "compiled": true,
-                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "java_version": 8,
-                "error_message": null,
-                "time": 29.490856480086222
-            },
-            "test_info": {
-                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "fail_buggy": false,
-                "pass_fixed": true,
-                "testcases": []
-            }
+            "patches": [],
+            "time_to_generate_patches": 0
         },
         {
             "repo": "maven-doxia-sitetools",
@@ -3185,7 +2665,9 @@
                         "stack_trace": "java.lang.NullPointerException\n\tat org.apache.maven.doxia.tools.SiteToolTest.testGetDefaultDecorationModel(SiteToolTest.java:295)\n"
                     }
                 ]
-            }
+            },
+            "patches": [],
+            "time_to_generate_patches": 0
         },
         {
             "repo": "maven-doxia-sitetools",
@@ -3219,34 +2701,9 @@
                         "stack_trace": "java.lang.NullPointerException\n\tat org.apache.maven.doxia.site.decoration.inheritance.URIPathDescriptorTest.testRebaseLink(URIPathDescriptorTest.java:147)\n"
                     }
                 ]
-            }
-        },
-        {
-            "repo": "maven-doxia-sitetools",
-            "bug_id": "DefaultSiteRenderer_927",
-            "npe_info": {
-                "filepath": "doxia-site-renderer/src/main/java/org/apache/maven/doxia/siterenderer/DefaultSiteRenderer.java",
-                "line": 929,
-                "deref_field": "getSkin()",
-                "npe_class": "DefaultSiteRenderer",
-                "npe_method": "copyResources",
-                "sink_field": null,
-                "jvmti_identify_succeed": null,
-                "is_original": null
             },
-            "build_info": {
-                "compiled": true,
-                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "java_version": 8,
-                "error_message": null,
-                "time": 25.095401108963415
-            },
-            "test_info": {
-                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "fail_buggy": false,
-                "pass_fixed": true,
-                "testcases": []
-            }
+            "patches": [],
+            "time_to_generate_patches": 0
         },
         {
             "repo": "maven-doxia-sitetools",
@@ -3273,34 +2730,9 @@
                 "fail_buggy": false,
                 "pass_fixed": true,
                 "testcases": []
-            }
-        },
-        {
-            "repo": "maven-doxia-sitetools",
-            "bug_id": "DefaultSiteTool_781",
-            "npe_info": {
-                "filepath": "doxia-integration-tools/src/main/java/org/apache/maven/doxia/tools/DefaultSiteTool.java",
-                "line": 781,
-                "deref_field": "locale",
-                "npe_class": "DefaultSiteTool",
-                "npe_method": "populateModulesMenu",
-                "sink_field": null,
-                "jvmti_identify_succeed": null,
-                "is_original": null
             },
-            "build_info": {
-                "compiled": true,
-                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "java_version": 8,
-                "error_message": null,
-                "time": 28.55804656096734
-            },
-            "test_info": {
-                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "fail_buggy": false,
-                "pass_fixed": true,
-                "testcases": []
-            }
+            "patches": [],
+            "time_to_generate_patches": 0
         },
         {
             "repo": "maven-doxia-sitetools",
@@ -3327,34 +2759,9 @@
                 "fail_buggy": false,
                 "pass_fixed": true,
                 "testcases": []
-            }
-        },
-        {
-            "repo": "maven-doxia-sitetools",
-            "bug_id": "URIPathDescriptor_220",
-            "npe_info": {
-                "filepath": "doxia-decoration-model/src/main/java/org/apache/maven/doxia/site/decoration/inheritance/URIPathDescriptor.java",
-                "line": 221,
-                "deref_field": "getScheme()",
-                "npe_class": "URIPathDescriptor",
-                "npe_method": "sameSite",
-                "sink_field": null,
-                "jvmti_identify_succeed": null,
-                "is_original": null
             },
-            "build_info": {
-                "compiled": true,
-                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "java_version": 8,
-                "error_message": null,
-                "time": 26.512300715083256
-            },
-            "test_info": {
-                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "fail_buggy": false,
-                "pass_fixed": true,
-                "testcases": []
-            }
+            "patches": [],
+            "time_to_generate_patches": 0
         },
         {
             "repo": "maven-doxia-sitetools",
@@ -3381,34 +2788,9 @@
                 "fail_buggy": false,
                 "pass_fixed": true,
                 "testcases": []
-            }
-        },
-        {
-            "repo": "maven-doxia-sitetools",
-            "bug_id": "DefaultSiteTool_910",
-            "npe_info": {
-                "filepath": "doxia-integration-tools/src/main/java/org/apache/maven/doxia/tools/DefaultSiteTool.java",
-                "line": 915,
-                "deref_field": "locales",
-                "npe_class": "DefaultSiteTool",
-                "npe_method": "getSiteLocales",
-                "sink_field": null,
-                "jvmti_identify_succeed": null,
-                "is_original": null
             },
-            "build_info": {
-                "compiled": true,
-                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "java_version": 8,
-                "error_message": null,
-                "time": 21.685799982165918
-            },
-            "test_info": {
-                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "fail_buggy": false,
-                "pass_fixed": true,
-                "testcases": []
-            }
+            "patches": [],
+            "time_to_generate_patches": 0
         },
         {
             "repo": "maven-doxia-sitetools",
@@ -3532,34 +2914,9 @@
                         "stack_trace": "org.apache.velocity.exception.VelocityException: Exception thrown processing Template META-INF/maven/site.vm\n\tat org.apache.maven.doxia.siterenderer.DefaultSiteRendererTest.testVelocityToolManagerForSkin(DefaultSiteRendererTest.java:370)\nCaused by: java.lang.NullPointerException: charsetName\n\tat org.apache.maven.doxia.siterenderer.DefaultSiteRendererTest.testVelocityToolManagerForSkin(DefaultSiteRendererTest.java:370)\n"
                     }
                 ]
-            }
-        },
-        {
-            "repo": "maven-doxia-sitetools",
-            "bug_id": "MojoLogWrapper_152",
-            "npe_info": {
-                "filepath": "doxia-integration-tools/src/main/java/org/apache/maven/doxia/tools/MojoLogWrapper.java",
-                "line": 157,
-                "deref_field": "content",
-                "npe_class": "MojoLogWrapper",
-                "npe_method": "toString",
-                "sink_field": null,
-                "jvmti_identify_succeed": null,
-                "is_original": null
             },
-            "build_info": {
-                "compiled": true,
-                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "java_version": 8,
-                "error_message": null,
-                "time": 24.5438682269305
-            },
-            "test_info": {
-                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "fail_buggy": false,
-                "pass_fixed": true,
-                "testcases": []
-            }
+            "patches": [],
+            "time_to_generate_patches": 0
         },
         {
             "repo": "maven-doxia-sitetools",
@@ -3586,34 +2943,9 @@
                 "fail_buggy": false,
                 "pass_fixed": true,
                 "testcases": []
-            }
-        },
-        {
-            "repo": "maven-doxia-sitetools",
-            "bug_id": "DefaultSiteTool_922",
-            "npe_info": {
-                "filepath": "doxia-integration-tools/src/main/java/org/apache/maven/doxia/tools/DefaultSiteTool.java",
-                "line": 927,
-                "deref_field": "locale",
-                "npe_class": "DefaultSiteTool",
-                "npe_method": "getSiteLocales",
-                "sink_field": null,
-                "jvmti_identify_succeed": null,
-                "is_original": null
             },
-            "build_info": {
-                "compiled": true,
-                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "java_version": 8,
-                "error_message": null,
-                "time": 24.010371079901233
-            },
-            "test_info": {
-                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "fail_buggy": false,
-                "pass_fixed": true,
-                "testcases": []
-            }
+            "patches": [],
+            "time_to_generate_patches": 0
         },
         {
             "repo": "maven-doxia-sitetools",
@@ -3647,34 +2979,9 @@
                         "stack_trace": "java.lang.NullPointerException\n\tat org.apache.maven.doxia.site.decoration.inheritance.DecorationModelInheritanceAssemblerTest.testResolvingEmptyDescriptor(DecorationModelInheritanceAssemblerTest.java:689)\n"
                     }
                 ]
-            }
-        },
-        {
-            "repo": "maven-doxia-sitetools",
-            "bug_id": "AbstractITextRender_487",
-            "npe_info": {
-                "filepath": "doxia-doc-renderer/src/main/java/org/apache/maven/doxia/docrenderer/itext/AbstractITextRender.java",
-                "line": 489,
-                "deref_field": "getTitle()",
-                "npe_class": "AbstractITextRender",
-                "npe_method": "addTransformerParameters",
-                "sink_field": null,
-                "jvmti_identify_succeed": null,
-                "is_original": null
             },
-            "build_info": {
-                "compiled": true,
-                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "java_version": 8,
-                "error_message": null,
-                "time": 25.431205078959465
-            },
-            "test_info": {
-                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "fail_buggy": false,
-                "pass_fixed": true,
-                "testcases": []
-            }
+            "patches": [],
+            "time_to_generate_patches": 0
         },
         {
             "repo": "maven-doxia-sitetools",
@@ -3701,7 +3008,9 @@
                 "fail_buggy": false,
                 "pass_fixed": true,
                 "testcases": []
-            }
+            },
+            "patches": [],
+            "time_to_generate_patches": 0
         },
         {
             "repo": "maven-doxia-sitetools",
@@ -3825,7 +3134,9 @@
                         "stack_trace": "java.lang.NullPointerException\n\tat org.apache.maven.doxia.siterenderer.DefaultSiteRendererTest.testVelocityToolManagerForTemplate(DefaultSiteRendererTest.java:340)\n"
                     }
                 ]
-            }
+            },
+            "patches": [],
+            "time_to_generate_patches": 0
         },
         {
             "repo": "maven-doxia-sitetools",
@@ -4453,34 +3764,9 @@
                         "stack_trace": "java.lang.NullPointerException\n\tat org.apache.maven.doxia.site.decoration.inheritance.PathDescriptorTest.testEmptyRelPath(PathDescriptorTest.java:109)\n"
                     }
                 ]
-            }
-        },
-        {
-            "repo": "maven-doxia-sitetools",
-            "bug_id": "DefaultSiteTool_696",
-            "npe_info": {
-                "filepath": "doxia-integration-tools/src/main/java/org/apache/maven/doxia/tools/DefaultSiteTool.java",
-                "line": 696,
-                "deref_field": "locale",
-                "npe_class": "DefaultSiteTool",
-                "npe_method": "populateParentMenu",
-                "sink_field": null,
-                "jvmti_identify_succeed": null,
-                "is_original": null
             },
-            "build_info": {
-                "compiled": true,
-                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "java_version": 8,
-                "error_message": null,
-                "time": 25.075076315086335
-            },
-            "test_info": {
-                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "fail_buggy": false,
-                "pass_fixed": true,
-                "testcases": []
-            }
+            "patches": [],
+            "time_to_generate_patches": 0
         },
         {
             "repo": "maven-doxia-sitetools",
@@ -4514,34 +3800,9 @@
                         "stack_trace": "java.lang.NullPointerException\n\tat org.apache.maven.doxia.site.decoration.DecorationUtilsTest.testGetCustomChild(DecorationUtilsTest.java:64)\n"
                     }
                 ]
-            }
-        },
-        {
-            "repo": "maven-doxia-sitetools",
-            "bug_id": "FoPdfRenderer_263",
-            "npe_info": {
-                "filepath": "doxia-doc-renderer/src/main/java/org/apache/maven/doxia/docrenderer/pdf/fo/FoPdfRenderer.java",
-                "line": 273,
-                "deref_field": "getRef()",
-                "npe_class": "FoPdfRenderer",
-                "npe_method": "parseTocItems",
-                "sink_field": null,
-                "jvmti_identify_succeed": null,
-                "is_original": null
             },
-            "build_info": {
-                "compiled": true,
-                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "java_version": 8,
-                "error_message": null,
-                "time": 29.305535103892908
-            },
-            "test_info": {
-                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "fail_buggy": false,
-                "pass_fixed": true,
-                "testcases": []
-            }
+            "patches": [],
+            "time_to_generate_patches": 0
         },
         {
             "repo": "maven-doxia-sitetools",
@@ -4568,34 +3829,9 @@
                 "fail_buggy": false,
                 "pass_fixed": true,
                 "testcases": []
-            }
-        },
-        {
-            "repo": "maven-doxia-sitetools",
-            "bug_id": "AbstractITextRender_463",
-            "npe_info": {
-                "filepath": "doxia-doc-renderer/src/main/java/org/apache/maven/doxia/docrenderer/itext/AbstractITextRender.java",
-                "line": 465,
-                "deref_field": "getAuthor()",
-                "npe_class": "AbstractITextRender",
-                "npe_method": "addTransformerParameters",
-                "sink_field": null,
-                "jvmti_identify_succeed": null,
-                "is_original": null
             },
-            "build_info": {
-                "compiled": true,
-                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "java_version": 8,
-                "error_message": null,
-                "time": 21.466444038087502
-            },
-            "test_info": {
-                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "fail_buggy": false,
-                "pass_fixed": false,
-                "testcases": []
-            }
+            "patches": [],
+            "time_to_generate_patches": 0
         },
         {
             "repo": "maven-doxia-sitetools",
@@ -4719,7 +3955,9 @@
                         "stack_trace": "java.lang.NullPointerException\n\tat org.apache.maven.doxia.site.decoration.inheritance.DecorationModelInheritanceAssemblerTest.testBadHref(DecorationModelInheritanceAssemblerTest.java:762)\n"
                     }
                 ]
-            }
+            },
+            "patches": [],
+            "time_to_generate_patches": 0
         },
         {
             "repo": "maven-doxia-sitetools",
@@ -4897,34 +4135,9 @@
                         "stack_trace": "java.lang.NullPointerException\n\tat org.apache.maven.doxia.site.decoration.inheritance.DecorationModelInheritanceAssemblerTest.testBadHref(DecorationModelInheritanceAssemblerTest.java:762)\n"
                     }
                 ]
-            }
-        },
-        {
-            "repo": "maven-doxia-sitetools",
-            "bug_id": "DefaultSiteTool_979",
-            "npe_info": {
-                "filepath": "doxia-integration-tools/src/main/java/org/apache/maven/doxia/tools/DefaultSiteTool.java",
-                "line": 984,
-                "deref_field": "localeCode",
-                "npe_class": "DefaultSiteTool",
-                "npe_method": "codeToLocale",
-                "sink_field": null,
-                "jvmti_identify_succeed": null,
-                "is_original": null
             },
-            "build_info": {
-                "compiled": true,
-                "build_command": "mvn test-compile -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "java_version": 8,
-                "error_message": null,
-                "time": 23.865684165153652
-            },
-            "test_info": {
-                "test_command": "mvn test -V -B -Denforcer.skip=true -Dcheckstyle.skip=true -Dcobertura.skip=true -Drat.skip=true -Dlicense.skip=true -Dfindbugs.skip=true -Dgpg.skip=true -Dskip.npm=true -Dskip.gulp=true -Dskip.bower=true",
-                "fail_buggy": false,
-                "pass_fixed": false,
-                "testcases": []
-            }
+            "patches": [],
+            "time_to_generate_patches": 0
         },
         {
             "repo": "maven-doxia-sitetools",
@@ -4951,7 +4164,9 @@
                 "fail_buggy": false,
                 "pass_fixed": true,
                 "testcases": []
-            }
+            },
+            "patches": [],
+            "time_to_generate_patches": 0
         },
         {
             "repo": "maven-doxia-sitetools",
@@ -4985,7 +4200,9 @@
                         "stack_trace": "java.lang.NullPointerException\n\tat org.apache.maven.doxia.docrenderer.DocumentRendererTest.renderImpl(DocumentRendererTest.java:102)\n\tat org.apache.maven.doxia.docrenderer.DocumentRendererTest.testIText(DocumentRendererTest.java:79)\n"
                     }
                 ]
-            }
+            },
+            "patches": [],
+            "time_to_generate_patches": 0
         },
         {
             "repo": "maven-doxia-sitetools",
@@ -5187,7 +4404,9 @@
                         "stack_trace": "java.lang.NullPointerException\n\tat org.apache.maven.doxia.site.decoration.inheritance.PathDescriptorTest.testNullBaseAbsPath(PathDescriptorTest.java:141)\n"
                     }
                 ]
-            }
+            },
+            "patches": [],
+            "time_to_generate_patches": 0
         }
     ],
     "repository_info": null

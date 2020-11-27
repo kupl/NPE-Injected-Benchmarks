@@ -1,0 +1,7 @@
+{
+    "filepath": "core/src/test/java/org/apache/commons/digester3/annotations/addressbook/AddressBook.java",
+    "line": 60,
+    "npe_method": "equals",
+    "deref_field": "people",
+    "npe_class": "AddressBook"
+}

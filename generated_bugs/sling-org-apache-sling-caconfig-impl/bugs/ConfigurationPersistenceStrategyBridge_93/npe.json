@@ -1,0 +1,7 @@
+{
+    "filepath": "src/main/java/org/apache/sling/caconfig/impl/ConfigurationPersistenceStrategyBridge.java",
+    "line": 94,
+    "npe_method": "unregisterBridgeService",
+    "deref_field": "service",
+    "npe_class": "ConfigurationPersistenceStrategyBridge"
+}

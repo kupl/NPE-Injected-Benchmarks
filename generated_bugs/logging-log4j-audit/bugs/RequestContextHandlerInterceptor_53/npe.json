@@ -1,0 +1,7 @@
+{
+    "filepath": "log4j-audit/log4j-audit-api/src/main/java/org/apache/logging/log4j/audit/rest/RequestContextHandlerInterceptor.java",
+    "line": 54,
+    "npe_method": "preHandle",
+    "deref_field": "mapping",
+    "npe_class": "RequestContextHandlerInterceptor"
+}

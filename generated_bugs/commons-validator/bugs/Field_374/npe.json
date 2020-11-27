@@ -1,0 +1,7 @@
+{
+    "filepath": "src/main/java/org/apache/commons/validator/Field.java",
+    "line": 374,
+    "npe_method": "determineArgPosition",
+    "deref_field": "getName()",
+    "npe_class": "Field"
+}

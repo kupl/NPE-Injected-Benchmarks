@@ -1,0 +1,7 @@
+{
+    "filepath": "src/main/java/org/apache/sling/servlets/post/impl/helper/JCRSupportImpl.java",
+    "line": 241,
+    "npe_method": "isFileNodeType",
+    "deref_field": "session",
+    "npe_class": "JCRSupportImpl"
+}

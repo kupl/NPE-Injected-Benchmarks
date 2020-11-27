@@ -1,0 +1,7 @@
+{
+    "filepath": "src/main/java/org/apache/sling/servlets/post/impl/helper/SlingPropertyValueHandler.java",
+    "line": 456,
+    "npe_method": "storeAsDate",
+    "deref_field": "array",
+    "npe_class": "SlingPropertyValueHandler"
+}

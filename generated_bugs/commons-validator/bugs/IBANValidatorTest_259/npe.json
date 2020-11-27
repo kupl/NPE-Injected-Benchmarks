@@ -1,0 +1,7 @@
+{
+    "filepath": "src/test/java/org/apache/commons/validator/routines/IBANValidatorTest.java",
+    "line": 267,
+    "npe_method": "checkIBAN",
+    "deref_field": "valre",
+    "npe_class": "IBANValidatorTest"
+}

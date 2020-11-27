@@ -1,0 +1,7 @@
+{
+    "filepath": "src/main/java/org/apache/maven/shared/utils/io/DirectoryScanner.java",
+    "line": 343,
+    "npe_method": "setExcludes",
+    "deref_field": "excludes",
+    "npe_class": "DirectoryScanner"
+}

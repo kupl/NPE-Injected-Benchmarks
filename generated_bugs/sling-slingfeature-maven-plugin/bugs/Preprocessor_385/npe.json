@@ -1,0 +1,7 @@
+{
+    "filepath": "src/main/java/org/apache/sling/feature/maven/Preprocessor.java",
+    "line": 388,
+    "npe_method": "provide",
+    "deref_field": "depProjectInfo",
+    "npe_class": "1"
+}

@@ -1,0 +1,7 @@
+{
+    "filepath": "src/main/java/org/apache/sling/feature/maven/mojos/InfoMojo.java",
+    "line": 263,
+    "npe_method": "selectFeatures",
+    "deref_field": "infoFeatures",
+    "npe_class": "InfoMojo"
+}

@@ -1,0 +1,7 @@
+{
+    "filepath": "src/main/java/org/apache/horn/core/RecurrentLayeredNeuralNetworkTrainer.java",
+    "line": 238,
+    "npe_method": "mergeUpdates",
+    "deref_field": "matricesUpdates",
+    "npe_class": "RecurrentLayeredNeuralNetworkTrainer"
+}

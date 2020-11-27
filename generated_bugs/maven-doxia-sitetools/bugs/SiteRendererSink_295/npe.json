@@ -1,0 +1,7 @@
+{
+    "filepath": "doxia-site-renderer/src/main/java/org/apache/maven/doxia/siterenderer/sink/SiteRendererSink.java",
+    "line": 301,
+    "npe_method": "write",
+    "deref_field": "relativePathToBasedir",
+    "npe_class": "SiteRendererSink"
+}

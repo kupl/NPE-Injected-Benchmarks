@@ -1,0 +1,7 @@
+{
+    "filepath": "src/main/java/org/apache/sling/jcr/resource/internal/helper/jcr/JcrNodeResource.java",
+    "line": 240,
+    "npe_method": "convertToPublicURI",
+    "deref_field": "uri",
+    "npe_class": "JcrNodeResource"
+}

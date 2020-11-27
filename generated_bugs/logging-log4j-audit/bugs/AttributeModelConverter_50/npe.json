@@ -1,0 +1,7 @@
+{
+    "filepath": "log4j-catalog/log4j-catalog-jpa/src/main/java/org/apache/logging/log4j/catalog/jpa/converter/AttributeModelConverter.java",
+    "line": 51,
+    "npe_method": "convert",
+    "deref_field": "constraintModels",
+    "npe_class": "AttributeModelConverter"
+}

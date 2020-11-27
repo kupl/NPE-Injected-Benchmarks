@@ -1,0 +1,7 @@
+{
+    "filepath": "src/main/java/org/apache/sling/servlets/post/impl/helper/DefaultNodeNameGenerator.java",
+    "line": 118,
+    "npe_method": "getNodeName",
+    "deref_field": "valueToUse",
+    "npe_class": "DefaultNodeNameGenerator"
+}

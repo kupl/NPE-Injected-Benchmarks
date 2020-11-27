@@ -1,0 +1,7 @@
+{
+    "filepath": "src/main/java/org/apache/any23/servlet/conneg/ContentTypeNegotiator.java",
+    "line": 187,
+    "npe_method": "evaluateVariantAlias",
+    "deref_field": "getBestMatch(java.util.List)",
+    "npe_class": "Negotiation"
+}

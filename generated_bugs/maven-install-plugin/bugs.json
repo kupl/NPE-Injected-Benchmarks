@@ -177,7 +177,9 @@
                         "stack_trace": "java.lang.NullPointerException\n\tat org.apache.maven.plugins.install.InstallFileMojoTest.testInstallFileWithClassifier(InstallFileMojoTest.java:122)\n"
                     }
                 ]
-            }
+            },
+            "patches": [],
+            "time_to_generate_patches": 0
         },
         {
             "repo": "maven-install-plugin",
@@ -229,7 +231,9 @@
                         "stack_trace": "java.lang.NullPointerException\n\tat org.apache.maven.plugins.install.InstallMojoTest.testBasicInstallWithAttachedArtifacts(InstallMojoTest.java:126)\n"
                     }
                 ]
-            }
+            },
+            "patches": [],
+            "time_to_generate_patches": 0
         },
         {
             "repo": "maven-install-plugin",
@@ -407,7 +411,9 @@
                         "stack_trace": "java.lang.NullPointerException\n\tat org.apache.maven.plugins.install.InstallMojoTest.testUpdateReleaseParamSetToTrue(InstallMojoTest.java:170)\n"
                     }
                 ]
-            }
+            },
+            "patches": [],
+            "time_to_generate_patches": 0
         },
         {
             "repo": "maven-install-plugin",
@@ -459,7 +465,9 @@
                         "stack_trace": "java.lang.NullPointerException\n\tat org.apache.maven.plugins.install.InstallFileMojoTest.testInstallFile(InstallFileMojoTest.java:251)\n"
                     }
                 ]
-            }
+            },
+            "patches": [],
+            "time_to_generate_patches": 0
         },
         {
             "repo": "maven-install-plugin",
@@ -511,7 +519,9 @@
                         "stack_trace": "org.apache.maven.plugin.MojoExecutionException: Failed to install artifact org.apache.maven.test:maven-install-file-test:pom:1.0-SNAPSHOT: null\n\tat org.apache.maven.plugins.install.InstallFileMojoTest.testInstallFile(InstallFileMojoTest.java:251)\nCaused by: org.apache.maven.shared.transfer.artifact.install.ArtifactInstallerException: Failed to install artifact org.apache.maven.test:maven-install-file-test:pom:1.0-SNAPSHOT: null\n\tat org.apache.maven.plugins.install.InstallFileMojoTest.testInstallFile(InstallFileMojoTest.java:251)\nCaused by: org.sonatype.aether.installation.InstallationException: Failed to install artifact org.apache.maven.test:maven-install-file-test:pom:1.0-SNAPSHOT: null\n\tat org.apache.maven.plugins.install.InstallFileMojoTest.testInstallFile(InstallFileMojoTest.java:251)\nCaused by: java.lang.NullPointerException\n\tat org.apache.maven.plugins.install.InstallFileMojoTest.testInstallFile(InstallFileMojoTest.java:251)\n"
                     }
                 ]
-            }
+            },
+            "patches": [],
+            "time_to_generate_patches": 0
         },
         {
             "repo": "maven-install-plugin",
@@ -689,7 +699,9 @@
                         "stack_trace": "org.apache.maven.plugin.MojoExecutionException: Failed to install artifact org.apache.maven.test:maven-install-file-test:jar:sources:1.0-SNAPSHOT: null\n\tat org.apache.maven.plugins.install.InstallFileMojoTest.testInstallFileWithPomAsPackaging(InstallFileMojoTest.java:227)\nCaused by: org.apache.maven.shared.transfer.artifact.install.ArtifactInstallerException: Failed to install artifact org.apache.maven.test:maven-install-file-test:jar:sources:1.0-SNAPSHOT: null\n\tat org.apache.maven.plugins.install.InstallFileMojoTest.testInstallFileWithPomAsPackaging(InstallFileMojoTest.java:227)\nCaused by: org.sonatype.aether.installation.InstallationException: Failed to install artifact org.apache.maven.test:maven-install-file-test:jar:sources:1.0-SNAPSHOT: null\n\tat org.apache.maven.plugins.install.InstallFileMojoTest.testInstallFileWithPomAsPackaging(InstallFileMojoTest.java:227)\nCaused by: java.lang.NullPointerException\n\tat org.apache.maven.plugins.install.InstallFileMojoTest.testInstallFileWithPomAsPackaging(InstallFileMojoTest.java:227)\n"
                     }
                 ]
-            }
+            },
+            "patches": [],
+            "time_to_generate_patches": 0
         },
         {
             "repo": "maven-install-plugin",
@@ -933,7 +945,9 @@
                         "stack_trace": "org.apache.maven.plugin.MojoExecutionException: Failed to install artifact org.apache.maven.test:maven-install-file-test:jar:javadoc:1.0-SNAPSHOT: null\n\tat org.apache.maven.plugins.install.InstallFileMojoTest.testInstallFileWithGeneratePom(InstallFileMojoTest.java:149)\nCaused by: org.apache.maven.shared.transfer.artifact.install.ArtifactInstallerException: Failed to install artifact org.apache.maven.test:maven-install-file-test:jar:javadoc:1.0-SNAPSHOT: null\n\tat org.apache.maven.plugins.install.InstallFileMojoTest.testInstallFileWithGeneratePom(InstallFileMojoTest.java:149)\nCaused by: org.sonatype.aether.installation.InstallationException: Failed to install artifact org.apache.maven.test:maven-install-file-test:jar:javadoc:1.0-SNAPSHOT: null\n\tat org.apache.maven.plugins.install.InstallFileMojoTest.testInstallFileWithGeneratePom(InstallFileMojoTest.java:149)\nCaused by: java.lang.NullPointerException\n\tat org.apache.maven.plugins.install.InstallFileMojoTest.testInstallFileWithGeneratePom(InstallFileMojoTest.java:149)\n"
                     }
                 ]
-            }
+            },
+            "patches": [],
+            "time_to_generate_patches": 0
         },
         {
             "repo": "maven-install-plugin",
@@ -1111,7 +1125,9 @@
                         "stack_trace": "org.apache.maven.artifact.InvalidArtifactRTException: For artifact {org.apache.maven.test:maven-install-file-test:1.0-SNAPSHOT:jar}: An attached artifact must have a different ID than its corresponding main artifact.\n\tat org.apache.maven.plugins.install.InstallFileMojoTest.testInstallFile(InstallFileMojoTest.java:251)\n"
                     }
                 ]
-            }
+            },
+            "patches": [],
+            "time_to_generate_patches": 0
         },
         {
             "repo": "maven-install-plugin",
@@ -1163,7 +1179,9 @@
                         "stack_trace": "java.lang.NullPointerException\n\tat org.apache.maven.plugins.install.InstallFileMojoTest.testInstallFileWithPomFile(InstallFileMojoTest.java:190)\n"
                     }
                 ]
-            }
+            },
+            "patches": [],
+            "time_to_generate_patches": 0
         },
         {
             "repo": "maven-install-plugin",
@@ -1407,7 +1425,9 @@
                         "stack_trace": "java.lang.IllegalArgumentException: base directory has not been specified\n\tat org.apache.maven.plugins.install.InstallFileMojoTest.testInstallFile(InstallFileMojoTest.java:251)\n"
                     }
                 ]
-            }
+            },
+            "patches": [],
+            "time_to_generate_patches": 0
         }
     ],
     "repository_info": null

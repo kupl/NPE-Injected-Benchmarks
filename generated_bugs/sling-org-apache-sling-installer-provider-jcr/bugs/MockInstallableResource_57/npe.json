@@ -1,0 +1,7 @@
+{
+    "filepath": "src/test/java/org/apache/sling/installer/provider/jcr/impl/MockInstallableResource.java",
+    "line": 58,
+    "npe_method": "getNextDigest",
+    "deref_field": "digest",
+    "npe_class": "MockInstallableResource"
+}

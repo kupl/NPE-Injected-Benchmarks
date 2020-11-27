@@ -1,0 +1,7 @@
+{
+    "filepath": "src/main/java/org/apache/sling/feature/maven/mojos/apis/ApisJarContext.java",
+    "line": 179,
+    "npe_method": "getDependencyArtifacts",
+    "deref_field": "apiIds",
+    "npe_class": "ArtifactInfo"
+}

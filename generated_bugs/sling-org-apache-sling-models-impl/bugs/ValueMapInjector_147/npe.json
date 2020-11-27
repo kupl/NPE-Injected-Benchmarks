@@ -1,0 +1,7 @@
+{
+    "filepath": "src/main/java/org/apache/sling/models/impl/injectors/ValueMapInjector.java",
+    "line": 148,
+    "npe_method": "createAnnotationProcessor",
+    "deref_field": "annotation",
+    "npe_class": "ValueMapInjector"
+}

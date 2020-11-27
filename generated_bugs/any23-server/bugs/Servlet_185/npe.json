@@ -1,0 +1,7 @@
+{
+    "filepath": "src/main/java/org/apache/any23/servlet/Servlet.java",
+    "line": 187,
+    "npe_method": "getFormatFromRequestOrNegotiation",
+    "deref_field": "result",
+    "npe_class": "Servlet"
+}
